@@ -2,7 +2,6 @@
 - Autoupdate data
 - Dynamic titles
 - Display last update timedate
-- Fix URLs
 - Add colors
 - Cleanup countries names
 - Fix country color changes
@@ -77,10 +76,11 @@ new Vue({
     },
     url: function() {
       return this.case +
-        "&countries="+this.countries.filter(function(a) { return a.selected; })
-        .map(function(a) { return a.name; }).join(",") +
         (this.logarithmic ? "&log" : "") +
-        (this.compare ? "&compare" : "");
+        (this.compare ? "&compare" : "") +
+        "&countries=" + this.countries
+          .filter(function(a) { return a.selected; })
+          .map(function(a) { return a.name; }).join(",");
     },
     legend: function() {
       return this.countries.filter(function(a) { return a.selected; });
@@ -115,15 +115,21 @@ new Vue({
       this.resizing = setTimeout(this.draw, 50);
     },
     readUrl: function() {
-        //TODO handle other url settings
-      var el, options = {}, selected = [];
+      var el, options = {countries: []};
       window.location.hash.slice(1).split(/&/).forEach(function(opt) {
         el = decodeURIComponent(opt).split(/=/);
-        if (el[0] === "countries") {
-          selected = el[1].split(/,/);
-        } else options[el[0]] = el[1];
+        if (el[0] === "countries")
+          options.countries = el[1].split(/,/);
+        else options[el[0]] = true;
       });
-      this.countries.forEach(function(c) { if (~selected.indexOf(c.id)) { c.selected = true; }});
+      this.logarithmic = !!options.log;
+      this.compare = !!options.compare;
+      this.cases.forEach(function(c) {
+        c.selected = !!options[c.id];
+      });
+      this.countries.forEach(function(c) {
+        c.selected = ~options.countries.indexOf(c.name);
+      });
       this.$nextTick(this.draw);
     },
     download_data: function() {
