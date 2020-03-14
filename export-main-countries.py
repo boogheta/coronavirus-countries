@@ -54,7 +54,8 @@ with open(os.path.join("data", 'china.csv'), 'w') as f:
 
 data = {
     "dates": dates,
-    "values": {}
+    "values": {},
+    "last_update": "##LASTUPDATE##"
 }
 for c in sorted(countries["confirmed"].keys()):
     data["values"][c] = {
