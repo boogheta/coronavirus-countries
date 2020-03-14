@@ -9,10 +9,12 @@ done;
 
 ./export-main-countries.py
 
-if git diff data/coronavirus-countries.json > /dev/null; then
+if git diff data/*.csv | grep . > /dev/null; then
   echo "Data updated!"
   ts=$(date +%s)
   sed -i 's/"##LASTUPDATE##"/'$ts'/' data/coronavirus-countries.json
-  git commit -m "update data" data/coronavirus-countries.json
+  git commit -m "update data" data/
   git push
+else
+  git checkout -- data/coronavirus-countries.json
 fi
