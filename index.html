@@ -122,7 +122,8 @@
     <v-toolbar class="dark" fixed>
       <v-toolbar-title>
         <img src="img/covid19.png" alt="COVID19" width=50 />
-        <v-title>Coronavirus country comparator</v-title>
+        <v-title>Coronavirus country comparator<br/>
+        <span class="update">(last data update: {{ lastUpdateStr }})</span></v-title>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn fab small class="ml-3" @click.native.stop="help = true">

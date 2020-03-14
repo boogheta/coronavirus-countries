@@ -1,7 +1,5 @@
 /* TODO
-- Autoupdate data
 - Dynamic titles
-- Display last update timedate
 - Add hover by date
 - Handle zoom
 - Handle small multiples
@@ -46,6 +44,7 @@ d3.startDate = function(countries) {
 new Vue({
   el: "#corona",
   data: {
+    lastUpdateStr: "",
     countries: [],
     defaultCountries: ["Italy", "Iran", "South Korea", "France", "Germany", "Spain", "United States"],
     countriesOrder: null,
@@ -180,6 +179,7 @@ new Vue({
       if (!this.countriesOrder) this.countriesOrder = "cases";
       this.values = data.values;
       this.dates = data.dates.map(d3.datize);
+      this.lastUpdateStr = new Date(data.last_update*1000).toUTCString();
       this.readUrl(true);
     },
     selectCase: function(newCase) {
