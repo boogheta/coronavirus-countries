@@ -2,7 +2,6 @@
 - Autoupdate data
 - Dynamic titles
 - Display last update timedate
-- Change logo
 - Add hover by date
 - Handle zoom
 - Handle small multiples
@@ -48,11 +47,12 @@ new Vue({
   el: "#corona",
   data: {
     countries: [],
-    countries_sort: null,
+    defaultCountries: ["Italy", "Iran", "South Korea", "France", "Germany", "Spain", "United States"],
+    countriesOrder: null,
     dates: [],
     values: null,
     cases: [
-      {id: "confirmed",  selected: true,   total: 0},
+      {id: "confirmed",  selected: false,  total: 0},
       {id: "recovered",  selected: false,  total: 0},
       {id: "dead",       selected: false,  total: 0},
       {id: "sick",       selected: false,  total: 0}
@@ -95,7 +95,7 @@ new Vue({
       window.location.hash = newValue;
     },
     case: function() { this.sortCountries(); },
-    countries_sort: function() { this.sortCountries(); }
+    countriesOrder: function() { this.sortCountries(); }
   },
   mounted: function() {
     window.addEventListener("hashchange", this.readUrl);
@@ -106,9 +106,18 @@ new Vue({
   methods: {
     onResize: function() {
       if (this.resizing) return clearTimeout(this.resizing);
-      this.resizing = setTimeout(this.draw, 50);
+      this.resizing = setTimeout(this.resize, 50);
     },
-    readUrl: function() {
+    resize: function() {
+      var menuH = window.innerHeight - (
+        document.querySelector("nav").getBoundingClientRect().height +
+        document.getElementById("controls").getBoundingClientRect().height +
+        document.getElementById("opendata").getBoundingClientRect().height + 2);
+      document.getElementById("countries").style.height = menuH + "px";
+      this.draw();
+      this.resizing = null;
+    },
+    readUrl: function(startup) {
       var el, options = {countries: []};
       window.location.hash.slice(1).split(/&/).forEach(function(opt) {
         el = decodeURIComponent(opt).split(/=/);
@@ -116,6 +125,12 @@ new Vue({
           options.countries = el[1].split(/,/);
         else options[el[0]] = true;
       });
+      if (startup) {
+        if (!options.countries.length)
+          options.countries = this.defaultCountries;
+        if (!options.confirmed && !options.recovered && !options.dead && !options.sick)
+          options.confirmed = true;
+      }
       this.logarithmic = !!options.log;
       this.compare = !!options.compare;
       this.cases.forEach(function(c) {
@@ -124,7 +139,7 @@ new Vue({
       this.countries.forEach(function(c) {
         c.selected = ~options.countries.indexOf(c.name);
       });
-      this.$nextTick(this.draw);
+      this.$nextTick(startup ? this.resize : this.draw);
     },
     download_data: function() {
       var cacheBypass = new Date().getTime();
@@ -162,10 +177,10 @@ new Vue({
       cases.forEach(function(cas) {
         cas.total = d3.strFormat(cas.total);
       });
-      if (!this.countries_sort) this.countries_sort = "cases";
+      if (!this.countriesOrder) this.countriesOrder = "cases";
       this.values = data.values;
       this.dates = data.dates.map(d3.datize);
-      this.readUrl();
+      this.readUrl(true);
     },
     selectCase: function(newCase) {
       if (!this.compare)
@@ -178,7 +193,7 @@ new Vue({
     },
     sortCountries: function() {
       var cas = this.case,
-        field = this.countries_sort;
+        field = this.countriesOrder;
       this.countries.sort(function(a, b) {
         if (field === "cases" && a.lastValues[cas] !== b.lastValues[cas])
           return b.lastValues[cas] - a.lastValues[cas];
@@ -304,7 +319,6 @@ new Vue({
 
       this.clearTooltip();
 */
-      this.resizing = null;
     },
  /*   hover: function(d, i) {
       d3.selectAll('rect[did="' + i + '"]').style("fill-opacity", 0.25);

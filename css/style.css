@@ -7,6 +7,15 @@ aside {
 .navigation-drawer--permanent.navigation-drawer--clipped {
   max-height: calc(100vh);
 }
+nav img {
+  margin: 0;
+  width: 50px;
+  float: left;
+}
+nav v-title {
+  margin: 10px 0px 0px 15px;
+  float: left;
+}
 .btn--floating.btn--small .icon {
   font-size: 30px;
 }
@@ -14,8 +23,12 @@ aside {
   text-transform: uppercase;
   height: 26px!important;
   padding-bottom: 0;
-  padding-top: 0;
+  padding-top: 5px;
   padding-left: 8px;
+  margin-top: 0;
+}
+.subheader.bordered {
+  border-top: 1px solid #505050;
 }
 .subheader b {
   color: white;
@@ -23,13 +36,13 @@ aside {
 .unchecked {
   opacity: 0.3;
 }
-.countries {
-  height: 45%;
-  overflow-y: auto;
-}
 .sort {
   height: 18px;
-  margin-top: -12px;
+  margin: -12px 72px 12px 0px;
+}
+#countries {
+  overflow-y: auto;
+  border-bottom: 1px solid #505050;
 }
 .country {
   float: left;
@@ -92,6 +105,11 @@ aside {
 .lowercase {
   text-transform: none!important;
 }
+#opendata {
+  position: absolute;
+  bottom: 65px;
+  width: 100%;
+}
 .svg {
   overflow-x: hidden;
   overflow-y: auto;
@@ -99,7 +117,7 @@ aside {
   display: grid;
 }
 path.line {
-  stroke-width: 2px;
+  stroke-width: 1px;
   z-index: 1;
 }
 path.line.hover {

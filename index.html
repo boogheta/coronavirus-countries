@@ -2,7 +2,8 @@
 <html>
  <head>
   <meta charset="UTF-8">
-  <title>Coronavirus country watch</title>
+  <title>Coronavirus country comparator</title>
+  <link rel="shortcut icon" href="favicon.ico">
   <link href="css/roboto.css" rel="stylesheet">
   <link href="css/vuetify.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
@@ -10,7 +11,7 @@
  <body>
   <div id="corona"><v-app dark toolbar>
     <aside class="navigation-drawer navigation-drawer--absolute navigation-drawer--clipped navigation-drawer--is-booted navigation-drawer--is-mobile navigation-drawer--open navigation-drawer--permanent">
-      <v-list>
+      <v-list dense id="controls">
 
         <v-subheader class="mt-2">Cases</v-subheader>
         <v-list-tile
@@ -30,15 +31,14 @@
           </v-list-tile-action>
         </v-list-tile>
 
-        <v-subheader class="mt-2">Scale</v-subheader>
+        <v-subheader class="bordered mt-2">Scale</v-subheader>
         <v-list-tile>
           <v-list-tile-action>
             <v-icon>timeline</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title
-              style="text-align: right"
-              :class="{'unchecked': logarithmic}"
+              :class="{'value': true, 'unchecked': logarithmic}"
             >linear</v-list-title>
           </v-list-tile-content>
           <v-list-tile-action>
@@ -52,15 +52,14 @@
         </v-list-tile>
 
 <!--
-        <v-subheader class="mt-2">Compare as</v-subheader>
+        <v-subheader class="bordered mt-2">Compare as</v-subheader>
         <v-list-tile>
           <v-list-tile-action>
             <v-icon>view_module</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title
-              style="text-align: right"
-              :class="{'unchecked': !compare}"
+              :class="{'value': true, 'unchecked': !compare}"
             >series</v-list-title>
           </v-list-tile-content>
           <v-list-tile-action>
@@ -74,26 +73,24 @@
         </v-list-tile>
 -->
 
-        <v-subheader class="mt-2">Countries</v-subheader>
+        <v-subheader class="bordered mt-2">Countries</v-subheader>
         <v-list-tile class="sort">
           <v-list-tile-content>
             <v-list-tile-title>
               <small
-                :class="{'country': true, 'unchecked': countries_sort !== 'names'}"
-                @click="countries_sort = 'names'"
+                :class="{'country': true, 'unchecked': countriesOrder !== 'names'}"
+                @click="countriesOrder = 'names'"
               >sort by name</small>
               <small
-                :class="{'value': true, 'unchecked': countries_sort !== 'cases'}"
-                @click="countries_sort = 'cases'"
+                :class="{'value': true, 'unchecked': countriesOrder !== 'cases'}"
+                @click="countriesOrder = 'cases'"
               >sort by cases</small>
             </v-list-tile-title>
           </v-list-tile-content>
-          <v-list-tile-action>
-          </v-list-tile-action>
         </v-list-tile>
       </v-list>
 
-      <v-list dense class="countries">
+      <v-list dense id="countries">
         <v-list-tile
           v-for="item in countries"
           :key="item.id"
@@ -111,9 +108,7 @@
         </v-list-tile>
       </v-list>
 
-      <v-spacer></v-spacer>
-
-      <v-list style="position: absolute; bottom: 65px">
+      <v-list dense id="opendata">
         <v-subheader class="mt-2">Open Data</v-subheader>
         <v-list-tile @click="exportData()">
           <v-list-tile-action><v-icon>file_download</v-icon></v-list-tile-action>
@@ -126,8 +121,8 @@
 
     <v-toolbar class="dark" fixed>
       <v-toolbar-title>
-        <img src="img/covid19.png" style="margin-right: 15px; width: 40px" alt="COVID19">
-        <v-title>Coronavirus country watch</v-title>
+        <img src="img/covid19.png" alt="COVID19" width=50 />
+        <v-title>Coronavirus country comparator</v-title>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn fab small class="ml-3" @click.native.stop="help = true">
@@ -165,9 +160,10 @@
 
     <v-dialog v-model="help" width="33%">
       <v-card>
-        <v-card-title class="headline">Coronavirus country watch</v-card-title>
-        <v-card-text>Built on top of the <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series" target="_blank">data openly released daily</a> by the <a href="https://systems.jhu.edu/" target="_blank">Center for Systems Science and Engineering (CSSE)</a> at Johns Hopkins University (JHU) for the <a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" target="_blank">great dashboard</a> they built. The interface is based on <a href="https://vuejs.org" target="_blank">Vue.js</a>, <a href="https://vuetifyjs.com/" target="_blank">Vuetify.js</a> and <a href="https://d3js.org" target="_blank">D3.js</a>.</v-card-text>
-        <v-card-text>This web application is a free libre open source software released under AGPL V3 license and it source code is <a href="https://github.com/boogheta/coronavirus-countries" target="_blank">available on GitHub</a>.</v-card-text>
+        <v-card-title class="headline">Coronavirus country comparator</v-card-title>
+        <v-card-text>Built on top of the <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series" target="_blank">data openly released daily</a> by the <a href="https://systems.jhu.edu/" target="_blank">Center for Systems Science and Engineering (CSSE)</a> at Johns Hopkins University (JHU) for the <a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" target="_blank">great dashboard</a> they built.</v-card-text>
+        <v-card-text>This web application is a free libre open source software released under AGPL V3 license and it source code is <a href="https://github.com/boogheta/coronavirus-countries" target="_blank">available on GitHub</a>. The interface is based on <a href="https://vuejs.org" target="_blank">Vue.js</a>, <a href="https://vuetifyjs.com/" target="_blank">Vuetify.js</a> and <a href="https://d3js.org" target="_blank">D3.js</a>. The logo is a <a href="https://pixabay.com/fr/illustrations/virus-coronavirus-sars-cov-2-flash-4915867/" target="_blank">creation from Alexei Hulsov</a> openly released under the <a href="https://pixabay.com/fr/service/license/" target="_blank">Pixabay license</a>.</v-card-text>
+        <v-card-text>Bug reports, contributions and pull requests are very welcome!</v-card-text>
         <v-card-text>You can contact me on Twitter at: <a href="http://twitter.com/boogheta" target="_blank">@boogheta</a></v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>
