@@ -38,20 +38,6 @@ rconv = lambda d: '%s/%s/20' % (d.split('-')[1].lstrip('0'), d.split('-')[2].lst
 dates = [conv(x) for x in countries["confirmed"]["France"][0].keys() if x not in ['Lat', 'Long', 'Province/State', 'Country/Region']]
 dates.sort()
 
-selection = ['France', 'Italy', 'Iran', 'Germany', 'Spain', 'Japan', 'South Korea', 'Switzerland']
-with open(os.path.join("data", 'main-countries.csv'), 'w') as f:
-  print >> f, 'date,' + ','.join(selection)
-  for d in dates:
-    print >> f, d + ',' + ",".join([str(sum_values(countries["confirmed"][c], d)) for c in selection])
-
-with open(os.path.join("data", 'china.csv'), 'w') as f:
-  print >> f, 'date,confirmed,recovered,dead,active'
-  for d in dates:
-    conf = sum_values(countries["confirmed"]["China"], d)
-    reco = sum_values(countries["recovered"]["China"], d)
-    dead = sum_values(countries["dead"]["China"], d)
-    print >> f, '%s,%s,%s,%s,%s' % (d, conf, reco, dead, conf - reco - dead)
-
 data = {
     "dates": dates,
     "values": {},
