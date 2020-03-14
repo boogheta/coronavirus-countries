@@ -2,7 +2,6 @@
 - Autoupdate data
 - Dynamic titles
 - Display last update timedate
-- Add colors
 - Cleanup countries names
 - Fix country color changes
 - Change logo
@@ -21,7 +20,14 @@ d3.formatDefaultLocale({
   "currency": ["", ""],
 });
 d3.strFormat = d3.format(",d")
-d3.defaultColors = ["#9FA8DA", "#CE93D8", "#FFAB91", "#FFE082", "#A5D6A7", "#80DEEA", "#DEA3E8"]
+d3.defaultColors = [
+  "#9FA8DA", "#A5D6A7", "#CE93D8", "#FFE082",
+  "#FFAB91", "#E0E0E0", "#40C4FF", "#F48FB1",
+  "#FFCC80", "#64FFDA", "#B39DDB", "#E6EE9C",
+  "#8C9EFF", "#EF9A9A", "#B0BEC5", "#9FA8DA",
+  "#81D4FA", "#80CBC4", "#C5E1A5", "#FFF59D",
+  "#BCAAA4", "#EA80FC", "#FF8A80", "#FFE57F"
+];
 d3.datize = function(d) {
   var dt = new Date(d);
   dt.setHours(0);
@@ -161,7 +167,6 @@ new Vue({
       if (!this.countries_sort) this.countries_sort = "cases";
       this.values = data.values;
       this.dates = data.dates.map(d3.datize);
-      console.log(data, this.countries);
       this.readUrl();
     },
     selectCase: function(newCase) {
@@ -240,7 +245,7 @@ new Vue({
       this.legend.sort(function(a, b) {
         return b.maxValues[cas] - a.maxValues[cas];
       }).forEach(function(a, i) {
-        a.color = d3.defaultColors[i];
+        a.color = d3.defaultColors[i % d3.defaultColors.length];
       })
 
       // Prepare svg
