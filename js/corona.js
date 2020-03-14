@@ -90,18 +90,8 @@ new Vue({
     url: function(newValue) {
       window.location.hash = newValue;
     },
-    countries_sort: function(field) {
-      var cas = this.case;
-      this.countries.sort(function(a, b) {
-        if (field === "cases" && a.lastValues[cas] !== b.lastValues[cas])
-          return b.lastValues[cas] - a.lastValues[cas];
-        else {
-          if (b.name > a.name) return -1;
-          if (a.name > b.name) return 1;
-          return 0;
-        }
-      });
-    }
+    case: function() { this.sortCountries(); },
+    countries_sort: function() { this.sortCountries(); }
   },
   mounted: function() {
     window.addEventListener("hashchange", this.readUrl);
@@ -182,6 +172,19 @@ new Vue({
       else {
 
       }
+    },
+    sortCountries: function() {
+      var cas = this.case,
+        field = this.countries_sort;
+      this.countries.sort(function(a, b) {
+        if (field === "cases" && a.lastValues[cas] !== b.lastValues[cas])
+          return b.lastValues[cas] - a.lastValues[cas];
+        else {
+          if (b.name > a.name) return -1;
+          if (a.name > b.name) return 1;
+          return 0;
+        }
+      });
     },
     draw: function() {
       d3.select(".svg").selectAll("svg").remove();
