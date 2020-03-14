@@ -131,24 +131,31 @@
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn fab small class="ml-3" @click.native.stop="help = true">
-        <v-icon medium class="">help</v-icon>
+        <v-icon>help</v-icon>
       </v-btn>
     </v-toolbar>
 
     <main>
       <div class="svg" style="height: 6000px"></div>
       <center><div id="legend" class="legend facets">
-        <button
+        <div
           v-for="item in (legend.length ? legend : no_country_selected)"
           v-if="item.selected"
-          class="btn btn--disabled btn--raised"
+          :class="{'btn': true, 'btn--raised': true, 'btn--disabled': item.inactive}"
           :style="{'background-color': item.color+'!important'}"
         >
+          <div class="remove"
+            v-if="!item.inactive"
+            title="click to remove"
+            @click="item.selected = false"
+          >
+            <v-icon>highlight_off</v-icon>
+          </div>
           <div class="btn__content">
             <span>{{ item.name }}</span>
             <span class="lowercase amount">{{ item.value || item.lastStr }}</span>
           </div>
-        </button>
+        </div>
       </div></center>
     </main>
 

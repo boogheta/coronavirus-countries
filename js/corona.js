@@ -6,7 +6,6 @@
 - Add colors
 - Cleanup countries names
 - Fix country color changes
-- Add unselect on click legend
 - Add hover curve on legend
 - Change logo
 - Add hover by date
@@ -68,7 +67,8 @@ new Vue({
       name: "Please select at least one country",
       color: "grey",
       value: "",
-      selected: true
+      selected: true,
+      inactive: true
     }],
     help: false
   },
