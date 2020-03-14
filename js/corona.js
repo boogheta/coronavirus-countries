@@ -6,7 +6,6 @@
 - Add colors
 - Cleanup countries names
 - Fix country color changes
-- Add hover curve on legend
 - Change logo
 - Add hover by date
 - Handle zoom
@@ -149,7 +148,7 @@ new Vue({
             cas.total += lastVals[cas.id];
           });
           return {
-            id: c,
+            id: c.toLowerCase().replace(/[^a-z]/, ''),
             name: c,
             color: "",
             flag: "",
@@ -248,6 +247,8 @@ new Vue({
       this.legend.forEach(function(c) {
         g.append("path")
           .datum(dates)
+          .attr("id", c.id)
+          .attr("class", "line")
           .attr("fill", "none")
           .attr("stroke", c.color)
           .attr("stroke-linejoin", "round")

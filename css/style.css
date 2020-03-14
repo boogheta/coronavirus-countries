@@ -97,6 +97,14 @@ aside {
   overflow-y: overlay;
   display: grid;
 }
+path.line {
+  stroke-width: 2px;
+  z-index: 1;
+}
+path.line.hover {
+  stroke-width: 5px;
+  z-index: 5;
+}
 .axis path, .axis line {
   stroke: grey;
 }
@@ -117,6 +125,9 @@ aside {
 }
 .legend .btn div {
   display: grid;
+}
+.legend .btn div.btn__content {
+  margin: 0 8px;
 }
 .legend .btn .remove {
   cursor: pointer;
