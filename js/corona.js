@@ -1,11 +1,9 @@
 /* TODO
-- Dynamic titles
-- Add hover by date
 - Handle zoom
 - Handle small multiples
+- Option to fit curves horizontally ?
 - Add world plot on top ?
 - Countries in separate menu with map ?
-- Option to fit curves horizontally ?
 */
 
 d3.formatDefaultLocale({
@@ -59,11 +57,11 @@ new Vue({
     logarithmic: false,
     compare: false,
     resizing: null,
- /*   hoverDate: "",
+    hoverDate: "",
     curView: null,
     curExtent: null,
     hiddenLeft: 0,
-    hiddenRight: 0, */
+    hiddenRight: 0,
     no_country_selected: [{
       name: "Please select at least one country",
       color: "grey",
@@ -166,6 +164,7 @@ new Vue({
             name: c,
             color: "",
             flag: "",
+            value: null,
             maxValues: maxVals,
             maxStr: "",
             lastValues: lastVals,
@@ -210,7 +209,7 @@ new Vue({
       var start = this.dates[0],
         end = this.dates[this.dates.length - 1],
       //this.end.setDate(this.end.getDate() + 1);
-      //extent = Math.round((this.end - this.start) / (1000*60*60*24)),
+      extent = Math.round((end - start) / (1000*60*60*24)),
       //d3.timeDay.range(start, end).forEach(function(d) {
         dates = this.dates.map(function(d) {
           return {
@@ -245,8 +244,8 @@ new Vue({
         svgH = Math.max(140, mainH),
         height = svgH - margin.top - margin.bottom,
         xScale = d3.scaleTime().range([0, width]).domain([start, end]),
-        xPosition = function(d) { return xScale(d3.max([start, d.date || d.data.date])); },
-        xWidth = function(d) { return Math.max(0.01, xScale(d3.min([end, d3.nextDate(d.date || d.data.date)])) - xPosition(d)); },
+        xWidth = width / extent,
+        xPosition = function(d) { return xScale(d3.max([start, d.date || d.data.date])) - xWidth/2; },
         maxValues = this.legend.map(function(c) { return c.maxValues[cas]; }),
         yMax = Math.max(0, d3.max(maxValues)),
         yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]().range([height, 0]).domain([logarithmic ? 1 : 0, yMax]);
@@ -301,10 +300,10 @@ new Vue({
         .attr("transform", "translate(" + (width) + ", 0)")
         .call(d3.axisRight(yScale).ticks(20, d3.strFormat).tickSizeOuter(0));
 
-   /*   // Draw tooltips surfaces
+      // Draw tooltips surfaces
       g.append("g")
         .selectAll("rect.tooltip")
-        .data(data).enter().append("rect")
+        .data(dates).enter().append("rect")
           .classed("tooltip", true)
           .attr("did", function(d, i) { return i; })
           .attr("x", xPosition)
@@ -314,33 +313,35 @@ new Vue({
           .on("mouseover", this.hover)
           .on("mousemove", this.displayTooltip)
           .on("mouseleave", this.clearTooltip)
-          .on("wheel", this.zoom)
-          .on("dblclick", this.zoom);
+//          .on("wheel", this.zoom)
+//          .on("dblclick", this.zoom);
 
       this.clearTooltip();
-*/
+
     },
- /*   hover: function(d, i) {
+    hover: function(d, i) {
       d3.selectAll('rect[did="' + i + '"]').style("fill-opacity", 0.25);
     },
     displayTooltip: function(d, i, rects) {
+      var values = this.values,
+        cas = this.case;
       this.hoverDate = d.legend;
       this.legend.forEach(function(l) {
-        l.value = d[l.name];
+        l.value = d3.strFormat(values[l.name][cas][i]);
       });
       d3.select(".tooltipBox")
-      .style("left", d3.event.pageX - 60 + "px")
-      .style("top", d3.event.pageY + 20 + "px")
+      .style("left", d3.event.pageX - 80 + "px")
+      .style("top", d3.event.pageY - 50 + "px")
       .style("display", "block");
     },
     clearTooltip: function(d, i) {
       this.legend.forEach(function(l) {
         l.value = null;
       });
-      if (i) d3.selectAll('rect[did="' + i + '"]').style("fill-opacity", 0);
+      d3.selectAll('rect[did="' + i + '"]').style("fill-opacity", 0);
       d3.select(".tooltipBox").style("display", "none");
     },
-    zoom: function(d, i, rects) {
+ /*   zoom: function(d, i, rects) {
       var direction = (d3.event.deltaY && d3.event.deltaY > 0 ? -1 : 1),
         days = this.curView / 3,
         gauge = (i + 1) / rects.length,

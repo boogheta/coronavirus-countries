@@ -151,13 +151,13 @@
           </div>
           <div class="btn__content">
             <span>{{ item.name }}</span>
-            <span class="lowercase amount">{{ item.value || item.lastStr }}</span>
+            <span class="lowercase amount">{{ item.value !== null ? item.value : item.lastStr }}</span>
           </div>
         </div>
       </div></center>
     </main>
 
-    <!--<div class="tooltipBox"><center><b>{{ hoverDate }}</b></center></div> -->
+    <div class="tooltipBox"><center><b>{{ hoverDate }}</b></center></div>
 
     <v-dialog v-model="help" width="33%">
       <v-card>
