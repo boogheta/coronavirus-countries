@@ -73,13 +73,10 @@
           :key="item.id"
           :class="{'unchecked': !item.selected}"
         >
-          <v-list-tile-action>
-            <v-icon :style="{'color': item.color}">fiber_manual_record</v-icon>
-          </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title>
               <span class="country">{{ item.name }} :</span>
-              <span class="value amount">{{ item.value }}</span>
+              <span class="value amount">{{ item.lastStr }}</span>
             </v-list-tile-title>
           </v-list-tile-content>
           <v-list-tile-action>
@@ -114,16 +111,16 @@
 
     <main>
       <div class="svg" style="height: 6000px"></div>
-      <center><div id="legende" class="legende facets">
+      <center><div id="legend" class="legend facets">
         <button
-          v-for="item in legende"
+          v-for="item in legend"
           v-if="item.selected"
           class="btn btn--disabled btn--raised"
           :style="{'background-color': item.color+'!important'}"
         >
           <div class="btn__content">
             <span>{{ item.name }}</span>
-            <span class="lowercase amount">{{ item.value }}</span>
+            <span class="lowercase amount">{{ item.value || item.lastStr }}</span>
           </div>
         </button>
       </div></center>

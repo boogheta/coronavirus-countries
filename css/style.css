@@ -101,23 +101,23 @@ aside {
   font-size: 14px;
   font-family: Roboto;
 }
-.legende.facets {
+.legend.facets {
   padding: 15px;
 }
-.legende button {
+.legend button {
   color: black!important;
   font-weight: bold;
   min-width: 125px;
   padding: 2px;
   height: 50px;
 }
-.legende button div {
+.legend button div {
   display: grid;
 }
-.legende.comparable {
+.legend.comparable {
   position: relative;
 }
-.legende.comparable button {
+.legend.comparable button {
   position: absolute;
   left: 5px;
   height: auto;
