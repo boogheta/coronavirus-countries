@@ -26,6 +26,10 @@ aside {
   height: 45%;
   overflow-y: auto;
 }
+.sort {
+  height: 18px;
+  margin-top: -12px;
+}
 .country {
   float: left;
 }

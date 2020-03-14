@@ -1,6 +1,7 @@
 /* TODO
 - Autoupdate data
 - Dynamic titles
+- Display last update timedate
 - Fix URLs
 - Add colors
 - Fix country color changes
@@ -10,8 +11,8 @@
 - Add hover by date
 - Handle 0 countries
 - Handle zoom
-- Sort buttons for countries by maxvalue or name
 - Handle small multiples
+- Add world plot on top ?
 - Countries in separate menu with map ?
 - Option to fit curves horizontally ?
 */
@@ -23,7 +24,7 @@ d3.formatDefaultLocale({
   "currency": ["", ""],
 });
 d3.strFormat = d3.format(",d")
-d3.defaultColors = ["#9FA8DA", "#CE93D8", "#DEA3E8", "#FFAB91", "#FFE082", "#A5D6A7", "#80DEEA"]
+d3.defaultColors = ["#9FA8DA", "#CE93D8", "#FFAB91", "#FFE082", "#A5D6A7", "#80DEEA", "#DEA3E8"]
 d3.datize = function(d) {
   var dt = new Date(d);
   dt.setHours(0);
@@ -46,6 +47,7 @@ new Vue({
   el: "#corona",
   data: {
     countries: [],
+    countries_sort: null,
     dates: [],
     values: null,
     cases: [
@@ -82,6 +84,18 @@ new Vue({
   watch: {
     url: function(newValue) {
       window.location.hash = newValue;
+    },
+    countries_sort: function(field) {
+      var cas = this.case;
+      this.countries.sort(function(a, b) {
+        if (field === "cases" && a.lastValues[cas] !== b.lastValues[cas])
+          return b.lastValues[cas] - a.lastValues[cas];
+        else {
+          if (b.name > a.name) return -1;
+          if (a.name > b.name) return 1;
+          return 0;
+        }
+      });
     }
   },
   mounted: function() {
@@ -120,7 +134,6 @@ new Vue({
         cas.total = 0;
       });
       this.countries = Object.keys(data.values)
-        .sort()
         .map(function(c) {
           var maxVals = {},
             lastVals = {};
@@ -144,6 +157,7 @@ new Vue({
       cases.forEach(function(cas) {
         cas.total = d3.strFormat(cas.total);
       });
+      if (!this.countries_sort) this.countries_sort = "cases";
       this.values = data.values;
       this.dates = data.dates.map(d3.datize);
       console.log(data, this.countries);
@@ -190,7 +204,7 @@ new Vue({
 
       // Setup dimensions
       var values = this.values,
-        typ = this.case,
+        cas = this.case,
         logarithmic = this.logarithmic,
         margin = {top: 20, right: 90, bottom: 25, left: 60},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
@@ -201,16 +215,16 @@ new Vue({
         xScale = d3.scaleTime().range([0, width]).domain([start, end]),
         xPosition = function(d) { return xScale(d3.max([start, d.date || d.data.date])); },
         xWidth = function(d) { return Math.max(0.01, xScale(d3.min([end, d3.nextDate(d.date || d.data.date)])) - xPosition(d)); },
-        maxValues = this.legend.map(function(c) { return c.maxValues[typ]; }),
+        maxValues = this.legend.map(function(c) { return c.maxValues[cas]; }),
         yMax = Math.max(0, d3.max(maxValues)),
         yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]().range([height, 0]).domain([logarithmic ? 1 : 0, yMax]);
 
       this.countries.forEach(function(c) {
-        c.maxStr = d3.strFormat(c.maxValues[typ]);
-        c.lastStr = d3.strFormat(c.lastValues[typ]);
+        c.maxStr = d3.strFormat(c.maxValues[cas]);
+        c.lastStr = d3.strFormat(c.lastValues[cas]);
       });
       this.legend.sort(function(a, b) {
-        return b.maxValues[typ] - a.maxValues[typ];
+        return b.maxValues[cas] - a.maxValues[cas];
       }).forEach(function(a, i) {
         a.color = d3.defaultColors[i];
       })
@@ -236,9 +250,9 @@ new Vue({
           .attr("d", d3.line()
             .x(function(d) { return xScale(d.date); })
             .y(function(d, i) {
-              if (logarithmic && !values[c.name][typ][i])
+              if (logarithmic && !values[c.name][cas][i])
                 return yScale(1);
-              return yScale(values[c.name][typ][i]);
+              return yScale(values[c.name][cas][i]);
             })
           );
       });

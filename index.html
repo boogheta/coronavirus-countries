@@ -12,7 +12,7 @@
     <aside class="navigation-drawer navigation-drawer--absolute navigation-drawer--clipped navigation-drawer--is-booted navigation-drawer--is-mobile navigation-drawer--open navigation-drawer--permanent">
       <v-list>
 
-        <v-subheader class="mt-2 grey--text text--darken-1">Cases</v-subheader>
+        <v-subheader class="mt-2">Cases</v-subheader>
         <v-list-tile
           v-for="item in cases"
           :key="item.id"
@@ -30,41 +30,67 @@
           </v-list-tile-action>
         </v-list-tile>
 
-        <v-subheader class="mt-2 grey--text text--darken-1">Scale</v-subheader>
+        <v-subheader class="mt-2">Scale</v-subheader>
         <v-list-tile>
           <v-list-tile-action>
             <v-icon>timeline</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title style="text-align: right">linear</v-list-title>
+            <v-list-tile-title
+              style="text-align: right"
+              :class="{'unchecked': logarithmic}"
+            >linear</v-list-title>
           </v-list-tile-content>
           <v-list-tile-action>
             <v-switch light v-model="logarithmic" color="white"></v-switch>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title>logarithmic</v-list-title>
+            <v-list-tile-title
+              :class="{'unchecked': !logarithmic}"
+            >logarithmic</v-list-title>
           </v-list-tile-content>
         </v-list-tile>
 
 <!--
-        <v-subheader class="mt-2 grey--text text--darken-1">Compare as</v-subheader>
+        <v-subheader class="mt-2">Compare as</v-subheader>
         <v-list-tile>
           <v-list-tile-action>
             <v-icon>view_module</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title style="text-align: right">series</v-list-title>
+            <v-list-tile-title
+              style="text-align: right"
+              :class="{'unchecked': !compare}"
+            >series</v-list-title>
           </v-list-tile-content>
           <v-list-tile-action>
             <v-switch light v-model="compare" color="white"></v-switch>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title>small multiples</v-list-title>
+            <v-list-tile-title
+              :class="{'unchecked': !compare}"
+            >small multiples</v-list-title>
           </v-list-tile-content>
         </v-list-tile>
 -->
 
-        <v-subheader class="mt-2 grey--text text--darken-1">Countries</v-subheader>
+        <v-subheader class="mt-2">Countries</v-subheader>
+        <v-list-tile class="sort">
+          <v-list-tile-content>
+            <v-list-tile-title>
+              <small
+                :class="{'country': true, 'unchecked': countries_sort !== 'names'}"
+                @click="countries_sort = 'names'"
+              >sort by name</small>
+              <small
+                :class="{'value': true, 'unchecked': countries_sort !== 'cases'}"
+                @click="countries_sort = 'cases'"
+              >sort by cases</small>
+            </v-list-tile-title>
+          </v-list-tile-content>
+          <v-list-tile-action>
+          </v-list-tile-action>
+        </v-list-tile>
       </v-list>
 
       <v-list dense class="countries">
@@ -88,7 +114,7 @@
       <v-spacer></v-spacer>
 
       <v-list style="position: absolute; bottom: 65px">
-        <v-subheader class="mt-2 grey--text text--darken-1">Open Data</v-subheader>
+        <v-subheader class="mt-2">Open Data</v-subheader>
         <v-list-tile @click="exportData()">
           <v-list-tile-action><v-icon>file_download</v-icon></v-list-tile-action>
           <v-list-tile-content><v-list-tile-title>Download the data</v-list-tile-title></v-list-tile-content>
