@@ -6,13 +6,13 @@ import json
 from collections import defaultdict
 
 def clean_region(r):
+    r = r.strip(" *")
     r = r.replace("Republic of Korea", "South Korea")
     r = r.replace("Korea, South", "South Korea")
     r = r.replace("Mainland China", "China")
     r = r.replace("Russian Federation", "Russia")
     if r == "US":
         r = "United States"
-    r = r.strip(" *")
     return r
 
 countries = {
@@ -43,9 +43,9 @@ with open(os.path.join("data", 'main-countries.csv'), 'w') as f:
 with open(os.path.join("data", 'china.csv'), 'w') as f:
   print >> f, 'date,confirmed,recovered,dead,active'
   for d in dates:
-    conf = sum_values(countries["confirmed"]["Mainland China"], d)
-    reco = sum_values(countries["recovered"]["Mainland China"], d)
-    dead = sum_values(countries["dead"]["Mainland China"], d)
+    conf = sum_values(countries["confirmed"]["China"], d)
+    reco = sum_values(countries["recovered"]["China"], d)
+    dead = sum_values(countries["dead"]["China"], d)
     print >> f, '%s,%s,%s,%s,%s' % (d, conf, reco, dead, conf - reco - dead)
 
 data = {
