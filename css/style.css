@@ -15,6 +15,7 @@ aside {
   height: 26px!important;
   padding-bottom: 0;
   padding-top: 0;
+  padding-left: 8px;
 }
 .subheader b {
   color: white;
