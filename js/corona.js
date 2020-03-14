@@ -4,12 +4,12 @@
 - Display last update timedate
 - Fix URLs
 - Add colors
+- Cleanup countries names
 - Fix country color changes
 - Add unselect on click legend
 - Add hover curve on legend
 - Change logo
 - Add hover by date
-- Handle 0 countries
 - Handle zoom
 - Handle small multiples
 - Add world plot on top ?
@@ -64,6 +64,12 @@ new Vue({
     curExtent: null,
     hiddenLeft: 0,
     hiddenRight: 0, */
+    no_country_selected: [{
+      name: "Please select at least one country",
+      color: "grey",
+      value: "",
+      selected: true
+    }],
     help: false
   },
   computed: {

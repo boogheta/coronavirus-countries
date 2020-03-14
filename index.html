@@ -139,7 +139,7 @@
       <div class="svg" style="height: 6000px"></div>
       <center><div id="legend" class="legend facets">
         <button
-          v-for="item in legend"
+          v-for="item in (legend.length ? legend : no_country_selected)"
           v-if="item.selected"
           class="btn btn--disabled btn--raised"
           :style="{'background-color': item.color+'!important'}"
