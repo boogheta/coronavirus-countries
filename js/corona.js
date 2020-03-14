@@ -1,7 +1,6 @@
 /* TODO
-- Handle zoom
-- Handle small multiples
 - Option to fit curves horizontally ?
+- Handle small multiples
 - Add world plot on top ?
 - Countries in separate menu with map ?
 */
@@ -31,13 +30,6 @@ d3.nextDate = function(d) {
   dt.setDate(dt.getDate() + 1);
   return dt;
 }
-d3.startDate = function(countries) {
-  return d3.min(countries.map(function(a) {
-    if (a.transactions.length)
-      return new Date(a.transactions[0].date);
-     return new Date();
-  }));
-}
 
 new Vue({
   el: "#corona",
@@ -58,7 +50,7 @@ new Vue({
     compare: false,
     resizing: null,
     hoverDate: "",
-    curView: null,
+    extent: null,
     curExtent: null,
     hiddenLeft: 0,
     hiddenRight: 0,
@@ -178,6 +170,7 @@ new Vue({
       if (!this.countriesOrder) this.countriesOrder = "cases";
       this.values = data.values;
       this.dates = data.dates.map(d3.datize);
+      this.extent = Math.round((this.dates[this.dates.length - 1] - this.dates[0]) / (1000*60*60*24));
       this.lastUpdateStr = new Date(data.last_update*1000).toUTCString();
       this.readUrl(true);
     },
@@ -206,32 +199,17 @@ new Vue({
     draw: function() {
       d3.select(".svg").selectAll("svg").remove();
 
-      var start = this.dates[0],
-        end = this.dates[this.dates.length - 1],
-      //this.end.setDate(this.end.getDate() + 1);
-      extent = Math.round((end - start) / (1000*60*60*24)),
-      //d3.timeDay.range(start, end).forEach(function(d) {
-        dates = this.dates.map(function(d) {
+      // Filter dates from zoom
+      var hiddenLeft = this.hiddenLeft,
+        zoomedDates = this.dates.slice(hiddenLeft, this.dates.length - this.hiddenRight).map(function(d) {
           return {
             date: d,
             legend: d3.timeFormat("%a %e %B %Y")(d)
           };
-        });
-
-      // TODO: Filter from zoom 
-  /*    var start = d3.startDate(this.legend),
-        end = new Date(),
-        data = [];
+        }),
+        start = zoomedDates[0].date,
+        end = zoomedDates[zoomedDates.length - 1].date;
       this.curExtent = Math.round((end - start) / (1000*60*60*24));
-      start.setDate(start.getDate() + this.hiddenLeft);
-      end.setDate(end.getDate() + 1 - this.hiddenRight);
-      this.data.slice(this.hiddenLeft, this.data.length - this.hiddenRight)
-      .forEach(function(d) {
-        if (d.date < start || d.date > end) return;
-        data.push(d);
-      });
-      this.curView = Math.round((end - start) / (1000*60*60*24));
-*/
 
       // Setup dimensions
       var values = this.values,
@@ -244,7 +222,7 @@ new Vue({
         svgH = Math.max(140, mainH),
         height = svgH - margin.top - margin.bottom,
         xScale = d3.scaleTime().range([0, width]).domain([start, end]),
-        xWidth = width / extent,
+        xWidth = width / this.curExtent,
         xPosition = function(d) { return xScale(d3.max([start, d.date || d.data.date])) - xWidth/2; },
         maxValues = this.legend.map(function(c) { return c.maxValues[cas]; }),
         yMax = Math.max(0, d3.max(maxValues)),
@@ -272,7 +250,7 @@ new Vue({
       // Draw series
       this.legend.forEach(function(c) {
         g.append("path")
-          .datum(dates)
+          .datum(zoomedDates)
           .attr("id", c.id)
           .attr("class", "line")
           .attr("fill", "none")
@@ -283,9 +261,9 @@ new Vue({
           .attr("d", d3.line()
             .x(function(d) { return xScale(d.date); })
             .y(function(d, i) {
-              if (logarithmic && !values[c.name][cas][i])
+              if (logarithmic && !values[c.name][cas][i + hiddenLeft])
                 return yScale(1);
-              return yScale(values[c.name][cas][i]);
+              return yScale(values[c.name][cas][i + hiddenLeft]);
             })
           );
       });
@@ -303,7 +281,7 @@ new Vue({
       // Draw tooltips surfaces
       g.append("g")
         .selectAll("rect.tooltip")
-        .data(dates).enter().append("rect")
+        .data(zoomedDates).enter().append("rect")
           .classed("tooltip", true)
           .attr("did", function(d, i) { return i; })
           .attr("x", xPosition)
@@ -313,8 +291,8 @@ new Vue({
           .on("mouseover", this.hover)
           .on("mousemove", this.displayTooltip)
           .on("mouseleave", this.clearTooltip)
-//          .on("wheel", this.zoom)
-//          .on("dblclick", this.zoom);
+          .on("wheel", this.zoom)
+          .on("dblclick", this.zoom);
 
       this.clearTooltip();
 
@@ -324,10 +302,11 @@ new Vue({
     },
     displayTooltip: function(d, i, rects) {
       var values = this.values,
-        cas = this.case;
+        cas = this.case,
+        hiddenLeft = this.hiddenLeft;
       this.hoverDate = d.legend;
       this.legend.forEach(function(l) {
-        l.value = d3.strFormat(values[l.name][cas][i]);
+        l.value = d3.strFormat(values[l.name][cas][i + hiddenLeft]);
       });
       d3.select(".tooltipBox")
       .style("left", d3.event.pageX - 80 + "px")
@@ -341,13 +320,13 @@ new Vue({
       d3.selectAll('rect[did="' + i + '"]').style("fill-opacity", 0);
       d3.select(".tooltipBox").style("display", "none");
     },
- /*   zoom: function(d, i, rects) {
+    zoom: function(d, i, rects) {
       var direction = (d3.event.deltaY && d3.event.deltaY > 0 ? -1 : 1),
-        days = this.curView / 3,
+        days = this.curExtent / 3,
         gauge = (i + 1) / rects.length,
         gaugeLeft = (gauge > 0.05 ? gauge : 0),
         gaugeRight = (gauge < 0.95 ? 1 - gauge : 0);
-      if (direction == 1 && this.curExtent - this.hiddenLeft - this.hiddenRight < 35) return;
+      if (direction == 1 && this.extent - this.hiddenLeft - this.hiddenRight < 15) return;
       this.clearTooltip();
       this.hiddenLeft += Math.floor(gaugeLeft * days * direction);
       this.hiddenRight += Math.floor(gaugeRight * days * direction);
@@ -355,9 +334,9 @@ new Vue({
       if (this.hiddenRight < 0) this.hiddenRight = 0;
       this.draw();
       this.displayTooltip(d, i, rects);
-    }, */
+    },
     exportData: function() {
-      let a = document.createElement('a');
+      var a = document.createElement('a');
       a.href = "data/coronavirus-countries.json";
       a.download = "coronavirus-countries.json";
       document.body.appendChild(a);
