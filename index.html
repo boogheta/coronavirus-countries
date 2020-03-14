@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Coronavirus country watch</title>
+  <link href="css/roboto.css" rel="stylesheet">
+  <link href="css/vuetify.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+ </head>
+ <body>
+  <div id="corona"><v-app dark toolbar>
+    <aside class="navigation-drawer navigation-drawer--absolute navigation-drawer--clipped navigation-drawer--is-booted navigation-drawer--is-mobile navigation-drawer--open navigation-drawer--permanent">
+      <v-list>
+
+        <v-subheader class="mt-2 grey--text text--darken-1">Cases</v-subheader>
+        <v-list-tile
+          v-for="item in cases"
+          :key="item.id"
+          :class="{'unchecked': !item.selected}"
+          @click="selectCase(item.id)"
+        >
+          <v-list-tile-content>
+            <v-list-tile-title>
+              <span class="country">{{ item.id }} :</span>
+              <span class="value amount">{{ item.total }}</span>
+            </v-list-tile-title>
+          </v-list-tile-content>
+          <v-list-tile-action>
+            <v-switch light v-model="item.selected" color="white"></v-switch>
+          </v-list-tile-action>
+        </v-list-tile>
+
+        <v-subheader class="mt-2 grey--text text--darken-1">Scale</v-subheader>
+        <v-list-tile>
+          <v-list-tile-action>
+            <v-icon>timeline</v-icon>
+          </v-list-tile-action>
+          <v-list-tile-content>
+            <v-list-tile-title style="text-align: right">linear</v-list-title>
+          </v-list-tile-content>
+          <v-list-tile-action>
+            <v-switch light v-model="logarithmic" color="white"></v-switch>
+          </v-list-tile-action>
+          <v-list-tile-content>
+            <v-list-tile-title>logarithmic</v-list-title>
+          </v-list-tile-content>
+        </v-list-tile>
+
+<!--
+        <v-subheader class="mt-2 grey--text text--darken-1">Compare as</v-subheader>
+        <v-list-tile>
+          <v-list-tile-action>
+            <v-icon>view_module</v-icon>
+          </v-list-tile-action>
+          <v-list-tile-content>
+            <v-list-tile-title style="text-align: right">series</v-list-title>
+          </v-list-tile-content>
+          <v-list-tile-action>
+            <v-switch light v-model="compare" color="white"></v-switch>
+          </v-list-tile-action>
+          <v-list-tile-content>
+            <v-list-tile-title>small multiples</v-list-title>
+          </v-list-tile-content>
+        </v-list-tile>
+-->
+
+        <v-subheader class="mt-2 grey--text text--darken-1">Countries</v-subheader>
+      </v-list>
+
+      <v-list dense class="countries">
+        <v-list-tile
+          v-for="item in countries"
+          :key="item.id"
+          :class="{'unchecked': !item.selected}"
+        >
+          <v-list-tile-action>
+            <v-icon :style="{'color': item.color}">fiber_manual_record</v-icon>
+          </v-list-tile-action>
+          <v-list-tile-content>
+            <v-list-tile-title>
+              <span class="country">{{ item.name }} :</span>
+              <span class="value amount">{{ item.value }}</span>
+            </v-list-tile-title>
+          </v-list-tile-content>
+          <v-list-tile-action>
+            <v-switch light v-model="item.selected" color="white"></v-switch>
+          </v-list-tile-action>
+        </v-list-tile>
+      </v-list>
+
+      <v-spacer></v-spacer>
+
+      <v-list style="position: absolute; bottom: 65px">
+        <v-subheader class="mt-2 grey--text text--darken-1">Open Data</v-subheader>
+        <v-list-tile @click="exportData()">
+          <v-list-tile-action><v-icon>file_download</v-icon></v-list-tile-action>
+          <v-list-tile-content><v-list-tile-title>Download the data</v-list-tile-title></v-list-tile-content>
+        </v-list-tile>
+      </v-list>
+
+      <div class="navigation-drawer__border"></div>
+    </aside>
+
+    <v-toolbar class="dark" fixed>
+      <v-toolbar-title>
+        <img src="img/covid19.png" style="margin-right: 15px; width: 40px" alt="COVID19">
+        <v-title>Coronavirus country watch</v-title>
+      </v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-btn fab small class="ml-3" @click.native.stop="help = true">
+        <v-icon medium class="">help</v-icon>
+      </v-btn>
+    </v-toolbar>
+
+    <main>
+      <div class="svg" style="height: 6000px"></div>
+      <center><div id="legende" class="legende facets">
+        <button
+          v-for="item in legende"
+          v-if="item.selected"
+          class="btn btn--disabled btn--raised"
+          :style="{'background-color': item.color+'!important'}"
+        >
+          <div class="btn__content">
+            <span>{{ item.name }}</span>
+            <span class="lowercase amount">{{ item.value }}</span>
+          </div>
+        </button>
+      </div></center>
+    </main>
+
+    <!--<div class="tooltipBox"><center><b>{{ hoverDate }}</b></center></div> -->
+
+    <v-dialog v-model="help" width="33%">
+      <v-card>
+        <v-card-title class="headline">Coronavirus country watch</v-card-title>
+        <v-card-text>Built on top of the <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series" target="_blank">data openly released daily</a> by the <a href="https://systems.jhu.edu/" target="_blank">Center for Systems Science and Engineering (CSSE)</a> at Johns Hopkins University (JHU) for the <a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" target="_blank">great dashboard</a> they built. The interface is based on <a href="https://vuejs.org" target="_blank">Vue.js</a>, <a href="https://vuetifyjs.com/" target="_blank">Vuetify.js</a> and <a href="https://d3js.org" target="_blank">D3.js</a>.</v-card-text>
+        <v-card-text>This web application is a free libre open source software released under AGPL V3 license and it source code is <a href="https://github.com/boogheta/coronavirus-countries" target="_blank">available on GitHub</a>.</v-card-text>
+        <v-card-text>You can contact me on Twitter at: <a href="http://twitter.com/boogheta" target="_blank">@boogheta</a></v-card-text>
+        <v-card-actions>
+          <v-spacer></v-spacer>
+          <v-btn class="white--text darken-1" flat @click.native="help = false">Fermer</v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
+  </v-app></div>
+
+  <script type="text/javascript" src="js/d3.v4.min.js"></script>
+  <script type="text/javascript" src="js/vue.min.js"></script>
+  <script type="text/javascript" src="js/vuetify.min.js"></script>
+  <script type="text/javascript" src="js/corona.js"></script>
+ </body>
+</html>
