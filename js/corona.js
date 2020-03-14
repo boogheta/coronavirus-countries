@@ -1,4 +1,21 @@
 /* TODO
+- Dynamic titles
+- Fix URLs
+- Add colors
+- Fix country color changes
+- Sort legend by max value
+- Add value in legend
+- Add unselect on click legend
+- Add hover curve on legend
+- Change logo
+- Add hover by date
+- Handle 0 countries
+- Handle zoom
+- Add countries max value in menu
+- Sort buttons for countries by maxvalue or name
+- Handle small multiples
+- Countries in separate menu with map ?
+- Option to fit curves horizontally ?
 */
 
 d3.formatDefaultLocale({
