@@ -10,6 +10,10 @@ def clean_region(r):
     r = r.replace("Republic of Korea", "South Korea")
     r = r.replace("Korea, South", "South Korea")
     r = r.replace("Mainland China", "China")
+    r = r.replace("Martinique", "France")
+    r = r.replace("Reunion", "France")
+    r = r.replace("Guadeloupe", "France")
+    r = r.replace("French Guiana", "France")
     r = r.replace("Russian Federation", "Russia")
     if r == "US":
         r = "United States"

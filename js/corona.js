@@ -2,8 +2,6 @@
 - Autoupdate data
 - Dynamic titles
 - Display last update timedate
-- Cleanup countries names
-- Fix country color changes
 - Change logo
 - Add hover by date
 - Handle zoom
