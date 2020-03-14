@@ -272,7 +272,7 @@ new Vue({
       g.append("g")
         .attr("class", "axis axis--x")
         .attr("transform", "translate(0, " + (height) + ")")
-        .call(d3.axisBottom(xScale).ticks(10, d3.timeFormat("%d %b %y")).tickSizeOuter(0));
+        .call(d3.axisBottom(xScale).ticks(8, d3.timeFormat("%b %d")).tickSizeOuter(0));
       g.append("g")
         .attr("class", "axis axis--y")
         .attr("transform", "translate(" + (width) + ", 0)")
