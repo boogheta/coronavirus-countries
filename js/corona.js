@@ -32,6 +32,7 @@ d3.nextDate = function(d) {
   return dt;
 }
 
+document.getElementById("corona").style.opacity = 1;
 new Vue({
   el: "#corona",
   data: {

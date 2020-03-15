@@ -1,6 +1,9 @@
 html {
   overflow: hidden;
 }
+#corona {
+  opacity: 0;
+}
 aside {
   height: 100%;
 }
