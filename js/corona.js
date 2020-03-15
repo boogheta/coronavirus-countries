@@ -43,10 +43,10 @@ new Vue({
     dates: [],
     values: null,
     cases: [
-      {id: "confirmed",  selected: false,  total: 0},
-      {id: "recovered",  selected: false,  total: 0},
-      {id: "dead",       selected: false,  total: 0},
-      {id: "sick",       selected: false,  total: 0}
+      {id: "confirmed",       selected: false,  total: 0},
+      {id: "recovered",       selected: false,  total: 0},
+      {id: "deceased",        selected: false,  total: 0},
+      {id: "currently sick",  selected: false,  total: 0}
     ],
     logarithmic: false,
     compare: false,
@@ -119,7 +119,7 @@ new Vue({
       if (startup) {
         if (!options.countries.length)
           options.countries = this.defaultCountries;
-        if (!options.confirmed && !options.recovered && !options.dead && !options.sick)
+        if (!options.confirmed && !options.recovered && !options.deceased && !options["currently sick"])
           options.confirmed = true;
       }
       this.logarithmic = !!options.log;

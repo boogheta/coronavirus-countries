@@ -22,9 +22,9 @@ def clean_region(r):
 countries = {
     "confirmed": defaultdict(list),
     "recovered": defaultdict(list),
-    "dead": defaultdict(list)
+    "deceased": defaultdict(list)
 }
-for typ, typS in [("confirmed", "Confirmed"), ("recovered", "Recovered"), ("dead", "Deaths")]:
+for typ, typS in [("confirmed", "Confirmed"), ("recovered", "Recovered"), ("deceased", "Deaths")]:
     with open(os.path.join("data", "time_series_19-covid-%s.csv" % typS)) as f:
         for row in csv.DictReader(f):
             countries[typ][clean_region(row['Country/Region'])].append(row)
@@ -50,17 +50,17 @@ for c in sorted(countries["confirmed"].keys()):
     data["values"][c] = {
         "confirmed": [],
         "recovered": [],
-        "dead": [],
-        "sick": []
+        "deceased": [],
+        "currently sick": []
     }
     for d in dates:
         conf = sum_values(countries["confirmed"][c], d)
         data["values"][c]["confirmed"].append(conf)
         reco = sum_values(countries["recovered"][c], d)
         data["values"][c]["recovered"].append(reco)
-        dead = sum_values(countries["dead"][c], d)
-        data["values"][c]["dead"].append(dead)
-        data["values"][c]["sick"].append(conf - reco - dead)
+        deceased = sum_values(countries["deceased"][c], d)
+        data["values"][c]["deceased"].append(deceased)
+        data["values"][c]["currently sick"].append(conf - reco - deceased)
 
 with open(os.path.join("data", "coronavirus-countries.json"), "w") as f:
     json.dump(data, f)
