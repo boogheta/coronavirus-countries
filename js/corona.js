@@ -1,4 +1,5 @@
 /* TODO
+- Twitter cards
 - Option to fit curves horizontally ?
 - Handle small multiples
 - Add world plot on top ?
