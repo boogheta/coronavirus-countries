@@ -29,7 +29,7 @@ for typ, typS in [("confirmed", "Confirmed"), ("recovered", "Recovered"), ("dead
         for row in csv.DictReader(f):
             countries[typ][clean_region(row['Country/Region'])].append(row)
 
-sum_values = lambda country, dat: sum([int(region[rconv(d)] or 0) for region in country])
+sum_values = lambda country, dat: sum([int(region[rconv(dat)] or 0) for region in country])
 
 # TODO Fix naive dates parsing
 conv = lambda d: '2020-0%s-%02d' % (d[0], int(d.split('/')[1]))
@@ -37,6 +37,9 @@ rconv = lambda d: '%s/%s/20' % (d.split('-')[1].lstrip('0'), d.split('-')[2].lst
 
 dates = [conv(x) for x in countries["confirmed"]["France"][0].keys() if x not in ['Lat', 'Long', 'Province/State', 'Country/Region']]
 dates.sort()
+
+while not max([sum_values(countries["confirmed"][c], dates[-1]) for c in countries["confirmed"].keys()]):
+    dates.pop()
 
 data = {
     "dates": dates,
