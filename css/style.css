@@ -82,9 +82,6 @@ nav .update {
 .input-group--select.input-group--focused .input-group__append-icon {
   transform: none!important;
 }
-.input-group:not(.unselected) .input-group__input .input-group__append-icon {
-  color: #f44336!important;
-}
 .input-group__details {
   display: none!important;
 }
@@ -99,7 +96,7 @@ nav .update {
   white-space: nowrap;
 }
 .list__tile--active, .input-group.input-group--focused:not(.unselected) .input-group__append-icon, .application--dark .input-group.input-group--dirty:not(.unselected) .input-group__selections__comma:not(.input-group__selections__comma--active) {
-  color: #f44336;
+  color: white;
 }
 .unselected .list__tile--active, .unselected .input-group.input-group--focused .input-group__append-icon, .application--dark .unselected .input-group.input-group--dirty .input-group__selections__comma:not(.input-group__selections__comma--active), .input-group.unselected .input-group__selections__comma:not(.input-group__selections__comma--active) {
   color: white!important;

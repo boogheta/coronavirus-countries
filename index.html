@@ -77,21 +77,20 @@
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title
-              :class="{'switcher': true, 'value': true, 'unchecked': compare}"
-              @click="compare = false"
+              :class="{'switcher': true, 'value': true, 'unchecked': multiples}"
+              @click="multiples = false"
             >series</v-list-title>
           </v-list-tile-content>
           <v-list-tile-action>
-            <v-switch light v-model="compare" color="white"></v-switch>
+            <v-switch light v-model="multiples" color="white"></v-switch>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title
-              :class="{'switcher': true, 'unchecked': !compare}"
-              @click="compare = true"
+              :class="{'switcher': true, 'unchecked': !multiples}"
+              @click="multiples = true"
             >small multiples</v-list-title>
           </v-list-tile-content>
         </v-list-tile>
--->
 
         <v-subheader class="bordered mt-2">Countries</v-subheader>
         <v-list-tile class="sort">
@@ -128,8 +127,32 @@
         </v-list-tile>
       </v-list>
 
-      <v-list dense id="opendata">
-        <v-subheader class="mt-2">Open Data</v-subheader>
+      <v-list dense id="lowermenu">
+        <v-subheader class="mt-2">Align curves with
+          <v-spacer></v-spacer>
+          <v-chip small outline close class="grey--text"
+            v-model="refCountrySelected"
+            @input="refCountry = null"
+            @click="refCountry = null"
+          ><small>cancel</small></v-chip>
+        </v-subheader>
+        <v-list-tile>
+          <v-list-tile-content><v-select auto single-line hide-details
+            v-model="refCountry"
+            :items="refCountries"
+            item-text="name"
+            item-value="name"
+            prepend-icon="compare_arrows"
+            class="select"
+            @change="refCountry = $event"
+          >
+            <template slot="item" scope="f">
+              <v-list-tile-content><v-list-tile-title v-html="f.item.name"></v-list-tile-title></v-list-tile-content>
+            </template>
+          </v-select></v-list-tile-content>
+        </v-list-tile>
+
+        <v-subheader class="bordered mt-2">Open Data</v-subheader>
         <v-list-tile @click="exportData()">
           <v-list-tile-action><v-icon>file_download</v-icon></v-list-tile-action>
           <v-list-tile-content><v-list-tile-title>Download the data</v-list-tile-title></v-list-tile-content>
