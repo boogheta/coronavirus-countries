@@ -1,9 +1,11 @@
 /* TODO
-- Twitter cards
+- add screenshot for social cards
 - Option to fit curves horizontally ?
 - Handle small multiples
 - Add world plot on top ?
+- Add ratio population ?
 - Countries in separate menu with map ?
+- add daily new cases as histograms ?
 */
 
 d3.formatDefaultLocale({
