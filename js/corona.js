@@ -1,6 +1,6 @@
 /* TODO
 - add screenshot for social cards
-- Option to fit curves horizontally ?
+- Adjust vertical scale to zoom/fitted curves
 - Handle small multiples
 - Add world plot on top ?
 - Add ratio population ?
@@ -15,6 +15,10 @@ d3.formatDefaultLocale({
   "currency": ["", ""],
 });
 d3.strFormat = d3.format(",d")
+d3.formatShift = function(x) {
+  if (!x) return "";
+  return d3.format("+d")(x) + " day" + (Math.abs(x) > 1 ? "s": "");
+}
 d3.defaultColors = [
   "#9FA8DA", "#A5D6A7", "#CE93D8", "#FFE082",
   "#FFAB91", "#E0E0E0", "#40C4FF", "#F48FB1",
@@ -26,11 +30,6 @@ d3.defaultColors = [
 d3.datize = function(d) {
   var dt = new Date(d);
   dt.setHours(0);
-  return dt;
-}
-d3.nextDate = function(d) {
-  var dt = d3.datize(d);
-  dt.setDate(dt.getDate() + 1);
   return dt;
 }
 
@@ -87,20 +86,61 @@ new Vue({
     },
     refCountrySelected: function() {
       return !!this.refCountry;
+    },
+    refCountriesSelection: function() {
+      return this.refCountries.filter(function(c) {
+        return c.selected;
+      });
     }
   },
   watch: {
     url: function(newValue) {
+      var ref = this.refCountry;
+      if (ref && !this.legend.filter(function(c) {
+        return c.name === ref;
+      }).length) {
+        this.refCountry = null;
+        newValue = newValue.replace(/&align=.*$/, '');
+      }
       window.location.hash = newValue;
     },
     case: function() { this.sortCountries(); },
     countriesOrder: function() { this.sortCountries(); },
     refCountry: function(newValue) {
       if (newValue) {
-        this.countries.filter(function(c) {
-          return c.name === newValue;
-        })[0].selected = true;
-      }
+        var values = this.values,
+          dates = this.dates,
+          cas = this.case,
+          refStart = null,
+          refValues = values[newValue][cas];
+        this.countries.forEach(function(c) {
+          if (c.name === newValue) {
+            c.shift = 0;
+            c.shiftStr = "";
+          } else {
+            var shifts = [],
+              curVal = null,
+              lastVal = null;
+            dates.forEach(function(d, i) {
+              if (refValues[i] < 20) return;
+              for (var j = 1; j < dates.length ; j++) {
+                curVal = values[c.name][cas][j];
+                if (curVal < refValues[i]) {
+                  lastVal = curVal;
+                  continue;
+                }
+                shifts.push(i - j - (refValues[i] - curVal)/(curVal - lastVal));
+                break;
+              }
+            });
+            c.shift = Math.round(d3.mean(shifts));
+            c.shiftStr = d3.formatShift(c.shift);
+          }
+        });
+      } else this.countries.forEach(function(c) {
+        c.shift = 0;
+        c.shiftStr = "";
+      });
     }
   },
   mounted: function() {
@@ -175,8 +215,9 @@ new Vue({
             id: c.toLowerCase().replace(/[^a-z]/, ''),
             name: c,
             color: "",
-            flag: "",
             value: null,
+            shift: 0,
+            shiftStr: "",
             maxValues: maxVals,
             maxStr: "",
             lastValues: lastVals,
@@ -226,7 +267,8 @@ new Vue({
 
       // Filter dates from zoom
       var hiddenLeft = this.hiddenLeft,
-        zoomedDates = this.dates.slice(hiddenLeft, this.dates.length - this.hiddenRight).map(function(d) {
+        hiddenRight = this.hiddenRight,
+        zoomedDates = this.dates.slice(hiddenLeft, this.dates.length - hiddenRight).map(function(d) {
           return {
             date: d,
             legend: d3.timeFormat("%a %e %B %Y")(d)
@@ -238,6 +280,7 @@ new Vue({
 
       // Setup dimensions
       var values = this.values,
+        dates = this.dates,
         cas = this.case,
         logarithmic = this.logarithmic,
         margin = {top: 20, right: 90, bottom: 25, left: 60},
@@ -259,8 +302,8 @@ new Vue({
       });
       this.legend.sort(function(a, b) {
         return b.maxValues[cas] - a.maxValues[cas];
-      }).forEach(function(a, i) {
-        a.color = d3.defaultColors[i % d3.defaultColors.length];
+      }).forEach(function(c, i) {
+        c.color = d3.defaultColors[i % d3.defaultColors.length];
       })
 
       // Prepare svg
@@ -274,8 +317,17 @@ new Vue({
 
       // Draw series
       this.legend.forEach(function(c) {
+        var shiftedDates = dates.slice(
+          Math.max(hiddenLeft, c.shift),
+          dates.length - Math.max(hiddenRight, -c.shift)
+        ).map(function(d) {
+          return {
+            date: d,
+            legend: d3.timeFormat("%a %e %B %Y")(d)
+          };
+        });
         g.append("path")
-          .datum(zoomedDates)
+          .datum(shiftedDates)
           .attr("id", c.id)
           .attr("class", "line")
           .attr("fill", "none")
@@ -286,9 +338,10 @@ new Vue({
           .attr("d", d3.line()
             .x(function(d) { return xScale(d.date); })
             .y(function(d, i) {
-              if (logarithmic && !values[c.name][cas][i + hiddenLeft])
+              var idx = i + Math.max(0, hiddenLeft - c.shift);
+              if (logarithmic && values[c.name][cas][idx] == 0)
                 return yScale(1);
-              return yScale(values[c.name][cas][i + hiddenLeft]);
+              return yScale(values[c.name][cas][idx]);
             })
           );
       });
@@ -330,8 +383,10 @@ new Vue({
         cas = this.case,
         hiddenLeft = this.hiddenLeft;
       this.hoverDate = d.legend;
-      this.legend.forEach(function(l) {
-        l.value = d3.strFormat(values[l.name][cas][i + hiddenLeft]);
+      this.legend.forEach(function(c) {
+        var val = values[c.name][cas][i + hiddenLeft - c.shift];
+        if (val == undefined) c.value = "";
+        else c.value = d3.strFormat(values[c.name][cas][i + hiddenLeft - c.shift]);
       });
       d3.select(".tooltipBox")
       .style("left", d3.event.pageX - 80 + "px")

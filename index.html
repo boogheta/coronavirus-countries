@@ -91,6 +91,7 @@
             >small multiples</v-list-title>
           </v-list-tile-content>
         </v-list-tile>
+-->
 
         <v-subheader class="bordered mt-2">Countries</v-subheader>
         <v-list-tile class="sort">
@@ -128,7 +129,7 @@
       </v-list>
 
       <v-list dense id="lowermenu">
-        <v-subheader class="mt-2">Align curves with
+        <v-subheader class="mt-2">Align confirmed with
           <v-spacer></v-spacer>
           <v-chip small outline close class="grey--text"
             v-model="refCountrySelected"
@@ -139,7 +140,7 @@
         <v-list-tile>
           <v-list-tile-content><v-select auto single-line hide-details
             v-model="refCountry"
-            :items="refCountries"
+            :items="refCountriesSelection"
             item-text="name"
             item-value="name"
             prepend-icon="compare_arrows"
@@ -193,7 +194,7 @@
             <v-icon>highlight_off</v-icon>
           </div>
           <div class="btn__content">
-            <span>{{ item.name }}</span>
+            <span>{{ item.name }}<small v-if="refCountrySelected && item.shift"> ({{ item.shiftStr }})</small></span>
             <span class="lowercase amount">{{ item.value !== null ? item.value : item.lastStr }}</span>
           </div>
         </div>
