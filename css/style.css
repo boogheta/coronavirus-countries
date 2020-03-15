@@ -41,9 +41,18 @@ nav .update {
 .unchecked {
   opacity: 0.3;
 }
+.switcher.unchecked {
+  cursor: pointer;
+}
+.switcher.unchecked:hover {
+  opacity: 1;
+}
 .sort {
   height: 18px;
   margin: -12px 72px 12px 0px;
+}
+.sort small.unchecked {
+  cursor: pointer;
 }
 #countries {
   overflow-y: auto;
