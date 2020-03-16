@@ -328,7 +328,7 @@ new Vue({
         c.style = {
           "background-color": "lightgrey!important",
           top: (yPos - 10) + "px",
-          left: (xPos - 10) + "px"
+          left: (xPos - 5) + "px"
         }
         var g = svg.append("g")
           .attr("transform", "translate(" + xPos + "," + yPos + ")");
