@@ -1,5 +1,6 @@
 /* TODO
 - Fix no selected case position
+- Fix scale https://boogheta.github.io/coronavirus-countries/#deceased&multiples&countries=Italy,Iran,Spain,France,South%20Korea,United%20States,Germany
 - Adapt # ticks to # columns in multiples
 - Adjust vertical scale to zoom/fitted curves
 - When only one country selected in multiples, display final values in menu
