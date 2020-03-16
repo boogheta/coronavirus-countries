@@ -1,6 +1,5 @@
 /* TODO
 - Adjust vertical scale to zoom/fitted curves
-- Add world plot on top ?
 - Add ratio population ?
 - Countries in separate menu with map ?
 - add daily new cases as histograms ?
@@ -215,7 +214,8 @@ new Vue({
           cases.forEach(function(cas) {
             maxVals[cas.id] = d3.max(data.values[c][cas.id]);
             lastVals[cas.id] = data.values[c][cas.id][data.dates.length - 1];
-            cas.total += lastVals[cas.id];
+            if (c !== "World")
+              cas.total += lastVals[cas.id];
           });
           maxVals["all"] = d3.max(Object.values(maxVals));
           return {

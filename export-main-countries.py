@@ -43,9 +43,19 @@ while not max([sum_values(countries["confirmed"][c], dates[-1]) for c in countri
 
 data = {
     "dates": dates,
-    "values": {},
+    "values": {
+      "World": {
+        "confirmed": [],
+        "recovered": [],
+        "deceased": [],
+        "currently sick": []
+      }
+    },
     "last_update": "##LASTUPDATE##"
 }
+for d in dates:
+    for c in ["confirmed", "recovered", "deceased", "currently sick"]:
+        data["values"]["World"][c].append(0)
 for c in sorted(countries["confirmed"].keys()):
     data["values"][c] = {
         "confirmed": [],
@@ -53,14 +63,19 @@ for c in sorted(countries["confirmed"].keys()):
         "deceased": [],
         "currently sick": []
     }
-    for d in dates:
+    for i, d in enumerate(dates):
         conf = sum_values(countries["confirmed"][c], d)
         data["values"][c]["confirmed"].append(conf)
+        data["values"]["World"]["confirmed"][i] += conf
         reco = sum_values(countries["recovered"][c], d)
         data["values"][c]["recovered"].append(reco)
+        data["values"]["World"]["recovered"][i] += reco
         deceased = sum_values(countries["deceased"][c], d)
         data["values"][c]["deceased"].append(deceased)
+        data["values"]["World"]["deceased"][i] += deceased
         data["values"][c]["currently sick"].append(conf - reco - deceased)
+        data["values"]["World"]["currently sick"][i] += conf - reco - deceased
+
 
 with open(os.path.join("data", "coronavirus-countries.json"), "w") as f:
     json.dump(data, f)
