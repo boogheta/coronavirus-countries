@@ -1,8 +1,11 @@
 /* TODO
+- Fix no selected case position
+- Adapt # ticks to # columns in multiples
 - Adjust vertical scale to zoom/fitted curves
-- Add ratio population ?
-- Countries in separate menu with map ?
+- button by country to keep only this one ?
+- Add population + ratio ?
 - add daily new cases as histograms ?
+- Countries in separate menu with map ?
 */
 
 d3.formatDefaultLocale({
