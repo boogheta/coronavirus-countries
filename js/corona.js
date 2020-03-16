@@ -1,7 +1,6 @@
 /* TODO
 - add screenshot for social cards
 - Adjust vertical scale to zoom/fitted curves
-- Handle small multiples
 - Add world plot on top ?
 - Add ratio population ?
 - Countries in separate menu with map ?
@@ -46,10 +45,10 @@ new Vue({
     dates: [],
     values: null,
     cases: [
-      {id: "confirmed",       selected: false,  total: 0},
-      {id: "recovered",       selected: false,  total: 0},
-      {id: "deceased",        selected: false,  total: 0},
-      {id: "currently sick",  selected: false,  total: 0}
+      {id: "confirmed",       selected: false,  total: 0, color: d3.defaultColors[0]},
+      {id: "recovered",       selected: false,  total: 0, color: d3.defaultColors[1]},
+      {id: "deceased",        selected: false,  total: 0, color: d3.defaultColors[2]},
+      {id: "currently sick",  selected: false,  total: 0, color: d3.defaultColors[3]}
     ],
     logarithmic: false,
     multiples: false,
@@ -73,7 +72,7 @@ new Vue({
       return (this.cases.filter(function(c) { return c.selected; })[0] || {id: null}).id;
     },
     url: function() {
-      return this.case +
+      return (this.multiples ? this.casesLegend.map(function(c) { return c.id }).join("&") : this.case) +
         (this.logarithmic ? "&log" : "") +
         (this.multiples ? "&multiples" : "") +
         "&countries=" + this.countries
@@ -83,6 +82,9 @@ new Vue({
     },
     legend: function() {
       return this.countries.filter(function(a) { return a.selected; });
+    },
+    casesLegend: function() {
+      return this.cases.filter(function(a) { return a.selected; });
     },
     refCountrySelected: function() {
       return !!this.refCountry;
@@ -141,6 +143,11 @@ new Vue({
         c.shift = 0;
         c.shiftStr = "";
       });
+    },
+    multiples: function() {
+      this.hiddenLeft = 0;
+      this.hiddenRight = 0;
+      this.refCountry = null;
     }
   },
   mounted: function() {
@@ -211,6 +218,7 @@ new Vue({
             lastVals[cas.id] = data.values[c][cas.id][data.dates.length - 1];
             cas.total += lastVals[cas.id];
           });
+          maxVals["all"] = d3.max(Object.values(maxVals));
           return {
             id: c.toLowerCase().replace(/[^a-z]/, ''),
             name: c,
@@ -245,9 +253,6 @@ new Vue({
         this.cases.forEach(function(c) {
           c.selected = c.id === newCase;
         });
-      else {
-
-      }
     },
     sortCountries: function() {
       var cas = this.case,
@@ -265,8 +270,137 @@ new Vue({
     draw: function() {
       d3.select(".svg").selectAll("svg").remove();
 
+      if (this.multiples) this.drawMultiples();
+      else this.drawSeries();
+
+      this.clearTooltip();
+    },
+    drawMultiples: function() {
+
+      var values = this.values,
+        casesLegend = this.casesLegend,
+        dates = this.dates.map(function(d) {
+          return {
+            date: d,
+            legend: d3.timeFormat("%a %e %B %Y")(d)
+          };
+        }),
+        logarithmic = this.logarithmic,
+        start = this.dates[0],
+        end = this.dates[this.dates.length - 1];
+      this.curExtent = Math.round((end - start) / (1000*60*60*24));
+
+
+      // Setup dimensions
+      var margin = {top: 20, right: 60, bottom: 35, left: 20, horiz: 60, vert: 30},
+        columns = Math.max(1, Math.ceil(Math.sqrt(this.legend.length))),
+        svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
+        width = Math.floor((svgW - margin.left - margin.right - Math.max(0, columns - 1)*margin.horiz)/columns),
+        mainH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height,
+        svgH = Math.max(140, mainH),
+        height = Math.floor((svgH - margin.top - margin.bottom - Math.max(0, columns - 1)*margin.vert)/columns),
+        xScale = d3.scaleTime().range([0, width]).domain([start, end]),
+        xWidth = width / this.curExtent,
+        xPosition = function(d) { return xScale(d3.max([start, d.date || d.data.date])) - xWidth/2; },
+        maxValues = this.legend.map(function(c) { return c.maxValues["all"]; }),
+        yMax = Math.max(0, d3.max(maxValues)),
+        yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]().range([height, 0]).domain([logarithmic ? 1 : 0, yMax]);
+      this.no_country_selected[0].xPos = svgW / 2 - 30;
+      this.no_country_selected[0].yPos = svgH / 2 - 15;
+
+      // Prepare svg
+      var svg = d3.select(".svg")
+        .style("height", mainH + "px")
+        .append("svg")
+          .attr("width", svgW)
+          .attr("height", svgH);
+
+      // Draw multiples
+      var hover = this.hover,
+        displayTooltip = this.displayTooltip,
+        clearTooltip = this.clearTooltip;
+      this.legend.sort(function(a, b) {
+        return b.maxValues["all"] - a.maxValues["all"];
+      }).forEach(function(c, i) {
+        var xIdx = i % columns,
+          yIdx = Math.floor(i / columns),
+          xPos = margin.left + xIdx * (width + margin.horiz),
+          yPos = margin.top + yIdx * (height + margin.vert);
+        c.style = {
+          "background-color": "lightgrey!important",
+          top: (yPos - 10) + "px",
+          left: (xPos - 10) + "px"
+        }
+        var g = svg.append("g")
+          .attr("transform", "translate(" + xPos + "," + yPos + ")");
+
+        casesLegend.forEach(function(cas) {
+          g.append("path")
+            .datum(dates)
+            .attr("id", c.id + "_" + cas.id.replace(/ /, ''))
+            .attr("class", "line")
+            .attr("fill", "none")
+            .attr("stroke", cas.color)
+            .attr("stroke-linejoin", "round")
+            .attr("stroke-linecap", "round")
+            .attr("stroke-width", 2)
+            .attr("d", d3.line()
+              .x(function(d) { return xScale(d.date); })
+              .y(function(d, i) {
+                if (logarithmic && values[c.name][cas.id][i] == 0)
+                  return yScale(1);
+                return yScale(values[c.name][cas.id][i]);
+              })
+            );
+        });
+
+        // Draw axis
+        g.append("g")
+          .attr("class", "axis axis--x")
+          .attr("transform", "translate(0, " + (height) + ")")
+          .call(d3.axisBottom(xScale).ticks(3, d3.timeFormat("%b %d")).tickSizeOuter(0));
+        g.append("g")
+          .attr("class", "axis axis--y")
+          .attr("transform", "translate(" + (width) + ", 0)")
+          .call(d3.axisRight(yScale).ticks(5, d3.strFormat).tickSizeOuter(0));
+  
+        // Draw tooltips surfaces
+        g.append("g")
+          .selectAll("rect.tooltip")
+          .data(dates).enter().append("rect")
+            .classed("tooltip", true)
+            .attr("did", function(d, i) { return i; })
+            .attr("country", c.name)
+            .attr("x", xPosition)
+            .attr("y", yScale.range()[1])
+            .attr("width", xWidth)
+            .attr("height", yScale.range()[0] - yScale.range()[1])
+            .on("mouseover", hover)
+            .on("mousemove", displayTooltip)
+            .on("mouseleave", clearTooltip);
+  
+      });
+      this.$forceUpdate();
+
+    },
+    drawSeries: function() {
+      var cas = this.case;
+      this.countries.forEach(function(c) {
+        c.maxStr = d3.strFormat(c.maxValues[cas]);
+        c.lastStr = d3.strFormat(c.lastValues[cas]);
+      });
+      this.legend.sort(function(a, b) {
+        return b.maxValues[cas] - a.maxValues[cas];
+      }).forEach(function(c, i) {
+        c.color = d3.defaultColors[i % d3.defaultColors.length];
+      });
+
       // Filter dates from zoom
-      var hiddenLeft = this.hiddenLeft,
+      var values = this.values,
+        dates = this.dates,
+        cas = this.case,
+        logarithmic = this.logarithmic,
+        hiddenLeft = this.hiddenLeft,
         hiddenRight = this.hiddenRight,
         zoomedDates = this.dates.slice(hiddenLeft, this.dates.length - hiddenRight).map(function(d) {
           return {
@@ -279,11 +413,7 @@ new Vue({
       this.curExtent = Math.round((end - start) / (1000*60*60*24));
 
       // Setup dimensions
-      var values = this.values,
-        dates = this.dates,
-        cas = this.case,
-        logarithmic = this.logarithmic,
-        margin = {top: 20, right: 90, bottom: 25, left: 60},
+      var margin = {top: 20, right: 90, bottom: 25, left: 60},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgW - margin.left - margin.right,
         mainH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height - document.getElementById("legend").getBoundingClientRect().height,
@@ -295,16 +425,6 @@ new Vue({
         maxValues = this.legend.map(function(c) { return c.maxValues[cas]; }),
         yMax = Math.max(0, d3.max(maxValues)),
         yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]().range([height, 0]).domain([logarithmic ? 1 : 0, yMax]);
-
-      this.countries.forEach(function(c) {
-        c.maxStr = d3.strFormat(c.maxValues[cas]);
-        c.lastStr = d3.strFormat(c.lastValues[cas]);
-      });
-      this.legend.sort(function(a, b) {
-        return b.maxValues[cas] - a.maxValues[cas];
-      }).forEach(function(c, i) {
-        c.color = d3.defaultColors[i % d3.defaultColors.length];
-      })
 
       // Prepare svg
       var g = d3.select(".svg")
@@ -371,32 +491,38 @@ new Vue({
           .on("mouseleave", this.clearTooltip)
           .on("wheel", this.zoom)
           .on("dblclick", this.zoom);
-
-      this.clearTooltip();
-
     },
     hover: function(d, i) {
       d3.selectAll('rect[did="' + i + '"]').style("fill-opacity", 0.25);
     },
     displayTooltip: function(d, i, rects) {
-      var values = this.values,
-        cas = this.case,
-        hiddenLeft = this.hiddenLeft;
       this.hoverDate = d.legend;
-      this.legend.forEach(function(c) {
-        var val = values[c.name][cas][i + hiddenLeft - c.shift];
-        if (val == undefined) c.value = "";
-        else c.value = d3.strFormat(values[c.name][cas][i + hiddenLeft - c.shift]);
-      });
+
+      var values = this.values;
+      if (!this.multiples) {
+        var cas = this.case,
+          hiddenLeft = this.hiddenLeft;
+        this.legend.forEach(function(c) {
+          var val = values[c.name][cas][i + hiddenLeft - c.shift];
+          if (val == undefined) c.value = "";
+          else c.value = d3.strFormat(values[c.name][cas][i + hiddenLeft - c.shift]);
+        });
+      } else {
+        var country = d3.select(rects[i]).attr('country');
+        this.cases.forEach(function(c) {
+          c.value = d3.strFormat(values[country][c.id][i]);
+        });
+      }
       d3.select(".tooltipBox")
       .style("left", d3.event.pageX - 80 + "px")
       .style("top", d3.event.pageY - 50 + "px")
       .style("display", "block");
     },
     clearTooltip: function(d, i) {
-      this.legend.forEach(function(l) {
-        l.value = null;
+      this[this.multiples ? "cases" : "legend"].forEach(function(c) {
+        c.value = null;
       });
+      this.$forceUpdate();
       d3.selectAll('rect[did="' + i + '"]').style("fill-opacity", 0);
       d3.select(".tooltipBox").style("display", "none");
     },

@@ -4,8 +4,9 @@ html {
 #corona {
   opacity: 0;
 }
-aside {
+aside.navigation-drawer {
   height: 100%;
+  overflow: unset;
 }
 .navigation-drawer--permanent.navigation-drawer--clipped {
   max-height: calc(100vh);
@@ -173,16 +174,17 @@ path.line.hover {
   font-size: 18px;
   color: black!important;
 }
-.legend.comparable {
+.legend.multiples {
   position: relative;
 }
-.legend.comparable .btn {
+.legend.multiples .btn {
   position: absolute;
   left: 5px;
   height: auto;
   min-width: auto;
   border: 1px solid #303030;
-  opacity: 0.7;
+  opacity: 1;
+  padding: 2px 25px 2px 5px;
 }
 rect.tooltip {
   fill: black;
