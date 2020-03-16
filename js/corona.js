@@ -2,6 +2,8 @@
 - Fix no selected case position
 - Adapt # ticks to # columns in multiples
 - Adjust vertical scale to zoom/fitted curves
+- When only one country selected in multiples, display final values in menu
+- highlight multiples plots on hover menu ?
 - button by country to keep only this one ?
 - Add population + ratio ?
 - add daily new cases as histograms ?
