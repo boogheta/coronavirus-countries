@@ -1,5 +1,4 @@
 /* TODO
-- add screenshot for social cards
 - Adjust vertical scale to zoom/fitted curves
 - Add world plot on top ?
 - Add ratio population ?
