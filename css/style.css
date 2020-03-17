@@ -208,7 +208,7 @@ rect.tooltip {
   z-index: 1000;
 }
 .dialog a, .dialog a:visited {
-  color: grey;
+  color: #999;
   text-decoration: none;
 }
 .dialog a:hover, .dialog a:visited:hover {
