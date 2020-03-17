@@ -186,6 +186,9 @@ path.line.hover {
   opacity: 1;
   padding: 2px 25px 2px 5px;
 }
+.legend.multiples .btn.inactive {
+  padding: 2px 5px;
+}
 rect.tooltip {
   fill: black;
   fill-opacity: 0;

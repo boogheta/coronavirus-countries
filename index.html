@@ -186,7 +186,7 @@
         <div v-if="multiples" class="legend multiples">
           <div
             v-for="item in (legend.length ? legend : no_country_selected)"
-            :class="{'btn': true, 'btn--raised': true, 'theme--light': true}"
+            :class="{'btn': true, 'btn--raised': true, 'theme--light': true, 'inactive': item.inactive}"
             :style="item.style"
           >{{ item.name }}
             <div class="remove"
