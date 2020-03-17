@@ -1,6 +1,5 @@
 /* TODO
 - Fix scale https://boogheta.github.io/coronavirus-countries/#deceased&multiples&countries=Italy,Iran,Spain,France,South%20Korea,United%20States,Germany
-- Adapt # ticks to # columns in multiples
 - Adjust vertical scale to zoom/fitted curves https://boogheta.github.io/coronavirus-countries/#confirmed&countries=China,Italy,Iran,South%20Korea,Spain,Germany,France,United%20States,Switzerland,Norway,United%20Kingdom,Belgium,Denmark,Austria,Japan,Qatar,Greece,Australia,Czechia,Canada,Portugal,Finland,Singapore,Slovenia,Bahrain,Estonia,Indonesia,Iraq,Thailand,India,Kuwait&align=France
 - When only one country selected in multiples, display final values in menu
 - highlight multiples plots on hover menu ?
@@ -296,7 +295,7 @@ new Vue({
 
 
       // Setup dimensions
-      var margin = {top: 20, right: 60, bottom: 35, left: 20, horiz: 60, vert: 30},
+      var margin = {top: 20, right: 60, bottom: 35, left: 40, horiz: 60, vert: 30},
         columns = Math.max(1, Math.ceil(Math.sqrt(this.legend.length))),
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = Math.floor((svgW - margin.left - margin.right - Math.max(0, columns - 1)*margin.horiz)/columns),
@@ -362,14 +361,17 @@ new Vue({
         });
 
         // Draw axis
+        var ticks = d3.axisBottom(xScale).tickFormat(d3.timeFormat("%b %d")).tickSizeOuter(0);
+        if (width <= 400)
+          ticks.ticks(2);
         g.append("g")
           .attr("class", "axis axis--x")
           .attr("transform", "translate(0, " + (height) + ")")
-          .call(d3.axisBottom(xScale).ticks(3, d3.timeFormat("%b %d")).tickSizeOuter(0));
+          .call(ticks);
         g.append("g")
           .attr("class", "axis axis--y")
           .attr("transform", "translate(" + (width) + ", 0)")
-          .call(d3.axisRight(yScale).ticks(5, d3.strFormat).tickSizeOuter(0));
+          .call(d3.axisRight(yScale).ticks(4 * Math.floor(height / 125), d3.strFormat).tickSizeOuter(0));
   
         // Draw tooltips surfaces
         g.append("g")
@@ -420,7 +422,7 @@ new Vue({
       this.curExtent = Math.round((end - start) / (1000*60*60*24));
 
       // Setup dimensions
-      var margin = {top: 20, right: 90, bottom: 25, left: 60},
+      var margin = {top: 20, right: 90, bottom: 25, left: 40},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgW - margin.left - margin.right,
         mainH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height - document.getElementById("legend").getBoundingClientRect().height,
@@ -477,11 +479,11 @@ new Vue({
       g.append("g")
         .attr("class", "axis axis--x")
         .attr("transform", "translate(0, " + (height) + ")")
-        .call(d3.axisBottom(xScale).ticks(8, d3.timeFormat("%b %d")).tickSizeOuter(0));
+        .call(d3.axisBottom(xScale).tickFormat(d3.timeFormat("%b %d")).tickSizeOuter(0));
       g.append("g")
         .attr("class", "axis axis--y")
         .attr("transform", "translate(" + (width) + ", 0)")
-        .call(d3.axisRight(yScale).ticks(20, d3.strFormat).tickSizeOuter(0));
+        .call(d3.axisRight(yScale).ticks(4 * Math.floor(height / 125), d3.strFormat).tickSizeOuter(0));
 
       // Draw tooltips surfaces
       g.append("g")
