@@ -1,5 +1,4 @@
 /* TODO
-- Fix scale https://boogheta.github.io/coronavirus-countries/#deceased&multiples&countries=Italy,Iran,Spain,France,South%20Korea,United%20States,Germany
 - Adjust vertical scale to zoom/fitted curves https://boogheta.github.io/coronavirus-countries/#confirmed&countries=China,Italy,Iran,South%20Korea,Spain,Germany,France,United%20States,Switzerland,Norway,United%20Kingdom,Belgium,Denmark,Austria,Japan,Qatar,Greece,Australia,Czechia,Canada,Portugal,Finland,Singapore,Slovenia,Bahrain,Estonia,Indonesia,Iraq,Thailand,India,Kuwait&align=France
 - When only one country selected in multiples, display final values in menu
 - highlight multiples plots on hover menu ?
@@ -221,7 +220,6 @@ new Vue({
             if (c !== "World")
               cas.total += lastVals[cas.id];
           });
-          maxVals["all"] = d3.max(Object.values(maxVals));
           return {
             id: c.toLowerCase().replace(/[^a-z]/, ''),
             name: c,
@@ -305,14 +303,15 @@ new Vue({
         xScale = d3.scaleTime().range([0, width]).domain([start, end]),
         xWidth = width / this.curExtent,
         xPosition = function(d) { return xScale(d3.max([start, d.date || d.data.date])) - xWidth/2; },
-        maxValues = this.legend.map(function(c) { return c.maxValues["all"]; }),
+        multiplesMax = function(c) { return d3.max(casesLegend.map(function(cas) { return c.maxValues[cas.id]; })); },
+        maxValues = this.legend.map(multiplesMax),
         yMax = Math.max(0, d3.max(maxValues)),
         yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]().range([height, 0]).domain([logarithmic ? 1 : 0, yMax]);
       this.no_country_selected[0].style = {
-          "background-color": "lightgrey!important",
-          top: (svgH / 2 - 20) + "px",
-          left: (svgW / 2 - 150) + "px"
-        };
+        "background-color": "lightgrey!important",
+        top: (svgH / 2 - 20) + "px",
+        left: (svgW / 2 - 150) + "px"
+      };
 
       // Prepare svg
       var svg = d3.select(".svg")
@@ -326,7 +325,7 @@ new Vue({
         displayTooltip = this.displayTooltip,
         clearTooltip = this.clearTooltip;
       this.legend.sort(function(a, b) {
-        return b.maxValues["all"] - a.maxValues["all"];
+        return multiplesMax(b) - multiplesMax(a);
       }).forEach(function(c, i) {
         var xIdx = i % columns,
           yIdx = Math.floor(i / columns),
