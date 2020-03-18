@@ -122,10 +122,12 @@ new Vue({
             c.shiftStr = "";
           } else {
             var shifts = [],
+              ndates = 0;
               curVal = null,
               lastVal = null;
             dates.forEach(function(d, i) {
-              if (refValues[i] < 20) return;
+              if (refValues[i] < 20 || ndates > 20) return;
+              ndates++;
               for (var j = 1; j < dates.length ; j++) {
                 curVal = values[c.name][cas][j];
                 if (curVal < refValues[i]) {
