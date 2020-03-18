@@ -1,12 +1,3 @@
-/* TODO
-- Fix bug with countries values not being updated when in small multiples mode
-- When only one country selected in multiples, display final values in menu
-- Add population + ratio ?
-- Add daily new cases as histograms ?
-- Add annotations by country ?
-- Countries in separate menu with map ?
-*/
-
 d3.formatDefaultLocale({
   "decimal": ".",
   "thousands": " ",
