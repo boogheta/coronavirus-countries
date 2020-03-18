@@ -74,6 +74,17 @@ nav .update {
   font-weight: bold;
   white-space: nowrap;
 }
+.keep {
+  position: absolute;
+  right: 3px;
+  top: 10px;
+  z-index: 10;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.keep .icon {
+ font-size: 14px!important;
+}
 .input-group__input .input-group__prepend-icon, .input-group.unselected .input-group__append-icon {
   color: white!important;
 }

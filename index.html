@@ -125,6 +125,13 @@
           </v-list-tile-content>
           <v-list-tile-action>
             <v-switch light v-model="item.selected" color="white"></v-switch>
+            <span class="keep"
+              v-if="item.selected && legend.length > 1"
+              @click="keepOnlyCountry(item.name)"
+              :title="'Keep only ' + item.name"
+            >
+              <v-icon>input</v-icon>
+            </span>
           </v-list-tile-action>
         </v-list-tile>
       </v-list>

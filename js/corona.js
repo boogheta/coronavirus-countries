@@ -1,8 +1,6 @@
 /* TODO
 - When only one country selected in multiples, display final values in menu
 - highlight multiples plots on hover menu ?
-- Button by country to keep only this one ?
-- Button to select/deselect all
 - Add population + ratio ?
 - Add daily new cases as histograms ?
 - Countries in separate menu with map ?
@@ -256,6 +254,11 @@ new Vue({
         this.cases.forEach(function(c) {
           c.selected = c.id === newCase;
         });
+    },
+    keepOnlyCountry: function(keep) {
+      this.countries.forEach(function(c) {
+        c.selected = (c.name === keep);
+      });
     },
     sortCountries: function() {
       var cas = this.case,
