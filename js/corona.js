@@ -1,10 +1,10 @@
 /* TODO
-- Adjust vertical scale to zoom/fitted curves https://boogheta.github.io/coronavirus-countries/#confirmed&countries=China,Italy,Iran,South%20Korea,Spain,Germany,France,United%20States,Switzerland,Norway,United%20Kingdom,Belgium,Denmark,Austria,Japan,Qatar,Greece,Australia,Czechia,Canada,Portugal,Finland,Singapore,Slovenia,Bahrain,Estonia,Indonesia,Iraq,Thailand,India,Kuwait&align=France
 - When only one country selected in multiples, display final values in menu
 - highlight multiples plots on hover menu ?
-- button by country to keep only this one ?
+- Button by country to keep only this one ?
+- Button to select/deselect all
 - Add population + ratio ?
-- add daily new cases as histograms ?
+- Add daily new cases as histograms ?
 - Countries in separate menu with map ?
 */
 
@@ -416,6 +416,17 @@ new Vue({
             legend: d3.timeFormat("%a %e %B %Y")(d)
           };
         }),
+        shiftedDates = function(c) {
+          return dates.slice(
+            Math.max(hiddenLeft, c.shift),
+            dates.length - Math.max(hiddenRight, -c.shift)
+          ).map(function(d) {
+            return {
+              date: d,
+              legend: d3.timeFormat("%a %e %B %Y")(d)
+            };
+          });
+        },
         start = zoomedDates[0].date,
         end = zoomedDates[zoomedDates.length - 1].date;
       this.curExtent = Math.round((end - start) / (1000*60*60*24));
@@ -427,12 +438,26 @@ new Vue({
         mainH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height - document.getElementById("legend").getBoundingClientRect().height,
         svgH = Math.max(140, mainH),
         height = svgH - margin.top - margin.bottom,
-        xScale = d3.scaleTime().range([0, width]).domain([start, end]),
+        xScale = d3.scaleTime()
+          .range([0, width])
+          .domain([start, end]),
         xWidth = width / this.curExtent,
-        xPosition = function(d) { return xScale(d3.max([start, d.date || d.data.date])) - xWidth/2; },
-        maxValues = this.legend.map(function(c) { return c.maxValues[cas]; }),
-        yMax = Math.max(0, d3.max(maxValues)),
-        yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]().range([height, 0]).domain([logarithmic ? 1 : 0, yMax]);
+        xPosition = function(d) {
+          return xScale(d3.max([start, d.date || d.data.date])) - xWidth/2;
+        },
+        shiftedVal = function(c, d, i) {
+          var idx = i + Math.max(0, hiddenLeft - c.shift);
+          return values[c.name][cas][idx];
+        },
+        shiftedMaxVal = function(c) {
+          return d3.max(shiftedDates(c).map(function(d, i) {
+            return shiftedVal(c, d, i);
+          }));
+        },
+        yMax = Math.max(0, d3.max(this.legend.map(shiftedMaxVal))),
+        yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]()
+          .range([height, 0])
+          .domain([logarithmic ? 1 : 0, yMax]);
 
       // Prepare svg
       var g = d3.select(".svg")
@@ -445,17 +470,8 @@ new Vue({
 
       // Draw series
       this.legend.forEach(function(c) {
-        var shiftedDates = dates.slice(
-          Math.max(hiddenLeft, c.shift),
-          dates.length - Math.max(hiddenRight, -c.shift)
-        ).map(function(d) {
-          return {
-            date: d,
-            legend: d3.timeFormat("%a %e %B %Y")(d)
-          };
-        });
         g.append("path")
-          .datum(shiftedDates)
+          .datum(shiftedDates(c))
           .attr("id", c.id)
           .attr("class", "line")
           .attr("fill", "none")
@@ -466,10 +482,10 @@ new Vue({
           .attr("d", d3.line()
             .x(function(d) { return xScale(d.date); })
             .y(function(d, i) {
-              var idx = i + Math.max(0, hiddenLeft - c.shift);
-              if (logarithmic && values[c.name][cas][idx] == 0)
+              var val = shiftedVal(c, d, i);
+              if (logarithmic && val == 0)
                 return yScale(1);
-              return yScale(values[c.name][cas][idx]);
+              return yScale(val);
             })
           );
       });
