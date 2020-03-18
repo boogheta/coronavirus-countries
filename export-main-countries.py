@@ -48,20 +48,20 @@ data = {
         "confirmed": [],
         "recovered": [],
         "deceased": [],
-        "currently sick": []
+        "currently_sick": []
       }
     },
     "last_update": "##LASTUPDATE##"
 }
 for d in dates:
-    for c in ["confirmed", "recovered", "deceased", "currently sick"]:
+    for c in ["confirmed", "recovered", "deceased", "currently_sick"]:
         data["values"]["World"][c].append(0)
 for c in sorted(countries["confirmed"].keys()):
     data["values"][c] = {
         "confirmed": [],
         "recovered": [],
         "deceased": [],
-        "currently sick": []
+        "currently_sick": []
     }
     for i, d in enumerate(dates):
         conf = sum_values(countries["confirmed"][c], d)
@@ -73,8 +73,8 @@ for c in sorted(countries["confirmed"].keys()):
         deceased = sum_values(countries["deceased"][c], d)
         data["values"][c]["deceased"].append(deceased)
         data["values"]["World"]["deceased"][i] += deceased
-        data["values"][c]["currently sick"].append(conf - reco - deceased)
-        data["values"]["World"]["currently sick"][i] += conf - reco - deceased
+        data["values"][c]["currently_sick"].append(conf - reco - deceased)
+        data["values"]["World"]["currently_sick"][i] += conf - reco - deceased
 
 
 with open(os.path.join("data", "coronavirus-countries.json"), "w") as f:

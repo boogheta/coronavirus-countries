@@ -1,8 +1,9 @@
 /* TODO
+- Fix bug with countries values not being updated when in small multiples mode
 - When only one country selected in multiples, display final values in menu
-- highlight multiples plots on hover menu ?
 - Add population + ratio ?
 - Add daily new cases as histograms ?
+- Add annotations by country ?
 - Countries in separate menu with map ?
 */
 
@@ -47,7 +48,7 @@ new Vue({
       {id: "confirmed",       selected: false,  total: 0, color: d3.defaultColors[0]},
       {id: "recovered",       selected: false,  total: 0, color: d3.defaultColors[1]},
       {id: "deceased",        selected: false,  total: 0, color: d3.defaultColors[2]},
-      {id: "currently sick",  selected: false,  total: 0, color: d3.defaultColors[3]}
+      {id: "currently_sick",  selected: false,  total: 0, color: d3.defaultColors[3]}
     ],
     logarithmic: false,
     multiples: false,
@@ -184,7 +185,7 @@ new Vue({
       if (startup) {
         if (!options.countries.length)
           options.countries = this.defaultCountries;
-        if (!options.confirmed && !options.recovered && !options.deceased && !options["currently sick"])
+        if (!options.confirmed && !options.recovered && !options.deceased && !options.currently_sick)
           options.confirmed = true;
       }
       this.logarithmic = !!options.log;
@@ -347,8 +348,8 @@ new Vue({
         casesLegend.forEach(function(cas) {
           g.append("path")
             .datum(dates)
-            .attr("id", c.id + "_" + cas.id.replace(/ /, ''))
-            .attr("class", "line")
+            .attr("id", c.id + "_" + cas.id)
+            .attr("class", "line " + cas.id)
             .attr("fill", "none")
             .attr("stroke", cas.color)
             .attr("stroke-linejoin", "round")
@@ -554,6 +555,10 @@ new Vue({
       this.$forceUpdate();
       d3.selectAll('rect[did="' + i + '"]').style("fill-opacity", 0);
       d3.select(".tooltipBox").style("display", "none");
+    },
+    hoverCase: function(cas, hov) {
+      if (this.multiples && cas.selected)
+        d3.selectAll("." + cas.id).classed("hover", hov);
     },
     zoom: function(d, i, rects) {
       var direction = (d3.event.deltaY && d3.event.deltaY > 0 ? -1 : 1),
