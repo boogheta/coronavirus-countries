@@ -16,7 +16,7 @@ def clean_region(r):
     r = r.replace("French Guiana", "France")
     r = r.replace("Russian Federation", "Russia")
     if r == "US":
-        r = "United States"
+        r = "USA"
     return r
 
 countries = {
