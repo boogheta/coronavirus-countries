@@ -202,14 +202,14 @@ new Vue({
       cases.forEach(function(cas) {
         cas.total = 0;
       });
-      this.countries = Object.keys(data.values)
+      this.countries = Object.keys(data.scopes.World.values)
         .map(function(c) {
           var maxVals = {},
             lastVals = {};
           cases.forEach(function(cas) {
-            maxVals[cas.id] = d3.max(data.values[c][cas.id]);
-            lastVals[cas.id] = data.values[c][cas.id][data.dates.length - 1];
-            if (c !== "World")
+            maxVals[cas.id] = d3.max(data.scopes.World.values[c][cas.id]);
+            lastVals[cas.id] = data.scopes.World.values[c][cas.id][data.dates.length - 1];
+            if (c !== "total")
               cas.total += lastVals[cas.id];
           });
           return {
@@ -235,7 +235,7 @@ new Vue({
         cas.total = d3.strFormat(cas.total);
       });
       if (!this.countriesOrder) this.countriesOrder = "cases";
-      this.values = data.values;
+      this.values = data.scopes.World.values;
       this.dates = data.dates.map(d3.datize);
       this.extent = Math.round((this.dates[this.dates.length - 1] - this.dates[0]) / (1000*60*60*24));
       this.lastUpdateStr = new Date(data.last_update*1000).toUTCString();
