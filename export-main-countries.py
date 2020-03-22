@@ -116,15 +116,18 @@ data = {
       "USA": {
         "level": "state",
       },
-      "France": {
-        "level": "region",
-      },
+    #  "France": {
+    #    "level": "region",
+    #  },
+    #  "Italy": {
+    #    "level": "region",
+    #  },
       "Canada": {
         "level": "province",
       },
-      "United Kingdom": {
-        "level": "country",
-      },
+    #  "United Kingdom": {
+    #    "level": "country",
+    #  },
       "Australia": {
         "level": "state",
       }
@@ -132,9 +135,9 @@ data = {
     "last_update": "##LASTUPDATE##"
 }
 
-for c, values in countries["confirmed"].items():
-    if len(values) > 1:
-        print c, len(values)
+#for c, values in countries["confirmed"].items():
+#    if len(values) > 1:
+#        print c, len(values)
 
 unit_vals = {
     # population: 0,
@@ -156,11 +159,12 @@ for name, scope in data["scopes"].items():
         if c not in scope["values"]:
             scope["values"][c] = deepcopy(unit_vals)
         for i, d in enumerate(dates):
+            vals = {}
             for cas in ["confirmed", "recovered", "deceased"]:
-                val = sum_values(countries[cas][c], d) if name == "World" else get_value(countries[cas][name][idx], d)
-                scope["values"][c][cas][i] += val
-                scope["values"]["total"][cas][i] += val
-            sick = scope["values"][c]["confirmed"][i] - scope["values"][c]["recovered"][i] - scope["values"][c]["deceased"][i]
+                vals[cas] = sum_values(countries[cas][c], d) if name == "World" else get_value(countries[cas][name][idx], d)
+                scope["values"][c][cas][i] += vals[cas]
+                scope["values"]["total"][cas][i] += vals[cas]
+            sick = vals["confirmed"] - vals["recovered"] - vals["deceased"]
             scope["values"][c]["currently_sick"][i] += sick
             scope["values"]["total"]["currently_sick"][i] += sick
 
