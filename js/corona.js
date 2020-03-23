@@ -167,6 +167,9 @@ new Vue({
       });
     },
     multiples: function() {
+      this.cases.forEach(function(c) {
+        c.value = null;
+      });
       this.hiddenLeft = 0;
       this.hiddenRight = 0;
       this.refCountry = null;
@@ -618,8 +621,11 @@ new Vue({
       .style("display", "block");
     },
     clearTooltip: function(d, i) {
-      this[this.multiples ? "cases" : "legend"].forEach(function(c) {
-        c.value = null;
+      var cas = this.case,
+        legend = this.legend,
+        multiples = this.multiples;
+      this[multiples ? "cases" : "legend"].forEach(function(c) {
+        c.value = (multiples && legend.length == 1 ? d3.strFormat(legend[0].lastValues[c.id]) : null);
       });
       this.$forceUpdate();
       d3.selectAll('rect[did="' + i + '"]').style("fill-opacity", 0);
