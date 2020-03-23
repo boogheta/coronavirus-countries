@@ -119,13 +119,13 @@ new Vue({
       }
       window.location.hash = newValue;
     },
-    scope: function(newValue) {
+    scope: function(newValue, oldValue) {
       this.countries.forEach(function(c) {
         c.shift = 0;
       });
       this.level = this.scopes[newValue].level;
       this.countries = this.scopes[newValue].countries;
-      this.refCountry = null;
+      if (oldValue) this.refCountry = null;
       this.countriesOrder = "cases";
       this.hiddenLeft = 0;
       this.hiddenRight = 0;
