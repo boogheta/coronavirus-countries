@@ -27,6 +27,7 @@ document.getElementById("corona").style.opacity = 1;
 new Vue({
   el: "#corona",
   data: {
+    init: true,
     lastUpdateStr: "",
     scope: null,
     scopes: {},
@@ -97,26 +98,21 @@ new Vue({
       });
     },
     url: function() {
+      if (this.init) return window.location.hash.slice(1);
       return (this.scope !== "World" ? "country="+this.scope+"&" : "") +
         (this.multiples ? this.casesChosen : this.case) +
         (this.logarithmic ? "&log" : "") +
         (this.multiples ? "&multiples" : "") +
-        "&places=" + this.legend
-          .map(function(c) { return c.name; })
+        "&places=" + (this.legend.length ? this.legend : this.scopes[this.scope].countries.filter(function(c) { return c.selected; }))
+          .sort(this.staticCountriesSort(null, "names"))
+          .map(function(c) { return c.name.replace(' ', '%20'); })
           .join(",") +
         (this.refCountry ? "&align=" + this.refCountry : "") +
         (this.refCase !== "confirmed" ? "&alignTo=" + this.refCase : "");
     }
   },
   watch: {
-    url: function(newValue) {
-      var ref = this.refCountry;
-      if (ref && this.legend.length && !this.legend.filter(function(c) {
-        return c.name === ref;
-      }).length) {
-        this.refCountry = null;
-        newValue = newValue.replace(/&align=.*$/, '');
-      }
+    url: function(newValue, oldValue) {
       window.location.hash = newValue;
     },
     scope: function(newValue, oldValue) {
@@ -145,8 +141,6 @@ new Vue({
     }
   },
   mounted: function() {
-    window.addEventListener("hashchange", this.readUrl);
-    window.addEventListener("resize", this.onResize);
     this.download_data();
     setInterval(this.download_data, 3600000);
   },
@@ -164,7 +158,7 @@ new Vue({
       this.draw();
       this.resizing = null;
     },
-    readUrl: function(startup) {
+    readUrl: function() {
       var el, options = {countries: []};
       window.location.hash.slice(1).split(/&/).forEach(function(opt) {
         el = decodeURIComponent(opt).split(/=/);
@@ -179,7 +173,7 @@ new Vue({
         else options[el[0]] = true;
       });
       this.scope = options.scope || "World";
-      if (startup == true) {
+      if (this.init) {
         if (!options.countries.length)
           options.countries = this.scopes[this.scope].countries.filter(function(c) {
             return c.selected;
@@ -199,7 +193,12 @@ new Vue({
       });
       this.refCountry = options.align || null;
       this.refCase = options.alignTo || "confirmed";
-      this.$nextTick(startup == true ? this.resize : this.draw);
+      if (this.init) {
+        this.init = false;
+        this.$nextTick(this.resize);
+        window.addEventListener("hashchange", this.readUrl);
+        window.addEventListener("resize", this.onResize);
+      } else this.draw();
     },
     download_data: function() {
       var cacheBypass = new Date().getTime();
@@ -298,7 +297,7 @@ new Vue({
       this.dates = data.dates.map(d3.datize);
       this.extent = Math.round((this.dates[this.dates.length - 1] - this.dates[0]) / (1000*60*60*24));
       this.lastUpdateStr = new Date(data.last_update*1000).toUTCString();
-      this.readUrl(true);
+      this.readUrl();
     },
     levelLabel: function(level) {
       return (level + "s").replace(/ys$/, "ies");
