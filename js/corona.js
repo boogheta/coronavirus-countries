@@ -47,6 +47,11 @@ new Vue({
       {id: "deceased",        selected: false,  total: {}, color: d3.defaultColors[2]},
       {id: "currently_sick",  selected: false,  total: {}, color: d3.defaultColors[3]}
     ],
+    refCase: "confirmed",
+    refCases: [
+        {id: "confirmed", min_cases: 50, max_dates: 20},
+        {id: "deceased",  min_cases: 10, max_dates: 50}
+    ],
     logarithmic: false,
     multiples: false,
     resizing: null,
@@ -99,7 +104,8 @@ new Vue({
         "&places=" + this.legend
           .map(function(c) { return c.name; })
           .join(",") +
-        (this.refCountry ? "&align=" + this.refCountry : "");
+        (this.refCountry ? "&align=" + this.refCountry : "") +
+        (this.refCase !== "confirmed" ? "&alignTo=" + this.refCase : "");
     }
   },
   watch: {
@@ -127,45 +133,8 @@ new Vue({
     },
     casesChosen: function() { this.sortCountries(); },
     countriesOrder: function() { this.sortCountries(); },
-    refCountry: function(newValue) {
-      if (newValue && this.scope) {
-        var values = this.values[this.scope],
-          dates = this.dates,
-          cas = this.case,
-          refStart = null,
-          refId = this.countries.filter(function(c) { return c.name === newValue; })[0].id,
-          refValues = values[refId][cas];
-        this.countries.forEach(function(c) {
-          if (c.name === newValue) {
-            c.shift = 0;
-            c.shiftStr = "";
-          } else {
-            var shifts = [],
-              ndates = 0;
-              curVal = null,
-              lastVal = null;
-            dates.forEach(function(d, i) {
-              if (refValues[i] < 20 || ndates > 20) return;
-              ndates++;
-              for (var j = 1; j < dates.length ; j++) {
-                curVal = values[c.id][cas][j];
-                if (curVal < refValues[i]) {
-                  lastVal = curVal;
-                  continue;
-                }
-                shifts.push(i - j - (refValues[i] - curVal)/(curVal - lastVal));
-                break;
-              }
-            });
-            c.shift = Math.round(d3.mean(shifts));
-            c.shiftStr = d3.formatShift(c.shift);
-          }
-        });
-      } else this.countries.forEach(function(c) {
-        c.shift = 0;
-        c.shiftStr = "";
-      });
-    },
+    refCase: function() { this.alignPlaces(); },
+    refCountry: function() { this.alignPlaces(); },
     multiples: function() {
       this.cases.forEach(function(c) {
         c.value = null;
@@ -203,6 +172,8 @@ new Vue({
           options.countries = el[1] ? el[1].split(/,/) : [];
         else if (el[0] === "country")
           options.scope = el[1];
+        else if (el[0] === "alignTo")
+          options.alignTo = el[1];
         else if (el[0] === "align")
           options.align = el[1];
         else options[el[0]] = true;
@@ -227,6 +198,7 @@ new Vue({
         c.selected = !!~options.countries.indexOf(c.name);
       });
       this.refCountry = options.align || null;
+      this.refCase = options.alignTo || "confirmed";
       this.$nextTick(startup == true ? this.resize : this.draw);
     },
     download_data: function() {
@@ -341,6 +313,47 @@ new Vue({
     },
     sortCountries: function() {
       return this.countries.sort(this.staticCountriesSort(this.case, this.countriesOrder));
+    },
+    alignPlaces: function() {
+      var refCountry = this.refCountry;
+      if (refCountry && this.scope) {
+        var values = this.values[this.scope],
+          dates = this.dates,
+          refCase = this.refCase,
+          refCaseParams = this.refCases.filter(function(c) { return c.id === refCase; })[0],
+          refStart = null,
+          refId = this.countries.filter(function(c) { return c.name === refCountry; })[0].id,
+          refValues = values[refId][refCase];
+        this.countries.forEach(function(c) {
+          if (c.name === refCountry) {
+            c.shift = 0;
+            c.shiftStr = "";
+          } else {
+            var shifts = [],
+              ndates = 0;
+              curVal = null,
+              lastVal = null;
+            dates.forEach(function(d, i) {
+              if (refValues[i] < refCaseParams.min_cases || ndates > refCaseParams.max_dates) return;
+              ndates++;
+              for (var j = 1; j < dates.length ; j++) {
+                curVal = values[c.id][refCase][j];
+                if (curVal < refValues[i]) {
+                  lastVal = curVal;
+                  continue;
+                }
+                shifts.push(i - j - (refValues[i] - curVal)/(curVal - lastVal));
+                break;
+              }
+            });
+            c.shift = Math.round(d3.mean(shifts));
+            c.shiftStr = d3.formatShift(c.shift);
+          }
+        });
+      } else this.countries.forEach(function(c) {
+        c.shift = 0;
+        c.shiftStr = "";
+      });
     },
     draw: function() {
       d3.select(".svg").selectAll("svg").remove();

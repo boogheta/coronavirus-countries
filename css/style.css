@@ -51,9 +51,12 @@ nav .update {
 .switcher.unchecked:hover {
   opacity: 1;
 }
+.scopefocus .input-group__selections__comma {
+  text-decoration: underline dotted;
+}
 .sort {
   height: 18px;
-  margin: -12px 72px 12px 0px;
+  margin: -4px 72px 12px 0px;
 }
 .sort small.unchecked {
   cursor: pointer;
@@ -224,4 +227,14 @@ rect.tooltip {
 }
 .dialog a:hover, .dialog a:visited:hover {
   text-decoration: underline;
+}
+.selectAlign .input-group {
+  max-width: 80px;
+}
+.selectAlign .input-group__selections__comma {
+  margin: auto;
+  text-decoration: underline dotted;
+}
+.selectAlign .chip {
+  margin-left: auto;
 }
