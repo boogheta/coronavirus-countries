@@ -123,6 +123,17 @@ new Vue({
       this.countries = this.scopes[newValue].countries;
       if (oldValue) this.refCountry = null;
       this.countriesOrder = "cases";
+      if (!this.countries.filter(function(c) { return c.selected; }).length) {
+        var startPlaces = (
+          this.defaultPlaces[this.scope] ||
+          this.countries.sort(this.staticCountriesSort(this.case, "cases"))
+            .slice(1, 6)
+            .map(function(c) { return c.name; })
+        );
+        this.countries.forEach(function(c) {
+          c.selected = !!~startPlaces.indexOf(c.name);
+        });
+      }
       this.hiddenLeft = 0;
       this.hiddenRight = 0;
       this.sortCountries();
@@ -208,7 +219,7 @@ new Vue({
       );
     },
     prepareData: function(data) {
-    // TOFIX: cas is always confirmed here at startup, url wasn't read yet
+    // WARNING: at startup, url wasn't read yet, so cas here is always confirmed then (it does not matter since it is only used to resort existing countries at reload)
       var cas = this.case,
         cases = this.cases,
         scopes = this.scopes,
@@ -266,13 +277,6 @@ new Vue({
           });
         }
         scopes[scope].countries.sort(staticCountriesSort(cas, "cases"))
-        var startPlaces = (
-          defaultPlaces[scope] ||
-          scopes[scope].countries.slice(1, 6).map(function(c) { return c.name; })
-        );
-        scopes[scope].countries.forEach(function(c) {
-          c.selected = !!~startPlaces.indexOf(c.name);
-        });
         refCountries[scope] = scopes[scope].countries.filter(function(c) {
           return c.maxValues['confirmed'] >= 100;
         }).sort(function(a, b) {
