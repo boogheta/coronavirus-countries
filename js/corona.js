@@ -209,10 +209,11 @@ new Vue({
       );
     },
     prepareData: function(data) {
+    // TOFIX: cas is always confirmed here at startup, url wasn't read yet
       var cas = this.case,
         cases = this.cases,
         scopes = this.scopes,
-        scopeChoices = this.scopeChoices,
+        scopeChoices = this.scopeChoices = [],
         values = this.values,
         refCountries = this.refCountries,
         defaultPlaces = this.defaultPlaces,
@@ -223,36 +224,49 @@ new Vue({
         cases.forEach(function(ca) {
           ca.total[scope] = 0;
         });
-        scopes[scope] = {
-          "level": data.scopes[scope].level,
-          "countries": Object.keys(data.scopes[scope].values)
-            .map(function(c) {
-              var maxVals = {},
-                lastVals = {},
-                cid = c.toLowerCase().replace(/[^a-z]/, '');
-              values[scope][cid] = {};
-              cases.forEach(function(ca) {
-                values[scope][cid][ca.id] = data.scopes[scope].values[c][ca.id];
-                maxVals[ca.id] = d3.max(values[scope][cid][ca.id]);
-                lastVals[ca.id] = values[scope][cid][ca.id][data.dates.length - 1];
-                if (c !== "total")
-                  ca.total[scope] += lastVals[ca.id];
-              });
-              return {
-                id: cid,
-                name: (c === "total" ? scope : c),
-                color: "",
-                value: null,
-                shift: 0,
-                shiftStr: "",
-                maxValues: maxVals,
-                lastValues: lastVals,
-                lastStr: "",
-                selected: false
-              };
-            })
-            .sort(staticCountriesSort(cas, "cases"))
+        var level = data.scopes[scope].level,
+          countries = Object.keys(data.scopes[scope].values)
+          .map(function(c) {
+            var maxVals = {},
+              lastVals = {},
+              cid = c.toLowerCase().replace(/[^a-z]/, '');
+            values[scope][cid] = {};
+            cases.forEach(function(ca) {
+              values[scope][cid][ca.id] = data.scopes[scope].values[c][ca.id];
+              maxVals[ca.id] = d3.max(values[scope][cid][ca.id]);
+              lastVals[ca.id] = values[scope][cid][ca.id][data.dates.length - 1];
+              if (c !== "total")
+                ca.total[scope] += lastVals[ca.id];
+            });
+            return {
+              id: cid,
+              name: (c === "total" ? scope : c),
+              color: "",
+              value: null,
+              shift: 0,
+              shiftStr: "",
+              maxValues: maxVals,
+              lastValues: lastVals,
+              lastStr: "",
+              selected: false
+            };
+          })
+        if (!scopes[scope])
+          scopes[scope] = {
+            "level": level,
+            "countries": countries
+          }
+        else {
+          scopes[scope].level = level;
+          var indices = {};
+          scopes[scope].countries.forEach(function(c, i) {
+            indices[c.id] = i;
+          });
+          countries.forEach(function(c) {
+            scopes[scope].countries[indices[c.id]] = c;
+          });
         }
+        scopes[scope].countries.sort(staticCountriesSort(cas, "cases"))
         var startPlaces = (
           defaultPlaces[scope] ||
           scopes[scope].countries.slice(1, 6).map(function(c) { return c.name; })
