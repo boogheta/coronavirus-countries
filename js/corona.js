@@ -79,6 +79,7 @@ new Vue({
       }
       return (this.casesLegend[0] || {id: "confirmed"}).id;
     },
+    caseLabel: function() { return (this.case || "cases").replace(/_/, ' '); },
     casesChosen: function() {
       return this.casesLegend.map(function(c) { return c.id }).join("&");
     },
@@ -383,6 +384,10 @@ new Vue({
         top: (svgH / 2 - 20) + "px",
         left: (svgW / 2 - 150) + "px"
       };
+
+      this.countries.forEach(function(c) {
+        c.lastStr = d3.strFormat(c.lastValues[cas]);
+      });
 
       // Prepare svg
       var svg = d3.select(".svg")
