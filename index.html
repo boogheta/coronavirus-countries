@@ -44,7 +44,7 @@
           <v-list-tile-content>
             <v-list-tile-title>
               <span class="country">{{ item.id.replace(/_/, ' ') }}</span>
-              <span class="value amount">{{ item.value || item.total }}</span>
+              <span class="value amount">{{ item.value != null ? item.value : item.total[scope] }}</span>
             </v-list-tile-title>
           </v-list-tile-content>
           <v-list-tile-action>
@@ -96,7 +96,17 @@
           </v-list-tile-content>
         </v-list-tile>
 
-        <v-subheader class="bordered mt-2">Countries</v-subheader>
+        <v-subheader class="bordered mt-2">
+          <v-select auto single-line hide-details
+            v-model="scope"
+            :items="scopeChoices"
+            item-text="label"
+            item-value="name"
+            class="select scopefocus"
+            @change="scope = $event"
+          >
+          </v-select>
+        </v-subheader>
         <v-list-tile class="sort">
           <v-list-tile-content>
             <v-list-tile-title>
@@ -157,9 +167,6 @@
             class="select"
             @change="refCountry = $event"
           >
-            <template slot="item" scope="f">
-              <v-list-tile-content><v-list-tile-title v-html="f.item.name"></v-list-tile-title></v-list-tile-content>
-            </template>
           </v-select></v-list-tile-content>
         </v-list-tile>
 
