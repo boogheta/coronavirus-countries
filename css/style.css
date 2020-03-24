@@ -238,3 +238,9 @@ rect.tooltip {
 .selectAlign .chip {
   margin-left: auto;
 }
+#controls .radio-group {
+  width: 30px;
+}
+#controls .radio-group label {
+  display: none;
+}

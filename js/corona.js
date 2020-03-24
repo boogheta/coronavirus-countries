@@ -48,6 +48,7 @@ new Vue({
       {id: "deceased",        selected: false,  total: {}, color: d3.defaultColors[2]},
       {id: "currently_sick",  selected: false,  total: {}, color: d3.defaultColors[3]}
     ],
+    caseChoice: null,
     refCase: "confirmed",
     refCases: [
         {id: "confirmed", min_cases: 50, max_dates: 20},
@@ -146,6 +147,7 @@ new Vue({
       this.cases.forEach(function(c) {
         c.value = null;
       });
+      this.caseChoice = this.case;
       this.hiddenLeft = 0;
       this.hiddenRight = 0;
       this.refCountry = null;
@@ -199,6 +201,7 @@ new Vue({
       this.cases.forEach(function(c) {
         c.selected = !!options[c.id];
       });
+      this.caseChoice = this.case;
       this.scopes[this.scope].countries.forEach(function(c) {
         c.selected = !!~options.countries.indexOf(c.name);
       });
@@ -307,10 +310,17 @@ new Vue({
       return (level + "s").replace(/ys$/, "ies");
     },
     selectCase: function(newCase) {
-      if (!this.multiples)
+      if (!this.multiples) {
+        this.caseChoice = newCase;
         this.cases.forEach(function(c) {
           c.selected = (c.id === newCase);
         });
+      } else {
+        var cas = this.cases.filter(function(c) {
+          return c.id === newCase;
+        })[0];
+        cas.selected = !cas.selected;
+      }
     },
     keepOnlyCountry: function(keep) {
       this.countries.forEach(function(c) {

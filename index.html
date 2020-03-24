@@ -48,7 +48,14 @@
             </v-list-tile-title>
           </v-list-tile-content>
           <v-list-tile-action>
-            <v-switch light v-model="item.selected" color="white"></v-switch>
+            <v-radio-group v-model="caseChoice" v-if="!multiples">
+              <v-radio hide-details color="white" :value="item.id"></v-radio>
+            </v-radio-group>
+            <v-switch light color="white"
+              v-if="multiples"
+              v-model="item.selected"
+              @click.native.stop="false"
+            ></v-switch>
           </v-list-tile-action>
         </v-list-tile>
 
