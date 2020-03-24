@@ -237,8 +237,8 @@
           v-if="item.selected && !multiples"
           :class="{'btn': true, 'btn--raised': true, 'btn--disabled': item.inactive}"
           :style="{'background-color': item.color+'!important'}"
-          @mouseover="document.getElementById(item.id).classList.add('hover')"
-          @mouseleave="document.getElementById(item.id).classList.remove('hover')"
+          @mouseover="hoverCountry(item.id, true)"
+          @mouseleave="hoverCountry(item.id, false)"
         >
           <div class="remove"
             v-if="!item.inactive"

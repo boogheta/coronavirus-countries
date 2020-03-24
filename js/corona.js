@@ -422,7 +422,12 @@ new Vue({
         multiplesMax = function(c) { return d3.max(casesLegend.map(function(cas) { return c.maxValues[cas.id]; })); },
         maxValues = legend.map(multiplesMax),
         yMax = Math.max(0, d3.max(maxValues)),
-        yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]().range([height, 0]).domain([logarithmic ? 1 : 0, yMax]);
+        yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]().range([height, 0]).domain([logarithmic ? 1 : 0, yMax]),
+        yPosition = function(c, ca, i) {
+          if (logarithmic && values[c][ca][i] == 0)
+            return yScale(1);
+          return yScale(values[c][ca][i]);
+        };
       this.no_country_selected[0].style = {
         "background-color": "lightgrey!important",
         top: (svgH / 2 - 20) + "px",
@@ -471,12 +476,18 @@ new Vue({
             .attr("stroke-width", 2)
             .attr("d", d3.line()
               .x(function(d) { return xScale(d.date); })
-              .y(function(d, i) {
-                if (logarithmic && values[c.id][cas.id][i] == 0)
-                  return yScale(1);
-                return yScale(values[c.id][cas.id][i]);
-              })
+              .y(function(d, i) { return yPosition(c.id, cas.id, i); })
             );
+          if (columns < 3)
+            g.selectAll(".dot." + cas.id + "." + c.id)
+            .data(dates)
+            .enter()
+            .append("circle")
+              .attr("class", "dot " + cas.id + " " + c.id)
+              .attr("fill", cas.color)
+              .attr("cx", function(d) { return xScale(d.date); })
+              .attr("cy", function(d, i) { return yPosition(c.id, cas.id, i); })
+              .attr("r", 4 - columns);
         });
 
         // Draw axis
@@ -576,7 +587,13 @@ new Vue({
         yMax = Math.max(0, d3.max(this.legend.map(shiftedMaxVal))),
         yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]()
           .range([height, 0])
-          .domain([logarithmic ? 1 : 0, yMax]);
+          .domain([logarithmic ? 1 : 0, yMax]),
+        yPosition = function(c, d, i) {
+          var val = shiftedVal(c, d, i);
+          if (logarithmic && val == 0)
+            return yScale(1);
+          return yScale(val);
+        };
 
       // Prepare svg
       var g = d3.select(".svg")
@@ -600,13 +617,18 @@ new Vue({
           .attr("stroke-width", 2)
           .attr("d", d3.line()
             .x(function(d) { return xScale(d.date); })
-            .y(function(d, i) {
-              var val = shiftedVal(c, d, i);
-              if (logarithmic && val == 0)
-                return yScale(1);
-              return yScale(val);
-            })
+            .y(function(d, i) { return yPosition(c, d, i); })
           );
+
+        g.selectAll(".dot." + c.id)
+          .data(shiftedDates(c))
+          .enter()
+          .append("circle")
+            .attr("class", "dot " + c.id)
+            .attr("fill", c.color)
+            .attr("cx", function(d) { return xScale(d.date); })
+            .attr("cy", function(d, i) { return yPosition(c, d, i); })
+            .attr("r", 3);
       });
 
       // Draw axis
@@ -673,8 +695,20 @@ new Vue({
       d3.select(".tooltipBox").style("display", "none");
     },
     hoverCase: function(cas, hov) {
-      if (this.multiples && cas.selected)
-        d3.selectAll("." + cas.id).classed("hover", hov);
+      if (this.multiples && cas.selected) {
+        d3.select(".line." + cas.id).classed("hover", hov);
+        if (hov) document.querySelectorAll("." + cas.id)
+        .forEach(function(d) {
+          d.parentNode.appendChild(d);
+        });
+      }
+    },
+    hoverCountry: function(c, hov) {
+      d3.select("#" + c).classed("hover", hov);
+      if (hov) document.querySelectorAll("#" + c + ", .dot." + c)
+      .forEach(function(d) {
+        d.parentNode.appendChild(d);
+      });
     },
     zoom: function(d, i, rects) {
       var direction = (d3.event.deltaY && d3.event.deltaY > 0 ? -1 : 1),

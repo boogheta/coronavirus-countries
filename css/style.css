@@ -147,14 +147,15 @@ nav .update {
 }
 path.line {
   stroke-width: 2px;
-  z-index: 1;
 }
 path.line.hover {
   stroke-width: 5px;
-  z-index: 5;
 }
 .axis path, .axis line {
   stroke: grey;
+}
+.dot {
+  stroke: #303030;
 }
 .axis text {
   fill: grey;
