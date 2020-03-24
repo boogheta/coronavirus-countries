@@ -505,14 +505,29 @@ new Vue({
   
         // Draw tooltips surfaces
         g.append("g")
-          .selectAll("rect.tooltip")
+          .selectAll("rect.tooltip.surface")
           .data(dates).enter().append("rect")
             .classed("tooltip", true)
+            .classed("surface", true)
             .attr("did", function(d, i) { return i; })
             .attr("country", c.id)
             .attr("x", xPosition)
             .attr("y", yScale.range()[1])
             .attr("width", xWidth)
+            .attr("height", yScale.range()[0] - yScale.range()[1])
+            .on("mouseover", hover)
+            .on("mousemove", displayTooltip)
+            .on("mouseleave", clearTooltip);
+        g.append("g")
+          .selectAll("rect.tooltip.hoverdate")
+          .data(dates).enter().append("rect")
+            .classed("tooltip", true)
+            .classed("hoverdate", true)
+            .attr("did", function(d, i) { return i; })
+            .attr("country", c.id)
+            .attr("x", function(d) { return xPosition(d) + xWidth / 2 - 1; })
+            .attr("y", yScale.range()[1])
+            .attr("width", 2)
             .attr("height", yScale.range()[0] - yScale.range()[1])
             .on("mouseover", hover)
             .on("mousemove", displayTooltip)
@@ -643,8 +658,9 @@ new Vue({
 
       // Draw tooltips surfaces
       g.append("g")
-        .selectAll("rect.tooltip")
+        .selectAll("rect.tooltip.surface")
         .data(zoomedDates).enter().append("rect")
+          .classed("surface", true)
           .classed("tooltip", true)
           .attr("did", function(d, i) { return i; })
           .attr("x", xPosition)
@@ -656,9 +672,24 @@ new Vue({
           .on("mouseleave", this.clearTooltip)
           .on("wheel", this.zoom)
           .on("dblclick", this.zoom);
+      g.append("g")
+        .selectAll("rect.tooltip.surface")
+        .data(zoomedDates).enter().append("rect")
+          .classed("tooltip", true)
+          .classed("hoverdate", true)
+          .attr("did", function(d, i) { return i; })
+          .attr("x", function(d) { return xPosition(d) + xWidth / 2 - 1; })
+          .attr("y", yScale.range()[1])
+          .attr("width", 2)
+          .attr("height", yScale.range()[0] - yScale.range()[1])
+          .on("mouseover", this.hover)
+          .on("mousemove", this.displayTooltip)
+          .on("mouseleave", this.clearTooltip)
+          .on("wheel", this.zoom)
+          .on("dblclick", this.zoom);
     },
     hover: function(d, i) {
-      d3.selectAll('rect[did="' + i + '"]').style("fill-opacity", 0.25);
+      d3.selectAll('rect.hoverdate[did="' + i + '"]').style("fill-opacity", 0.25);
     },
     displayTooltip: function(d, i, rects) {
       this.hoverDate = d.legend;
@@ -691,7 +722,7 @@ new Vue({
         c.value = (multiples && legend.length == 1 ? d3.strFormat(legend[0].lastValues[c.id]) : null);
       });
       this.$forceUpdate();
-      d3.selectAll('rect[did="' + i + '"]').style("fill-opacity", 0);
+      d3.selectAll('rect.hoverdate[did="' + i + '"]').style("fill-opacity", 0);
       d3.select(".tooltipBox").style("display", "none");
     },
     hoverCase: function(cas, hov) {
