@@ -194,9 +194,9 @@ new Vue({
           }).map(function(c) {
             return c.name;
           });
-        if (!options.confirmed && !options.recovered && !options.deceased && !options.currently_sick)
-          options.confirmed = true;
       }
+      if (!options.confirmed && !options.recovered && !options.deceased && !options.currently_sick)
+        options.confirmed = true;
       this.logarithmic = !!options.log;
       this.multiples = !!options.multiples;
       this.cases.forEach(function(c) {
@@ -727,7 +727,7 @@ new Vue({
     },
     hoverCase: function(cas, hov) {
       if (this.multiples && cas.selected) {
-        d3.select(".line." + cas.id).classed("hover", hov);
+        d3.selectAll(".line." + cas.id).classed("hover", hov);
         if (hov) document.querySelectorAll("." + cas.id)
         .forEach(function(d) {
           d.parentNode.appendChild(d);
