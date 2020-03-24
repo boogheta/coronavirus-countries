@@ -151,6 +151,7 @@ new Vue({
       this.hiddenLeft = 0;
       this.hiddenRight = 0;
       this.refCountry = null;
+      this.$nextTick(this.resize);
     }
   },
   mounted: function() {
