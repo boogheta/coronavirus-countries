@@ -44,11 +44,18 @@
           <v-list-tile-content>
             <v-list-tile-title>
               <span class="country">{{ item.id.replace(/_/, ' ') }}</span>
-              <span class="value amount">{{ item.value || item.total }}</span>
+              <span class="value amount">{{ item.value != null ? item.value : item.total[scope] }}</span>
             </v-list-tile-title>
           </v-list-tile-content>
           <v-list-tile-action>
-            <v-switch light v-model="item.selected" color="white"></v-switch>
+            <v-radio-group v-model="caseChoice" v-if="!multiples">
+              <v-radio hide-details color="white" :value="item.id"></v-radio>
+            </v-radio-group>
+            <v-switch light color="white"
+              v-if="multiples"
+              v-model="item.selected"
+              @click.native.stop="false"
+            ></v-switch>
           </v-list-tile-action>
         </v-list-tile>
 
@@ -96,7 +103,17 @@
           </v-list-tile-content>
         </v-list-tile>
 
-        <v-subheader class="bordered mt-2">Countries</v-subheader>
+        <v-subheader class="bordered mt-2">
+          <v-select auto single-line hide-details
+            v-model="scope"
+            :items="scopeChoices"
+            item-text="label"
+            item-value="name"
+            class="select scopefocus"
+            @change="scope = $event"
+          >
+          </v-select>
+        </v-subheader>
         <v-list-tile class="sort">
           <v-list-tile-content>
             <v-list-tile-title>
@@ -107,7 +124,7 @@
               <small
                 :class="{'value': true, 'unchecked': countriesOrder !== 'cases'}"
                 @click="countriesOrder = 'cases'"
-              >sort by cases</small>
+              >sort by {{ caseLabel }}</small>
             </v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
@@ -139,8 +156,16 @@
       </v-list>
 
       <v-list dense id="lowermenu">
-        <v-subheader class="mt-2" v-if="!multiples">Align confirmed with
-          <v-spacer></v-spacer>
+        <v-subheader class="mt-2 selectAlign" v-if="!multiples">Align&nbsp;<v-select auto single-line hide-details
+            v-model="refCase"
+            :items="refCases"
+            item-text="id"
+            item-value="id"
+            :append-icon="false"
+            class="select"
+            @change="refCase = $event"
+          >
+          </v-select>with
           <v-chip small outline close class="grey--text"
             v-model="refCountrySelected"
             @input="refCountry = null"
@@ -157,9 +182,6 @@
             class="select"
             @change="refCountry = $event"
           >
-            <template slot="item" scope="f">
-              <v-list-tile-content><v-list-tile-title v-html="f.item.name"></v-list-tile-title></v-list-tile-content>
-            </template>
           </v-select></v-list-tile-content>
         </v-list-tile>
 
@@ -215,8 +237,8 @@
           v-if="item.selected && !multiples"
           :class="{'btn': true, 'btn--raised': true, 'btn--disabled': item.inactive}"
           :style="{'background-color': item.color+'!important'}"
-          @mouseover="document.getElementById(item.id).classList.add('hover')"
-          @mouseleave="document.getElementById(item.id).classList.remove('hover')"
+          @mouseover="hoverCountry(item.id, true)"
+          @mouseleave="hoverCountry(item.id, false)"
         >
           <div class="remove"
             v-if="!item.inactive"
@@ -239,9 +261,16 @@
       <v-card>
         <v-card-title class="headline">Coronavirus country comparator</v-card-title>
         <v-card-text>Built on top of the <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series" target="_blank">data openly released daily</a> by the <a href="https://systems.jhu.edu/" target="_blank">Center for Systems Science and Engineering (CSSE)</a> at Johns Hopkins University (JHU) for the <a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" target="_blank">great dashboard</a> they built.</v-card-text>
-        <v-card-text>Hover the legend to focus a specific country's curve.<br/>Hover the plot to read each country's values at specific dates inside the legend.<br/>Use the mouse wheel to zoom or unzoom on specific time periods.<br/>Use "Align confirmed with" to select a country and see how other countries fit with a few days delay (regression is calculated as the mean delay between the number of confirmed cases in the considered country compared to the reference one during the 20 days following the reach of 50 confirmed cases).<br/>Switch to "small multiples" to see all curves separated.</v-card-text>
+        <v-card-text>
+          Choose to compare all the World's countries or all regions/provinces/states of some main countries.<br/>
+          Hover the legend to focus a specific curve.<br/>
+          Hover the plot to read each curve's values at specific dates inside the legend.<br/>
+          Use the mouse wheel to zoom or unzoom on specific time periods.<br/>
+          Use "Align with" to select a country and see how other countries fit with a few days delay (regression is calculated as the mean delay between the number of confirmed or deceased cases in the considered country compared to the reference one during the 20|50 days following the reach of 50|10 confirmed|deceased cases).<br/>
+          Switch to "small multiples" to see all curves separated.
+        </v-card-text>
         <v-card-text>This web application is a free libre open source software released under AGPL V3 license and its source code is <a href="https://github.com/boogheta/coronavirus-countries" target="_blank">available on GitHub</a>. The interface is based on <a href="https://vuejs.org" target="_blank">Vue.js</a>, <a href="https://vuetifyjs.com/" target="_blank">Vuetify.js</a> and <a href="https://d3js.org" target="_blank">D3.js</a>. The logo is a <a href="https://pixabay.com/fr/illustrations/virus-coronavirus-sars-cov-2-flash-4915867/" target="_blank">creation from Alexei Hulsov</a> openly released under the <a href="https://pixabay.com/fr/service/license/" target="_blank">Pixabay license</a>.</v-card-text>
-        <v-card-text><a href="https://github.com/boogheta/coronavirus-countries" target="_blank">Bug reports</a>, contributions and pull requests are very welcome!</v-card-text>
+        <v-card-text><a href="https://github.com/boogheta/coronavirus-countries/issues" target="_blank">Bug reports</a>, contributions and pull requests are very welcome!</v-card-text>
         <v-card-text>You can contact me on Twitter at: <a href="http://twitter.com/boogheta" target="_blank">@boogheta</a></v-card-text>
         <v-card-text>Benjamin Ooghe-Tabanou &mdash; <a href="https://medialab.sciencespo.fr/" target="_blank">médialab Sciences Po</a></v-card-text>
         <v-card-actions>

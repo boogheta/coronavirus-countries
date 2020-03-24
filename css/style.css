@@ -51,9 +51,12 @@ nav .update {
 .switcher.unchecked:hover {
   opacity: 1;
 }
+.scopefocus .input-group__selections__comma {
+  text-decoration: underline dotted;
+}
 .sort {
   height: 18px;
-  margin: -12px 72px 12px 0px;
+  margin: -4px 72px 12px 0px;
 }
 .sort small.unchecked {
   cursor: pointer;
@@ -104,7 +107,7 @@ nav .update {
   cursor: pointer;
 }
 .input-group--select .input-group__selections__comma {
-  font-size: 14px;
+  font-size: 13px;
   white-space: nowrap;
 }
 .list__tile--active, .input-group.input-group--focused:not(.unselected) .input-group__append-icon, .application--dark .input-group.input-group--dirty:not(.unselected) .input-group__selections__comma:not(.input-group__selections__comma--active) {
@@ -144,14 +147,15 @@ nav .update {
 }
 path.line {
   stroke-width: 2px;
-  z-index: 1;
 }
 path.line.hover {
   stroke-width: 5px;
-  z-index: 5;
 }
 .axis path, .axis line {
   stroke: grey;
+}
+.dot {
+  stroke: #303030;
 }
 .axis text {
   fill: grey;
@@ -224,4 +228,20 @@ rect.tooltip {
 }
 .dialog a:hover, .dialog a:visited:hover {
   text-decoration: underline;
+}
+.selectAlign .input-group {
+  max-width: 80px;
+}
+.selectAlign .input-group__selections__comma {
+  margin: auto;
+  text-decoration: underline dotted;
+}
+.selectAlign .chip {
+  margin-left: auto;
+}
+#controls .radio-group {
+  width: 30px;
+}
+#controls .radio-group label {
+  display: none;
 }
