@@ -82,11 +82,11 @@ def clean_locality(r):
 
 countries = {
     "confirmed": defaultdict(list),
-    "recovered": defaultdict(list),
+    # "recovered": defaultdict(list),
     "deceased": defaultdict(list)
 }
-for typ, typS in [("confirmed", "Confirmed"), ("recovered", "Recovered"), ("deceased", "Deaths")]:
-    with open(os.path.join("data", "time_series_19-covid-%s.csv" % typS)) as f:
+for typ  in ["confirmed", "deceased"]:
+    with open(os.path.join("data", "time_series_covid19_%s_global.csv" % typ.replace("deceased", "deaths"))) as f:
         for row in sorted(csv.DictReader(f), key=lambda x: (x["Country/Region"], x["Province/State"])):
             countries[typ][clean_region(row['Country/Region'])].append(row)
 
@@ -113,9 +113,9 @@ data = {
       "China": {
         "level": "province",
       },
-      "USA": {
-        "level": "state",
-      },
+    #  "USA": {
+    #    "level": "state",
+    #  },
     #  "France": {
     #    "level": "region",
     #  },
@@ -143,9 +143,9 @@ unit_vals = {
     # population: 0,
     # annotations: [],
     "confirmed":      [0] * n_dates,
-    "recovered":      [0] * n_dates,
-    "deceased":       [0] * n_dates,
-    "currently_sick": [0] * n_dates
+    # "recovered":      [0] * n_dates,
+    # "currently_sick": [0] * n_dates,
+    "deceased":       [0] * n_dates
 }
 for name, scope in data["scopes"].items():
     level = scope["level"]
@@ -160,13 +160,13 @@ for name, scope in data["scopes"].items():
             scope["values"][c] = deepcopy(unit_vals)
         for i, d in enumerate(dates):
             vals = {}
-            for cas in ["confirmed", "recovered", "deceased"]:
+            for cas in ["confirmed", "deceased"]: #"recovered"
                 vals[cas] = sum_values(countries[cas][c], d) if name == "World" else get_value(countries[cas][name][idx], d)
                 scope["values"][c][cas][i] += vals[cas]
                 scope["values"]["total"][cas][i] += vals[cas]
-            sick = vals["confirmed"] - vals["recovered"] - vals["deceased"]
-            scope["values"][c]["currently_sick"][i] += sick
-            scope["values"]["total"]["currently_sick"][i] += sick
+            #sick = vals["confirmed"] - vals["recovered"] - vals["deceased"]
+            #scope["values"][c]["currently_sick"][i] += sick
+            #scope["values"]["total"]["currently_sick"][i] += sick
 
 with open(os.path.join("data", "coronavirus-countries.json"), "w") as f:
     json.dump(data, f)

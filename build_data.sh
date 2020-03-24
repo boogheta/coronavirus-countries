@@ -3,8 +3,16 @@
 cd $(dirname $0)
 mkdir -p data
 
-for typ in Confirmed Recovered Deaths; do
-  curl -sL https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-${typ}.csv > data/time_series_19-covid-${typ}.csv
+#for typ in Confirmed Recovered Deaths; do
+#  curl -sL https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-${typ}.csv > data/time_series_19-covid-${typ}.csv
+#done;
+
+for typ in confirmed deaths; do
+  curl -sL https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_${typ}_global.csv > data/time_series_covid19_${typ}_global.csv
+done;
+
+for typ in confirmed deaths testing; do
+  curl -sL https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_${typ}_US.csv > data/time_series_covid19_${typ}_US.csv
 done;
 
 ./export-main-countries.py
