@@ -44,9 +44,9 @@ new Vue({
     values: {},
     cases: [
       {id: "confirmed",       selected: false,  total: {}, color: d3.defaultColors[0]},
-      {id: "recovered",       selected: false,  total: {}, color: d3.defaultColors[1]},
-      {id: "deceased",        selected: false,  total: {}, color: d3.defaultColors[2]},
-      {id: "currently_sick",  selected: false,  total: {}, color: d3.defaultColors[3]}
+      //{id: "recovered",       selected: false,  total: {}, color: d3.defaultColors[1]},
+      {id: "deceased",        selected: false,  total: {}, color: d3.defaultColors[4]}
+      //{id: "currently_sick",  selected: false,  total: {}, color: d3.defaultColors[3]}
     ],
     caseChoice: null,
     refCase: "confirmed",
