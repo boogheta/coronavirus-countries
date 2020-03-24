@@ -280,7 +280,11 @@ new Vue({
             scopes[scope].countries[indices[c.id]] = c;
           });
         }
-        scopes[scope].countries.sort(staticCountriesSort(cas, "cases"))
+        scopes[scope].countries
+          .sort(staticCountriesSort(cas, "cases"))
+          .forEach(function(c, i) {
+            c.color = d3.defaultColors[i % d3.defaultColors.length];
+          });
         refCountries[scope] = scopes[scope].countries.filter(function(c) {
           return c.maxValues['confirmed'] >= 100;
         }).sort(function(a, b) {
@@ -541,11 +545,6 @@ new Vue({
       var cas = this.case;
       this.countries.forEach(function(c) {
         c.lastStr = d3.strFormat(c.lastValues[cas]);
-      });
-      this.legend.sort(function(a, b) {
-        return b.maxValues[cas] - a.maxValues[cas];
-      }).forEach(function(c, i) {
-        c.color = d3.defaultColors[i % d3.defaultColors.length];
       });
 
       // Filter dates from zoom
