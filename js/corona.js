@@ -35,7 +35,7 @@ new Vue({
     level: "country",
     countries: [],
     defaultPlaces: {
-      World: ["Italy", "Iran", "South Korea", "France", "Germany", "Spain", "USA"],
+      //World: ["Italy", "Iran", "South Korea", "France", "Germany", "Spain", "USA"],
     },
     countriesOrder: null,
     refCountry: null,
@@ -49,7 +49,7 @@ new Vue({
       //{id: "currently_sick",  selected: false,  total: {}, color: d3.defaultColors[3]}
     ],
     caseChoice: null,
-    refCase: "confirmed",
+    refCase: "deceased",
     refCases: [
         {id: "confirmed", min_cases: 50, max_dates: 20},
         {id: "deceased",  min_cases: 10, max_dates: 50}
@@ -82,9 +82,9 @@ new Vue({
       if (this.multiples) {
         if (this.casesLegend.length == 1)
           return this.casesLegend[0].id;
-        return "confirmed";
+        return "deceased";
       }
-      return (this.casesLegend[0] || {id: "confirmed"}).id;
+      return (this.casesLegend[0] || {id: "deceased"}).id;
     },
     caseLabel: function() { return (this.case || "cases").replace(/_/, ' '); },
     casesChosen: function() {
@@ -128,7 +128,7 @@ new Vue({
         var startPlaces = (
           this.defaultPlaces[this.scope] ||
           this.countries.sort(this.staticCountriesSort(this.case, "cases"))
-            .slice(1, 6)
+            .slice(1, 8)
             .map(function(c) { return c.name; })
         );
         this.countries.forEach(function(c) {
@@ -196,7 +196,7 @@ new Vue({
           });
       }
       if (!options.confirmed && !options.recovered && !options.deceased && !options.currently_sick)
-        options.confirmed = true;
+        options.deceased = true;
       this.logarithmic = !!options.log;
       this.multiples = !!options.multiples;
       this.cases.forEach(function(c) {
@@ -207,7 +207,7 @@ new Vue({
         c.selected = !!~options.countries.indexOf(c.name);
       });
       this.refCountry = options.align || null;
-      this.refCase = options.alignTo || "confirmed";
+      this.refCase = options.alignTo || "deceased";
       if (this.init) {
         this.init = false;
         this.$nextTick(this.resize);
@@ -223,7 +223,7 @@ new Vue({
       );
     },
     prepareData: function(data) {
-    // WARNING: at startup, url wasn't read yet, so cas here is always confirmed then (it does not matter since it is only used to resort existing countries at reload)
+    // WARNING: at startup, url wasn't read yet, so cas here is always deceased then (it does not matter since it is only used to resort existing countries at reload)
       var cas = this.case,
         cases = this.cases,
         scopes = this.scopes,
@@ -286,9 +286,9 @@ new Vue({
             c.color = d3.defaultColors[i % d3.defaultColors.length];
           });
         refCountries[scope] = scopes[scope].countries.filter(function(c) {
-          return c.maxValues['confirmed'] >= 100;
+          return c.maxValues['deceased'] >= 15;
         }).sort(function(a, b) {
-          return b.maxValues['confirmed'] - a.maxValues['confirmed'];
+          return b.maxValues['deceased'] - a.maxValues['deceased'];
         });
         cases.forEach(function(ca) {
           ca.total[scope] = d3.strFormat(ca.total[scope]);
