@@ -168,6 +168,7 @@ new Vue({
         c.disabled = !newValue;
       });
       this.download_data();
+      this.$nextTick(this.resize);
     }
   },
   mounted: function() {

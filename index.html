@@ -204,8 +204,8 @@
         <v-title>Coronavirus country comparator<br/>
         <span class="update">(last data update: {{ lastUpdateStr }})</span></v-title>
       </v-toolbar-title>
-      <span v-if="!oldrecovered" class="disclaimer">CSSE <a href="https://github.com/CSSEGISandData/COVID-19/issues/1250" target="_blank">stopped</a> aggregating recovered cases as they were not reported consistently across countries, so only confirmed and deceased cases can be proposed now. <a @click="oldrecovered = true">Click here to switch to the old view frozen after March 22nd.</a></span>
-      <span v-if="oldrecovered" class="disclaimer">This view that includes recovered and currently sick cases stops after March 22nd because CSSE <a href="https://github.com/CSSEGISandData/COVID-19/issues/1250" target="_blank">stopped</a> aggregating recovered cases as they were not reported consistently across countries. <a @click="oldrecovered = false">Click here to switch back to the regular updated view.</a></span>
+      <span v-if="!oldrecovered" class="disclaimer">CSSE <a href="https://github.com/CSSEGISandData/COVID-19/issues/1250" target="_blank">stopped</a> aggregating recovered cases after March 22<sup>nd</sup> as they were not reported consistently across countries, so only confirmed and deceased cases can be presented now. <a @click="oldrecovered = true">Click here to switch to the old frozen view.</a></span>
+      <span v-if="oldrecovered" class="disclaimer">This view that includes recovered and currently sick cases stops after March 22<sup>nd</sup> because CSSE <a href="https://github.com/CSSEGISandData/COVID-19/issues/1250" target="_blank">stopped</a> aggregating recovered cases as they were not reported consistently across countries. <a @click="oldrecovered = false">Click here to switch back to the regular updated view.</a></span>
       <v-spacer></v-spacer>
       <v-btn fab small class="ml-3" @click.native.stop="help = true">
         <v-icon>help</v-icon>
