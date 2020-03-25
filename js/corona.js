@@ -1,3 +1,9 @@
+var GA_MEASUREMENT_ID = "UA-10423931-9";
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', GA_MEASUREMENT_ID);
+
 d3.formatDefaultLocale({
   "decimal": ".",
   "thousands": " ",
@@ -115,6 +121,7 @@ new Vue({
   watch: {
     url: function(newValue, oldValue) {
       window.location.hash = newValue;
+      gtag('config', GA_MEASUREMENT_ID, {'page_path': location.pathname + location.search + location.hash});
     },
     scope: function(newValue, oldValue) {
       this.countries.forEach(function(c) {
