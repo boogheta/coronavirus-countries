@@ -46,7 +46,6 @@ new Vue({
     countriesOrder: null,
     refCountry: null,
     refCountries: {},
-    dates: [],
     values: {},
     cases: [
       {id: "confirmed",       selected: false,  total: {}, color: d3.defaultColors[0]},
@@ -65,7 +64,6 @@ new Vue({
     multiples: false,
     resizing: null,
     hoverDate: "",
-    extent: null,
     curExtent: null,
     hiddenLeft: 0,
     hiddenRight: 0,
@@ -260,6 +258,7 @@ new Vue({
           ca.total[scope] = 0;
         });
         var level = data.scopes[scope].level,
+          dates = data.scopes[scope].dates || data.dates,
           countries = Object.keys(data.scopes[scope].values)
           .map(function(c) {
             var maxVals = {},
@@ -289,11 +288,9 @@ new Vue({
           });
         if (!scopes[scope])
           scopes[scope] = {
-            "level": level,
-            "countries": countries
+            "countries": countries,
           }
         else {
-          scopes[scope].level = level;
           var indices = {};
           scopes[scope].countries.forEach(function(c, i) {
             indices[c.id] = i;
@@ -302,6 +299,9 @@ new Vue({
             scopes[scope].countries[indices[c.id]] = c;
           });
         }
+        scopes[scope].level = level;
+        scopes[scope].dates = dates.map(d3.datize);
+        scopes[scope].extent = Math.round((dates[dates.length - 1] - dates[0]) / (1000*60*60*24));
         scopes[scope].countries
           .sort(staticCountriesSort(cas, "cases"))
           .forEach(function(c, i) {
@@ -328,8 +328,6 @@ new Vue({
         return 0;
       });
       if (!this.countriesOrder) this.countriesOrder = "cases";
-      this.dates = data.dates.map(d3.datize);
-      this.extent = Math.round((this.dates[this.dates.length - 1] - this.dates[0]) / (1000*60*60*24));
       this.lastUpdateStr = new Date(data.last_update*1000).toUTCString();
       this.readUrl();
     },
@@ -372,7 +370,7 @@ new Vue({
       var refCountry = this.refCountry;
       if (refCountry && this.scope) {
         var values = this.values[this.scope],
-          dates = this.dates,
+          dates = this.scopes[this.scope].dates,
           refCase = this.refCase,
           refCaseParams = this.refCases.filter(function(c) { return c.id === refCase; })[0],
           refStart = null,
@@ -423,15 +421,15 @@ new Vue({
         legend = this.legend,
         values = this.values[this.scope],
         casesLegend = this.casesLegend,
-        dates = this.dates.map(function(d) {
+        dates = this.scopes[this.scope].dates.map(function(d) {
           return {
             date: d,
             legend: d3.timeFormat("%a %e %B %Y")(d)
           };
         }),
         logarithmic = this.logarithmic,
-        start = this.dates[0],
-        end = this.dates[this.dates.length - 1];
+        start = dates[0].date,
+        end = dates[dates.length - 1].date;
       this.curExtent = Math.round((end - start) / (1000*60*60*24));
 
       // Setup dimensions
@@ -571,12 +569,12 @@ new Vue({
 
       // Filter dates from zoom
       var values = this.values[this.scope],
-        dates = this.dates,
+        dates = this.scopes[this.scope].dates,
         cas = this.case,
         logarithmic = this.logarithmic,
         hiddenLeft = this.hiddenLeft,
         hiddenRight = this.hiddenRight,
-        zoomedDates = this.dates.slice(hiddenLeft, this.dates.length - hiddenRight).map(function(d) {
+        zoomedDates = dates.slice(hiddenLeft, dates.length - hiddenRight).map(function(d) {
           return {
             date: d,
             legend: d3.timeFormat("%a %e %B %Y")(d)
@@ -770,7 +768,7 @@ new Vue({
         gauge = (i + 1) / rects.length,
         gaugeLeft = (gauge > 0.05 ? gauge : 0),
         gaugeRight = (gauge < 0.95 ? 1 - gauge : 0);
-      if (direction == 1 && this.extent - this.hiddenLeft - this.hiddenRight < 15) return;
+      if (direction == 1 && this.scopes[this.scope].extent - this.hiddenLeft - this.hiddenRight < 15) return;
       this.clearTooltip();
       this.hiddenLeft += Math.floor(gaugeLeft * days * direction);
       this.hiddenRight += Math.floor(gaugeRight * days * direction);
