@@ -151,8 +151,6 @@ new Vue({
     },
     casesChosen: function() { this.sortCountries(); },
     countriesOrder: function() { this.sortCountries(); },
-    refCase: function() { this.alignPlaces(); },
-    refCountry: function() { this.alignPlaces(); },
     multiples: function() {
       this.cases.forEach(function(c) {
         c.value = null;
@@ -174,7 +172,7 @@ new Vue({
   },
   mounted: function() {
     this.download_data();
-    setInterval(this.download_data, 3600000);
+    //setInterval(this.download_data, 3600000);
   },
   methods: {
     onResize: function() {
@@ -224,7 +222,8 @@ new Vue({
         c.selected = !!options[c.id] && !c.disabled;
       });
       this.caseChoice = this.case;
-      this.scopes[this.scope].countries.forEach(function(c) {
+      this.countries = this.scopes[this.scope].countries;
+      this.countries.forEach(function(c) {
         c.selected = !!~options.countries.indexOf(c.name);
       });
       this.refCountry = options.align || null;
@@ -288,20 +287,9 @@ new Vue({
               selected: false
             };
           });
-        if (!scopes[scope])
-          scopes[scope] = {
-            "level": level,
-            "countries": countries
-          }
-        else {
-          scopes[scope].level = level;
-          var indices = {};
-          scopes[scope].countries.forEach(function(c, i) {
-            indices[c.id] = i;
-          });
-          countries.forEach(function(c) {
-            scopes[scope].countries[indices[c.id]] = c;
-          });
+        scopes[scope] = {
+          "level": level,
+          "countries": countries
         }
         scopes[scope].countries
           .sort(staticCountriesSort(cas, "cases"))
@@ -379,7 +367,7 @@ new Vue({
           refStart = null,
           refId = this.countries.filter(function(c) { return c.name === refCountry; })[0].id,
           refValues = values[refId][refCase];
-        this.countries.forEach(function(c) {
+        this.legend.forEach(function(c) {
           if (c.name === refCountry) {
             c.shift = 0;
             c.shiftStr = "";
@@ -413,6 +401,7 @@ new Vue({
     draw: function() {
       d3.select(".svg").selectAll("svg").remove();
 
+      this.alignPlaces();
       if (this.multiples) this.drawMultiples();
       else this.drawSeries();
 
