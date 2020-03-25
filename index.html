@@ -203,6 +203,7 @@
         <v-title>Coronavirus country comparator<br/>
         <span class="update">(last data update: {{ lastUpdateStr }})</span></v-title>
       </v-toolbar-title>
+      <span class="disclaimer">CSSE <a href="https://github.com/CSSEGISandData/COVID-19/issues/1250" target="_blank">stopped</a> aggregating recovered cases as they were not reported consistently across countries, so only confirmed and deceased cases can be proposed now.</span>
       <v-spacer></v-spacer>
       <v-btn fab small class="ml-3" @click.native.stop="help = true">
         <v-icon>help</v-icon>

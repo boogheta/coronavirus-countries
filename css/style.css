@@ -25,6 +25,18 @@ nav .update {
   font-size: 12px;
   color: grey;
 }
+nav .disclaimer {
+  font-size: 12px;
+  font-style: italic;
+  color: grey;
+  width: 35%;
+  margin-left: 5%;
+  max-width: 450px;
+}
+nav .disclaimer a, nav .disclaimer a:hover, nav .disclaimer a:visited:hover {
+  text-decoration: underline;
+  color: grey;
+}
 .btn--floating.btn--small .icon {
   font-size: 30px;
 }
