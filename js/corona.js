@@ -101,8 +101,9 @@ new Vue({
       return !!this.refCountry;
     },
     refCountriesSelection: function() {
+      var refCountry = this.refCountry;
       return (this.refCountries[this.scope] || []).filter(function(c) {
-        return c.selected;
+        return c.selected || c.name === refCountry;
       });
     },
     url: function() {
