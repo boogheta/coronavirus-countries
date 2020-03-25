@@ -160,15 +160,15 @@ new Vue({
       this.hiddenLeft = 0;
       this.hiddenRight = 0;
       this.refCountry = null;
-      this.$nextTick(this.resize);
+      this.$nextTick(this.resizeMenu);
     },
     oldrecovered: function(newValue) {
       this.cases.forEach(function(c) {
         if (c.id !== "recovered" && c.id !== "currently_sick") return;
         c.disabled = !newValue;
       });
+      this.$nextTick(this.resizeMenu);
       this.download_data();
-      this.$nextTick(this.resize);
     }
   },
   mounted: function() {
@@ -180,12 +180,15 @@ new Vue({
       if (this.resizing) return clearTimeout(this.resizing);
       this.resizing = setTimeout(this.resize, 50);
     },
-    resize: function() {
+    resizeMenu: function() {
       var menuH = window.innerHeight - (
         document.querySelector("nav").getBoundingClientRect().height +
         document.getElementById("controls").getBoundingClientRect().height +
         document.getElementById("lowermenu").getBoundingClientRect().height + 2);
       document.getElementById("countries").style.height = menuH + "px";
+    },
+    resize: function() {
+      this.resizeMenu();
       this.draw();
       this.resizing = null;
     },
@@ -252,7 +255,7 @@ new Vue({
         staticCountriesSort = this.staticCountriesSort,
         levelLabel = this.levelLabel;
       Object.keys(data.scopes).forEach(function(scope) {
-        values[scope] = {}
+        values[scope] = {};
         cases.forEach(function(ca) {
           ca.total[scope] = 0;
         });
@@ -720,7 +723,7 @@ new Vue({
         this.legend.forEach(function(c) {
           var val = values[c.id][cas][i + hiddenLeft - c.shift];
           if (val == undefined) c.value = "";
-          else c.value = d3.strFormat(values[c.id][cas][i + hiddenLeft - c.shift]);
+          else c.value = d3.strFormat(val);
         });
       } else {
         var country = d3.select(rects[i]).attr('country');
