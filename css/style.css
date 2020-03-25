@@ -26,7 +26,7 @@ nav .update {
   color: grey;
 }
 nav .disclaimer {
-  font-size: 12px;
+  font-size: 11px;
   font-style: italic;
   color: grey;
   width: 35%;
@@ -34,6 +34,7 @@ nav .disclaimer {
   max-width: 450px;
 }
 nav .disclaimer a, nav .disclaimer a:hover, nav .disclaimer a:visited:hover {
+  cursor: pointer;
   text-decoration: underline;
   color: grey;
 }

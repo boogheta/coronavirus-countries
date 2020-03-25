@@ -14,13 +14,13 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://boogheta.github.io/coronavirus-countries/" />
   <meta property="og:image" content="https://boogheta.github.io/coronavirus-countries/img/screenshot.png"/>
-  <meta property="og:description" content="Compare the spread of the COVID-19 coronavirus in all countries by numbers of confirmed cases and deceased ones as reported by JHU"/>
+  <meta property="og:description" content="Compare the spread of the COVID-19 coronavirus in all countries by numbers of confirmed cases and deceased ones as reported by JHU CSSE"/>
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@boogheta">
   <meta name="twitter:creator" content="@boogheta">
   <meta name="twitter:title" content="Coronavirus country comparator">
-  <meta name="twitter:description" content="Compare the spread of the COVID-19 coronavirus in all countries by numbers of confirmed cases and deceased ones as reported by JHU">
+  <meta name="twitter:description" content="Compare the spread of the COVID-19 coronavirus in all countries by numbers of confirmed cases and deceased ones as reported by JHU CSSE">
   <meta name="twitter:image" content="https://boogheta.github.io/coronavirus-countries/img/screenshot.png">
  </head>
  <body>
@@ -32,6 +32,7 @@
         <v-subheader class="mt-2">Cases</v-subheader>
         <v-list-tile
           v-for="item in cases"
+          v-if="!item.disabled"
           :key="item.id"
           :class="{'unchecked': !item.selected}"
           @click="selectCase(item.id)"
@@ -203,7 +204,8 @@
         <v-title>Coronavirus country comparator<br/>
         <span class="update">(last data update: {{ lastUpdateStr }})</span></v-title>
       </v-toolbar-title>
-      <span class="disclaimer">CSSE <a href="https://github.com/CSSEGISandData/COVID-19/issues/1250" target="_blank">stopped</a> aggregating recovered cases as they were not reported consistently across countries, so only confirmed and deceased cases can be proposed now.</span>
+      <span v-if="!oldrecovered" class="disclaimer">CSSE <a href="https://github.com/CSSEGISandData/COVID-19/issues/1250" target="_blank">stopped</a> aggregating recovered cases as they were not reported consistently across countries, so only confirmed and deceased cases can be proposed now. <a @click="oldrecovered = true">Click here to switch to the old view frozen after March 22nd.</a></span>
+      <span v-if="oldrecovered" class="disclaimer">This view that includes recovered and currently sick cases stops after March 22nd because CSSE <a href="https://github.com/CSSEGISandData/COVID-19/issues/1250" target="_blank">stopped</a> aggregating recovered cases as they were not reported consistently across countries. <a @click="oldrecovered = false">Click here to switch back to the regular updated view.</a></span>
       <v-spacer></v-spacer>
       <v-btn fab small class="ml-3" @click.native.stop="help = true">
         <v-icon>help</v-icon>

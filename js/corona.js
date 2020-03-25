@@ -50,10 +50,11 @@ new Vue({
     values: {},
     cases: [
       {id: "confirmed",       selected: false,  total: {}, color: d3.defaultColors[0]},
-      //{id: "recovered",       selected: false,  total: {}, color: d3.defaultColors[1]},
-      {id: "deceased",        selected: false,  total: {}, color: d3.defaultColors[4]}
-      //{id: "currently_sick",  selected: false,  total: {}, color: d3.defaultColors[3]}
+      {id: "recovered",       selected: false,  total: {}, color: d3.defaultColors[1], disabled: true},
+      {id: "deceased",        selected: false,  total: {}, color: d3.defaultColors[4]},
+      {id: "currently_sick",  selected: false,  total: {}, color: d3.defaultColors[3], disabled: true}
     ],
+    oldrecovered: false,
     caseChoice: null,
     refCase: "deceased",
     refCases: [
@@ -82,7 +83,7 @@ new Vue({
       return this.countries.filter(function(c) { return c.selected; });
     },
     casesLegend: function() {
-      return this.cases.filter(function(c) { return c.selected; });
+      return this.cases.filter(function(c) { return !c.disabled && c.selected; });
     },
     case: function() {
       if (this.multiples) {
@@ -115,7 +116,8 @@ new Vue({
           .map(function(c) { return c.name.replace(' ', '%20'); })
           .join(",") +
         (this.refCountry ? "&align=" + this.refCountry : "") +
-        (this.refCase !== "confirmed" ? "&alignTo=" + this.refCase : "");
+        (this.refCase !== "confirmed" ? "&alignTo=" + this.refCase : "") +
+        (this.oldrecovered ? "&oldrecovered" : "");
     }
   },
   watch: {
@@ -159,6 +161,13 @@ new Vue({
       this.hiddenRight = 0;
       this.refCountry = null;
       this.$nextTick(this.resize);
+    },
+    oldrecovered: function(newValue) {
+      this.cases.forEach(function(c) {
+        if (c.id !== "recovered" && c.id !== "currently_sick") return;
+        c.disabled = !newValue;
+      });
+      this.download_data();
     }
   },
   mounted: function() {
@@ -207,7 +216,7 @@ new Vue({
       this.logarithmic = !!options.log;
       this.multiples = !!options.multiples;
       this.cases.forEach(function(c) {
-        c.selected = !!options[c.id];
+        c.selected = !!options[c.id] && !c.disabled;
       });
       this.caseChoice = this.case;
       this.scopes[this.scope].countries.forEach(function(c) {
@@ -215,6 +224,7 @@ new Vue({
       });
       this.refCountry = options.align || null;
       this.refCase = options.alignTo || "deceased";
+      this.oldrecovered = !!options.oldrecovered;
       if (this.init) {
         this.init = false;
         this.$nextTick(this.resize);
@@ -225,7 +235,7 @@ new Vue({
     download_data: function() {
       var cacheBypass = new Date().getTime();
       d3.json(
-        "data/coronavirus-countries.json?" + cacheBypass,
+        "data/coronavirus-countries" + (this.oldrecovered ? "-oldrecovered" : "") + ".json?" + cacheBypass,
         this.prepareData
       );
     },
@@ -253,6 +263,7 @@ new Vue({
               cid = c.toLowerCase().replace(/[^a-z]/, '');
             values[scope][cid] = {};
             cases.forEach(function(ca) {
+              if (ca.disabled) return;
               values[scope][cid][ca.id] = data.scopes[scope].values[c][ca.id];
               maxVals[ca.id] = d3.max(values[scope][cid][ca.id]);
               lastVals[ca.id] = values[scope][cid][ca.id][data.dates.length - 1];
@@ -712,7 +723,8 @@ new Vue({
       } else {
         var country = d3.select(rects[i]).attr('country');
         this.cases.forEach(function(c) {
-          c.value = d3.strFormat(values[country][c.id][i]);
+          if (!c.disabled)
+            c.value = d3.strFormat(values[country][c.id][i]);
         });
       }
       d3.select(".tooltipBox")
@@ -725,7 +737,7 @@ new Vue({
         legend = this.legend,
         multiples = this.multiples;
       this[multiples ? "cases" : "legend"].forEach(function(c) {
-        c.value = (multiples && legend.length == 1 ? d3.strFormat(legend[0].lastValues[c.id]) : null);
+        c.value = (multiples && legend.length == 1 && !c.disabled ? d3.strFormat(legend[0].lastValues[c.id]) : null);
       });
       this.$forceUpdate();
       d3.selectAll('rect.hoverdate[did="' + i + '"]').style("fill-opacity", 0);
