@@ -283,7 +283,7 @@ new Vue({
               lastStr: "",
               selected: false
             };
-          })
+          });
         if (!scopes[scope])
           scopes[scope] = {
             "level": level,
@@ -705,6 +705,7 @@ new Vue({
           .on("mouseleave", this.clearTooltip)
           .on("wheel", this.zoom)
           .on("dblclick", this.zoom);
+
     },
     hover: function(d, i) {
       d3.selectAll('rect.hoverdate[did="' + i + '"]').style("fill-opacity", 0.25);
@@ -776,9 +777,10 @@ new Vue({
       this.displayTooltip(d, i, rects);
     },
     exportData: function() {
-      var a = document.createElement('a');
-      a.href = "data/coronavirus-countries.json";
-      a.download = "coronavirus-countries.json";
+      var a = document.createElement('a'),
+        file = "coronavirus-countries" + (this.oldrecovered ? "-oldrecovered" : "") + ".json";
+      a.href = "data/" + file;
+      a.download = file;
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
