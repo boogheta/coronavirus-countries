@@ -224,7 +224,7 @@ new Vue({
         c.selected = !!~options.countries.indexOf(c.name);
       });
       this.refCountry = options.align || null;
-      this.refCase = options.alignTo || "deceased";
+      this.refCase = options.alignTo || "confirmed";
       this.oldrecovered = !!options.oldrecovered;
       if (this.init) {
         this.init = false;
