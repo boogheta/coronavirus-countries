@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd $(dirname $0)
+cd $(dirname $0)/..
 mkdir -p data
 
 for typ in confirmed deaths; do
@@ -11,7 +11,7 @@ for typ in confirmed deaths testing; do
   curl -sL https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_${typ}_US.csv > data/time_series_covid19_${typ}_US.csv
 done;
 
-./export-main-countries.py
+./bin/export-main-countries.py
 
 if git diff data/*.csv | grep . > /dev/null; then
   echo "Data updated!"
