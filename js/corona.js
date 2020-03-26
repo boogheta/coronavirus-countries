@@ -58,7 +58,7 @@ new Vue({
     refCase: "deceased",
     refCases: [
         {id: "confirmed", min_cases: 50, max_dates: 20},
-        {id: "deceased",  min_cases: 10, max_dates: 50}
+        {id: "deceased",  min_cases: 10, max_dates: 30}
     ],
     logarithmic: false,
     multiples: false,
@@ -130,6 +130,13 @@ new Vue({
       });
       this.level = this.scopes[newValue].level;
       this.countries = this.scopes[newValue].countries;
+      var refCase = this.refCase,
+        cas = this.refCases.filter(function(c){ return c.id === refCase; })[0];
+      this.refCountries[newValue] = this.countries.filter(function(c) {
+        return c.maxValues[cas.id] >= 3 * cas.min_cases;
+      }).sort(function(a, b) {
+        return b.maxValues[cas.id] - a.maxValues[cas.id];
+      });
       if (oldValue) this.refCountry = null;
       this.countriesOrder = "cases";
       if (!this.countries.filter(function(c) { return c.selected; }).length) {
@@ -297,11 +304,6 @@ new Vue({
           .forEach(function(c, i) {
             c.color = d3.defaultColors[i % d3.defaultColors.length];
           });
-        refCountries[scope] = scopes[scope].countries.filter(function(c) {
-          return c.maxValues['deceased'] >= 15;
-        }).sort(function(a, b) {
-          return b.maxValues['deceased'] - a.maxValues['deceased'];
-        });
         cases.forEach(function(ca) {
           ca.total[scope] = d3.strFormat(ca.total[scope]);
         });
