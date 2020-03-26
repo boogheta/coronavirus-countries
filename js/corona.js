@@ -44,6 +44,7 @@ new Vue({
       //World: ["Italy", "Iran", "South Korea", "France", "Germany", "Spain", "USA"],
     },
     countriesOrder: null,
+    countriesColors: {},
     refCountry: null,
     refCountries: {},
     values: {},
@@ -256,6 +257,7 @@ new Vue({
         scopeChoices = this.scopeChoices = [],
         values = this.values,
         refCountries = this.refCountries,
+        countriesColors = this.countriesColors,
         defaultPlaces = this.defaultPlaces,
         staticCountriesSort = this.staticCountriesSort,
         levelLabel = this.levelLabel;
@@ -302,7 +304,9 @@ new Vue({
         scopes[scope].countries
           .sort(staticCountriesSort(cas, "cases"))
           .forEach(function(c, i) {
-            c.color = d3.defaultColors[i % d3.defaultColors.length];
+            if (!countriesColors[c.id])
+              countriesColors[c.id] = d3.defaultColors[i % d3.defaultColors.length];
+            c.color = countriesColors[c.id];
           });
         cases.forEach(function(ca) {
           ca.total[scope] = d3.strFormat(ca.total[scope]);
