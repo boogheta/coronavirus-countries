@@ -177,7 +177,7 @@ new Vue({
   },
   mounted: function() {
     this.download_data();
-    //setInterval(this.download_data, 3600000);
+    setInterval(this.download_data, 600000);
   },
   methods: {
     onResize: function() {
@@ -244,7 +244,7 @@ new Vue({
     download_data: function() {
       var cacheBypass = new Date().getTime();
       d3.json(
-        "data/coronavirus-countries" + (this.oldrecovered ? "-oldrecovered" : "") + ".json?" + cacheBypass,
+        "data/coronavirus-countries" + (this.oldrecovered ? "-oldrecovered.json" : ".json?" + cacheBypass),
         this.prepareData
       );
     },
