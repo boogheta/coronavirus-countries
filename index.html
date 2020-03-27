@@ -29,7 +29,10 @@
     <aside class="navigation-drawer navigation-drawer--absolute navigation-drawer--clipped navigation-drawer--is-booted navigation-drawer--is-mobile navigation-drawer--open navigation-drawer--permanent">
       <v-list dense id="controls">
 
-        <v-subheader class="mt-2">Cases</v-subheader>
+        <v-subheader class="">
+          <v-icon>grain</v-icon>
+          <span>Cases</span>
+        </v-subheader>
         <v-list-tile
           v-for="item in cases"
           v-if="!item.disabled"
@@ -60,11 +63,11 @@
           </v-list-tile-action>
         </v-list-tile>
 
-        <v-subheader class="bordered mt-2">Scale</v-subheader>
+        <v-subheader class="bordered">
+          <v-icon>timeline</v-icon>
+          <span>Scale</span>
+        </v-subheader>
         <v-list-tile>
-          <v-list-tile-action>
-            <v-icon>timeline</v-icon>
-          </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title
               :class="{'switcher': true, 'value': true, 'unchecked': logarithmic}"
@@ -82,11 +85,11 @@
           </v-list-tile-content>
         </v-list-tile>
 
-        <v-subheader class="bordered mt-2">Compare as</v-subheader>
+        <v-subheader class="bordered">
+          <v-icon>view_module</v-icon>
+          <span>Compare as</span>
+        </v-subheader>
         <v-list-tile>
-          <v-list-tile-action>
-            <v-icon>view_module</v-icon>
-          </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title
               :class="{'switcher': true, 'value': true, 'unchecked': multiples}"
@@ -104,7 +107,8 @@
           </v-list-tile-content>
         </v-list-tile>
 
-        <v-subheader class="bordered mt-2">
+        <v-subheader class="bordered">
+          <v-icon>explore</v-icon>
           <v-select auto single-line hide-details
             v-model="scope"
             :items="scopeChoices"
@@ -157,7 +161,9 @@
       </v-list>
 
       <v-list dense id="lowermenu">
-        <v-subheader class="mt-2 selectAlign" v-if="!multiples">Align&nbsp;<v-select auto single-line hide-details
+        <v-subheader class="selectAlign" v-if="!multiples">
+          <v-icon>compare_arrows</v-icon>
+          Align to&nbsp;<v-select auto single-line hide-details
             v-model="refCase"
             :items="refCases"
             item-text="id"
@@ -166,12 +172,12 @@
             class="select"
             @change="refCase = $event"
           >
-          </v-select>with
+          </v-select>from
           <v-chip small outline close class="grey--text"
             v-model="refCountrySelected"
             @input="refCountry = null"
             @click="refCountry = null"
-          ><small>cancel</small></v-chip>
+          ><small>clear</small></v-chip>
         </v-subheader>
         <v-list-tile v-if="!multiples">
           <v-list-tile-content><v-select auto single-line hide-details
@@ -179,20 +185,24 @@
             :items="refCountriesSelection"
             item-text="name"
             item-value="name"
-            prepend-icon="compare_arrows"
             class="select"
             @change="refCountry = $event"
+            no-data-text="select a level"
+            :placeholder="'select a ' + level"
           >
           </v-select></v-list-tile-content>
         </v-list-tile>
 
         <v-subheader
-          :class="{'bordered': !multiples, 'mt-2': true}"
-        >Open Data</v-subheader>
-        <v-list-tile @click="exportData()">
-          <v-list-tile-action><v-icon>file_download</v-icon></v-list-tile-action>
-          <v-list-tile-content><v-list-tile-title>Download the data</v-list-tile-title></v-list-tile-content>
-        </v-list-tile>
+          id="opendata"
+          :class="{'bordered': !multiples}"
+          title="Download the json data behind this application"
+          @click="exportData()"
+        >
+          <v-icon>file_download</v-icon>
+          <span>Open Data</span>
+        </v-subheader>
+
       </v-list>
 
       <div class="navigation-drawer__border"></div>

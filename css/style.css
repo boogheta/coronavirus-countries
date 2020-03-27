@@ -43,17 +43,22 @@ nav .disclaimer a, nav .disclaimer a:hover, nav .disclaimer a:visited:hover {
 }
 .subheader {
   text-transform: uppercase;
-  height: 26px!important;
-  padding-bottom: 0;
-  padding-top: 5px;
-  padding-left: 8px;
-  margin-top: 0;
+  height: 28px!important;
+  margin: 0;
+  width: 100%;
+  padding: 6px 0px 0px 6px;
 }
 .subheader.bordered {
   border-top: 1px solid #505050;
 }
+.subheader .icon {
+  margin-right: 8px;
+}
 .subheader b {
   color: white;
+}
+#opendata {
+  cursor: pointer;
 }
 .unchecked {
   opacity: 0.3;
@@ -146,11 +151,6 @@ nav .disclaimer a, nav .disclaimer a:hover, nav .disclaimer a:visited:hover {
 }
 .lowercase {
   text-transform: none!important;
-}
-#opendata {
-  position: absolute;
-  bottom: 65px;
-  width: 100%;
 }
 .svg {
   overflow-x: hidden;
