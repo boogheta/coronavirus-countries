@@ -51,7 +51,7 @@ new Vue({
     cases: [
       {id: "confirmed",       selected: false,  total: {}, daily: {}, color: d3.defaultColors[0]},
       {id: "recovered",       selected: false,  total: {}, daily: {}, color: d3.defaultColors[1], disabled: true},
-      {id: "deceased",        selected: false,  total: {}, daily: {}, color: d3.defaultColors[4]},
+      {id: "deceased",        selected: false,  total: {}, daily: {}, color: d3.defaultColors[22]},
       {id: "currently_sick",  selected: false,  total: {}, daily: {}, color: d3.defaultColors[3], disabled: true}
     ],
     oldrecovered: false,
@@ -474,9 +474,11 @@ new Vue({
         yMax = Math.max(0, d3.max(maxValues)),
         yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]().range([height, 0]).domain([logarithmic ? 1 : 0, yMax]),
         yPosition = function(c, ca, i) {
-          if (logarithmic && values[c][ca][perDay][i] == 0)
+          var val = values[c][ca][perDay][i] + 0;
+          if (perDay === "daily" && val < 0) val = 0
+          if (logarithmic && val == 0)
             return yScale(1);
-          return yScale(values[c][ca][perDay][i]);
+          return yScale(val);
         };
       this.no_country_selected[0].style = {
         "background-color": "lightgrey!important",
@@ -677,6 +679,7 @@ new Vue({
           .domain([logarithmic ? 1 : 0, yMax]),
         yPosition = function(c, d, i) {
           var val = shiftedVal(c, d, i);
+          if (perDay === "daily" && val < 0) val = 0
           if (logarithmic && val == 0)
             return yScale(1);
           return yScale(val);
