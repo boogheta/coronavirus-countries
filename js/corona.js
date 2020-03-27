@@ -499,6 +499,12 @@ new Vue({
       var hover = this.hover,
         displayTooltip = this.displayTooltip,
         clearTooltip = this.clearTooltip;
+      var ticks = d3.axisBottom(xScale).tickFormat(d3.timeFormat("%b %d")).tickSizeOuter(0);
+      if (width <= 400)
+        ticks.ticks(2);
+      var singleWidth = width;
+      if (perDay === "daily")
+        singleWidth += xWidth / 2;
       this.legend.sort(function(a, b) {
         return b.maxValues[perDay][cas] - a.maxValues[perDay][cas];
       }).forEach(function(c, i) {
@@ -559,16 +565,13 @@ new Vue({
         });
 
         // Draw axis
-        var ticks = d3.axisBottom(xScale).tickFormat(d3.timeFormat("%b %d")).tickSizeOuter(0);
-        if (width <= 400)
-          ticks.ticks(2);
         g.append("g")
           .attr("class", "axis axis--x")
           .attr("transform", "translate(0, " + (height) + ")")
           .call(ticks);
         g.append("g")
           .attr("class", "axis axis--y")
-          .attr("transform", "translate(" + (width) + ", 0)")
+          .attr("transform", "translate(" + singleWidth + ", 0)")
           .call(d3.axisRight(yScale).ticks(4 * Math.floor(height / 125), d3.strFormat).tickSizeOuter(0));
   
         // Draw tooltips surfaces
@@ -736,6 +739,8 @@ new Vue({
         .attr("class", "axis axis--x")
         .attr("transform", "translate(0, " + (height) + ")")
         .call(d3.axisBottom(xScale).tickFormat(d3.timeFormat("%b %d")).tickSizeOuter(0));
+      if (perDay === "daily")
+        width += xWidth / 2;
       g.append("g")
         .attr("class", "axis axis--y")
         .attr("transform", "translate(" + (width) + ", 0)")
