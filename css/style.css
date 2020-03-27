@@ -59,9 +59,16 @@ nav .disclaimer a, nav .disclaimer a:hover, nav .disclaimer a:visited:hover {
 }
 #opendata {
   cursor: pointer;
+  height: 34px!important;
 }
 .unchecked {
   opacity: 0.3;
+}
+.switchoption .list__tile__content {
+  width: 40%;
+}
+.switchoption .list__tile__action {
+  width: 20%;
 }
 .switcher.unchecked {
   cursor: pointer;

@@ -62,6 +62,8 @@ new Vue({
         {id: "deceased",  min_cases: 10, max_dates: 30}
     ],
     logarithmic: false,
+    perCapita: false,
+    perDay: false,
     multiples: false,
     resizing: null,
     hoverDate: "",
@@ -110,6 +112,8 @@ new Vue({
       return (this.scope !== "World" ? "country="+this.scope+"&" : "") +
         (this.multiples ? this.casesChosen : this.case) +
         (this.logarithmic ? "&log" : "") +
+        (this.perCapita ? "&ratio" : "") +
+        (this.perDay ? "&daily" : "") +
         (this.multiples ? "&multiples" : "") +
         "&places=" + (this.legend.length ? this.legend : this.scopes[this.scope].countries.filter(function(c) { return c.selected; }))
           .sort(this.staticCountriesSort(null, "names"))
@@ -223,6 +227,8 @@ new Vue({
       if (!options.confirmed && !options.recovered && !options.deceased && !options.currently_sick)
         options.deceased = true;
       this.logarithmic = !!options.log;
+      this.perCapita = !!options.ratio;
+      this.perDay = !!options.daily;
       this.multiples = !!options.multiples;
       this.cases.forEach(function(c) {
         c.selected = !!options[c.id] && !c.disabled;
