@@ -441,6 +441,7 @@ new Vue({
         legend = this.legend,
         values = this.values[this.scope],
         casesLegend = this.casesLegend,
+        n_cases = casesLegend.length,
         dates = this.scopes[this.scope].dates
           .slice(this.perDay ? 1 : 0)
           .map(function(d) {
@@ -466,6 +467,8 @@ new Vue({
         xScale = d3.scaleTime().range([0, width]).domain([start, end]),
         xWidth = width / this.curExtent,
         xPosition = function(d) { return xScale(d3.max([start, d.date || d.data.date])) - xWidth/2; },
+        xHistoWidth = xWidth * (20 - n_cases - 1) / (20 * n_cases),
+        xHistoPosition = function(d, idx) { return xPosition(d) + xWidth * (2 * idx + 1) / 20 + idx * xHistoWidth; },
         multiplesMax = function(c) { return d3.max(casesLegend.map(function(cas) { return c.maxValues[perDay][cas.id]; })); },
         maxValues = legend.map(multiplesMax),
         yMax = Math.max(0, d3.max(maxValues)),
@@ -511,33 +514,48 @@ new Vue({
         var g = svg.append("g")
           .attr("transform", "translate(" + xPos + "," + yPos + ")");
 
-        casesLegend.forEach(function(cas) {
-          var curve = d3.line()
-            .x(function(d) { return xScale(d.date); })
-            .y(function(d, i) { return yPosition(c.id, cas.id, i); });
-          if (perDay === "daily") curve.curve(d3.curveStep)
+        casesLegend.forEach(function(cas, idx) {
+          if (perDay === "daily")
+            g.append("g")
+              .selectAll("rect.histogram." + c.id)
+              .data(dates).enter().append("rect")
+                .classed("histogram", true)
+                .classed(c.id, true)
+                .attr("did", function(d, i) { return i; })
+                .attr("country", c.id)
+                .attr("case", cas.id)
+                .attr("fill", cas.color)
+                .attr("stroke", cas.color)
+                .attr("x", function(d) { return xHistoPosition(d, idx); })
+                .attr("y", function(d, i) { return yPosition(c.id, cas.id, i); })
+                .attr("width", xHistoWidth)
+                .attr("height", function(d, i) { return yScale.range()[0] - yPosition(c.id, cas.id, i); });
+          else {
+            g.append("path")
+              .datum(dates)
+              .attr("id", c.id + "_" + cas.id)
+              .attr("class", "line " + cas.id)
+              .attr("fill", "none")
+              .attr("stroke", cas.color)
+              .attr("stroke-linejoin", "round")
+              .attr("stroke-linecap", "round")
+              .attr("stroke-width", 2)
+              .attr("d", d3.line()
+                .x(function(d) { return xScale(d.date); })
+                .y(function(d, i) { return yPosition(c.id, cas.id, i); })
+              );
 
-          g.append("path")
-            .datum(dates)
-            .attr("id", c.id + "_" + cas.id)
-            .attr("class", "line " + cas.id)
-            .attr("fill", "none")
-            .attr("stroke", cas.color)
-            .attr("stroke-linejoin", "round")
-            .attr("stroke-linecap", "round")
-            .attr("stroke-width", 2)
-            .attr("d", curve)
-
-          if (columns < 3 && perDay === "total")
-            g.selectAll(".dot." + cas.id + "." + c.id)
-            .data(dates)
-            .enter()
-            .append("circle")
-              .attr("class", "dot " + cas.id + " " + c.id)
-              .attr("fill", cas.color)
-              .attr("cx", function(d) { return xScale(d.date); })
-              .attr("cy", function(d, i) { return yPosition(c.id, cas.id, i); })
-              .attr("r", 4 - columns);
+            if (columns < 3)
+              g.selectAll(".dot." + cas.id + "." + c.id)
+              .data(dates)
+              .enter()
+              .append("circle")
+                .attr("class", "dot " + cas.id + " " + c.id)
+                .attr("fill", cas.color)
+                .attr("cx", function(d) { return xScale(d.date); })
+                .attr("cy", function(d, i) { return yPosition(c.id, cas.id, i); })
+                .attr("r", 4 - columns);
+          }
         });
 
         // Draw axis
@@ -596,6 +614,8 @@ new Vue({
 
       // Filter dates from zoom
       var values = this.values[this.scope],
+        legend = this.legend,
+        n_places = legend.length,
         dates = this.scopes[this.scope].dates.slice(this.perDay ? 1 : 0),
         cas = this.case,
         perDay = this.perDayStr,
@@ -637,6 +657,8 @@ new Vue({
         xPosition = function(d) {
           return xScale(d3.max([start, d.date || d.data.date])) - xWidth/2;
         },
+        xHistoWidth = xWidth * (20 - n_places - 1) / (20 * n_places),
+        xHistoPosition = function(d, idx) { return xPosition(d) + xWidth * (2 * idx + 1) / 20 + idx * xHistoWidth; },
         shiftedVal = function(c, d, i) {
           var idx = i + Math.max(0, hiddenLeft - c.shift);
           return values[c.id][cas][perDay][idx];
@@ -646,7 +668,7 @@ new Vue({
             return shiftedVal(c, d, i);
           }));
         },
-        yMax = Math.max(0, d3.max(this.legend.map(shiftedMaxVal))),
+        yMax = Math.max(0, d3.max(legend.map(shiftedMaxVal))),
         yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]()
           .range([height, 0])
           .domain([logarithmic ? 1 : 0, yMax]),
@@ -667,24 +689,36 @@ new Vue({
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
       // Draw series
-      this.legend.forEach(function(c) {
-        var curve = d3.line()
-          .x(function(d) { return xScale(d.date); })
-          .y(function(d, i) { return yPosition(c, d, i); });
-        if (perDay === "daily") curve.curve(d3.curveStep);
+      legend.forEach(function(c, idx) {
+        if (perDay === "daily")
+          g.append("g")
+            .selectAll("rect.histogram." + c.id)
+            .data(shiftedDates(c)).enter().append("rect")
+              .classed("histogram", true)
+              .classed(c.id, true)
+              .attr("did", function(d, i) { return i; })
+              .attr("country", c.id)
+              .attr("fill", c.color)
+              .attr("stroke", c.color)
+              .attr("x", function(d) { return xHistoPosition(d, idx); })
+              .attr("y", function(d, i) { return yPosition(c, d, i); })
+              .attr("width", xHistoWidth)
+              .attr("height", function(d, i) { return yScale.range()[0] - yPosition(c, d, i); });
+        else {
+          g.append("path")
+            .datum(shiftedDates(c))
+            .attr("id", c.id)
+            .attr("class", "line")
+            .attr("fill", "none")
+            .attr("stroke", c.color)
+            .attr("stroke-linejoin", "round")
+            .attr("stroke-linecap", "round")
+            .attr("stroke-width", 2)
+            .attr("d", d3.line()
+              .x(function(d) { return xScale(d.date); })
+              .y(function(d, i) { return yPosition(c, d, i); })
+            );
 
-        g.append("path")
-          .datum(shiftedDates(c))
-          .attr("id", c.id)
-          .attr("class", "line")
-          .attr("fill", "none")
-          .attr("stroke", c.color)
-          .attr("stroke-linejoin", "round")
-          .attr("stroke-linecap", "round")
-          .attr("stroke-width", 2)
-          .attr("d", curve)
-
-        if (perDay === "total")
           g.selectAll(".dot." + c.id)
             .data(shiftedDates(c))
             .enter()
@@ -694,6 +728,7 @@ new Vue({
               .attr("cx", function(d) { return xScale(d.date); })
               .attr("cy", function(d, i) { return yPosition(c, d, i); })
               .attr("r", 3);
+        }
       });
 
       // Draw axis
