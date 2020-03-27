@@ -49,10 +49,10 @@ new Vue({
     refCountries: {},
     values: {},
     cases: [
-      {id: "confirmed",       selected: false,  total: {}, color: d3.defaultColors[0]},
-      {id: "recovered",       selected: false,  total: {}, color: d3.defaultColors[1], disabled: true},
-      {id: "deceased",        selected: false,  total: {}, color: d3.defaultColors[4]},
-      {id: "currently_sick",  selected: false,  total: {}, color: d3.defaultColors[3], disabled: true}
+      {id: "confirmed",       selected: false,  total: {}, daily: {}, color: d3.defaultColors[0]},
+      {id: "recovered",       selected: false,  total: {}, daily: {}, color: d3.defaultColors[1], disabled: true},
+      {id: "deceased",        selected: false,  total: {}, daily: {}, color: d3.defaultColors[4]},
+      {id: "currently_sick",  selected: false,  total: {}, daily: {}, color: d3.defaultColors[3], disabled: true}
     ],
     oldrecovered: false,
     caseChoice: null,
@@ -80,6 +80,9 @@ new Vue({
     help: false
   },
   computed: {
+    perDayStr: function() {
+      return (this.perDay ? 'daily' : 'total');
+    },
     legend: function() {
       return this.countries.filter(function(c) { return c.selected; });
     },
@@ -136,11 +139,12 @@ new Vue({
       this.level = this.scopes[newValue].level;
       this.countries = this.scopes[newValue].countries;
       var refCase = this.refCase,
+        perDay = this.perDayStr,
         cas = this.refCases.filter(function(c){ return c.id === refCase; })[0];
       this.refCountries[newValue] = this.countries.filter(function(c) {
-        return c.maxValues[cas.id] >= 3 * cas.min_cases;
+        return c.maxValues["total"][cas.id] >= 3 * cas.min_cases;
       }).sort(function(a, b) {
-        return b.maxValues[cas.id] - a.maxValues[cas.id];
+        return b.maxValues["total"][cas.id] - a.maxValues["total"][cas.id];
       });
       if (oldValue) this.refCountry = null;
       this.countriesOrder = "cases";
@@ -271,22 +275,32 @@ new Vue({
         values[scope] = {};
         cases.forEach(function(ca) {
           ca.total[scope] = 0;
+          ca.daily[scope] = 0;
         });
         var level = data.scopes[scope].level,
           dates = data.scopes[scope].dates || data.dates,
           countries = Object.keys(data.scopes[scope].values)
           .map(function(c) {
-            var maxVals = {},
-              lastVals = {},
+            var maxVals = {total: {}, daily: {}},
+              lastVals = {total: {}, daily: {}},
               cid = c.toLowerCase().replace(/[^a-z]/, '');
             values[scope][cid] = {};
             cases.forEach(function(ca) {
               if (ca.disabled) return;
-              values[scope][cid][ca.id] = data.scopes[scope].values[c][ca.id];
-              maxVals[ca.id] = d3.max(values[scope][cid][ca.id]);
-              lastVals[ca.id] = values[scope][cid][ca.id][data.dates.length - 1];
-              if (c !== "total")
-                ca.total[scope] += lastVals[ca.id];
+              values[scope][cid][ca.id] = {
+                total: data.scopes[scope].values[c][ca.id],
+                daily: data.scopes[scope].values[c][ca.id]
+                  .slice(1)
+                  .map(function(v, i) {
+                    return v - data.scopes[scope].values[c][ca.id][i];
+                  })
+              };
+              ["total", "daily"].forEach(function(perDay) {
+                maxVals[perDay][ca.id] = d3.max(values[scope][cid][ca.id][perDay]);
+                lastVals[perDay][ca.id] = values[scope][cid][ca.id][perDay][values[scope][cid][ca.id][perDay].length - 1];
+                if (c !== "total")
+                  ca[perDay][scope] += lastVals[perDay][ca.id];
+              });
             });
             return {
               id: cid,
@@ -316,6 +330,7 @@ new Vue({
           });
         cases.forEach(function(ca) {
           ca.total[scope] = d3.strFormat(ca.total[scope]);
+          ca.daily[scope] = d3.strFormat(ca.daily[scope]);
         });
         scopeChoices.push({
           name: scope,
@@ -355,9 +370,10 @@ new Vue({
       });
     },
     staticCountriesSort: function(cas, field) {
+      var perDay = this.perDayStr;
       return function(a, b) {
-        if (field === "cases" && a.lastValues[cas] !== b.lastValues[cas])
-          return b.lastValues[cas] - a.lastValues[cas];
+        if (field === "cases" && a.lastValues[perDay][cas] !== b.lastValues[perDay][cas])
+          return b.lastValues[perDay][cas] - a.lastValues[perDay][cas];
         else {
           if (b.name > a.name) return -1;
           if (a.name > b.name) return 1;
@@ -373,11 +389,12 @@ new Vue({
       if (refCountry && this.scope) {
         var values = this.values[this.scope],
           dates = this.scopes[this.scope].dates,
+          perDay = this.perDayStr,
           refCase = this.refCase,
           refCaseParams = this.refCases.filter(function(c) { return c.id === refCase; })[0],
           refStart = null,
           refId = this.countries.filter(function(c) { return c.name === refCountry; })[0].id,
-          refValues = values[refId][refCase];
+          refValues = values[refId][refCase][perDay];
         this.legend.forEach(function(c) {
           if (c.name === refCountry) {
             c.shift = 0;
@@ -391,7 +408,7 @@ new Vue({
               if (refValues[i] < refCaseParams.min_cases || ndates > refCaseParams.max_dates) return;
               ndates++;
               for (var j = 1; j < dates.length ; j++) {
-                curVal = values[c.id][refCase][j];
+                curVal = values[c.id][refCase][perDay][j];
                 if (curVal < refValues[i]) {
                   lastVal = curVal;
                   continue;
@@ -424,13 +441,16 @@ new Vue({
         legend = this.legend,
         values = this.values[this.scope],
         casesLegend = this.casesLegend,
-        dates = this.scopes[this.scope].dates.map(function(d) {
-          return {
-            date: d,
-            legend: d3.timeFormat("%a %e %B %Y")(d)
-          };
-        }),
+        dates = this.scopes[this.scope].dates
+          .slice(this.perDay ? 1 : 0)
+          .map(function(d) {
+            return {
+              date: d,
+              legend: d3.timeFormat("%a %e %B %Y")(d)
+            };
+          }),
         logarithmic = this.logarithmic,
+        perDay = this.perDayStr,
         start = dates[0].date,
         end = dates[dates.length - 1].date;
       this.curExtent = Math.round((end - start) / (1000*60*60*24));
@@ -446,14 +466,14 @@ new Vue({
         xScale = d3.scaleTime().range([0, width]).domain([start, end]),
         xWidth = width / this.curExtent,
         xPosition = function(d) { return xScale(d3.max([start, d.date || d.data.date])) - xWidth/2; },
-        multiplesMax = function(c) { return d3.max(casesLegend.map(function(cas) { return c.maxValues[cas.id]; })); },
+        multiplesMax = function(c) { return d3.max(casesLegend.map(function(cas) { return c.maxValues[perDay][cas.id]; })); },
         maxValues = legend.map(multiplesMax),
         yMax = Math.max(0, d3.max(maxValues)),
         yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]().range([height, 0]).domain([logarithmic ? 1 : 0, yMax]),
         yPosition = function(c, ca, i) {
-          if (logarithmic && values[c][ca][i] == 0)
+          if (logarithmic && values[c][ca][perDay][i] == 0)
             return yScale(1);
-          return yScale(values[c][ca][i]);
+          return yScale(values[c][ca][perDay][i]);
         };
       this.no_country_selected[0].style = {
         "background-color": "lightgrey!important",
@@ -462,7 +482,7 @@ new Vue({
       };
 
       this.countries.forEach(function(c) {
-        c.lastStr = d3.strFormat(c.lastValues[cas]);
+        c.lastStr = d3.strFormat(c.lastValues[perDay][cas]);
       });
 
       // Prepare svg
@@ -477,7 +497,7 @@ new Vue({
         displayTooltip = this.displayTooltip,
         clearTooltip = this.clearTooltip;
       this.legend.sort(function(a, b) {
-        return b.maxValues[cas] - a.maxValues[cas];
+        return b.maxValues[perDay][cas] - a.maxValues[perDay][cas];
       }).forEach(function(c, i) {
         var xIdx = i % columns,
           yIdx = Math.floor(i / columns),
@@ -492,6 +512,11 @@ new Vue({
           .attr("transform", "translate(" + xPos + "," + yPos + ")");
 
         casesLegend.forEach(function(cas) {
+          var curve = d3.line()
+            .x(function(d) { return xScale(d.date); })
+            .y(function(d, i) { return yPosition(c.id, cas.id, i); });
+          if (perDay === "daily") curve.curve(d3.curveStep)
+
           g.append("path")
             .datum(dates)
             .attr("id", c.id + "_" + cas.id)
@@ -501,11 +526,9 @@ new Vue({
             .attr("stroke-linejoin", "round")
             .attr("stroke-linecap", "round")
             .attr("stroke-width", 2)
-            .attr("d", d3.line()
-              .x(function(d) { return xScale(d.date); })
-              .y(function(d, i) { return yPosition(c.id, cas.id, i); })
-            );
-          if (columns < 3)
+            .attr("d", curve)
+
+          if (columns < 3 && perDay === "total")
             g.selectAll(".dot." + cas.id + "." + c.id)
             .data(dates)
             .enter()
@@ -565,15 +588,17 @@ new Vue({
 
     },
     drawSeries: function() {
-      var cas = this.case;
+      var cas = this.case,
+        perDay = this.perDayStr;
       this.countries.forEach(function(c) {
-        c.lastStr = d3.strFormat(c.lastValues[cas]);
+        c.lastStr = d3.strFormat(c.lastValues[perDay][cas]);
       });
 
       // Filter dates from zoom
       var values = this.values[this.scope],
-        dates = this.scopes[this.scope].dates,
+        dates = this.scopes[this.scope].dates.slice(this.perDay ? 1 : 0),
         cas = this.case,
+        perDay = this.perDayStr,
         logarithmic = this.logarithmic,
         hiddenLeft = this.hiddenLeft,
         hiddenRight = this.hiddenRight,
@@ -614,7 +639,7 @@ new Vue({
         },
         shiftedVal = function(c, d, i) {
           var idx = i + Math.max(0, hiddenLeft - c.shift);
-          return values[c.id][cas][idx];
+          return values[c.id][cas][perDay][idx];
         },
         shiftedMaxVal = function(c) {
           return d3.max(shiftedDates(c).map(function(d, i) {
@@ -643,6 +668,11 @@ new Vue({
 
       // Draw series
       this.legend.forEach(function(c) {
+        var curve = d3.line()
+          .x(function(d) { return xScale(d.date); })
+          .y(function(d, i) { return yPosition(c, d, i); });
+        if (perDay === "daily") curve.curve(d3.curveStep);
+
         g.append("path")
           .datum(shiftedDates(c))
           .attr("id", c.id)
@@ -652,20 +682,18 @@ new Vue({
           .attr("stroke-linejoin", "round")
           .attr("stroke-linecap", "round")
           .attr("stroke-width", 2)
-          .attr("d", d3.line()
-            .x(function(d) { return xScale(d.date); })
-            .y(function(d, i) { return yPosition(c, d, i); })
-          );
+          .attr("d", curve)
 
-        g.selectAll(".dot." + c.id)
-          .data(shiftedDates(c))
-          .enter()
-          .append("circle")
-            .attr("class", "dot " + c.id)
-            .attr("fill", c.color)
-            .attr("cx", function(d) { return xScale(d.date); })
-            .attr("cy", function(d, i) { return yPosition(c, d, i); })
-            .attr("r", 3);
+        if (perDay === "total")
+          g.selectAll(".dot." + c.id)
+            .data(shiftedDates(c))
+            .enter()
+            .append("circle")
+              .attr("class", "dot " + c.id)
+              .attr("fill", c.color)
+              .attr("cx", function(d) { return xScale(d.date); })
+              .attr("cy", function(d, i) { return yPosition(c, d, i); })
+              .attr("r", 3);
       });
 
       // Draw axis
@@ -712,25 +740,27 @@ new Vue({
 
     },
     hover: function(d, i) {
-      d3.selectAll('rect.hoverdate[did="' + i + '"]').style("fill-opacity", 0.25);
+      var typ = (this.perDay ? "surface" : "hoverdate");
+      d3.selectAll('rect.' + typ + '[did="' + i + '"]').style("fill-opacity", 0.25);
     },
     displayTooltip: function(d, i, rects) {
       this.hoverDate = d.legend;
 
-      var values = this.values[this.scope];
+      var values = this.values[this.scope],
+        perDay = this.perDayStr;
       if (!this.multiples) {
         var cas = this.case,
           hiddenLeft = this.hiddenLeft;
         this.legend.forEach(function(c) {
-          var val = values[c.id][cas][i + hiddenLeft - c.shift];
+          var val = values[c.id][cas][perDay][i + hiddenLeft - c.shift];
           if (val == undefined) c.value = "";
           else c.value = d3.strFormat(val);
         });
       } else {
         var country = d3.select(rects[i]).attr('country');
-        this.cases.forEach(function(c) {
-          if (!c.disabled)
-            c.value = d3.strFormat(values[country][c.id][i]);
+        this.cases.forEach(function(ca) {
+          if (!ca.disabled)
+            ca.value = d3.strFormat(values[country][ca.id][perDay][i]);
         });
       }
       d3.select(".tooltipBox")
@@ -741,13 +771,15 @@ new Vue({
     clearTooltip: function(d, i) {
       var cas = this.case,
         legend = this.legend,
-        multiples = this.multiples;
+        multiples = this.multiples,
+        perDay = this.perDayStr;
       this[multiples ? "cases" : "legend"].forEach(function(c) {
-        c.value = (multiples && legend.length == 1 && !c.disabled ? d3.strFormat(legend[0].lastValues[c.id]) : null);
+        c.value = (multiples && legend.length == 1 && !c.disabled ? d3.strFormat(legend[0].lastValues[perDay][c.id]) : null);
       });
-      this.$forceUpdate();
-      d3.selectAll('rect.hoverdate[did="' + i + '"]').style("fill-opacity", 0);
+      var typ = (this.perDay ? "surface" : "hoverdate");
+      d3.selectAll('rect.' + typ + '[did="' + i + '"]').style("fill-opacity", 0);
       d3.select(".tooltipBox").style("display", "none");
+      this.$forceUpdate();
     },
     hoverCase: function(cas, hov) {
       if (this.multiples && cas.selected) {
