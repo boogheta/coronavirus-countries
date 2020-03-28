@@ -528,8 +528,8 @@ new Vue({
             g.append("g")
               .selectAll("rect.histogram." + c.id)
               .data(dates).enter().append("rect")
-                .classed("histogram", true)
-                .classed(c.id, true)
+                .attr("id", c.id + "_" + cas.id)
+                .attr("class", "histogram " + cas.id)
                 .attr("did", function(d, i) { return i; })
                 .attr("country", c.id)
                 .attr("case", cas.id)
@@ -709,8 +709,10 @@ new Vue({
               .attr("fill", c.color)
               .attr("stroke", c.color)
               .attr("x", function(d) { return xHistoPosition(d, idx); })
+              .attr("xPos", function(d) { return xPosition(d) + xWidth / 4; })
               .attr("y", function(d, i) { return yPosition(c, d, i); })
               .attr("width", xHistoWidth)
+              .attr("xWidth", xWidth / 2)
               .attr("height", function(d, i) { return yScale.range()[0] - yPosition(c, d, i); });
         else {
           g.append("path")
@@ -827,20 +829,34 @@ new Vue({
       this.$forceUpdate();
     },
     hoverCase: function(cas, hov) {
-      if (this.multiples && cas.selected) {
+      if (this.multiples && cas.selected && !this.perDay) {
         d3.selectAll(".line." + cas.id).classed("hover", hov);
         if (hov) document.querySelectorAll("." + cas.id)
-        .forEach(function(d) {
-          d.parentNode.appendChild(d);
+          .forEach(function(d) {
+            d.parentNode.appendChild(d);
         });
       }
     },
     hoverCountry: function(c, hov) {
-      d3.select("#" + c).classed("hover", hov);
-      if (hov) document.querySelectorAll("#" + c + ", .dot." + c)
-      .forEach(function(d) {
-        d.parentNode.appendChild(d);
-      });
+      if (this.perDay) {
+        d3.selectAll(".histogram").classed("hidden", hov);
+        if (hov) d3.selectAll(".histogram." + c).classed("hidden", false);
+        document.querySelectorAll(".histogram." + c)
+        .forEach(function(d) {
+          var x = d.getAttribute("xPos"),
+            w = d.getAttribute("xWidth");
+          d.setAttribute("xPos", d.getAttribute("x"));
+          d.setAttribute("x", x);
+          d.setAttribute("xWidth", d.getAttribute("width"));
+          d.setAttribute("width", w);
+        });
+      } else {
+        d3.select("#" + c).classed("hover", hov);
+        if (hov) document.querySelectorAll("#" + c + ", .dot." + c)
+          .forEach(function(d) {
+            d.parentNode.appendChild(d);
+          });
+      }
     },
     zoom: function(d, i, rects) {
       var direction = (d3.event.deltaY && d3.event.deltaY > 0 ? -1 : 1),
