@@ -70,7 +70,7 @@ nav .disclaimer a, nav .disclaimer a:hover, nav .disclaimer a:visited:hover {
 .switchoption .list__tile__action {
   width: 20%;
 }
-.switcher.unchecked {
+.switcher {
   cursor: pointer;
 }
 .switcher.unchecked:hover {
@@ -85,6 +85,9 @@ nav .disclaimer a, nav .disclaimer a:hover, nav .disclaimer a:visited:hover {
 }
 .sort small.unchecked {
   cursor: pointer;
+}
+.sort small.unchecked:hover {
+  opacity: 1;
 }
 #countries {
   overflow-y: auto;

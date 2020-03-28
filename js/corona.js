@@ -467,8 +467,9 @@ new Vue({
         xScale = d3.scaleTime().range([0, width]).domain([start, end]),
         xWidth = width / this.curExtent,
         xPosition = function(d) { return xScale(d3.max([start, d.date || d.data.date])) - xWidth/2; },
-        xHistoWidth = xWidth * (20 - n_cases - 1) / (20 * n_cases),
-        xHistoPosition = function(d, idx) { return xPosition(d) + xWidth * (2 * idx + 1) / 20 + idx * xHistoWidth; },
+        xHistoWidth = xWidth / (2 * n_cases),
+        xHistoGap = xWidth / (4 * n_cases),
+        xHistoPosition = function(d, idx) { return xPosition(d) + (2 * idx + 1) * xHistoGap + idx * xHistoWidth; },
         multiplesMax = function(c) { return d3.max(casesLegend.map(function(cas) { return c.maxValues[perDay][cas.id]; })); },
         maxValues = legend.map(multiplesMax),
         yMax = Math.max(0, d3.max(maxValues)),
@@ -662,8 +663,9 @@ new Vue({
         xPosition = function(d) {
           return xScale(d3.max([start, d.date || d.data.date])) - xWidth/2;
         },
-        xHistoWidth = xWidth * (20 - n_places - 1) / (20 * n_places),
-        xHistoPosition = function(d, idx) { return xPosition(d) + xWidth * (2 * idx + 1) / 20 + idx * xHistoWidth; },
+        xHistoWidth = xWidth / (2 * n_places),
+        xHistoGap = xWidth / (4 * n_places),
+        xHistoPosition = function(d, idx) { return xPosition(d) + (2 * idx + 1) * xHistoGap + idx * xHistoWidth; },
         shiftedVal = function(c, d, i) {
           var idx = i + Math.max(0, hiddenLeft - c.shift);
           return values[c.id][cas][perDay][idx];
@@ -695,7 +697,7 @@ new Vue({
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
       // Draw series
-      legend.forEach(function(c, idx) {
+      legend.sort(this.staticCountriesSort(null, "names")).forEach(function(c, idx) {
         if (perDay === "daily")
           g.append("g")
             .selectAll("rect.histogram." + c.id)

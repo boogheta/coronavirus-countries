@@ -74,7 +74,7 @@
           <v-list-tile-content>
             <v-list-tile-title
               :class="{'switcher': true, 'value': true, 'unchecked': logarithmic}"
-              @click="logarithmic = false"
+              @click="logarithmic = !logarithmic"
             >linear</v-list-title>
           </v-list-tile-content>
           <v-list-tile-action>
@@ -83,7 +83,7 @@
           <v-list-tile-content>
             <v-list-tile-title
               :class="{'switcher': true, 'unchecked': !logarithmic}"
-              @click="logarithmic = true"
+              @click="logarithmic = !logarithmic"
             >logarithmic</v-list-title>
           </v-list-tile-content>
         </v-list-tile>
@@ -92,7 +92,7 @@
           <v-list-tile-content>
             <v-list-tile-title
               :class="{'switcher': true, 'value': true, 'unchecked': perDay}"
-              @click="perDay = false"
+              @click="perDay = !perDay"
             >cumulative</v-list-title>
           </v-list-tile-content>
           <v-list-tile-action>
@@ -101,7 +101,7 @@
           <v-list-tile-content>
             <v-list-tile-title
               :class="{'switcher': true, 'unchecked': !perDay}"
-              @click="perDay = true"
+              @click="perDay = !perDay"
             >daily new</v-list-title>
           </v-list-tile-content>
         </v-list-tile>
@@ -110,7 +110,7 @@
           <v-list-tile-content>
             <v-list-tile-title
               :class="{'switcher': true, 'value': true, 'unchecked': perCapita}"
-              @click="perCapita = false"
+              @click="perCapita = !perCapita"
             >total values</v-list-title>
           </v-list-tile-content>
           <v-list-tile-action>
@@ -119,7 +119,7 @@
           <v-list-tile-content>
             <v-list-tile-title
               :class="{'switcher': true, 'unchecked': !perCapita}"
-              @click="perCapita = true"
+              @click="perCapita = !perCapita"
             >population ratio</v-list-title>
           </v-list-tile-content>
         </v-list-tile>
@@ -134,7 +134,7 @@
           <v-list-tile-content>
             <v-list-tile-title
               :class="{'switcher': true, 'value': true, 'unchecked': multiples}"
-              @click="multiples = false"
+              @click="multiples = !multiples"
             >series</v-list-title>
           </v-list-tile-content>
           <v-list-tile-action>
@@ -143,7 +143,7 @@
           <v-list-tile-content>
             <v-list-tile-title
               :class="{'switcher': true, 'unchecked': !multiples}"
-              @click="multiples = true"
+              @click="multiples = !multiples"
             >small multiples</v-list-title>
           </v-list-tile-content>
         </v-list-tile>
