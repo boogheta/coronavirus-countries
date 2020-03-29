@@ -44,7 +44,7 @@ new Vue({
       //World: ["Italy", "Iran", "South Korea", "France", "Germany", "Spain", "USA"],
     },
     countriesOrder: null,
-    countriesColors: {},
+    countriesColors: {'total': "#999"},
     refCountry: null,
     refCountries: {},
     values: {},
@@ -151,7 +151,7 @@ new Vue({
       if (!this.countries.filter(function(c) { return c.selected; }).length) {
         var startPlaces = (
           this.defaultPlaces[this.scope] ||
-          this.countries.sort(this.staticCountriesSort(this.case, "cases"))
+          this.countries.sort(this.staticCountriesSort(this.case, "cases", 1, 1))
             .slice(1, 8)
             .map(function(c) { return c.name; })
         );
@@ -311,7 +311,7 @@ new Vue({
             });
             return {
               id: cid,
-              name: (c === "total" ? scope : c),
+              name: (c === "total" ? "Entire " + scope : c),
               color: "",
               value: null,
               shift: 0,
@@ -329,7 +329,7 @@ new Vue({
           extent: Math.round((dates[dates.length - 1] - dates[0]) / (1000*60*60*24))
         }
         scopes[scope].countries
-          .sort(staticCountriesSort(cas, "cases"))
+          .sort(staticCountriesSort(cas, "cases", 1, 1))
           .forEach(function(c, i) {
             if (!countriesColors[c.id])
               countriesColors[c.id] = d3.defaultColors[i % d3.defaultColors.length];
@@ -376,10 +376,14 @@ new Vue({
         c.selected = (c.name === keep);
       });
     },
-    staticCountriesSort: function(cas, field, order) {
+    staticCountriesSort: function(cas, field, order, totalLast) {
       var perDay = this.perDayStr;
       if (!order) order = 1;
       return function(a, b) {
+        if (totalLast) {
+          if (a.id === 'total') return totalLast;
+          if (b.id === 'total') return -totalLast;
+        }
         if (field === "cases" && a.lastValues[perDay][cas] !== b.lastValues[perDay][cas])
           return order * (b.lastValues[perDay][cas] - a.lastValues[perDay][cas]);
         else {
@@ -390,7 +394,7 @@ new Vue({
       };
     },
     sortCountries: function() {
-      return this.countries.sort(this.staticCountriesSort(this.case, this.countriesOrder));
+      return this.countries.sort(this.staticCountriesSort(this.case, this.countriesOrder, 1, -1));
     },
     alignPlaces: function() {
       var refCountry = this.refCountry;
@@ -629,8 +633,8 @@ new Vue({
       // Filter dates from zoom
       var values = this.values[this.scope],
         cas = this.case,
-        legend = this.legend.sort(this.staticCountriesSort(null, "names")),
-        places = legend.slice().sort(this.staticCountriesSort(cas, "cases", 1)),
+        legend = this.legend.sort(this.staticCountriesSort(null, "names", 1, 1)),
+        places = legend.slice().sort(this.staticCountriesSort(cas, "cases", 1, 1)),
         n_places = legend.length,
         dates = this.scopes[this.scope].dates.slice(this.perDay ? 1 : 0),
         perDay = this.perDayStr,
@@ -694,7 +698,8 @@ new Vue({
         zoomedDates.forEach(function(d, i) {
           var stack = 0;
           places.forEach(function(c) {
-            stack += values[c.id][cas][perDay][i + hiddenLeft];
+            if (c.id === 'total') stack = values[c.id][cas][perDay][i + hiddenLeft];
+            else stack += values[c.id][cas][perDay][i + hiddenLeft];
             if (stack > stackedMaxVal) stackedMaxVal = stack;
             stackedVals[c.id].push(stack);
           });
