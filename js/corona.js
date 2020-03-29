@@ -887,6 +887,9 @@ new Vue({
           d.setAttribute("xWidth", d.getAttribute("width"));
           d.setAttribute("width", w);
         });
+      } else if (this.vizChoice === 'stacked') {
+        d3.selectAll(".line").style("opacity", hov ? 0.5 : 1);
+        d3.select("#" + c).style("opacity", 1);
       } else {
         d3.select("#" + c).classed("hover", hov);
         if (hov) document.querySelectorAll("#" + c + ", .dot." + c)
