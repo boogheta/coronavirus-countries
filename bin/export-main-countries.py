@@ -137,6 +137,13 @@ data = {
     "last_update": "##LASTUPDATE##"
 }
 
+populations = {}
+for name in data["scopes"].keys():
+    with open(os.path.join("data", "population-%s.csv" % name)) as f:
+        populations[name] = {}
+        for place in csv.DictReader(f):
+            populations[name][place["id"]] = int(place["pop"])
+
 if OLDRECOVERED:
     data["scopes"]["USA"] = {
         "level": "state"
@@ -147,7 +154,7 @@ if OLDRECOVERED:
 #        print c, len(values)
 
 unit_vals = {
-    # population: 0,
+    "population": 0,
     # annotations: [],
     "confirmed":      [0] * n_dates,
     "deceased":       [0] * n_dates
@@ -165,8 +172,14 @@ for name, scope in data["scopes"].items():
         geounits = countries["confirmed"][name]
     for idx, geounit in enumerate(geounits):
         c = geounit if name == "World" else clean_locality(geounit["Province/State"])
+        try:
+            pop = populations[name][c]
+        except KeyError:
+            print >> sys.stderr, "WARNING: missing population for %s / %s" % (name, c)
+            pop = 0
         if c not in scope["values"]:
             scope["values"][c] = deepcopy(unit_vals)
+            scope["values"][c]["population"] = pop
         for i, d in enumerate(dates):
             vals = {}
             for cas in ["confirmed", "deceased"] + (["recovered"] if OLDRECOVERED else []):
@@ -177,6 +190,7 @@ for name, scope in data["scopes"].items():
                 sick = vals["confirmed"] - vals["recovered"] - vals["deceased"]
                 scope["values"][c]["currently_sick"][i] += sick
                 scope["values"]["total"]["currently_sick"][i] += sick
+        scope["values"]["total"]["population"] += pop
 
 with open(os.path.join("data", "coronavirus-countries%s.json" % ("-oldrecovered" if OLDRECOVERED else "")), "w") as f:
     json.dump(data, f)
