@@ -97,7 +97,7 @@ new Vue({
       }
       return (this.casesLegend[0] || {id: "deceased"}).id;
     },
-    caseLabel: function() { return (this.case || "cases").replace(/_/, ' '); },
+    caseLabel: function() { return (this.case || "cases").replace(/_/g, ' '); },
     casesChosen: function() {
       return this.casesLegend.map(function(c) { return c.id }).join("&");
     },
@@ -120,7 +120,7 @@ new Vue({
         (this.vizChoice !== 'series' ? "&" + this.vizChoice : "") +
         "&places=" + (this.legend.length ? this.legend : this.scopes[this.scope].countries.filter(function(c) { return c.selected; }))
           .sort(this.staticCountriesSort(null, "names"))
-          .map(function(c) { return c.name.replace(' ', '%20'); })
+          .map(function(c) { return c.name.replace(/ /g, '%20'); })
           .join(",") +
         (this.refCountry ? "&align=" + this.refCountry : "") +
         (this.refCase !== "confirmed" ? "&alignTo=" + this.refCase : "") +
@@ -290,7 +290,7 @@ new Vue({
           .map(function(c) {
             var maxVals = {total: {}, daily: {}},
               lastVals = {total: {}, daily: {}},
-              cid = c.toLowerCase().replace(/[^a-z]/, '');
+              cid = c.toLowerCase().replace(/[^a-z]/g, '');
             values[scope][cid] = {};
             cases.forEach(function(ca) {
               if (ca.disabled) return;
@@ -752,9 +752,7 @@ new Vue({
               .attr("width", stacked ? xWidth / 2 : xHistoWidth)
               .attr("xWidth", xWidth / 2)
               .attr("height", function(d, i) {
-                if (!stacked || !idx)
-                  return yScale.range()[0] - yPosition(c, i);
-                return yPosition(places[idx-1], i) - yPosition(c, i);
+                return Math.max(0, (!stacked || !idx ? yScale.range()[0] : yPosition(places[idx-1], i)) - yPosition(c, i));
               });
         });
 
@@ -814,7 +812,7 @@ new Vue({
           .attr("x", xPosition)
           .attr("y", yScale.range()[1])
           .attr("width", xWidth)
-          .attr("height", yScale.range()[0] - yScale.range()[1])
+          .attr("height", Math.max(0, yScale.range()[0] - yScale.range()[1]))
           .on("mouseover", this.hover)
           .on("mousemove", this.displayTooltip)
           .on("mouseleave", this.clearTooltip)
@@ -830,7 +828,7 @@ new Vue({
             .attr("x", function(d) { return xPosition(d) + xWidth / 2 - 1; })
             .attr("y", yScale.range()[1])
             .attr("width", 2)
-            .attr("height", yScale.range()[0] - yScale.range()[1])
+            .attr("height", Math.max(0, yScale.range()[0] - yScale.range()[1]))
             .on("mouseover", this.hover)
             .on("mousemove", this.displayTooltip)
             .on("mouseleave", this.clearTooltip)
