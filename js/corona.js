@@ -735,12 +735,22 @@ new Vue({
               .attr("country", c.id)
               .attr("fill", c.color)
               .attr("stroke", c.color)
-              .attr("x", function(d) { return xHistoPosition(d, idx); })
-              .attr("xPos", function(d) { return xPosition(d) + xWidth / 4; })
-              .attr("y", function(d, i) { return yPosition(c, i); })
-              .attr("width", xHistoWidth)
+              .attr("x", function(d) {
+                return (stacked ? xPosition(d) + xWidth / 4 : xHistoPosition(d, idx));
+              })
+              .attr("xPos", function(d) {
+                return xPosition(d) + xWidth / 4;
+              })
+              .attr("y", function(d, i) {
+                return yPosition(c, i);
+              })
+              .attr("width", stacked ? xWidth / 2 : xHistoWidth)
               .attr("xWidth", xWidth / 2)
-              .attr("height", function(d, i) { return yScale.range()[0] - yPosition(c, i); });
+              .attr("height", function(d, i) {
+                if (!stacked || !idx)
+                  return yScale.range()[0] - yPosition(c, i);
+                return yPosition(places[idx-1], i) - yPosition(c, i);
+              });
         });
 
       } else {
@@ -875,7 +885,10 @@ new Vue({
       }
     },
     hoverCountry: function(c, hov) {
-      if (this.perDay) {
+      if (this.perDay && this.vizChoice === 'stacked') {
+        d3.selectAll(".histogram").style("opacity", hov ? 0.5 : 1);
+        if (hov) d3.selectAll(".histogram." + c).style("opacity", 1);
+      } else if (this.perDay) {
         d3.selectAll(".histogram").classed("hidden", hov);
         if (hov) d3.selectAll(".histogram." + c).classed("hidden", false);
         document.querySelectorAll(".histogram." + c)
@@ -889,7 +902,7 @@ new Vue({
         });
       } else if (this.vizChoice === 'stacked') {
         d3.selectAll(".line").style("opacity", hov ? 0.5 : 1);
-        d3.select("#" + c).style("opacity", 1);
+        if (hov) d3.select("#" + c).style("opacity", 1);
       } else {
         d3.select("#" + c).classed("hover", hov);
         if (hov) document.querySelectorAll("#" + c + ", .dot." + c)
