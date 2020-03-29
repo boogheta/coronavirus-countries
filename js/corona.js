@@ -15,6 +15,12 @@ d3.formatShift = function(x) {
   if (!x) return "";
   return d3.format("+d")(x) + " day" + (Math.abs(x) > 1 ? "s": "");
 }
+d3.formatDaysSince = function(start) {
+  return function(d) {
+    var val = (d.getTime() - start.getTime()) / 86400000;
+    return d3.formatShift(val).slice(1);
+  }
+}
 d3.defaultColors = [
   "#9FA8DA", "#A5D6A7", "#CE93D8", "#FFE082",
   "#FFAB91", "#E0E0E0", "#40C4FF", "#F48FB1",
@@ -105,10 +111,12 @@ new Vue({
       return !!this.refCountry;
     },
     refCountriesSelection: function() {
-      var refCountry = this.refCountry;
-      return (this.refCountries[this.scope] || []).filter(function(c) {
+      var refCountry = this.refCountry,
+        refCase = this.refCase,
+        cas = this.refCases.filter(function(c){ return c.id === refCase; })[0];
+      return [{name: cas.min_cases + "th case"}].concat((this.refCountries[this.scope] || []).filter(function(c) {
         return c.selected || c.name === refCountry;
-      });
+      }));
     },
     url: function() {
       if (this.init) return window.location.hash.slice(1);
@@ -162,6 +170,12 @@ new Vue({
       this.hiddenLeft = 0;
       this.hiddenRight = 0;
       this.sortCountries();
+    },
+    refCase: function() {
+      if (this.refCase === "confirmed" && this.refCountry === "10th case")
+        this.refCountry = "50th case";
+      if (this.refCase === "deceased" && this.refCountry === "50th case")
+        this.refCountry = "10th case";
     },
     casesChosen: function() { this.sortCountries(); },
     countriesOrder: function() { this.sortCountries(); },
@@ -403,36 +417,48 @@ new Vue({
           dates = this.scopes[this.scope].dates,
           perDay = this.perDayStr,
           refCase = this.refCase,
-          refCaseParams = this.refCases.filter(function(c) { return c.id === refCase; })[0],
-          refStart = null,
-          refId = this.countries.filter(function(c) { return c.name === refCountry; })[0].id,
-          refValues = values[refId][refCase][perDay];
-        this.legend.forEach(function(c) {
-          if (c.name === refCountry) {
+          refCaseParams = this.refCases.filter(function(c) { return c.id === refCase; })[0];
+        if (/^\d+th case/.test(refCountry))
+          this.legend.forEach(function(c) {
             c.shift = 0;
-            c.shiftStr = "";
-          } else {
-            var shifts = [],
-              ndates = 0;
-              curVal = null,
-              lastVal = null;
-            dates.forEach(function(d, i) {
-              if (refValues[i] < refCaseParams.min_cases || ndates > refCaseParams.max_dates) return;
-              ndates++;
-              for (var j = 1; j < dates.length ; j++) {
-                curVal = values[c.id][refCase][perDay][j];
-                if (curVal < refValues[i]) {
-                  lastVal = curVal;
-                  continue;
-                }
-                shifts.push(i - j - (refValues[i] - curVal)/(curVal - lastVal));
+            for (var i = 0; i < dates.length; i++)
+              if (values[c.id][refCase][perDay][i] >= refCaseParams.min_cases) {
+                c.shift = -i;
+                c.shiftStr = "since " + d3.timeFormat("%b %d")(dates[i]);
                 break;
               }
-            });
-            c.shift = Math.round(d3.mean(shifts));
-            c.shiftStr = d3.formatShift(c.shift);
-          }
-        });
+          });
+        else {
+          var refStart = null,
+            refId = this.countries.filter(function(c) { return c.name === refCountry; })[0].id,
+            refValues = values[refId][refCase][perDay];
+          this.legend.forEach(function(c) {
+            if (c.name === refCountry) {
+              c.shift = 0;
+              c.shiftStr = "";
+            } else {
+              var shifts = [],
+                ndates = 0;
+                curVal = null,
+                lastVal = null;
+              dates.forEach(function(d, i) {
+                if (refValues[i] < refCaseParams.min_cases || ndates > refCaseParams.max_dates) return;
+                ndates++;
+                for (var j = 1; j < dates.length ; j++) {
+                  curVal = values[c.id][refCase][perDay][j];
+                  if (curVal < refValues[i]) {
+                    lastVal = curVal;
+                    continue;
+                  }
+                  shifts.push(i - j - (refValues[i] - curVal)/(curVal - lastVal));
+                  break;
+                }
+              });
+              c.shift = Math.round(d3.mean(shifts));
+              c.shiftStr = d3.formatShift(c.shift);
+            }
+          });
+        }
       } else this.countries.forEach(function(c) {
         c.shift = 0;
         c.shiftStr = "";
@@ -625,7 +651,10 @@ new Vue({
     },
     drawSeries: function() {
       var cas = this.case,
-        perDay = this.perDayStr;
+        perDay = this.perDayStr,
+        refCase = this.refCase,
+        refCountry = this.refCountry,
+        align_nthcase = /\d+th case/.test(refCountry);
       this.countries.forEach(function(c) {
         c.lastStr = d3.strFormat(c.lastValues[perDay][cas]);
       });
@@ -635,6 +664,7 @@ new Vue({
         cas = this.case,
         legend = this.legend.sort(this.staticCountriesSort(null, "names", 1, 1)),
         places = legend.slice().sort(this.staticCountriesSort(cas, "cases", 1, 1)),
+        min_shift = align_nthcase ? d3.min(places.map(function(c) { return -c.shift; })) : 0,
         n_places = legend.length,
         dates = this.scopes[this.scope].dates.slice(this.perDay ? 1 : 0),
         perDay = this.perDayStr,
@@ -642,20 +672,26 @@ new Vue({
         logarithmic = this.logarithmic,
         hiddenLeft = this.hiddenLeft,
         hiddenRight = this.hiddenRight,
-        zoomedDates = dates.slice(hiddenLeft, dates.length - hiddenRight).map(function(d) {
+        format_legend = function(d) {
+          return (align_nthcase ?
+            d3.formatDaysSince(dates[hiddenLeft])(d) + " since " + refCountry.replace("case", refCase + " case") :
+            d3.timeFormat("%a %e %B %Y")(d)
+          );
+        },
+        zoomedDates = dates.slice(hiddenLeft, dates.length - min_shift - hiddenRight).map(function(d) {
           return {
             date: d,
-            legend: d3.timeFormat("%a %e %B %Y")(d)
+            legend: format_legend(d)
           };
         }),
         shiftedDates = function(c) {
           return dates.slice(
             Math.max(hiddenLeft, c.shift),
-            dates.length - Math.max(hiddenRight, -c.shift)
+            dates.length - Math.max(hiddenRight + min_shift, -c.shift)
           ).map(function(d) {
             return {
               date: d,
-              legend: d3.timeFormat("%a %e %B %Y")(d)
+              legend: format_legend(d)
             };
           });
         },
@@ -793,10 +829,17 @@ new Vue({
       }
 
       // Draw axis
+      var ticks = d3.axisBottom(xScale).tickFormat(
+          align_nthcase ? d3.formatDaysSince(start) : d3.timeFormat("%b %d")
+        ).tickSizeOuter(0);
+      if (align_nthcase && width <= 600)
+        ticks.ticks(2);
+      else if (align_nthcase && width <= 1000)
+        ticks.ticks(4);
       g.append("g")
         .attr("class", "axis axis--x")
         .attr("transform", "translate(0, " + (height) + ")")
-        .call(d3.axisBottom(xScale).tickFormat(d3.timeFormat("%b %d")).tickSizeOuter(0));
+        .call(ticks);
       g.append("g")
         .attr("class", "axis axis--y")
         .attr("transform", "translate(" + (width) + ", 0)")

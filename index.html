@@ -211,7 +211,7 @@
             class="select"
             @change="refCase = $event"
           >
-          </v-select>from
+          </v-select>&nbsp;from
           <v-chip small outline close class="grey--text"
             v-model="refCountrySelected"
             @input="refCountry = null"
@@ -227,7 +227,7 @@
             item-value="name"
             class="select"
             @change="refCountry = $event"
-            :placeholder="'select a ' + level"
+            :placeholder="'select a startdate or ' + level"
           >
           </v-select></v-list-tile-content>
         </v-list-tile>
