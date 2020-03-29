@@ -64,7 +64,7 @@ new Vue({
     logarithmic: false,
     perCapita: false,
     perDay: false,
-    multiples: false,
+    vizChoice: "series",
     resizing: null,
     hoverDate: "",
     curExtent: null,
@@ -90,7 +90,7 @@ new Vue({
       return this.cases.filter(function(c) { return !c.disabled && c.selected; });
     },
     case: function() {
-      if (this.multiples) {
+      if (this.vizChoice === 'multiples') {
         if (this.casesLegend.length == 1)
           return this.casesLegend[0].id;
         return "deceased";
@@ -113,11 +113,11 @@ new Vue({
     url: function() {
       if (this.init) return window.location.hash.slice(1);
       return (this.scope !== "World" ? "country="+this.scope+"&" : "") +
-        (this.multiples ? this.casesChosen : this.case) +
+        (this.vizChoice === 'multiples' ? this.casesChosen : this.case) +
         (this.logarithmic ? "&log" : "") +
         (this.perCapita ? "&ratio" : "") +
         (this.perDay ? "&daily" : "") +
-        (this.multiples ? "&multiples" : "") +
+        (this.vizChoice !== 'series' ? "&" + this.vizChoice : "") +
         "&places=" + (this.legend.length ? this.legend : this.scopes[this.scope].countries.filter(function(c) { return c.selected; }))
           .sort(this.staticCountriesSort(null, "names"))
           .map(function(c) { return c.name.replace(' ', '%20'); })
@@ -165,7 +165,7 @@ new Vue({
     },
     casesChosen: function() { this.sortCountries(); },
     countriesOrder: function() { this.sortCountries(); },
-    multiples: function() {
+    vizChoice: function() {
       this.cases.forEach(function(c) {
         c.value = null;
       });
@@ -174,6 +174,9 @@ new Vue({
       this.hiddenRight = 0;
       this.refCountry = null;
       this.$nextTick(this.resizeMenu);
+      if (this.vizChoice === 'stacked') {
+        this.perCapita = false;
+      }
     },
     oldrecovered: function(newValue) {
       this.cases.forEach(function(c) {
@@ -233,7 +236,11 @@ new Vue({
       this.logarithmic = !!options.log;
       this.perCapita = !!options.ratio;
       this.perDay = !!options.daily;
-      this.multiples = !!options.multiples;
+      if (options.stacked)
+        this.vizChoice = 'stacked';
+      else if (options.multiples)
+        this.vizChoice = 'multiples';
+      else this.vizChoice = 'series';
       this.cases.forEach(function(c) {
         c.selected = !!options[c.id] && !c.disabled;
       });
@@ -352,7 +359,7 @@ new Vue({
       return (level + "s").replace(/ys$/, "ies");
     },
     selectCase: function(newCase) {
-      if (!this.multiples) {
+      if (this.vizChoice !== 'multiples') {
         this.caseChoice = newCase;
         this.cases.forEach(function(c) {
           c.selected = (c.id === newCase);
@@ -369,14 +376,15 @@ new Vue({
         c.selected = (c.name === keep);
       });
     },
-    staticCountriesSort: function(cas, field) {
+    staticCountriesSort: function(cas, field, order) {
       var perDay = this.perDayStr;
+      if (!order) order = 1;
       return function(a, b) {
         if (field === "cases" && a.lastValues[perDay][cas] !== b.lastValues[perDay][cas])
-          return b.lastValues[perDay][cas] - a.lastValues[perDay][cas];
+          return order * (b.lastValues[perDay][cas] - a.lastValues[perDay][cas]);
         else {
-          if (b.name > a.name) return -1;
-          if (a.name > b.name) return 1;
+          if (b.name > a.name) return -order;
+          if (a.name > b.name) return order;
           return 0;
         }
       };
@@ -430,7 +438,7 @@ new Vue({
       d3.select(".svg").selectAll("svg").remove();
 
       this.alignPlaces();
-      if (this.multiples) this.drawMultiples();
+      if (this.vizChoice === 'multiples') this.drawMultiples();
       else this.drawSeries();
 
       this.clearTooltip();
@@ -576,7 +584,7 @@ new Vue({
           .attr("class", "axis axis--y")
           .attr("transform", "translate(" + singleWidth + ", 0)")
           .call(d3.axisRight(yScale).ticks(4 * Math.floor(height / 125), d3.strFormat).tickSizeOuter(0));
-  
+
         // Draw tooltips surfaces
         g.append("g")
           .selectAll("rect.tooltip.surface")
@@ -606,7 +614,7 @@ new Vue({
             .on("mouseover", hover)
             .on("mousemove", displayTooltip)
             .on("mouseleave", clearTooltip);
-  
+
       });
       this.$forceUpdate();
 
@@ -620,11 +628,13 @@ new Vue({
 
       // Filter dates from zoom
       var values = this.values[this.scope],
-        legend = this.legend,
+        cas = this.case,
+        legend = this.legend.sort(this.staticCountriesSort(null, "names")),
+        places = legend.slice().sort(this.staticCountriesSort(cas, "cases", 1)),
         n_places = legend.length,
         dates = this.scopes[this.scope].dates.slice(this.perDay ? 1 : 0),
-        cas = this.case,
         perDay = this.perDayStr,
+        stacked = this.vizChoice === 'stacked',
         logarithmic = this.logarithmic,
         hiddenLeft = this.hiddenLeft,
         hiddenRight = this.hiddenRight,
@@ -666,21 +676,36 @@ new Vue({
         xHistoWidth = xWidth / (2 * n_places),
         xHistoGap = xWidth / (4 * n_places),
         xHistoPosition = function(d, idx) { return xPosition(d) + (2 * idx + 1) * xHistoGap + idx * xHistoWidth; },
-        shiftedVal = function(c, d, i) {
+        shiftedVal = function(c, i) {
           var idx = i + Math.max(0, hiddenLeft - c.shift);
           return values[c.id][cas][perDay][idx];
         },
         shiftedMaxVal = function(c) {
           return d3.max(shiftedDates(c).map(function(d, i) {
-            return shiftedVal(c, d, i);
+            return shiftedVal(c, i);
           }));
         },
-        yMax = Math.max(0, d3.max(legend.map(shiftedMaxVal))),
+        stackedMaxVal = 0,
+        stackedVals = {};
+      if (stacked) {
+        places.forEach(function(c) {
+          stackedVals[c.id] = [];
+        });
+        zoomedDates.forEach(function(d, i) {
+          var stack = 0;
+          places.forEach(function(c) {
+            stack += values[c.id][cas][perDay][i + hiddenLeft];
+            if (stack > stackedMaxVal) stackedMaxVal = stack;
+            stackedVals[c.id].push(stack);
+          });
+        });
+      }
+      var yMax = Math.max(0, (stacked ? stackedMaxVal : d3.max(legend.map(shiftedMaxVal)))),
         yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]()
           .range([height, 0])
           .domain([logarithmic ? 1 : 0, yMax]),
-        yPosition = function(c, d, i) {
-          var val = shiftedVal(c, d, i);
+        yPosition = function(c, i) {
+          var val = (stacked ? stackedVals[c.id][i] : shiftedVal(c, i));
           if (perDay === "daily" && val < 0) val = 0
           if (logarithmic && val == 0)
             return yScale(1);
@@ -697,8 +722,10 @@ new Vue({
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
       // Draw series
-      legend.sort(this.staticCountriesSort(null, "names")).forEach(function(c, idx) {
-        if (perDay === "daily")
+      if (perDay === "daily") {
+        width += xWidth / 2;
+
+        places.forEach(function(c, idx) {
           g.append("g")
             .selectAll("rect.histogram." + c.id)
             .data(shiftedDates(c)).enter().append("rect")
@@ -710,44 +737,53 @@ new Vue({
               .attr("stroke", c.color)
               .attr("x", function(d) { return xHistoPosition(d, idx); })
               .attr("xPos", function(d) { return xPosition(d) + xWidth / 4; })
-              .attr("y", function(d, i) { return yPosition(c, d, i); })
+              .attr("y", function(d, i) { return yPosition(c, i); })
               .attr("width", xHistoWidth)
               .attr("xWidth", xWidth / 2)
-              .attr("height", function(d, i) { return yScale.range()[0] - yPosition(c, d, i); });
-        else {
+              .attr("height", function(d, i) { return yScale.range()[0] - yPosition(c, i); });
+        });
+
+      } else {
+        places.forEach(function(c, idx) {
           g.append("path")
             .datum(shiftedDates(c))
             .attr("id", c.id)
             .attr("class", "line")
-            .attr("fill", "none")
-            .attr("stroke", c.color)
+            .attr("fill", stacked ? c.color : "none")
+            .attr("stroke", stacked ? "none" : c.color)
             .attr("stroke-linejoin", "round")
             .attr("stroke-linecap", "round")
             .attr("stroke-width", 2)
-            .attr("d", d3.line()
-              .x(function(d) { return xScale(d.date); })
-              .y(function(d, i) { return yPosition(c, d, i); })
+            .attr("d",
+              (stacked ?
+                d3.area()
+                  .x(function(d) { return xScale(d.date); })
+                  .y0(function(d, i) { if (!idx) return yScale.range()[0]; return yPosition(places[idx-1], i);})
+                  .y1(function(d, i) { return yPosition(c, i); }) :
+                d3.line()
+                  .x(function(d) { return xScale(d.date); })
+                  .y(function(d, i) { return yPosition(c, i); })
+              )
             );
 
-          g.selectAll(".dot." + c.id)
-            .data(shiftedDates(c))
-            .enter()
-            .append("circle")
-              .attr("class", "dot " + c.id)
-              .attr("fill", c.color)
-              .attr("cx", function(d) { return xScale(d.date); })
-              .attr("cy", function(d, i) { return yPosition(c, d, i); })
-              .attr("r", 3);
-        }
-      });
+          if (!stacked)
+            g.selectAll(".dot." + c.id)
+              .data(shiftedDates(c))
+              .enter()
+              .append("circle")
+                .attr("class", "dot " + c.id)
+                .attr("fill", c.color)
+                .attr("cx", function(d) { return xScale(d.date); })
+                .attr("cy", function(d, i) { return yPosition(c, i); })
+                .attr("r", 3);
+        });
+      }
 
       // Draw axis
       g.append("g")
         .attr("class", "axis axis--x")
         .attr("transform", "translate(0, " + (height) + ")")
         .call(d3.axisBottom(xScale).tickFormat(d3.timeFormat("%b %d")).tickSizeOuter(0));
-      if (perDay === "daily")
-        width += xWidth / 2;
       g.append("g")
         .attr("class", "axis axis--y")
         .attr("transform", "translate(" + (width) + ", 0)")
@@ -769,21 +805,22 @@ new Vue({
           .on("mouseleave", this.clearTooltip)
           .on("wheel", this.zoom)
           .on("dblclick", this.zoom);
-      g.append("g")
-        .selectAll("rect.tooltip.surface")
-        .data(zoomedDates).enter().append("rect")
-          .classed("tooltip", true)
-          .classed("hoverdate", true)
-          .attr("did", function(d, i) { return i; })
-          .attr("x", function(d) { return xPosition(d) + xWidth / 2 - 1; })
-          .attr("y", yScale.range()[1])
-          .attr("width", 2)
-          .attr("height", yScale.range()[0] - yScale.range()[1])
-          .on("mouseover", this.hover)
-          .on("mousemove", this.displayTooltip)
-          .on("mouseleave", this.clearTooltip)
-          .on("wheel", this.zoom)
-          .on("dblclick", this.zoom);
+      if (!this.perDay)
+        g.append("g")
+          .selectAll("rect.tooltip.surface")
+          .data(zoomedDates).enter().append("rect")
+            .classed("tooltip", true)
+            .classed("hoverdate", true)
+            .attr("did", function(d, i) { return i; })
+            .attr("x", function(d) { return xPosition(d) + xWidth / 2 - 1; })
+            .attr("y", yScale.range()[1])
+            .attr("width", 2)
+            .attr("height", yScale.range()[0] - yScale.range()[1])
+            .on("mouseover", this.hover)
+            .on("mousemove", this.displayTooltip)
+            .on("mouseleave", this.clearTooltip)
+            .on("wheel", this.zoom)
+            .on("dblclick", this.zoom);
 
     },
     hover: function(d, i) {
@@ -795,7 +832,7 @@ new Vue({
 
       var values = this.values[this.scope],
         perDay = this.perDayStr;
-      if (!this.multiples) {
+      if (this.vizChoice !== 'multiples') {
         var cas = this.case,
           hiddenLeft = this.hiddenLeft;
         this.legend.forEach(function(c) {
@@ -818,7 +855,7 @@ new Vue({
     clearTooltip: function(d, i) {
       var cas = this.case,
         legend = this.legend,
-        multiples = this.multiples,
+        multiples = this.vizChoice === 'multiples',
         perDay = this.perDayStr;
       this[multiples ? "cases" : "legend"].forEach(function(c) {
         c.value = (multiples && legend.length == 1 && !c.disabled ? d3.strFormat(legend[0].lastValues[perDay][c.id]) : null);
@@ -829,7 +866,7 @@ new Vue({
       this.$forceUpdate();
     },
     hoverCase: function(cas, hov) {
-      if (this.multiples && cas.selected && !this.perDay) {
+      if (this.vizChoice === 'multiples' && cas.selected && !this.perDay) {
         d3.selectAll(".line." + cas.id).classed("hover", hov);
         if (hov) document.querySelectorAll("." + cas.id)
           .forEach(function(d) {

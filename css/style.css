@@ -156,7 +156,6 @@ nav .disclaimer a, nav .disclaimer a:hover, nav .disclaimer a:visited:hover {
 }
 .application--dark .input-group.radio:not(.input-group--error) label {
   font-size: 13px;
-  text-transform: capitalize;
   margin-left: -5px
 }
 .lowercase {
@@ -270,4 +269,10 @@ rect.tooltip {
 }
 #controls .radio-group label {
   display: none;
+}
+#controls .radiooption .radio-group label {
+  display: flex;
+}
+#controls .input-group--disabled .input-group--selection-controls__ripple, #controls .input-group--disabled .input-group--selection-controls__ripple:after {
+  cursor: default;
 }
