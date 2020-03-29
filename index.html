@@ -88,6 +88,26 @@
           </v-list-tile-content>
         </v-list-tile>
 
+        <v-list-tile class="switchoption"
+          :title="vizChoice === 'stacked' ? 'population ratios makes no sense for stacked area charts' : ''"
+        >
+          <v-list-tile-content>
+            <v-list-tile-title
+              :class="{'switcher': vizChoice !== 'stacked', 'value': true, 'unchecked': perCapita}"
+              @click="if (vizChoice !== 'stacked') perCapita = !perCapita"
+            >absolute values</v-list-title>
+          </v-list-tile-content>
+          <v-list-tile-action>
+            <v-switch :disabled="vizChoice === 'stacked'" light v-model="perCapita" color="white"></v-switch>
+          </v-list-tile-action>
+          <v-list-tile-content>
+            <v-list-tile-title
+              :class="{'switcher': vizChoice !== 'stacked', 'unchecked': !perCapita || vizChoice === 'stacked'}"
+              @click="if (vizChoice !== 'stacked') perCapita = !perCapita"
+            >population ratio</v-list-title>
+          </v-list-tile-content>
+        </v-list-tile>
+
         <v-list-tile class="switchoption">
           <v-list-tile-content>
             <v-list-tile-title
@@ -102,27 +122,7 @@
             <v-list-tile-title
               :class="{'switcher': true, 'unchecked': !perDay}"
               @click="perDay = !perDay"
-            >daily new</v-list-title>
-          </v-list-tile-content>
-        </v-list-tile>
-
-        <v-list-tile class="switchoption"
-          :title="vizChoice === 'stacked' ? 'population ratios makes no sense for stacked area charts' : ''"
-        >
-          <v-list-tile-content>
-            <v-list-tile-title
-              :class="{'switcher': vizChoice !== 'stacked', 'value': true, 'unchecked': perCapita}"
-              @click="if (vizChoice !== 'stacked') perCapita = !perCapita"
-            >total values</v-list-title>
-          </v-list-tile-content>
-          <v-list-tile-action>
-            <v-switch :disabled="vizChoice === 'stacked'" light v-model="perCapita" color="white"></v-switch>
-          </v-list-tile-action>
-          <v-list-tile-content>
-            <v-list-tile-title
-              :class="{'switcher': vizChoice !== 'stacked', 'unchecked': !perCapita || vizChoice === 'stacked'}"
-              @click="if (vizChoice !== 'stacked') perCapita = !perCapita"
-            >population ratio</v-list-title>
+            >daily new cases</v-list-title>
           </v-list-tile-content>
         </v-list-tile>
 
@@ -227,7 +227,6 @@
             item-value="name"
             class="select"
             @change="refCountry = $event"
-            no-data-text="select a level"
             :placeholder="'select a ' + level"
           >
           </v-select></v-list-tile-content>
@@ -315,12 +314,15 @@
         <v-card-title class="headline">Coronavirus country comparator</v-card-title>
         <v-card-text>Built on top of the <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series" target="_blank">data openly released daily</a> by the <a href="https://systems.jhu.edu/" target="_blank">Center for Systems Science and Engineering (CSSE)</a> at Johns Hopkins University (JHU) for the <a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" target="_blank">great dashboard</a> they built.</v-card-text>
         <v-card-text>
-          Choose to compare all the World's countries or all regions/provinces/states of some main countries.<br/>
           Hover the legend to focus a specific curve.<br/>
           Hover the plot to read each curve's values at specific dates inside the legend.<br/>
           Use the mouse wheel to zoom or unzoom on specific time periods.<br/>
-          Use "Align with" to select a country and see how other countries fit with a few days delay. Regression is calculated as the mean delay between the number of confirmed or deceased cases in the considered country compared to the reference one during the 30 days following the reach of 10 deceased cases (or 20 days and 50 cases when aligning on confirmed).<br/>
-          Switch to "multiples" to see all curves separated.
+          Adjust the scale to "linear" or "logarithmic" depending on the values. Switch between "absolute values" or "population ratio" to compare places by total values or depending on the penetration rate of the disease in the population.<br/>
+          Use "cumulative mode" to see the total number of cases in each place since the beginning of the epidemy, or "daily new cases" to see how the situation changes everyday.<br/>
+          Select "series" to compare tendencies for each selected place. Switch to "stacked" to measure how each place contribute to the bigger picture. Or switch to "multiples" to see all curves separated.</br>
+          Choose to compare all the World's countries or all regions/provinces/states of some main countries.<br/>
+          Use "Align to" to select a place and see how others fit with a few days delay. Regression is calculated as the mean delay between the number of confirmed or deceased cases in the considered country compared to the reference one during the 30 days following the reach of 10 deceased cases (or 20 days and 50 cases when aligning on confirmed).<br/>
+          You can also select "after 10<sup>th</sup> deceased case" (or 50<sup>th</sup> confirmed) in the "Align to" menu to align all curves to a same "zero day".
         </v-card-text>
         <v-card-text>This web application is a free libre open source software released under AGPL V3 license and its source code is <a href="https://github.com/boogheta/coronavirus-countries" target="_blank">available on GitHub</a>. The interface is based on <a href="https://vuejs.org" target="_blank">Vue.js</a>, <a href="https://vuetifyjs.com/" target="_blank">Vuetify.js</a> and <a href="https://d3js.org" target="_blank">D3.js</a>. The logo is a <a href="https://pixabay.com/fr/illustrations/virus-coronavirus-sars-cov-2-flash-4915867/" target="_blank">creation from Alexei Hulsov</a> openly released under the <a href="https://pixabay.com/fr/service/license/" target="_blank">Pixabay license</a>.</v-card-text>
         <v-card-text><a href="https://github.com/boogheta/coronavirus-countries/issues" target="_blank">Bug reports</a>, contributions and pull requests are very welcome!</v-card-text>
