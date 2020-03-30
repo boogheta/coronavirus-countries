@@ -29,7 +29,13 @@
     <aside class="navigation-drawer navigation-drawer--absolute navigation-drawer--clipped navigation-drawer--is-booted navigation-drawer--is-mobile navigation-drawer--open navigation-drawer--permanent">
       <v-list dense id="controls">
 
-        <v-subheader class="mt-2">Cases</v-subheader>
+        <v-subheader class="">
+          <v-icon>grain</v-icon>
+          <span>Cases
+            <small v-if="perCapita">(per million inhabitants)</small>
+          </span>
+        </v-subheader>
+
         <v-list-tile
           v-for="item in cases"
           v-if="!item.disabled"
@@ -39,36 +45,38 @@
           @mouseover="hoverCase(item, true)"
           @mouseleave="hoverCase(item, false)"
         >
-          <v-list-tile-action v-if="multiples">
+          <v-list-tile-action v-if="vizChoice === 'multiples'" class="caseIcon">
             <v-icon :style="{'color': item.color}">fiber_manual_record</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title>
-              <span class="country">{{ item.id.replace(/_/, ' ') }}</span>
-              <span class="value amount">{{ item.value != null ? item.value : item.total[scope] }}</span>
+              <span :class="{'country': true, 'caseIcon': vizChoice === 'multiples'}">{{ item.id.replace(/_/, ' ') }}</span>
+              <span class="value amount">{{ item.value != null ? item.value : item[typVal][scope] }}</span>
             </v-list-tile-title>
           </v-list-tile-content>
           <v-list-tile-action>
-            <v-radio-group v-model="caseChoice" v-if="!multiples">
+            <v-radio-group v-model="caseChoice" v-if="vizChoice !== 'multiples'">
               <v-radio hide-details color="white" :value="item.id"></v-radio>
             </v-radio-group>
             <v-switch light color="white"
-              v-if="multiples"
+              v-if="vizChoice === 'multiples'"
               v-model="item.selected"
               @click.native.stop=""
             ></v-switch>
           </v-list-tile-action>
         </v-list-tile>
 
-        <v-subheader class="bordered mt-2">Scale</v-subheader>
-        <v-list-tile>
-          <v-list-tile-action>
-            <v-icon>timeline</v-icon>
-          </v-list-tile-action>
+
+        <v-subheader class="bordered">
+          <v-icon>timeline</v-icon>
+          <span>Scale</span>
+        </v-subheader>
+
+        <v-list-tile class="switchoption">
           <v-list-tile-content>
             <v-list-tile-title
               :class="{'switcher': true, 'value': true, 'unchecked': logarithmic}"
-              @click="logarithmic = false"
+              @click="logarithmic = !logarithmic"
             >linear</v-list-title>
           </v-list-tile-content>
           <v-list-tile-action>
@@ -77,34 +85,69 @@
           <v-list-tile-content>
             <v-list-tile-title
               :class="{'switcher': true, 'unchecked': !logarithmic}"
-              @click="logarithmic = true"
+              @click="logarithmic = !logarithmic"
             >logarithmic</v-list-title>
           </v-list-tile-content>
         </v-list-tile>
 
-        <v-subheader class="bordered mt-2">Compare as</v-subheader>
-        <v-list-tile>
-          <v-list-tile-action>
-            <v-icon>view_module</v-icon>
-          </v-list-tile-action>
+        <v-list-tile class="switchoption"
+          :title="vizChoice === 'stacked' ? 'population ratios makes no sense for stacked area charts' : ''"
+        >
           <v-list-tile-content>
             <v-list-tile-title
-              :class="{'switcher': true, 'value': true, 'unchecked': multiples}"
-              @click="multiples = false"
-            >series</v-list-title>
+              :class="{'switcher': vizChoice !== 'stacked', 'value': true, 'unchecked': perCapita}"
+              @click="if (vizChoice !== 'stacked') perCapita = !perCapita"
+            >absolute values</v-list-title>
           </v-list-tile-content>
           <v-list-tile-action>
-            <v-switch light v-model="multiples" color="white"></v-switch>
+            <v-switch :disabled="vizChoice === 'stacked'" light v-model="perCapita" color="white"></v-switch>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title
-              :class="{'switcher': true, 'unchecked': !multiples}"
-              @click="multiples = true"
-            >small multiples</v-list-title>
+              :class="{'switcher': vizChoice !== 'stacked', 'unchecked': !perCapita || vizChoice === 'stacked'}"
+              @click="if (vizChoice !== 'stacked') perCapita = !perCapita"
+            >population ratio</v-list-title>
           </v-list-tile-content>
         </v-list-tile>
 
-        <v-subheader class="bordered mt-2">
+        <v-list-tile class="switchoption">
+          <v-list-tile-content>
+            <v-list-tile-title
+              :class="{'switcher': true, 'value': true, 'unchecked': perDay}"
+              @click="perDay = !perDay"
+            >cumulative</v-list-title>
+          </v-list-tile-content>
+          <v-list-tile-action>
+            <v-switch light v-model="perDay" color="white"></v-switch>
+          </v-list-tile-action>
+          <v-list-tile-content>
+            <v-list-tile-title
+              :class="{'switcher': true, 'unchecked': !perDay}"
+              @click="perDay = !perDay"
+            >daily new cases</v-list-title>
+          </v-list-tile-content>
+        </v-list-tile>
+
+
+        <v-subheader class="bordered">
+          <v-icon>view_module</v-icon>
+          <span>Visualize as</span>
+        </v-subheader>
+
+        <v-list-tile class="radiooption">
+          <v-radio-group row hide-details v-model="vizChoice">
+            <v-radio small
+              color="white"
+              v-for="c in ['series', 'stacked', 'multiples']"
+              :label="c"
+              :value="c"
+            ></v-radio>
+          </v-radio-group>
+        </v-list-tile>
+
+
+        <v-subheader class="bordered">
+          <v-icon>explore</v-icon>
           <v-select auto single-line hide-details
             v-model="scope"
             :items="scopeChoices"
@@ -115,6 +158,7 @@
           >
           </v-select>
         </v-subheader>
+
         <v-list-tile class="sort">
           <v-list-tile-content>
             <v-list-tile-title>
@@ -134,6 +178,7 @@
       <v-list dense id="countries">
         <v-list-tile
           v-for="item in countries"
+          v-if="!perCapita || item.population"
           :key="item.id"
           :class="{'unchecked': !item.selected}"
         >
@@ -156,8 +201,11 @@
         </v-list-tile>
       </v-list>
 
+
       <v-list dense id="lowermenu">
-        <v-subheader class="mt-2 selectAlign" v-if="!multiples">Align&nbsp;<v-select auto single-line hide-details
+        <v-subheader class="selectAlign" v-if="vizChoice === 'series'">
+          <v-icon>compare_arrows</v-icon>
+          Align to&nbsp;<v-select auto single-line hide-details
             v-model="refCase"
             :items="refCases"
             item-text="id"
@@ -166,33 +214,37 @@
             class="select"
             @change="refCase = $event"
           >
-          </v-select>with
+          </v-select>&nbsp;from
           <v-chip small outline close class="grey--text"
             v-model="refCountrySelected"
             @input="refCountry = null"
             @click="refCountry = null"
-          ><small>cancel</small></v-chip>
+          ><small>clear</small></v-chip>
         </v-subheader>
-        <v-list-tile v-if="!multiples">
+
+        <v-list-tile v-if="vizChoice === 'series'">
           <v-list-tile-content><v-select auto single-line hide-details
             v-model="refCountry"
             :items="refCountriesSelection"
             item-text="name"
             item-value="name"
-            prepend-icon="compare_arrows"
             class="select"
             @change="refCountry = $event"
+            :placeholder="'select a startdate or ' + level"
           >
           </v-select></v-list-tile-content>
         </v-list-tile>
 
+
         <v-subheader
-          :class="{'bordered': !multiples, 'mt-2': true}"
-        >Open Data</v-subheader>
-        <v-list-tile @click="exportData()">
-          <v-list-tile-action><v-icon>file_download</v-icon></v-list-tile-action>
-          <v-list-tile-content><v-list-tile-title>Download the data</v-list-tile-title></v-list-tile-content>
-        </v-list-tile>
+          id="opendata"
+          :class="{'bordered': vizChoice === 'series'}"
+          title="Download the json data behind this application"
+          @click="exportData()"
+        >
+          <v-icon>file_download</v-icon>
+          <span>Open Data</span>
+        </v-subheader>
       </v-list>
 
       <div class="navigation-drawer__border"></div>
@@ -217,7 +269,7 @@
 
     <main>
       <div class="svg" style="height: 6000px">
-        <div v-if="multiples" class="legend multiples">
+        <div v-if="vizChoice === 'multiples'" class="legend multiples">
           <div
             v-for="item in (legend.length ? legend : no_country_selected)"
             :class="{'btn': true, 'btn--raised': true, 'theme--light': true, 'inactive': item.inactive}"
@@ -237,10 +289,10 @@
         <div
           v-for="item in (legend.length ? legend : no_country_selected)"
           :key="item.id"
-          v-if="item.selected && !multiples"
+          v-if="item.selected && vizChoice !== 'multiples'"
           :class="{'btn': true, 'btn--raised': true, 'btn--disabled': item.inactive}"
           :style="{'background-color': item.color+'!important'}"
-          @mouseover="hoverCountry(item.id, true)"
+          @mouseenter="hoverCountry(item.id, true)"
           @mouseleave="hoverCountry(item.id, false)"
         >
           <div class="remove"
@@ -252,7 +304,9 @@
           </div>
           <div class="btn__content">
             <span>{{ item.name }}<small v-if="refCountrySelected && item.shift"> ({{ item.shiftStr }})</small></span>
-            <span class="lowercase amount">{{ item.value !== null ? item.value : item.lastStr }}</span>
+            <span class="lowercase amount">{{ item.value !== null ? item.value : item.lastStr }}
+              <small v-if="perCapita">per million</small>
+            </span>
           </div>
         </div>
       </div></center>
@@ -260,20 +314,23 @@
 
     <div class="tooltipBox"><center><b>{{ hoverDate }}</b></center></div>
 
-    <v-dialog v-model="help" width="50%">
+    <v-dialog v-model="help" width="75%">
       <v-card>
         <v-card-title class="headline">Coronavirus country comparator</v-card-title>
         <v-card-text>Built on top of the <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series" target="_blank">data openly released daily</a> by the <a href="https://systems.jhu.edu/" target="_blank">Center for Systems Science and Engineering (CSSE)</a> at Johns Hopkins University (JHU) for the <a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" target="_blank">great dashboard</a> they built.</v-card-text>
-        <v-card-text>
-          Choose to compare all the World's countries or all regions/provinces/states of some main countries.<br/>
-          Hover the legend to focus a specific curve.<br/>
-          Hover the plot to read each curve's values at specific dates inside the legend.<br/>
-          Use the mouse wheel to zoom or unzoom on specific time periods.<br/>
-          Use "Align with" to select a country and see how other countries fit with a few days delay. Regression is calculated as the mean delay between the number of confirmed or deceased cases in the considered country compared to the reference one during the 30 days following the reach of 10 deceased cases (or 20 days and 50 cases when aligning on confirmed).<br/>
-          Switch to "small multiples" to see all curves separated.
-        </v-card-text>
-        <v-card-text>This web application is a free libre open source software released under AGPL V3 license and its source code is <a href="https://github.com/boogheta/coronavirus-countries" target="_blank">available on GitHub</a>. The interface is based on <a href="https://vuejs.org" target="_blank">Vue.js</a>, <a href="https://vuetifyjs.com/" target="_blank">Vuetify.js</a> and <a href="https://d3js.org" target="_blank">D3.js</a>. The logo is a <a href="https://pixabay.com/fr/illustrations/virus-coronavirus-sars-cov-2-flash-4915867/" target="_blank">creation from Alexei Hulsov</a> openly released under the <a href="https://pixabay.com/fr/service/license/" target="_blank">Pixabay license</a>.</v-card-text>
-        <v-card-text><a href="https://github.com/boogheta/coronavirus-countries/issues" target="_blank">Bug reports</a>, contributions and pull requests are very welcome!</v-card-text>
+        <v-card-text><b>WARNING:</b> Data is based on figures officially reported by countries and international organisations with various counting methods. It should therefore be considered with caution: they shall not reflect exact figures and can only be considered as minimum values.<br/>Confirmed cases depend on the number of tests performed which can vary widely from one country to another; researchers estimate that it might only reflect between 10 and 50&nbsp;% of the number of actually infected people.<br/>Deceased cases should also only be considered as minimum values, as a variety of casualties consecutive to the virus might not be accounted accurately.</v-card-text>
+        <v-card-text><b>Features:</b><ul>
+          <li>Hover the legend to focus a specific curve.</li>
+          <li>Hover the plot to read each curve's values at specific dates inside the legend.</li>
+          <li>Use the mouse wheel to zoom or unzoom on specific time periods.</li>
+          <li>Adjust the scale to <b>linear</b> or <b>logarithmic</b> depending on the values. Switch between <b>absolute values</b> or <b>population ratio</b> to compare places by total values or by million inhabitants to compare the penetration rate of the disease in the population.</li>
+          <li>Use <b>cumulative</b> view to see the total number of cases in each place since the beginning of the epidemy, or <b>daily new cases</b> to see how the situation changes everyday.</li>
+          <li>Select <b>series</b> to compare tendencies for each selected place. Switch to <b>stacked</b> to measure how each place contribute to the bigger picture. Or switch to <b>multiples</b> to see all curves separated.</li>
+          <li>Choose to compare all the World's countries or all regions/provinces/states of some main countries.</li>
+          <li>Use <b>Align to</b> to select a place and see how others fit with a few days delay. Regression is calculated as the mean delay between the number of confirmed or deceased cases in the considered country compared to the reference one during the 30 days following the reach of 10 deceased cases (or 20 days and 50 cases when aligning on confirmed).</li>
+          <li>You can also select <b>after 10<sup>th</sup> deceased case</b> (or 50<sup>th</sup> confirmed) in the <b>Align to</b> menu to align all curves to a same "zero day".</li>
+        </ul></v-card-text>
+        <v-card-text>This web application is a free libre open source software released under AGPL V3 license and its source code is <a href="https://github.com/boogheta/coronavirus-countries" target="_blank">available on GitHub</a>. The interface is based on <a href="https://vuejs.org" target="_blank">Vue.js</a>, <a href="https://vuetifyjs.com/" target="_blank">Vuetify.js</a> and <a href="https://d3js.org" target="_blank">D3.js</a>. The logo is a <a href="https://pixabay.com/fr/illustrations/virus-coronavirus-sars-cov-2-flash-4915867/" target="_blank">creation from Alexei Hulsov</a> openly released under the <a href="https://pixabay.com/fr/service/license/" target="_blank">Pixabay license</a>.<br/><a href="https://github.com/boogheta/coronavirus-countries/issues" target="_blank">Bug reports</a>, contributions and pull requests are very welcome!</v-card-text>
         <v-card-text>You can contact me on Twitter at: <a href="http://twitter.com/boogheta" target="_blank">@boogheta</a></v-card-text>
         <v-card-text>Benjamin Ooghe-Tabanou &mdash; <a href="https://medialab.sciencespo.fr/" target="_blank">médialab Sciences Po</a></v-card-text>
         <v-card-actions>
