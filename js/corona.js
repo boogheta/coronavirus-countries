@@ -10,7 +10,8 @@ d3.formatDefaultLocale({
   "grouping": [3],
   "currency": ["", ""],
 });
-d3.strFormat = function(perCapita) {
+d3.strFormat = function(perCapita, forceDecimals) {
+  if (forceDecimals) return d3.format(",.1r");
   if (perCapita) return d3.format(",.4r");
   return d3.format(",d");
 }
@@ -630,7 +631,7 @@ new Vue({
         g.append("g")
           .attr("class", "axis axis--y")
           .attr("transform", "translate(" + singleWidth + ", 0)")
-          .call(d3.axisRight(yScale).ticks(4 * Math.floor(height / 125), d3.strFormat(false)).tickSizeOuter(0));
+          .call(d3.axisRight(yScale).ticks(4 * Math.floor(height / 125), d3.strFormat(false, true)).tickSizeOuter(0));
 
         // Draw tooltips surfaces
         g.append("g")
@@ -863,7 +864,7 @@ new Vue({
       g.append("g")
         .attr("class", "axis axis--y")
         .attr("transform", "translate(" + (width) + ", 0)")
-        .call(d3.axisRight(yScale).ticks(4 * Math.floor(height / 125), d3.strFormat(false)).tickSizeOuter(0));
+        .call(d3.axisRight(yScale).ticks(4 * Math.floor(height / 125), d3.strFormat(false, true)).tickSizeOuter(0));
 
       // Draw tooltips surfaces
       g.append("g")
