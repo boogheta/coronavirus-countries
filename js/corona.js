@@ -783,7 +783,7 @@ new Vue({
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
       // Draw series
-      if (perDay) {
+      if (perDay && this.vizChoice !== "series") {
         width += xWidth / 2;
 
         places.forEach(function(c, idx) {
