@@ -527,12 +527,13 @@ new Vue({
         multiplesMax = function(c) { return d3.max(casesLegend.map(function(cas) { return c.maxValues[typVal][cas.id]; })); },
         maxValues = legend.map(multiplesMax),
         yMax = Math.max(0, d3.max(maxValues)),
-        yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]().range([height, 0]).domain([logarithmic ? 1 : 0, yMax]),
+        yMin = logarithmic ? (perCapita ? 0.001 : 1) : 0,
+        yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]().range([height, 0]).domain([yMin, yMax]),
         yPosition = function(c, ca, i) {
           var val = values[c][ca][typVal][i] + 0;
           if (perDay && val < 0) val = 0
           if (logarithmic && val == 0)
-            return yScale(1);
+            return yScale(yMin);
           return yScale(val);
         };
       this.no_country_selected[0].style = {
@@ -720,7 +721,8 @@ new Vue({
       var margin = {top: 20, right: 90, bottom: 25, left: 40},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgW - margin.left - margin.right,
-        mainH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height - document.getElementById("legend").getBoundingClientRect().height,
+        minLegendH = 13200 * n_places / svgW,
+        mainH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height - Math.max(document.getElementById("legend").getBoundingClientRect().height, minLegendH),
         svgH = Math.max(140, mainH),
         height = svgH - margin.top - margin.bottom,
         xScale = d3.scaleTime()
@@ -758,15 +760,16 @@ new Vue({
           });
         });
       }
-      var yMax = Math.max(0, (stacked ? stackedMaxVal : d3.max(legend.map(shiftedMaxVal)))),
+      var yMin = logarithmic ? (perCapita ? 0.001 : 1) : 0,
+        yMax = Math.max(0, (stacked ? stackedMaxVal : d3.max(legend.map(shiftedMaxVal)))),
         yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]()
           .range([height, 0])
-          .domain([logarithmic ? 1 : 0, yMax]),
+          .domain([yMin, yMax]),
         yPosition = function(c, i) {
           var val = (stacked ? stackedVals[c.id][i] : shiftedVal(c, i));
           if (perDay && val < 0) val = 0
           if (logarithmic && val == 0)
-            return yScale(1);
+            return yScale(yMin);
           return yScale(val);
         };
 

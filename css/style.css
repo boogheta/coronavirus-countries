@@ -196,6 +196,7 @@ path.line.hover {
   min-width: 125px;
   padding: 2px;
   height: 50px;
+  min-width: 200px;
 }
 .legend .btn div {
   display: grid;
