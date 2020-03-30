@@ -93,7 +93,8 @@ new Vue({
       return (this.perDay ? 'daily' : 'total') + (this.perCapita ? 'Pop' : '');
     },
     legend: function() {
-      return this.countries.filter(function(c) { return c.selected; });
+      var perCapita = this.perCapita;
+      return this.countries.filter(function(c) { return c.selected && !(perCapita && !c.population); });
     },
     casesLegend: function() {
       return this.cases.filter(function(c) { return !c.disabled && c.selected; });

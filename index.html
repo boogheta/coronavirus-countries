@@ -178,6 +178,7 @@
       <v-list dense id="countries">
         <v-list-tile
           v-for="item in countries"
+          v-if="!perCapita || item.population"
           :key="item.id"
           :class="{'unchecked': !item.selected}"
         >
