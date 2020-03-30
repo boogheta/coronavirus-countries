@@ -49,7 +49,7 @@
           <v-list-tile-content>
             <v-list-tile-title>
               <span class="country">{{ item.id.replace(/_/, ' ') }}</span>
-              <span class="value amount">{{ item.value != null ? item.value : item[perDayStr][scope] }}</span>
+              <span class="value amount">{{ item.value != null ? item.value : item[typVal][scope] }}</span>
             </v-list-tile-title>
           </v-list-tile-content>
           <v-list-tile-action>

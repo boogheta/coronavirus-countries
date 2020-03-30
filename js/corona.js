@@ -55,10 +55,10 @@ new Vue({
     refCountries: {},
     values: {},
     cases: [
-      {id: "confirmed",       selected: false,  total: {}, daily: {}, color: d3.defaultColors[0]},
-      {id: "recovered",       selected: false,  total: {}, daily: {}, color: d3.defaultColors[1], disabled: true},
-      {id: "deceased",        selected: false,  total: {}, daily: {}, color: d3.defaultColors[22]},
-      {id: "currently_sick",  selected: false,  total: {}, daily: {}, color: d3.defaultColors[3], disabled: true}
+      {id: "confirmed",       selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[0]},
+      {id: "recovered",       selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[1], disabled: true},
+      {id: "deceased",        selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[22]},
+      {id: "currently_sick",  selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[3], disabled: true}
     ],
     oldrecovered: false,
     caseChoice: null,
@@ -86,8 +86,8 @@ new Vue({
     help: false
   },
   computed: {
-    perDayStr: function() {
-      return (this.perDay ? 'daily' : 'total');
+    typVal: function() {
+      return (this.perDay ? 'daily' : 'total') + (this.perCapita ? 'Pop' : '');
     },
     legend: function() {
       return this.countries.filter(function(c) { return c.selected; });
@@ -147,7 +147,6 @@ new Vue({
       this.level = this.scopes[newValue].level;
       this.countries = this.scopes[newValue].countries;
       var refCase = this.refCase,
-        perDay = this.perDayStr,
         cas = this.refCases.filter(function(c){ return c.id === refCase; })[0];
       this.refCountries[newValue] = this.countries.filter(function(c) {
         return c.maxValues["total"][cas.id] >= 3 * cas.min_cases;
@@ -295,16 +294,20 @@ new Vue({
       Object.keys(data.scopes).forEach(function(scope) {
         values[scope] = {};
         cases.forEach(function(ca) {
-          ca.total[scope] = 0;
-          ca.daily[scope] = 0;
+          ["total", "daily", "totalPop", "dailyPop"].forEach(function(typVal) {
+            ca[typVal][scope] = 0;
+          });
         });
         var level = data.scopes[scope].level,
+          totalPop = 0,
           dates = data.scopes[scope].dates || data.dates,
           countries = Object.keys(data.scopes[scope].values)
           .map(function(c) {
-            var maxVals = {total: {}, daily: {}},
-              lastVals = {total: {}, daily: {}},
-              cid = c.toLowerCase().replace(/[^a-z]/g, '');
+            var maxVals = {total: {}, daily: {}, totalPop: {}, dailyPop: {}},
+              lastVals = {total: {}, daily: {}, totalPop: {}, dailyPop: {}},
+              cid = c.toLowerCase().replace(/[^a-z]/g, ''),
+              pop = data.scopes[scope].values[c]["population"];
+            totalPop += pop;
             values[scope][cid] = {};
             cases.forEach(function(ca) {
               if (ca.disabled) return;
@@ -316,17 +319,22 @@ new Vue({
                     return v - data.scopes[scope].values[c][ca.id][i];
                   })
               };
-              ["total", "daily"].forEach(function(perDay) {
-                maxVals[perDay][ca.id] = d3.max(values[scope][cid][ca.id][perDay]);
-                lastVals[perDay][ca.id] = values[scope][cid][ca.id][perDay][values[scope][cid][ca.id][perDay].length - 1];
-                if (c !== "total")
-                  ca[perDay][scope] += lastVals[perDay][ca.id];
+              values[scope][cid][ca.id]["totalPop"] = values[scope][cid][ca.id]["total"].map(function(v) { return pop ? v * 1000000 / pop : 0});
+              values[scope][cid][ca.id]["dailyPop"] = values[scope][cid][ca.id]["total"].map(function(v) { return pop ? v * 1000000 / pop : 0});
+              ["total", "daily", "totalPop", "dailyPop"].forEach(function(typVal) {
+                maxVals[typVal][ca.id] = d3.max(values[scope][cid][ca.id][typVal]);
+                lastVals[typVal][ca.id] = values[scope][cid][ca.id][typVal][values[scope][cid][ca.id][typVal].length - 1];
+                if (c !== "total") {
+                  ca.total[scope] += lastVals.total[ca.id];
+                  ca.daily[scope] += lastVals.daily[ca.id];
+                }
               });
             });
             return {
               id: cid,
               name: (c === "total" ? "Entire " + scope : c),
               color: "",
+              population: pop,
               value: null,
               shift: 0,
               shiftStr: "",
@@ -352,6 +360,8 @@ new Vue({
         cases.forEach(function(ca) {
           ca.total[scope] = d3.strFormat(ca.total[scope]);
           ca.daily[scope] = d3.strFormat(ca.daily[scope]);
+          ca.totalPop[scope] = d3.strFormat(ca.total[scope] / totalPop);
+          ca.dailyPop[scope] = d3.strFormat(ca.daily[scope] / totalPop);
         });
         scopeChoices.push({
           name: scope,
@@ -391,15 +401,15 @@ new Vue({
       });
     },
     staticCountriesSort: function(cas, field, order, totalLast) {
-      var perDay = this.perDayStr;
+      var typVal = this.typVal;
       if (!order) order = 1;
       return function(a, b) {
         if (totalLast) {
           if (a.id === 'total') return totalLast;
           if (b.id === 'total') return -totalLast;
         }
-        if (field === "cases" && a.lastValues[perDay][cas] !== b.lastValues[perDay][cas])
-          return order * (b.lastValues[perDay][cas] - a.lastValues[perDay][cas]);
+        if (field === "cases" && a.lastValues[typVal][cas] !== b.lastValues[typVal][cas])
+          return order * (b.lastValues[typVal][cas] - a.lastValues[typVal][cas]);
         else {
           if (b.name > a.name) return -order;
           if (a.name > b.name) return order;
@@ -415,14 +425,14 @@ new Vue({
       if (refCountry && this.scope) {
         var values = this.values[this.scope],
           dates = this.scopes[this.scope].dates,
-          perDay = this.perDayStr,
+          typVal = this.typVal,
           refCase = this.refCase,
           refCaseParams = this.refCases.filter(function(c) { return c.id === refCase; })[0];
         if (/^\d+th case/.test(refCountry))
           this.legend.forEach(function(c) {
             c.shift = 0;
             for (var i = 0; i < dates.length; i++)
-              if (values[c.id][refCase][perDay][i] >= refCaseParams.min_cases) {
+              if (values[c.id][refCase][typVal.replace('Pop', '')][i] >= refCaseParams.min_cases) {
                 c.shift = -i;
                 c.shiftStr = "since " + d3.timeFormat("%b %d")(dates[i]);
                 break;
@@ -431,7 +441,7 @@ new Vue({
         else {
           var refStart = null,
             refId = this.countries.filter(function(c) { return c.name === refCountry; })[0].id,
-            refValues = values[refId][refCase][perDay];
+            refValues = values[refId][refCase][typVal];
           this.legend.forEach(function(c) {
             if (c.name === refCountry) {
               c.shift = 0;
@@ -445,7 +455,7 @@ new Vue({
                 if (refValues[i] < refCaseParams.min_cases || ndates > refCaseParams.max_dates) return;
                 ndates++;
                 for (var j = 1; j < dates.length ; j++) {
-                  curVal = values[c.id][refCase][perDay][j];
+                  curVal = values[c.id][refCase][typVal][j];
                   if (curVal < refValues[i]) {
                     lastVal = curVal;
                     continue;
@@ -476,12 +486,13 @@ new Vue({
     drawMultiples: function() {
 
       var cas = this.case,
+        perDay = this.perDay,
         legend = this.legend,
         values = this.values[this.scope],
         casesLegend = this.casesLegend,
         n_cases = casesLegend.length,
         dates = this.scopes[this.scope].dates
-          .slice(this.perDay ? 1 : 0)
+          .slice(perDay ? 1 : 0)
           .map(function(d) {
             return {
               date: d,
@@ -489,7 +500,7 @@ new Vue({
             };
           }),
         logarithmic = this.logarithmic,
-        perDay = this.perDayStr,
+        typVal = this.typVal,
         start = dates[0].date,
         end = dates[dates.length - 1].date;
       this.curExtent = Math.round((end - start) / (1000*60*60*24));
@@ -508,13 +519,13 @@ new Vue({
         xHistoWidth = xWidth / (2 * n_cases),
         xHistoGap = xWidth / (4 * n_cases),
         xHistoPosition = function(d, idx) { return xPosition(d) + (2 * idx + 1) * xHistoGap + idx * xHistoWidth; },
-        multiplesMax = function(c) { return d3.max(casesLegend.map(function(cas) { return c.maxValues[perDay][cas.id]; })); },
+        multiplesMax = function(c) { return d3.max(casesLegend.map(function(cas) { return c.maxValues[typVal][cas.id]; })); },
         maxValues = legend.map(multiplesMax),
         yMax = Math.max(0, d3.max(maxValues)),
         yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]().range([height, 0]).domain([logarithmic ? 1 : 0, yMax]),
         yPosition = function(c, ca, i) {
-          var val = values[c][ca][perDay][i] + 0;
-          if (perDay === "daily" && val < 0) val = 0
+          var val = values[c][ca][typVal][i] + 0;
+          if (perDay && val < 0) val = 0
           if (logarithmic && val == 0)
             return yScale(1);
           return yScale(val);
@@ -526,7 +537,7 @@ new Vue({
       };
 
       this.countries.forEach(function(c) {
-        c.lastStr = d3.strFormat(c.lastValues[perDay][cas]);
+        c.lastStr = d3.strFormat(c.lastValues[typVal][cas]);
       });
 
       // Prepare svg
@@ -544,10 +555,10 @@ new Vue({
       if (width <= 400)
         ticks.ticks(2);
       var singleWidth = width;
-      if (perDay === "daily")
+      if (perDay)
         singleWidth += xWidth / 2;
       this.legend.sort(function(a, b) {
-        return b.maxValues[perDay][cas] - a.maxValues[perDay][cas];
+        return b.maxValues[typVal][cas] - a.maxValues[typVal][cas];
       }).forEach(function(c, i) {
         var xIdx = i % columns,
           yIdx = Math.floor(i / columns),
@@ -562,7 +573,7 @@ new Vue({
           .attr("transform", "translate(" + xPos + "," + yPos + ")");
 
         casesLegend.forEach(function(cas, idx) {
-          if (perDay === "daily")
+          if (perDay)
             g.append("g")
               .selectAll("rect.histogram." + c.id)
               .data(dates).enter().append("rect")
@@ -651,12 +662,13 @@ new Vue({
     },
     drawSeries: function() {
       var cas = this.case,
-        perDay = this.perDayStr,
+        perDay = this.perDay,
+        typVal = this.typVal,
         refCase = this.refCase,
         refCountry = this.refCountry,
         align_nthcase = /\d+th case/.test(refCountry);
       this.countries.forEach(function(c) {
-        c.lastStr = d3.strFormat(c.lastValues[perDay][cas]);
+        c.lastStr = d3.strFormat(c.lastValues[typVal][cas]);
       });
 
       // Filter dates from zoom
@@ -666,8 +678,7 @@ new Vue({
         places = legend.slice().sort(this.staticCountriesSort(cas, "cases", 1, 1)),
         min_shift = align_nthcase ? d3.min(places.map(function(c) { return -c.shift; })) : 0,
         n_places = legend.length,
-        dates = this.scopes[this.scope].dates.slice(this.perDay ? 1 : 0),
-        perDay = this.perDayStr,
+        dates = this.scopes[this.scope].dates.slice(perDay ? 1 : 0),
         stacked = this.vizChoice === 'stacked',
         logarithmic = this.logarithmic,
         hiddenLeft = this.hiddenLeft,
@@ -718,7 +729,7 @@ new Vue({
         xHistoPosition = function(d, idx) { return xPosition(d) + (2 * idx + 1) * xHistoGap + idx * xHistoWidth; },
         shiftedVal = function(c, i) {
           var idx = i + Math.max(0, hiddenLeft - c.shift);
-          return values[c.id][cas][perDay][idx];
+          return values[c.id][cas][typVal][idx];
         },
         shiftedMaxVal = function(c) {
           return d3.max(shiftedDates(c).map(function(d, i) {
@@ -734,8 +745,8 @@ new Vue({
         zoomedDates.forEach(function(d, i) {
           var stack = 0;
           places.forEach(function(c) {
-            if (c.id === 'total') stack = values[c.id][cas][perDay][i + hiddenLeft];
-            else stack += values[c.id][cas][perDay][i + hiddenLeft];
+            if (c.id === 'total') stack = values[c.id][cas][typVal][i + hiddenLeft];
+            else stack += values[c.id][cas][typVal][i + hiddenLeft];
             if (stack > stackedMaxVal) stackedMaxVal = stack;
             stackedVals[c.id].push(stack);
           });
@@ -747,7 +758,7 @@ new Vue({
           .domain([logarithmic ? 1 : 0, yMax]),
         yPosition = function(c, i) {
           var val = (stacked ? stackedVals[c.id][i] : shiftedVal(c, i));
-          if (perDay === "daily" && val < 0) val = 0
+          if (perDay && val < 0) val = 0
           if (logarithmic && val == 0)
             return yScale(1);
           return yScale(val);
@@ -763,7 +774,7 @@ new Vue({
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
       // Draw series
-      if (perDay === "daily") {
+      if (perDay) {
         width += xWidth / 2;
 
         places.forEach(function(c, idx) {
@@ -861,7 +872,7 @@ new Vue({
           .on("mouseleave", this.clearTooltip)
           .on("wheel", this.zoom)
           .on("dblclick", this.zoom);
-      if (!this.perDay)
+      if (!perDay)
         g.append("g")
           .selectAll("rect.tooltip.surface")
           .data(zoomedDates).enter().append("rect")
@@ -887,12 +898,12 @@ new Vue({
       this.hoverDate = d.legend;
 
       var values = this.values[this.scope],
-        perDay = this.perDayStr;
+        typVal = this.typVal;
       if (this.vizChoice !== 'multiples') {
         var cas = this.case,
           hiddenLeft = this.hiddenLeft;
         this.legend.forEach(function(c) {
-          var val = values[c.id][cas][perDay][i + hiddenLeft - c.shift];
+          var val = values[c.id][cas][typVal][i + hiddenLeft - c.shift];
           if (val == undefined) c.value = "";
           else c.value = d3.strFormat(val);
         });
@@ -900,7 +911,7 @@ new Vue({
         var country = d3.select(rects[i]).attr('country');
         this.cases.forEach(function(ca) {
           if (!ca.disabled)
-            ca.value = d3.strFormat(values[country][ca.id][perDay][i]);
+            ca.value = d3.strFormat(values[country][ca.id][typVal][i]);
         });
       }
       d3.select(".tooltipBox")
@@ -912,9 +923,9 @@ new Vue({
       var cas = this.case,
         legend = this.legend,
         multiples = this.vizChoice === 'multiples',
-        perDay = this.perDayStr;
+        typVal = this.typVal;
       this[multiples ? "cases" : "legend"].forEach(function(c) {
-        c.value = (multiples && legend.length == 1 && !c.disabled ? d3.strFormat(legend[0].lastValues[perDay][c.id]) : null);
+        c.value = (multiples && legend.length == 1 && !c.disabled ? d3.strFormat(legend[0].lastValues[typVal][c.id]) : null);
       });
       var typ = (this.perDay ? "surface" : "hoverdate");
       d3.selectAll('rect.' + typ + '[did="' + i + '"]').style("fill-opacity", 0);
