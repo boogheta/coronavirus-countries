@@ -958,12 +958,15 @@ new Vue({
         if (hov) d3.selectAll(".histogram." + c).classed("hidden", false);
         document.querySelectorAll(".histogram." + c)
         .forEach(function(d) {
-          var x = d.getAttribute("xPos"),
-            w = d.getAttribute("xWidth");
-          d.setAttribute("xPos", d.getAttribute("x"));
-          d.setAttribute("x", x);
-          d.setAttribute("xWidth", d.getAttribute("width"));
-          d.setAttribute("width", w);
+          if (hov) {
+            d.setAttribute("x0", d.getAttribute("x"));
+            d.setAttribute("width0", d.getAttribute("width"));
+            d.setAttribute("x", d.getAttribute("xPos"));
+            d.setAttribute("width", d.getAttribute("xWidth"));
+          } else {
+            d.setAttribute("x", d.getAttribute("x0"));
+            d.setAttribute("width", d.getAttribute("width0"));
+          }
         });
       } else if (this.vizChoice === 'stacked') {
         d3.selectAll(".line").style("opacity", hov ? 0.5 : 1);
