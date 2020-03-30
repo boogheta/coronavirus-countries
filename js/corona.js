@@ -534,9 +534,7 @@ new Vue({
         yPosition = function(c, ca, i) {
           var val = values[c][ca][typVal][i] + 0;
           if (perDay && val < 0) val = 0
-          if (logarithmic && val == 0)
-            return yScale(yMin);
-          return yScale(val);
+          return yScale(logarithmic && val < yMin ? yMin : val);
         };
       this.no_country_selected[0].style = {
         "background-color": "lightgrey!important",
@@ -675,7 +673,8 @@ new Vue({
         typVal = this.typVal,
         refCase = this.refCase,
         refCountry = this.refCountry,
-        align_nthcase = /\d+th case/.test(refCountry);
+        align_nthcase = /\d+th case/.test(refCountry),
+        min_cases = align_nthcase ? this.refCases.filter(function(c) { return c.id === refCase; })[0].min_cases : 0;
       this.countries.forEach(function(c) {
         c.lastStr = d3.strFormat(perCapita)(c.lastValues[typVal][cas]);
       });
@@ -723,7 +722,7 @@ new Vue({
       var margin = {top: 20, right: 90, bottom: 25, left: 40},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgW - margin.left - margin.right,
-        minLegendH = 13200 * n_places / svgW,
+        minLegendH = 14000 * n_places / svgW,
         mainH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height - Math.max(document.getElementById("legend").getBoundingClientRect().height, minLegendH),
         svgH = Math.max(140, mainH),
         height = svgH - margin.top - margin.bottom,
@@ -762,7 +761,9 @@ new Vue({
           });
         });
       }
-      var yMin = logarithmic ? (perCapita ? 0.001 : 1) : 0,
+      var yMin = (align_nthcase && refCase === cas ?
+        (logarithmic && perCapita ? 0.001 : min_cases ) :
+        (logarithmic ? (perCapita ? 0.001 : 1) : 0)),
         yMax = Math.max(0, (stacked ? stackedMaxVal : d3.max(legend.map(shiftedMaxVal)))),
         yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]()
           .range([height, 0])
@@ -770,9 +771,7 @@ new Vue({
         yPosition = function(c, i) {
           var val = (stacked ? stackedVals[c.id][i] : shiftedVal(c, i));
           if (perDay && val < 0) val = 0
-          if (logarithmic && val == 0)
-            return yScale(yMin);
-          return yScale(val);
+          return yScale(logarithmic && val < yMin ? yMin : val);
         };
 
       // Prepare svg
