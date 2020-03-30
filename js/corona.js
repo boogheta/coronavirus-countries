@@ -94,8 +94,9 @@ new Vue({
       return (this.perDay ? 'daily' : 'total') + (this.perCapita ? 'Pop' : '');
     },
     legend: function() {
-      var perCapita = this.perCapita;
-      return this.countries.filter(function(c) { return c.selected && !(perCapita && !c.population); });
+      var perCapita = this.perCapita,
+        refCountry = (this.vizChoice === "series" && this.refCountry);
+      return this.countries.filter(function(c) { return c.selected && !(perCapita && !c.population) && !(refCountry && c.shift === null); });
     },
     casesLegend: function() {
       return this.cases.filter(function(c) { return !c.disabled && c.selected; });
@@ -435,7 +436,7 @@ new Vue({
           refCaseParams = this.refCases.filter(function(c) { return c.id === refCase; })[0];
         if (/^\d+th case/.test(refCountry))
           this.legend.forEach(function(c) {
-            c.shift = 0;
+            c.shift = null;
             for (var i = 0; i < dates.length; i++)
               if (values[c.id][refCase][typVal.replace('Pop', '')][i] >= refCaseParams.min_cases) {
                 c.shift = -i;
