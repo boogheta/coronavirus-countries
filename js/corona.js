@@ -762,7 +762,7 @@ new Vue({
         });
       }
       var yMin = (align_nthcase && refCase === cas ?
-        (logarithmic && perCapita ? 0.001 : min_cases ) :
+        (perCapita ? (logarithmic ? 0.001 : 0) : min_cases ) :
         (logarithmic ? (perCapita ? 0.001 : 1) : 0)),
         yMax = Math.max(0, (stacked ? stackedMaxVal : d3.max(legend.map(shiftedMaxVal)))),
         yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]()
