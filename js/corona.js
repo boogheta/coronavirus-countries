@@ -165,7 +165,7 @@ new Vue({
         var startPlaces = (
           this.defaultPlaces[this.scope] ||
           this.countries.sort(this.staticCountriesSort(this.case, "cases", 1, 1))
-            .slice(1, 8)
+            .slice(0, 7)
             .map(function(c) { return c.name; })
         );
         this.countries.forEach(function(c) {
