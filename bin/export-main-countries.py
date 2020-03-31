@@ -90,6 +90,8 @@ countries = {
 for typ in ["confirmed", "recovered", "deceased"]:
     with open(os.path.join("data", "time_series_covid19_%s_global.csv" % typ.replace("deceased", "deaths"))) as f:
         for row in sorted(csv.DictReader(f), key=lambda x: (x["Country/Region"], x["Province/State"])):
+            if row["Province/State"] == "Recovered":
+                continue
             countries[typ][clean_region(row['Country/Region'])].append(row)
 
 # TODO Fix naive dates parsing
