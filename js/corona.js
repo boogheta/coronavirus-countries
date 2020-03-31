@@ -137,7 +137,7 @@ new Vue({
           .map(function(c) { return c.name.replace(/ /g, '%20'); })
           .join(",") +
         (this.refCountry ? "&align=" + this.refCountry : "") +
-        (this.refCase !== "confirmed" ? "&alignTo=" + this.refCase : "") +
+        "&alignTo=" + this.refCase +
         (this.oldrecovered ? "&oldrecovered" : "");
     }
   },
@@ -269,7 +269,7 @@ new Vue({
         c.selected = !!~options.countries.indexOf(c.name);
       });
       this.refCountry = options.align || null;
-      this.refCase = options.alignTo || "confirmed";
+      this.refCase = options.alignTo || "deceased";
       this.oldrecovered = !!options.oldrecovered;
       if (this.init) {
         this.init = false;
