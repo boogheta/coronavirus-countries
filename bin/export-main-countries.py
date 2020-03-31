@@ -208,7 +208,7 @@ localities = {
             "confirmed": "totale_casi",
             "recovered": "dimessi_guariti",
             "deceased": "deceduti",
-            "currently_sick": "totale_attualmente_positivi",
+            "currently_sick": "totale_positivi",
             "tested": "tamponi",
             "hospitalized": "totale_ospedalizzati",
             "intensive_care": "terapia_intensiva"
