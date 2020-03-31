@@ -253,10 +253,10 @@
     <v-toolbar class="dark" fixed>
       <v-toolbar-title>
         <a href="https://boogheta.github.io/coronavirus-countries/"><img src="img/covid19.png" alt="COVID19" width=50 /></a>
-        <v-title>Coronavirus country comparator<br/>
+        <v-title>Coronavirus Country Comparator<br/>
         <span class="update">(last data update: {{ lastUpdateStr }})</span></v-title>
       </v-toolbar-title>
-      <span v-if="!oldrecovered" class="disclaimer">CSSE <a href="https://github.com/CSSEGISandData/COVID-19/issues/1250" target="_blank">stopped</a> aggregating recovered cases after March 22<sup>nd</sup> as they were not reported consistently across countries, so only confirmed and deceased cases can be presented now. <a @click="oldrecovered = true">Click here to switch to the old frozen view.</a></span>
+      <span v-if="!oldrecovered" class="disclaimer">CSSE <a href="https://github.com/CSSEGISandData/COVID-19/issues/1250" target="_blank">stopped</a> aggregating recovered cases after March 22<sup>nd</sup> as they were not reported consistently across countries, so only confirmed and deceased cases can be presented now. <a @click="oldrecovered = true">Click here to switch to the old frozen view with recovered and active cases.</a></span>
       <span v-if="oldrecovered" class="disclaimer">This view that includes recovered and currently sick cases stops after March 22<sup>nd</sup> because CSSE <a href="https://github.com/CSSEGISandData/COVID-19/issues/1250" target="_blank">stopped</a> aggregating recovered cases as they were not reported consistently across countries. <a @click="oldrecovered = false">Click here to switch back to the regular updated view.</a></span>
       <v-spacer></v-spacer>
       <v-btn fab small class="ml-3" @click.native.stop="help = true">
@@ -316,7 +316,7 @@
 
     <v-dialog v-model="help" width="75%">
       <v-card>
-        <v-card-title class="headline">Coronavirus country comparator</v-card-title>
+        <v-card-title class="headline">Coronavirus Country Comparator</v-card-title>
         <v-card-text>Built on top of the <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series" target="_blank">data openly released daily</a> by the <a href="https://systems.jhu.edu/" target="_blank">Center for Systems Science and Engineering (CSSE)</a> at Johns Hopkins University (JHU) for the <a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" target="_blank">great dashboard</a> they built.</v-card-text>
         <v-card-text><b>WARNING:</b> Data is based on figures officially reported by countries and international organisations with various counting methods. It should therefore be considered with caution: they shall not reflect exact figures and can only be considered as minimum values.<br/>Confirmed cases depend on the number of tests performed which can vary widely from one country to another; researchers estimate that it might only reflect between 10 and 50&nbsp;% of the number of actually infected people.<br/>Deceased cases should also only be considered as minimum values, as a variety of casualties consecutive to the virus might not be accounted accurately.</v-card-text>
         <v-card-text><b>Features:</b><ul>
@@ -330,12 +330,16 @@
           <li>Use <b>Align to</b> to select a place and see how others fit with a few days delay. Regression is calculated as the mean delay between the number of confirmed or deceased cases in the considered country compared to the reference one during the 30 days following the reach of 10 deceased cases (or 20 days and 50 cases when aligning on confirmed).</li>
           <li>You can also select <b>after 10<sup>th</sup> deceased case</b> (or 50<sup>th</sup> confirmed) in the <b>Align to</b> menu to align all curves to a same "zero day".</li>
         </ul></v-card-text>
-        <v-card-text>This web application is a free libre open source software released under AGPL V3 license and its source code is <a href="https://github.com/boogheta/coronavirus-countries" target="_blank">available on GitHub</a>. The interface is based on <a href="https://vuejs.org" target="_blank">Vue.js</a>, <a href="https://vuetifyjs.com/" target="_blank">Vuetify.js</a> and <a href="https://d3js.org" target="_blank">D3.js</a>. The logo is a <a href="https://pixabay.com/fr/illustrations/virus-coronavirus-sars-cov-2-flash-4915867/" target="_blank">creation from Alexei Hulsov</a> openly released under the <a href="https://pixabay.com/fr/service/license/" target="_blank">Pixabay license</a>.<br/><a href="https://github.com/boogheta/coronavirus-countries/issues" target="_blank">Bug reports</a>, contributions and pull requests are very welcome!</v-card-text>
+        <v-card-text>
+          This web application is a free libre open source software released under AGPL V3 license and its source code is <a href="https://github.com/boogheta/coronavirus-countries" target="_blank">available on GitHub</a>.<br/>
+          The interface is based on <a href="https://vuejs.org" target="_blank">Vue.js</a>, <a href="https://vuetifyjs.com/" target="_blank">Vuetify.js</a> and <a href="https://d3js.org" target="_blank">d3.js</a>.<br/>
+          The logo is a <a href="https://pixabay.com/fr/illustrations/virus-coronavirus-sars-cov-2-flash-4915867/" target="_blank">creation from Alexei Hulsov</a> openly released under the <a href="https://pixabay.com/fr/service/license/" target="_blank">Pixabay license</a>.<br/>
+          <a href="https://github.com/boogheta/coronavirus-countries/issues" target="_blank">Bug reports, suggestions and pull requests</a> are very welcome!</v-card-text>
         <v-card-text>You can contact me on Twitter at: <a href="http://twitter.com/boogheta" target="_blank">@boogheta</a></v-card-text>
         <v-card-text>Benjamin Ooghe-Tabanou &mdash; <a href="https://medialab.sciencespo.fr/" target="_blank">médialab Sciences Po</a></v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>
-          <v-btn class="white--text darken-1" flat @click.native="help = false">Fermer</v-btn>
+          <v-btn class="white--text darken-1" flat @click.native="help = false">Close</v-btn>
         </v-card-actions>
       </v-card>
     </v-dialog>
