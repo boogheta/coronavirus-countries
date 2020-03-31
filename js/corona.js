@@ -59,10 +59,12 @@ new Vue({
     refCountries: {},
     values: {},
     cases: [
-      {id: "confirmed",       selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[0]},
+      {id: "tested",          selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[2], disabled: true},
+      {id: "confirmed",       selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[0], disabled: true},
       {id: "recovered",       selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[1], disabled: true},
-      {id: "deceased",        selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[22]},
-      {id: "currently_sick",  selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[3], disabled: true}
+      {id: "currently_sick",  selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[3], disabled: true},
+      {id: "hospitalized",    selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[4], disabled: true},
+      {id: "deceased",        selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[22], disabled: true}
     ],
     oldrecovered: false,
     caseChoice: null,
@@ -112,7 +114,8 @@ new Vue({
     },
     caseLabel: function() { return (this.case || "cases").replace(/_/g, ' '); },
     casesChosen: function() {
-      return this.casesLegend.map(function(c) { return c.id }).join("&");
+      return this.cases.filter(function(c) { return c.selected; })
+        .map(function(c) { return c.id }).join("&");
     },
     refCountrySelected: function() {
       return !!this.refCountry;
@@ -156,6 +159,7 @@ new Vue({
       this.countries = this.scopes[newValue].countries;
       var refCase = this.refCase,
         cas = this.refCases.filter(function(c){ return c.id === refCase; })[0];
+      this.updateDisabledCases();
       this.refCountries[newValue] = this.countries.filter(function(c) {
         return c.maxValues["total"][cas.id] >= 3 * cas.min_cases;
       }).sort(function(a, b) {
@@ -202,14 +206,7 @@ new Vue({
         this.perCapita = false;
       }
     },
-    oldrecovered: function(newValue) {
-      this.cases.forEach(function(c) {
-        if (c.id !== "recovered" && c.id !== "currently_sick") return;
-        c.disabled = !newValue;
-      });
-      this.$nextTick(this.resizeMenu);
-      this.download_data();
-    }
+    oldrecovered: function() { this.download_data(); }
   },
   mounted: function() {
     this.download_data();
@@ -249,6 +246,8 @@ new Vue({
         else options[el[0]] = true;
       });
       this.scope = options.scope || "World";
+      this.updateDisabledCases();
+      this.$nextTick(this.resizeMenu);
       if (this.init) {
         if (!options.countries.length)
           options.countries = this.scopes[this.scope].countries.filter(function(c) {
@@ -257,7 +256,7 @@ new Vue({
             return c.name;
           });
       }
-      if (!options.confirmed && !options.recovered && !options.deceased && !options.currently_sick)
+      if (!options.confirmed && !options.recovered && !options.deceased && !options.currently_sick && !options.tested && !options.hospitalized)
         options.deceased = true;
       this.logarithmic = !!options.log;
       this.perCapita = !!options.ratio;
@@ -318,6 +317,7 @@ new Vue({
             ca[typVal][scope] = 0;
           });
         });
+        validCases = Object.keys(data.scopes[scope].values.total);
         var level = data.scopes[scope].level,
           totalPop = 0,
           dates = data.scopes[scope].dates || data.dates,
@@ -330,7 +330,7 @@ new Vue({
             totalPop += pop;
             values[scope][cid] = {};
             cases.forEach(function(ca) {
-              if (ca.disabled) return;
+              if (!~validCases.indexOf(ca.id)) return;
               values[scope][cid][ca.id] = {
                 total: data.scopes[scope].values[c][ca.id],
                 daily: data.scopes[scope].values[c][ca.id]
@@ -368,7 +368,8 @@ new Vue({
           level: level,
           countries: countries,
           dates: dates.map(d3.datize),
-          extent: Math.round((dates[dates.length - 1] - dates[0]) / (1000*60*60*24))
+          extent: Math.round((dates[dates.length - 1] - dates[0]) / (1000*60*60*24)),
+          cases: validCases
         }
         scopes[scope].countries
           .sort(staticCountriesSort(cas, "cases", 1, 1))
@@ -398,6 +399,12 @@ new Vue({
       if (!this.countriesOrder) this.countriesOrder = "cases";
       this.lastUpdateStr = new Date(data.last_update*1000).toUTCString();
       this.readUrl();
+    },
+    updateDisabledCases: function() {
+      var cases = this.scopes[this.scope].cases;
+      this.cases.forEach(function(c) {
+        c.disabled = !~cases.indexOf(c.id);
+      });
     },
     selectCase: function(newCase) {
       if (this.vizChoice !== 'multiples') {
