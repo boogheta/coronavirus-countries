@@ -221,7 +221,7 @@ localities = {
         "level": "department",
         "level_field": "maille_nom",
         "date_accessor": lambda row: row["date"],
-        "filter": lambda row: row["granularite"] == "departement",
+        "filter": lambda row: row["granularite"] == "departement" and row["source_type"] == "sante-publique-france-data",
         "fields": {
             "tested": "depistes",
             "confirmed": "cas_confirmes",
@@ -253,7 +253,7 @@ for scope, metas in localities.items():
         "values": {}
     }
     with open(os.path.join("data", metas["filename"])) as f:
-        rows = list(csv.DictReader(f))
+        rows = [row for row in csv.DictReader(f) if "filter" not in metas or metas["filter"](row)]
 
         for row in rows:
             data["scopes"][scope]["dates"].append(metas["date_accessor"](row))
@@ -265,8 +265,6 @@ for scope, metas in localities.items():
         fields = metas["fields"].keys()
         data["scopes"][scope]["values"]["total"] = unit_vals(n_dates, fields, populations["World"][scope])
         for row in rows:
-            if "filter" in metas and not metas["filter"](row):
-                continue
             idx = dates_idx[metas["date_accessor"](row)]
             name = row[metas["level_field"]]
             if name not in data["scopes"][scope]["values"]:
