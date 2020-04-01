@@ -203,19 +203,33 @@ localities = {
         "source": "https://github.com/pcm-dpc/COVID-19",
         "filename": "dpc-covid19-ita-regioni.csv",
         "level": "region",
+        "level_field": "denominazione_regione",
         "date_accessor": lambda row: row["data"].split("T")[0],
         "fields": {
+            "tested": "tamponi",
             "confirmed": "totale_casi",
             "recovered": "dimessi_guariti",
-            "deceased": "deceduti",
-            "currently_sick": "totale_positivi",
-            "tested": "tamponi",
             "hospitalized": "totale_ospedalizzati",
-            "intensive_care": "terapia_intensiva"
+            "intensive_care": "terapia_intensiva",
+            "deceased": "deceduti",
+            "currently_sick": "totale_positivi"
         }
     },
     "France": {
-        "level": "region"
+        "source": "https://github.com/opencovid19-fr/data",
+        "filename": "chiffres-cles.csv",
+        "level": "department",
+        "level_field": "maille_nom",
+        "date_accessor": lambda row: row["date"],
+        "filter": lambda row: row["granularite"] == "departement",
+        "fields": {
+            "tested": "depistes",
+            "confirmed": "cas_confirmes",
+            "recovered": "gueris",
+            "hospitalized": "hospitalises",
+            "intensive_care": "reanimation",
+            "deceased": "deces"
+        }
     },
     "United Kingdom": {
         "level": "country"
@@ -251,8 +265,10 @@ for scope, metas in localities.items():
         fields = metas["fields"].keys()
         data["scopes"][scope]["values"]["total"] = unit_vals(n_dates, fields, populations["World"][scope])
         for row in rows:
+            if "filter" in metas and not metas["filter"](row):
+                continue
             idx = dates_idx[metas["date_accessor"](row)]
-            name = row["denominazione_regione"]
+            name = row[metas["level_field"]]
             if name not in data["scopes"][scope]["values"]:
                 try:
                     pop = populations[scope][name]
@@ -261,9 +277,16 @@ for scope, metas in localities.items():
                     pop = 0
                 data["scopes"][scope]["values"][name] = unit_vals(n_dates, fields, pop)
             for field in fields:
-                val = int(row[metas["fields"][field]])
+                val = int(row[metas["fields"][field]] or 0)
                 data["scopes"][scope]["values"][name][field][idx] = val
                 data["scopes"][scope]["values"]["total"][field][idx] += val
+            if "currently_sick" not in fields and "confirmed" in fields and "recovered" in fields and "deceased" in fields:
+                if "currently_sick" not in data["scopes"][scope]["values"][name]:
+                    data["scopes"][scope]["values"][name]["currently_sick"] = [0] * n_dates
+                    data["scopes"][scope]["values"]["total"]["currently_sick"] = [0] * n_dates
+                sick = data["scopes"][scope]["values"][name]["confirmed"][idx] - data["scopes"][scope]["values"][name]["recovered"][idx] - data["scopes"][scope]["values"][name]["deceased"][idx]
+                data["scopes"][scope]["values"][name]["currently_sick"][idx] = sick
+                data["scopes"][scope]["values"]["total"]["currently_sick"][idx] = sick
 
 
 with open(os.path.join("data", "coronavirus-countries%s.json" % ("-oldrecovered" if OLDRECOVERED else "")), "w") as f:
