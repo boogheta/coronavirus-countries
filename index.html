@@ -72,20 +72,22 @@
           <span>Scale</span>
         </v-subheader>
 
-        <v-list-tile class="switchoption">
+        <v-list-tile class="switchoption"
+          :title="vizChoice === 'stacked' ? 'logarithmic scale makes no sense for stacked area charts' : ''"
+        >
           <v-list-tile-content>
             <v-list-tile-title
-              :class="{'switcher': true, 'value': true, 'unchecked': logarithmic}"
-              @click="logarithmic = !logarithmic"
+              :class="{'switcher': vizChoice !== 'stacked', 'value': true, 'unchecked': logarithmic}"
+              @click="if (vizChoice !== 'stacked') logarithmic = !logarithmic"
             >linear</v-list-title>
           </v-list-tile-content>
           <v-list-tile-action>
-            <v-switch light v-model="logarithmic" color="white"></v-switch>
+            <v-switch :disabled="vizChoice === 'stacked'" light v-model="logarithmic" color="white"></v-switch>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title
-              :class="{'switcher': true, 'unchecked': !logarithmic}"
-              @click="logarithmic = !logarithmic"
+              :class="{'switcher': vizChoice !== 'stacked', 'unchecked': !logarithmic || vizChoice === 'stacked'}"
+              @click="if (vizChoice !== 'stacked') logarithmic = !logarithmic"
             >logarithmic</v-list-title>
           </v-list-tile-content>
         </v-list-tile>
