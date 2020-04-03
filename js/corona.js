@@ -75,6 +75,7 @@ new Vue({
     perCapita: false,
     perDay: false,
     vizChoice: "series",
+    legendFontSize: 14,
     resizing: null,
     hoverDate: "",
     curExtent: null,
@@ -535,7 +536,9 @@ new Vue({
           var val = values[c][ca][typVal][i] + 0;
           if (perDay && val < 0) val = 0
           return yScale(logarithmic && val < yMin ? yMin : val);
-        };
+        },
+        legendFontSize = 14 - Math.floor(columns / 2);
+      this.legendFontSize = legendFontSize;
       this.no_country_selected[0].style = {
         "background-color": "lightgrey!important",
         top: (svgH / 2 - 20) + "px",
@@ -571,6 +574,7 @@ new Vue({
           xPos = margin.left + xIdx * (width + margin.horiz),
           yPos = margin.top + yIdx * (height + margin.vert);
         c.style = {
+          "font-size": legendFontSize + "px",
           "background-color": "lightgrey!important",
           top: (yPos - 10) + "px",
           left: (xPos - 5) + "px"

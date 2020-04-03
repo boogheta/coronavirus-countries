@@ -279,8 +279,9 @@
               v-if="!item.inactive"
               title="click to remove"
               @click="item.selected = false"
+              :style="'top: '+(legendFontSize < 12 ? 1 : 3)+'px'"
             >
-              <v-icon>highlight_off</v-icon>
+              <v-icon :style="'font-size: '+(legendFontSize + 4)+'px'">highlight_off</v-icon>
             </div>
           </div>
         </div>
