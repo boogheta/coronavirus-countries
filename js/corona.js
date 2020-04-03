@@ -957,21 +957,6 @@ new Vue({
       if (this.perDay && this.vizChoice === 'stacked') {
         d3.selectAll(".histogram").style("opacity", hov ? 0.5 : 1);
         if (hov) d3.selectAll(".histogram." + c).style("opacity", 1);
-      } else if (this.perDay) {
-        d3.selectAll(".histogram").classed("hidden", hov);
-        if (hov) d3.selectAll(".histogram." + c).classed("hidden", false);
-        document.querySelectorAll(".histogram." + c)
-        .forEach(function(d) {
-          if (hov) {
-            d.setAttribute("x0", d.getAttribute("x"));
-            d.setAttribute("width0", d.getAttribute("width"));
-            d.setAttribute("x", d.getAttribute("xPos"));
-            d.setAttribute("width", d.getAttribute("xWidth"));
-          } else {
-            d.setAttribute("x", d.getAttribute("x0"));
-            d.setAttribute("width", d.getAttribute("width0"));
-          }
-        });
       } else if (this.vizChoice === 'stacked') {
         d3.selectAll(".line").style("opacity", hov ? 0.5 : 1);
         if (hov) d3.select("#" + c).style("opacity", 1);
