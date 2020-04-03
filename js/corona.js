@@ -194,6 +194,7 @@ new Vue({
       this.refCountry = null;
       this.$nextTick(this.resizeMenu);
       if (this.vizChoice === 'stacked') {
+        this.logarithmic = false;
         this.perCapita = false;
       }
     },
