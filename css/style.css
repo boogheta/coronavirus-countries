@@ -193,10 +193,7 @@ path.line.hover {
 .legend .btn {
   color: black!important;
   font-weight: bold;
-  min-width: 125px;
   padding: 2px;
-  height: 50px;
-  min-width: 200px;
 }
 .legend .btn div {
   display: grid;

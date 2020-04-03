@@ -82,7 +82,7 @@ new Vue({
     hiddenRight: 0,
     no_country_selected: [{
       name: "Please select at least one place",
-      color: "grey",
+      color: "lightgrey",
       value: "",
       selected: true,
       inactive: true
@@ -574,7 +574,7 @@ new Vue({
           "background-color": "lightgrey!important",
           top: (yPos - 10) + "px",
           left: (xPos - 5) + "px"
-        }
+        };
         var g = svg.append("g")
           .attr("transform", "translate(" + xPos + "," + yPos + ")");
 
@@ -722,13 +722,33 @@ new Vue({
       var margin = {top: 20, right: 90, bottom: 25, left: 40},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgW - margin.left - margin.right,
-        minLegendH = 14000 * n_places / svgW,
-        mainH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height - Math.max(document.getElementById("legend").getBoundingClientRect().height, minLegendH),
+        fontLevel = Math.floor(Math.min(130, n_places) / 20),
+        fontSize = 14 - fontLevel,
+        legHeight = 44 - 3 * fontLevel,
+        legWidth = 200 - 20 * fontLevel;
+      legend.forEach(function(c) {
+        c.style = {
+          "background-color": c.color + "!important",
+          "font-size": fontSize + "px",
+          "height": legHeight + "px",
+          "min-width": legWidth + "px"
+        };
+      });
+      this.no_country_selected[0].style = {
+        "background-color": "lightgrey!important",
+        "font-size": "14px",
+        "height": "auto",
+        "min-width": "200px"
+      };
+      var n_leg_by_line = Math.floor((svgW - 20) / (legWidth + 20)),
+        n_lines = Math.ceil(n_places / n_leg_by_line) || 1,
+        legendH = n_lines * (legHeight + 14) + 30,
+        mainH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height - legendH,
         svgH = Math.max(140, mainH),
         height = svgH - margin.top - margin.bottom,
         xScale = d3.scaleTime()
-          .range([0, width])
-          .domain([start, end]),
+        .range([0, width])
+        .domain([start, end]),
         xWidth = width / this.curExtent,
         xPosition = function(d) {
           return xScale(d3.max([start, d.date || d.data.date])) - xWidth/2;

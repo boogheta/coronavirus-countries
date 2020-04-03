@@ -291,7 +291,7 @@
           :key="item.id"
           v-if="item.selected && vizChoice !== 'multiples'"
           :class="{'btn': true, 'btn--raised': true, 'btn--disabled': item.inactive}"
-          :style="{'background-color': item.color+'!important'}"
+          :style="item.style"
           @mouseenter="hoverCountry(item.id, true)"
           @mouseleave="hoverCountry(item.id, false)"
         >
@@ -305,7 +305,7 @@
           <div class="btn__content">
             <span>{{ item.name }}<small v-if="refCountrySelected && item.shift"> ({{ item.shiftStr }})</small></span>
             <span class="lowercase amount">{{ item.value !== null ? item.value : item.lastStr }}
-              <small v-if="perCapita">per million</small>
+              <small v-if="perCapita && !item.inactive">per million</small>
             </span>
           </div>
         </div>
