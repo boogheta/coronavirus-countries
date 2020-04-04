@@ -562,7 +562,9 @@ new Vue({
         displayTooltip = this.displayTooltip,
         clearTooltip = this.clearTooltip;
       var ticks = d3.axisBottom(xScale).tickFormat(d3.timeFormat("%b %d")).tickSizeOuter(0);
-      if (width <= 400)
+      if (width <= 200)
+        ticks.ticks(1);
+      else if (width <= 400)
         ticks.ticks(2);
       var singleWidth = width;
       if (perDay)
@@ -848,7 +850,7 @@ new Vue({
             .attr("stroke", stacked ? "none" : c.color)
             .attr("stroke-linejoin", "round")
             .attr("stroke-linecap", "round")
-            .attr("stroke-width", 2)
+            .attr("stroke-width", stacked ? 1 : 2)
             .attr("d",
               (stacked ?
                 d3.area()
@@ -981,13 +983,19 @@ new Vue({
     hoverCountry: function(c, hov) {
       if (this.perDay && this.vizChoice === 'stacked') {
         d3.selectAll(".histogram").style("opacity", hov ? 0.5 : 1);
-        if (hov) d3.selectAll(".histogram." + c).style("opacity", 1);
+        if (hov) d3.selectAll(".histogram." + c.id).style("opacity", 1);
       } else if (this.vizChoice === 'stacked') {
         d3.selectAll(".line").style("opacity", hov ? 0.5 : 1);
-        if (hov) d3.select("#" + c).style("opacity", 1);
+        d3.selectAll(".line").style("stroke", "none");
+        if (hov) {
+          d3.select("#" + c.id).style("opacity", 1);
+          d3.select("#" + c.id).style("stroke", c.color);
+        }
       } else {
-        d3.select("#" + c).classed("hover", hov);
-        if (hov) document.querySelectorAll("#" + c + ", .dot." + c)
+        d3.selectAll(".line, .dot").style("opacity", hov ? 0.25 : 1);
+        if (hov) d3.selectAll("#" + c.id + ", .dot." + c.id).style("opacity", 1);
+        d3.select("#" + c.id).classed("hover", hov);
+        if (hov) document.querySelectorAll("#" + c.id + ", .dot." + c.id)
           .forEach(function(d) {
             d.parentNode.appendChild(d);
           });
