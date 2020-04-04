@@ -195,7 +195,7 @@ path.line.hover {
   font-family: Roboto;
 }
 #legend {
-  position: absolute;
+  position: relative;
   bottom: 0;
   overflow-y: auto;
 }
