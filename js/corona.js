@@ -287,6 +287,9 @@ new Vue({
         this.prepareData
       );
     },
+    levelsLabel: function(level) {
+      return (level + "s").replace(/ys$/, "ies");
+    },
     prepareData: function(data) {
     // WARNING: at startup, url wasn't read yet, so cas here is always deceased then (it does not matter since it is only used to resort existing countries at reload)
       var cas = this.case,
@@ -298,7 +301,7 @@ new Vue({
         countriesColors = this.countriesColors,
         defaultPlaces = this.defaultPlaces,
         staticCountriesSort = this.staticCountriesSort,
-        levelLabel = this.levelLabel;
+        levelsLabel = this.levelsLabel;
       Object.keys(data.scopes).forEach(function(scope) {
         values[scope] = {};
         cases.forEach(function(ca) {
@@ -373,7 +376,7 @@ new Vue({
         });
         scopeChoices.push({
           name: scope,
-          label: scope + " " + levelLabel(scopes[scope].level)
+          label: scope + " " + levelsLabel(scopes[scope].level)
         });
       });
       scopeChoices.sort(function(a, b) {
@@ -386,9 +389,6 @@ new Vue({
       if (!this.countriesOrder) this.countriesOrder = "cases";
       this.lastUpdateStr = new Date(data.last_update*1000).toUTCString();
       this.readUrl();
-    },
-    levelLabel: function(level) {
-      return (level + "s").replace(/ys$/, "ies");
     },
     selectCase: function(newCase) {
       if (this.vizChoice !== 'multiples') {
@@ -403,9 +403,15 @@ new Vue({
         cas.selected = !cas.selected;
       }
     },
-    keepOnlyCountry: function(keep) {
+    keepOnlyPlace: function(keep) {
       this.countries.forEach(function(c) {
         c.selected = (c.name === keep);
+      });
+    },
+    selectAllPlaces: function() {
+      var allSelected = this.legend.length == this.countries.length;
+      this.countries.forEach(function(c) {
+        c.selected = (!allSelected || c.id === "total");
       });
     },
     staticCountriesSort: function(cas, field, order, totalLast) {
@@ -985,12 +991,10 @@ new Vue({
         d3.selectAll(".histogram").style("opacity", hov ? 0.5 : 1);
         if (hov) d3.selectAll(".histogram." + c.id).style("opacity", 1);
       } else if (this.vizChoice === 'stacked') {
-        d3.selectAll(".line").style("opacity", hov ? 0.5 : 1);
-        d3.selectAll(".line").style("stroke", "none");
-        if (hov) {
-          d3.select("#" + c.id).style("opacity", 1);
-          d3.select("#" + c.id).style("stroke", c.color);
-        }
+        d3.selectAll(".line").style("opacity", hov ? 0.5 : 1)
+          .style("stroke", "none");
+        if (hov) d3.select("#" + c.id).style("opacity", 1)
+          .style("stroke", c.color);
       } else {
         d3.selectAll(".line, .dot").style("opacity", hov ? 0.25 : 1);
         if (hov) d3.selectAll("#" + c.id + ", .dot." + c.id).style("opacity", 1);

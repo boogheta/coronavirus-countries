@@ -105,6 +105,13 @@ nav .disclaimer a, nav .disclaimer a:hover, nav .disclaimer a:visited:hover {
   font-weight: bold;
   white-space: nowrap;
 }
+.selectAll {
+  position: absolute;
+  right: 40px;
+  top: 3px;
+  z-index: 10;
+  cursor: pointer;
+}
 .keep {
   position: absolute;
   right: 3px;
