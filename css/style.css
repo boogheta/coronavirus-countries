@@ -194,6 +194,11 @@ path.line.hover {
   font-size: 14px;
   font-family: Roboto;
 }
+#legend {
+  position: absolute;
+  bottom: 0;
+  overflow-y: auto;
+}
 .legend.facets {
   padding: 15px;
 }

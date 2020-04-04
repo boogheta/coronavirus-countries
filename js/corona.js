@@ -755,8 +755,9 @@ new Vue({
       };
       var n_leg_by_line = Math.floor((svgW - 20) / (legWidth + 20)),
         n_lines = Math.ceil(n_places / n_leg_by_line) || 1,
-        legendH = n_lines * (legHeight + 14) + 30,
-        mainH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height - legendH,
+        divH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height,
+        legendH = Math.min(n_lines * (legHeight + 14) + 30, 2 * divH / 5),
+        mainH = divH - legendH,
         svgH = Math.max(140, mainH),
         height = svgH - margin.top - margin.bottom,
         xScale = d3.scaleTime()
@@ -794,6 +795,7 @@ new Vue({
           });
         });
       }
+      d3.select("#legend").style("height", legendH + "px");
       var yMin = (align_nthcase && refCase === cas ?
         (perCapita ? (logarithmic ? 0.001 : 0) : min_cases ) :
         (logarithmic ? (perCapita ? 0.001 : 1) : 0)),
