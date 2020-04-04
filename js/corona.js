@@ -940,7 +940,7 @@ new Vue({
       this[multiples ? "cases" : "legend"].forEach(function(c) {
         c.value = (multiples && legend.length == 1 && !c.disabled ? d3.strFormat(perCapita)(legend[0].lastValues[typVal][c.id]) : null);
       });
-      var typ = (this.perDay ? "surface" : "hoverdate");
+      var typ = (this.perDay && this.vizChoice !== "series" ? "surface" : "hoverdate");
       d3.selectAll('rect.' + typ + '[did="' + i + '"]').style("fill-opacity", 0);
       d3.select(".tooltipBox").style("display", "none");
       this.$forceUpdate();
