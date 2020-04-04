@@ -883,12 +883,12 @@ new Vue({
           .on("mouseleave", this.clearTooltip)
           .on("wheel", this.zoom)
           .on("dblclick", this.zoom);
-      if (!perDay)
+      if (!perDay || this.vizChoice === "series")
         g.append("g")
           .selectAll("rect.tooltip.surface")
           .data(zoomedDates).enter().append("rect")
-            .classed("tooltip", true)
             .classed("hoverdate", true)
+            .classed("tooltip", true)
             .attr("did", function(d, i) { return i; })
             .attr("x", function(d) { return xPosition(d) + xWidth / 2 - 1; })
             .attr("y", yScale.range()[1])
@@ -902,7 +902,7 @@ new Vue({
 
     },
     hover: function(d, i) {
-      var typ = (this.perDay ? "surface" : "hoverdate");
+      var typ = (this.perDay && this.vizChoice !== "series" ? "surface" : "hoverdate");
       d3.selectAll('rect.' + typ + '[did="' + i + '"]').style("fill-opacity", 0.25);
     },
     displayTooltip: function(d, i, rects) {
