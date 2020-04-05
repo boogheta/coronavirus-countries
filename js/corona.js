@@ -732,7 +732,7 @@ new Vue({
       this.curExtent = Math.round((end - start) / (1000*60*60*24));
 
       // Setup dimensions
-      var margin = {top: 20, right: 90, bottom: 25, left: 40},
+      var margin = {top: 20, right: 90, bottom: 55, left: 40},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgW - margin.left - margin.right,
         fontLevel = Math.floor(Math.min(130, n_places) / 20),
@@ -885,17 +885,19 @@ new Vue({
       }
 
       // Draw axis
-      var ticks = d3.axisBottom(xScale).tickFormat(
-          align_nthcase ? d3.formatDaysSince(start) : d3.timeFormat("%b %d")
-        ).tickSizeOuter(0);
-      if (align_nthcase && width <= 600)
-        ticks.ticks(2);
-      else if (align_nthcase && width <= 1000)
-        ticks.ticks(4);
+      var ticks = d3.axisBottom(xScale)
+        .ticks(4 * Math.floor(width / 200))
+        .tickFormat(align_nthcase ? d3.formatDaysSince(start) : d3.timeFormat("%b %d"))
+        .tickSizeOuter(0);
       g.append("g")
         .attr("class", "axis axis--x")
         .attr("transform", "translate(0, " + (height) + ")")
-        .call(ticks);
+        .call(ticks)
+        .selectAll("text")
+          .style("text-anchor", "end")
+          .attr("dx", "-.8em")
+          .attr("dy", ".15em")
+          .attr("transform", "rotate(-50)");
       g.append("g")
         .attr("class", "axis axis--y")
         .attr("transform", "translate(" + (width) + ", 0)")
