@@ -139,7 +139,8 @@ new Vue({
           .join(",") +
         (this.refCountry ? "&align=" + this.refCountry : "") +
         "&alignTo=" + this.refCase +
-        (this.oldrecovered ? "&oldrecovered" : "");
+        (this.oldrecovered ? "&oldrecovered" : "") +
+        (this.hiddenLeft || this.hiddenRight ? "&zoom=" + this.hiddenLeft + "," + this.hiddenRight : "");
     }
   },
   watch: {
@@ -160,7 +161,11 @@ new Vue({
       }).sort(function(a, b) {
         return b.maxValues["total"][cas.id] - a.maxValues["total"][cas.id];
       });
-      if (oldValue) this.refCountry = null;
+      if (oldValue) {
+        this.refCountry = null;
+        this.hiddenLeft = 0;
+        this.hiddenRight = 0;
+      }
       this.countriesOrder = "cases";
       if (!this.countries.filter(function(c) { return c.selected; }).length) {
         var startPlaces = (
@@ -173,8 +178,6 @@ new Vue({
           c.selected = !!~startPlaces.indexOf(c.name);
         });
       }
-      this.hiddenLeft = 0;
-      this.hiddenRight = 0;
       this.sortCountries();
     },
     refCase: function() {
@@ -235,6 +238,8 @@ new Vue({
         el = decodeURIComponent(opt).split(/=/);
         if (el[0] === "countries" || el[0] === "places")
           options.countries = el[1] ? el[1].split(/,/) : [];
+        else if (el[0] === "zoom")
+          options.zoom = el[1] ? el[1].split(/,/) : [];
         else if (el[0] === "country")
           options.scope = el[1];
         else if (el[0] === "alignTo")
@@ -262,6 +267,10 @@ new Vue({
       else if (options.multiples)
         this.vizChoice = 'multiples';
       else this.vizChoice = 'series';
+      if (options.zoom) {
+        this.hiddenLeft = +options.zoom[0];
+        this.hiddenRight = +options.zoom[1];
+      }
       this.cases.forEach(function(c) {
         c.selected = !!options[c.id] && !c.disabled;
       });
@@ -973,7 +982,6 @@ new Vue({
       });
       this.hiddenLeft = i0;
       this.hiddenRight = dates.length - 1 - i1;
-      this.draw();
     },
     hover: function(d, i) {
       var typ = (this.perDay && this.vizChoice !== "series" ? "surface" : "hoverdate");
@@ -1059,8 +1067,6 @@ new Vue({
       this.hiddenRight += Math.floor(gaugeRight * days * direction);
       if (this.hiddenLeft < 0) this.hiddenLeft = 0;
       if (this.hiddenRight < 0) this.hiddenRight = 0;
-      this.draw();
-      this.displayTooltip(d, i, rects);
     },
     exportData: function() {
       var a = document.createElement('a'),
