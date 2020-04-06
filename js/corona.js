@@ -489,7 +489,7 @@ new Vue({
       });
     },
     draw: function() {
-      d3.select(".svg").selectAll("svg").remove();
+      d3.selectAll("svg").remove();
 
       this.alignPlaces();
       if (this.vizChoice === 'multiples') this.drawMultiples();
@@ -757,8 +757,9 @@ new Vue({
         n_lines = Math.ceil(n_places / n_leg_by_line) || 1,
         divH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height,
         legendH = Math.min(n_lines * (legHeight + 14) + 30, 2 * divH / 5),
-        mainH = divH - legendH,
-        svgH = Math.max(140, mainH),
+        sliderH = 60,
+        mainH = divH - legendH - sliderH,
+        svgH = Math.max(200, mainH),
         height = svgH - margin.top - margin.bottom,
         xScale = d3.scaleTime()
         .range([0, width])
@@ -885,9 +886,10 @@ new Vue({
       }
 
       // Draw axis
-      var ticks = d3.axisBottom(xScale)
-        .ticks(4 * Math.floor(width / 200))
-        .tickFormat(align_nthcase ? d3.formatDaysSince(start) : d3.timeFormat("%b %d"))
+      var ticksFormat = align_nthcase ? d3.formatDaysSince(start) : d3.timeFormat("%b %d"),
+        ticks = d3.axisBottom(xScale)
+        .ticks(4 * Math.floor(Math.min(zoomedDates.length / 4, width / 200)))
+        .tickFormat(ticksFormat)
         .tickSizeOuter(0);
       g.append("g")
         .attr("class", "axis axis--x")
@@ -936,6 +938,42 @@ new Vue({
             .on("wheel", this.zoom)
             .on("dblclick", this.zoom);
 
+      d3.select('.zoomslider')
+        .append('svg')
+        .attr('width', svgW)
+        .attr('height', sliderH)
+        .append('g')
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+        .call(d3.sliderBottom()
+          .width(svgW - margin.left - margin.right)
+          .min(dates[0])
+          .max(dates[dates.length - 1])
+          .step(86400000)
+          .fill('#eee')
+          //.handle('M -10, 0 m 0, 0 a 10,10 0 1,0 20,0 a 10,10 0 1,0 -20,0')
+          .handle(d3.symbol().type(d3.symbolCircle).size(300)())
+          .tickFormat(ticksFormat)
+          .marks(dates)
+          .default([dates[hiddenLeft], dates[dates.length - 1 - hiddenRight]])
+          .on('end', this.zoomSlider)
+        );
+    },
+    zoomSlider: function(vals) {
+      var dates = this.scopes[this.scope].dates.slice(this.perDay ? 1 : 0),
+        d0 = new Date(vals[0]).toISOString().slice(0, 10),
+        d1 = new Date(vals[1]).toISOString().slice(0, 10),
+        i0 = 0,
+        i1 = 0;
+      dates.forEach(function(d, i) {
+        var ds = d.toISOString().slice(0, 10);
+        if (ds === d0)
+          i0 = i;
+        if (ds === d1)
+          i1 = i;
+      });
+      this.hiddenLeft = i0;
+      this.hiddenRight = dates.length - 1 - i1;
+      this.draw();
     },
     hover: function(d, i) {
       var typ = (this.perDay && this.vizChoice !== "series" ? "surface" : "hoverdate");

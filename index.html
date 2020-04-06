@@ -294,6 +294,7 @@
           </div>
         </div>
       </div>
+      <div class="zoomslider"></div>
       <center><div id="legend" class="legend facets">
         <div
           v-for="item in (legend.length ? legend : no_country_selected)"
@@ -341,7 +342,7 @@
         </ul></v-card-text>
         <v-card-text>
           This web application is a free libre open source software released under AGPL V3 license and its source code is <a href="https://github.com/boogheta/coronavirus-countries" target="_blank">available on GitHub</a>.<br/>
-          The interface is based on <a href="https://vuejs.org" target="_blank">Vue.js</a>, <a href="https://vuetifyjs.com/" target="_blank">Vuetify.js</a> and <a href="https://d3js.org" target="_blank">d3.js</a>.<br/>
+          The interface is based on <a href="https://vuejs.org" target="_blank">Vue.js</a>, <a href="https://vuetifyjs.com/" target="_blank">Vuetify.js</a>, <a href="https://d3js.org" target="_blank">d3.js</a> and <a href="https://github.com/johnwalley/d3-simple-slider" target="_blank">d3-simple-slider</a>.<br/>
           The logo is a <a href="https://pixabay.com/fr/illustrations/virus-coronavirus-sars-cov-2-flash-4915867/" target="_blank">creation from Alexei Hulsov</a> openly released under the <a href="https://pixabay.com/fr/service/license/" target="_blank">Pixabay license</a>.<br/>
           <a href="https://github.com/boogheta/coronavirus-countries/issues" target="_blank">Bug reports, suggestions and pull requests</a> are very welcome!</v-card-text>
         <v-card-text>You can contact me on Twitter at: <a href="http://twitter.com/boogheta" target="_blank">@boogheta</a></v-card-text>
@@ -356,6 +357,7 @@
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-10423931-9"></script>
   <script type="text/javascript" src="js/d3.v4.min.js"></script>
+  <script type="text/javascript" src="js/d3-simple-slider.min.js"></script>
   <script type="text/javascript" src="js/vue.min.js"></script>
   <script type="text/javascript" src="js/vuetify.min.js"></script>
   <script type="text/javascript" src="js/corona.js"></script>

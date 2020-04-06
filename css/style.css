@@ -186,13 +186,22 @@ path.line.hover {
 .axis path, .axis line {
   stroke: grey;
 }
+line.track-inset {
+  stroke: #555;
+}
 .dot {
   stroke: #303030;
 }
-.axis text {
+.axis text, .parameter-value text {
   fill: grey;
   font-size: 14px;
   font-family: Roboto;
+}
+.zoomslider .axis text {
+  fill: #555;
+}
+.zoomslider .parameter-value text {
+  fill: #eee;
 }
 #legend {
   position: relative;
