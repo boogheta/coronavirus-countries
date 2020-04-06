@@ -320,4 +320,31 @@ rect.tooltip {
   .btn--floating.btn--small .icon {
     font-size: 40px;
   }
+  .list--dense .subheader, .input-group--select .input-group__selections__comma {
+    font-size: 26px;
+    margin: 10px;
+  }
+  .list__tile, .list--dense .list__tile {
+    font-size: 24px;
+  }
+  .axis text, .parameter-value text {
+    font-size: 18px;
+  }
+  .legend .btn div.btn__content {
+    font-size: 24px;
+  }
+  .legend .btn div.btn__content .lowercase.amount {
+    display: none;
+  }
+  .navigation-drawer {
+    width: 100%;
+    height: calc(50vh);
+    position: absolute;
+    bottom: 0;
+    top: unset;
+  }
+  aside.navigation-drawer {
+    height: 50%;
+    overflow-y: auto;
+  }
 }
