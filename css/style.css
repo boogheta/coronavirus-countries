@@ -302,3 +302,22 @@ rect.tooltip {
 .caseIcon.country {
   padding-left: 15px;
 }
+
+@media (max-width: 1000px) {
+  nav .toolbar__title img {
+    margin-top: 2px;
+    width: 60px;
+  }
+  nav v-title {
+    font-size: 30px;
+  }
+  nav .update {
+    font-size: 20px;
+  }
+  .disclaimer {
+    display: none;
+  }
+  .btn--floating.btn--small .icon {
+    font-size: 40px;
+  }
+}
