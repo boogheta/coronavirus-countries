@@ -181,6 +181,7 @@ if OLDRECOVERED:
 populations = {}
 def load_populations(scopes):
     for name in scopes:
+        name = name.strip()
         try:
             with open(os.path.join("data", "population-%s.csv" % name)) as f:
                 populations[name] = {}
@@ -216,7 +217,7 @@ for name, scope in data["scopes"].items():
         c = geounit if name == "World" else clean_locality(geounit["Province/State"])
         if c not in scope["values"]:
             try:
-                pop = populations[name][c]
+                pop = populations[name.strip()][c]
             except KeyError:
                 print >> sys.stderr, "WARNING: missing population for region %s / %s" % (name, c)
                 pop = 0
@@ -299,7 +300,7 @@ localities = {
         },
         "level": u"länder"
     },
-    "United Kingdom": {
+    "UK": {
         "source": {
           "name": "",
           "url": ""
@@ -349,7 +350,7 @@ for scope, metas in localities.items():
             name = row[metas["level_field"]]
             if name not in data["scopes"][scope]["values"]:
                 try:
-                    pop = populations[scope][name]
+                    pop = populations[scope.strip()][name]
                 except KeyError:
                     print >> sys.stderr, "WARNING: missing population for region %s / %s" % (scope, name)
                     pop = 0
