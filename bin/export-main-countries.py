@@ -119,19 +119,31 @@ data = {
     "scopes": {
       "World": {
         "level": "country",
-        "source": "https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series"
+        "source": {
+          "name": "JHU CSSE",
+          "url": "https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series"
+        }
       },
       "China": {
         "level": "province",
-        "source": "https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series"
+        "source": {
+          "name": "JHU CSSE",
+          "url": "https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series"
+        }
       },
       "Canada": {
         "level": "province",
-        "source": "https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series"
+        "source": {
+          "name": "JHU CSSE",
+          "url": "https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series"
+        }
       },
       "Australia": {
         "level": "state",
-        "source": "https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series"
+        "source": {
+          "name": "JHU CSSE",
+          "url": "https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series"
+        }
       }
     },
     "last_update": "##LASTUPDATE##"
@@ -140,7 +152,10 @@ data = {
 if OLDRECOVERED:
     data["scopes"]["USA"] = {
         "level": "state",
-        "source": "https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series"
+        "source": {
+          "name": "JHU CSSE",
+          "url": "https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series"
+        }
     }
 
 populations = {}
@@ -200,7 +215,10 @@ for name, scope in data["scopes"].items():
 
 localities = {
     "Italy": {
-        "source": "https://github.com/pcm-dpc/COVID-19",
+        "source": {
+          "name": "Italian government",
+          "url": "https://github.com/pcm-dpc/COVID-19"
+        },
         "filename": "dpc-covid19-ita-regioni.csv",
         "level": "region",
         "level_field": "denominazione_regione",
@@ -216,8 +234,11 @@ localities = {
         }
     },
     "France": {
-        "source": "https://github.com/opencovid19-fr/data",
-        "filename": "chiffres-cles.csv",
+        "source": {
+          "name": "",
+          "url": "https://github.com/opencovid19-fr/data"
+        },
+#        "filename": "chiffres-cles.csv",
         "level": "department",
         "level_field": "maille_nom",
         "date_accessor": lambda row: row["date"],
@@ -232,13 +253,22 @@ localities = {
         }
     },
     "United Kingdom": {
+        "source": {
+          "name": "",
+          "url": ""
+        },
         "level": "country"
-    }
-}
-if not OLDRECOVERED:
-    localities["US"] = {
+    },
+    "US": {
+        "source": {
+          "name": "",
+          "url": ""
+        },
         "level": "state"
     }
+}
+if OLDRECOVERED:
+    localities = {}
 
 load_populations(localities.keys())
 
