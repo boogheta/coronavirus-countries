@@ -65,6 +65,7 @@ new Vue({
       {id: "recovered",       selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[1], disabled: true},
       {id: "currently_sick",  selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[3], disabled: true},
       {id: "hospitalized",    selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[4], disabled: true},
+      {id: "intensive_care",  selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[4], disabled: true},
       {id: "deceased",        selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[22], disabled: true}
     ],
     oldrecovered: false,
