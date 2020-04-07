@@ -195,6 +195,8 @@ new Vue({
     },
     casesChosen: function() { this.sortCountries(); },
     countriesOrder: function() { this.sortCountries(); },
+    perDay: function() { this.sortCountries(); },
+    perCapita: function() { this.sortCountries(); },
     vizChoice: function() {
       this.cases.forEach(function(c) {
         c.value = null;
