@@ -90,6 +90,9 @@
               @click="if (vizChoice !== 'stacked') logarithmic = !logarithmic"
             >logarithmic</v-list-title>
           </v-list-tile-content>
+          <v-list-tile-action class="extraaction">
+            &nbsp;&nbsp;<v-icon style="opacity: 0">done</v-icon>
+          </v-list-tile-action>
         </v-list-tile>
 
         <v-list-tile class="switchoption"
@@ -110,6 +113,9 @@
               @click="if (vizChoice !== 'stacked') perCapita = !perCapita"
             >population ratio</v-list-title>
           </v-list-tile-content>
+          <v-list-tile-action class="extraaction">
+            &nbsp;&nbsp;<v-icon style="opacity: 0">done</v-icon>
+          </v-list-tile-action>
         </v-list-tile>
 
         <v-list-tile class="switchoption">
@@ -128,11 +134,14 @@
               @click="perDay = !perDay"
             >daily new cases</v-list-title>
           </v-list-tile-content>
+          <v-list-tile-action class="extraaction">
+            &nbsp;&nbsp;<v-icon color="white" :style="'opacity: ' + (!(perDay && vizChoice === 'series') ? 0 : (smoothen ? 1 : 0.5))" @click="smoothen = !smoothen" :title="(smoothen ? 'un' : '') + 'smooth curve using a 5-days moving average'">vertical_align_center</v-icon>
+          </v-list-tile-action>
         </v-list-tile>
 
 
         <v-subheader class="bordered">
-          <v-icon>view_module</v-icon>
+          <v-icon>view_comfy</v-icon>
           <span>Visualize as</span>
         </v-subheader>
 

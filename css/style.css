@@ -296,7 +296,7 @@ a:hover, a:visited:hover {
 #controls .input-group--disabled .input-group--selection-controls__ripple, #controls .input-group--disabled .input-group--selection-controls__ripple:after {
   cursor: default;
 }
-.caseIcon.list__tile__action {
+.caseIcon.list__tile__action, .extraaction.list__tile__action {
   display: contents;
 }
 .caseIcon.country {

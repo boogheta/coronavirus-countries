@@ -81,6 +81,7 @@ new Vue({
     logarithmic: false,
     perCapita: false,
     perDay: false,
+    smoothen: false,
     vizChoice: "series",
     legendFontSize: 14,
     resizing: null,
@@ -140,6 +141,7 @@ new Vue({
         (this.logarithmic ? "&log" : "") +
         (this.perCapita ? "&ratio" : "") +
         (this.perDay ? "&daily" : "") +
+        (this.perDay && this.vizChoice === 'series' && this.smoothen ? "&smooth" : "") +
         (this.vizChoice !== 'series' ? "&" + this.vizChoice : "") +
         "&places=" + (this.legend.length ? this.legend : this.scopes[this.scope].countries.filter(function(c) { return c.selected; }))
           .sort(this.staticCountriesSort(null, "names"))
@@ -271,6 +273,7 @@ new Vue({
       this.logarithmic = !!options.log;
       this.perCapita = !!options.ratio;
       this.perDay = !!options.daily;
+      this.smoothen = !!options.smooth;
       if (options.stacked)
         this.vizChoice = 'stacked';
       else if (options.multiples)
@@ -708,6 +711,7 @@ new Vue({
     drawSeries: function() {
       var cas = this.case,
         perDay = this.perDay,
+        smoothen = this.smoothen,
         perCapita = this.perCapita,
         typVal = this.typVal,
         refCase = this.refCase,
@@ -799,6 +803,8 @@ new Vue({
         xHistoPosition = function(d, idx) { return xPosition(d) + (2 * idx + 1) * xHistoGap + idx * xHistoWidth; },
         shiftedVal = function(c, i) {
           var idx = i + Math.max(0, hiddenLeft - c.shift);
+          if (perDay && !stacked && smoothen)
+            return d3.mean(values[c.id][cas][typVal].slice(Math.max(0, idx - 2), idx + 3));
           return values[c.id][cas][typVal][idx];
         },
         shiftedMaxVal = function(c) {
