@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 import os
 import sys
@@ -252,6 +253,32 @@ localities = {
             "deceased": "deces"
         }
     },
+    "France ": {
+        "source": {
+          "name": "",
+          "url": "https://github.com/opencovid19-fr/data"
+        },
+#        "filename": "chiffres-cles.csv",
+        "level": "region",
+        "level_field": "maille_nom",
+        "date_accessor": lambda row: row["date"],
+        "filter": lambda row: row["granularite"] == "region" and row["source_type"] == "sante-publique-france-data",
+        "fields": {
+            "tested": "depistes",
+            "confirmed": "cas_confirmes",
+            "recovered": "gueris",
+            "hospitalized": "hospitalises",
+            "intensive_care": "reanimation",
+            "deceased": "deces"
+        }
+    },
+    "Germany": {
+        "source": {
+          "name": "",
+          "url": ""
+        },
+        "level": u"länder"
+    },
     "United Kingdom": {
         "source": {
           "name": "",
@@ -293,7 +320,7 @@ for scope, metas in localities.items():
         n_dates = len(data["scopes"][scope]["dates"])
 
         fields = metas["fields"].keys()
-        data["scopes"][scope]["values"]["total"] = unit_vals(n_dates, fields, populations["World"][scope])
+        data["scopes"][scope]["values"]["total"] = unit_vals(n_dates, fields, populations["World"][scope.strip()])
         for row in rows:
             idx = dates_idx[metas["date_accessor"](row)]
             name = row[metas["level_field"]]
