@@ -13,7 +13,11 @@ OLDRECOVERED = (len(sys.argv) > 1)
 
 def clean_region(r):
     r = r.strip(" *")
+    r = r.replace("Cruise Ship", "Diamond Princess")
     r = r.replace("Republic of Korea", "South Korea")
+    r = r.replace("Cape Verde", "Cabo Verde")
+    r = r.replace("East Timor", "Timor-Leste")
+    r = r.replace("Republic of the Congo", "Congo (Brazzaville)")
     r = r.replace("Korea, South", "South Korea")
     r = r.replace("Mainland China", "China")
     r = r.replace("Martinique", "France")
@@ -21,11 +25,14 @@ def clean_region(r):
     r = r.replace("Guadeloupe", "France")
     r = r.replace("French Guiana", "France")
     r = r.replace("Russian Federation", "Russia")
+    r = r.replace("United States Virgin", "Virgin")
+    r = r.replace("The ", "")
+    r = r.replace(", The", "")
     if r == "US":
         r = "USA"
     return r
 
-US_states = {
+USA_states = {
     "AL": "Alabama",
     "AK": "Alaska",
     "AZ": "Arizona",
@@ -79,9 +86,9 @@ US_states = {
     "WY": "Wyoming"
 }
 def clean_locality(r):
-    r = r.strip(" *")
+    r = clean_region(r)
     if "," in r:
-        r = US_states.get(r.split(",")[1].strip(), r)
+        r = USA_states.get(r.split(",")[1].strip(), r)
     return r
 
 def last_file_update(f, source):
@@ -102,7 +109,7 @@ for typ in ["confirmed", "recovered", "deceased"]:
         last_jhu_update = res
     with open(fname) as f:
         for row in sorted(csv.DictReader(f), key=lambda x: (x["Country/Region"], x["Province/State"])):
-            if row["Province/State"] == "Recovered":
+            if row["Province/State"] in ["Recovered", "From Diamond Princess", "US"]:
                 continue
             countries[typ][clean_region(row['Country/Region'])].append(row)
 if OLDRECOVERED:
@@ -299,7 +306,7 @@ localities = {
         },
         "level": "country"
     },
-    "US": {
+    "USA": {
         "source": {
           "name": "",
           "url": ""
