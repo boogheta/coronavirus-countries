@@ -28,16 +28,14 @@ curl -sL "https://docs.google.com/spreadsheets/d/1e703pe3GmBQt0i2yAOS0F6Bhxy91U1
 curl -sL "https://docs.google.com/spreadsheets/d/1e703pe3GmBQt0i2yAOS0F6Bhxy91U1-NTB6JMRSTzc0/export?format=csv&id=1e703pe3GmBQt0i2yAOS0F6Bhxy91U1-NTB6JMRSTzc0&gid=1101367004" > data/population-France.csv
 #curl -sL "https://docs.google.com/spreadsheets/d/1e703pe3GmBQt0i2yAOS0F6Bhxy91U1-NTB6JMRSTzc0/export?format=csv&id=1e703pe3GmBQt0i2yAOS0F6Bhxy91U1-NTB6JMRSTzc0&gid=" > data/population-USA.csv
 
-# Build agregated data for dashboard
-./bin/export-main-countries.py
-
 # Version data
 if git diff data/*.csv | grep . > /dev/null; then
   echo "Data updated!"
-  ts=$(date +%s)
-  sed -i 's/"##LASTUPDATE##"/'$ts'/' data/coronavirus-countries.json
+  git commit -m "update source data" data/
+
+  # Build agregated data for dashboard
+  ./bin/export-main-countries.py
   git commit -m "update data" data/
+
   git push
-else
-  git checkout -- data/coronavirus-countries.json
 fi

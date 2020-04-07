@@ -5,6 +5,7 @@ import os
 import sys
 import csv
 import json
+import subprocess
 from copy import deepcopy
 from collections import defaultdict
 
@@ -83,17 +84,29 @@ def clean_locality(r):
         r = US_states.get(r.split(",")[1].strip(), r)
     return r
 
+def last_file_update(f, source):
+    process = subprocess.Popen(['git', 'log', '-1', '--format=%ct', f], stdout=subprocess.PIPE)
+    return int(process.communicate()[0].strip())
+
 countries = {
     "confirmed": defaultdict(list),
     "recovered": defaultdict(list),
     "deceased": defaultdict(list)
 }
+
+last_jhu_update = 0
 for typ in ["confirmed", "recovered", "deceased"]:
-    with open(os.path.join("data", "time_series_covid19_%s_global.csv" % typ.replace("deceased", "deaths"))) as f:
+    fname = os.path.join("data", "time_series_covid19_%s_global.csv" % typ.replace("deceased", "deaths"))
+    res = last_file_update(fname, "JSU CSSE")
+    if last_jhu_update < res:
+        last_jhu_update = res
+    with open(fname) as f:
         for row in sorted(csv.DictReader(f), key=lambda x: (x["Country/Region"], x["Province/State"])):
             if row["Province/State"] == "Recovered":
                 continue
             countries[typ][clean_region(row['Country/Region'])].append(row)
+if OLDRECOVERED:
+    last_jhu_update = 1584928800
 
 # Uncomment to see which countries JHU has granularity for
 #for c, values in countries["confirmed"].items():
@@ -146,8 +159,7 @@ data = {
           "url": "https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series"
         }
       }
-    },
-    "last_update": "##LASTUPDATE##"
+    }
 }
 
 if OLDRECOVERED:
@@ -188,6 +200,7 @@ if OLDRECOVERED:
 
 for name, scope in data["scopes"].items():
     scope["values"] = {"total": unit_vals(n_dates, fields)}
+    scope["lastUpdate"] = last_jhu_update
     if name == "World":
         geounits = countries["confirmed"].keys()
     else:
@@ -302,14 +315,17 @@ load_populations(localities.keys())
 for scope, metas in localities.items():
     if "filename" not in metas:
         continue
+    fname = os.path.join("data", metas["filename"])
 
     data["scopes"][scope] = {
         "level": metas["level"],
         "source": metas["source"],
+        "lastUpdate": last_file_update(fname, metas["source"]["name"]),
         "dates": [],
         "values": {}
     }
-    with open(os.path.join("data", metas["filename"])) as f:
+
+    with open(fname) as f:
         rows = [row for row in csv.DictReader(f) if "filter" not in metas or metas["filter"](row)]
 
         for row in rows:

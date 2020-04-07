@@ -10,6 +10,9 @@ d3.formatDefaultLocale({
   "grouping": [3],
   "currency": ["", ""],
 });
+d3.formatTimestamp = function(ts) {
+  return new Date(ts * 1000).toISOString().slice(0, 16).replace("T", " ");
+}
 d3.strFormat = function(perCapita, forceDecimals) {
   if (forceDecimals) return d3.format(",.1r");
   if (perCapita) return d3.format(",.4r");
@@ -159,6 +162,7 @@ new Vue({
       });
       this.level = this.scopes[newValue].level;
       this.source = this.scopes[newValue].source;
+      this.lastUpdateStr = d3.formatTimestamp(this.scopes[newValue].lastUpdate);
       this.countries = this.scopes[newValue].countries;
       var refCase = this.refCase,
         cas = this.refCases.filter(function(c){ return c.id === refCase; })[0];
@@ -251,6 +255,7 @@ new Vue({
         else options[el[0]] = true;
       });
       this.scope = options.scope || "World";
+      this.lastUpdateStr = d3.formatTimestamp(this.scopes[this.scope].lastUpdate);
       this.updateDisabledCases();
       this.$nextTick(this.resizeMenu);
       if (this.init) {
@@ -371,6 +376,7 @@ new Vue({
         scopes[scope] = {
           level: data.scopes[scope].level,
           source: data.scopes[scope].source,
+          lastUpdate: data.scopes[scope].lastUpdate,
           countries: countries,
           dates: dates.map(d3.datize),
           extent: Math.round((dates[dates.length - 1] - dates[0]) / (1000*60*60*24)),
@@ -402,7 +408,6 @@ new Vue({
         return 0;
       });
       if (!this.countriesOrder) this.countriesOrder = "cases";
-      this.lastUpdateStr = new Date(data.last_update*1000).toISOString().slice(0, 16).replace("T", " ");
       this.readUrl();
     },
     updateDisabledCases: function() {

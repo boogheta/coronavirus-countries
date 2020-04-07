@@ -9,7 +9,4 @@ done;
 
 ./bin/export-main-countries.py 1
 
-ts=$(date +%s -d "2020-03-23 03:00")
-sed -i 's/"##LASTUPDATE##"/'$ts'/' data/coronavirus-countries-oldrecovered.json
-
 git checkout -- data/time_series_covid19_*_global.csv
