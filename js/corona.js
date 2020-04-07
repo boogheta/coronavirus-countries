@@ -66,8 +66,8 @@ new Vue({
       {id: "tested",          selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[2], disabled: true},
       {id: "confirmed",       selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[0], disabled: true},
       {id: "recovered",       selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[1], disabled: true},
-      {id: "currently_sick",  selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[3], disabled: true},
-      {id: "hospitalized",    selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[4], disabled: true},
+      {id: "currently_sick",  selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[19], disabled: true},
+      {id: "hospitalized",    selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[8], disabled: true},
       {id: "intensive_care",  selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[4], disabled: true},
       {id: "deceased",        selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[22], disabled: true}
     ],
@@ -268,7 +268,7 @@ new Vue({
             return c.name;
           });
       }
-      if (!options.confirmed && !options.recovered && !options.deceased && !options.currently_sick && !options.tested && !options.hospitalized)
+      if (!options.confirmed && !options.recovered && !options.deceased && !options.currently_sick && !options.tested && !options.intensive_care && !options.hospitalized)
         options.deceased = true;
       this.logarithmic = !!options.log;
       this.perCapita = !!options.ratio;
