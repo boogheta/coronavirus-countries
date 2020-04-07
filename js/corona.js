@@ -49,6 +49,7 @@ new Vue({
     scopes: {},
     scopeChoices: [],
     level: "country",
+    source: {},
     countries: [],
     defaultPlaces: {
       //World: ["Italy", "Iran", "South Korea", "France", "Germany", "Spain", "USA"],
@@ -156,6 +157,7 @@ new Vue({
         c.shift = 0;
       });
       this.level = this.scopes[newValue].level;
+      this.source = this.scopes[newValue].source;
       this.countries = this.scopes[newValue].countries;
       var refCase = this.refCase,
         cas = this.refCases.filter(function(c){ return c.id === refCase; })[0];
@@ -317,10 +319,9 @@ new Vue({
             ca[typVal][scope] = 0;
           });
         });
-        validCases = Object.keys(data.scopes[scope].values.total);
-        var level = data.scopes[scope].level,
-          totalPop = 0,
+        var validCases = Object.keys(data.scopes[scope].values.total),
           dates = data.scopes[scope].dates || data.dates,
+          totalPop = 0,
           countries = Object.keys(data.scopes[scope].values)
           .map(function(c) {
             var maxVals = {total: {}, daily: {}, totalPop: {}, dailyPop: {}},
@@ -365,7 +366,8 @@ new Vue({
             };
           });
         scopes[scope] = {
-          level: level,
+          level: data.scopes[scope].level,
+          source: data.scopes[scope].source,
           countries: countries,
           dates: dates.map(d3.datize),
           extent: Math.round((dates[dates.length - 1] - dates[0]) / (1000*60*60*24)),
@@ -397,7 +399,7 @@ new Vue({
         return 0;
       });
       if (!this.countriesOrder) this.countriesOrder = "cases";
-      this.lastUpdateStr = new Date(data.last_update*1000).toUTCString();
+      this.lastUpdateStr = new Date(data.last_update*1000).toISOString().slice(0, 16).replace("T", " ");
       this.readUrl();
     },
     updateDisabledCases: function() {
