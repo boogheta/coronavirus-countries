@@ -90,7 +90,7 @@ def clean_locality(r):
         r = USA_states.get(r.split(",")[1].strip(), r)
     return r
 
-def last_file_update(f, source):
+def last_file_update(f):
     process = subprocess.Popen(['git', 'log', '-1', '--format=%ct', f], stdout=subprocess.PIPE)
     return int(process.communicate()[0].strip())
 
@@ -103,7 +103,7 @@ countries = {
 last_jhu_update = 0
 for typ in ["confirmed", "recovered", "deceased"]:
     fname = os.path.join("data", "time_series_covid19_%s_global.csv" % typ.replace("deceased", "deaths"))
-    res = last_file_update(fname, "JSU CSSE")
+    res = last_file_update(fname)
     if last_jhu_update < res:
         last_jhu_update = res
     with open(fname) as f:
@@ -322,7 +322,7 @@ for scope, metas in localities.items():
     data["scopes"][scope] = {
         "level": metas["level"],
         "source": metas["source"],
-        "lastUpdate": last_file_update(fname, metas["source"]["name"]),
+        "lastUpdate": last_file_update(fname),
         "dates": [],
         "values": {}
     }
