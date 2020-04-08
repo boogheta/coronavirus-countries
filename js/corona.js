@@ -407,6 +407,7 @@ new Vue({
         return 0;
       });
       if (!this.countriesOrder) this.countriesOrder = "cases";
+      this.sortCountries();
       this.readUrl();
     },
     updateDisabledCases: function() {
