@@ -284,6 +284,10 @@ a:hover, a:visited:hover {
   margin-left: auto;
   margin-right: 0;
 }
+#controls {
+  padding-bottom: 0;
+  margin-bottom: -14px;
+}
 #controls .radio-group {
   width: 30px;
 }
