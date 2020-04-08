@@ -31,6 +31,28 @@ def clean_region(r):
         r = "USA"
     return r
 
+def clean_spain_locality(r):
+    r = r.replace("AN", "Andalucía")
+    r = r.replace("AR", "Aragón")
+    r = r.replace("AS", "Asturias")
+    r = r.replace("IB", "Baleares")
+    r = r.replace("CN", "Canarias")
+    r = r.replace("CB", "Cantabria")
+    r = r.replace("CM", "Castilla La Mancha")
+    r = r.replace("CL", "Castilla y León")
+    r = r.replace("CT", "Cataluña")
+    r = r.replace("CE", "Ceuta")
+    r = r.replace("GA", "Galicia")
+    r = r.replace("VC", "Valenciana")
+    r = r.replace("EX", "Extremadura")
+    r = r.replace("MD", "Madrid")
+    r = r.replace("ML", "Melilla")
+    r = r.replace("MC", "Murcia")
+    r = r.replace("NC", "Navarra")
+    r = r.replace("PV", "País Vasco")
+    r = r.replace("RI", "La Rioja")
+    return r
+
 USA_states = {
     "AL": "Alabama",
     "AK": "Alaska",
@@ -84,10 +106,12 @@ USA_states = {
     "WI": "Wisconsin",
     "WY": "Wyoming"
 }
-def clean_locality(r):
+def clean_locality(r, scope):
     r = clean_region(r)
-    if "," in r:
+    if "," in r and scope == "USA":
         r = USA_states.get(r.split(",")[1].strip(), r)
+    elif scope == "Spain":
+        r = clean_spain_locality(r)
     return r
 
 def last_file_update(f):
@@ -133,6 +157,7 @@ for typ in ["confirmed", "deceased", "tested"]:
 eldate = lambda d, i: int(d.split('/')[i])
 fix_year = lambda d: d if d > 2000 else 2000 + d
 conv = lambda d: '%d-%02d-%02d' % (fix_year(eldate(d, 2)), eldate(d, 0), eldate(d, 1))
+conv_fr = lambda d: '%d-%02d-%02d' % (fix_year(eldate(d, 2)), eldate(d, 1), eldate(d, 0))
 rconv = lambda d: '%s/%s/20' % (d.split('-')[1].lstrip('0'), d.split('-')[2].lstrip('0'))
 
 get_value = lambda row, dat: int(row[rconv(dat)] or 0)
@@ -229,7 +254,7 @@ for name, scope in data["scopes"].items():
         geounits = values["confirmed"][name]
 
     for idx, geounit in enumerate(geounits):
-        c = geounit if name in ["World", "USA"] else clean_locality(geounit["Province/State"])
+        c = geounit if name in ["World", "USA"] else clean_locality(geounit["Province/State"], name)
         if c not in scope["values"]:
             try:
                 pop = populations[name.strip()][c]
@@ -311,10 +336,21 @@ localities = {
     },
     "Spain": {
         "source": {
-          "name": "",
-          "url": ""
+          "name": "Spain Ministry of Health",
+          "url": "https://covid19.isciii.es"
         },
-        "level": u"region"
+        "filename": "serie_historica_acumulados.csv",
+        "level": u"region",
+        "level_field": "CCAA",
+        "date_accessor": lambda row: conv_fr(row["FECHA"]),
+        "filter": lambda row: row["FECHA"],
+        "fields": {
+            "confirmed": "CASOS",
+            "recovered": "Recuperados",
+            "hospitalized": "Hospitalizados",
+            "intensive_care": "UCI",
+            "deceased": "Fallecidos"
+        }
     },
     "Germany": {
         "source": {
@@ -368,7 +404,7 @@ for scope, metas in localities.items():
         data["scopes"][scope]["values"]["total"] = unit_vals(n_dates, fields, populations["World"][scope.strip()])
         for row in rows:
             idx = dates_idx[metas["date_accessor"](row)]
-            name = row[metas["level_field"]]
+            name = clean_locality(row[metas["level_field"]], scope)
             if name not in data["scopes"][scope]["values"]:
                 try:
                     pop = populations[scope.strip()][name]
