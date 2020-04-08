@@ -130,9 +130,9 @@ for typ in ["confirmed", "deceased", "tested"]:
         for row in sorted(csv.DictReader(f), key=lambda x: (x["Province_State"], x["Admin2"])):
             usa_states[typ][clean_region(row['Province_State'])].append(row)
 
-
-# TODO Fix naive dates parsing
-conv = lambda d: '2020-0%s-%02d' % (d[0], int(d.split('/')[1]))
+eldate = lambda d, i: int(d.split('/')[i])
+fix_year = lambda d: d if d > 2000 else 2000 + d
+conv = lambda d: '%d-%02d-%02d' % (fix_year(eldate(d, 2)), eldate(d, 0), eldate(d, 1))
 rconv = lambda d: '%s/%s/20' % (d.split('-')[1].lstrip('0'), d.split('-')[2].lstrip('0'))
 
 get_value = lambda row, dat: int(row[rconv(dat)] or 0)
