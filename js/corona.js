@@ -214,6 +214,7 @@ new Vue({
         this.logarithmic = false;
         this.perCapita = false;
       }
+    }
   },
   mounted: function() {
     this.download_data();
@@ -299,7 +300,7 @@ new Vue({
     download_data: function() {
       var cacheBypass = new Date().getTime();
       d3.json(
-        "data/coronavirus-countries.json?" + cacheBypass),
+        "data/coronavirus-countries.json?" + cacheBypass,
         this.prepareData
       );
     },
