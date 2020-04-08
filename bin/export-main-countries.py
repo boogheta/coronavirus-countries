@@ -92,7 +92,7 @@ def clean_locality(r):
 
 def last_file_update(f):
     process = subprocess.Popen(['git', 'log', '-1', '--format=%ct', f], stdout=subprocess.PIPE)
-    return int(process.communicate()[0].strip())
+    return int(process.communicate()[0].strip() or 0)
 
 
 countries = {
@@ -254,7 +254,7 @@ for name, scope in data["scopes"].items():
 localities = {
     "Italy": {
         "source": {
-          "name": "Italian government",
+          "name": "Italy's Department of Civil Protection",
           "url": "https://github.com/pcm-dpc/COVID-19"
         },
         "filename": "dpc-covid19-ita-regioni.csv",
@@ -318,10 +318,17 @@ localities = {
     },
     "Germany": {
         "source": {
-          "name": "",
-          "url": ""
+          "name": "Robert Koch Institute (transcribed by Michael Große)",
+          "url": "https://github.com/micgro42/COVID-19-DE"
         },
-        "level": u"länder"
+        "filename": "germany.csv",
+        "level": u"bundesländer",
+        "level_field": "bundeslander",
+        "date_accessor": lambda row: row["date"],
+        "fields": {
+            "confirmed": "confirmed",
+            "deceased": "deceased"
+        }
     },
     "UK": {
         "source": {
