@@ -71,7 +71,6 @@ new Vue({
       {id: "intensive_care",  selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[4], disabled: true},
       {id: "deceased",        selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[22], disabled: true}
     ],
-    oldrecovered: false,
     caseChoice: null,
     refCase: "deceased",
     refCases: [
@@ -149,7 +148,6 @@ new Vue({
           .join(",") +
         (this.refCountry ? "&align=" + this.refCountry : "") +
         "&alignTo=" + this.refCase +
-        (this.oldrecovered ? "&oldrecovered" : "") +
         (this.hiddenLeft || this.hiddenRight ? "&zoom=" + this.hiddenLeft + "," + this.hiddenRight : "");
     }
   },
@@ -216,8 +214,6 @@ new Vue({
         this.logarithmic = false;
         this.perCapita = false;
       }
-    },
-    oldrecovered: function() { this.download_data(); }
   },
   mounted: function() {
     this.download_data();
@@ -293,7 +289,6 @@ new Vue({
       });
       this.refCountry = options.align || null;
       this.refCase = options.alignTo || "deceased";
-      this.oldrecovered = !!options.oldrecovered;
       if (this.init) {
         this.init = false;
         this.$nextTick(this.resize);
@@ -304,7 +299,7 @@ new Vue({
     download_data: function() {
       var cacheBypass = new Date().getTime();
       d3.json(
-        "data/coronavirus-countries" + (this.oldrecovered ? "-oldrecovered.json" : ".json?" + cacheBypass),
+        "data/coronavirus-countries.json?" + cacheBypass),
         this.prepareData
       );
     },
@@ -1093,7 +1088,7 @@ new Vue({
     },
     exportData: function() {
       var a = document.createElement('a'),
-        file = "coronavirus-countries" + (this.oldrecovered ? "-oldrecovered" : "") + ".json";
+        file = "coronavirus-countries.json";
       a.href = "data/" + file;
       a.download = file;
       document.body.appendChild(a);

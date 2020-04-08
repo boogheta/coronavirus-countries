@@ -9,7 +9,6 @@ import subprocess
 from copy import deepcopy
 from collections import defaultdict
 
-OLDRECOVERED = (len(sys.argv) > 1)
 
 def clean_region(r):
     r = r.strip(" *")
@@ -112,8 +111,6 @@ for typ in ["confirmed", "recovered", "deceased"]:
             if row["Province/State"] in ["Recovered", "From Diamond Princess", "US"]:
                 continue
             countries[typ][clean_region(row['Country/Region'])].append(row)
-if OLDRECOVERED:
-    last_jhu_update = 1584928800
 
 # Uncomment to see which countries JHU has granularity for
 #for c, values in countries["confirmed"].items():
@@ -127,10 +124,8 @@ rconv = lambda d: '%s/%s/20' % (d.split('-')[1].lstrip('0'), d.split('-')[2].lst
 get_value = lambda row, dat: int(row[rconv(dat)] or 0)
 sum_values = lambda country, dat: sum([get_value(region, dat) for region in country])
 
-dates = [conv(x) for x in countries["recovered" if OLDRECOVERED else "confirmed"]["France"][0].keys() if x not in ['Lat', 'Long', 'Province/State', 'Country/Region']]
+dates = [conv(x) for x in countries["confirmed"]["France"][0].keys() if x not in ['Lat', 'Long', 'Province/State', 'Country/Region']]
 dates.sort()
-if OLDRECOVERED:
-    dates.pop()
 while not max([sum_values(countries["confirmed"][c], dates[-1]) for c in countries["confirmed"].keys()]):
     dates.pop()
 n_dates = len(dates)
@@ -169,7 +164,7 @@ data = {
     }
 }
 
-if OLDRECOVERED:
+if False:
     data["scopes"]["USA"] = {
         "level": "state",
         "source": {
@@ -202,12 +197,13 @@ def unit_vals(ndates, fieldnames, population=0):
     return unit
 
 
-fields = ["confirmed", "deceased"]
-if OLDRECOVERED:
-    fields += ["recovered", "currently_sick"]
+fields = ["confirmed", "deceased", "recovered", "currently_sick"]
+lessfields = ["confirmed", "deceased"]
+limitedscopes = ["USA", "Canada"]
 
 for name, scope in data["scopes"].items():
-    scope["values"] = {"total": unit_vals(n_dates, fields)}
+    curfields = fields if name not in limitedscopes else lessfields
+    scope["values"] = {"total": unit_vals(n_dates, curfields)}
     scope["lastUpdate"] = last_jhu_update
     if name == "World":
         geounits = countries["confirmed"].keys()
@@ -221,15 +217,15 @@ for name, scope in data["scopes"].items():
             except KeyError:
                 print >> sys.stderr, "WARNING: missing population for region %s / %s" % (name, c)
                 pop = 0
-            scope["values"][c] = unit_vals(n_dates, fields, pop)
+            scope["values"][c] = unit_vals(n_dates, curfields, pop)
         scope["values"]["total"]["population"] += pop
         for i, d in enumerate(dates):
             vals = {}
-            for cas in ["confirmed", "deceased"] + (["recovered"] if OLDRECOVERED else []):
+            for cas in ["confirmed", "deceased"] + (["recovered"] if name not in limitedscopes else []):
                 vals[cas] = sum_values(countries[cas][c], d) if name == "World" else get_value(countries[cas][name][idx], d)
                 scope["values"][c][cas][i] += vals[cas]
                 scope["values"]["total"][cas][i] += vals[cas]
-            if OLDRECOVERED:
+            if name not in limitedscopes:
                 sick = vals["confirmed"] - vals["recovered"] - vals["deceased"]
                 scope["values"][c]["currently_sick"][i] += sick
                 scope["values"]["total"]["currently_sick"][i] += sick
@@ -315,8 +311,6 @@ localities = {
         "level": "state"
     }
 }
-if OLDRECOVERED:
-    localities = {}
 
 load_populations(localities.keys())
 
@@ -368,5 +362,5 @@ for scope, metas in localities.items():
                 data["scopes"][scope]["values"]["total"]["currently_sick"][idx] = sick
 
 
-with open(os.path.join("data", "coronavirus-countries%s.json" % ("-oldrecovered" if OLDRECOVERED else "")), "w") as f:
+with open(os.path.join("data", "coronavirus-countries.json"), "w") as f:
     json.dump(data, f)

@@ -4,7 +4,7 @@ cd $(dirname $0)/..
 mkdir -p data
 
 # World JHU data
-for typ in confirmed deaths; do
+for typ in confirmed deaths recovered; do
   curl -sL https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_${typ}_global.csv > data/time_series_covid19_${typ}_global.csv
 done;
 
