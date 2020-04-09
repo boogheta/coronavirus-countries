@@ -143,7 +143,7 @@ new Vue({
         (this.perDay && this.vizChoice === 'series' && this.smoothen ? "&smooth" : "") +
         (this.vizChoice !== 'series' ? "&" + this.vizChoice : "") +
         "&places=" + (this.legend.length ? this.legend : this.scopes[this.scope].countries.filter(function(c) { return c.selected; }))
-          .sort(this.staticCountriesSort(null, "names"))
+          .sort(this.staticCountriesSort("names"))
           .map(function(c) { return c.name.replace(/ /g, '%20'); })
           .join(",") +
         (this.refCountry ? "&align=" + this.refCountry : "") +
@@ -181,8 +181,8 @@ new Vue({
       if (!this.countries.filter(function(c) { return c.selected; }).length) {
         var startPlaces = (
           this.defaultPlaces[this.scope] ||
-          this.countries.sort(this.staticCountriesSort(this.case, "cases", 1, 1))
-            .slice(0, 7)
+          this.countries.slice().sort(this.staticCountriesSort("cases", 1, -1))
+            .slice(1, 8)
             .map(function(c) { return c.name; })
         );
         this.countries.forEach(function(c) {
@@ -237,7 +237,7 @@ new Vue({
       this.draw();
       this.resizing = null;
     },
-    readUrl: function() {
+    readUrl: function(reload) {
       var el, options = {countries: []};
       window.location.hash.slice(1).split(/&/).forEach(function(opt) {
         el = decodeURIComponent(opt).split(/=/);
@@ -288,6 +288,7 @@ new Vue({
       this.countries.forEach(function(c) {
         c.selected = !!~options.countries.indexOf(c.name);
       });
+      if (reload) this.sortCountries();
       this.refCountry = options.align || null;
       this.refCase = options.alignTo || "deceased";
       if (this.init) {
@@ -382,7 +383,7 @@ new Vue({
           cases: validCases
         }
         scopes[scope].countries
-          .sort(staticCountriesSort(cas, "cases", 1, 1))
+          .sort(staticCountriesSort("cases", 1, 1))
           .forEach(function(c, i) {
             if (!countriesColors[c.id])
               countriesColors[c.id] = d3.defaultColors[i % d3.defaultColors.length];
@@ -407,8 +408,7 @@ new Vue({
         return 0;
       });
       if (!this.countriesOrder) this.countriesOrder = "cases";
-      this.sortCountries();
-      this.readUrl();
+      this.readUrl(true);
     },
     updateDisabledCases: function() {
       var cases = this.scopes[this.scope].cases;
@@ -440,8 +440,9 @@ new Vue({
         c.selected = (!allSelected || c.id === "total");
       });
     },
-    staticCountriesSort: function(cas, field, order, totalLast) {
-      var typVal = this.typVal;
+    staticCountriesSort: function(field, order, totalLast) {
+      var typVal = this.typVal,
+        cas = this.case;
       if (!order) order = 1;
       return function(a, b) {
         if (totalLast) {
@@ -458,7 +459,7 @@ new Vue({
       };
     },
     sortCountries: function() {
-      return this.countries.sort(this.staticCountriesSort(this.case, this.countriesOrder, 1, -1));
+      this.countries.sort(this.staticCountriesSort(this.countriesOrder, 1, -1));
     },
     alignPlaces: function() {
       var refCountry = this.refCountry;
@@ -722,8 +723,8 @@ new Vue({
       // Filter dates from zoom
       var values = this.values[this.scope],
         cas = this.case,
-        legend = this.legend.sort(this.staticCountriesSort(null, "names", 1, 1)),
-        places = legend.slice().sort(this.staticCountriesSort(cas, "cases", 1, 1)),
+        legend = this.legend.sort(this.staticCountriesSort("names", 1, 1)),
+        places = legend.slice().sort(this.staticCountriesSort("cases", 1, 1)),
         min_shift = align_nthcase ? d3.min(places.map(function(c) { return -c.shift; })) : 0,
         n_places = legend.length,
         dates = this.scopes[this.scope].dates.slice(perDay ? 1 : 0),
