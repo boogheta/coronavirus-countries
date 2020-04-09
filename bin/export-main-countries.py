@@ -336,7 +336,7 @@ localities = {
     },
     "Spain": {
         "source": {
-          "name": "Spain Ministry of Health",
+          "name": "Spain's Ministry of Health",
           "url": "https://covid19.isciii.es"
         },
         "filename": "serie_historica_acumulados.csv",
