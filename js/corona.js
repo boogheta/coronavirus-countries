@@ -367,8 +367,8 @@ new Vue({
             c.color = countriesColors[c.id];
           });
         cases.forEach(function(ca) {
-          ca.totalPop[scope] = d3.strFormat(true)(ca.total[scope] / totalPop);
-          ca.dailyPop[scope] = d3.strFormat(true)(ca.daily[scope] / totalPop);
+          ca.totalPop[scope] = d3.strFormat(true)(ca.total[scope] * 1000000 / totalPop);
+          ca.dailyPop[scope] = d3.strFormat(true)(ca.daily[scope] * 1000000 / totalPop);
           ca.total[scope] = d3.strFormat(false)(ca.total[scope]);
           ca.daily[scope] = d3.strFormat(false)(ca.daily[scope]);
         });
