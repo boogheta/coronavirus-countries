@@ -183,7 +183,7 @@ path.line.hover {
 .histogram.hidden {
   display: none;
 }
-.axis path, .axis line {
+.axis path, .axis line, line.axis {
   stroke: grey;
 }
 line.track-inset {

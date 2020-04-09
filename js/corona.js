@@ -333,6 +333,7 @@ new Vue({
           countries = Object.keys(data.scopes[scope].values)
           .map(function(c) {
             var maxVals = {total: {}, daily: {}, totalPop: {}, dailyPop: {}},
+              minVals = {total: {}, daily: {}, totalPop: {}, dailyPop: {}},
               lastVals = {total: {}, daily: {}, totalPop: {}, dailyPop: {}},
               cid = c.toLowerCase().replace(/[^a-z]/g, ''),
               pop = data.scopes[scope].values[c]["population"];
@@ -351,6 +352,7 @@ new Vue({
               values[scope][cid][ca.id].totalPop = values[scope][cid][ca.id].total.map(function(v) { return pop ? v * 1000000 / pop : 0});
               values[scope][cid][ca.id].dailyPop = values[scope][cid][ca.id].daily.map(function(v) { return pop ? v * 1000000 / pop : 0});
               ["total", "daily", "totalPop", "dailyPop"].forEach(function(typVal) {
+                minVals[typVal][ca.id] = d3.min(values[scope][cid][ca.id][typVal]);
                 maxVals[typVal][ca.id] = d3.max(values[scope][cid][ca.id][typVal]);
                 lastVals[typVal][ca.id] = values[scope][cid][ca.id][typVal][values[scope][cid][ca.id][typVal].length - 1];
               });
@@ -367,6 +369,7 @@ new Vue({
               value: null,
               shift: 0,
               shiftStr: "",
+              minValues: minVals,
               maxValues: maxVals,
               lastValues: lastVals,
               lastStr: "",
@@ -561,14 +564,14 @@ new Vue({
         xHistoWidth = xWidth / (2 * n_cases),
         xHistoGap = xWidth / (4 * n_cases),
         xHistoPosition = function(d, idx) { return xPosition(d) + (2 * idx + 1) * xHistoGap + idx * xHistoWidth; },
+        multiplesMin = function(c) { return d3.min(casesLegend.map(function(cas) { return c.minValues[typVal][cas.id]; })); },
         multiplesMax = function(c) { return d3.max(casesLegend.map(function(cas) { return c.maxValues[typVal][cas.id]; })); },
         maxValues = legend.map(multiplesMax),
         yMax = Math.max(0, d3.max(maxValues)),
-        yMin = logarithmic ? (perCapita ? 0.001 : 1) : 0,
+        yMin = perDay ? Math.min(0, d3.min(legend.map(multiplesMin))) : (logarithmic ? (perCapita ? 0.001 : 1) : 0),
         yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]().range([height, 0]).domain([yMin, yMax]),
         yPosition = function(c, ca, i) {
           var val = values[c][ca][typVal][i] + 0;
-          if (perDay && val < 0) val = 0
           return yScale(logarithmic && val < yMin ? yMin : val);
         },
         legendFontSize = 14 - Math.floor(columns / 2);
@@ -631,9 +634,9 @@ new Vue({
                 .attr("fill", cas.color)
                 .attr("stroke", cas.color)
                 .attr("x", function(d) { return xHistoPosition(d, idx); })
-                .attr("y", function(d, i) { return yPosition(c.id, cas.id, i); })
+                .attr("y", function(d, i) { return Math.min(yScale(0), yPosition(c.id, cas.id, i)); })
                 .attr("width", xHistoWidth)
-                .attr("height", function(d, i) { return yScale.range()[0] - yPosition(c.id, cas.id, i); });
+                .attr("height", function(d, i) { return Math.abs(yScale(0) - yPosition(c.id, cas.id, i)); });
           else {
             g.append("path")
               .datum(dates)
@@ -805,6 +808,11 @@ new Vue({
             return d3.mean(values[c.id][cas][typVal].slice(Math.max(0, idx - 2), idx + 3));
           return values[c.id][cas][typVal][idx];
         },
+        shiftedMinVal = function(c) {
+          return d3.min(shiftedDates(c).map(function(d, i) {
+            return shiftedVal(c, i);
+          }));
+        },
         shiftedMaxVal = function(c) {
           return d3.max(shiftedDates(c).map(function(d, i) {
             return shiftedVal(c, i);
@@ -827,16 +835,16 @@ new Vue({
         });
       }
       d3.select("#legend").style("height", legendH + "px");
-      var yMin = (align_nthcase && refCase === cas ?
-        (perCapita ? (logarithmic ? 0.001 : 0) : min_cases ) :
-        (logarithmic ? (perCapita ? 0.001 : 1) : 0)),
+      var yMin = (perDay ? d3.min(legend.map(shiftedMinVal)) :
+        (align_nthcase && refCase === cas ?
+          (perCapita ? (logarithmic ? 0.001 : 0) : min_cases ) :
+          (logarithmic ? (perCapita ? 0.001 : 1) : 0))),
         yMax = Math.max(0, (stacked ? stackedMaxVal : d3.max(legend.map(shiftedMaxVal)))),
         yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]()
           .range([height, 0])
           .domain([yMin, yMax]),
         yPosition = function(c, i) {
           var val = (stacked ? stackedVals[c.id][i] : shiftedVal(c, i));
-          if (perDay && val < 0) val = 0
           return yScale(logarithmic && val < yMin ? yMin : val);
         };
 
@@ -875,11 +883,19 @@ new Vue({
               .attr("width", stacked ? xWidth / 2 : xHistoWidth)
               .attr("xWidth", xWidth / 2)
               .attr("height", function(d, i) {
-                return Math.max(0, (!stacked || !idx ? yScale.range()[0] : yPosition(places[idx-1], i)) - yPosition(c, i));
+                return Math.max(0, (!stacked || !idx ? yScale(0) : yPosition(places[idx-1], i)) - yPosition(c, i));
               });
         });
 
       } else {
+        if (perDay)
+          g.append("line")
+            .attr("class", "domain axis")
+            .attr("x1", xScale.range()[0])
+            .attr("x2", xScale.range()[1])
+            .attr("y1", yScale(0))
+            .attr("y2", yScale(0));
+
         places.forEach(function(c, idx) {
           g.append("path")
             .datum(shiftedDates(c))
@@ -980,7 +996,6 @@ new Vue({
           .max(dates[dates.length - 1])
           .step(86400000)
           .fill('#eee')
-          //.handle('M -10, 0 m 0, 0 a 10,10 0 1,0 20,0 a 10,10 0 1,0 -20,0')
           .handle(d3.symbol().type(d3.symbolCircle).size(300)())
           .tickFormat(ticksFormat)
           .marks(dates)
