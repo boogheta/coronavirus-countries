@@ -335,7 +335,7 @@ new Vue({
               lastVals = {total: {}, daily: {}, totalPop: {}, dailyPop: {}},
               cid = c.toLowerCase().replace(/[^a-z]/g, ''),
               pop = data.scopes[scope].values[c]["population"];
-            totalPop += pop;
+            if (c !== "total") totalPop += pop;
             values[scope][cid] = {};
             cases.forEach(function(ca) {
               if (!~validCases.indexOf(ca.id)) return;
