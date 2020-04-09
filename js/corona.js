@@ -995,7 +995,7 @@ new Vue({
           .min(dates[0])
           .max(dates[dates.length - 1])
           .step(86400000)
-          .fill('#eee')
+          .fill('#aaa')
           .handle(d3.symbol().type(d3.symbolCircle).size(300)())
           .tickFormat(ticksFormat)
           .marks(dates)
