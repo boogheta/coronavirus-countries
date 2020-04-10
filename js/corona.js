@@ -338,7 +338,7 @@ new Vue({
           countries = Object.keys(data.scopes[scope].values)
           .map(function(c) {
             var maxVals = {total: {}, daily: {}, totalPop: {}, dailyPop: {}},
-              minVals = {total: {}, daily: {}, totalPop: {}, dailyPop: {}},
+              minVals = {daily: {}, dailyPop: {}},
               lastVals = {total: {}, daily: {}, totalPop: {}, dailyPop: {}},
               cid = c.toLowerCase().replace(/[^a-z]/g, ''),
               pop = data.scopes[scope].values[c]["population"];
@@ -357,7 +357,7 @@ new Vue({
               values[scope][cid][ca.id].totalPop = values[scope][cid][ca.id].total.map(function(v) { return pop ? v * 1000000 / pop : 0});
               values[scope][cid][ca.id].dailyPop = values[scope][cid][ca.id].daily.map(function(v) { return pop ? v * 1000000 / pop : 0});
               ["total", "daily", "totalPop", "dailyPop"].forEach(function(typVal) {
-                minVals[typVal][ca.id] = d3.min(values[scope][cid][ca.id][typVal]);
+                if (typVal.slice(0, 5) === "daily") minVals[typVal][ca.id] = d3.min(values[scope][cid][ca.id][typVal]);
                 maxVals[typVal][ca.id] = d3.max(values[scope][cid][ca.id][typVal]);
                 lastVals[typVal][ca.id] = values[scope][cid][ca.id][typVal][values[scope][cid][ca.id][typVal].length - 1];
               });
