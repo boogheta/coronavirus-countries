@@ -626,6 +626,15 @@ new Vue({
         var g = svg.append("g")
           .attr("transform", "translate(" + xPos + "," + yPos + ")");
 
+        // Draw zero axis
+        if (perDay)
+          g.append("line")
+            .attr("class", "domain axis")
+            .attr("x1", xScale.range()[0])
+            .attr("x2", xScale.range()[1])
+            .attr("y1", yScale(0))
+            .attr("y2", yScale(0));
+
         casesLegend.forEach(function(cas, idx) {
           if (perDay)
             g.append("g")
@@ -862,6 +871,15 @@ new Vue({
         .append("g")
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+      // Draw zero axis
+      if (perDay)
+        g.append("line")
+          .attr("class", "domain axis")
+          .attr("x1", xScale.range()[0])
+          .attr("x2", xScale.range()[1])
+          .attr("y1", yScale(0))
+          .attr("y2", yScale(0));
+
       // Draw series
       if (perDay && this.vizChoice !== "series") {
         width += xWidth / 2;
@@ -893,14 +911,6 @@ new Vue({
         });
 
       } else {
-        if (perDay)
-          g.append("line")
-            .attr("class", "domain axis")
-            .attr("x1", xScale.range()[0])
-            .attr("x2", xScale.range()[1])
-            .attr("y1", yScale(0))
-            .attr("y2", yScale(0));
-
         places.forEach(function(c, idx) {
           g.append("path")
             .datum(shiftedDates(c))
