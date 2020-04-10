@@ -221,6 +221,8 @@ def load_populations(scopes):
                 populations[name] = {}
                 for place in csv.DictReader(f):
                     populations[name][place["id"]] = int(place["pop"])
+        except ValueError:
+            print >> sys.stderr, "WARNING: population data missing in scope", name, "for place", place
         except IOError:
             print >> sys.stderr, "WARNING: population data missing for scope", name
 load_populations(data["scopes"].keys())
@@ -277,6 +279,14 @@ for name, scope in data["scopes"].items():
                 scope["values"]["total"]["currently_sick"][i] += sick
 
 
+france_ehpad = 0
+with open(os.path.join("data", "chiffres-cles.csv")) as f:
+    for row in csv.DictReader(f):
+        if row["granularite"] == "pays" and row["deces_ehpad"]:
+            france_ehpad = int(row["deces_ehpad"])
+france_disclaimer = 'France does not release detailed data on tests performed and confirmed, only national (<a href="https://github.com/CSSEGISandData/COVID-19/issues/2094" target="_blank">and</a> <a href="https://www.liberation.fr/checknews/2020/04/05/covid-19-pourquoi-des-sites-evoquent-90-000-cas-en-france-contre-68-000-au-bilan-officiel_1784232" target="_blank">controversial</a>) figures are published. Deaths cases are also only released for hospitals, %s people deceased in nursing homes are therefore not accounted in this dataset.' % ('{:,}'.format(france_ehpad).replace(',', '&nbsp;'))
+
+
 localities = {
     "Italy": {
         "source": {
@@ -300,7 +310,8 @@ localities = {
     "France": {
         "source": {
           "name": "Santé Publique France",
-          "url": "https://www.data.gouv.fr/fr/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/"
+          "url": "https://www.data.gouv.fr/fr/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/",
+          "disclaimer": france_disclaimer
         },
         "filename": "chiffres-cles.csv",
         "level": "department",
@@ -317,7 +328,8 @@ localities = {
     "France ": {
         "source": {
           "name": "Open COVID19 France",
-          "url": "https://github.com/opencovid19-fr/data"
+          "url": "https://github.com/opencovid19-fr/data",
+          "disclaimer": france_disclaimer
         },
         "filename": "chiffres-cles.csv",
         "level": "region",
@@ -369,7 +381,7 @@ localities = {
           "url": "https://github.com/tomwhite/covid-19-uk-data"
         },
         "filename": "",
-        "level": "country"
+        "level": "country",
         "level_field": "",
         "date_accessor": lambda row: row["date"],
         "filter": lambda row: row[""],
@@ -386,7 +398,7 @@ localities = {
           "url": "https://github.com/tomwhite/covid-19-uk-data"
         },
         "filename": "",
-        "level": "region"
+        "level": "region",
         "level_field": "",
         "date_accessor": lambda row: row["date"],
         "filter": lambda row: row[""],

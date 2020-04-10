@@ -246,6 +246,7 @@
         <v-title>Coronavirus Country Comparator<br/>
         <span class="source">Data source: <a :href="source.url" target=_blank">{{ source.name }}</a> (last update: {{ lastUpdateStr }} GMT)</span></v-title>
       </v-toolbar-title>
+      <span class="disclaimer" v-if="source.disclaimer" v-html="source.disclaimer"></span>
       <v-spacer></v-spacer>
       <v-btn fab small class="ml-3" @click.native.stop="help = true">
         <v-icon>help</v-icon>
