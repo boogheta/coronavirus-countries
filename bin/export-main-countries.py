@@ -107,7 +107,8 @@ USA_states = {
     "WY": "Wyoming"
 }
 def clean_locality(r, scope):
-    r = clean_region(r)
+    if scope.strip() != "France":
+        r = clean_region(r)
     if "," in r and scope == "USA":
         r = USA_states.get(r.split(",")[1].strip(), r)
     elif scope == "Spain":
@@ -298,17 +299,15 @@ localities = {
     },
     "France": {
         "source": {
-          "name": "",
-          "url": "https://github.com/opencovid19-fr/data"
+          "name": "Santé Publique France",
+          "url": "https://www.data.gouv.fr/fr/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/"
         },
-#        "filename": "chiffres-cles.csv",
+        "filename": "chiffres-cles.csv",
         "level": "department",
         "level_field": "maille_nom",
         "date_accessor": lambda row: row["date"],
         "filter": lambda row: row["granularite"] == "departement" and row["source_type"] == "sante-publique-france-data",
         "fields": {
-            "tested": "depistes",
-            "confirmed": "cas_confirmes",
             "recovered": "gueris",
             "hospitalized": "hospitalises",
             "intensive_care": "reanimation",
@@ -317,17 +316,15 @@ localities = {
     },
     "France ": {
         "source": {
-          "name": "",
+          "name": "Open COVID19 France",
           "url": "https://github.com/opencovid19-fr/data"
         },
-#        "filename": "chiffres-cles.csv",
+        "filename": "chiffres-cles.csv",
         "level": "region",
         "level_field": "maille_nom",
         "date_accessor": lambda row: row["date"],
-        "filter": lambda row: row["granularite"] == "region" and row["source_type"] == "sante-publique-france-data",
+        "filter": lambda row: row["granularite"] == "region" and row["source_type"] == "opencovid19-fr",
         "fields": {
-            "tested": "depistes",
-            "confirmed": "cas_confirmes",
             "recovered": "gueris",
             "hospitalized": "hospitalises",
             "intensive_care": "reanimation",
