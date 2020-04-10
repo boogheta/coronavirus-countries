@@ -365,17 +365,44 @@ localities = {
     },
     "UK": {
         "source": {
-          "name": "",
-          "url": ""
+          "name": "COVID-19 UK data by Tom White",
+          "url": "https://github.com/tomwhite/covid-19-uk-data"
         },
+        "filename": "",
         "level": "country"
+        "level_field": "",
+        "date_accessor": lambda row: row["date"],
+        "filter": lambda row: row[""],
+        "fields": {
+            "tested": "",
+            "confirmed": "",
+            "recovered": "",
+            "deceased": ""
+        }
+    },
+    "UK ": {
+        "source": {
+          "name": "COVID-19 UK data by Tom White",
+          "url": "https://github.com/tomwhite/covid-19-uk-data"
+        },
+        "filename": "",
+        "level": "region"
+        "level_field": "",
+        "date_accessor": lambda row: row["date"],
+        "filter": lambda row: row[""],
+        "fields": {
+            "tested": "",
+            "confirmed": "",
+            "recovered": "",
+            "deceased": ""
+        }
     }
 }
 
 load_populations(localities.keys())
 
 for scope, metas in localities.items():
-    if "filename" not in metas:
+    if "filename" not in metas or not metas["filename"]:
         continue
     fname = os.path.join("data", metas["filename"])
 
