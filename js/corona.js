@@ -77,8 +77,9 @@ new Vue({
         {id: "confirmed", min_cases: 50, max_dates: 20},
         {id: "deceased",  min_cases: 10, max_dates: 30}
     ],
-    logarithmic: false,
     perCapita: false,
+    scaleChoice: "linear",
+    logarithmic: false,
     perDay: false,
     smoothen: false,
     vizChoice: "series",
@@ -136,10 +137,9 @@ new Vue({
     url: function() {
       if (this.init) return window.location.hash.slice(1);
       return (this.scope !== "World" ? "country="+this.scope+"&" : "") +
-        (this.vizChoice === 'multiples' ? this.casesChosen : this.case) +
-        (this.logarithmic ? "&log" : "") +
+        (this.vizChoice === "multiples" ? this.casesChosen : this.case) +
+        (this.logarithmic ? "&log" : (this.perDay ? "&daily" : "")) +
         (this.perCapita ? "&ratio" : "") +
-        (this.perDay ? "&daily" : "") +
         (this.perDay && this.vizChoice === 'series' && this.smoothen ? "&smooth" : "") +
         (this.vizChoice !== 'series' ? "&" + this.vizChoice : "") +
         "&places=" + (this.legend.length ? this.legend : this.scopes[this.scope].countries.filter(function(c) { return c.selected; }))
@@ -155,6 +155,10 @@ new Vue({
     url: function(newValue, oldValue) {
       window.location.hash = newValue;
       gtag('config', GA_MEASUREMENT_ID, {'page_path': location.pathname + location.search + location.hash});
+    },
+    scaleChoice: function() {
+      this.logarithmic = (this.scaleChoice === "logarithmic");
+      this.perDay = (this.scaleChoice === "daily");
     },
     scope: function(newValue, oldValue) {
       this.countries.forEach(function(c) {
@@ -211,7 +215,7 @@ new Vue({
       this.refCountry = null;
       this.$nextTick(this.resizeMenu);
       if (this.vizChoice === 'stacked') {
-        this.logarithmic = false;
+        if (this.logarithmic) this.scaleChoice = "linear";
         this.perCapita = false;
       }
     }
@@ -267,9 +271,10 @@ new Vue({
       }
       if (!options.confirmed && !options.recovered && !options.deceased && !options.currently_sick && !options.tested && !options.intensive_care && !options.hospitalized)
         options.deceased = true;
-      this.logarithmic = !!options.log;
+      if (options.log) this.scaleChoice = "logarithmic";
+      else if (options.daily) this.scaleChoice = "daily";
+      else this.scaleChoice = "linear";
       this.perCapita = !!options.ratio;
-      this.perDay = !!options.daily;
       this.smoothen = !!options.smooth;
       if (options.stacked)
         this.vizChoice = 'stacked';

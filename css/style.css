@@ -306,6 +306,17 @@ a:hover, a:visited:hover {
 .caseIcon.country {
   padding-left: 15px;
 }
+#scale .input-group__input {
+  flex: 1 0 120%!important;
+}
+#scale .extraaction.list__tile__action .icon {
+  position: absolute;
+  right: 5px;
+}
+#scale .daily {
+  margin-left: 20px;
+  margin-right: 30px;
+}
 
 @media (max-width: 1000px) {
   nav .toolbar__title img {

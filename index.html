@@ -72,26 +72,23 @@
           <span>Scale</span>
         </v-subheader>
 
-        <v-list-tile class="switchoption"
-          :title="vizChoice === 'stacked' ? 'logarithmic scale makes no sense for stacked area charts' : ''"
-        >
-          <v-list-tile-content>
-            <v-list-tile-title
-              :class="{'switcher': vizChoice !== 'stacked', 'value': true, 'unchecked': logarithmic}"
-              @click="if (vizChoice !== 'stacked') logarithmic = !logarithmic"
-            >linear</v-list-title>
-          </v-list-tile-content>
-          <v-list-tile-action>
-            <v-switch :disabled="vizChoice === 'stacked'" light v-model="logarithmic" color="white"></v-switch>
-          </v-list-tile-action>
-          <v-list-tile-content>
-            <v-list-tile-title
-              :class="{'switcher': vizChoice !== 'stacked', 'unchecked': !logarithmic || vizChoice === 'stacked'}"
-              @click="if (vizChoice !== 'stacked') logarithmic = !logarithmic"
-            >logarithmic</v-list-title>
-          </v-list-tile-content>
+        <v-list-tile id="scale" class="radiooption">
+          <v-radio-group row hide-details v-model="scaleChoice">
+            <v-radio small
+              color="white"
+              v-for="c in ['linear', 'logarithmic', 'daily']"
+              :class="c"
+              :label="c"
+              :value="c"
+              :disabled="c === 'logarithmic' && vizChoice === 'stacked'"
+            ></v-radio>
+          </v-radio-group>
           <v-list-tile-action class="extraaction">
-            &nbsp;&nbsp;<v-icon style="opacity: 0">done</v-icon>
+            <v-icon color="white"
+              :style="'opacity: ' + (!(perDay && vizChoice === 'series') ? 0 : (smoothen ? 1 : 0.5))"
+              :title="(smoothen ? 'un' : '') + 'smooth curve using a 5-days moving average'"
+              @click="smoothen = !smoothen"
+            >vertical_align_center</v-icon>
           </v-list-tile-action>
         </v-list-tile>
 
@@ -113,30 +110,6 @@
               @click="if (vizChoice !== 'stacked') perCapita = !perCapita"
             >population ratio</v-list-title>
           </v-list-tile-content>
-          <v-list-tile-action class="extraaction">
-            &nbsp;&nbsp;<v-icon style="opacity: 0">done</v-icon>
-          </v-list-tile-action>
-        </v-list-tile>
-
-        <v-list-tile class="switchoption">
-          <v-list-tile-content>
-            <v-list-tile-title
-              :class="{'switcher': true, 'value': true, 'unchecked': perDay}"
-              @click="perDay = !perDay"
-            >cumulative</v-list-title>
-          </v-list-tile-content>
-          <v-list-tile-action>
-            <v-switch light v-model="perDay" color="white"></v-switch>
-          </v-list-tile-action>
-          <v-list-tile-content>
-            <v-list-tile-title
-              :class="{'switcher': true, 'unchecked': !perDay}"
-              @click="perDay = !perDay"
-            >daily new cases</v-list-title>
-          </v-list-tile-content>
-          <v-list-tile-action class="extraaction">
-            &nbsp;&nbsp;<v-icon color="white" :style="'opacity: ' + (!(perDay && vizChoice === 'series') ? 0 : (smoothen ? 1 : 0.5))" @click="smoothen = !smoothen" :title="(smoothen ? 'un' : '') + 'smooth curve using a 5-days moving average'">vertical_align_center</v-icon>
-          </v-list-tile-action>
         </v-list-tile>
 
 
