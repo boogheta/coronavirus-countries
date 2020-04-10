@@ -930,6 +930,25 @@ MC,8/4/2020,1356,533,87,88,219
 NC,8/4/2020,3575,1526,124,214,462
 PV,8/4/2020,9806,5130,433,689,4514
 RI,8/4/2020,3026,997,69,182,1172
+AN,9/4/2020,9510,4715,582,691,1437
+AR,9/4/2020,3831,1822,263,409,797
+AS,9/4/2020,1799,1083,100,121,372
+IB,9/4/2020,1488,777,136,97,737
+CN,9/4/2020,1858,738,141,94,386
+CB,9/4/2020,1659,747,73,102,265
+CM,9/4/2020,13063,2359,329,1431,1982
+CL,9/4/2020,11102,5674,332,1129,3506
+CT,9/4/2020,31824,21530,2582,3231,13513
+CE,9/4/2020,91,9,4,4,12
+VC,9/4/2020,8331,3987,561,796,2085
+EX,9/4/2020,2332,1003,101,288,397
+GA,9/4/2020,6946,2165,151,243,997
+MD,9/4/2020,44783,12432,1399,5972,22414
+ML,9/4/2020,95,41,3,2,17
+MC,9/4/2020,1383,533,88,90,255
+NC,9/4/2020,3748,1620,124,218,560
+PV,9/4/2020,10103,5290,442,729,4680
+RI,9/4/2020,3076,1047,71,196,1256
 ,,,,,,
-NOTA: El objetivo de los datos que se publican en esta web es saber el número de casos acumulados a la fecha y que por tanto no se puede deducir que la diferencia entre un día y el anterior es el número de casos nuevos ya que esos casos pueden haber sido recuperados de fechas anteriores. Cualquier inferencia que se haga sobre las diferencias de un día para otro deben hacerse con precaución y son únicamente la responsabilidad el autor.,,,,,,
-Los datos de estas comunidades son datos de prevalencia (personas ingresadas a fecha de hoy). No reflejan el total de personas que han sido hospitalizadas o ingresadas en UCI  a lo largo del periodo de notificación(CL(UCIs)-CM-MD-MC),,,,,,
+NOTA: El objetivo de los datos que se publican en esta web es saber el número de casos acumulados a la fecha y que por tanto no se puede deducir que la diferencia entre un día y el anterior es el número de casos nuevos ya que esos casos pueden haber sido recuperados de fechas anteriores. Cualquier inferencia que se haga sobre las diferencias de un día para otro deben hacerse con precaución y son únicamente la responsabilidad el autor.
+Los datos de estas comunidades son datos de prevalencia (personas ingresadas a fecha de hoy). No reflejan el total de personas que han sido hospitalizadas o ingresadas en UCI  a lo largo del periodo de notificación (CL(UCIs)-CM-MD-MC),,,,,,
