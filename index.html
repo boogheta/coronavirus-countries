@@ -85,7 +85,7 @@
           </v-radio-group>
           <v-list-tile-action class="extraaction">
             <v-icon color="white"
-              :style="'opacity: ' + (!(perDay && vizChoice === 'series') ? 0 : (smoothen ? 1 : 0.5))"
+              :style="'opacity: ' + (!(perDay && vizChoice === 'series') ? 0 : (smoothen ? 1 : 0.25))"
               :title="(smoothen ? 'un' : '') + 'smooth curve using a 5-days moving average'"
               @click="smoothen = !smoothen"
             >vertical_align_center</v-icon>

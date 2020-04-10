@@ -309,6 +309,12 @@ a:hover, a:visited:hover {
 #scale .input-group__input {
   flex: 1 0 120%!important;
 }
+#scale .input-group.input-group--disabled {
+  opacity: 0.5;
+}
+#scale .input-group.input-group--disabled label {
+  cursor: initial;
+}
 #scale .extraaction.list__tile__action .icon {
   position: absolute;
   right: 5px;
