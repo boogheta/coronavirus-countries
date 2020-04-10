@@ -849,7 +849,7 @@ new Vue({
         });
       }
       d3.select("#legend").style("height", legendH + "px");
-      var yMin = (perDay ? d3.min(legend.map(shiftedMinVal)) :
+      var yMin = (perDay ? Math.min(0, d3.min(legend.map(shiftedMinVal))) :
         (align_nthcase && refCase === cas ?
           (perCapita ? (logarithmic ? 0.001 : 0) : min_cases ) :
           (logarithmic ? (perCapita ? 0.001 : 1) : 0))),
