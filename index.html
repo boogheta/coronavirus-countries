@@ -174,7 +174,7 @@
         >
           <v-list-tile-content>
             <v-list-tile-title>
-              <span class="country">{{ item.name }}</span>
+              <span class="country" :title="item.name.length > 20 ? item.name : ''">{{ item.name }}</span>
               <span class="value amount">{{ item.lastStr }}</span>
             </v-list-tile-title>
           </v-list-tile-content>

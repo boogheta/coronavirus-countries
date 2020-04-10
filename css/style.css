@@ -96,6 +96,12 @@ nav .disclaimer a, nav .disclaimer a:hover, nav .disclaimer a:visited:hover {
 .country {
   float: left;
 }
+#countries .country {
+  width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 .value {
   float: right;
   text-align: right;
