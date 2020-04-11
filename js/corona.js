@@ -780,10 +780,10 @@ new Vue({
       var margin = {top: 20, right: 90, bottom: 55, left: 40},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgW - margin.left - margin.right,
-        fontLevel = Math.floor(Math.min(130, n_places) / 20),
+        fontLevel = Math.floor(Math.min(90, n_places) / 20),
         fontSize = 14 - fontLevel,
         legHeight = 44 - 3 * fontLevel,
-        legWidth = 200 - 20 * fontLevel;
+        legWidth = 200 - 10 * fontLevel;
       legend.forEach(function(c) {
         c.style = {
           "background-color": c.color + "!important",
