@@ -949,6 +949,25 @@ MC,9/4/2020,1383,533,88,90,255
 NC,9/4/2020,3748,1620,124,218,560
 PV,9/4/2020,10103,5290,442,729,4680
 RI,9/4/2020,3076,1047,71,196,1256
+AN,10/4/2020,9712,4808,602,737,1630
+AR,10/4/2020,3969,1860,266,425,888
+AS,10/4/2020,1827,1147,105,128,414
+IB,10/4/2020,1507,778,137,102,757
+CN,10/4/2020,1887,745,144,95,432
+CB,10/4/2020,1719,773,75,107,281
+CM,10/4/2020,13456,2198,316,1483,2205
+CL,10/4/2020,11543,5817,327,1180,3757
+CT,10/4/2020,32984,21921,2629,3331,14258
+CE,10/4/2020,93,9,4,4,17
+VC,10/4/2020,8578,4132,565,818,2289
+EX,10/4/2020,2486,1052,104,303,462
+GA,10/4/2020,7176,2215,144,261,1082
+MD,10/4/2020,45849,11894,1376,6084,23663
+ML,10/4/2020,98,43,3,2,18
+MC,10/4/2020,1413,533,88,94,275
+NC,10/4/2020,3817,1641,124,227,603
+PV,10/4/2020,10515,5402,453,765,4741
+RI,10/4/2020,3223,1082,73,207,1337
 ,,,,,,
-NOTA: El objetivo de los datos que se publican en esta web es saber el número de casos acumulados a la fecha y que por tanto no se puede deducir que la diferencia entre un día y el anterior es el número de casos nuevos ya que esos casos pueden haber sido recuperados de fechas anteriores. Cualquier inferencia que se haga sobre las diferencias de un día para otro deben hacerse con precaución y son únicamente la responsabilidad el autor.
-Los datos de estas comunidades son datos de prevalencia (personas ingresadas a fecha de hoy). No reflejan el total de personas que han sido hospitalizadas o ingresadas en UCI  a lo largo del periodo de notificación (CL(UCIs)-CM-MD-MC),,,,,,
+NOTA: El objetivo de los datos que se publican en esta web es saber el número de casos acumulados a la fecha y que por tanto no se puede deducir que la diferencia entre un día y el anterior es el número de casos nuevos ya que esos casos pueden haber sido recuperados de fechas anteriores. Cualquier inferencia que se haga sobre las diferencias de un día para otro deben hacerse con precaución y son únicamente la responsabilidad el autor.,,,,,,
+Los datos de estas comunidades son datos de prevalencia (personas ingresadas a fecha de hoy). No reflejan el total de personas que han sido hospitalizadas o ingresadas en UCI  a lo largo del periodo de notificación(CL(UCIs)-CM-MD-MC),,,,,,
