@@ -97,7 +97,7 @@ nav .disclaimer a, nav .disclaimer a:hover, nav .disclaimer a:visited:hover {
   float: left;
 }
 #countries .country {
-  width: 150px;
+  max-width: 150px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;

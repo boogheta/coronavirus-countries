@@ -284,7 +284,7 @@ with open(os.path.join("data", "chiffres-cles.csv")) as f:
     for row in csv.DictReader(f):
         if row["granularite"] == "pays" and row["deces_ehpad"]:
             france_ehpad = int(row["deces_ehpad"])
-france_disclaimer = 'France does not release detailed data on tests performed and confirmed, only national (<a href="https://github.com/CSSEGISandData/COVID-19/issues/2094" target="_blank">and</a> <a href="https://www.liberation.fr/checknews/2020/04/05/covid-19-pourquoi-des-sites-evoquent-90-000-cas-en-france-contre-68-000-au-bilan-officiel_1784232" target="_blank">controversial</a>) figures are published. Deaths cases are also only released for hospitals, %s people deceased in nursing homes are therefore not accounted in this dataset.' % ('{:,}'.format(france_ehpad).replace(',', '&nbsp;'))
+france_disclaimer = 'France does not release detailed data on tests performed and confirmed: only national (<a href="https://github.com/CSSEGISandData/COVID-19/issues/2094" target="_blank">and</a>&nbsp;<a href="https://www.liberation.fr/checknews/2020/04/05/covid-19-pourquoi-des-sites-evoquent-90-000-cas-en-france-contre-68-000-au-bilan-officiel_1784232" target="_blank">controversial</a>) figures are published. Deaths cases are also only detailed for hospitals: the %s deceased cases in nursing homes are therefore not accounted in this dataset.' % ('{:,}'.format(france_ehpad).replace(',', '&nbsp;'))
 
 
 localities = {
