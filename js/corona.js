@@ -832,6 +832,7 @@ new Vue({
             return shiftedVal(c, i);
           }));
         },
+        stackedMinVal = 0,
         stackedMaxVal = 0,
         stackedVals = {},
         stackedNeighbors = {};
@@ -861,15 +862,17 @@ new Vue({
             }
             if (stackedVals[c.id][i] > stackedMaxVal)
               stackedMaxVal = stackedVals[c.id][i];
+            if (stackedVals[c.id][i] < stackedMinVal)
+              stackedMinVal = stackedVals[c.id][i];
           });
         });
       }
 
       d3.select("#legend").style("height", legendH + "px");
-      var yMin = (perDay ? Math.min(0, d3.min(legend.map(shiftedMinVal))) :
+      var yMin = (stacked ? stackedMinVal : (perDay ? Math.min(0, d3.min(legend.map(shiftedMinVal))) :
         (align_nthcase && refCase === cas ?
           (perCapita ? (logarithmic ? 0.001 : 0) : min_cases ) :
-          (logarithmic ? (perCapita ? 0.001 : 1) : 0))),
+          (logarithmic ? (perCapita ? 0.001 : 1) : 0)))),
         yMax = Math.max(0, (stacked ? stackedMaxVal : d3.max(legend.map(shiftedMaxVal)))),
         yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]()
           .range([height, 0])
