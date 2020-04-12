@@ -341,7 +341,7 @@ a:hover, a:visited:hover {
   nav .source {
     font-size: 20px;
   }
-  .disclaimer {
+  nav .source .update, .disclaimer {
     display: none;
   }
   .btn--floating.btn--small .icon {
