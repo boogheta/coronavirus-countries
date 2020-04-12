@@ -989,5 +989,5 @@ PV,11/4/2020,10772,5547,459,804,4867
 RI,11/4/2020,3279,1122,73,219,1420
 
 NOTA: El objetivo de los datos que se publican en esta web es saber el número de casos acumulados a la fecha y que por tanto no se puede deducir que la diferencia entre un día y el anterior es el número de casos nuevos ya que esos casos pueden haber sido recuperados de fechas anteriores. Cualquier inferencia que se haga sobre las diferencias de un día para otro deben hacerse con precaución y son únicamente la responsabilidad el autor
-Los datos de estas comunidades son datos de prevalencia (personas ingresadas a fecha de hoy). No reflejan el total de personas que han sido hospitalizadas o ingresadas en UCI  a lo largo del periodo de notificación(CL(UCIs)-CM*-MD-MC)
+Los datos de estas comunidades son datos de prevalencia (personas ingresadas a fecha de hoy). No reflejan el total de personas que han sido hospitalizadas o ingresadas en UCI  a lo largo del periodo de notificación(CL(UCIs)-GA (UCIs)-CM*-MD)
 * Desde el día 11/04/2020 las cifras de hospitalizados de CM son casos acumulados, previamente se refieren a personas ingresadas ese día
