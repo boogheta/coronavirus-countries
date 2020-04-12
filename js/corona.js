@@ -833,21 +833,38 @@ new Vue({
           }));
         },
         stackedMaxVal = 0,
-        stackedVals = {};
+        stackedVals = {},
+        stackedNeighbors = {};
       if (stacked) {
         places.forEach(function(c) {
           stackedVals[c.id] = [];
+          stackedNeighbors[c.id] = [];
         });
         zoomedDates.forEach(function(d, i) {
-          var stack = 0;
+          var posStack = 0, negStack = 0,
+            lastPos = null, lastNeg = null;
           places.forEach(function(c) {
-            if (c.id === 'total') stack = values[c.id][cas][typVal][i + hiddenLeft];
-            else stack += values[c.id][cas][typVal][i + hiddenLeft];
-            if (stack > stackedMaxVal) stackedMaxVal = stack;
-            stackedVals[c.id].push(stack);
+            var val = values[c.id][cas][typVal][i + hiddenLeft];
+            if (c.id === 'total') {
+              stackedVals[c.id].push(val);
+              stackedNeighbors[c.id].push(val >= 0 ? lastPos : lastNeg);
+            } else if (val >= 0) {
+              posStack += val;
+              stackedVals[c.id].push(posStack);
+              stackedNeighbors[c.id].push(lastPos);
+              lastPos = posStack;
+            } else {
+              negStack += val;
+              stackedVals[c.id].push(negStack);
+              stackedNeighbors[c.id].push(lastNeg);
+              lastNeg = negStack;
+            }
+            if (stackedVals[c.id][i] > stackedMaxVal)
+              stackedMaxVal = stackedVals[c.id][i];
           });
         });
       }
+
       d3.select("#legend").style("height", legendH + "px");
       var yMin = (perDay ? Math.min(0, d3.min(legend.map(shiftedMinVal))) :
         (align_nthcase && refCase === cas ?
@@ -901,12 +918,12 @@ new Vue({
                 return xPosition(d) + xWidth / 4;
               })
               .attr("y", function(d, i) {
-                return yPosition(c, i);
+                return Math.min(yPosition(c, i), yScale(stacked && stackedNeighbors[c.id][i] || 0));
               })
               .attr("width", stacked ? xWidth / 2 : xHistoWidth)
               .attr("xWidth", xWidth / 2)
               .attr("height", function(d, i) {
-                return Math.max(0, (!stacked || !idx ? yScale(0) : yPosition(places[idx-1], i)) - yPosition(c, i));
+                return Math.abs(yScale(stacked && stackedNeighbors[c.id][i] || 0) - yPosition(c, i));
               });
         });
 
