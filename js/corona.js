@@ -214,11 +214,11 @@ new Vue({
       this.hiddenLeft = 0;
       this.hiddenRight = 0;
       this.refCountry = null;
-      this.$nextTick(this.resizeMenu);
       if (this.vizChoice === 'stacked') {
         if (this.logarithmic) this.scaleChoice = "linear";
         this.perCapita = false;
       }
+      this.$nextTick(this.resizeMenu);
     }
   },
   mounted: function() {
@@ -231,14 +231,15 @@ new Vue({
       this.resizing = setTimeout(this.resize, 50);
     },
     resizeMenu: function() {
-      var menuH = window.innerHeight - (
-        document.querySelector("nav").getBoundingClientRect().height +
+      var menuH = window.innerHeight - 
+        document.querySelector("nav").getBoundingClientRect().height,
+        countriesH = menuH - (
         document.getElementById("controls").getBoundingClientRect().height +
         document.getElementById("lowermenu").getBoundingClientRect().height + 2);
-      document.getElementById("countries").style.height = menuH + "px";
+      document.getElementById("menu").style.height = menuH + "px";
+      document.getElementById("countries").style.height = Math.max(180, countriesH) + "px";
     },
     resize: function() {
-      this.resizeMenu();
       this.draw();
       this.resizing = null;
     },
@@ -261,7 +262,6 @@ new Vue({
       this.scope = options.scope || "World";
       this.lastUpdateStr = d3.formatTimestamp(this.scopes[this.scope].lastUpdate);
       this.updateDisabledCases();
-      this.$nextTick(this.resizeMenu);
       if (this.init) {
         if (!options.countries.length)
           options.countries = this.scopes[this.scope].countries.filter(function(c) {
@@ -532,6 +532,7 @@ new Vue({
       if (this.vizChoice === 'multiples') this.drawMultiples();
       else this.drawSeries();
 
+      this.resizeMenu();
       this.clearTooltip();
     },
     drawMultiples: function() {

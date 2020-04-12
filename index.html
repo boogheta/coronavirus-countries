@@ -26,7 +26,7 @@
  <body>
   <noscript><strong>Coronavirus country comparator requires JavaScript. Please enable it to continue.</strong></noscript>
   <div id="corona"><v-app dark toolbar>
-    <aside class="navigation-drawer navigation-drawer--absolute navigation-drawer--clipped navigation-drawer--is-booted navigation-drawer--is-mobile navigation-drawer--open navigation-drawer--permanent">
+    <aside class="navigation-drawer navigation-drawer--absolute navigation-drawer--clipped navigation-drawer--is-booted navigation-drawer--is-mobile navigation-drawer--open navigation-drawer--permanent" id="menu">
       <v-list dense id="controls">
 
         <v-subheader class="">
@@ -243,8 +243,11 @@
     <v-toolbar class="dark" fixed>
       <v-toolbar-title>
         <a href="https://boogheta.github.io/coronavirus-countries/"><img src="img/covid19.png" alt="COVID19" width=50 /></a>
-        <v-title>Coronavirus Country Comparator<br/>
-        <span class="source">Data source: <a :href="source.url" target=_blank">{{ source.name }}</a><span class="update"> (last update: {{ lastUpdateStr }} GMT)</span></span></v-title>
+        <v-title>
+          Coronavirus Country Comparator<br/>
+          <span class="source">Data source: <a :href="source.url" target=_blank">{{ source.name }}</a></span><br/>
+          <span class="source update"> (last update: {{ lastUpdateStr }} GMT)</span>
+        </v-title>
       </v-toolbar-title>
       <span class="disclaimer" v-if="source.disclaimer" v-html="source.disclaimer"></span>
       <v-spacer></v-spacer>
