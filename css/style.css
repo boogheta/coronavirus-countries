@@ -326,8 +326,11 @@ a:hover, a:visited:hover {
   position: absolute;
   right: 5px;
 }
+#scale .logarithmic {
+  margin-left: -10px;
+}
 #scale .daily {
-  margin-left: 20px;
+  margin-left: 10px;
   margin-right: 30px;
 }
 
