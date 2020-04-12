@@ -10,6 +10,7 @@ aside.navigation-drawer {
 }
 .navigation-drawer--permanent.navigation-drawer--clipped {
   max-height: calc(100vh);
+  height: 100%;
 }
 nav .toolbar__title img {
   margin: 0;
