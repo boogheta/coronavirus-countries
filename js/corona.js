@@ -54,6 +54,7 @@ new Vue({
     level: "country",
     source: {},
     countries: [],
+    allSelected: false,
     defaultPlaces: {
       //World: ["Italy", "Iran", "South Korea", "France", "Germany", "Spain", "USA"],
     },
@@ -293,6 +294,7 @@ new Vue({
       this.countries.forEach(function(c) {
         c.selected = !!~options.countries.indexOf(c.name);
       });
+      this.allSelected = options.countries.length === this.countries.length;
       if (reload) this.sortCountries();
       this.refCountry = options.align || null;
       this.refCase = options.alignTo || "deceased";
@@ -443,7 +445,7 @@ new Vue({
       });
     },
     selectAllPlaces: function() {
-      var allSelected = this.legend.length == this.countries.length;
+      var allSelected = this.allSelected;
       this.countries.forEach(function(c) {
         c.selected = (!allSelected || c.id === "total");
       });

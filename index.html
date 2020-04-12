@@ -157,10 +157,10 @@
             </v-list-tile-title>
           </v-list-tile-content>
           <span class="selectAll"
-            @click="selectAllPlaces()"
-            :title="'Select all ' + levelsLabel(level)"
+            @click="selectAllPlaces"
+            :title="(allSelected ? 'Uns' : 'S') + 'elect all ' + levelsLabel(level)"
           >
-            <v-icon>done_all</v-icon>
+            <v-icon>{{ allSelected ? "cancel_presentation" : "done_all" }}</v-icon>
           </span>
         </v-list-tile>
       </v-list>
