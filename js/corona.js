@@ -13,10 +13,12 @@ d3.formatDefaultLocale({
 d3.formatTimestamp = function(ts) {
   return new Date(ts * 1000).toISOString().slice(0, 16).replace("T", " ");
 }
-d3.strFormat = function(perCapita, forceDecimals) {
-  if (forceDecimals) return d3.format(",.1r");
-  if (perCapita) return d3.format(",.4r");
-  return d3.format(",d");
+d3.strFormat = function(perCapita) {
+  return function(d) {
+    return d3.format(perCapita ? ",.4r" : ",d")(d)
+      .replace(/(\d\.(0*[1-9])+)0+$/, '$1')
+      .replace(/\.0+$/, '');
+  };
 }
 d3.formatShift = function(x) {
   if (!x) return "";
@@ -601,18 +603,28 @@ new Vue({
           .attr("width", svgW)
           .attr("height", svgH);
 
-      // Draw multiples
       var hover = this.hover,
         displayTooltip = this.displayTooltip,
         clearTooltip = this.clearTooltip;
+
       var ticks = d3.axisBottom(xScale).tickFormat(d3.timeFormat("%b %d")).tickSizeOuter(0);
       if (width <= 200)
         ticks.ticks(1);
       else if (width <= 400)
         ticks.ticks(2);
+
+      var yTicks = d3.axisRight(yScale);
+      if (logarithmic) yTicks.ticks(4 * Math.floor(height / 125), d3.strFormat(perCapita));
+      else yTicks.ticks(4 * Math.floor(height / 125))
+        .tickFormat(d3.strFormat(perCapita));
+      yTicks.tickSize(-width - 6)
+        .tickSizeOuter(0);
+
       var singleWidth = width;
       if (perDay)
         singleWidth += xWidth / 2;
+
+      // Draw multiples
       this.legend.sort(function(a, b) {
         return b.maxValues[typVal][cas] - a.maxValues[typVal][cas];
       }).forEach(function(c, i) {
@@ -637,6 +649,14 @@ new Vue({
             .attr("x2", xScale.range()[1])
             .attr("y1", yScale(0))
             .attr("y2", yScale(0));
+
+        // Draw Y axis with grid
+          g.append("g")
+            .attr("class", "axis axis--y")
+            .attr("transform", "translate(" + singleWidth + ", 0)")
+            .call(yTicks)
+            .selectAll(".tick")
+              .attr("transform", function(d) { return "translate(6," + yScale(d) + ")"; });
 
         casesLegend.forEach(function(cas, idx) {
           if (perDay)
@@ -682,15 +702,11 @@ new Vue({
           }
         });
 
-        // Draw axis
+        // Draw Time axis
         g.append("g")
           .attr("class", "axis axis--x")
           .attr("transform", "translate(0, " + (height) + ")")
           .call(ticks);
-        g.append("g")
-          .attr("class", "axis axis--y")
-          .attr("transform", "translate(" + singleWidth + ", 0)")
-          .call(d3.axisRight(yScale).ticks(4 * Math.floor(height / 125), d3.strFormat(false, logarithmic && perCapita)).tickSizeOuter(0));
 
         // Draw tooltips surfaces
         g.append("g")
@@ -902,6 +918,20 @@ new Vue({
           .attr("y1", yScale(0))
           .attr("y2", yScale(0));
 
+      // Draw Y axis with grid
+      var yTicks = d3.axisRight(yScale);
+      if (logarithmic) yTicks.ticks(4 * Math.floor(height / 125), d3.strFormat(perCapita));
+      else yTicks.ticks(4 * Math.floor(height / 125))
+        .tickFormat(d3.strFormat(perCapita));
+      yTicks.tickSize(-width - 6)
+        .tickSizeOuter(0);
+      g.append("g")
+        .attr("class", "axis axis--y")
+        .attr("transform", "translate(" + (width) + ", 0)")
+        .call(yTicks)
+        .selectAll(".tick")
+          .attr("transform", function(d) { return "translate(6," + yScale(d) + ")"; });
+
       // Draw series
       if (perDay && this.vizChoice !== "series") {
         width += xWidth / 2;
@@ -968,7 +998,7 @@ new Vue({
         });
       }
 
-      // Draw axis
+      // Draw Time axis
       var ticksFormat = align_nthcase ? d3.formatDaysSince(start) : d3.timeFormat("%b %d"),
         ticks = d3.axisBottom(xScale)
         .ticks(4 * Math.floor(Math.min(zoomedDates.length / 4, width / 200)))
@@ -982,11 +1012,7 @@ new Vue({
           .style("text-anchor", "end")
           .attr("dx", "-.8em")
           .attr("dy", ".15em")
-          .attr("transform", "rotate(-50)");
-      g.append("g")
-        .attr("class", "axis axis--y")
-        .attr("transform", "translate(" + (width) + ", 0)")
-        .call(d3.axisRight(yScale).ticks(4 * Math.floor(height / 125), d3.strFormat(false, logarithmic && perCapita)).tickSizeOuter(0));
+          .attr("transform", "rotate(-30)");
 
       // Draw tooltips surfaces
       g.append("g")
