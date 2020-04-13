@@ -607,18 +607,16 @@ new Vue({
         displayTooltip = this.displayTooltip,
         clearTooltip = this.clearTooltip;
 
-      var ticks = d3.axisBottom(xScale).tickFormat(d3.timeFormat("%b %d")).tickSizeOuter(0);
+      var ticks = d3.axisBottom(xScale).tickFormat(d3.timeFormat("%b %d"));
       if (width <= 200)
         ticks.ticks(1);
       else if (width <= 400)
         ticks.ticks(2);
+      ticks.tickSizeOuter(0);
 
       var yTicks = d3.axisRight(yScale);
       if (logarithmic) yTicks.ticks(4 * Math.floor(height / 125), d3.strFormat(perCapita));
       else yTicks.ticks(4 * Math.floor(height / 125))
-        .tickFormat(d3.strFormat(perCapita));
-      yTicks.tickSize(-width - 6)
-        .tickSizeOuter(0);
 
       var singleWidth = width;
       if (perDay)
@@ -650,13 +648,15 @@ new Vue({
             .attr("y1", yScale(0))
             .attr("y2", yScale(0));
 
-        // Draw Y axis with grid
+        // Draw Y grid
           g.append("g")
-            .attr("class", "axis axis--y")
+            .attr("class", "grid")
             .attr("transform", "translate(" + singleWidth + ", 0)")
-            .call(yTicks)
-            .selectAll(".tick")
-              .attr("transform", function(d) { return "translate(6," + yScale(d) + ")"; });
+            .call(yTicks
+              .tickFormat("")
+              .tickSizeInner(-singleWidth)
+              .tickSizeOuter(0)
+            );
 
         casesLegend.forEach(function(cas, idx) {
           if (perDay)
@@ -707,6 +707,19 @@ new Vue({
           .attr("class", "axis axis--x")
           .attr("transform", "translate(0, " + (height) + ")")
           .call(ticks);
+
+        // Draw Y axis
+        yTicks = d3.axisRight(yScale);
+        if (logarithmic) yTicks.ticks(4 * Math.floor(height / 125), d3.strFormat(perCapita));
+        else yTicks.ticks(4 * Math.floor(height / 125))
+          .tickFormat(d3.strFormat(perCapita));
+        g.append("g")
+          .attr("class", "axis axis--y")
+          .attr("transform", "translate(" + singleWidth  + ", 0)")
+          .call(yTicks
+            .tickSizeInner(6)
+            .tickSizeOuter(0)
+          );
 
         // Draw tooltips surfaces
         g.append("g")
@@ -923,14 +936,13 @@ new Vue({
       if (logarithmic) yTicks.ticks(4 * Math.floor(height / 125), d3.strFormat(perCapita));
       else yTicks.ticks(4 * Math.floor(height / 125))
         .tickFormat(d3.strFormat(perCapita));
-      yTicks.tickSize(-width - 6)
-        .tickSizeOuter(0);
       g.append("g")
-        .attr("class", "axis axis--y")
+        .attr("class", "grid")
         .attr("transform", "translate(" + (width) + ", 0)")
-        .call(yTicks)
-        .selectAll(".tick")
-          .attr("transform", function(d) { return "translate(6," + yScale(d) + ")"; });
+        .call(yTicks
+          .tickFormat("")
+          .tickSizeInner(-width)
+        );
 
       // Draw series
       if (perDay && this.vizChoice !== "series") {
@@ -1013,6 +1025,19 @@ new Vue({
           .attr("dx", "-.8em")
           .attr("dy", ".15em")
           .attr("transform", "rotate(-30)");
+
+      // Draw Y axis
+      yTicks = d3.axisRight(yScale);
+      if (logarithmic) yTicks.ticks(4 * Math.floor(height / 125), d3.strFormat(perCapita));
+      else yTicks.ticks(4 * Math.floor(height / 125))
+        .tickFormat(d3.strFormat(perCapita));
+      g.append("g")
+        .attr("class", "axis axis--y")
+        .attr("transform", "translate(" + width  + ", 0)")
+        .call(yTicks
+          .tickSizeInner(6)
+          .tickSizeOuter(0)
+        );
 
       // Draw tooltips surfaces
       g.append("g")
