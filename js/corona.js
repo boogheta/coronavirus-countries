@@ -744,7 +744,7 @@ new Vue({
       var values = this.values[this.scope],
         cas = this.case,
         legend = this.legend.sort(this.staticCountriesSort("names", 1, 1)),
-        places = legend.slice().sort(this.staticCountriesSort("cases", 1, 1)),
+        places = legend.slice().sort(this.staticCountriesSort("cases", 1, -1)),
         min_shift = align_nthcase ? d3.min(places.map(function(c) { return -c.shift; })) : 0,
         n_places = legend.length,
         dates = this.scopes[this.scope].dates.slice(perDay ? 1 : 0),
@@ -849,10 +849,9 @@ new Vue({
             lastPos = null, lastNeg = null;
           places.forEach(function(c) {
             var val = values[c.id][cas][typVal][i + hiddenLeft];
-            if (c.id === 'total') {
+            if (c.id === 'total')
               stackedVals[c.id].push(val);
-              stackedNeighbors[c.id].push(val >= 0 ? lastPos : lastNeg);
-            } else if (val >= 0) {
+            else if (val >= 0) {
               posStack += val;
               stackedVals[c.id].push(posStack);
               stackedNeighbors[c.id].push(lastPos);
@@ -1112,10 +1111,10 @@ new Vue({
     },
     hoverCountry: function(c, hov) {
       if (this.perDay && this.vizChoice === 'stacked') {
-        d3.selectAll(".histogram").style("opacity", hov ? 0.5 : 1);
+        d3.selectAll(".histogram").style("opacity", hov ? 0.25 : 1);
         if (hov) d3.selectAll(".histogram." + c.id).style("opacity", 1);
       } else if (this.vizChoice === 'stacked') {
-        d3.selectAll(".line").style("opacity", hov ? 0.5 : 1)
+        d3.selectAll(".line").style("opacity", hov ? 0.25 : 1)
           .style("stroke", "none");
         if (hov) d3.select("#" + c.id).style("opacity", 1)
           .style("stroke", c.color);
