@@ -613,10 +613,7 @@ new Vue({
       else if (width <= 400)
         ticks.ticks(2);
       ticks.tickSizeOuter(0);
-
-      var yTicks = d3.axisRight(yScale);
-      if (logarithmic) yTicks.ticks(4 * Math.floor(height / 125), d3.strFormat(perCapita));
-      else yTicks.ticks(4 * Math.floor(height / 125))
+      var yTicks = d3.axisRight(yScale).ticks(4 * Math.floor(height / 125));
 
       var singleWidth = width;
       if (perDay)
@@ -932,10 +929,7 @@ new Vue({
           .attr("y2", yScale(0));
 
       // Draw Y axis with grid
-      var yTicks = d3.axisRight(yScale);
-      if (logarithmic) yTicks.ticks(4 * Math.floor(height / 125), d3.strFormat(perCapita));
-      else yTicks.ticks(4 * Math.floor(height / 125))
-        .tickFormat(d3.strFormat(perCapita));
+      var yTicks = d3.axisRight(yScale).ticks(4 * Math.floor(height / 125));
       g.append("g")
         .attr("class", "grid")
         .attr("transform", "translate(" + (width) + ", 0)")
