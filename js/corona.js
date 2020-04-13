@@ -760,7 +760,7 @@ new Vue({
       var values = this.values[this.scope],
         cas = this.case,
         legend = this.legend.sort(this.staticCountriesSort("names", 1, 1)),
-        places = legend.slice().sort(this.staticCountriesSort("cases", 1, -1)),
+        places = legend.slice().sort(this.staticCountriesSort("cases", 1, perDay ? -1 : 1)),
         min_shift = align_nthcase ? d3.min(places.map(function(c) { return -c.shift; })) : 0,
         n_places = legend.length,
         dates = this.scopes[this.scope].dates.slice(perDay ? 1 : 0),
