@@ -352,7 +352,7 @@ localities = {
         "level": u"region",
         "level_field": "CCAA",
         "date_accessor": lambda row: conv_fr(row["FECHA"]),
-        "filter": lambda row: row["FECHA"],
+        "filter": lambda row: row["FECHA"] and "/202" in row["FECHA"],
         "fields": {
             "confirmed": "CASOS",
             "recovered": "Recuperados",
