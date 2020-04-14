@@ -309,8 +309,8 @@ localities = {
     },
     "France": {
         "source": {
-          "name": "Santé Publique France",
-          "url": "https://www.data.gouv.fr/fr/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/",
+          "name": "Santé Publique France (curated by OpenCOVID19-fr)",
+          "url": "https://github.com/opencovid19-fr/data",
           "disclaimer": france_disclaimer
         },
         "filename": "chiffres-cles.csv",
@@ -327,7 +327,7 @@ localities = {
     },
     "France ": {
         "source": {
-          "name": "Open COVID19 France",
+          "name": "Santé Publique France (curated by OpenCOVID19-fr)",
           "url": "https://github.com/opencovid19-fr/data",
           "disclaimer": france_disclaimer
         },
@@ -349,7 +349,7 @@ localities = {
           "url": "https://covid19.isciii.es"
         },
         "filename": "serie_historica_acumulados.csv",
-        "level": u"region",
+        "level": u"autonom. community",
         "level_field": "CCAA",
         "date_accessor": lambda row: conv_fr(row["FECHA"]),
         "filter": lambda row: row["FECHA"] and "/202" in row["FECHA"],
@@ -363,7 +363,7 @@ localities = {
     },
     "Germany": {
         "source": {
-          "name": "Robert Koch Institute (transcribed by Michael Große)",
+          "name": "Robert Koch Institute (curated by Michael Große)",
           "url": "https://github.com/micgro42/COVID-19-DE"
         },
         "filename": "germany.csv",
@@ -377,7 +377,7 @@ localities = {
     },
     "UK": {
         "source": {
-          "name": "COVID-19 UK data by Tom White",
+          "name": "UK NHS (curated by Tom White)",
           "url": "https://github.com/tomwhite/covid-19-uk-data"
         },
         "filename": "",
@@ -394,7 +394,7 @@ localities = {
     },
     "UK ": {
         "source": {
-          "name": "COVID-19 UK data by Tom White",
+          "name": "UK NHS (curated by Tom White)",
           "url": "https://github.com/tomwhite/covid-19-uk-data"
         },
         "filename": "",
