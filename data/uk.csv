@@ -1,0 +1,301 @@
+date,country,confirmed,deceased
+2020-01-30,Wales,0,0
+2020-01-30,England,0,0
+2020-01-30,Scotland,0,0
+2020-01-30,Northern Ireland,0,0
+2020-01-31,Wales,0,0
+2020-01-31,England,2,0
+2020-01-31,Scotland,0,0
+2020-01-31,Northern Ireland,0,0
+2020-02-01,Wales,0,0
+2020-02-01,England,2,0
+2020-02-01,Scotland,0,0
+2020-02-01,Northern Ireland,0,0
+2020-02-02,Wales,0,0
+2020-02-02,England,2,0
+2020-02-02,Scotland,0,0
+2020-02-02,Northern Ireland,0,0
+2020-02-03,Wales,0,0
+2020-02-03,England,2,0
+2020-02-03,Scotland,0,0
+2020-02-03,Northern Ireland,0,0
+2020-02-04,Wales,0,0
+2020-02-04,England,2,0
+2020-02-04,Scotland,0,0
+2020-02-04,Northern Ireland,0,0
+2020-02-05,Wales,0,0
+2020-02-05,England,2,0
+2020-02-05,Scotland,0,0
+2020-02-05,Northern Ireland,0,0
+2020-02-06,Wales,0,0
+2020-02-06,England,3,0
+2020-02-06,Scotland,0,0
+2020-02-06,Northern Ireland,0,0
+2020-02-07,Wales,0,0
+2020-02-07,England,3,0
+2020-02-07,Scotland,0,0
+2020-02-07,Northern Ireland,0,0
+2020-02-08,Wales,0,0
+2020-02-08,England,3,0
+2020-02-08,Scotland,0,0
+2020-02-08,Northern Ireland,0,0
+2020-02-09,Wales,0,0
+2020-02-09,England,4,0
+2020-02-09,Scotland,0,0
+2020-02-09,Northern Ireland,0,0
+2020-02-10,Wales,0,0
+2020-02-10,England,8,0
+2020-02-10,Scotland,0,0
+2020-02-10,Northern Ireland,0,0
+2020-02-11,Wales,0,0
+2020-02-11,England,8,0
+2020-02-11,Scotland,0,0
+2020-02-11,Northern Ireland,0,0
+2020-02-12,Wales,0,0
+2020-02-12,England,8,0
+2020-02-12,Scotland,0,0
+2020-02-12,Northern Ireland,0,0
+2020-02-13,Wales,0,0
+2020-02-13,England,9,0
+2020-02-13,Scotland,0,0
+2020-02-13,Northern Ireland,0,0
+2020-02-14,Wales,0,0
+2020-02-14,England,9,0
+2020-02-14,Scotland,0,0
+2020-02-14,Northern Ireland,0,0
+2020-02-15,Wales,0,0
+2020-02-15,England,9,0
+2020-02-15,Scotland,0,0
+2020-02-15,Northern Ireland,0,0
+2020-02-16,Wales,0,0
+2020-02-16,England,9,0
+2020-02-16,Scotland,0,0
+2020-02-16,Northern Ireland,0,0
+2020-02-17,Wales,0,0
+2020-02-17,England,9,0
+2020-02-17,Scotland,0,0
+2020-02-17,Northern Ireland,0,0
+2020-02-18,Wales,0,0
+2020-02-18,England,9,0
+2020-02-18,Scotland,0,0
+2020-02-18,Northern Ireland,0,0
+2020-02-19,Wales,0,0
+2020-02-19,England,9,0
+2020-02-19,Scotland,0,0
+2020-02-19,Northern Ireland,0,0
+2020-02-20,Wales,0,0
+2020-02-20,England,9,0
+2020-02-20,Scotland,0,0
+2020-02-20,Northern Ireland,0,0
+2020-02-21,Wales,0,0
+2020-02-21,England,9,0
+2020-02-21,Scotland,0,0
+2020-02-21,Northern Ireland,0,0
+2020-02-22,Wales,0,0
+2020-02-22,England,9,0
+2020-02-22,Scotland,0,0
+2020-02-22,Northern Ireland,0,0
+2020-02-23,Wales,0,0
+2020-02-23,England,9,0
+2020-02-23,Scotland,0,0
+2020-02-23,Northern Ireland,0,0
+2020-02-24,Wales,0,0
+2020-02-24,England,13,0
+2020-02-24,Scotland,0,0
+2020-02-24,Northern Ireland,0,0
+2020-02-25,Wales,0,0
+2020-02-25,England,13,0
+2020-02-25,Scotland,0,0
+2020-02-25,Northern Ireland,0,0
+2020-02-26,Wales,0,0
+2020-02-26,England,13,0
+2020-02-26,Scotland,0,0
+2020-02-26,Northern Ireland,0,0
+2020-02-27,Wales,0,0
+2020-02-27,England,12,0
+2020-02-27,Scotland,0,0
+2020-02-27,Northern Ireland,1,0
+2020-02-28,Wales,1,0
+2020-02-28,England,17,0
+2020-02-28,Scotland,0,0
+2020-02-28,Northern Ireland,1,0
+2020-02-29,Wales,1,0
+2020-02-29,England,21,0
+2020-02-29,Scotland,0,0
+2020-02-29,Northern Ireland,1,0
+2020-03-01,Wales,1,0
+2020-03-01,England,33,0
+2020-03-01,Scotland,0,0
+2020-03-01,Northern Ireland,1,0
+2020-03-02,Wales,1,0
+2020-03-02,England,37,0
+2020-03-02,Scotland,1,0
+2020-03-02,Northern Ireland,1,0
+2020-03-03,Wales,1,0
+2020-03-03,England,48,0
+2020-03-03,Scotland,1,0
+2020-03-03,Northern Ireland,1,0
+2020-03-04,Wales,1,0
+2020-03-04,England,78,0
+2020-03-04,Scotland,3,0
+2020-03-04,Northern Ireland,3,0
+2020-03-05,Wales,2,0
+2020-03-05,England,103,0
+2020-03-05,Scotland,6,0
+2020-03-05,Northern Ireland,3,0
+2020-03-06,Wales,2,0
+2020-03-06,England,143,1
+2020-03-06,Scotland,11,0
+2020-03-06,Northern Ireland,3,0
+2020-03-07,Wales,2,0
+2020-03-07,England,184,2
+2020-03-07,Scotland,16,0
+2020-03-07,Northern Ireland,7,0
+2020-03-08,Wales,4,0
+2020-03-08,England,244,2
+2020-03-08,Scotland,18,0
+2020-03-08,Northern Ireland,12,0
+2020-03-09,Wales,6,0
+2020-03-09,England,280,3
+2020-03-09,Scotland,23,0
+2020-03-09,Northern Ireland,12,0
+2020-03-10,Wales,15,0
+2020-03-10,England,324,6
+2020-03-10,Scotland,27,0
+2020-03-10,Northern Ireland,16,0
+2020-03-11,Wales,19,0
+2020-03-11,England,387,6
+2020-03-11,Scotland,36,0
+2020-03-11,Northern Ireland,18,0
+2020-03-12,Wales,25,0
+2020-03-12,England,491,8
+2020-03-12,Scotland,60,0
+2020-03-12,Northern Ireland,20,0
+2020-03-13,Wales,38,0
+2020-03-13,England,645,10
+2020-03-13,Scotland,85,0
+2020-03-13,Northern Ireland,29,0
+2020-03-14,Wales,60,0
+2020-03-14,England,925,20
+2020-03-14,Scotland,121,1
+2020-03-14,Northern Ireland,34,0
+2020-03-15,Wales,94,0
+2020-03-15,England,1099,34
+2020-03-15,Scotland,153,1
+2020-03-15,Northern Ireland,45,0
+2020-03-16,Wales,124,1
+2020-03-16,England,1196,53
+2020-03-16,Scotland,171,1
+2020-03-16,Northern Ireland,52,0
+2020-03-17,Wales,136,2
+2020-03-17,England,1557,67
+2020-03-17,Scotland,195,2
+2020-03-17,Northern Ireland,62,0
+2020-03-18,Wales,149,2
+2020-03-18,England,2182,98
+2020-03-18,Scotland,227,3
+2020-03-18,Northern Ireland,68,0
+2020-03-19,Wales,170,2
+2020-03-19,England,2756,135
+2020-03-19,Scotland,266,6
+2020-03-19,Northern Ireland,77,1
+2020-03-20,Wales,191,3
+2020-03-20,England,3384,167
+2020-03-20,Scotland,322,6
+2020-03-20,Northern Ireland,86,1
+2020-03-21,Wales,280,3
+2020-03-21,England,4257,222
+2020-03-21,Scotland,373,7
+2020-03-21,Northern Ireland,108,1
+2020-03-22,Wales,347,12
+2020-03-22,England,4792,257
+2020-03-22,Scotland,416,10
+2020-03-22,Northern Ireland,128,2
+2020-03-23,Wales,418,16
+2020-03-23,England,5585,303
+2020-03-23,Scotland,499,14
+2020-03-23,Northern Ireland,148,2
+2020-03-24,Wales,478,17
+2020-03-24,England,6843,385
+2020-03-24,Scotland,584,16
+2020-03-24,Northern Ireland,172,4
+2020-03-25,Wales,628,22
+2020-03-25,England,7973,412
+2020-03-25,Scotland,719,22
+2020-03-25,Northern Ireland,209,7
+2020-03-26,Wales,741,28
+2020-03-26,England,9782,515
+2020-03-26,Scotland,894,25
+2020-03-26,Northern Ireland,241,10
+2020-03-27,Wales,921,34
+2020-03-27,England,12288,679
+2020-03-27,Scotland,1059,33
+2020-03-27,Northern Ireland,275,13
+2020-03-28,Wales,1093,38
+2020-03-28,England,14427,926
+2020-03-28,Scotland,1245,40
+2020-03-28,Northern Ireland,324,15
+2020-03-29,Wales,1241,48
+2020-03-29,England,16487,1125
+2020-03-29,Scotland,1384,41
+2020-03-29,Northern Ireland,410,21
+2020-03-30,Wales,1451,62
+2020-03-30,England,18594,1284
+2020-03-30,Scotland,1563,47
+2020-03-30,Northern Ireland,533,22
+2020-03-31,Wales,1563,69
+2020-03-31,England,21008,1651
+2020-03-31,Scotland,1993,69
+2020-03-31,Northern Ireland,586,28
+2020-04-01,Wales,1837,98
+2020-04-01,England,24638,2166
+2020-04-01,Scotland,2310,97
+2020-04-01,Northern Ireland,689,30
+2020-04-02,Wales,2121,117
+2020-04-02,England,28221,2698
+2020-04-02,Scotland,2602,126
+2020-04-02,Northern Ireland,774,36
+2020-04-03,Wales,2466,141
+2020-04-03,England,31797,3302
+2020-04-03,Scotland,3001,172
+2020-04-03,Northern Ireland,904,48
+2020-04-04,Wales,2853,154
+2020-04-04,England,34707,3939
+2020-04-04,Scotland,3345,218
+2020-04-04,Northern Ireland,998,56
+2020-04-05,Wales,3197,166
+2020-04-05,England,39814,4494
+2020-04-05,Scotland,3706,220
+2020-04-05,Northern Ireland,1089,63
+2020-04-06,Wales,3499,193
+2020-04-06,England,42990,4897
+2020-04-06,Scotland,3961,222
+2020-04-06,Northern Ireland,1158,70
+2020-04-07,Wales,3790,212
+2020-04-07,England,45968,5655
+2020-04-07,Scotland,4229,296
+2020-04-07,Northern Ireland,1255,73
+2020-04-08,Wales,4073,245
+2020-04-08,England,50756,6483
+2020-04-08,Scotland,4565,366
+2020-04-08,Northern Ireland,1339,78
+2020-04-09,Wales,4089,286
+2020-04-09,England,54554,7248
+2020-04-09,Scotland,4957,447
+2020-04-09,Northern Ireland,1477,82
+2020-04-10,Wales,4591,315
+2020-04-10,England,58817,8114
+2020-04-10,Scotland,5275,495
+2020-04-10,Northern Ireland,1589,92
+2020-04-11,Wales,4930,351
+2020-04-11,England,62658,8937
+2020-04-11,Scotland,5590,542
+2020-04-11,Northern Ireland,1717,107
+2020-04-12,Wales,5297,369
+2020-04-12,England,66330,9594
+2020-04-12,Scotland,5912,566
+2020-04-12,Northern Ireland,1806,118
+2020-04-13,Wales,5610,384
+2020-04-13,England,69329,10261
+2020-04-13,Scotland,6067,575
+2020-04-13,Northern Ireland,1882,124

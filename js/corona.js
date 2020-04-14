@@ -10,10 +10,15 @@ d3.formatDefaultLocale({
   "grouping": [3],
   "currency": ["", ""],
 });
-d3.strFormat = function(perCapita, forceDecimals) {
-  if (forceDecimals) return d3.format(",.1r");
-  if (perCapita) return d3.format(",.4r");
-  return d3.format(",d");
+d3.formatTimestamp = function(ts) {
+  return new Date(ts * 1000).toISOString().slice(0, 16).replace("T", " ");
+}
+d3.strFormat = function(perCapita) {
+  return function(d) {
+    return d3.format(perCapita ? ",.4r" : ",d")(d)
+      .replace(/(\d\.(0*[1-9])+)0+$/, '$1')
+      .replace(/\.0+$/, '');
+  };
 }
 d3.formatShift = function(x) {
   if (!x) return "";
@@ -49,7 +54,9 @@ new Vue({
     scopes: {},
     scopeChoices: [],
     level: "country",
+    source: {},
     countries: [],
+    allSelected: false,
     defaultPlaces: {
       //World: ["Italy", "Iran", "South Korea", "France", "Germany", "Spain", "USA"],
     },
@@ -59,22 +66,27 @@ new Vue({
     refCountries: {},
     values: {},
     cases: [
-      {id: "confirmed",       selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[0]},
+      {id: "tested",          selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[2], disabled: true},
+      {id: "confirmed",       selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[0], disabled: true},
       {id: "recovered",       selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[1], disabled: true},
-      {id: "deceased",        selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[22]},
-      {id: "currently_sick",  selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[3], disabled: true}
+      {id: "currently_sick",  selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[19], disabled: true},
+      {id: "hospitalized",    selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[8], disabled: true},
+      {id: "intensive_care",  selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[4], disabled: true},
+      {id: "deceased",        selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[22], disabled: true}
     ],
-    oldrecovered: false,
     caseChoice: null,
     refCase: "deceased",
     refCases: [
         {id: "confirmed", min_cases: 50, max_dates: 20},
         {id: "deceased",  min_cases: 10, max_dates: 30}
     ],
-    logarithmic: false,
     perCapita: false,
+    scaleChoice: "linear",
+    logarithmic: false,
     perDay: false,
+    smoothen: false,
     vizChoice: "series",
+    legendFontSize: 14,
     resizing: null,
     hoverDate: "",
     curExtent: null,
@@ -82,7 +94,7 @@ new Vue({
     hiddenRight: 0,
     no_country_selected: [{
       name: "Please select at least one place",
-      color: "grey",
+      color: "lightgrey",
       value: "",
       selected: true,
       inactive: true
@@ -111,7 +123,8 @@ new Vue({
     },
     caseLabel: function() { return (this.case || "cases").replace(/_/g, ' '); },
     casesChosen: function() {
-      return this.casesLegend.map(function(c) { return c.id }).join("&");
+      return this.cases.filter(function(c) { return c.selected; })
+        .map(function(c) { return c.id }).join("&");
     },
     refCountrySelected: function() {
       return !!this.refCountry;
@@ -127,18 +140,18 @@ new Vue({
     url: function() {
       if (this.init) return window.location.hash.slice(1);
       return (this.scope !== "World" ? "country="+this.scope+"&" : "") +
-        (this.vizChoice === 'multiples' ? this.casesChosen : this.case) +
-        (this.logarithmic ? "&log" : "") +
+        (this.vizChoice === "multiples" ? this.casesChosen : this.case) +
+        (this.logarithmic ? "&log" : (this.perDay ? "&daily" : "")) +
         (this.perCapita ? "&ratio" : "") +
-        (this.perDay ? "&daily" : "") +
+        (this.perDay && this.vizChoice === 'series' && this.smoothen ? "&smooth" : "") +
         (this.vizChoice !== 'series' ? "&" + this.vizChoice : "") +
         "&places=" + (this.legend.length ? this.legend : this.scopes[this.scope].countries.filter(function(c) { return c.selected; }))
-          .sort(this.staticCountriesSort(null, "names"))
+          .sort(this.staticCountriesSort("names"))
           .map(function(c) { return c.name.replace(/ /g, '%20'); })
           .join(",") +
         (this.refCountry ? "&align=" + this.refCountry : "") +
         "&alignTo=" + this.refCase +
-        (this.oldrecovered ? "&oldrecovered" : "");
+        (this.hiddenLeft || this.hiddenRight ? "&zoom=" + this.hiddenLeft + "," + this.hiddenRight : "");
     }
   },
   watch: {
@@ -146,34 +159,43 @@ new Vue({
       window.location.hash = newValue;
       gtag('config', GA_MEASUREMENT_ID, {'page_path': location.pathname + location.search + location.hash});
     },
+    scaleChoice: function() {
+      this.logarithmic = (this.scaleChoice === "logarithmic");
+      this.perDay = (this.scaleChoice === "daily");
+    },
     scope: function(newValue, oldValue) {
       this.countries.forEach(function(c) {
         c.shift = 0;
       });
       this.level = this.scopes[newValue].level;
+      this.source = this.scopes[newValue].source;
+      this.lastUpdateStr = d3.formatTimestamp(this.scopes[newValue].lastUpdate);
       this.countries = this.scopes[newValue].countries;
       var refCase = this.refCase,
         cas = this.refCases.filter(function(c){ return c.id === refCase; })[0];
+      this.updateDisabledCases();
       this.refCountries[newValue] = this.countries.filter(function(c) {
         return c.maxValues["total"][cas.id] >= 3 * cas.min_cases;
       }).sort(function(a, b) {
         return b.maxValues["total"][cas.id] - a.maxValues["total"][cas.id];
       });
-      if (oldValue) this.refCountry = null;
+      if (oldValue) {
+        this.refCountry = null;
+        this.hiddenLeft = 0;
+        this.hiddenRight = 0;
+      }
       this.countriesOrder = "cases";
       if (!this.countries.filter(function(c) { return c.selected; }).length) {
         var startPlaces = (
           this.defaultPlaces[this.scope] ||
-          this.countries.sort(this.staticCountriesSort(this.case, "cases", 1, 1))
-            .slice(0, 7)
+          this.countries.slice().sort(this.staticCountriesSort("cases", 1, -1))
+            .slice(1, 8)
             .map(function(c) { return c.name; })
         );
         this.countries.forEach(function(c) {
           c.selected = !!~startPlaces.indexOf(c.name);
         });
       }
-      this.hiddenLeft = 0;
-      this.hiddenRight = 0;
       this.sortCountries();
     },
     refCase: function() {
@@ -194,19 +216,11 @@ new Vue({
       this.hiddenLeft = 0;
       this.hiddenRight = 0;
       this.refCountry = null;
-      this.$nextTick(this.resizeMenu);
       if (this.vizChoice === 'stacked') {
-        this.logarithmic = false;
+        if (this.logarithmic) this.scaleChoice = "linear";
         this.perCapita = false;
       }
-    },
-    oldrecovered: function(newValue) {
-      this.cases.forEach(function(c) {
-        if (c.id !== "recovered" && c.id !== "currently_sick") return;
-        c.disabled = !newValue;
-      });
       this.$nextTick(this.resizeMenu);
-      this.download_data();
     }
   },
   mounted: function() {
@@ -219,23 +233,26 @@ new Vue({
       this.resizing = setTimeout(this.resize, 50);
     },
     resizeMenu: function() {
-      var menuH = window.innerHeight - (
-        document.querySelector("nav").getBoundingClientRect().height +
+      var menuH = window.innerHeight - 
+        document.querySelector("nav").getBoundingClientRect().height,
+        countriesH = menuH - (
         document.getElementById("controls").getBoundingClientRect().height +
         document.getElementById("lowermenu").getBoundingClientRect().height + 2);
-      document.getElementById("countries").style.height = menuH + "px";
+      document.getElementById("menu").style.height = menuH + "px";
+      document.getElementById("countries").style.height = Math.max(180, countriesH) + "px";
     },
     resize: function() {
-      this.resizeMenu();
       this.draw();
       this.resizing = null;
     },
-    readUrl: function() {
+    readUrl: function(reload) {
       var el, options = {countries: []};
       window.location.hash.slice(1).split(/&/).forEach(function(opt) {
         el = decodeURIComponent(opt).split(/=/);
         if (el[0] === "countries" || el[0] === "places")
           options.countries = el[1] ? el[1].split(/,/) : [];
+        else if (el[0] === "zoom")
+          options.zoom = el[1] ? el[1].split(/,/) : [];
         else if (el[0] === "country")
           options.scope = el[1];
         else if (el[0] === "alignTo")
@@ -245,6 +262,8 @@ new Vue({
         else options[el[0]] = true;
       });
       this.scope = options.scope || "World";
+      this.lastUpdateStr = d3.formatTimestamp(this.scopes[this.scope].lastUpdate);
+      this.updateDisabledCases();
       if (this.init) {
         if (!options.countries.length)
           options.countries = this.scopes[this.scope].countries.filter(function(c) {
@@ -253,16 +272,22 @@ new Vue({
             return c.name;
           });
       }
-      if (!options.confirmed && !options.recovered && !options.deceased && !options.currently_sick)
+      if (!options.confirmed && !options.recovered && !options.deceased && !options.currently_sick && !options.tested && !options.intensive_care && !options.hospitalized)
         options.deceased = true;
-      this.logarithmic = !!options.log;
+      if (options.log) this.scaleChoice = "logarithmic";
+      else if (options.daily) this.scaleChoice = "daily";
+      else this.scaleChoice = "linear";
       this.perCapita = !!options.ratio;
-      this.perDay = !!options.daily;
+      this.smoothen = !!options.smooth;
       if (options.stacked)
         this.vizChoice = 'stacked';
       else if (options.multiples)
         this.vizChoice = 'multiples';
       else this.vizChoice = 'series';
+      if (options.zoom) {
+        this.hiddenLeft = +options.zoom[0];
+        this.hiddenRight = +options.zoom[1];
+      }
       this.cases.forEach(function(c) {
         c.selected = !!options[c.id] && !c.disabled;
       });
@@ -271,9 +296,10 @@ new Vue({
       this.countries.forEach(function(c) {
         c.selected = !!~options.countries.indexOf(c.name);
       });
+      this.allSelected = options.countries.length === this.countries.length;
+      if (reload) this.sortCountries();
       this.refCountry = options.align || null;
       this.refCase = options.alignTo || "deceased";
-      this.oldrecovered = !!options.oldrecovered;
       if (this.init) {
         this.init = false;
         this.$nextTick(this.resize);
@@ -284,9 +310,12 @@ new Vue({
     download_data: function() {
       var cacheBypass = new Date().getTime();
       d3.json(
-        "data/coronavirus-countries" + (this.oldrecovered ? "-oldrecovered.json" : ".json?" + cacheBypass),
+        "data/coronavirus-countries.json?" + cacheBypass,
         this.prepareData
       );
+    },
+    levelsLabel: function(level) {
+      return (level + "s").replace(/ys$/, "ies");
     },
     prepareData: function(data) {
     // WARNING: at startup, url wasn't read yet, so cas here is always deceased then (it does not matter since it is only used to resort existing countries at reload)
@@ -299,7 +328,7 @@ new Vue({
         countriesColors = this.countriesColors,
         defaultPlaces = this.defaultPlaces,
         staticCountriesSort = this.staticCountriesSort,
-        levelLabel = this.levelLabel;
+        levelsLabel = this.levelsLabel;
       Object.keys(data.scopes).forEach(function(scope) {
         values[scope] = {};
         cases.forEach(function(ca) {
@@ -307,19 +336,20 @@ new Vue({
             ca[typVal][scope] = 0;
           });
         });
-        var level = data.scopes[scope].level,
-          totalPop = 0,
+        var validCases = Object.keys(data.scopes[scope].values.total),
           dates = data.scopes[scope].dates || data.dates,
+          totalPop = 0,
           countries = Object.keys(data.scopes[scope].values)
           .map(function(c) {
             var maxVals = {total: {}, daily: {}, totalPop: {}, dailyPop: {}},
+              minVals = {daily: {}, dailyPop: {}},
               lastVals = {total: {}, daily: {}, totalPop: {}, dailyPop: {}},
               cid = c.toLowerCase().replace(/[^a-z]/g, ''),
               pop = data.scopes[scope].values[c]["population"];
             if (c !== "total") totalPop += pop;
             values[scope][cid] = {};
             cases.forEach(function(ca) {
-              if (ca.disabled) return;
+              if (!~validCases.indexOf(ca.id)) return;
               values[scope][cid][ca.id] = {
                 total: data.scopes[scope].values[c][ca.id],
                 daily: data.scopes[scope].values[c][ca.id]
@@ -331,6 +361,7 @@ new Vue({
               values[scope][cid][ca.id].totalPop = values[scope][cid][ca.id].total.map(function(v) { return pop ? v * 1000000 / pop : 0});
               values[scope][cid][ca.id].dailyPop = values[scope][cid][ca.id].daily.map(function(v) { return pop ? v * 1000000 / pop : 0});
               ["total", "daily", "totalPop", "dailyPop"].forEach(function(typVal) {
+                if (typVal.slice(0, 5) === "daily") minVals[typVal][ca.id] = d3.min(values[scope][cid][ca.id][typVal]);
                 maxVals[typVal][ca.id] = d3.max(values[scope][cid][ca.id][typVal]);
                 lastVals[typVal][ca.id] = values[scope][cid][ca.id][typVal][values[scope][cid][ca.id][typVal].length - 1];
               });
@@ -347,6 +378,7 @@ new Vue({
               value: null,
               shift: 0,
               shiftStr: "",
+              minValues: minVals,
               maxValues: maxVals,
               lastValues: lastVals,
               lastStr: "",
@@ -354,13 +386,16 @@ new Vue({
             };
           });
         scopes[scope] = {
-          level: level,
+          level: data.scopes[scope].level,
+          source: data.scopes[scope].source,
+          lastUpdate: data.scopes[scope].lastUpdate,
           countries: countries,
           dates: dates.map(d3.datize),
-          extent: Math.round((dates[dates.length - 1] - dates[0]) / (1000*60*60*24))
+          extent: Math.round((dates[dates.length - 1] - dates[0]) / (1000*60*60*24)),
+          cases: validCases
         }
         scopes[scope].countries
-          .sort(staticCountriesSort(cas, "cases", 1, 1))
+          .sort(staticCountriesSort("cases", 1, 1))
           .forEach(function(c, i) {
             if (!countriesColors[c.id])
               countriesColors[c.id] = d3.defaultColors[i % d3.defaultColors.length];
@@ -374,7 +409,7 @@ new Vue({
         });
         scopeChoices.push({
           name: scope,
-          label: scope + " " + levelLabel(scopes[scope].level)
+          label: scope + " " + levelsLabel(scopes[scope].level)
         });
       });
       scopeChoices.sort(function(a, b) {
@@ -385,11 +420,13 @@ new Vue({
         return 0;
       });
       if (!this.countriesOrder) this.countriesOrder = "cases";
-      this.lastUpdateStr = new Date(data.last_update*1000).toUTCString();
-      this.readUrl();
+      this.readUrl(true);
     },
-    levelLabel: function(level) {
-      return (level + "s").replace(/ys$/, "ies");
+    updateDisabledCases: function() {
+      var cases = this.scopes[this.scope].cases;
+      this.cases.forEach(function(c) {
+        c.disabled = !~cases.indexOf(c.id);
+      });
     },
     selectCase: function(newCase) {
       if (this.vizChoice !== 'multiples') {
@@ -404,13 +441,20 @@ new Vue({
         cas.selected = !cas.selected;
       }
     },
-    keepOnlyCountry: function(keep) {
+    keepOnlyPlace: function(keep) {
       this.countries.forEach(function(c) {
         c.selected = (c.name === keep);
       });
     },
-    staticCountriesSort: function(cas, field, order, totalLast) {
-      var typVal = this.typVal;
+    selectAllPlaces: function() {
+      var allSelected = this.allSelected;
+      this.countries.forEach(function(c) {
+        c.selected = (!allSelected || c.id === "total");
+      });
+    },
+    staticCountriesSort: function(field, order, totalLast) {
+      var typVal = this.typVal,
+        cas = this.case;
       if (!order) order = 1;
       return function(a, b) {
         if (totalLast) {
@@ -427,7 +471,7 @@ new Vue({
       };
     },
     sortCountries: function() {
-      return this.countries.sort(this.staticCountriesSort(this.case, this.countriesOrder, 1, -1));
+      this.countries.sort(this.staticCountriesSort(this.countriesOrder, 1, -1));
     },
     alignPlaces: function() {
       var refCountry = this.refCountry;
@@ -484,12 +528,13 @@ new Vue({
       });
     },
     draw: function() {
-      d3.select(".svg").selectAll("svg").remove();
+      d3.selectAll("svg").remove();
 
       this.alignPlaces();
       if (this.vizChoice === 'multiples') this.drawMultiples();
       else this.drawSeries();
 
+      this.resizeMenu();
       this.clearTooltip();
     },
     drawMultiples: function() {
@@ -529,16 +574,18 @@ new Vue({
         xHistoWidth = xWidth / (2 * n_cases),
         xHistoGap = xWidth / (4 * n_cases),
         xHistoPosition = function(d, idx) { return xPosition(d) + (2 * idx + 1) * xHistoGap + idx * xHistoWidth; },
+        multiplesMin = function(c) { return d3.min(casesLegend.map(function(cas) { return c.minValues[typVal][cas.id]; })); },
         multiplesMax = function(c) { return d3.max(casesLegend.map(function(cas) { return c.maxValues[typVal][cas.id]; })); },
         maxValues = legend.map(multiplesMax),
         yMax = Math.max(0, d3.max(maxValues)),
-        yMin = logarithmic ? (perCapita ? 0.001 : 1) : 0,
+        yMin = perDay ? Math.min(0, d3.min(legend.map(multiplesMin))) : (logarithmic ? (perCapita ? 0.001 : 1) : 0),
         yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]().range([height, 0]).domain([yMin, yMax]),
         yPosition = function(c, ca, i) {
           var val = values[c][ca][typVal][i] + 0;
-          if (perDay && val < 0) val = 0
           return yScale(logarithmic && val < yMin ? yMin : val);
-        };
+        },
+        legendFontSize = 14 - Math.floor(columns / 2);
+      this.legendFontSize = legendFontSize;
       this.no_country_selected[0].style = {
         "background-color": "lightgrey!important",
         top: (svgH / 2 - 20) + "px",
@@ -556,16 +603,23 @@ new Vue({
           .attr("width", svgW)
           .attr("height", svgH);
 
-      // Draw multiples
       var hover = this.hover,
         displayTooltip = this.displayTooltip,
         clearTooltip = this.clearTooltip;
-      var ticks = d3.axisBottom(xScale).tickFormat(d3.timeFormat("%b %d")).tickSizeOuter(0);
-      if (width <= 400)
+
+      var ticks = d3.axisBottom(xScale).tickFormat(d3.timeFormat("%b %d"));
+      if (width <= 200)
+        ticks.ticks(1);
+      else if (width <= 400)
         ticks.ticks(2);
+      ticks.tickSizeOuter(0);
+      var yTicks = d3.axisRight(yScale).ticks(4 * Math.floor(height / 125));
+
       var singleWidth = width;
       if (perDay)
         singleWidth += xWidth / 2;
+
+      // Draw multiples
       this.legend.sort(function(a, b) {
         return b.maxValues[typVal][cas] - a.maxValues[typVal][cas];
       }).forEach(function(c, i) {
@@ -574,12 +628,32 @@ new Vue({
           xPos = margin.left + xIdx * (width + margin.horiz),
           yPos = margin.top + yIdx * (height + margin.vert);
         c.style = {
+          "font-size": legendFontSize + "px",
           "background-color": "lightgrey!important",
           top: (yPos - 10) + "px",
           left: (xPos - 5) + "px"
-        }
+        };
         var g = svg.append("g")
           .attr("transform", "translate(" + xPos + "," + yPos + ")");
+
+        // Draw zero axis
+        if (perDay)
+          g.append("line")
+            .attr("class", "domain axis")
+            .attr("x1", xScale.range()[0])
+            .attr("x2", xScale.range()[1])
+            .attr("y1", yScale(0))
+            .attr("y2", yScale(0));
+
+        // Draw Y grid
+          g.append("g")
+            .attr("class", "grid")
+            .attr("transform", "translate(" + singleWidth + ", 0)")
+            .call(yTicks
+              .tickFormat("")
+              .tickSizeInner(-singleWidth)
+              .tickSizeOuter(0)
+            );
 
         casesLegend.forEach(function(cas, idx) {
           if (perDay)
@@ -594,9 +668,9 @@ new Vue({
                 .attr("fill", cas.color)
                 .attr("stroke", cas.color)
                 .attr("x", function(d) { return xHistoPosition(d, idx); })
-                .attr("y", function(d, i) { return yPosition(c.id, cas.id, i); })
+                .attr("y", function(d, i) { return Math.min(yScale(0), yPosition(c.id, cas.id, i)); })
                 .attr("width", xHistoWidth)
-                .attr("height", function(d, i) { return yScale.range()[0] - yPosition(c.id, cas.id, i); });
+                .attr("height", function(d, i) { return Math.abs(yScale(0) - yPosition(c.id, cas.id, i)); });
           else {
             g.append("path")
               .datum(dates)
@@ -625,15 +699,24 @@ new Vue({
           }
         });
 
-        // Draw axis
+        // Draw Time axis
         g.append("g")
           .attr("class", "axis axis--x")
           .attr("transform", "translate(0, " + (height) + ")")
           .call(ticks);
+
+        // Draw Y axis
+        yTicks = d3.axisRight(yScale);
+        if (logarithmic) yTicks.ticks(4 * Math.floor(height / 125), d3.strFormat(perCapita));
+        else yTicks.ticks(4 * Math.floor(height / 125))
+          .tickFormat(d3.strFormat(perCapita));
         g.append("g")
           .attr("class", "axis axis--y")
-          .attr("transform", "translate(" + singleWidth + ", 0)")
-          .call(d3.axisRight(yScale).ticks(4 * Math.floor(height / 125), d3.strFormat(false, logarithmic && perCapita)).tickSizeOuter(0));
+          .attr("transform", "translate(" + singleWidth  + ", 0)")
+          .call(yTicks
+            .tickSizeInner(6)
+            .tickSizeOuter(0)
+          );
 
         // Draw tooltips surfaces
         g.append("g")
@@ -672,6 +755,7 @@ new Vue({
     drawSeries: function() {
       var cas = this.case,
         perDay = this.perDay,
+        smoothen = this.smoothen,
         perCapita = this.perCapita,
         typVal = this.typVal,
         refCase = this.refCase,
@@ -685,8 +769,8 @@ new Vue({
       // Filter dates from zoom
       var values = this.values[this.scope],
         cas = this.case,
-        legend = this.legend.sort(this.staticCountriesSort(null, "names", 1, 1)),
-        places = legend.slice().sort(this.staticCountriesSort(cas, "cases", 1, 1)),
+        legend = this.legend.sort(this.staticCountriesSort("names", 1, 1)),
+        places = legend.slice().sort(this.staticCountriesSort("cases", 1, perDay ? -1 : 1)),
         min_shift = align_nthcase ? d3.min(places.map(function(c) { return -c.shift; })) : 0,
         n_places = legend.length,
         dates = this.scopes[this.scope].dates.slice(perDay ? 1 : 0),
@@ -722,16 +806,38 @@ new Vue({
       this.curExtent = Math.round((end - start) / (1000*60*60*24));
 
       // Setup dimensions
-      var margin = {top: 20, right: 90, bottom: 25, left: 40},
+      var margin = {top: 20, right: 90, bottom: 55, left: 40},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgW - margin.left - margin.right,
-        minLegendH = 14000 * n_places / svgW,
-        mainH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height - Math.max(document.getElementById("legend").getBoundingClientRect().height, minLegendH),
-        svgH = Math.max(140, mainH),
+        fontLevel = Math.floor(Math.min(90, n_places) / 20),
+        fontSize = 14 - fontLevel,
+        legHeight = 44 - 3 * fontLevel,
+        legWidth = 200 - 10 * fontLevel;
+      legend.forEach(function(c) {
+        c.style = {
+          "background-color": c.color + "!important",
+          "font-size": fontSize + "px",
+          "height": legHeight + "px",
+          "min-width": legWidth + "px"
+        };
+      });
+      this.no_country_selected[0].style = {
+        "background-color": "lightgrey!important",
+        "font-size": "14px",
+        "height": "auto",
+        "min-width": "200px"
+      };
+      var n_leg_by_line = Math.floor((svgW - 20) / (legWidth + 20)),
+        n_lines = Math.ceil(n_places / n_leg_by_line) || 1,
+        divH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height,
+        legendH = Math.min(n_lines * (legHeight + 14) + 30, 2 * divH / 5),
+        sliderH = 60,
+        mainH = divH - legendH - sliderH,
+        svgH = Math.max(200, mainH),
         height = svgH - margin.top - margin.bottom,
         xScale = d3.scaleTime()
-          .range([0, width])
-          .domain([start, end]),
+        .range([0, width])
+        .domain([start, end]),
         xWidth = width / this.curExtent,
         xPosition = function(d) {
           return xScale(d3.max([start, d.date || d.data.date])) - xWidth/2;
@@ -741,39 +847,66 @@ new Vue({
         xHistoPosition = function(d, idx) { return xPosition(d) + (2 * idx + 1) * xHistoGap + idx * xHistoWidth; },
         shiftedVal = function(c, i) {
           var idx = i + Math.max(0, hiddenLeft - c.shift);
+          if (perDay && !stacked && smoothen)
+            return d3.mean(values[c.id][cas][typVal].slice(Math.max(0, idx - 2), idx + 3));
           return values[c.id][cas][typVal][idx];
+        },
+        shiftedMinVal = function(c) {
+          return d3.min(shiftedDates(c).map(function(d, i) {
+            return shiftedVal(c, i);
+          }));
         },
         shiftedMaxVal = function(c) {
           return d3.max(shiftedDates(c).map(function(d, i) {
             return shiftedVal(c, i);
           }));
         },
+        stackedMinVal = 0,
         stackedMaxVal = 0,
-        stackedVals = {};
+        stackedVals = {},
+        stackedNeighbors = {};
       if (stacked) {
         places.forEach(function(c) {
           stackedVals[c.id] = [];
+          stackedNeighbors[c.id] = [];
         });
         zoomedDates.forEach(function(d, i) {
-          var stack = 0;
+          var posStack = 0, negStack = 0,
+            lastPos = null, lastNeg = null;
           places.forEach(function(c) {
-            if (c.id === 'total') stack = values[c.id][cas][typVal][i + hiddenLeft];
-            else stack += values[c.id][cas][typVal][i + hiddenLeft];
-            if (stack > stackedMaxVal) stackedMaxVal = stack;
-            stackedVals[c.id].push(stack);
+            var val = values[c.id][cas][typVal][i + hiddenLeft];
+            if (c.id === 'total')
+              stackedVals[c.id].push(val);
+            else if (val >= 0) {
+              posStack += val;
+              stackedVals[c.id].push(posStack);
+              stackedNeighbors[c.id].push(lastPos);
+              lastPos = posStack;
+            } else {
+              negStack += val;
+              stackedVals[c.id].push(negStack);
+              stackedNeighbors[c.id].push(lastNeg);
+              lastNeg = negStack;
+            }
+            if (stackedVals[c.id][i] > stackedMaxVal)
+              stackedMaxVal = stackedVals[c.id][i];
+            if (stackedVals[c.id][i] < stackedMinVal)
+              stackedMinVal = stackedVals[c.id][i];
           });
         });
       }
-      var yMin = (align_nthcase && refCase === cas ?
-        (perCapita ? (logarithmic ? 0.001 : 0) : min_cases ) :
-        (logarithmic ? (perCapita ? 0.001 : 1) : 0)),
+
+      d3.select("#legend").style("height", legendH + "px");
+      var yMin = (stacked ? stackedMinVal : (perDay ? Math.min(0, d3.min(legend.map(shiftedMinVal))) :
+        (align_nthcase && refCase === cas ?
+          (perCapita ? (logarithmic ? 0.001 : 0) : min_cases ) :
+          (logarithmic ? (perCapita ? 0.001 : 1) : 0)))),
         yMax = Math.max(0, (stacked ? stackedMaxVal : d3.max(legend.map(shiftedMaxVal)))),
         yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]()
           .range([height, 0])
           .domain([yMin, yMax]),
         yPosition = function(c, i) {
           var val = (stacked ? stackedVals[c.id][i] : shiftedVal(c, i));
-          if (perDay && val < 0) val = 0
           return yScale(logarithmic && val < yMin ? yMin : val);
         };
 
@@ -785,6 +918,25 @@ new Vue({
         .attr("height", svgH)
         .append("g")
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+      // Draw zero axis
+      if (perDay)
+        g.append("line")
+          .attr("class", "domain axis")
+          .attr("x1", xScale.range()[0])
+          .attr("x2", xScale.range()[1])
+          .attr("y1", yScale(0))
+          .attr("y2", yScale(0));
+
+      // Draw Y axis with grid
+      var yTicks = d3.axisRight(yScale).ticks(4 * Math.floor(height / 125));
+      g.append("g")
+        .attr("class", "grid")
+        .attr("transform", "translate(" + (width) + ", 0)")
+        .call(yTicks
+          .tickFormat("")
+          .tickSizeInner(-width)
+        );
 
       // Draw series
       if (perDay && this.vizChoice !== "series") {
@@ -807,12 +959,12 @@ new Vue({
                 return xPosition(d) + xWidth / 4;
               })
               .attr("y", function(d, i) {
-                return yPosition(c, i);
+                return Math.min(yPosition(c, i), yScale(stacked && stackedNeighbors[c.id][i] || 0));
               })
               .attr("width", stacked ? xWidth / 2 : xHistoWidth)
               .attr("xWidth", xWidth / 2)
               .attr("height", function(d, i) {
-                return Math.max(0, (!stacked || !idx ? yScale.range()[0] : yPosition(places[idx-1], i)) - yPosition(c, i));
+                return Math.abs(yScale(stacked && stackedNeighbors[c.id][i] || 0) - yPosition(c, i));
               });
         });
 
@@ -826,7 +978,7 @@ new Vue({
             .attr("stroke", stacked ? "none" : c.color)
             .attr("stroke-linejoin", "round")
             .attr("stroke-linecap", "round")
-            .attr("stroke-width", 2)
+            .attr("stroke-width", stacked ? 1 : 2)
             .attr("d",
               (stacked ?
                 d3.area()
@@ -852,22 +1004,34 @@ new Vue({
         });
       }
 
-      // Draw axis
-      var ticks = d3.axisBottom(xScale).tickFormat(
-          align_nthcase ? d3.formatDaysSince(start) : d3.timeFormat("%b %d")
-        ).tickSizeOuter(0);
-      if (align_nthcase && width <= 600)
-        ticks.ticks(2);
-      else if (align_nthcase && width <= 1000)
-        ticks.ticks(4);
+      // Draw Time axis
+      var ticksFormat = align_nthcase ? d3.formatDaysSince(start) : d3.timeFormat("%b %d"),
+        ticks = d3.axisBottom(xScale)
+        .ticks(4 * Math.floor(Math.min(zoomedDates.length / 4, width / 200)))
+        .tickFormat(ticksFormat)
+        .tickSizeOuter(0);
       g.append("g")
         .attr("class", "axis axis--x")
         .attr("transform", "translate(0, " + (height) + ")")
-        .call(ticks);
+        .call(ticks)
+        .selectAll("text")
+          .style("text-anchor", "end")
+          .attr("dx", "-.8em")
+          .attr("dy", ".15em")
+          .attr("transform", "rotate(-30)");
+
+      // Draw Y axis
+      yTicks = d3.axisRight(yScale);
+      if (logarithmic) yTicks.ticks(4 * Math.floor(height / 125), d3.strFormat(perCapita));
+      else yTicks.ticks(4 * Math.floor(height / 125))
+        .tickFormat(d3.strFormat(perCapita));
       g.append("g")
         .attr("class", "axis axis--y")
-        .attr("transform", "translate(" + (width) + ", 0)")
-        .call(d3.axisRight(yScale).ticks(4 * Math.floor(height / 125), d3.strFormat(false, logarithmic && perCapita)).tickSizeOuter(0));
+        .attr("transform", "translate(" + width  + ", 0)")
+        .call(yTicks
+          .tickSizeInner(6)
+          .tickSizeOuter(0)
+        );
 
       // Draw tooltips surfaces
       g.append("g")
@@ -902,6 +1066,40 @@ new Vue({
             .on("wheel", this.zoom)
             .on("dblclick", this.zoom);
 
+      d3.select('.zoomslider')
+        .append('svg')
+        .attr('width', svgW)
+        .attr('height', sliderH)
+        .append('g')
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+        .call(d3.sliderBottom()
+          .width(svgW - margin.left - margin.right)
+          .min(dates[0])
+          .max(dates[dates.length - 1])
+          .step(86400000)
+          .fill('#aaa')
+          .handle(d3.symbol().type(d3.symbolCircle).size(300)())
+          .tickFormat(ticksFormat)
+          .marks(dates)
+          .default([dates[hiddenLeft], dates[dates.length - 1 - hiddenRight]])
+          .on('end', this.zoomSlider)
+        );
+    },
+    zoomSlider: function(vals) {
+      var dates = this.scopes[this.scope].dates.slice(this.perDay ? 1 : 0),
+        d0 = new Date(vals[0]).toISOString().slice(0, 10),
+        d1 = new Date(vals[1]).toISOString().slice(0, 10),
+        i0 = 0,
+        i1 = 0;
+      dates.forEach(function(d, i) {
+        var ds = d.toISOString().slice(0, 10);
+        if (ds === d0)
+          i0 = i;
+        if (ds === d1)
+          i1 = i;
+      });
+      this.hiddenLeft = i0;
+      this.hiddenRight = dates.length - 1 - i1;
     },
     hover: function(d, i) {
       var typ = (this.perDay && this.vizChoice !== "series" ? "surface" : "hoverdate");
@@ -958,14 +1156,18 @@ new Vue({
     },
     hoverCountry: function(c, hov) {
       if (this.perDay && this.vizChoice === 'stacked') {
-        d3.selectAll(".histogram").style("opacity", hov ? 0.5 : 1);
-        if (hov) d3.selectAll(".histogram." + c).style("opacity", 1);
+        d3.selectAll(".histogram").style("opacity", hov ? 0.25 : 1);
+        if (hov) d3.selectAll(".histogram." + c.id).style("opacity", 1);
       } else if (this.vizChoice === 'stacked') {
-        d3.selectAll(".line").style("opacity", hov ? 0.5 : 1);
-        if (hov) d3.select("#" + c).style("opacity", 1);
+        d3.selectAll(".line").style("opacity", hov ? 0.25 : 1)
+          .style("stroke", "none");
+        if (hov) d3.select("#" + c.id).style("opacity", 1)
+          .style("stroke", c.color);
       } else {
-        d3.select("#" + c).classed("hover", hov);
-        if (hov) document.querySelectorAll("#" + c + ", .dot." + c)
+        d3.selectAll(".line, .dot").style("opacity", hov ? 0.25 : 1);
+        if (hov) d3.selectAll("#" + c.id + ", .dot." + c.id).style("opacity", 1);
+        d3.select("#" + c.id).classed("hover", hov);
+        if (hov) document.querySelectorAll("#" + c.id + ", .dot." + c.id)
           .forEach(function(d) {
             d.parentNode.appendChild(d);
           });
@@ -983,12 +1185,10 @@ new Vue({
       this.hiddenRight += Math.floor(gaugeRight * days * direction);
       if (this.hiddenLeft < 0) this.hiddenLeft = 0;
       if (this.hiddenRight < 0) this.hiddenRight = 0;
-      this.draw();
-      this.displayTooltip(d, i, rects);
     },
     exportData: function() {
       var a = document.createElement('a'),
-        file = "coronavirus-countries" + (this.oldrecovered ? "-oldrecovered" : "") + ".json";
+        file = "coronavirus-countries.json";
       a.href = "data/" + file;
       a.download = file;
       document.body.appendChild(a);

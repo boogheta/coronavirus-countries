@@ -14,19 +14,19 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://boogheta.github.io/coronavirus-countries/" />
   <meta property="og:image" content="https://boogheta.github.io/coronavirus-countries/img/screenshotv2.png"/>
-  <meta property="og:description" content="Compare the spread of the COVID-19 coronavirus in all countries by numbers of confirmed cases and deceased ones as reported by JHU CSSE"/>
+  <meta property="og:description" content="Compare the spread of the COVID-19 coronavirus in all countries by numbers of confirmed, recovered and deceased ones as reported by JHU CSSE and different countries"/>
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@boogheta">
   <meta name="twitter:creator" content="@boogheta">
   <meta name="twitter:title" content="Coronavirus country comparator">
-  <meta name="twitter:description" content="Compare the spread of the COVID-19 coronavirus in all countries by numbers of confirmed cases and deceased ones as reported by JHU CSSE">
+  <meta name="twitter:description" content="Compare the spread of the COVID-19 coronavirus in all countries by numbers of confirmed, recovered and deceased ones as reported by JHU CSSE and different countries">
   <meta name="twitter:image" content="https://boogheta.github.io/coronavirus-countries/img/screenshotv2.png">
  </head>
  <body>
   <noscript><strong>Coronavirus country comparator requires JavaScript. Please enable it to continue.</strong></noscript>
   <div id="corona"><v-app dark toolbar>
-    <aside class="navigation-drawer navigation-drawer--absolute navigation-drawer--clipped navigation-drawer--is-booted navigation-drawer--is-mobile navigation-drawer--open navigation-drawer--permanent">
+    <aside class="navigation-drawer navigation-drawer--absolute navigation-drawer--clipped navigation-drawer--is-booted navigation-drawer--is-mobile navigation-drawer--open navigation-drawer--permanent" id="menu">
       <v-list dense id="controls">
 
         <v-subheader class="">
@@ -72,24 +72,24 @@
           <span>Scale</span>
         </v-subheader>
 
-        <v-list-tile class="switchoption"
-          :title="vizChoice === 'stacked' ? 'logarithmic scale makes no sense for stacked area charts' : ''"
-        >
-          <v-list-tile-content>
-            <v-list-tile-title
-              :class="{'switcher': vizChoice !== 'stacked', 'value': true, 'unchecked': logarithmic}"
-              @click="if (vizChoice !== 'stacked') logarithmic = !logarithmic"
-            >linear</v-list-title>
-          </v-list-tile-content>
-          <v-list-tile-action>
-            <v-switch :disabled="vizChoice === 'stacked'" light v-model="logarithmic" color="white"></v-switch>
+        <v-list-tile id="scale" class="radiooption">
+          <v-radio-group row hide-details v-model="scaleChoice">
+            <v-radio small
+              color="white"
+              v-for="c in ['linear', 'logarithmic', 'daily']"
+              :class="c"
+              :label="c"
+              :value="c"
+              :disabled="c === 'logarithmic' && vizChoice === 'stacked'"
+            ></v-radio>
+          </v-radio-group>
+          <v-list-tile-action class="extraaction">
+            <v-icon color="white"
+              :style="'opacity: ' + (!(perDay && vizChoice === 'series') ? 0 : (smoothen ? 1 : 0.25))"
+              :title="smoothen ? 'unsmooth' : 'smooth curve using a 5-days moving average'"
+              @click="smoothen = !smoothen"
+            >vertical_align_center</v-icon>
           </v-list-tile-action>
-          <v-list-tile-content>
-            <v-list-tile-title
-              :class="{'switcher': vizChoice !== 'stacked', 'unchecked': !logarithmic || vizChoice === 'stacked'}"
-              @click="if (vizChoice !== 'stacked') logarithmic = !logarithmic"
-            >logarithmic</v-list-title>
-          </v-list-tile-content>
         </v-list-tile>
 
         <v-list-tile class="switchoption"
@@ -112,27 +112,9 @@
           </v-list-tile-content>
         </v-list-tile>
 
-        <v-list-tile class="switchoption">
-          <v-list-tile-content>
-            <v-list-tile-title
-              :class="{'switcher': true, 'value': true, 'unchecked': perDay}"
-              @click="perDay = !perDay"
-            >cumulative</v-list-title>
-          </v-list-tile-content>
-          <v-list-tile-action>
-            <v-switch light v-model="perDay" color="white"></v-switch>
-          </v-list-tile-action>
-          <v-list-tile-content>
-            <v-list-tile-title
-              :class="{'switcher': true, 'unchecked': !perDay}"
-              @click="perDay = !perDay"
-            >daily new cases</v-list-title>
-          </v-list-tile-content>
-        </v-list-tile>
-
 
         <v-subheader class="bordered">
-          <v-icon>view_module</v-icon>
+          <v-icon>view_comfy</v-icon>
           <span>Visualize as</span>
         </v-subheader>
 
@@ -161,8 +143,8 @@
           </v-select>
         </v-subheader>
 
-        <v-list-tile class="sort">
-          <v-list-tile-content>
+        <v-list-tile>
+          <v-list-tile-content class="sort">
             <v-list-tile-title>
               <small
                 :class="{'country': true, 'unchecked': countriesOrder !== 'names'}"
@@ -174,6 +156,12 @@
               >sort by {{ caseLabel }}</small>
             </v-list-tile-title>
           </v-list-tile-content>
+          <span class="selectAll"
+            @click="selectAllPlaces"
+            :title="(allSelected ? 'Uns' : 'S') + 'elect all ' + levelsLabel(level)"
+          >
+            <v-icon>{{ allSelected ? "cancel_presentation" : "done_all" }}</v-icon>
+          </span>
         </v-list-tile>
       </v-list>
 
@@ -186,7 +174,7 @@
         >
           <v-list-tile-content>
             <v-list-tile-title>
-              <span class="country">{{ item.name }}</span>
+              <span class="country" :title="item.name.length > 20 ? item.name : ''">{{ item.name }}</span>
               <span class="value amount">{{ item.lastStr }}</span>
             </v-list-tile-title>
           </v-list-tile-content>
@@ -194,7 +182,7 @@
             <v-switch light v-model="item.selected" color="white"></v-switch>
             <span class="keep"
               v-if="item.selected && legend.length > 1"
-              @click="keepOnlyCountry(item.name)"
+              @click="keepOnlyPlace(item.name)"
               :title="'Keep only ' + item.name"
             >
               <v-icon>input</v-icon>
@@ -221,7 +209,7 @@
             v-model="refCountrySelected"
             @input="refCountry = null"
             @click="refCountry = null"
-          ><small>clear</small></v-chip>
+          ><small>unset</small></v-chip>
         </v-subheader>
 
         <v-list-tile v-if="vizChoice === 'series'">
@@ -242,7 +230,7 @@
           id="opendata"
           :class="{'bordered': vizChoice === 'series'}"
           title="Download the json data behind this application"
-          @click="exportData()"
+          @click="exportData"
         >
           <v-icon>file_download</v-icon>
           <span>Open Data</span>
@@ -255,11 +243,13 @@
     <v-toolbar class="dark" fixed>
       <v-toolbar-title>
         <a href="https://boogheta.github.io/coronavirus-countries/"><img src="img/covid19.png" alt="COVID19" width=50 /></a>
-        <v-title>Coronavirus Country Comparator<br/>
-        <span class="update">(last data update: {{ lastUpdateStr }})</span></v-title>
+        <v-title>
+          Coronavirus Country Comparator<br/>
+          <span class="source" title="Switch data source by choosing a different group of places to compare (World countries, Italy regions, France departments, USA states, etc.)">Data source: <a :href="source.url" target=_blank">{{ source.name }}</a><br/>
+          <span class="update"> (last update: {{ lastUpdateStr }} GMT)</span></span
+        </v-title>
       </v-toolbar-title>
-      <span v-if="!oldrecovered" class="disclaimer">CSSE <a href="https://github.com/CSSEGISandData/COVID-19/issues/1250" target="_blank">stopped</a> aggregating recovered cases after March 22<sup>nd</sup> as they were not reported consistently across countries, so only confirmed and deceased cases can be presented now. <a @click="oldrecovered = true">Click here to switch to the old frozen view with recovered and active cases.</a></span>
-      <span v-if="oldrecovered" class="disclaimer">This view that includes recovered and currently sick cases stops after March 22<sup>nd</sup> because CSSE <a href="https://github.com/CSSEGISandData/COVID-19/issues/1250" target="_blank">stopped</a> aggregating recovered cases as they were not reported consistently across countries. <a @click="oldrecovered = false">Click here to switch back to the regular updated view.</a></span>
+      <span class="disclaimer" v-if="source.disclaimer" v-html="source.disclaimer"></span>
       <v-spacer></v-spacer>
       <v-btn fab small class="ml-3" @click.native.stop="help = true">
         <v-icon>help</v-icon>
@@ -281,21 +271,23 @@
               v-if="!item.inactive"
               title="click to remove"
               @click="item.selected = false"
+              :style="'top: '+(legendFontSize < 12 ? 1 : 3)+'px'"
             >
-              <v-icon>highlight_off</v-icon>
+              <v-icon :style="'font-size: '+(legendFontSize + 4)+'px'">highlight_off</v-icon>
             </div>
           </div>
         </div>
       </div>
+      <div class="zoomslider"></div>
       <center><div id="legend" class="legend facets">
         <div
           v-for="item in (legend.length ? legend : no_country_selected)"
           :key="item.id"
           v-if="item.selected && vizChoice !== 'multiples'"
           :class="{'btn': true, 'btn--raised': true, 'btn--disabled': item.inactive}"
-          :style="{'background-color': item.color+'!important'}"
-          @mouseenter="hoverCountry(item.id, true)"
-          @mouseleave="hoverCountry(item.id, false)"
+          :style="item.style"
+          @mouseenter="hoverCountry(item, true)"
+          @mouseleave="hoverCountry(item, false)"
         >
           <div class="remove"
             v-if="!item.inactive"
@@ -307,7 +299,7 @@
           <div class="btn__content">
             <span>{{ item.name }}<small v-if="refCountrySelected && item.shift"> ({{ item.shiftStr }})</small></span>
             <span class="lowercase amount">{{ item.value !== null ? item.value : item.lastStr }}
-              <small v-if="perCapita">per million</small>
+              <small v-if="perCapita && !item.inactive">per million</small>
             </span>
           </div>
         </div>
@@ -319,24 +311,28 @@
     <v-dialog v-model="help" width="75%">
       <v-card>
         <v-card-title class="headline">Coronavirus Country Comparator</v-card-title>
-        <v-card-text>Built on top of the <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series" target="_blank">data openly released daily</a> by the <a href="https://systems.jhu.edu/" target="_blank">Center for Systems Science and Engineering (CSSE)</a> at Johns Hopkins University (JHU) for the <a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" target="_blank">great dashboard</a> they built.</v-card-text>
-        <v-card-text><b>WARNING:</b> Data is based on figures officially reported by countries and international organisations with various counting methods. It should therefore be considered with caution: they shall not reflect exact figures and can only be considered as minimum values.<br/>Confirmed cases depend on the number of tests performed which can vary widely from one country to another; researchers estimate that it might only reflect between 10 and 50&nbsp;% of the number of actually infected people.<br/>Deceased cases should also only be considered as minimum values, as a variety of casualties consecutive to the virus might not be accounted accurately.</v-card-text>
+        <v-card-text>
+          This <i>datascape</i> application was initially built on top of the <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series" target="_blank">data openly released daily</a> by the <a href="https://systems.jhu.edu/" target="_blank">Center for Systems Science and Engineering (CSSE)</a> at Johns Hopkins University (JHU) for the <a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" target="_blank">great dashboard</a> they built.<br/>
+          It now also features data from a variety of national sources (France, Germant, Italy, Spain and UK).
+        </v-card-text>
+        <v-card-text><b>WARNING:</b> Data is based on figures officially reported by countries and international organisations with various counting methods. It should therefore be considered with caution: they shall not reflect exact figures and can only be considered as minimum values.<br/><b>Confirmed</b> and <b>recovered</b> cases depend on the number of tests performed which can vary widely from one country to another; researchers estimate that it might only reflect between 10 and 50&nbsp;% of the number of actually infected people.<br/><b>Deceased</b> cases should also only be considered as minimum values, as a variety of casualties consecutive to the virus might not be accounted accurately. For instance France's dataset only includes deceased cases reported by hospitals.<br/><b>Currently sick</b> cases are an estimate built by substracting recovered and deceased cases to confirmed ones when all of these are available.<br/>Some datasets for specific countries like Canada, Germany, or the USA only include confirmed and deceased cases. Others such as France, Italy or Spain can include other counts among <b>tested</b>, <b>hospitalized</b> and <b>intensive care</b>.</v-card-text>
         <v-card-text><b>Features:</b><ul>
           <li>Hover the legend to focus a specific curve.</li>
           <li>Hover the plot to read each curve's values at specific dates inside the legend.</li>
-          <li>Use the mouse wheel to zoom or unzoom on specific time periods.</li>
-          <li>Adjust the scale to <b>linear</b> or <b>logarithmic</b> depending on the values. Switch between <b>absolute values</b> or <b>population ratio</b> to compare places by total values or by million inhabitants to compare the penetration rate of the disease in the population.</li>
-          <li>Use <b>cumulative</b> view to see the total number of cases in each place since the beginning of the epidemy, or <b>daily new cases</b> to see how the situation changes everyday.</li>
+          <li>Use the mouse wheel or the slider between the graph and the legend to zoom or unzoom on specific time periods.</li>
+          <li>Adjust the scale to <b>linear</b>, <b>logarithmic</b> or <b>daily</b> to visualize cumulative values since the beginning of the epidemy, tendencies or everyday evolution.</li>
+          <li>Switch between total <b>absolute values</b> or <b>population ratio</b> by million inhabitants to compare the penetration rate of the disease in the population.</li>
           <li>Select <b>series</b> to compare tendencies for each selected place. Switch to <b>stacked</b> to measure how each place contribute to the bigger picture. Or switch to <b>multiples</b> to see all curves separated.</li>
-          <li>Choose to compare all the World's countries or all regions/provinces/states of some main countries.</li>
-          <li>Use <b>Align to</b> to select a place and see how others fit with a few days delay. Regression is calculated as the mean delay between the number of confirmed or deceased cases in the considered country compared to the reference one during the 30 days following the reach of 10 deceased cases (or 20 days and 50 cases when aligning on confirmed).</li>
+          <li>In series mode with a daily scale, use the <v-icon>vertical_align_center</v-icon> button to smooth the curves by using a 5 days moving average.</li>
+          <li>Choose to compare all the World's countries or all regions/provinces/states of some main countries. Use the <v-icon>done_all</v-icon> icon to select all places at once.</li>
+          <li>Use <b>Align to</b> in series mode to select a place and see how others fit with a few days delay. Regression is calculated as the mean delay between the number of confirmed or deceased cases in the considered country compared to the reference one during the 30 days following the reach of 10 deceased cases (or 20 days and 50 cases when aligning on confirmed).</li>
           <li>You can also select <b>after 10<sup>th</sup> deceased case</b> (or 50<sup>th</sup> confirmed) in the <b>Align to</b> menu to align all curves to a same "zero day".</li>
         </ul></v-card-text>
         <v-card-text>
           This web application is a free libre open source software released under AGPL V3 license and its source code is <a href="https://github.com/boogheta/coronavirus-countries" target="_blank">available on GitHub</a>.<br/>
-          The interface is based on <a href="https://vuejs.org" target="_blank">Vue.js</a>, <a href="https://vuetifyjs.com/" target="_blank">Vuetify.js</a> and <a href="https://d3js.org" target="_blank">d3.js</a>.<br/>
+          The interface is based on <a href="https://vuejs.org" target="_blank">Vue.js</a>, <a href="https://vuetifyjs.com/" target="_blank">Vuetify.js</a>, <a href="https://d3js.org" target="_blank">d3.js</a> and <a href="https://github.com/johnwalley/d3-simple-slider" target="_blank">d3-simple-slider</a>.<br/>
           The logo is a <a href="https://pixabay.com/fr/illustrations/virus-coronavirus-sars-cov-2-flash-4915867/" target="_blank">creation from Alexei Hulsov</a> openly released under the <a href="https://pixabay.com/fr/service/license/" target="_blank">Pixabay license</a>.<br/>
-          <a href="https://github.com/boogheta/coronavirus-countries/issues" target="_blank">Bug reports, suggestions and pull requests</a> are very welcome!</v-card-text>
+          <a href="https://github.com/boogheta/coronavirus-countries/issues" target="_blank">Bug reports, suggestions and pull requests</a> are very welcome! Adding new datasets is quite easy when there is a proper updated source. If you know of good datasets for specific countries regions and think it should be proposed, please <a href="https://github.com/boogheta/coronavirus-countries/issues" target="_blank">point it out</a>!</v-card-text>
         <v-card-text>You can contact me on Twitter at: <a href="http://twitter.com/boogheta" target="_blank">@boogheta</a></v-card-text>
         <v-card-text>Benjamin Ooghe-Tabanou &mdash; <a href="https://medialab.sciencespo.fr/" target="_blank">médialab Sciences Po</a></v-card-text>
         <v-card-actions>
@@ -349,6 +345,7 @@
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-10423931-9"></script>
   <script type="text/javascript" src="js/d3.v4.min.js"></script>
+  <script type="text/javascript" src="js/d3-simple-slider.min.js"></script>
   <script type="text/javascript" src="js/vue.min.js"></script>
   <script type="text/javascript" src="js/vuetify.min.js"></script>
   <script type="text/javascript" src="js/corona.js"></script>

@@ -5,11 +5,12 @@ html {
   opacity: 0;
 }
 aside.navigation-drawer {
-  height: 100%;
-  overflow: unset;
+  padding: 0;
+  overflow-y: visible;
 }
 .navigation-drawer--permanent.navigation-drawer--clipped {
   max-height: calc(100vh);
+  height: 100%;
 }
 nav .toolbar__title img {
   margin: 0;
@@ -19,9 +20,9 @@ nav .toolbar__title img {
 nav v-title {
   margin: 5px 0px 0px 15px;
   float: left;
-  line-height: 1;
+  line-height: 0.75;
 }
-nav .update {
+nav .source {
   font-size: 12px;
   color: grey;
 }
@@ -96,6 +97,12 @@ nav .disclaimer a, nav .disclaimer a:hover, nav .disclaimer a:visited:hover {
 .country {
   float: left;
 }
+#countries .country {
+  max-width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 .value {
   float: right;
   text-align: right;
@@ -104,6 +111,14 @@ nav .disclaimer a, nav .disclaimer a:hover, nav .disclaimer a:visited:hover {
   font-family: "Lucida Console", monospace;
   font-weight: bold;
   white-space: nowrap;
+}
+.selectAll {
+  position: absolute;
+  right: 40px;
+  top: 3px;
+  z-index: 10;
+  cursor: pointer;
+  opacity: 0.5;
 }
 .keep {
   position: absolute;
@@ -176,16 +191,36 @@ path.line.hover {
 .histogram.hidden {
   display: none;
 }
-.axis path, .axis line {
+.axis path, .axis line, line.axis {
   stroke: grey;
+}
+.grid path {
+  display: none;
+}
+.grid line {
+  stroke: #494949;
+}
+line.track-inset {
+  stroke: #555;
 }
 .dot {
   stroke: #303030;
 }
-.axis text {
+.axis text, .parameter-value text {
   fill: grey;
   font-size: 14px;
   font-family: Roboto;
+}
+.zoomslider .axis text {
+  fill: #555;
+}
+.zoomslider .parameter-value text {
+  fill: #eee;
+}
+#legend {
+  position: relative;
+  bottom: 0;
+  overflow-y: auto;
 }
 .legend.facets {
   padding: 15px;
@@ -193,10 +228,7 @@ path.line.hover {
 .legend .btn {
   color: black!important;
   font-weight: bold;
-  min-width: 125px;
   padding: 2px;
-  height: 50px;
-  min-width: 200px;
 }
 .legend .btn div {
   display: grid;
@@ -248,11 +280,11 @@ rect.tooltip {
   font-size: 14px;
   z-index: 1000;
 }
-.dialog a, .dialog a:visited {
+a, a:visited {
   color: #999;
   text-decoration: none;
 }
-.dialog a:hover, .dialog a:visited:hover {
+a:hover, a:visited:hover {
   text-decoration: underline;
 }
 .selectAlign .input-group {
@@ -266,6 +298,10 @@ rect.tooltip {
   margin-left: auto;
   margin-right: 0;
 }
+#controls {
+  padding-bottom: 0;
+  margin-bottom: -14px;
+}
 #controls .radio-group {
   width: 30px;
 }
@@ -278,9 +314,48 @@ rect.tooltip {
 #controls .input-group--disabled .input-group--selection-controls__ripple, #controls .input-group--disabled .input-group--selection-controls__ripple:after {
   cursor: default;
 }
-.caseIcon.list__tile__action {
+.caseIcon.list__tile__action, .extraaction.list__tile__action {
   display: contents;
 }
 .caseIcon.country {
   padding-left: 15px;
+}
+#scale .input-group__input {
+  flex: 1 0 120%!important;
+}
+#scale .input-group.input-group--disabled {
+  opacity: 0.5;
+}
+#scale .input-group.input-group--disabled label {
+  cursor: initial;
+}
+#scale .extraaction.list__tile__action .icon {
+  position: absolute;
+  right: 5px;
+}
+#scale .logarithmic {
+  margin-left: -10px;
+}
+#scale .daily {
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+@media (max-width: 1000px) {
+  nav .toolbar__title img {
+    margin-top: 2px;
+    width: 60px;
+  }
+  nav v-title {
+    font-size: 24px;
+  }
+  nav .source {
+    font-size: 16px;
+  }
+  nav .source .update, .disclaimer {
+    display: none;
+  }
+  .btn--floating.btn--small .icon {
+    font-size: 40px;
+  }
 }
