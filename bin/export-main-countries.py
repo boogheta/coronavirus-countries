@@ -380,33 +380,14 @@ localities = {
           "name": "UK NHS (curated by Tom White)",
           "url": "https://github.com/tomwhite/covid-19-uk-data"
         },
-        "filename": "",
+        "filename": "uk.csv",
         "level": "country",
-        "level_field": "",
+        "level_field": "country",
         "date_accessor": lambda row: row["date"],
-        "filter": lambda row: row[""],
         "fields": {
-            "tested": "",
-            "confirmed": "",
-            "recovered": "",
-            "deceased": ""
-        }
-    },
-    "UK ": {
-        "source": {
-          "name": "UK NHS (curated by Tom White)",
-          "url": "https://github.com/tomwhite/covid-19-uk-data"
-        },
-        "filename": "",
-        "level": "region",
-        "level_field": "",
-        "date_accessor": lambda row: row["date"],
-        "filter": lambda row: row[""],
-        "fields": {
-            "tested": "",
-            "confirmed": "",
-            "recovered": "",
-            "deceased": ""
+        #   "tested": "",
+            "confirmed": "confirmed",
+            "deceased": "deceased"
         }
     }
 }
@@ -437,7 +418,7 @@ for scope, metas in localities.items():
         n_dates = len(data["scopes"][scope]["dates"])
 
         fields = metas["fields"].keys()
-        data["scopes"][scope]["values"]["total"] = unit_vals(n_dates, fields, populations["World"][scope.strip()])
+        data["scopes"][scope]["values"]["total"] = unit_vals(n_dates, fields, populations["World"][scope.strip().replace("UK", "United Kingdom")])
         for row in rows:
             idx = dates_idx[metas["date_accessor"](row)]
             name = clean_locality(row[metas["level_field"]], scope)
