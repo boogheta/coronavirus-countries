@@ -81,19 +81,20 @@
               :label="c"
               :value="c"
               :disabled="c === 'logarithmic' && vizChoice === 'stacked'"
+              v-tooltip:bottom="{ html: c }"
             ></v-radio>
           </v-radio-group>
           <v-list-tile-action class="extraaction">
             <v-icon color="white"
               :style="'opacity: ' + (!(perDay && vizChoice === 'series') ? 0 : (smoothen ? 1 : 0.25))"
-              :title="smoothen ? 'unsmooth' : 'smooth curve using a 5-days moving average'"
+              v-tooltip:right="{ html: smoothen ? 'unsmooth' : 'smooth curve using a 5-days moving average' }"
               @click="smoothen = !smoothen"
             >vertical_align_center</v-icon>
           </v-list-tile-action>
         </v-list-tile>
 
         <v-list-tile class="switchoption"
-          :title="vizChoice === 'stacked' ? 'population ratios makes no sense for stacked area charts' : ''"
+          v-tooltip:top="{ html: vizChoice === 'stacked' ? 'population ratios makes no sense for stacked area charts' : '' }"
         >
           <v-list-tile-content>
             <v-list-tile-title
@@ -125,6 +126,7 @@
               v-for="c in ['series', 'stacked', 'multiples']"
               :label="c"
               :value="c"
+              v-tooltip:bottom="{ html: c }"
             ></v-radio>
           </v-radio-group>
         </v-list-tile>
@@ -158,7 +160,7 @@
           </v-list-tile-content>
           <span class="selectAll"
             @click="selectAllPlaces"
-            :title="(allSelected ? 'Uns' : 'S') + 'elect all ' + levelsLabel(level)"
+            v-tooltip:right="{ html: (allSelected ? 'Uns' : 'S') + 'elect all ' + levelsLabel(level) }"
           >
             <v-icon>{{ allSelected ? "cancel_presentation" : "done_all" }}</v-icon>
           </span>
@@ -174,7 +176,9 @@
         >
           <v-list-tile-content>
             <v-list-tile-title>
-              <span class="country" :title="item.name.length > 20 ? item.name : ''">{{ item.name }}</span>
+              <span class="country"
+                v-tooltip:right="{ html: item.name.length > 20 ? item.name : '' }"
+              >{{ item.name }}</span>
               <span class="value amount">{{ item.lastStr }}</span>
             </v-list-tile-title>
           </v-list-tile-content>
@@ -183,7 +187,7 @@
             <span class="keep"
               v-if="item.selected && legend.length > 1"
               @click="keepOnlyPlace(item.name)"
-              :title="'Keep only ' + item.name"
+              v-tooltip:right="{ html: 'Keep only ' + item.name }"
             >
               <v-icon>input</v-icon>
             </span>
@@ -229,7 +233,7 @@
         <v-subheader
           id="opendata"
           :class="{'bordered': vizChoice === 'series'}"
-          title="Download the json data behind this application"
+          v-tooltip:right="{ html: 'Download the json data behind this application' }"
           @click="exportData"
         >
           <v-icon>file_download</v-icon>
@@ -245,8 +249,11 @@
         <a href="https://boogheta.github.io/coronavirus-countries/"><img src="img/covid19.png" alt="COVID19" width=50 /></a>
         <v-title>
           Coronavirus Country Comparator<br/>
-          <span class="source" title="Switch data source by choosing a different group of places to compare (World countries, Italy regions, France departments, USA states, etc.)">Data source: <a :href="source.url" target=_blank">{{ source.name }}</a><br/>
-          <span class="update"> (last update: {{ lastUpdateStr }} GMT)</span></span
+          <span class="source"
+            v-tooltip:right="{ html: 'Switch data source by choosing a different group of places to compare (World countries, Italy regions, France departments, USA states, etc.)' }"
+          >Data source: <a :href="source.url" target=_blank">{{ source.name }}</a><br/>
+            <span class="update"> (last update: {{ lastUpdateStr }} GMT)</span>
+          </span>
         </v-title>
       </v-toolbar-title>
       <span class="disclaimer" v-if="source.disclaimer" v-html="source.disclaimer"></span>
@@ -269,7 +276,7 @@
           >{{ item.name }}
             <div class="remove"
               v-if="!item.inactive"
-              title="click to remove"
+              v-tooltip:top="{ html: 'click to remove' }"
               @click="item.selected = false"
               :style="'top: '+(legendFontSize < 12 ? 1 : 3)+'px'"
             >
@@ -291,7 +298,7 @@
         >
           <div class="remove"
             v-if="!item.inactive"
-            title="click to remove"
+            v-tooltip:top="{ html: 'click to remove' }"
             @click="item.selected = false"
           >
             <v-icon>highlight_off</v-icon>
