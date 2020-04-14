@@ -13,12 +13,10 @@ d3.formatDefaultLocale({
 d3.formatTimestamp = function(ts) {
   return new Date(ts * 1000).toISOString().slice(0, 16).replace("T", " ");
 }
-d3.strFormat = function(perCapita) {
-  return function(d) {
-    return d3.format(perCapita ? ",.4r" : ",d")(d)
-      .replace(/(\d\.(0*[1-9])+)0+$/, '$1')
-      .replace(/\.0+$/, '');
-  };
+d3.strFormat = function(d) {
+  return d3.format(",.4r")(d)
+    .replace(/(\d\.(0*[1-9])+)0+$/, '$1')
+    .replace(/\.0+$/, '');
 }
 d3.formatShift = function(x) {
   if (!x) return "";
@@ -402,10 +400,10 @@ new Vue({
             c.color = countriesColors[c.id];
           });
         cases.forEach(function(ca) {
-          ca.totalPop[scope] = d3.strFormat(true)(ca.total[scope] * 1000000 / totalPop);
-          ca.dailyPop[scope] = d3.strFormat(true)(ca.daily[scope] * 1000000 / totalPop);
-          ca.total[scope] = d3.strFormat(false)(ca.total[scope]);
-          ca.daily[scope] = d3.strFormat(false)(ca.daily[scope]);
+          ca.totalPop[scope] = d3.strFormat(ca.total[scope] * 1000000 / totalPop);
+          ca.dailyPop[scope] = d3.strFormat(ca.daily[scope] * 1000000 / totalPop);
+          ca.total[scope] = d3.strFormat(ca.total[scope]);
+          ca.daily[scope] = d3.strFormat(ca.daily[scope]);
         });
         scopeChoices.push({
           name: scope,
@@ -593,7 +591,7 @@ new Vue({
       };
 
       this.countries.forEach(function(c) {
-        c.lastStr = d3.strFormat(perCapita)(c.lastValues[typVal][cas]);
+        c.lastStr = d3.strFormat(c.lastValues[typVal][cas]);
       });
 
       // Prepare svg
@@ -707,9 +705,9 @@ new Vue({
 
         // Draw Y axis
         yTicks = d3.axisRight(yScale);
-        if (logarithmic) yTicks.ticks(4 * Math.floor(height / 125), d3.strFormat(perCapita));
+        if (logarithmic) yTicks.ticks(4 * Math.floor(height / 125), d3.strFormat);
         else yTicks.ticks(4 * Math.floor(height / 125))
-          .tickFormat(d3.strFormat(perCapita));
+          .tickFormat(d3.strFormat);
         g.append("g")
           .attr("class", "axis axis--y")
           .attr("transform", "translate(" + singleWidth  + ", 0)")
@@ -763,7 +761,7 @@ new Vue({
         align_nthcase = /\d+th case/.test(refCountry),
         min_cases = align_nthcase ? this.refCases.filter(function(c) { return c.id === refCase; })[0].min_cases : 0;
       this.countries.forEach(function(c) {
-        c.lastStr = d3.strFormat(perCapita)(c.lastValues[typVal][cas]);
+        c.lastStr = d3.strFormat(c.lastValues[typVal][cas]);
       });
 
       // Filter dates from zoom
@@ -1022,9 +1020,9 @@ new Vue({
 
       // Draw Y axis
       yTicks = d3.axisRight(yScale);
-      if (logarithmic) yTicks.ticks(4 * Math.floor(height / 125), d3.strFormat(perCapita));
+      if (logarithmic) yTicks.ticks(4 * Math.floor(height / 125), d3.strFormat);
       else yTicks.ticks(4 * Math.floor(height / 125))
-        .tickFormat(d3.strFormat(perCapita));
+        .tickFormat(d3.strFormat);
       g.append("g")
         .attr("class", "axis axis--y")
         .attr("transform", "translate(" + width  + ", 0)")
@@ -1117,13 +1115,13 @@ new Vue({
         this.legend.forEach(function(c) {
           var val = values[c.id][cas][typVal][i + hiddenLeft - c.shift];
           if (val == undefined) c.value = "";
-          else c.value = d3.strFormat(perCapita)(val);
+          else c.value = d3.strFormat(val);
         });
       } else {
         var country = d3.select(rects[i]).attr('country');
         this.cases.forEach(function(ca) {
           if (!ca.disabled)
-            ca.value = d3.strFormat(perCapita)(values[country][ca.id][typVal][i]);
+            ca.value = d3.strFormat(values[country][ca.id][typVal][i]);
         });
       }
       d3.select(".tooltipBox")
@@ -1138,7 +1136,7 @@ new Vue({
         typVal = this.typVal,
         perCapita = this.perCapita;
       this[multiples ? "cases" : "legend"].forEach(function(c) {
-        c.value = (multiples && legend.length == 1 && !c.disabled ? d3.strFormat(perCapita)(legend[0].lastValues[typVal][c.id]) : null);
+        c.value = (multiples && legend.length == 1 && !c.disabled ? d3.strFormat(legend[0].lastValues[typVal][c.id]) : null);
       });
       var typ = (this.perDay && this.vizChoice !== "series" ? "surface" : "hoverdate");
       d3.selectAll('rect.' + typ + '[did="' + i + '"]').style("fill-opacity", 0);
