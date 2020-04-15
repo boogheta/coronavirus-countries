@@ -1043,9 +1043,8 @@ ML,14/4/2020,102,43,3,2,24
 MC,14/4/2020,1520,574,97,109,513
 NC,14/4/2020,4246,1731,124,252,808
 PV,14/4/2020,11475,5750,471,902,5428
-RI,14/4/2020,3457,1182,75,246,1582
+RI,14/4/2020,3457,1182,75,246,1585
 NOTA: El objetivo de los datos que se publican en esta web es saber el número de casos acumulados a la fecha y que por tanto no se puede deducir que la diferencia entre un día y el anterior es el número de casos nuevos ya que esos casos pueden haber sido recuperados de fechas anteriores. Cualquier inferencia que se haga sobre las diferencias de un día para otro deben hacerse con precaución y son únicamente la responsabilidad el autor.,,,,,,
 Los datos de estas comunidades son datos de prevalencia (personas ingresadas a fecha de hoy). No reflejan el total de personas que han sido hospitalizadas o ingresadas en UCI  a lo largo del periodo de notificación(CL(UCIs)-GA(UCIS)-CM*-MD),,,,,,
 * Desde el día 11/04/2020 las cifras de hospitalizados de CM son casos acumulados. Previamente se refieren a personas ingresadas ese día.,,,,,,
 * Desde el día 12/04/2020 las cifras de UCIs de CM son casos acumulados. Previamente se refieren a personas ingresadas ese día.,,,,,,
-**Andalucía (AN) ha notificado un total de 169 positivos asintomáticos incluidos en el total de confirmados. Los casos nuevos de hoy (14/04/2020) se han calculado teniendo en cuenta los 114 nuevos asintomáticos de ayer.
