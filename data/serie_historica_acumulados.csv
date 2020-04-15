@@ -1006,7 +1006,7 @@ MC,12/4/2020,1463,543,94,101,353
 NC,12/4/2020,4092,1693,124,239,695
 PV,12/4/2020,11018,5622,464,831,5026
 RI,12/4/2020,3358,1141,73,223,1458
-AN,13/4/2020,10192,5054,631,836,2032
+AN,13/4/2020,10306,5054,631,836,2032
 AR,13/4/2020,4245,1966,280,492,963
 AS,13/4/2020,2051,1330,111,156,458
 IB,13/4/2020,1571,826,145,118,871
@@ -1025,7 +1025,27 @@ MC,13/4/2020,1487,566,96,106,476
 NC,13/4/2020,4150,1705,124,249,730
 PV,13/4/2020,11226,5679,470,859,5193
 RI,13/4/2020,3420,1152,74,234,1519
-
-NOTA: El objetivo de los datos que se publican en esta web es saber el número de casos acumulados a la fecha y que por tanto no se puede deducir que la diferencia entre un día y el anterior es el número de casos nuevos ya que esos casos pueden haber sido recuperados de fechas anteriores. Cualquier inferencia que se haga sobre las diferencias de un día para otro deben hacerse con precaución y son únicamente la responsabilidad el autor.
-Los datos de estas comunidades son datos de prevalencia (personas ingresadas a fecha de hoy). No reflejan el total de personas que han sido hospitalizadas o ingresadas en UCI  a lo largo del periodo de notificación(CL(UCIs)-GA(UCIS)-CM*-MD)
-* Desde el día 11/04/2020 las cifras de hospitalizados de CM son casos acumulados. Previamente se refieren a personas ingresadas ese día.
+AN,14/4/2020,10595,5147,665,865,2224
+AR,14/4/2020,4338,2006,282,514,1012
+AS,14/4/2020,2096,1387,114,166,487
+IB,14/4/2020,1606,857,149,125,881
+CN,14/4/2020,1975,781,152,104,622
+CB,14/4/2020,1823,873,76,132,363
+CM,14/4/2020,14680,7896,495,1755,2998
+CL,14/4/2020,13697,6306,306,1337,4521
+CT,14/4/2020,36505,23372,2789,3756,16651
+CE,14/4/2020,98,9,4,4,30
+VC,14/4/2020,9424,4465,588,945,3360
+EX,14/4/2020,2762,1155,109,342,615
+GA,14/4/2020,7708,2471,128,299,1298
+MD,14/4/2020,49526,10116,1244,6724,27433
+ML,14/4/2020,102,43,3,2,24
+MC,14/4/2020,1520,574,97,109,513
+NC,14/4/2020,4246,1731,124,252,808
+PV,14/4/2020,11475,5750,471,902,5428
+RI,14/4/2020,3457,1182,75,246,1582
+NOTA: El objetivo de los datos que se publican en esta web es saber el número de casos acumulados a la fecha y que por tanto no se puede deducir que la diferencia entre un día y el anterior es el número de casos nuevos ya que esos casos pueden haber sido recuperados de fechas anteriores. Cualquier inferencia que se haga sobre las diferencias de un día para otro deben hacerse con precaución y son únicamente la responsabilidad el autor.,,,,,,
+Los datos de estas comunidades son datos de prevalencia (personas ingresadas a fecha de hoy). No reflejan el total de personas que han sido hospitalizadas o ingresadas en UCI  a lo largo del periodo de notificación(CL(UCIs)-GA(UCIS)-CM*-MD),,,,,,
+* Desde el día 11/04/2020 las cifras de hospitalizados de CM son casos acumulados. Previamente se refieren a personas ingresadas ese día.,,,,,,
+* Desde el día 12/04/2020 las cifras de UCIs de CM son casos acumulados. Previamente se refieren a personas ingresadas ese día.,,,,,,
+**Andalucía (AN) ha notificado un total de 169 positivos asintomáticos incluidos en el total de confirmados. Los casos nuevos de hoy (14/04/2020) se han calculado teniendo en cuenta los 114 nuevos asintomáticos de ayer.
