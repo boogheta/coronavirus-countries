@@ -49,8 +49,8 @@ with open(os.path.join("data", "covid-19-indicators-uk.csv")) as f:
     del(countries["UK"])
 
 
-print "date,country,confirmed,deceased"
+print("date,country,confirmed,deceased")
 for i, d in enumerate(sorted(dates)):
     for b in countries.keys():
-        print ",".join([d, b, str(countries[b]["confirmed"][i]), str(countries[b]["deceased"][i])])
+        print(",".join([d, b, str(countries[b]["confirmed"][i]), str(countries[b]["deceased"][i])]))
 

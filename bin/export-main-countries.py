@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from __future__ import print_function
+
 import os
 import sys
 import csv
@@ -222,9 +224,9 @@ def load_populations(scopes):
                 for place in csv.DictReader(f):
                     populations[name][place["id"]] = int(place["pop"])
         except ValueError:
-            print >> sys.stderr, "WARNING: population data missing in scope", name, "for place", place
+            print("WARNING: population data missing in scope %s for place %s" % (name, place), file=sys.stderr)
         except IOError:
-            print >> sys.stderr, "WARNING: population data missing for scope", name
+            print("WARNING: population data missing for scope %s" % name, file=sys.stderr)
 load_populations(data["scopes"].keys())
 
 
@@ -262,7 +264,7 @@ for name, scope in data["scopes"].items():
             try:
                 pop = populations[name.strip()][c]
             except KeyError:
-                print >> sys.stderr, "WARNING: missing population for region %s / %s" % (name, c)
+                print("WARNING: missing population for region %s / %s" % (name, c), file=sys.stderr)
                 pop = 0
             scope["values"][c] = unit_vals(n_dates, fields, pop)
         scope["values"]["total"]["population"] += pop
@@ -349,7 +351,8 @@ localities = {
           "url": "https://covid19.isciii.es"
         },
         "filename": "serie_historica_acumulados.csv",
-        "level": u"autonom. community",
+        "encoding": "iso-8859-15",
+        "level": "autonom. community",
         "level_field": "CCAA",
         "date_accessor": lambda row: conv_fr(row["FECHA"]),
         "filter": lambda row: row["FECHA"] and "/202" in row["FECHA"],
@@ -367,7 +370,7 @@ localities = {
           "url": "https://github.com/micgro42/COVID-19-DE"
         },
         "filename": "germany.csv",
-        "level": u"bundesländer",
+        "level": "bundesländer",
         "level_field": "bundeslander",
         "date_accessor": lambda row: row["date"],
         "fields": {
@@ -407,7 +410,7 @@ for scope, metas in localities.items():
         "values": {}
     }
 
-    with open(fname) as f:
+    with (open(fname) if sys.version < "3" else open(fname, encoding=metas.get("encoding"))) as f:
         rows = [row for row in csv.DictReader(f) if "filter" not in metas or metas["filter"](row)]
 
         for row in rows:
@@ -426,7 +429,7 @@ for scope, metas in localities.items():
                 try:
                     pop = populations[scope.strip()][name]
                 except KeyError:
-                    print >> sys.stderr, "WARNING: missing population for region %s / %s" % (scope, name)
+                    print("WARNING: missing population for region %s / %s" % (scope, name), file=sys.stderr)
                     pop = 0
                 data["scopes"][scope]["values"][name] = unit_vals(n_dates, fields, pop)
             for field in fields:
@@ -443,4 +446,4 @@ for scope, metas in localities.items():
 
 
 with open(os.path.join("data", "coronavirus-countries.json"), "w") as f:
-    json.dump(data, f)
+    json.dump(data, f, sort_keys=True)
