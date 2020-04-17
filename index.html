@@ -260,7 +260,10 @@
     </v-toolbar>
 
     <main>
-      <center><img id="loader" src="img/loader.gif" alt="loader" v-if="init" /></center>
+      <center id="loader" v-if="init">
+        <img src="img/loader.gif" alt="loader" /><br/>
+        <span>{{ initMessage }}...</span>
+      </center>
       <div class="svg" style="height: 6000px">
         <div v-if="vizChoice === 'multiples'" class="legend multiples">
           <div

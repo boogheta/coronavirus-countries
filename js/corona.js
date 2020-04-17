@@ -47,6 +47,7 @@ new Vue({
   el: "#corona",
   data: {
     init: true,
+    initMessage: "loading data",
     lastUpdateStr: "",
     scope: null,
     scopes: {},
@@ -317,6 +318,7 @@ new Vue({
     },
     prepareData: function(data) {
     // WARNING: at startup, url wasn't read yet, so cas here is always deceased then (it does not matter since it is only used to resort existing countries at reload)
+      this.initMessage = "processing data";
       this.scopeChoices = [],
       this.processScope(data, Object.keys(data.scopes), 0);
     },
@@ -324,6 +326,7 @@ new Vue({
       var scope = scopesArray[scopeIdx];
       if (!scope) return setTimeout(this.completeScopes, 0);
  
+      this.initMessage = "processing " + scope;
       var cases = this.cases,
         values = this.values,
         countriesColors = this.countriesColors,

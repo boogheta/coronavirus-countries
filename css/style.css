@@ -186,6 +186,11 @@ nav .disclaimer a, nav .disclaimer a:hover, nav .disclaimer a:visited:hover {
   position: relative;
   top: calc(40vh);
 }
+#loader span {
+  padding-left: 15px;
+  color: #909090;
+  font-family: monospace;
+}
 path.line {
   stroke-width: 2px;
 }
