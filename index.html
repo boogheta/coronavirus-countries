@@ -246,7 +246,7 @@
         <v-title>
           Coronavirus Country Comparator<br/>
           <span class="source" title="Switch data source by choosing a different group of places to compare (World countries, Italy regions, France departments, USA states, etc.)">Data source: <a :href="source.url" target=_blank">{{ source.name }}</a><br/>
-          <span class="update"> (last update: {{ lastUpdateStr }} GMT)</span></span
+          <span class="update"> (last update: {{ lastUpdateStr }} GMT)</span></span>
         </v-title>
       </v-toolbar-title>
       <span class="disclaimer" v-if="source.disclaimer" v-html="source.disclaimer"></span>
@@ -260,6 +260,7 @@
     </v-toolbar>
 
     <main>
+      <center><img id="loader" src="img/loader.gif" alt="loader" v-if="init" /></center>
       <div class="svg" style="height: 6000px">
         <div v-if="vizChoice === 'multiples'" class="legend multiples">
           <div

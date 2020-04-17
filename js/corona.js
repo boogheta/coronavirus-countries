@@ -317,100 +317,104 @@ new Vue({
     },
     prepareData: function(data) {
     // WARNING: at startup, url wasn't read yet, so cas here is always deceased then (it does not matter since it is only used to resort existing countries at reload)
-      var cas = this.case,
-        cases = this.cases,
-        scopes = this.scopes,
-        scopeChoices = this.scopeChoices = [],
+      this.scopeChoices = [],
+      this.processScope(data, Object.keys(data.scopes), 0);
+    },
+    processScope: function(data, scopesArray, scopeIdx) {
+      var scope = scopesArray[scopeIdx];
+      if (!scope) return setTimeout(this.completeScopes, 0);
+ 
+      var cases = this.cases,
         values = this.values,
-        refCountries = this.refCountries,
         countriesColors = this.countriesColors,
-        defaultPlaces = this.defaultPlaces,
-        staticCountriesSort = this.staticCountriesSort,
-        levelsLabel = this.levelsLabel;
-      Object.keys(data.scopes).forEach(function(scope) {
-        values[scope] = {};
-        cases.forEach(function(ca) {
-          ["total", "daily", "totalPop", "dailyPop"].forEach(function(typVal) {
-            ca[typVal][scope] = 0;
-          });
-        });
-        var validCases = Object.keys(data.scopes[scope].values.total),
-          dates = data.scopes[scope].dates || data.dates,
-          totalPop = 0,
-          countries = Object.keys(data.scopes[scope].values)
-          .map(function(c) {
-            var maxVals = {total: {}, daily: {}, totalPop: {}, dailyPop: {}},
-              minVals = {daily: {}, dailyPop: {}},
-              lastVals = {total: {}, daily: {}, totalPop: {}, dailyPop: {}},
-              cid = c.toLowerCase().replace(/[^a-z]/g, ''),
-              pop = data.scopes[scope].values[c]["population"];
-            if (c !== "total") totalPop += pop;
-            values[scope][cid] = {};
-            cases.forEach(function(ca) {
-              if (!~validCases.indexOf(ca.id)) return;
-              values[scope][cid][ca.id] = {
-                total: data.scopes[scope].values[c][ca.id],
-                daily: data.scopes[scope].values[c][ca.id]
-                  .slice(1)
-                  .map(function(v, i) {
-                    return v - data.scopes[scope].values[c][ca.id][i];
-                  })
-              };
-              values[scope][cid][ca.id].totalPop = values[scope][cid][ca.id].total.map(function(v) { return pop ? v * 1000000 / pop : 0});
-              values[scope][cid][ca.id].dailyPop = values[scope][cid][ca.id].daily.map(function(v) { return pop ? v * 1000000 / pop : 0});
-              ["total", "daily", "totalPop", "dailyPop"].forEach(function(typVal) {
-                if (typVal.slice(0, 5) === "daily") minVals[typVal][ca.id] = d3.min(values[scope][cid][ca.id][typVal]);
-                maxVals[typVal][ca.id] = d3.max(values[scope][cid][ca.id][typVal]);
-                lastVals[typVal][ca.id] = values[scope][cid][ca.id][typVal][values[scope][cid][ca.id][typVal].length - 1];
-              });
-              if (c !== "total") {
-                ca.total[scope] += lastVals.total[ca.id];
-                ca.daily[scope] += lastVals.daily[ca.id];
-              }
-            });
-            return {
-              id: cid,
-              name: (c === "total" ? "Entire " + scope : c),
-              color: "",
-              population: pop,
-              value: null,
-              shift: 0,
-              shiftStr: "",
-              minValues: minVals,
-              maxValues: maxVals,
-              lastValues: lastVals,
-              lastStr: "",
-              selected: false
-            };
-          });
-        scopes[scope] = {
-          level: data.scopes[scope].level,
-          source: data.scopes[scope].source,
-          lastUpdate: data.scopes[scope].lastUpdate,
-          countries: countries,
-          dates: dates.map(d3.datize),
-          extent: Math.round((dates[dates.length - 1] - dates[0]) / (1000*60*60*24)),
-          cases: validCases
-        }
-        scopes[scope].countries
-          .sort(staticCountriesSort("cases", 1, 1))
-          .forEach(function(c, i) {
-            if (!countriesColors[c.id])
-              countriesColors[c.id] = d3.defaultColors[i % d3.defaultColors.length];
-            c.color = countriesColors[c.id];
-          });
-        cases.forEach(function(ca) {
-          ca.totalPop[scope] = d3.strFormat(ca.total[scope] * 1000000 / totalPop);
-          ca.dailyPop[scope] = d3.strFormat(ca.daily[scope] * 1000000 / totalPop);
-          ca.total[scope] = d3.strFormat(ca.total[scope]);
-          ca.daily[scope] = d3.strFormat(ca.daily[scope]);
-        });
-        scopeChoices.push({
-          name: scope,
-          label: scope + " " + levelsLabel(scopes[scope].level)
+        processScope = this.processScope;
+      values[scope] = {};
+      cases.forEach(function(ca) {
+        ["total", "daily", "totalPop", "dailyPop"].forEach(function(typVal) {
+          ca[typVal][scope] = 0;
         });
       });
-      scopeChoices.sort(function(a, b) {
+      var validCases = Object.keys(data.scopes[scope].values.total),
+        dates = data.scopes[scope].dates || data.dates,
+        totalPop = 0,
+        countries = Object.keys(data.scopes[scope].values)
+        .map(function(c) {
+          var maxVals = {total: {}, daily: {}, totalPop: {}, dailyPop: {}},
+            minVals = {daily: {}, dailyPop: {}},
+            lastVals = {total: {}, daily: {}, totalPop: {}, dailyPop: {}},
+            cid = c.toLowerCase().replace(/[^a-z]/g, ''),
+            pop = data.scopes[scope].values[c]["population"];
+          if (c !== "total") totalPop += pop;
+          values[scope][cid] = {};
+          cases.forEach(function(ca) {
+            if (!~validCases.indexOf(ca.id)) return;
+            values[scope][cid][ca.id] = {
+              total: data.scopes[scope].values[c][ca.id],
+              daily: data.scopes[scope].values[c][ca.id]
+                .slice(1)
+                .map(function(v, i) {
+                  return v - data.scopes[scope].values[c][ca.id][i];
+                })
+            };
+            values[scope][cid][ca.id].totalPop = values[scope][cid][ca.id].total.map(function(v) { return pop ? v * 1000000 / pop : 0});
+            values[scope][cid][ca.id].dailyPop = values[scope][cid][ca.id].daily.map(function(v) { return pop ? v * 1000000 / pop : 0});
+            ["total", "daily", "totalPop", "dailyPop"].forEach(function(typVal) {
+              if (typVal.slice(0, 5) === "daily") minVals[typVal][ca.id] = d3.min(values[scope][cid][ca.id][typVal]);
+              maxVals[typVal][ca.id] = d3.max(values[scope][cid][ca.id][typVal]);
+              lastVals[typVal][ca.id] = values[scope][cid][ca.id][typVal][values[scope][cid][ca.id][typVal].length - 1];
+            });
+            if (c !== "total") {
+              ca.total[scope] += lastVals.total[ca.id];
+              ca.daily[scope] += lastVals.daily[ca.id];
+            }
+          });
+          return {
+            id: cid,
+            name: (c === "total" ? "Entire " + scope : c),
+            color: "",
+            population: pop,
+            value: null,
+            shift: 0,
+            shiftStr: "",
+            minValues: minVals,
+            maxValues: maxVals,
+            lastValues: lastVals,
+            lastStr: "",
+            selected: false
+          };
+        });
+      this.scopes[scope] = {
+        level: data.scopes[scope].level,
+        source: data.scopes[scope].source,
+        lastUpdate: data.scopes[scope].lastUpdate,
+        countries: countries,
+        dates: dates.map(d3.datize),
+        extent: Math.round((dates[dates.length - 1] - dates[0]) / (1000*60*60*24)),
+        cases: validCases
+      }
+      this.scopes[scope].countries
+        .sort(this.staticCountriesSort("cases", 1, 1))
+        .forEach(function(c, i) {
+          if (!countriesColors[c.id])
+            countriesColors[c.id] = d3.defaultColors[i % d3.defaultColors.length];
+          c.color = countriesColors[c.id];
+        });
+      cases.forEach(function(ca) {
+        ca.totalPop[scope] = d3.strFormat(ca.total[scope] * 1000000 / totalPop);
+        ca.dailyPop[scope] = d3.strFormat(ca.daily[scope] * 1000000 / totalPop);
+        ca.total[scope] = d3.strFormat(ca.total[scope]);
+        ca.daily[scope] = d3.strFormat(ca.daily[scope]);
+      });
+      this.scopeChoices.push({
+        name: scope,
+        label: scope + " " + this.levelsLabel(this.scopes[scope].level)
+      });
+      return setTimeout(function() {
+        processScope(data, scopesArray, scopeIdx + 1);
+      }, 0)
+    },
+    completeScopes: function() {
+      this.scopeChoices.sort(function(a, b) {
         if (b.name === "World") return 1
         if (a.name === "World") return -1
         if (b.name > a.name) return -1;

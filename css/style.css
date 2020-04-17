@@ -182,6 +182,10 @@ nav .disclaimer a, nav .disclaimer a:hover, nav .disclaimer a:visited:hover {
   overflow-y: overlay;
   display: grid;
 }
+#loader {
+  position: relative;
+  top: calc(40vh);
+}
 path.line {
   stroke-width: 2px;
 }
