@@ -414,7 +414,7 @@ new Vue({
       });
       return setTimeout(function() {
         processScope(data, scopesArray, scopeIdx + 1);
-      }, 0)
+      }, 150)
     },
     completeScopes: function() {
       this.scopeChoices.sort(function(a, b) {
