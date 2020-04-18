@@ -1063,7 +1063,7 @@ MC,15/4/2020,1598,575,97,111,516
 NC,15/4/2020,4348,1752,124,261,845
 PV,15/4/2020,11790,5863,478,956,5813
 RI,15/4/2020,3916,1207,75,257,1654
-AN,16/4/2020,11053,5298,675,940,2790
+AN,16/4/2020,10913,5298,675,940,2790
 AR,16/4/2020,4664,2151,240,562,1132
 AS,16/4/2020,2230,1474,118,174,545
 IB,16/4/2020,1668,905,152,134,938
@@ -1073,7 +1073,7 @@ CM,16/4/2020,15997,8018,511,1852,3600
 CL,16/4/2020,14903,6518,297,1401,4924
 CT,16/4/2020,38316,,,,
 CE,16/4/2020,101,9,4,4,44
-VC,16/4/2020,9869,4605,632,999,4024
+VC,16/4/2020,9719,4605,632,999,4024
 EX,16/4/2020,3019,1212,110,372,707
 GA,16/4/2020,8013,2535,117,320,1456
 MD,16/4/2020,51993,9141,1154,7007,29436
@@ -1081,9 +1081,29 @@ ML,16/4/2020,104,44,3,2,30
 MC,16/4/2020,1625,585,99,112,545
 NC,16/4/2020,4433,1781,124,338,892
 PV,16/4/2020,12089,5939,484,992,6144
-RI,16/4/2020,4098,1226,76,262,1729
+RI,16/4/2020,3547,1226,76,262,1729
+AN,17/4/2020,11020,5341,677,967,2948
+AR,17/4/2020,4761,2180,243,601,1121
+AS,17/4/2020,2272,1520,119,187,575
+IB,17/4/2020,1748,937,157,148,958
+CN,17/4/2020,2035,822,160,115,785
+CB,17/4/2020,1990,911,78,149,534
+CM,17/4/2020,16349,8093,514,1913,3838
+CL,17/4/2020,15293,6831,495,1429,5103
+CT,17/4/2020,39943,,,
+CE,17/4/2020,108,9,4,4,53
+VC,17/4/2020,9795,4708,636,1042,4306
+EX,17/4/2020,3081,1240,112,380,736
+GA,17/4/2020,8084,2554,115,334,0
+MD,17/4/2020,52946,8597,1094,7132,30475
+ML,17/4/2020,104,44,3,2,30
+MC,17/4/2020,1638,611,102,115,638
+NC,17/4/2020,4556,1829,127,354,954
+PV,17/4/2020,12355,6030,490,1020,6556
+RI,17/4/2020,3648,1249,78,272,1777
 NOTA: El objetivo de los datos que se publican en esta web es saber el número de casos acumulados a la fecha y que por tanto no se puede deducir que la diferencia entre un día y el anterior es el número de casos nuevos ya que esos casos pueden haber sido recuperados de fechas anteriores. Cualquier inferencia que se haga sobre las diferencias de un día para otro deben hacerse con precaución y son únicamente la responsabilidad el autor.,,,,,,
 Los datos de estas comunidades son datos de prevalencia (personas ingresadas a fecha de hoy). No reflejan el total de personas que han sido hospitalizadas o ingresadas en UCI  a lo largo del periodo de notificación(CL(UCIs)-GA(UCIS)-CM*-MD),,,,,,
 * Desde el día 11/04/2020 las cifras de hospitalizados de CM son casos acumulados. Previamente se refieren a personas ingresadas ese día.,,,,,,
 * Desde el día 12/04/2020 las cifras de UCIs de CM son casos acumulados. Previamente se refieren a personas ingresadas ese día.,,,,,,
 NOTA2: La serie histórica de CT se ha eliminado porque está en revisión por dicha comunidad autónoma.Solo se muestra la de casos.,,,,,,
+NOTA3: Se excluyen de la serie las notificaciones de personas  con anticuerpos positivos sin síntomas en el momento de realización de la prueba en los que no se puede establecer un momento de contagio ni si han padecido o no la enfermedad.,,,,,,
