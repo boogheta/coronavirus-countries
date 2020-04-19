@@ -987,7 +987,7 @@ MC,11/4/2020,1449,537,91,97,344
 NC,11/4/2020,3969,1663,124,232,650
 PV,11/4/2020,10772,5547,459,804,4867
 RI,11/4/2020,3279,1122,73,219,1420
-AN,12/4/2020,10187,4993,621,815,1967
+AN,12/4/2020,10095,4993,621,815,1967
 AR,12/4/2020,4187,1938,274,464,946
 AS,12/4/2020,1958,1265,110,149,434
 IB,12/4/2020,1550,811,143,117,862
@@ -1006,7 +1006,7 @@ MC,12/4/2020,1463,543,94,101,353
 NC,12/4/2020,4092,1693,124,239,695
 PV,12/4/2020,11018,5622,464,831,5026
 RI,12/4/2020,3358,1141,73,223,1458
-AN,13/4/2020,10306,5054,631,836,2032
+AN,13/4/2020,10203,5054,631,836,2032
 AR,13/4/2020,4245,1966,280,492,963
 AS,13/4/2020,2051,1330,111,156,458
 IB,13/4/2020,1571,826,145,118,871
@@ -1025,7 +1025,7 @@ MC,13/4/2020,1487,566,96,106,476
 NC,13/4/2020,4150,1705,124,249,730
 PV,13/4/2020,11226,5679,470,859,5193
 RI,13/4/2020,3420,1152,74,234,1519
-AN,14/4/2020,10595,5147,665,865,2224
+AN,14/4/2020,10426,5147,665,865,2224
 AR,14/4/2020,4338,2006,282,514,1012
 AS,14/4/2020,2096,1387,114,166,487
 IB,14/4/2020,1606,857,149,125,881
@@ -1044,7 +1044,7 @@ MC,14/4/2020,1520,574,97,109,513
 NC,14/4/2020,4246,1731,124,252,808
 PV,14/4/2020,11475,5750,471,902,5428
 RI,14/4/2020,3457,1182,75,246,1585
-AN,15/4/2020,10807,5226,671,912,2634
+AN,15/4/2020,10638,5226,671,912,2634
 AR,15/4/2020,4566,2108,291,543,1087
 AS,15/4/2020,2170,1432,116,168,522
 IB,15/4/2020,1637,872,152,131,918
@@ -1062,9 +1062,9 @@ ML,15/4/2020,103,43,3,2,27
 MC,15/4/2020,1598,575,97,111,516
 NC,15/4/2020,4348,1752,124,261,845
 PV,15/4/2020,11790,5863,478,956,5813
-RI,15/4/2020,3916,1207,75,257,1654
+RI,15/4/2020,3542,1207,75,257,1654
 AN,16/4/2020,10913,5298,675,940,2790
-AR,16/4/2020,4664,2151,240,562,1132
+AR,16/4/2020,4664,2151,240,562,1121
 AS,16/4/2020,2230,1474,118,174,545
 IB,16/4/2020,1668,905,152,134,938
 CN,16/4/2020,2009,811,159,111,730
@@ -1081,7 +1081,7 @@ ML,16/4/2020,104,44,3,2,30
 MC,16/4/2020,1625,585,99,112,545
 NC,16/4/2020,4433,1781,124,338,892
 PV,16/4/2020,12089,5939,484,992,6144
-RI,16/4/2020,3547,1226,76,262,1729
+RI,16/4/2020,3550,1226,76,262,1729
 AN,17/4/2020,11020,5341,677,967,2948
 AR,17/4/2020,4761,2180,243,601,1121
 AS,17/4/2020,2272,1520,119,187,575
@@ -1090,7 +1090,7 @@ CN,17/4/2020,2035,822,160,115,785
 CB,17/4/2020,1990,911,78,149,534
 CM,17/4/2020,16349,8093,514,1913,3838
 CL,17/4/2020,15293,6831,495,1429,5103
-CT,17/4/2020,39943,,,
+CT,17/4/2020,39943,,,,
 CE,17/4/2020,108,9,4,4,53
 VC,17/4/2020,9795,4708,636,1042,4306
 EX,17/4/2020,3081,1240,112,380,736
@@ -1101,9 +1101,28 @@ MC,17/4/2020,1638,611,102,115,638
 NC,17/4/2020,4556,1829,127,354,954
 PV,17/4/2020,12355,6030,490,1020,6556
 RI,17/4/2020,3648,1249,78,272,1777
-NOTA: El objetivo de los datos que se publican en esta web es saber el número de casos acumulados a la fecha y que por tanto no se puede deducir que la diferencia entre un día y el anterior es el número de casos nuevos ya que esos casos pueden haber sido recuperados de fechas anteriores. Cualquier inferencia que se haga sobre las diferencias de un día para otro deben hacerse con precaución y son únicamente la responsabilidad el autor.,,,,,,
+AN,18/4/2020,11205,5424,687,993,3116
+AR,18/4/2020,4831,2216,246,619,1175
+AS,18/4/2020,2298,1571,120,196,596
+IB,18/4/2020,1773,955,160,155,993
+CN,18/4/2020,2047,825,162,119,789
+CB,18/4/2020,2050,924,78,153,610
+CM,18/4/2020,16625,8137,518,1963,3963
+CL,18/4/2020,15621,6981,498,1458,5262
+CT,18/4/2020,40600,,,,
+CE,18/4/2020,109,9,4,4,59
+VC,18/4/2020,9937,4781,643,1065,4547
+EX,18/4/2020,3136,1278,112,384,767
+GA,18/4/2020,8185,2590,112,346,0
+MD,18/4/2020,54884,8291,1123,7239,31313
+ML,18/4/2020,104,44,3,2,44
+MC,18/4/2020,1644,612,102,116,652
+NC,18/4/2020,4621,1843,127,369,992
+PV,18/4/2020,12569,6086,499,1062,6972
+RI,18/4/2020,3705,1268,79,277,1816
+NOTA: El objetivo de los datos que se publican en esta web es saber el número de casos acumulados a la fecha y que por tanto no se puede deducir que la diferencia entre un día y el anterior es el número de casos nuevos ya que esos casos pueden haber sido recuperados de fechas anteriores. Cualquier inferencia que se haga sobre las diferencias de un día para otro deben hacerse con precaución y son únicamente la responsabilidad del autor.,,,,,,
 Los datos de estas comunidades son datos de prevalencia (personas ingresadas a fecha de hoy). No reflejan el total de personas que han sido hospitalizadas o ingresadas en UCI  a lo largo del periodo de notificación(CL(UCIs)-GA(UCIS)-CM*-MD),,,,,,
 * Desde el día 11/04/2020 las cifras de hospitalizados de CM son casos acumulados. Previamente se refieren a personas ingresadas ese día.,,,,,,
 * Desde el día 12/04/2020 las cifras de UCIs de CM son casos acumulados. Previamente se refieren a personas ingresadas ese día.,,,,,,
-NOTA2: La serie histórica de CT se ha eliminado porque está en revisión por dicha comunidad autónoma.Solo se muestra la de casos.,,,,,,
-NOTA3: Se excluyen de la serie las notificaciones de personas  con anticuerpos positivos sin síntomas en el momento de realización de la prueba en los que no se puede establecer un momento de contagio ni si han padecido o no la enfermedad.,,,,,,
+NOTA2:La serie histórica de CT se ha eliminado porque está en revisión por dicha comunidad autónoma.Solo se muestra la de casos.,,,,,,
+NOTA3:Se excluyen de la serie las notificaciones de personas  con anticuerpos positivos sin síntomas en el momento de realización de la prueba en los que no se puede establecer un momento de contagio ni si han padecido o no la enfermedad.,,,,,,
