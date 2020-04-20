@@ -2,7 +2,7 @@ name: Auto Update
 
 on:
   schedule:
-    - cron:  '*/5 * * * *'
+    - cron:  '*/20 * * * *'
 
 jobs:
   update:
@@ -27,13 +27,11 @@ jobs:
           fi
   
       - name: Build Viz Data
-        run: |
-          ./bin/export-main-countries.py
-          ls data/*.csv | while read f; do echo $f; git log -1 --format=%ct $f; done
+        run: ./bin/export-main-countries.py
   
       - name: Commit & Push Viz Data
         run: |
-          if git diff data/*.json | grep . ; then
+          if git diff data/*.json | grep . > /dev/null ; then
             git config --local user.email "action@github.com"
             git config --local user.name "GitHub Action"
             git commit -m "update viz data" data/coronavirus-countries.json
