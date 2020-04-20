@@ -80,6 +80,15 @@ nav .disclaimer a, nav .disclaimer a:hover, nav .disclaimer a:visited:hover {
 .scopefocus .input-group__selections__comma {
   text-decoration: underline dotted;
 }
+.menu__content .list {
+  background-color: #555;
+}
+.menu__content .list li {
+  padding: 0;
+}
+.menu__content .list li, .menu__content .list__tile {
+  height: 36px;
+}
 .sort {
   height: 18px;
   margin: -4px 72px 12px 0px;
