@@ -1120,6 +1120,25 @@ MC,18/4/2020,1644,612,102,116,652
 NC,18/4/2020,4621,1843,127,369,992
 PV,18/4/2020,12569,6086,499,1062,6972
 RI,18/4/2020,3705,1268,79,277,1816
+AN,19/4/2020,11323,5473,690,1013,3229
+AR,19/4/2020,4886,2244,248,637,1178
+AS,19/4/2020,2348,1599,122,200,599
+IB,19/4/2020,1788,963,161,157,1005
+CN,19/4/2020,2067,826,163,119,813
+CB,19/4/2020,2083,934,78,158,626
+CM,19/4/2020,16796,8173,531,2021,4178
+CL,19/4/2020,15857,7080,501,1493,5366
+CT,19/4/2020,41676,,,,
+CE,19/4/2020,111,9,4,4,74
+VC,19/4/2020,10018,4827,646,1079,4629
+EX,19/4/2020,3186,1306,112,389,858
+GA,19/4/2020,8299,2609,108,352,1548
+MD,19/4/2020,56963,8191,1111,7351,31762
+ML,19/4/2020,104,44,3,2,46
+MC,19/4/2020,1646,612,103,117,662
+NC,19/4/2020,4697,1856,128,385,1123
+PV,19/4/2020,12628,6109,501,1081,7124
+RI,19/4/2020,3734,1282,79,285,1833
 NOTA: El objetivo de los datos que se publican en esta web es saber el número de casos acumulados a la fecha y que por tanto no se puede deducir que la diferencia entre un día y el anterior es el número de casos nuevos ya que esos casos pueden haber sido recuperados de fechas anteriores. Cualquier inferencia que se haga sobre las diferencias de un día para otro deben hacerse con precaución y son únicamente la responsabilidad del autor.,,,,,,
 Los datos de estas comunidades son datos de prevalencia (personas ingresadas a fecha de hoy). No reflejan el total de personas que han sido hospitalizadas o ingresadas en UCI  a lo largo del periodo de notificación(CL(UCIs)-GA(UCIS)-CM*-MD),,,,,,
 * Desde el día 11/04/2020 las cifras de hospitalizados de CM son casos acumulados. Previamente se refieren a personas ingresadas ese día.,,,,,,
