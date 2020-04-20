@@ -2,7 +2,7 @@ name: Auto Update
 
 on:
   schedule:
-    - cron:  '*/20 * * * *'
+    - cron:  '*/5 * * * *'
 
 jobs:
   update:
@@ -12,7 +12,9 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v2
-  
+        with:
+          fetch-depth: 100
+
       - name: Update Sources
         run: ./bin/update_sources.sh
   
@@ -25,7 +27,9 @@ jobs:
           fi
   
       - name: Build Viz Data
-        run: ./bin/export-main-countries.py
+        run: |
+          ./bin/export-main-countries.py
+          ls data/*.csv | while read f; do echo $f; git log -1 --format=%ct $f; done
   
       - name: Commit & Push Viz Data
         run: |
