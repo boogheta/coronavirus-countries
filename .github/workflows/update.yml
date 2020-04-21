@@ -20,7 +20,7 @@ jobs:
   
       - name: Commit Sources Data
         run: |
-          if git diff data/*.csv | grep . ; then
+          if git diff --name-only data/*.csv | grep . ; then
             git config --local user.email "action@github.com"
             git config --local user.name "GitHub Action"
             git commit -m "update sources data" data/*.csv
