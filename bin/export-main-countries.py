@@ -161,9 +161,10 @@ eldate = lambda d, i: int(d.split('/')[i])
 fix_year = lambda d: d if d > 2000 else 2000 + d
 conv = lambda d: '%d-%02d-%02d' % (fix_year(eldate(d, 2)), eldate(d, 0), eldate(d, 1))
 conv_fr = lambda d: '%d-%02d-%02d' % (fix_year(eldate(d, 2)), eldate(d, 1), eldate(d, 0))
-rconv = lambda d: '%s/%s/20' % (d.split('-')[1].lstrip('0'), d.split('-')[2].lstrip('0'))
+rconv = lambda d: '%s/%s/%s' % (d.split('-')[1].lstrip('0'), d.split('-')[2].lstrip('0'), int(d.split('-')[0]) - 2000)
+rconv_alt = lambda d: '%s/%s/%s' % (d.split('-')[1].lstrip('0'), d.split('-')[2].lstrip('0'), d.split('-')[0])
 
-get_value = lambda row, dat: int(float(row[rconv(dat)] or 0))
+get_value = lambda row, dat: int(float(row.get(rconv(dat), row.get(rconv_alt(dat))) or 0))
 sum_values = lambda country, dat: sum([get_value(region, dat) for region in country])
 
 ignore_fields = ['Lat', 'Long', 'Province/State', 'Country/Region']
