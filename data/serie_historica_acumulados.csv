@@ -1113,7 +1113,7 @@ CT,18/4/2020,,40448,152,22235,2395,3933,13691
 CE,18/4/2020,,100,12,9,4,4,59
 VC,18/4/2020,,9657,593,4781,643,1065,4547
 EX,18/4/2020,,2673,519,1278,112,384,767
-GA,18/4/2020,8185,8185,,2590,112,346,0
+GA,18/4/2020,8185,,,2590,112,346,0
 MD,18/4/2020,,53670,2475,8291,1123,7239,31313
 ML,18/4/2020,,104,3,44,3,2,44
 MC,18/4/2020,,1438,215,612,102,116,652
@@ -1132,7 +1132,7 @@ CT,19/4/2020,,41676,1027,22375,2409,4009,13934
 CE,19/4/2020,,100,14,9,4,4,74
 VC,19/4/2020,,9708,631,4827,646,1079,4629
 EX,19/4/2020,,2692,551,1306,112,389,858
-GA,19/4/2020,8299,8299,,2609,108,352,1548
+GA,19/4/2020,8299,,,2609,108,352,1548
 MD,19/4/2020,,54300,2663,8191,1111,7351,31762
 ML,19/4/2020,,104,5,44,3,2,46
 MC,19/4/2020,,1440,219,612,103,117,662
@@ -1151,7 +1151,7 @@ CT,20/4/2020,,43112,1027,22796,2437,4152,14446
 CE,20/4/2020,,100,14,9,4,4,73
 VC,20/4/2020,,9750,649,4866,648,1089,4719
 EX,20/4/2020,,2692,551,1327,112,397,921
-GA,20/4/2020,8468,8468,,2652,101,360,1588
+GA,20/4/2020,8468,,,2652,101,360,1588
 MD,20/4/2020,,55325,2672,7930,1076,7460,32277
 ML,20/4/2020,,105,5,44,3,2,46
 MC,20/4/2020,,1445,251,614,104,120,702
@@ -1170,7 +1170,7 @@ CT,21/4/2020,,43802,1027,23295,2460,4247,15089
 CE,21/4/2020,,100,24,9,4,4,76
 VC,21/4/2020,,9825,746,4896,649,1106,5011
 EX,21/4/2020,,2692,551,1349,112,404,1051
-GA,21/4/2020,8634,8634,,2674,96,368,1625
+GA,21/4/2020,8634,,,2674,96,368,1625
 MD,21/4/2020,,56245,2954,7464,1024,7577,33032
 ML,21/4/2020,,105,6,44,3,2,50
 MC,21/4/2020,,1455,262,622,104,123,761
@@ -1189,7 +1189,7 @@ CT,22/4/2020,,44892,1027,23647,2478,4343,15477
 CE,22/4/2020,,100,24,9,4,4,76
 VC,22/4/2020,,9869,866,4917,650,1124,5388
 EX,22/4/2020,,2715,651,1375,113,407,1237
-GA,22/4/2020,8805,8805,,2694,92,375,1676
+GA,22/4/2020,8805,,,2694,92,375,1676
 MD,22/4/2020,,57094,3393,7077,981,7684,33645
 ML,22/4/2020,,106,7,44,3,2,55
 MC,22/4/2020,,1460,261,624,104,124,766
@@ -1227,15 +1227,34 @@ CT,24/4/2020,,46261,1027,24130,2576,4498,16753
 CE,24/4/2020,,100,25,10,4,4,98
 VC,24/4/2020,,10066,1057,4978,653,1172,6033
 EX,24/4/2020,,2718,740,1447,107,416,1510
-GA,24/4/2020,9196,9116,0,2722,90,388,1783
+GA,24/4/2020,9116,9116,0,2722,90,388,1783
 MD,24/4/2020,,58819,3691,6183,892,7848,34902
 ML,24/4/2020,,108,10,44,3,2,77
 MC,24/4/2020,,1468,288,625,105,126,842
 NC,24/4/2020,,4627,647,1937,129,429,1737
 PV,24/4/2020,,12366,1766,6375,525,1212,8941
 RI,24/4/2020,,3821,1125,1360,83,311,1999
-NOTA: El objetivo de los datos que se publican en esta web es saber el número de casos acumulados a la fecha y que por tanto no se puede deducir que la diferencia entre un día y el anterior es el número de casos nuevos ya que esos casos pueden haber sido recuperados de fechas anteriores. Cualquier inferencia que se haga sobre las diferencias de un día para otro deben hacerse con precaución y son únicamente la responsabilidad del autor.
-Los datos de estas comunidades son datos de prevalencia (personas ingresadas a fecha de hoy). No reflejan el total de personas que han sido hospitalizadas o ingresadas en UCI  a lo largo del periodo de notificación(CL(UCIs)-GA(UCIS)-CM*-MD)
-* Desde el día 11/04/2020 las cifras de hospitalizados de CM son casos acumulados. Previamente se refieren a personas ingresadas ese día.
-* Desde el día 12/04/2020 las cifras de UCIs de CM son casos acumulados. Previamente se refieren a personas ingresadas ese día.
-NOTA2:Se excluyen de la serie las notificaciones de personas  con anticuerpos positivos sin síntomas en el momento de realización de la prueba en los que no se puede establecer un momento de contagio ni si han padecido o no la enfermedad.
+AN,25/4/2020,,11774,1249,5748,716,1145,4741
+AR,25/4/2020,,4955,501,2395,257,712,1960
+AS,25/4/2020,,2249,352,1790,134,249,749
+IB,25/4/2020,,1854,63,1062,166,175,1123
+CN,25/4/2020,,2167,0,880,171,131,1048
+CB,25/4/2020,,2083,247,991,78,183,1127
+CM,25/4/2020,,15609,3386,8417,565,2330,5196
+CL,25/4/2020,,16222,2462,7653,515,1666,6208
+CT,25/4/2020,,46811,1027,25665,2583,4566,17006
+CE,25/4/2020,,100,31,10,4,4,104
+VC,25/4/2020,,10160,1212,5013,654,1186,6243
+EX,25/4/2020,,2736,729,1480,108,422,1582
+GA,25/4/2020,9176,9176,0,2735,85,394,1803
+MD,25/4/2020,,59126,3691,5892,873,7922,35367
+ML,25/4/2020,,110,11,44,3,2,81
+MC,25/4/2020,,1474,297,627,106,127,920
+NC,25/4/2020,,4712,740,1942,129,431,1835
+PV,25/4/2020,,12455,1860,6426,533,1230,9602
+RI,25/4/2020,,3861,1137,1380,84,315,2037
+NOTA: El objetivo de los datos que se publican en esta web es saber el número de casos acumulados a la fecha y que por tanto no se puede deducir que la diferencia entre un día y el anterior es el número de casos nuevos ya que esos casos pueden haber sido recuperados de fechas anteriores. Cualquier inferencia que se haga sobre las diferencias de un día para otro deben hacerse con precaución y son únicamente la responsabilidad del autor.,,,,,,,,
+Los datos de estas comunidades son datos de prevalencia (personas ingresadas a fecha de hoy). No reflejan el total de personas que han sido hospitalizadas o ingresadas en UCI  a lo largo del periodo de notificación(CL(UCIs)-GA(UCIS)-CM*-MD),,,,,,,,
+* Desde el día 11/04/2020 las cifras de hospitalizados de CM son casos acumulados. Previamente se refieren a personas ingresadas ese día.,,,,,,,,
+* Desde el día 12/04/2020 las cifras de UCIs de CM son casos acumulados. Previamente se refieren a personas ingresadas ese día.,,,,,,,,
+NOTA2:Se excluyen de la serie las notificaciones de personas  con anticuerpos positivos sin síntomas en el momento de realización de la prueba en los que no se puede establecer un momento de contagio ni si han padecido o no la enfermedad.,,,,,,,,
