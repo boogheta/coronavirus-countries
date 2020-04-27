@@ -1253,8 +1253,28 @@ MC,25/4/2020,,1474,297,627,106,127,920
 NC,25/4/2020,,4712,740,1942,129,431,1835
 PV,25/4/2020,,12455,1860,6426,533,1230,9602
 RI,25/4/2020,,3861,1137,1380,84,315,2037
+AN,26/4/2020,,11852,1308,5768,720,1157,4890
+AR,26/4/2020,,4985,519,2403,257,726,2010
+AS,26/4/2020,,2254,423,1814,137,253,759
+IB,26/4/2020,,1859,63,1062,166,179,1136
+CN,26/4/2020,,2178,0,881,171,131,1047
+CB,26/4/2020,,2104,246,995,78,186,1241
+CM,26/4/2020,,15664,3622,8444,579,2365,5282
+CL,26/4/2020,,16404,2624,7703,518,1690,6272
+CT,26/4/2020,,47755,1027,25799,2724,4699,17897
+CE,26/4/2020,,100,31,10,4,4,107
+VC,26/4/2020,,10180,1232,5032,656,1189,6317
+EX,26/4/2020,,2749,731,1490,108,428,1652
+GA,26/4/2020,9238,,,2746,83,405,1816
+MD,26/4/2020,,59421,4022,39472,3309,7986,35565
+ML,26/4/2020,,110,11,44,3,2,87
+MC,26/4/2020,,1474,297,627,106,128,990
+NC,26/4/2020,,4733,7530,1942,130,432,1918
+PV,26/4/2020,,12513,1899,6457,538,1241,9840
+RI,26/4/2020,,3892,1149,1392,85,320,2049
 NOTA: El objetivo de los datos que se publican en esta web es saber el número de casos acumulados a la fecha y que por tanto no se puede deducir que la diferencia entre un día y el anterior es el número de casos nuevos ya que esos casos pueden haber sido recuperados de fechas anteriores. Cualquier inferencia que se haga sobre las diferencias de un día para otro deben hacerse con precaución y son únicamente la responsabilidad del autor.,,,,,,,,
 Los datos de estas comunidades son datos de prevalencia (personas ingresadas a fecha de hoy). No reflejan el total de personas que han sido hospitalizadas o ingresadas en UCI  a lo largo del periodo de notificación(CL(UCIs)-GA(UCIS)-CM*-MD),,,,,,,,
 * Desde el día 11/04/2020 las cifras de hospitalizados de CM son casos acumulados. Previamente se refieren a personas ingresadas ese día.,,,,,,,,
 * Desde el día 12/04/2020 las cifras de UCIs de CM son casos acumulados. Previamente se refieren a personas ingresadas ese día.,,,,,,,,
+* Desde el día 26/04/2020 las cifras de hospitalizados y UCIs de MD son casos acumulados. Previamente se refieren a personas ingresadas ese día.,,,,,,,,
 NOTA2:Se excluyen de la serie las notificaciones de personas  con anticuerpos positivos sin síntomas en el momento de realización de la prueba en los que no se puede establecer un momento de contagio ni si han padecido o no la enfermedad.,,,,,,,,
