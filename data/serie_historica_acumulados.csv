@@ -1272,9 +1272,28 @@ MC,26/4/2020,,1474,297,627,106,128,990
 NC,26/4/2020,,4733,753,1942,130,432,1918
 PV,26/4/2020,,12513,1899,6457,538,1241,9840
 RI,26/4/2020,,3892,1149,1392,85,320,2049
+AN,27/4/2020,,11913,1337,5793,721,1168,5039
+AR,27/4/2020,,5004,553,2425,258,735,2081
+AS,27/4/2020,,2255,433,1843,137,261,780
+IB,27/4/2020,,1870,70,1074,166,181,1166
+CN,27/4/2020,,2187,0,900,174,133,1075
+CB,27/4/2020,,2115,271,1000,78,188,1290
+CM,27/4/2020,,15706,3812,8464,584,2396,5306
+CL,27/4/2020,,16589,2783,7777,522,1710,6323
+CT,27/4/2020,,48158,1027,26230,2750,4808,18319
+CE,27/4/2020,,100,34,10,4,4,110
+VC,27/4/2020,,10204,1454,5046,659,1200,6423
+EX,27/4/2020,,2751,736,1505,108,433,1733
+GA,27/4/2020,9328,,,2758,73,412,1841
+MD,27/4/2020,,59784,4205,39634,3338,8048,35841
+ML,27/4/2020,,114,11,44,3,2,92
+MC,27/4/2020,,1475,318,629,106,130,1113
+NC,27/4/2020,,4759,871,1945,130,432,1978
+PV,27/4/2020,,12564,2240,6482,539,1255,9974
+RI,27/4/2020,,3897,1200,1400,87,326,2064
 NOTA: El objetivo de los datos que se publican en esta web es saber el número de casos acumulados a la fecha y que por tanto no se puede deducir que la diferencia entre un día y el anterior es el número de casos nuevos ya que esos casos pueden haber sido recuperados de fechas anteriores. Cualquier inferencia que se haga sobre las diferencias de un día para otro deben hacerse con precaución y son únicamente la responsabilidad del autor.,,,,,,,,
 Los datos de estas comunidades son datos de prevalencia (personas ingresadas a fecha de hoy). No reflejan el total de personas que han sido hospitalizadas o ingresadas en UCI  a lo largo del periodo de notificación(CL(UCIs)-GA(UCIS)-CM*-MD**),,,,,,,,
 * Desde el día 11/04/2020 las cifras de hospitalizados de CM son casos acumulados. Previamente se refieren a personas ingresadas ese día.,,,,,,,,
 * Desde el día 12/04/2020 las cifras de UCIs de CM son casos acumulados. Previamente se refieren a personas ingresadas ese día.,,,,,,,,
-** Desde el dia 26/04/2020 los datos de Hospitalizaciones y UCIs de Madrid son datos acumulados. Se Actaulizará la serie restrospectivamente cuando este disponible.
+* Desde el día 26/04/2020 las cifras de Hospitalizados y UCIs de CM son casos acumulados. Previamente se refieren a personas ingresadas ese día. Se actualizará la serie cuando esté disponible,,,,,,,,
 NOTA2:Se excluyen de la serie las notificaciones de personas  con anticuerpos positivos sin síntomas en el momento de realización de la prueba en los que no se puede establecer un momento de contagio ni si han padecido o no la enfermedad.,,,,,,,,
