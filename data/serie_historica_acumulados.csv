@@ -1291,6 +1291,25 @@ MC,27/4/2020,,1475,318,629,106,130,1113
 NC,27/4/2020,,4759,871,1945,130,432,1978
 PV,27/4/2020,,12564,2240,6482,539,1255,9974
 RI,27/4/2020,,3897,1200,1400,87,326,2064
+AN,28/4/2020,,12004,1497,5832,722,1188,5272
+AR,28/4/2020,,5042,610,2454,258,736,2189
+AS,28/4/2020,,2266,531,1886,137,266,809
+IB,28/4/2020,,1879,71,1079,166,185,1196
+CN,28/4/2020,,2202,0,906,176,134,1107
+CB,28/4/2020,,2146,293,1006,79,191,1372
+CM,28/4/2020,,15785,4010,8523,588,2436,5382
+CL,28/4/2020,,16690,3161,7854,524,1736,6448
+CT,28/4/2020,,48654,1027,26546,2768,4905,19060
+CE,28/4/2020,,101,38,10,4,4,114
+VC,28/4/2020,,10236,1580,5072,662,1218,6599
+EX,28/4/2020,,2764,749,1526,108,440,1797
+GA,28/4/2020,9466,8675,791,2736,308,547,5393
+MD,28/4/2020,,60765,4381,39850,3355,8105,36314
+ML,28/4/2020,,114,11,44,3,2,95
+MC,28/4/2020,,1480,360,635,106,130,1153
+NC,28/4/2020,,4794,1090,1951,130,448,2082
+PV,28/4/2020,,12619,2519,6522,540,1274,10474
+RI,28/4/2020,,3910,1263,1413,87,330,2091
 NOTA: El objetivo de los datos que se publican en esta web es saber el número de casos acumulados a la fecha y que por tanto no se puede deducir que la diferencia entre un día y el anterior es el número de casos nuevos ya que esos casos pueden haber sido recuperados de fechas anteriores. Cualquier inferencia que se haga sobre las diferencias de un día para otro deben hacerse con precaución y son únicamente la responsabilidad del autor.,,,,,,,,
 Los datos de estas comunidades son datos de prevalencia (personas ingresadas a fecha de hoy). No reflejan el total de personas que han sido hospitalizadas o ingresadas en UCI  a lo largo del periodo de notificación(CL(UCIs)-GA(UCIS)-CM*-MD**),,,,,,,,
 * Desde el día 11/04/2020 las cifras de hospitalizados de CM son casos acumulados. Previamente se refieren a personas ingresadas ese día.,,,,,,,,
