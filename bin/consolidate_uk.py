@@ -4,7 +4,7 @@
 import os
 import csv
 
-initvals = lambda : {"confirmed": [], "deceased": []}
+initvals = lambda : {"confirmed": [], "deceased": [], "tested": []}
 countries = {
   "England": initvals(),
   "Wales": initvals(),
@@ -16,31 +16,28 @@ dates = []
 curdate = None
 MINDATE = "2020-01-30"
 
-formatcase = lambda c : c.replace("ConfirmedCases", "confirmed").replace("Deaths", "deceased")
+formatcase = lambda c : c.replace("ConfirmedCases", "confirmed").replace("Deaths", "deceased").replace("Tests", "tested")
 
 def complete_last_row(dates, countries):
     n = len(countries["UK"]["confirmed"])
     if not n:
         return dates, countries
     dates = dates[0:n]
-    for c in ["Wales", "Northern Ireland", "England", "Scotland"]:
-        countries[c]["confirmed"] = countries[c]["confirmed"][0:n]
-        countries[c]["deceased"] = countries[c]["deceased"][0:n]
-    for c in ["Wales", "Northern Ireland"]:
-        if not len(countries[c]["confirmed"]):
-            countries[c]["confirmed"].append(0)
-            countries[c]["deceased"].append(0)
-        elif len(countries[c]["confirmed"]) < n:
-            countries[c]["confirmed"].append(countries[c]["confirmed"][n-2])
-            countries[c]["deceased"].append(countries[c]["deceased"][n-2])
-    for c in ["confirmed", "deceased"]:
-        if len(countries["England"][c]) < n:
-            countries["England"][c].append(countries["UK"][c][-1] - countries["Wales"][c][-1] - countries["Scotland"][c][-1] - countries["Northern Ireland"][c][-1])
+    for case in ["confirmed", "deceased", "tested"]:
+        for c in ["Wales", "Northern Ireland", "England", "Scotland"]:
+            countries[c][case] = countries[c][case][0:n]
+        for c in ["Wales", "Northern Ireland", "Scotland", "UK"]:
+            if not len(countries[c][case]):
+                countries[c][case].append(0)
+            elif len(countries[c][case]) < n:
+                countries[c][case].append(countries[c][case][n-2])
+        if len(countries["England"][case]) < n:
+            countries["England"][case].append(countries["UK"][case][-1] - countries["Wales"][case][-1] - countries["Scotland"][case][-1] - countries["Northern Ireland"][case][-1])
     return dates, countries
 
 with open(os.path.join("data", "covid-19-indicators-uk.csv")) as f:
     for row in csv.DictReader(f):
-        if row["Date"] < MINDATE or row["Indicator"] == "Tests":
+        if row["Date"] < MINDATE:
             continue
         if curdate != row["Date"]:
             dates, countries = complete_last_row(dates, countries)
@@ -52,8 +49,8 @@ with open(os.path.join("data", "covid-19-indicators-uk.csv")) as f:
     del(countries["UK"])
 
 
-print("date,country,confirmed,deceased")
+print("date,country,confirmed,deceased,tested")
 for i, d in enumerate(sorted(dates)):
     for b in countries.keys():
-        print(",".join([d, b, str(countries[b]["confirmed"][i]), str(countries[b]["deceased"][i])]))
+        print(",".join([d, b, str(countries[b]["confirmed"][i]), str(countries[b]["deceased"][i]), str(countries[b]["tested"][i])]))
 
