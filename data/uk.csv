@@ -8,11 +8,11 @@ date,country,confirmed,deceased,tested
 2020-01-31,Scotland,0,0,16
 2020-01-31,Northern Ireland,0,0,0
 2020-02-01,Wales,2,0,8
-2020-02-01,England,0,0,179
+2020-02-01,England,2,0,179
 2020-02-01,Scotland,0,0,16
 2020-02-01,Northern Ireland,0,0,0
 2020-02-02,Wales,2,0,8
-2020-02-02,England,0,0,242
+2020-02-02,England,2,0,242
 2020-02-02,Scotland,0,0,16
 2020-02-02,Northern Ireland,0,0,0
 2020-02-03,Wales,2,0,8
@@ -20,7 +20,7 @@ date,country,confirmed,deceased,tested
 2020-02-03,Scotland,0,0,26
 2020-02-03,Northern Ireland,0,0,1
 2020-02-04,Wales,3,0,9
-2020-02-04,England,-1,0,380
+2020-02-04,England,8,0,380
 2020-02-04,Scotland,0,0,26
 2020-02-04,Northern Ireland,0,0,1
 2020-02-05,Wales,3,0,9
@@ -28,11 +28,11 @@ date,country,confirmed,deceased,tested
 2020-02-05,Scotland,0,0,31
 2020-02-05,Northern Ireland,0,0,1
 2020-02-06,Wales,3,0,9
-2020-02-06,England,0,0,521
+2020-02-06,England,9,0,521
 2020-02-06,Scotland,0,0,34
 2020-02-06,Northern Ireland,0,0,2
 2020-02-07,Wales,3,0,9
-2020-02-07,England,0,0,565
+2020-02-07,England,9,0,565
 2020-02-07,Scotland,0,0,38
 2020-02-07,Northern Ireland,0,0,8
 2020-02-08,Wales,3,0,9
@@ -44,7 +44,7 @@ date,country,confirmed,deceased,tested
 2020-02-09,Scotland,0,0,41
 2020-02-09,Northern Ireland,0,0,15
 2020-02-10,Wales,3,0,9
-2020-02-10,England,5,0,1029
+2020-02-10,England,13,0,1029
 2020-02-10,Scotland,0,0,57
 2020-02-10,Northern Ireland,0,0,19
 2020-02-11,Wales,3,0,9
@@ -64,7 +64,7 @@ date,country,confirmed,deceased,tested
 2020-02-14,Scotland,0,0,200
 2020-02-14,Northern Ireland,0,0,27
 2020-02-15,Wales,3,0,13
-2020-02-15,England,6,0,2727
+2020-02-15,England,17,0,2727
 2020-02-15,Scotland,0,0,224
 2020-02-15,Northern Ireland,0,0,28
 2020-02-16,Wales,3,0,13
@@ -76,7 +76,7 @@ date,country,confirmed,deceased,tested
 2020-02-17,Scotland,0,0,264
 2020-02-17,Northern Ireland,0,0,35
 2020-02-18,Wales,3,0,14
-2020-02-18,England,6,0,4588
+2020-02-18,England,19,0,4588
 2020-02-18,Scotland,0,0,276
 2020-02-18,Northern Ireland,0,0,38
 2020-02-19,Wales,3,0,14
@@ -84,7 +84,7 @@ date,country,confirmed,deceased,tested
 2020-02-19,Scotland,0,0,306
 2020-02-19,Northern Ireland,0,0,41
 2020-02-20,Wales,3,0,15
-2020-02-20,England,6,0,5165
+2020-02-20,England,20,0,5165
 2020-02-20,Scotland,0,0,327
 2020-02-20,Northern Ireland,0,0,42
 2020-02-21,Wales,4,0,16
@@ -92,7 +92,7 @@ date,country,confirmed,deceased,tested
 2020-02-21,Scotland,0,0,368
 2020-02-21,Northern Ireland,0,0,45
 2020-02-22,Wales,4,0,16
-2020-02-22,England,5,0,5709
+2020-02-22,England,21,0,5709
 2020-02-22,Scotland,0,0,382
 2020-02-22,Northern Ireland,0,0,45
 2020-02-23,Wales,6,0,26
@@ -376,6 +376,6 @@ date,country,confirmed,deceased,tested
 2020-05-02,Scotland,11927,1559,58833
 2020-05-02,Northern Ireland,3767,380,25385
 2020-05-03,Wales,10329,983,34334
-2020-05-03,England,160406,25528,762329
+2020-05-03,England,124861,25528,762329
 2020-05-03,Scotland,12097,1571,60295
 2020-05-03,Northern Ireland,3767,381,25385

@@ -24,15 +24,15 @@ def complete_last_row(dates, countries):
         return dates, countries
     dates = dates[0:n]
     for case in ["confirmed", "deceased", "tested"]:
-        for c in ["Wales", "Northern Ireland", "England", "Scotland"]:
+        for c in ["Wales", "Northern Ireland", "Scotland", "England"]:
             countries[c][case] = countries[c][case][0:n]
-        for c in ["Wales", "Northern Ireland", "Scotland", "UK"]:
+        for c in ["Wales", "Northern Ireland", "Scotland", "UK", "England"]:
             if not len(countries[c][case]):
                 countries[c][case].append(0)
             elif len(countries[c][case]) < n:
                 countries[c][case].append(countries[c][case][n-2])
-        if len(countries["England"][case]) < n:
-            countries["England"][case].append(countries["UK"][case][-1] - countries["Wales"][case][-1] - countries["Scotland"][case][-1] - countries["Northern Ireland"][case][-1])
+    # Use substraction of UK only for Tests since confimed cases seem inconsistent with England ones until figuring out https://github.com/tomwhite/covid-19-uk-data/issues/52
+    countries["England"]["tested"][-1] = countries["UK"][case][-1] - countries["Wales"][case][-1] - countries["Scotland"][case][-1] - countries["Northern Ireland"][case][-1]
     return dates, countries
 
 with open(os.path.join("data", "covid-19-indicators-uk.csv")) as f:
