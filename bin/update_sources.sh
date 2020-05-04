@@ -16,6 +16,10 @@ curl -sfL https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-regioni
 
 # Spain official data
 curl -sfL https://covid19.isciii.es/resources/serie_historica_acumulados.csv > data/serie_historica_acumulados.csv
+if ! head -2 data/serie_historica_acumulados.csv | tail -1 | grep 2020; then
+  echo "WARNING: Spain data is missing dates"
+  git checkout -- data/serie_historica_acumulados.csv
+fi
 
 # France official data
 curl -sfL https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv > data/chiffres-cles.csv
