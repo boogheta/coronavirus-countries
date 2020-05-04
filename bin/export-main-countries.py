@@ -389,7 +389,7 @@ localities = {
         "level_field": "country",
         "date_accessor": lambda row: row["date"],
         "fields": {
-        #   "tested": "",
+            "tested": "tested",
             "confirmed": "confirmed",
             "deceased": "deceased"
         }
