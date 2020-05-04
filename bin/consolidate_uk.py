@@ -24,9 +24,8 @@ def complete_last_row(dates, countries):
         return dates, countries
     dates = dates[0:n]
     for case in ["confirmed", "deceased", "tested"]:
-        for c in ["Wales", "Northern Ireland", "Scotland", "England"]:
-            countries[c][case] = countries[c][case][0:n]
         for c in ["Wales", "Northern Ireland", "Scotland", "UK", "England"]:
+            countries[c][case] = countries[c][case][0:n]
             if not len(countries[c][case]):
                 countries[c][case].append(0)
             elif len(countries[c][case]) < n:
