@@ -20,6 +20,7 @@ if ! head -2 data/serie_historica_acumulados.csv | tail -1 | grep 2020 > /dev/nu
   echo "WARNING: Spain data is missing dates"
   git checkout -- data/serie_historica_acumulados.csv
 fi
+sed -n '/NOTA:.*/q;p' data/serie_historica_acumulados.csv > data/spain.csv
 
 # France official data
 curl -sfL https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv > data/chiffres-cles.csv
