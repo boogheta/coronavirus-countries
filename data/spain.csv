@@ -1462,12 +1462,3 @@ MC,6/5/2020,,1501,691,652,111,137,1527
 NC,6/5/2020,,4983,2027,2015,135,480,2732
 PV,6/5/2020,,13041,3918,6797,561,1383,13070
 RI,6/5/2020,,3986,1344,1463,91,338,2457
-NOTA 1: El objetivo de los datos que se publican en esta web es saber el número de casos acumulados a la fecha y que por tanto no se puede deducir que la diferencia entre un día y el anterior es el número de casos nuevos ya que esos casos pueden haber sido recuperados de fechas anteriores. Cualquier inferencia que se haga sobre las diferencias de un día para otro deben hacerse con precaución y son únicamente la responsabilidad del autor.
-NOTA 2: Los datos de estas comunidades son datos de prevalencia (personas ingresadas a fecha de hoy). No reflejan el total de personas que han sido hospitalizadas o ingresadas en UCI  a lo largo del periodo de notificación(CL(UCIs*)-GA(UCIS**)-CM***-MD****)
-* Desde el día 17/04/2020 las cifras de UCIs de CL son casos acumulados. Previamente se refieren a personas ingresadas ese día.
-**Desde el día 28/04/2020 las cifras  UCIs de GA  son casos acumulados. Previamente se refieren a personas ingresadas ese día. Se actualizará la serie cuando esté disponible.
-*** Desde el día 11/04/2020 las cifras de hospitalizados de CM son casos acumulados. Previamente se refieren a personas ingresadas ese día.
-*** Desde el día 12/04/2020 las cifras de UCIs de CM son casos acumulados. Previamente se refieren a personas ingresadas ese día.
-**** Desde el día 26/04/2020 las cifras de Hospitalizados y UCIs de MD son casos acumulados. Previamente se refieren a personas ingresadas ese día. Se actualizará la serie cuando esté disponible
-NOTA 3:Se excluyen de la serie las notificaciones de personas  con anticuerpos positivos sin síntomas en el momento de realización de la prueba en los que no se puede establecer un momento de contagio ni si han padecido o no la enfermedad.
-
