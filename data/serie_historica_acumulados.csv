@@ -1505,20 +1505,39 @@ AR,9/5/2020,,5316,1386,2588,263,824,3076
 AS,9/5/2020,,2343,854,2185,147,295,1022
 IB,9/5/2020,,1950,105,1141,169,209,1401
 CN,9/5/2020,,2258,0,935,178,148,1346
-CB,9/5/2020,,2244,440,1028,79,201,1933
+CB,9/5/2020,,2244,440,1027,79,201,1933
 CM,9/5/2020,,16343,7319,8895,623,2759,6129
 CL,9/5/2020,,17917,5869,8468,546,1897,7429
-CT,9/5/2020,,52086,1643,28784,2991,5532,24349
+CT,9/5/2020,,54724,1643,28784,2991,5532,24349
 CE,9/5/2020,,110,59,11,4,4,154
 VC,9/5/2020,,10713,3127,5354,716,1323,8861
 EX,9/5/2020,,2912,991,1711,109,480,2369
 GA,9/5/2020,,9253,1389,2886,325,592,7347
-MD,9/5/2020,,64787,4875,41559,3520,8644,39529
+MD,9/5/2020,,64822,4875,41559,3520,8644,39529
 ML,9/5/2020,,119,13,44,3,2,111
 MC,9/5/2020,,1508,821,662,113,139,1782
 NC,9/5/2020,,5052,2403,2023,135,488,3014
 PV,9/5/2020,,13156,4521,6902,571,1418,14646
 RI,9/5/2020,,4008,1370,1474,91,346,2648
+AN,10/5/2020,,12341,3137,6092,745,1322,9205
+AR,10/5/2020,,5336,1395,2595,263,825,3116
+AS,10/5/2020,,2346,866,2197,149,299,1026
+IB,10/5/2020,,1953,105,1126,169,209,1415
+CN,10/5/2020,,2260,0,936,178,149,1391
+CB,10/5/2020,,2245,440,1027,79,201,1963
+CM,10/5/2020,,16387,7482,8918,624,2786,6172
+CL,10/5/2020,,17995,5996,8482,547,1905,7453
+CT,10/5/2020,,54807,1643,28820,2995,5555,24454
+CE,10/5/2020,,110,59,11,4,4,154
+VC,10/5/2020,,10729,3152,5355,716,1330,8945
+EX,10/5/2020,,2918,1001,1725,109,483,2409
+GA,10/5/2020,,9280,1389,2902,326,593,7445
+MD,10/5/2020,,64853,4877,41650,3529,8683,39604
+ML,10/5/2020,,119,13,44,3,2,113
+MC,10/5/2020,,1517,815,665,113,139,1786
+NC,10/5/2020,,5065,2421,2029,135,490,3070
+PV,10/5/2020,,13167,4542,6922,573,1423,14718
+RI,10/5/2020,,4008,1374,1475,91,346,2700
 NOTA 1: El objetivo de los datos que se publican en esta web es saber el número de casos acumulados a la fecha y que por tanto no se puede deducir que la diferencia entre un día y el anterior es el número de casos nuevos ya que esos casos pueden haber sido recuperados de fechas anteriores. Cualquier inferencia que se haga sobre las diferencias de un día para otro deben hacerse con precaución y son únicamente la responsabilidad del autor.,,,,,,,,
 NOTA 2: Los datos de estas comunidades son datos de prevalencia (personas ingresadas a fecha de hoy). No reflejan el total de personas que han sido hospitalizadas o ingresadas en UCI  a lo largo del periodo de notificación(CL(UCIs*)-GA(UCIS**)-CM***-MD****),,,,,,,,
 * Desde el día 17/04/2020 las cifras de UCIs de CL son casos acumulados. Previamente se refieren a personas ingresadas ese día.,,,,,,,,
@@ -1527,3 +1546,4 @@ NOTA 2: Los datos de estas comunidades son datos de prevalencia (personas ingres
 *** Desde el día 12/04/2020 las cifras de UCIs de CM son casos acumulados. Previamente se refieren a personas ingresadas ese día.,,,,,,,,
 **** Desde el día 26/04/2020 las cifras de Hospitalizados y UCIs de MD son casos acumulados. Previamente se refieren a personas ingresadas ese día. Se actualizará la serie cuando esté disponible,,,,,,,,
 NOTA 3:Se excluyen de la serie las notificaciones de personas  con anticuerpos positivos sin síntomas en el momento de realización de la prueba en los que no se puede establecer un momento de contagio ni si han padecido o no la enfermedad.,,,,,,,,
+NOTA 4: Los datos acumulados con PCR+ contabilizan 2638 casos de Cataluña y 35 de Madrid pendientes de distribuir en la serie histórica. Estos valores se han asignado de forma provisional a los datos del día 10/05/2020.
