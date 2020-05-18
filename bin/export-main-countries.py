@@ -140,6 +140,13 @@ for typ in ["confirmed", "recovered", "deceased"]:
                 continue
             countries[typ][clean_region(row['Country/Region'])].append(row)
 
+if len(sys.argv) > 1:
+    for typ in ["confirmed", "recovered", "deceased"]:
+        print("-- %s --" % typ)
+        for c, values in countries[typ].items():
+            if len(values) > 1:
+                print(c, len(values), [v["Province/State"] for v in values])
+    exit(0)
 
 usa_states = {
     #"tested": defaultdict(list),
