@@ -1,8 +1,8 @@
-var GA_MEASUREMENT_ID = "UA-10423931-9";
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', GA_MEASUREMENT_ID);
+// var GA_MEASUREMENT_ID = "UA-10423931-9";
+// window.dataLayer = window.dataLayer || [];
+// function gtag(){dataLayer.push(arguments);}
+// gtag('js', new Date());
+// gtag('config', GA_MEASUREMENT_ID);
 
 d3.formatDefaultLocale({
   "decimal": ".",
@@ -156,7 +156,7 @@ new Vue({
   watch: {
     url: function(newValue, oldValue) {
       window.location.hash = newValue;
-      gtag('config', GA_MEASUREMENT_ID, {'page_path': location.pathname + location.search + location.hash});
+      // gtag('config', GA_MEASUREMENT_ID, {'page_path': location.pathname + location.search + location.hash});
     },
     scaleChoice: function() {
       this.logarithmic = (this.scaleChoice === "logarithmic");
@@ -232,7 +232,7 @@ new Vue({
       this.resizing = setTimeout(this.resize, 50);
     },
     resizeMenu: function() {
-      var menuH = window.innerHeight - 
+      var menuH = window.innerHeight -
         document.querySelector("nav").getBoundingClientRect().height,
         countriesH = menuH - (
         document.getElementById("controls").getBoundingClientRect().height +
@@ -325,7 +325,7 @@ new Vue({
     processScope: function(data, scopesArray, scopeIdx) {
       var scope = scopesArray[scopeIdx];
       if (!scope) return setTimeout(this.completeScopes, 0);
- 
+
       this.initMessage = "processing " + scope;
       var cases = this.cases,
         values = this.values,
