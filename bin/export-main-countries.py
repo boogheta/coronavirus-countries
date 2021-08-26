@@ -295,9 +295,10 @@ with open(os.path.join("data", "chiffres-cles.csv")) as f:
         if row["granularite"] == "pays" and row["deces_ehpad"]:
             try:
                 france_ehpad = int(row["deces_ehpad"])
+                france_ehpad_date = row["date"]
             except ValueError:
                 pass
-france_disclaimer = 'France does not release detailed data on tests performed and confirmed: only national (<a href="https://github.com/CSSEGISandData/COVID-19/issues/2094" target="_blank">and</a>&nbsp;<a href="https://www.liberation.fr/checknews/2020/04/05/covid-19-pourquoi-des-sites-evoquent-90-000-cas-en-france-contre-68-000-au-bilan-officiel_1784232" target="_blank">controversial</a>) figures are published. Deaths cases are also only detailed for hospitals: the %s deceased cases in nursing homes are therefore not accounted in this dataset.' % ('{:,}'.format(france_ehpad).replace(',', '&nbsp;'))
+france_disclaimer = 'France does not release detailed data on tests performed and confirmed: only national (<a href="https://github.com/CSSEGISandData/COVID-19/issues/2094" target="_blank">and</a>&nbsp;<a href="https://www.liberation.fr/checknews/2020/04/05/covid-19-pourquoi-des-sites-evoquent-90-000-cas-en-france-contre-68-000-au-bilan-officiel_1784232" target="_blank">controversial</a>) figures are published. Deaths cases are also only detailed for hospitals: the %s deceased cases (as of %s) in nursing homes are therefore not accounted in this dataset.' % ('{:,}'.format(france_ehpad).replace(',', '&nbsp;'), france_ehpad_date)
 
 
 localities = {
@@ -322,15 +323,15 @@ localities = {
     },
     "France": {
         "source": {
-          "name": "Santé Publique France (curated by OpenCOVID19-fr)",
-          "url": "https://github.com/opencovid19-fr/data",
+          "name": "Santé Publique France (curated by Etalab)",
+          "url": "https://data.widgets.dashboard.covid19.data.gouv.fr/",
           "disclaimer": france_disclaimer
         },
         "filename": "chiffres-cles.csv",
         "level": "department",
         "level_field": "maille_nom",
         "date_accessor": lambda row: row["date"],
-        "filter": lambda row: row["granularite"] == "departement" and row["source_type"] == "sante-publique-france-data",
+        "filter": lambda row: row["granularite"] == "departement" and row["source_type"] in ["sante-publique-france-data", "widgets.dashboard.covid19.data.gouv.fr"],
         "fields": {
             "recovered": "gueris",
             "hospitalized": "hospitalises",
@@ -340,15 +341,15 @@ localities = {
     },
     "France ": {
         "source": {
-          "name": "Santé Publique France (curated by OpenCOVID19-fr)",
-          "url": "https://github.com/opencovid19-fr/data",
+          "name": "Santé Publique France (curated by Etalab)",
+          "url": "https://data.widgets.dashboard.covid19.data.gouv.fr/",
           "disclaimer": france_disclaimer
         },
         "filename": "chiffres-cles.csv",
         "level": "region",
         "level_field": "maille_nom",
         "date_accessor": lambda row: row["date"],
-        "filter": lambda row: row["granularite"] == "region" and row["source_type"] == "opencovid19-fr",
+        "filter": lambda row: row["granularite"] == "region" and row["source_type"] in ["opencovid19-fr", "widgets.dashboard.covid19.data.gouv.fr"],
         "fields": {
             "recovered": "gueris",
             "hospitalized": "hospitalises",

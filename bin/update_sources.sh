@@ -24,6 +24,10 @@ LC_ALL=C sed -n '/NOTA.*/q;p' data/serie_historica_acumulados.csv > data/spain.c
 
 # France official data
 curl -sfL https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv > data/chiffres-cles.csv
+for typ in deces hospitalisations soins_critiques retour_a_domicile cas_positifs; do
+  curl -sfL https://data.widgets.dashboard.covid19.data.gouv.fr/$typ.json > data/france-$typ.json
+done
+./bin/consolidate_france.py
 
 # UK official data
 curl -sfL https://raw.githubusercontent.com/tomwhite/covid-19-uk-data/master/data/covid-19-indicators-uk.csv > data/covid-19-indicators-uk.csv
