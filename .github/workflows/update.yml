@@ -23,7 +23,7 @@ jobs:
           if git diff --name-only data/*.csv | grep . ; then
             git config --local user.email "action@github.com"
             git config --local user.name "GitHub Action"
-            git commit -m "update sources data" data/*.csv
+            git commit -m "update sources data" data/*.csv data/france-*.json
           fi
   
       - name: Build Viz Data
