@@ -365,9 +365,13 @@ new Vue({
             values[scope][cid][ca.id].totalPop = values[scope][cid][ca.id].total.map(function(v) { return pop ? v * 1000000 / pop : 0});
             values[scope][cid][ca.id].dailyPop = values[scope][cid][ca.id].daily.map(function(v) { return pop ? v * 1000000 / pop : 0});
             ["total", "daily", "totalPop", "dailyPop"].forEach(function(typVal) {
-              if (typVal.slice(0, 5) === "daily") minVals[typVal][ca.id] = d3.min(values[scope][cid][ca.id][typVal]);
               maxVals[typVal][ca.id] = d3.max(values[scope][cid][ca.id][typVal]);
               lastVals[typVal][ca.id] = values[scope][cid][ca.id][typVal][values[scope][cid][ca.id][typVal].length - 1];
+              if (typVal.slice(0, 5) === "daily") {
+                minVals[typVal][ca.id] = d3.min(values[scope][cid][ca.id][typVal]);
+                if (!lastVals[typVal][ca.id])
+                  lastVals[typVal][ca.id] = values[scope][cid][ca.id][typVal][values[scope][cid][ca.id][typVal].length - 2];
+              }
             });
             if (c !== "total") {
               ca.total[scope] += lastVals.total[ca.id];
