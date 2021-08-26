@@ -856,7 +856,7 @@ new Vue({
         shiftedVal = function(c, i) {
           var idx = i + Math.max(0, hiddenLeft - c.shift);
           if (perDay && !stacked && smoothen)
-            return d3.mean(values[c.id][cas][typVal].slice(Math.max(0, idx - 3), idx + 4));
+            return (idx < 7 ? 0 : d3.mean(values[c.id][cas][typVal].slice(idx - 7, idx)));
           return values[c.id][cas][typVal][idx];
         },
         shiftedMinVal = function(c) {
