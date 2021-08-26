@@ -87,6 +87,7 @@ new Vue({
     logarithmic: false,
     perDay: false,
     smoothen: false,
+    hideNegative: false,
     vizChoice: "series",
     legendFontSize: 14,
     resizing: null,
@@ -146,6 +147,7 @@ new Vue({
         (this.logarithmic ? "&log" : (this.perDay ? "&daily" : "")) +
         (this.perCapita ? "&ratio" : "") +
         (this.perDay && this.vizChoice === 'series' && this.smoothen ? "&smooth" : "") +
+        (this.perDay && this.vizChoice === 'series' && this.hideNegative ? "&hidenegative" : "") +
         (this.vizChoice !== 'series' ? "&" + this.vizChoice : "") +
         "&places=" + (this.legend.length ? this.legend : this.scopes[this.scope].countries.filter(function(c) { return c.selected; }))
           .sort(this.staticCountriesSort("names"))
@@ -281,6 +283,7 @@ new Vue({
       else this.scaleChoice = "linear";
       this.perCapita = !!options.ratio;
       this.smoothen = !!options.smooth;
+      this.hideNegative = !!options.hidenegative;
       if (options.stacked)
         this.vizChoice = 'stacked';
       else if (options.multiples)
@@ -553,6 +556,7 @@ new Vue({
 
       var cas = this.case,
         perDay = this.perDay,
+        hideNegative = this.hideNegative,
         perCapita = this.perCapita,
         legend = this.legend,
         values = this.values[this.scope],
@@ -590,7 +594,7 @@ new Vue({
         multiplesMax = function(c) { return d3.max(casesLegend.map(function(cas) { return c.maxValues[typVal][cas.id]; })); },
         maxValues = legend.map(multiplesMax),
         yMax = Math.max(0, d3.max(maxValues)),
-        yMin = perDay ? Math.min(0, d3.min(legend.map(multiplesMin))) : (logarithmic ? (perCapita ? 0.001 : 1) : 0),
+        yMin = perDay ? Math.min(0, (hideNegative ? 0 : d3.min(legend.map(multiplesMin)))) : (logarithmic ? (perCapita ? 0.001 : 1) : 0),
         yScale = d3[logarithmic ? "scaleLog" : "scaleLinear"]().range([height, 0]).domain([yMin, yMax]),
         yPosition = function(c, ca, i) {
           var val = values[c][ca][typVal][i] + 0;
@@ -649,7 +653,7 @@ new Vue({
           .attr("transform", "translate(" + xPos + "," + yPos + ")");
 
         // Draw zero axis
-        if (perDay)
+        if (perDay && !hideNegative)
           g.append("line")
             .attr("class", "domain axis")
             .attr("x1", xScale.range()[0])
@@ -767,6 +771,7 @@ new Vue({
     drawSeries: function() {
       var cas = this.case,
         perDay = this.perDay,
+        hideNegative = this.hideNegative,
         smoothen = this.smoothen,
         perCapita = this.perCapita,
         typVal = this.typVal,
@@ -909,7 +914,7 @@ new Vue({
       }
 
       d3.select("#legend").style("height", legendH + "px");
-      var yMin = (stacked ? stackedMinVal : (perDay ? Math.min(0, d3.min(legend.map(shiftedMinVal))) :
+      var yMin = (stacked ? stackedMinVal : (perDay ? Math.min(0, (hideNegative ? 0 : d3.min(legend.map(shiftedMinVal)))) :
         (align_nthcase && refCase === cas ?
           (perCapita ? (logarithmic ? 0.001 : 0) : min_cases ) :
           (logarithmic ? (perCapita ? 0.001 : 1) : 0)))),
@@ -932,7 +937,7 @@ new Vue({
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
       // Draw zero axis
-      if (perDay)
+      if (perDay && !hideNegative)
         g.append("line")
           .attr("class", "domain axis")
           .attr("x1", xScale.range()[0])

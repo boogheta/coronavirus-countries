@@ -85,7 +85,12 @@
           </v-radio-group>
           <v-list-tile-action class="extraaction">
             <v-icon color="white"
-              :style="'opacity: ' + (!(perDay && vizChoice === 'series') ? 0 : (smoothen ? 1 : 0.25))"
+              :style="'margin-top: 30px; opacity: ' + (!(perDay && vizChoice === 'series') ? 0 : (hideNegative ? 1 : 0.25))"
+              :title="hideNegative ? 'display negative values' : 'hide negative values'"
+              @click="hideNegative = !hideNegative"
+            >remove_circle_outline</v-icon>
+            <v-icon color="white"
+              :style="'margin-top: -30px; opacity: ' + (!(perDay && vizChoice === 'series') ? 0 : (smoothen ? 1 : 0.25))"
               :title="smoothen ? 'unsmooth' : 'smooth curve using a 7-days moving average'"
               @click="smoothen = !smoothen"
             >vertical_align_center</v-icon>
