@@ -502,7 +502,7 @@ new Vue({
             for (var i = 0; i < dates.length; i++)
               if (values[c.id][refCase][typVal.replace('Pop', '')][i] >= refCaseParams.min_cases) {
                 c.shift = -i;
-                c.shiftStr = "since " + d3.timeFormat("%b %d")(dates[i]);
+                c.shiftStr = "since " + d3.timeFormat("%b %d, %y")(dates[i]);
                 break;
               }
           });
@@ -623,7 +623,7 @@ new Vue({
         displayTooltip = this.displayTooltip,
         clearTooltip = this.clearTooltip;
 
-      var ticks = d3.axisBottom(xScale).tickFormat(d3.timeFormat("%b %d"));
+      var ticks = d3.axisBottom(xScale).tickFormat(d3.timeFormat("%b %d, %y"));
       if (width <= 200)
         ticks.ticks(1);
       else if (width <= 400)
@@ -1022,7 +1022,7 @@ new Vue({
       }
 
       // Draw Time axis
-      var ticksFormat = align_nthcase ? d3.formatDaysSince(start) : d3.timeFormat("%b %d"),
+      var ticksFormat = align_nthcase ? d3.formatDaysSince(start) : d3.timeFormat("%b %d, %y"),
         ticks = d3.axisBottom(xScale)
         .ticks(4 * Math.floor(Math.min(zoomedDates.length / 4, width / 200)))
         .tickFormat(ticksFormat)
