@@ -34,7 +34,8 @@ d3.defaultColors = [
   "#FFCC80", "#64FFDA", "#B39DDB", "#E6EE9C",
   "#8C9EFF", "#EF9A9A", "#B0BEC5", "#9FA8DA",
   "#81D4FA", "#80CBC4", "#C5E1A5", "#FFF59D",
-  "#BCAAA4", "#EA80FC", "#FF8A80", "#FFE57F"
+  "#BCAAA4", "#EA80FC", "#FF8A80", "#FFE57F",
+  "#AFEEEE", "#48D1CC"
 ];
 d3.datize = function(d) {
   var dt = new Date(d);
@@ -65,6 +66,8 @@ new Vue({
     refCountries: {},
     values: {},
     cases: [
+      {id: "vaccinated_1st",  selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[24], disabled: true},
+      {id: "vaccinated_full", selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[25], disabled: true},
       {id: "tested",          selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[2], disabled: true},
       {id: "confirmed",       selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[0], disabled: true},
       {id: "recovered",       selected: false,  total: {}, daily: {}, totalPop: {}, dailyPop: {}, color: d3.defaultColors[1], disabled: true},

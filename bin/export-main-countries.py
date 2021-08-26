@@ -327,12 +327,14 @@ localities = {
           "url": "https://data.widgets.dashboard.covid19.data.gouv.fr/",
           "disclaimer": france_disclaimer
         },
-        "filename": "chiffres-cles.csv",
+        "filename": "france.csv",
         "level": "department",
         "level_field": "maille_nom",
         "date_accessor": lambda row: row["date"],
         "filter": lambda row: row["granularite"] == "departement" and row["source_type"] in ["sante-publique-france-data", "widgets.dashboard.covid19.data.gouv.fr"],
         "fields": {
+            "vaccinated_1st": "vaccines_premiere_dose",
+            "vaccinated_full": "vaccines_entierement",
             "recovered": "gueris",
             "hospitalized": "hospitalises",
             "intensive_care": "reanimation",
@@ -345,12 +347,14 @@ localities = {
           "url": "https://data.widgets.dashboard.covid19.data.gouv.fr/",
           "disclaimer": france_disclaimer
         },
-        "filename": "chiffres-cles.csv",
+        "filename": "france.csv",
         "level": "region",
         "level_field": "maille_nom",
         "date_accessor": lambda row: row["date"],
         "filter": lambda row: row["granularite"] == "region" and row["source_type"] in ["opencovid19-fr", "widgets.dashboard.covid19.data.gouv.fr"],
         "fields": {
+            "vaccinated_1st": "vaccines_premiere_dose",
+            "vaccinated_full": "vaccines_entierement",
             "recovered": "gueris",
             "hospitalized": "hospitalises",
             "intensive_care": "reanimation",

@@ -132,7 +132,7 @@ source_url = "https://data.widgets.dashboard.covid19.data.gouv.fr/"
 source_type = "widgets.dashboard.covid19.data.gouv.fr"
 data = {}
 
-for typ, key in [("deces", "deces"), ("hospitalisations", "hospitalises"), ("soins_critiques", "reanimation"), ("retour_a_domicile", "gueris")]: #, ("cas_positifs", "cas_confirmes")]:
+for typ, key in [("deces", "deces"), ("hospitalisations", "hospitalises"), ("soins_critiques", "reanimation"), ("retour_a_domicile", "gueris"), ("cas_positifs", "cas_confirmes"), ("vaccins_premiere_dose", "vaccines_premiere_dose"), ("vaccins_vaccines", "vaccines_entierement")]:
     with open(os.path.join("data", "france-%s.json" % typ)) as f:
         typdata = json.load(f)
         for gran in ["regions", "departements"]:
@@ -141,8 +141,6 @@ for typ, key in [("deces", "deces"), ("hospitalisations", "hospitalises"), ("soi
                 maille_code = "%s-%s" % ("REG" if gran == "regions" else "DEP", place["code_level"])
                 maille_nom = noms.get(maille_code, "")
                 for el in place["values"]:
-                    if el["date"] <= "2021-08-12":
-                        continue
                     if el["date"] not in data:
                         data[el["date"]] = {}
                     if maille_code not in data[el["date"]]:
@@ -152,10 +150,28 @@ for typ, key in [("deces", "deces"), ("hospitalisations", "hospitalises"), ("soi
                         }
                     data[el["date"]][maille_code][key] = el["value"]
 
+
 with open(os.path.join("data", "chiffres-cles.csv"), "a") as f:
     f.write("\n")
     writer = csv.writer(f)
     for dat in sorted(data.keys()):
+        if dat <= "2021-08-12":
+            continue
         for cod in sorted(data[dat].keys()):
             el = data[dat][cod]
             writer.writerow([dat, el["granularite"], cod, el["maille_nom"], "", "", "", "", el["deces"], "", el["reanimation"], el["hospitalises"], "", "", el["gueris"], "", source_nom, source_url, "", source_type])
+
+
+last_vaccines_1st_values = {}
+last_vaccines_full_values = {}
+with open(os.path.join("data", "france.csv"), "w") as f:
+    writer = csv.writer(f)
+    writer.writerow(["date", "granularite", "maille_code", "maille_nom", "deces", "reanimation", "hospitalises", "gueris", "vaccines_premiere_dose", "vaccines_entierement", "source_nom", "source_url", "source_type"])
+    for dat in sorted(data.keys()):
+        for cod in sorted(data[dat].keys()):
+            el = data[dat][cod]
+            if el.get("vaccines_premiere_dose"):
+                last_vaccines_1st_values[cod] = el["vaccines_premiere_dose"]
+            if el.get("vaccines_entierement"):
+                last_vaccines_full_values[cod] = el["vaccines_entierement"]
+            writer.writerow([dat, el["granularite"], cod, el["maille_nom"], el.get("deces", ""), el.get("reanimation", ""), el.get("hospitalises", ""), el.get("gueris", ""), el.get("vaccines_premiere_dose", last_vaccines_1st_values.get(cod, "")), el.get("vaccines_entierement", last_vaccines_full_values.get(cod, "")), source_nom, source_url, source_type])
