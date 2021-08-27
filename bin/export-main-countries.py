@@ -254,7 +254,8 @@ for name, scope in data["scopes"].items():
         #fields.append("tested")
         pass
     elif name != "Canada":
-        fields += ["recovered", "currently_sick"]
+        pass
+        #fields += ["recovered", "currently_sick"]
     scope["values"] = {"total": unit_vals(n_dates, fields)}
     scope["lastUpdate"] = last_usa_update if name == "USA" else last_jhu_update
 
