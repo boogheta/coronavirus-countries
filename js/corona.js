@@ -1017,7 +1017,7 @@ new Vue({
                 .attr("fill", c.color)
                 .attr("cx", function(d) { return xScale(d.date); })
                 .attr("cy", function(d, i) { return yPosition(c, i); })
-                .attr("r", 3);
+                .attr("r", 2.5);
         });
       }
 
