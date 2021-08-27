@@ -311,6 +311,19 @@
               <small v-if="perCapita && !item.inactive">per million</small>
             </span>
           </div>
+          <div class="colorpicker"
+            v-if="!item.inactive"
+            title="click to change color"
+            @click="document.getElementById('colorpicker-' + item.id).click()"
+          >
+            <v-icon>colorize</v-icon>
+            <input type="color"
+              :id="'colorpicker-' + item.id"
+              v-model="item.color"
+              @change="draw"
+              style="width: 0px; height: 0px; opacity: 0"
+            />
+          </div>
         </div>
       </div></center>
     </main>

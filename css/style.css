@@ -265,6 +265,17 @@ line.track-inset {
   font-size: 18px;
   color: black!important;
 }
+.legend .btn .colorpicker {
+  cursor: pointer;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  z-index: 4;
+}
+.legend .btn .colorpicker .icon {
+  font-size: 18px;
+  color: black!important;
+}
 .legend.multiples {
   position: relative;
 }
