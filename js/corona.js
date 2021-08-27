@@ -61,7 +61,7 @@ new Vue({
       //World: ["Italy", "Iran", "South Korea", "France", "Germany", "Spain", "USA"],
     },
     countriesOrder: null,
-    countriesColors: {'total': "#999"},
+    countriesColors: {"total": "#999999"},
     userColors: "",
     refCountry: null,
     refCountries: {},

@@ -343,6 +343,10 @@ a:hover, a:visited:hover {
 #controls .input-group--disabled .input-group--selection-controls__ripple, #controls .input-group--disabled .input-group--selection-controls__ripple:after {
   cursor: default;
 }
+.extraaction i.icon {
+  cursor: pointer;
+  z-index: 10;
+}
 .caseIcon.list__tile__action, .extraaction.list__tile__action {
   display: contents;
 }
