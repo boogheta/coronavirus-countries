@@ -312,7 +312,7 @@
             </span>
           </div>
           <div class="colorpicker"
-            v-if="!item.inactive"
+            v-if="!item.inactive && item.id !== 'total'"
             title="click to change color"
             @click="document.getElementById('colorpicker-' + item.id).click()"
           >
