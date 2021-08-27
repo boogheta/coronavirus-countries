@@ -62,6 +62,7 @@ new Vue({
     },
     countriesOrder: null,
     countriesColors: {'total': "#999"},
+    userColors: "",
     refCountry: null,
     refCountries: {},
     values: {},
@@ -116,6 +117,15 @@ new Vue({
     casesLegend: function() {
       return this.cases.filter(function(c) { return !c.disabled && c.selected; });
     },
+    userDefinedColors: function() {
+      if (!this.userColors) return {};
+      var colors = {}
+      this.userColors.split(",").filter(function(x) { return x }).forEach(function(keyVal) {
+        var col = keyVal.split(":");
+        colors[col[0]] = col[1];
+      });
+      return colors;
+    },
     case: function() {
       if (this.vizChoice === 'multiples') {
         if (this.casesLegend.length == 1)
@@ -155,7 +165,8 @@ new Vue({
           .join(",") +
         (this.refCountry ? "&align=" + this.refCountry : "") +
         "&alignTo=" + this.refCase +
-        (this.hiddenLeft || this.hiddenRight ? "&zoom=" + this.hiddenLeft + "," + this.hiddenRight : "");
+        (this.hiddenLeft || this.hiddenRight ? "&zoom=" + this.hiddenLeft + "," + this.hiddenRight : "") +
+        (this.userColors ? "&colors=" + this.userColors : "");
     }
   },
   watch: {
@@ -263,6 +274,8 @@ new Vue({
           options.alignTo = el[1];
         else if (el[0] === "align")
           options.align = el[1];
+        else if (el[0] === "colors")
+          options.colors = el[1];
         else options[el[0]] = true;
       });
       this.scope = options.scope || "World";
@@ -301,6 +314,7 @@ new Vue({
       this.countries.forEach(function(c) {
         c.selected = !!~options.countries.indexOf(c.name);
       });
+      this.userColors = options.colors;
       this.allSelected = options.countries.length === this.countries.length;
       if (reload) this.sortCountries();
       this.refCountry = options.align || null;
@@ -829,8 +843,10 @@ new Vue({
         fontLevel = Math.floor(Math.min(90, n_places) / 20),
         fontSize = 14 - fontLevel,
         legHeight = 44 - 3 * fontLevel,
-        legWidth = 200 - 10 * fontLevel;
+        legWidth = 200 - 10 * fontLevel,
+        udcolors = this.userDefinedColors;
       legend.forEach(function(c) {
+        if (udcolors[c.id]) c.color = udcolors[c.id];
         c.style = {
           "background-color": c.color + "!important",
           "font-size": fontSize + "px",
@@ -1202,6 +1218,11 @@ new Vue({
       this.hiddenRight += Math.floor(gaugeRight * days * direction);
       if (this.hiddenLeft < 0) this.hiddenLeft = 0;
       if (this.hiddenRight < 0) this.hiddenRight = 0;
+    },
+    setColor: function(place) {
+      var newCols = Object.assign({}, this.userDefinedColors);
+      newCols[place.id] = document.getElementById('colorpicker-' + place.id).value;
+      this.userColors = Object.keys(newCols).sort().map(x => x + ":" + newCols[x]).join(',');
     },
     exportData: function() {
       var a = document.createElement('a'),
