@@ -4,52 +4,64 @@
 import os
 import csv
 
-initvals = lambda : {"confirmed": [], "deceased": [], "tested": []}
-countries = {
-  "England": initvals(),
-  "Wales": initvals(),
-  "Scotland": initvals(),
-  "Northern Ireland": initvals(),
-  "UK": initvals()
+fields = [
+    "confirmed",
+    "deceased",
+    "hospitalized",
+    "intensive_care",
+    "vaccinated_once",
+    "vaccinated_fully"
+]
+countries = [
+  "England",
+  "Wales",
+  "Scotland",
+  "Northern Ireland"
+]
+
+data = {}
+lastdate = "2100-01-01"
+
+mapping = {
+    "covidOccupiedMVBeds": "intensive_care",
+    "cumCasesBySpecimenDate": "confirmed",
+    "cumDeaths28DaysByDeathDate": "deceased",
+    "hospitalCases": "hospitalized"
 }
-dates = []
-curdate = None
-MINDATE = "2020-01-30"
-
-formatcase = lambda c : c.replace("ConfirmedCases", "confirmed").replace("Deaths", "deceased").replace("Tests", "tested")
-
-def complete_last_row(dates, countries):
-    n = len(countries["UK"]["confirmed"])
-    if not n:
-        return dates, countries
-    dates = dates[0:n]
-    for case in ["confirmed", "deceased", "tested"]:
-        for c in ["Wales", "Northern Ireland", "Scotland", "UK", "England"]:
-            countries[c][case] = countries[c][case][0:n]
-            if not len(countries[c][case]):
-                countries[c][case].append(0)
-            elif len(countries[c][case]) < n:
-                countries[c][case].append(countries[c][case][n-2])
-    # Use substraction of UK only for Tests since confimed cases seem inconsistent with England ones until figuring out https://github.com/tomwhite/covid-19-uk-data/issues/52
-    countries["England"]["tested"][-1] = countries["UK"][case][-1] - countries["Wales"][case][-1] - countries["Scotland"][case][-1] - countries["Northern Ireland"][case][-1]
-    return dates, countries
-
+curcountry = None
 with open(os.path.join("data", "covid-19-indicators-uk.csv")) as f:
     for row in csv.DictReader(f):
-        if row["Date"] < MINDATE:
-            continue
-        if curdate != row["Date"]:
-            dates, countries = complete_last_row(dates, countries)
-            curdate = row["Date"]
-            dates.append(curdate)
-        cas = formatcase(row["Indicator"])
-        countries[row["Country"]][cas].append(int(row["Value"]))
-    dates, countries = complete_last_row(dates, countries)
-    del(countries["UK"])
+        if curcountry != row["areaName"]:
+            if any([not row[k] for k in mapping]):
+                continue
+            curcountry = row["areaName"]
+            if row["date"] < lastdate:
+                lastdate = row["date"]
+        if row["date"] not in data:
+            data[row["date"]] = {
+              "England":            {},
+              "Wales":              {},
+              "Scotland":           {},
+              "Northern Ireland":   {}
+            }
+        for k, f in mapping.items():
+            data[row["date"]][row["areaName"]][f] = row[k] or 0
+
+curcountry = None
+with open(os.path.join("data", "covid-19-vaccines-uk.csv")) as f:
+    for row in csv.DictReader(f):
+        if curcountry != row["areaName"]:
+            curcountry = row["areaName"]
+            if row["date"] < lastdate:
+                lastdate = row["date"]
+        data[row["date"]][row["areaName"]]["vaccinated_once"] = row["cumPeopleVaccinatedFirstDoseByPublishDate"] if not row["cumPeopleVaccinatedFirstDoseByVaccinationDate"] else row["cumPeopleVaccinatedFirstDoseByVaccinationDate"]
+        data[row["date"]][row["areaName"]]["vaccinated_fully"] = row["cumPeopleVaccinatedCompleteByVaccinationDate"] or row["cumPeopleVaccinatedCompleteByPublishDate"]
 
 
-print("date,country,confirmed,deceased,tested")
-for i, d in enumerate(sorted(dates)):
-    for b in countries.keys():
-        print(",".join([d, b, str(countries[b]["confirmed"][i]), str(countries[b]["deceased"][i]), str(countries[b]["tested"][i])]))
+print("date,country," + ",".join(fields))
+for d in sorted(data.keys()):
+    if d > lastdate:
+        continue
+    for c in countries:
+        print(",".join([d, c] + [str(data[d][c].get(k, 0)) for k in fields]))
 

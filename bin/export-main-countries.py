@@ -397,16 +397,19 @@ localities = {
     },
     "UK": {
         "source": {
-          "name": "UK NHS (curated by Tom White)",
-          "url": "https://github.com/tomwhite/covid-19-uk-data"
+          "name": "United Kingdom Government",
+          "url": "https://coronavirus.data.gov.uk/"
         },
         "filename": "uk.csv",
         "level": "country",
         "level_field": "country",
         "date_accessor": lambda row: row["date"],
         "fields": {
-            "tested": "tested",
+            "vaccinated_once": "vaccinated_once",
+            "vaccinated_fully": "vaccinated_fully",
             "confirmed": "confirmed",
+            "hospitalized": "hospitalized",
+            "intensive_care": "intensive_care",
             "deceased": "deceased"
         }
     }
