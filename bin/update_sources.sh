@@ -26,8 +26,8 @@ done
 ./bin/consolidate_france.py
 
 # UK official data
-curl "https://api.coronavirus.data.gov.uk/v2/data?areaType=nation&metric=covidOccupiedMVBeds&metric=cumCasesBySpecimenDate&metric=cumDeaths28DaysByDeathDate&metric=hospitalCases&format=csv" > data/covid-19-indicators-uk.csv
-curl "https://api.coronavirus.data.gov.uk/v2/data?areaType=nation&metric=cumPeopleVaccinatedCompleteByVaccinationDate&metric=cumPeopleVaccinatedCompleteByPublishDate&metric=cumPeopleVaccinatedFirstDoseByVaccinationDate&metric=cumPeopleVaccinatedFirstDoseByPublishDate&format=csv" > data/covid-19-vaccines-uk.csv
+curl -sfL "https://api.coronavirus.data.gov.uk/v2/data?areaType=nation&metric=covidOccupiedMVBeds&metric=cumCasesBySpecimenDate&metric=cumDeaths28DaysByDeathDate&metric=hospitalCases&format=csv" > data/covid-19-indicators-uk.csv
+curl -sfL "https://api.coronavirus.data.gov.uk/v2/data?areaType=nation&metric=cumPeopleVaccinatedCompleteByVaccinationDate&metric=cumPeopleVaccinatedCompleteByPublishDate&metric=cumPeopleVaccinatedFirstDoseByVaccinationDate&metric=cumPeopleVaccinatedFirstDoseByPublishDate&format=csv" > data/covid-19-vaccines-uk.csv
 ./bin/consolidate_uk.py > data/uk.csv
 
 # Germany official data
