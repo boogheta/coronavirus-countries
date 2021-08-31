@@ -33,28 +33,6 @@ def clean_region(r):
         r = "USA"
     return r
 
-def clean_spain_locality(r):
-    r = r.replace("AN", "Andalucía")
-    r = r.replace("AR", "Aragón")
-    r = r.replace("AS", "Asturias")
-    r = r.replace("IB", "Baleares")
-    r = r.replace("CN", "Canarias")
-    r = r.replace("CB", "Cantabria")
-    r = r.replace("CM", "Castilla La Mancha")
-    r = r.replace("CL", "Castilla y León")
-    r = r.replace("CT", "Cataluña")
-    r = r.replace("CE", "Ceuta")
-    r = r.replace("GA", "Galicia")
-    r = r.replace("VC", "Valenciana")
-    r = r.replace("EX", "Extremadura")
-    r = r.replace("MD", "Madrid")
-    r = r.replace("ML", "Melilla")
-    r = r.replace("MC", "Murcia")
-    r = r.replace("NC", "Navarra")
-    r = r.replace("PV", "País Vasco")
-    r = r.replace("RI", "La Rioja")
-    return r
-
 USA_states = {
     "AL": "Alabama",
     "AK": "Alaska",
@@ -113,8 +91,6 @@ def clean_locality(r, scope):
         r = clean_region(r)
     if "," in r and scope == "USA":
         r = USA_states.get(r.split(",")[1].strip(), r)
-    elif scope == "Spain":
-        r = clean_spain_locality(r)
     return r
 
 def last_file_update(f):
@@ -365,20 +341,17 @@ localities = {
     "Spain": {
         "source": {
           "name": "Spain's Ministry of Health",
-          "url": "https://covid19.isciii.es"
+          "url": "https://cnecovid.isciii.es/covid19/",
         },
         "filename": "spain.csv",
-        "encoding": "iso-8859-15",
         "level": "autonom. community",
         "level_field": "CCAA",
-        "date_accessor": lambda row: conv_fr(row["FECHA"]),
-        "filter": lambda row: row["FECHA"] and "/202" in row["FECHA"],
+        "date_accessor": lambda row: row["date"],
         "fields": {
-            "confirmed": "CASOS",
-            #"recovered": "Recuperados",
-            "hospitalized": "Hospitalizados",
-            "intensive_care": "UCI",
-            "deceased": "Fallecidos"
+            "confirmed": "confirmed",
+            "hospitalized": "hospitalized",
+            "intensive_care": "intensive_care",
+            "deceased": "deceased"
         }
     },
     "Germany": {
