@@ -38,6 +38,7 @@ curl -sfL "https://api.coronavirus.data.gov.uk/v2/data?areaType=nation&metric=cu
 # Germany official data
 curl -sfL "https://opendata.arcgis.com/api/v3/datasets/dd4580c810204019a7b8eb3e0b329dd6_0/downloads/data?format=csv&spatialRefId=4326" > data/covid-germany-landkreisen.csv
 ./bin/consolidate_germany.py > data/germany.csv
+rm -f data/covid-germany-landkreisen.csv
 
 # Population data
 curl -sfL "https://docs.google.com/spreadsheets/d/1e703pe3GmBQt0i2yAOS0F6Bhxy91U1-NTB6JMRSTzc0/export?format=csv&id=1e703pe3GmBQt0i2yAOS0F6Bhxy91U1-NTB6JMRSTzc0&gid=0" > data/population-World.csv

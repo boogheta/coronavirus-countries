@@ -20,10 +20,10 @@ jobs:
   
       - name: Commit Sources Data
         run: |
-          if git diff --name-only data/*.csv data/france-*.json | grep . ; then
+          if git diff --name-only data/*.csv data/france-*.json data/vaccines.json | grep . ; then
             git config --local user.email "action@github.com"
             git config --local user.name "GitHub Action"
-            git commit -m "update sources data" data/*.csv data/france-*.json
+            git commit -m "update sources data" data/*.csv data/france-*.json data/vaccines.json
           fi
   
       - name: Build Viz Data
