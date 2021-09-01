@@ -1,6 +1,10 @@
 #!/bin/bash
 
 
+# Vaccination data
+curl -sfL "https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/vaccinations.csv" > data/vaccinations.csv
+./bin/consolidate_vaccines.py > data/vaccines.csv
+
 # World JHU data
 for typ in confirmed deaths recovered; do
   curl -sfL https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_${typ}_global.csv > data/time_series_covid19_${typ}_global.csv

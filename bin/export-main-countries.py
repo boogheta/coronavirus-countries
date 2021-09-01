@@ -101,7 +101,9 @@ def last_file_update(f):
 countries = {
     "confirmed": defaultdict(list),
     "recovered": defaultdict(list),
-    "deceased": defaultdict(list)
+    "deceased": defaultdict(list),
+    "vaccinated_once": defaultdict(list),
+    "vaccinated_fully": defaultdict(list)
 }
 last_jhu_update = 0
 
@@ -224,8 +226,27 @@ def unit_vals(ndates, fieldnames, population=0):
     return unit
 
 
+with open(os.path.join("data", "vaccines.json")) as f:
+    vaccines = json.load(f)
+    vacc_dates = sorted(vaccines["France"].keys())
+    mindate_vacc = vacc_dates[0]
+    maxdate_vacc = vacc_dates[-1]
+    skipped_dates = [0] * dates.index(mindate_vacc)
+    try:
+        nb_missing_dates = len(dates) - dates.index(maxdate_vacc) - 1
+    except:
+        nb_missing_dates = 0
+    vaccines_arrays = defaultdict(dict)
+    for c in vaccines:
+        for k in ["vaccinated_once", "vaccinated_fully"]:
+            vaccines_arrays[c][k] = skipped_dates + [int(vaccines[c][d][k]) for d in vacc_dates] + [int(vaccines[c][maxdate_vacc][k])] * nb_missing_dates
+
+
 for name, scope in data["scopes"].items():
-    fields = ["confirmed", "deceased"]
+    if name == "World":
+        fields = ["vaccinated_once", "vaccinated_fully", "confirmed", "deceased"]
+    else:
+        fields = ["confirmed", "deceased"]
     if name == "USA":
         #fields.append("tested")
         pass
@@ -264,7 +285,12 @@ for name, scope in data["scopes"].items():
                 sick = vals["confirmed"] - vals["recovered"] - vals["deceased"]
                 scope["values"][c]["currently_sick"][i] += sick
                 scope["values"]["total"]["currently_sick"][i] += sick
-
+            if name == "World":
+                if c in vaccines_arrays:
+                    scope["values"][c]["vaccinated_once"][i] = vaccines_arrays[c]["vaccinated_once"][i]
+                    scope["values"]["total"]["vaccinated_once"][i] += vaccines_arrays[c]["vaccinated_once"][i]
+                    scope["values"][c]["vaccinated_fully"][i] = vaccines_arrays[c]["vaccinated_fully"][i]
+                    scope["values"]["total"]["vaccinated_fully"][i] += vaccines_arrays[c]["vaccinated_fully"][i]
 
 france_ehpad = 0
 with open(os.path.join("data", "france-ehpad.json")) as f:
