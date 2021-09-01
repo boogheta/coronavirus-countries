@@ -20,6 +20,7 @@ curl -sfL https://cnecovid.isciii.es/covid19/resources/casos_hosp_uci_def_sexo_e
 
 # France official data
 curl -sfL https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv > data/chiffres-cles.csv
+curl -sfL https://dashboard.covid19.data.gouv.fr/data/code-FRA.json > data/france-ehpad.json
 for typ in deces hospitalisations soins_critiques retour_a_domicile cas_positifs vaccins_premiere_dose vaccins_vaccines; do
   curl -sfL https://data.widgets.dashboard.covid19.data.gouv.fr/$typ.json > data/france-$typ.json
 done
@@ -33,7 +34,6 @@ curl -sfL "https://api.coronavirus.data.gov.uk/v2/data?areaType=nation&metric=cu
 # Germany official data
 curl -sfL "https://opendata.arcgis.com/api/v3/datasets/dd4580c810204019a7b8eb3e0b329dd6_0/downloads/data?format=csv&spatialRefId=4326" > data/covid-germany-landkreisen.csv
 ./bin/consolidate_germany.py > data/germany.csv
-
 
 # Population data
 curl -sfL "https://docs.google.com/spreadsheets/d/1e703pe3GmBQt0i2yAOS0F6Bhxy91U1-NTB6JMRSTzc0/export?format=csv&id=1e703pe3GmBQt0i2yAOS0F6Bhxy91U1-NTB6JMRSTzc0&gid=0" > data/population-World.csv
