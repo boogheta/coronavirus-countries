@@ -289,7 +289,7 @@ new Vue({
             return c.name;
           });
       }
-      if (!options.confirmed && !options.recovered && !options.deceased && !options.currently_sick && !options.tested && !options.intensive_care && !options.hospitalized)
+      if (!options.confirmed && !options.recovered && !options.deceased && !options.currently_sick && !options.tested && !options.intensive_care && !options.hospitalized && !options.vaccinated_once && !options.vaccinated_fully)
         options.deceased = true;
       if (options.log) this.scaleChoice = "logarithmic";
       else if (options.daily) this.scaleChoice = "daily";
