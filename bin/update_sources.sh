@@ -31,8 +31,7 @@ curl -sfL "https://api.coronavirus.data.gov.uk/v2/data?areaType=nation&metric=cu
 ./bin/consolidate_uk.py > data/uk.csv
 
 # Germany official data
-curl -sfL https://raw.githubusercontent.com/micgro42/COVID-19-DE/master/time_series/time-series_19-covid-Confirmed.csv > data/time_series_covid19_confirmed_Germany.csv
-curl -sfL https://raw.githubusercontent.com/micgro42/COVID-19-DE/master/time_series/time-series_19-covid-Deaths.csv > data/time_series_covid19_deaths_Germany.csv
+curl -sfL "https://opendata.arcgis.com/api/v3/datasets/dd4580c810204019a7b8eb3e0b329dd6_0/downloads/data?format=csv&spatialRefId=4326" > data/covid-germany-landkreisen.csv
 ./bin/consolidate_germany.py > data/germany.csv
 
 

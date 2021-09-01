@@ -356,8 +356,8 @@ localities = {
     },
     "Germany": {
         "source": {
-          "name": "Robert Koch Institute (curated by Michael Große)",
-          "url": "https://github.com/micgro42/COVID-19-DE"
+          "name": "Robert Koch Institute",
+          "url": "https://npgeo-corona-npgeo-de.hub.arcgis.com/"
         },
         "filename": "germany.csv",
         "level": "bundesländer",
@@ -365,6 +365,7 @@ localities = {
         "date_accessor": lambda row: row["date"],
         "fields": {
             "confirmed": "confirmed",
+            "recovered": "recovered",
             "deceased": "deceased"
         }
     },
