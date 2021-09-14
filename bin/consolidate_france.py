@@ -107,7 +107,6 @@ noms = {
     "DEP-973": "Guyane",
     "DEP-974": "La Réunion",
     "DEP-976": "Mayotte",
-    "maille_code": "maille_nom",
     "REG-01": "Guadeloupe",
     "REG-02": "Martinique",
     "REG-03": "Guyane",
