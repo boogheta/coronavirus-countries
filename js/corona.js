@@ -212,6 +212,7 @@ new Vue({
         });
       }
       this.sortCountries();
+      document.getElementById('countries').scrollTop = 0;
     },
     refCase: function() {
       if (this.refCase === "confirmed" && this.refCountry === "10th case")
