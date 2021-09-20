@@ -9349,7 +9349,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-20,Djibouti,0,0
 2021-01-20,Dominica,0,0
 2021-01-20,Dominican Republic,0,0
-2021-01-20,Ecuador,0,0
+2021-01-20,Ecuador,17,0
 2021-01-20,Egypt,0,0
 2021-01-20,El Salvador,0,0
 2021-01-20,Equatorial Guinea,0,0
@@ -9535,7 +9535,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-21,Djibouti,0,0
 2021-01-21,Dominica,0,0
 2021-01-21,Dominican Republic,0,0
-2021-01-21,Ecuador,0,0
+2021-01-21,Ecuador,3008,0
 2021-01-21,Egypt,0,0
 2021-01-21,El Salvador,0,0
 2021-01-21,Equatorial Guinea,0,0
@@ -9721,7 +9721,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-22,Djibouti,0,0
 2021-01-22,Dominica,0,0
 2021-01-22,Dominican Republic,0,0
-2021-01-22,Ecuador,108,0
+2021-01-22,Ecuador,3811,0
 2021-01-22,Egypt,0,0
 2021-01-22,El Salvador,0,0
 2021-01-22,Equatorial Guinea,0,0
@@ -9907,7 +9907,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-23,Djibouti,0,0
 2021-01-23,Dominica,0,0
 2021-01-23,Dominican Republic,0,0
-2021-01-23,Ecuador,108,0
+2021-01-23,Ecuador,3848,0
 2021-01-23,Egypt,0,0
 2021-01-23,El Salvador,0,0
 2021-01-23,Equatorial Guinea,0,0
@@ -10093,7 +10093,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-24,Djibouti,0,0
 2021-01-24,Dominica,0,0
 2021-01-24,Dominican Republic,0,0
-2021-01-24,Ecuador,108,0
+2021-01-24,Ecuador,3848,0
 2021-01-24,Egypt,0,0
 2021-01-24,El Salvador,0,0
 2021-01-24,Equatorial Guinea,0,0
@@ -10279,7 +10279,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-25,Djibouti,0,0
 2021-01-25,Dominica,0,0
 2021-01-25,Dominican Republic,0,0
-2021-01-25,Ecuador,108,0
+2021-01-25,Ecuador,5116,0
 2021-01-25,Egypt,0,0
 2021-01-25,El Salvador,0,0
 2021-01-25,Equatorial Guinea,0,0
@@ -10465,7 +10465,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-26,Djibouti,0,0
 2021-01-26,Dominica,0,0
 2021-01-26,Dominican Republic,0,0
-2021-01-26,Ecuador,108,0
+2021-01-26,Ecuador,5876,0
 2021-01-26,Egypt,0,0
 2021-01-26,El Salvador,0,0
 2021-01-26,Equatorial Guinea,0,0
@@ -10651,7 +10651,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-27,Djibouti,0,0
 2021-01-27,Dominica,0,0
 2021-01-27,Dominican Republic,0,0
-2021-01-27,Ecuador,2982,0
+2021-01-27,Ecuador,6580,0
 2021-01-27,Egypt,0,0
 2021-01-27,El Salvador,0,0
 2021-01-27,Equatorial Guinea,0,0
@@ -10837,7 +10837,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-28,Djibouti,0,0
 2021-01-28,Dominica,0,0
 2021-01-28,Dominican Republic,0,0
-2021-01-28,Ecuador,2982,0
+2021-01-28,Ecuador,6802,0
 2021-01-28,Egypt,0,0
 2021-01-28,El Salvador,0,0
 2021-01-28,Equatorial Guinea,0,0
@@ -11023,7 +11023,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-29,Djibouti,0,0
 2021-01-29,Dominica,0,0
 2021-01-29,Dominican Republic,0,0
-2021-01-29,Ecuador,2982,0
+2021-01-29,Ecuador,7091,0
 2021-01-29,Egypt,0,0
 2021-01-29,El Salvador,0,0
 2021-01-29,Equatorial Guinea,0,0
@@ -11209,7 +11209,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-30,Djibouti,0,0
 2021-01-30,Dominica,0,0
 2021-01-30,Dominican Republic,0,0
-2021-01-30,Ecuador,2982,0
+2021-01-30,Ecuador,7091,0
 2021-01-30,Egypt,1315,0
 2021-01-30,El Salvador,0,0
 2021-01-30,Equatorial Guinea,0,0
@@ -11395,7 +11395,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-31,Djibouti,0,0
 2021-01-31,Dominica,0,0
 2021-01-31,Dominican Republic,0,0
-2021-01-31,Ecuador,2982,0
+2021-01-31,Ecuador,7133,0
 2021-01-31,Egypt,1315,0
 2021-01-31,El Salvador,0,0
 2021-01-31,Equatorial Guinea,0,0
@@ -11581,7 +11581,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-01,Djibouti,0,0
 2021-02-01,Dominica,0,0
 2021-02-01,Dominican Republic,0,0
-2021-02-01,Ecuador,2982,0
+2021-02-01,Ecuador,8521,0
 2021-02-01,Egypt,1315,0
 2021-02-01,El Salvador,0,0
 2021-02-01,Equatorial Guinea,0,0
@@ -11767,7 +11767,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-02,Djibouti,0,0
 2021-02-02,Dominica,0,0
 2021-02-02,Dominican Republic,0,0
-2021-02-02,Ecuador,2982,0
+2021-02-02,Ecuador,9722,0
 2021-02-02,Egypt,1315,0
 2021-02-02,El Salvador,0,0
 2021-02-02,Equatorial Guinea,0,0
@@ -11953,7 +11953,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-03,Djibouti,0,0
 2021-02-03,Dominica,0,0
 2021-02-03,Dominican Republic,0,0
-2021-02-03,Ecuador,2982,0
+2021-02-03,Ecuador,12357,1
 2021-02-03,Egypt,1315,0
 2021-02-03,El Salvador,0,0
 2021-02-03,Equatorial Guinea,0,0
@@ -12139,7 +12139,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-04,Djibouti,0,0
 2021-02-04,Dominica,0,0
 2021-02-04,Dominican Republic,0,0
-2021-02-04,Ecuador,6228,0
+2021-02-04,Ecuador,12425,42
 2021-02-04,Egypt,1315,0
 2021-02-04,El Salvador,0,0
 2021-02-04,Equatorial Guinea,0,0
@@ -12325,7 +12325,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-05,Djibouti,0,0
 2021-02-05,Dominica,0,0
 2021-02-05,Dominican Republic,0,0
-2021-02-05,Ecuador,6228,0
+2021-02-05,Ecuador,12428,42
 2021-02-05,Egypt,1315,0
 2021-02-05,El Salvador,0,0
 2021-02-05,Equatorial Guinea,0,0
@@ -12511,7 +12511,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-06,Djibouti,0,0
 2021-02-06,Dominica,0,0
 2021-02-06,Dominican Republic,0,0
-2021-02-06,Ecuador,6228,0
+2021-02-06,Ecuador,12429,42
 2021-02-06,Egypt,1315,0
 2021-02-06,El Salvador,0,0
 2021-02-06,Equatorial Guinea,0,0
@@ -12697,7 +12697,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-07,Djibouti,0,0
 2021-02-07,Dominica,0,0
 2021-02-07,Dominican Republic,0,0
-2021-02-07,Ecuador,6228,0
+2021-02-07,Ecuador,12429,42
 2021-02-07,Egypt,1315,0
 2021-02-07,El Salvador,0,0
 2021-02-07,Equatorial Guinea,0,0
@@ -12883,7 +12883,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-08,Djibouti,0,0
 2021-02-08,Dominica,0,0
 2021-02-08,Dominican Republic,0,0
-2021-02-08,Ecuador,6228,0
+2021-02-08,Ecuador,12431,42
 2021-02-08,Egypt,1315,0
 2021-02-08,El Salvador,0,0
 2021-02-08,Equatorial Guinea,0,0
@@ -13069,7 +13069,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-09,Djibouti,0,0
 2021-02-09,Dominica,0,0
 2021-02-09,Dominican Republic,0,0
-2021-02-09,Ecuador,6228,0
+2021-02-09,Ecuador,12431,42
 2021-02-09,Egypt,1315,0
 2021-02-09,El Salvador,0,0
 2021-02-09,Equatorial Guinea,0,0
@@ -13255,7 +13255,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-10,Djibouti,0,0
 2021-02-10,Dominica,0,0
 2021-02-10,Dominican Republic,0,0
-2021-02-10,Ecuador,6228,0
+2021-02-10,Ecuador,12431,47
 2021-02-10,Egypt,1315,0
 2021-02-10,El Salvador,0,0
 2021-02-10,Equatorial Guinea,0,0
@@ -13441,7 +13441,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-11,Djibouti,0,0
 2021-02-11,Dominica,0,0
 2021-02-11,Dominican Republic,0,0
-2021-02-11,Ecuador,6228,0
+2021-02-11,Ecuador,12466,1538
 2021-02-11,Egypt,1315,0
 2021-02-11,El Salvador,0,0
 2021-02-11,Equatorial Guinea,0,0
@@ -13627,7 +13627,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-12,Djibouti,0,0
 2021-02-12,Dominica,0,0
 2021-02-12,Dominican Republic,0,0
-2021-02-12,Ecuador,6228,0
+2021-02-12,Ecuador,12483,1940
 2021-02-12,Egypt,1315,0
 2021-02-12,El Salvador,0,0
 2021-02-12,Equatorial Guinea,0,0
@@ -13813,7 +13813,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-13,Djibouti,0,0
 2021-02-13,Dominica,0,0
 2021-02-13,Dominican Republic,0,0
-2021-02-13,Ecuador,6228,0
+2021-02-13,Ecuador,12487,1977
 2021-02-13,Egypt,1315,0
 2021-02-13,El Salvador,0,0
 2021-02-13,Equatorial Guinea,0,0
@@ -13999,7 +13999,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-14,Djibouti,0,0
 2021-02-14,Dominica,0,0
 2021-02-14,Dominican Republic,0,0
-2021-02-14,Ecuador,6228,0
+2021-02-14,Ecuador,12487,1977
 2021-02-14,Egypt,1315,0
 2021-02-14,El Salvador,0,0
 2021-02-14,Equatorial Guinea,0,0
@@ -14185,7 +14185,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-15,Djibouti,0,0
 2021-02-15,Dominica,0,0
 2021-02-15,Dominican Republic,0,0
-2021-02-15,Ecuador,6228,0
+2021-02-15,Ecuador,12488,1977
 2021-02-15,Egypt,1315,0
 2021-02-15,El Salvador,0,0
 2021-02-15,Equatorial Guinea,0,0
@@ -14371,7 +14371,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-16,Djibouti,0,0
 2021-02-16,Dominica,0,0
 2021-02-16,Dominican Republic,385,0
-2021-02-16,Ecuador,6228,0
+2021-02-16,Ecuador,12488,1977
 2021-02-16,Egypt,1315,0
 2021-02-16,El Salvador,0,0
 2021-02-16,Equatorial Guinea,0,0
@@ -14557,7 +14557,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-17,Djibouti,0,0
 2021-02-17,Dominica,0,0
 2021-02-17,Dominican Republic,1379,0
-2021-02-17,Ecuador,6228,1962
+2021-02-17,Ecuador,12491,2051
 2021-02-17,Egypt,1315,0
 2021-02-17,El Salvador,0,0
 2021-02-17,Equatorial Guinea,0,0
@@ -14743,7 +14743,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-18,Djibouti,0,0
 2021-02-18,Dominica,0,0
 2021-02-18,Dominican Republic,5328,0
-2021-02-18,Ecuador,6228,1962
+2021-02-18,Ecuador,34661,3510
 2021-02-18,Egypt,1315,0
 2021-02-18,El Salvador,0,0
 2021-02-18,Equatorial Guinea,0,0
@@ -14929,7 +14929,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-19,Djibouti,0,0
 2021-02-19,Dominica,0,0
 2021-02-19,Dominican Republic,10200,0
-2021-02-19,Ecuador,6228,1962
+2021-02-19,Ecuador,39607,3867
 2021-02-19,Egypt,1315,0
 2021-02-19,El Salvador,0,0
 2021-02-19,Equatorial Guinea,0,0
@@ -15115,7 +15115,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-20,Djibouti,0,0
 2021-02-20,Dominica,0,0
 2021-02-20,Dominican Republic,13087,0
-2021-02-20,Ecuador,6228,1962
+2021-02-20,Ecuador,39607,3868
 2021-02-20,Egypt,1315,0
 2021-02-20,El Salvador,0,0
 2021-02-20,Equatorial Guinea,0,0
@@ -15301,7 +15301,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-21,Djibouti,0,0
 2021-02-21,Dominica,0,0
 2021-02-21,Dominican Republic,14264,0
-2021-02-21,Ecuador,6228,1962
+2021-02-21,Ecuador,41483,3869
 2021-02-21,Egypt,1315,0
 2021-02-21,El Salvador,0,0
 2021-02-21,Equatorial Guinea,0,0
@@ -15487,7 +15487,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-22,Djibouti,0,0
 2021-02-22,Dominica,0,0
 2021-02-22,Dominican Republic,14264,0
-2021-02-22,Ecuador,6228,1962
+2021-02-22,Ecuador,43101,4014
 2021-02-22,Egypt,1315,0
 2021-02-22,El Salvador,6000,0
 2021-02-22,Equatorial Guinea,0,0
@@ -15673,7 +15673,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-23,Djibouti,0,0
 2021-02-23,Dominica,2465,0
 2021-02-23,Dominican Republic,14264,0
-2021-02-23,Ecuador,6228,1962
+2021-02-23,Ecuador,43112,4015
 2021-02-23,Egypt,1315,0
 2021-02-23,El Salvador,6000,0
 2021-02-23,Equatorial Guinea,0,0
@@ -15859,7 +15859,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-24,Djibouti,0,0
 2021-02-24,Dominica,2465,0
 2021-02-24,Dominican Republic,26400,0
-2021-02-24,Ecuador,20784,3708
+2021-02-24,Ecuador,43136,4440
 2021-02-24,Egypt,1315,0
 2021-02-24,El Salvador,6000,0
 2021-02-24,Equatorial Guinea,0,0
@@ -16045,7 +16045,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-25,Djibouti,0,0
 2021-02-25,Dominica,4811,0
 2021-02-25,Dominican Republic,26400,0
-2021-02-25,Ecuador,20784,3708
+2021-02-25,Ecuador,59989,5748
 2021-02-25,Egypt,1315,0
 2021-02-25,El Salvador,16000,0
 2021-02-25,Equatorial Guinea,0,0
@@ -16231,7 +16231,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-26,Djibouti,0,0
 2021-02-26,Dominica,5924,0
 2021-02-26,Dominican Republic,26400,0
-2021-02-26,Ecuador,20784,3708
+2021-02-26,Ecuador,69907,6539
 2021-02-26,Egypt,1315,0
 2021-02-26,El Salvador,16000,0
 2021-02-26,Equatorial Guinea,0,0
@@ -16417,7 +16417,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-27,Djibouti,0,0
 2021-02-27,Dominica,5924,0
 2021-02-27,Dominican Republic,26400,0
-2021-02-27,Ecuador,20784,3708
+2021-02-27,Ecuador,70000,6543
 2021-02-27,Egypt,1315,0
 2021-02-27,El Salvador,16000,0
 2021-02-27,Equatorial Guinea,0,0
@@ -16603,7 +16603,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-28,Djibouti,0,0
 2021-02-28,Dominica,5924,0
 2021-02-28,Dominican Republic,26400,0
-2021-02-28,Ecuador,20784,3708
+2021-02-28,Ecuador,70004,6543
 2021-02-28,Egypt,1315,0
 2021-02-28,El Salvador,16000,0
 2021-02-28,Equatorial Guinea,0,0
@@ -16789,7 +16789,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-01,Djibouti,0,0
 2021-03-01,Dominica,7202,0
 2021-03-01,Dominican Republic,60000,0
-2021-03-01,Ecuador,35886,6228
+2021-03-01,Ecuador,70478,6544
 2021-03-01,Egypt,1315,0
 2021-03-01,El Salvador,16000,0
 2021-03-01,Equatorial Guinea,0,0
@@ -16975,7 +16975,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-02,Djibouti,0,0
 2021-03-02,Dominica,8238,0
 2021-03-02,Dominican Republic,105000,0
-2021-03-02,Ecuador,35886,6228
+2021-03-02,Ecuador,70499,6545
 2021-03-02,Egypt,1315,0
 2021-03-02,El Salvador,16000,0
 2021-03-02,Equatorial Guinea,0,0
@@ -17161,7 +17161,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-03,Djibouti,0,0
 2021-03-03,Dominica,9464,0
 2021-03-03,Dominican Republic,161827,0
-2021-03-03,Ecuador,35886,6228
+2021-03-03,Ecuador,70525,6545
 2021-03-03,Egypt,1315,0
 2021-03-03,El Salvador,16000,0
 2021-03-03,Equatorial Guinea,0,0
@@ -17347,7 +17347,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-04,Djibouti,0,0
 2021-03-04,Dominica,10476,0
 2021-03-04,Dominican Republic,227719,0
-2021-03-04,Ecuador,53088,6228
+2021-03-04,Ecuador,99847,6635
 2021-03-04,Egypt,1315,0
 2021-03-04,El Salvador,16000,0
 2021-03-04,Equatorial Guinea,0,0
@@ -17533,7 +17533,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-05,Djibouti,0,0
 2021-03-05,Dominica,11368,0
 2021-03-05,Dominican Republic,303490,0
-2021-03-05,Ecuador,64920,6228
+2021-03-05,Ecuador,119709,6650
 2021-03-05,Egypt,1315,0
 2021-03-05,El Salvador,16000,0
 2021-03-05,Equatorial Guinea,0,0
@@ -17719,7 +17719,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-06,Djibouti,0,0
 2021-03-06,Dominica,11368,0
 2021-03-06,Dominican Republic,375265,0
-2021-03-06,Ecuador,64920,6228
+2021-03-06,Ecuador,123672,6652
 2021-03-06,Egypt,1315,0
 2021-03-06,El Salvador,16000,0
 2021-03-06,Equatorial Guinea,0,0
@@ -17905,7 +17905,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-07,Djibouti,0,0
 2021-03-07,Dominica,11368,0
 2021-03-07,Dominican Republic,375265,0
-2021-03-07,Ecuador,64920,6228
+2021-03-07,Ecuador,123845,6652
 2021-03-07,Egypt,1315,0
 2021-03-07,El Salvador,16000,0
 2021-03-07,Equatorial Guinea,0,0
@@ -18091,7 +18091,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-08,Djibouti,0,0
 2021-03-08,Dominica,12275,0
 2021-03-08,Dominican Republic,400041,0
-2021-03-08,Ecuador,68244,6228
+2021-03-08,Ecuador,128460,6652
 2021-03-08,Egypt,1315,0
 2021-03-08,El Salvador,16000,0
 2021-03-08,Equatorial Guinea,0,0
@@ -18277,7 +18277,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-09,Djibouti,0,0
 2021-03-09,Dominica,12275,0
 2021-03-09,Dominican Republic,480237,0
-2021-03-09,Ecuador,69030,6228
+2021-03-09,Ecuador,130164,6652
 2021-03-09,Egypt,1315,0
 2021-03-09,El Salvador,16000,0
 2021-03-09,Equatorial Guinea,0,0
@@ -18463,7 +18463,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-10,Djibouti,0,0
 2021-03-10,Dominica,13135,0
 2021-03-10,Dominican Republic,547091,0
-2021-03-10,Ecuador,69030,6228
+2021-03-10,Ecuador,130773,6828
 2021-03-10,Egypt,1315,0
 2021-03-10,El Salvador,16000,0
 2021-03-10,Equatorial Guinea,0,0
@@ -18649,7 +18649,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-11,Djibouti,0,0
 2021-03-11,Dominica,13565,0
 2021-03-11,Dominican Republic,606006,0
-2021-03-11,Ecuador,89687,6228
+2021-03-11,Ecuador,160339,12460
 2021-03-11,Egypt,1315,0
 2021-03-11,El Salvador,16000,0
 2021-03-11,Equatorial Guinea,0,0
@@ -18835,7 +18835,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-12,Djibouti,0,0
 2021-03-12,Dominica,13565,0
 2021-03-12,Dominican Republic,606006,0
-2021-03-12,Ecuador,116948,6228
+2021-03-12,Ecuador,204385,19186
 2021-03-12,Egypt,1315,0
 2021-03-12,El Salvador,16000,0
 2021-03-12,Equatorial Guinea,0,0
@@ -19021,7 +19021,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-13,Djibouti,0,0
 2021-03-13,Dominica,13565,0
 2021-03-13,Dominican Republic,606006,0
-2021-03-13,Ecuador,119222,20137
+2021-03-13,Ecuador,220452,19891
 2021-03-13,Egypt,1315,0
 2021-03-13,El Salvador,16000,0
 2021-03-13,Equatorial Guinea,0,0
@@ -19207,7 +19207,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-14,Djibouti,0,0
 2021-03-14,Dominica,13565,0
 2021-03-14,Dominican Republic,606006,0
-2021-03-14,Ecuador,119222,20137
+2021-03-14,Ecuador,221190,19898
 2021-03-14,Egypt,1315,0
 2021-03-14,El Salvador,25000,0
 2021-03-14,Equatorial Guinea,0,0
@@ -19393,7 +19393,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-15,Djibouti,0,0
 2021-03-15,Dominica,13565,0
 2021-03-15,Dominican Republic,675000,0
-2021-03-15,Ecuador,121054,20137
+2021-03-15,Ecuador,231703,21040
 2021-03-15,Egypt,1315,0
 2021-03-15,El Salvador,25000,0
 2021-03-15,Equatorial Guinea,0,0
@@ -19579,7 +19579,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-16,Djibouti,0,0
 2021-03-16,Dominica,13565,0
 2021-03-16,Dominican Republic,675000,0
-2021-03-16,Ecuador,121054,20137
+2021-03-16,Ecuador,239702,21043
 2021-03-16,Egypt,1315,0
 2021-03-16,El Salvador,25000,0
 2021-03-16,Equatorial Guinea,5765,800
@@ -19765,7 +19765,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-17,Djibouti,0,0
 2021-03-17,Dominica,13565,0
 2021-03-17,Dominican Republic,675000,0
-2021-03-17,Ecuador,121054,20137
+2021-03-17,Ecuador,245860,21057
 2021-03-17,Egypt,1315,0
 2021-03-17,El Salvador,36000,0
 2021-03-17,Equatorial Guinea,5765,800
@@ -19951,7 +19951,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-18,Djibouti,0,0
 2021-03-18,Dominica,13565,0
 2021-03-18,Dominican Republic,675000,0
-2021-03-18,Ecuador,121054,20137
+2021-03-18,Ecuador,249118,26444
 2021-03-18,Egypt,1315,0
 2021-03-18,El Salvador,41512,0
 2021-03-18,Equatorial Guinea,5765,800
@@ -20137,7 +20137,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-19,Djibouti,0,0
 2021-03-19,Dominica,13565,0
 2021-03-19,Dominican Republic,675000,0
-2021-03-19,Ecuador,121054,20137
+2021-03-19,Ecuador,252474,31796
 2021-03-19,Egypt,1315,0
 2021-03-19,El Salvador,41512,0
 2021-03-19,Equatorial Guinea,5765,800
@@ -20323,7 +20323,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-20,Djibouti,0,0
 2021-03-20,Dominica,13565,0
 2021-03-20,Dominican Republic,675000,0
-2021-03-20,Ecuador,121054,20137
+2021-03-20,Ecuador,257550,35689
 2021-03-20,Egypt,1315,0
 2021-03-20,El Salvador,41512,0
 2021-03-20,Equatorial Guinea,5765,800
@@ -20509,7 +20509,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-21,Djibouti,0,0
 2021-03-21,Dominica,13565,0
 2021-03-21,Dominican Republic,675000,0
-2021-03-21,Ecuador,140765,38205
+2021-03-21,Ecuador,259507,35694
 2021-03-21,Egypt,1315,0
 2021-03-21,El Salvador,49000,0
 2021-03-21,Equatorial Guinea,5765,800
@@ -20695,7 +20695,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-22,Djibouti,0,0
 2021-03-22,Dominica,15304,0
 2021-03-22,Dominican Republic,675000,0
-2021-03-22,Ecuador,140765,38205
+2021-03-22,Ecuador,301190,36435
 2021-03-22,Egypt,1315,0
 2021-03-22,El Salvador,49000,0
 2021-03-22,Equatorial Guinea,5765,800
@@ -20881,7 +20881,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-23,Djibouti,0,0
 2021-03-23,Dominica,15304,0
 2021-03-23,Dominican Republic,800000,0
-2021-03-23,Ecuador,143614,38647
+2021-03-23,Ecuador,324321,36729
 2021-03-23,Egypt,1315,0
 2021-03-23,El Salvador,49000,0
 2021-03-23,Equatorial Guinea,5765,800
@@ -21067,7 +21067,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-24,Djibouti,0,0
 2021-03-24,Dominica,15304,0
 2021-03-24,Dominican Republic,800000,0
-2021-03-24,Ecuador,152526,38653
+2021-03-24,Ecuador,333815,36819
 2021-03-24,Egypt,1315,0
 2021-03-24,El Salvador,49000,0
 2021-03-24,Equatorial Guinea,5765,800
@@ -21253,7 +21253,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-25,Djibouti,0,0
 2021-03-25,Dominica,16058,0
 2021-03-25,Dominican Republic,800000,0
-2021-03-25,Ecuador,152526,38653
+2021-03-25,Ecuador,344556,47414
 2021-03-25,Egypt,1315,0
 2021-03-25,El Salvador,49000,0
 2021-03-25,Equatorial Guinea,5765,800
@@ -21439,7 +21439,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-26,Djibouti,0,0
 2021-03-26,Dominica,16058,0
 2021-03-26,Dominican Republic,800000,0
-2021-03-26,Ecuador,172413,58357
+2021-03-26,Ecuador,356221,60396
 2021-03-26,Egypt,1315,0
 2021-03-26,El Salvador,49000,0
 2021-03-26,Equatorial Guinea,5765,800
@@ -21625,7 +21625,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-27,Djibouti,0,0
 2021-03-27,Dominica,16058,0
 2021-03-27,Dominican Republic,800000,0
-2021-03-27,Ecuador,174642,60358
+2021-03-27,Ecuador,360721,62345
 2021-03-27,Egypt,164534,0
 2021-03-27,El Salvador,49000,0
 2021-03-27,Equatorial Guinea,5765,800
@@ -21811,7 +21811,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-28,Djibouti,0,0
 2021-03-28,Dominica,16058,0
 2021-03-28,Dominican Republic,800000,0
-2021-03-28,Ecuador,174642,60358
+2021-03-28,Ecuador,361055,62345
 2021-03-28,Egypt,164534,0
 2021-03-28,El Salvador,70000,0
 2021-03-28,Equatorial Guinea,5765,800
@@ -21997,7 +21997,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-29,Djibouti,0,0
 2021-03-29,Dominica,16058,0
 2021-03-29,Dominican Republic,800000,0
-2021-03-29,Ecuador,182329,62537
+2021-03-29,Ecuador,379843,64673
 2021-03-29,Egypt,164534,0
 2021-03-29,El Salvador,70000,0
 2021-03-29,Equatorial Guinea,9748,2407
@@ -22183,7 +22183,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-30,Djibouti,0,0
 2021-03-30,Dominica,16058,0
 2021-03-30,Dominican Republic,856474,54395
-2021-03-30,Ecuador,182329,62537
+2021-03-30,Ecuador,388223,67861
 2021-03-30,Egypt,164534,0
 2021-03-30,El Salvador,70000,0
 2021-03-30,Equatorial Guinea,9748,2407
@@ -22369,7 +22369,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-31,Djibouti,0,0
 2021-03-31,Dominica,17674,0
 2021-03-31,Dominican Republic,856474,54395
-2021-03-31,Ecuador,182329,62537
+2021-03-31,Ecuador,400735,67930
 2021-03-31,Egypt,164534,0
 2021-03-31,El Salvador,99855,0
 2021-03-31,Equatorial Guinea,9748,2407
@@ -22555,7 +22555,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-01,Djibouti,0,0
 2021-04-01,Dominica,17775,337
 2021-04-01,Dominican Republic,856474,54395
-2021-04-01,Ecuador,204902,78204
+2021-04-01,Ecuador,424106,77818
 2021-04-01,Egypt,164534,0
 2021-04-01,El Salvador,120476,0
 2021-04-01,Equatorial Guinea,11090,2990
@@ -22604,7 +22604,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-01,Libya,0,0
 2021-04-01,Liechtenstein,4295,2087
 2021-04-01,Lithuania,368944,158251
-2021-04-01,Luxembourg,75853,23517
+2021-04-01,Luxembourg,75852,23517
 2021-04-01,Madagascar,0,0
 2021-04-01,Malawi,144979,0
 2021-04-01,Malaysia,502734,244537
@@ -22741,7 +22741,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-02,Djibouti,0,0
 2021-04-02,Dominica,17775,337
 2021-04-02,Dominican Republic,856474,54395
-2021-04-02,Ecuador,204902,78204
+2021-04-02,Ecuador,430113,85560
 2021-04-02,Egypt,164534,0
 2021-04-02,El Salvador,133330,0
 2021-04-02,Equatorial Guinea,11090,2990
@@ -22790,7 +22790,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-02,Libya,0,0
 2021-04-02,Liechtenstein,4297,2288
 2021-04-02,Lithuania,381833,165210
-2021-04-02,Luxembourg,78398,24401
+2021-04-02,Luxembourg,78397,24401
 2021-04-02,Madagascar,0,0
 2021-04-02,Malawi,154801,0
 2021-04-02,Malaysia,510317,267394
@@ -22927,7 +22927,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-03,Djibouti,0,0
 2021-04-03,Dominica,17775,337
 2021-04-03,Dominican Republic,856474,54395
-2021-04-03,Ecuador,204902,78204
+2021-04-03,Ecuador,435892,87268
 2021-04-03,Egypt,164534,0
 2021-04-03,El Salvador,133330,0
 2021-04-03,Equatorial Guinea,11090,2990
@@ -22976,7 +22976,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-03,Libya,0,0
 2021-04-03,Liechtenstein,4297,2288
 2021-04-03,Lithuania,389892,165820
-2021-04-03,Luxembourg,81074,24823
+2021-04-03,Luxembourg,81073,24823
 2021-04-03,Madagascar,0,0
 2021-04-03,Malawi,154801,0
 2021-04-03,Malaysia,512990,281975
@@ -23113,7 +23113,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-04,Djibouti,0,0
 2021-04-04,Dominica,17775,337
 2021-04-04,Dominican Republic,856474,54395
-2021-04-04,Ecuador,211720,89349
+2021-04-04,Ecuador,438701,87459
 2021-04-04,Egypt,164534,0
 2021-04-04,El Salvador,133330,0
 2021-04-04,Equatorial Guinea,11090,2990
@@ -23162,7 +23162,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-04,Libya,0,0
 2021-04-04,Liechtenstein,4297,2288
 2021-04-04,Lithuania,392301,165822
-2021-04-04,Luxembourg,81074,24823
+2021-04-04,Luxembourg,81073,24823
 2021-04-04,Madagascar,0,0
 2021-04-04,Malawi,159574,0
 2021-04-04,Malaysia,518991,290910
@@ -23299,7 +23299,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-05,Djibouti,0,0
 2021-04-05,Dominica,17775,337
 2021-04-05,Dominican Republic,856474,54395
-2021-04-05,Ecuador,228504,106589
+2021-04-05,Ecuador,471370,104065
 2021-04-05,Egypt,164534,0
 2021-04-05,El Salvador,133330,0
 2021-04-05,Equatorial Guinea,11090,2990
@@ -23348,7 +23348,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-05,Libya,0,0
 2021-04-05,Liechtenstein,4297,2288
 2021-04-05,Lithuania,395978,165868
-2021-04-05,Luxembourg,83638,25314
+2021-04-05,Luxembourg,83637,25314
 2021-04-05,Madagascar,0,0
 2021-04-05,Malawi,160445,0
 2021-04-05,Malaysia,528185,310286
@@ -23485,7 +23485,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-06,Djibouti,0,0
 2021-04-06,Dominica,17775,337
 2021-04-06,Dominican Republic,856474,54395
-2021-04-06,Ecuador,244159,112624
+2021-04-06,Ecuador,503590,111119
 2021-04-06,Egypt,164534,0
 2021-04-06,El Salvador,133330,0
 2021-04-06,Equatorial Guinea,11090,2990
@@ -23534,7 +23534,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-06,Libya,0,0
 2021-04-06,Liechtenstein,4300,2499
 2021-04-06,Lithuania,407700,168854
-2021-04-06,Luxembourg,86343,26438
+2021-04-06,Luxembourg,86342,26438
 2021-04-06,Madagascar,0,0
 2021-04-06,Malawi,164733,0
 2021-04-06,Malaysia,539161,331919
@@ -23671,7 +23671,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-07,Djibouti,0,0
 2021-04-07,Dominica,17775,337
 2021-04-07,Dominican Republic,856474,54395
-2021-04-07,Ecuador,244159,112624
+2021-04-07,Ecuador,543878,115396
 2021-04-07,Egypt,164534,0
 2021-04-07,El Salvador,160000,0
 2021-04-07,Equatorial Guinea,11090,2990
@@ -23720,7 +23720,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-07,Libya,0,0
 2021-04-07,Liechtenstein,4300,2699
 2021-04-07,Lithuania,419376,169938
-2021-04-07,Luxembourg,88705,28456
+2021-04-07,Luxembourg,88704,28456
 2021-04-07,Madagascar,0,0
 2021-04-07,Malawi,164733,0
 2021-04-07,Malaysia,551826,350145
@@ -23857,7 +23857,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-08,Djibouti,0,0
 2021-04-08,Dominica,17775,337
 2021-04-08,Dominican Republic,856474,54395
-2021-04-08,Ecuador,250631,112624
+2021-04-08,Ecuador,553900,121955
 2021-04-08,Egypt,164534,0
 2021-04-08,El Salvador,160000,0
 2021-04-08,Equatorial Guinea,11090,2990
@@ -23906,7 +23906,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-08,Libya,0,0
 2021-04-08,Liechtenstein,4305,2944
 2021-04-08,Lithuania,441276,175027
-2021-04-08,Luxembourg,91061,30921
+2021-04-08,Luxembourg,91060,30921
 2021-04-08,Madagascar,0,0
 2021-04-08,Malawi,164733,0
 2021-04-08,Malaysia,563872,364897
@@ -24043,7 +24043,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-09,Djibouti,0,0
 2021-04-09,Dominica,17775,337
 2021-04-09,Dominican Republic,856474,54395
-2021-04-09,Ecuador,250631,112624
+2021-04-09,Ecuador,560689,125384
 2021-04-09,Egypt,164534,0
 2021-04-09,El Salvador,180000,0
 2021-04-09,Equatorial Guinea,11090,2990
@@ -24092,7 +24092,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-09,Libya,0,0
 2021-04-09,Liechtenstein,4543,2944
 2021-04-09,Lithuania,471202,178625
-2021-04-09,Luxembourg,93737,33199
+2021-04-09,Luxembourg,93736,33199
 2021-04-09,Madagascar,0,0
 2021-04-09,Malawi,193627,0
 2021-04-09,Malaysia,571066,379224
@@ -24229,7 +24229,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-10,Djibouti,0,0
 2021-04-10,Dominica,17775,337
 2021-04-10,Dominican Republic,856474,54395
-2021-04-10,Ecuador,250631,112624
+2021-04-10,Ecuador,561873,127155
 2021-04-10,Egypt,164534,0
 2021-04-10,El Salvador,180000,0
 2021-04-10,Equatorial Guinea,11090,2990
@@ -24278,7 +24278,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-10,Libya,0,0
 2021-04-10,Liechtenstein,4548,2945
 2021-04-10,Lithuania,486658,178804
-2021-04-10,Luxembourg,96040,34276
+2021-04-10,Luxembourg,96039,34276
 2021-04-10,Madagascar,0,0
 2021-04-10,Malawi,204258,0
 2021-04-10,Malaysia,576637,389230
@@ -24415,7 +24415,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-11,Djibouti,0,0
 2021-04-11,Dominica,17775,337
 2021-04-11,Dominican Republic,856474,54395
-2021-04-11,Ecuador,250631,112624
+2021-04-11,Ecuador,561882,127164
 2021-04-11,Egypt,164534,0
 2021-04-11,El Salvador,200000,0
 2021-04-11,Equatorial Guinea,11090,2990
@@ -24464,7 +24464,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-11,Libya,0,0
 2021-04-11,Liechtenstein,4548,2945
 2021-04-11,Lithuania,488345,178845
-2021-04-11,Luxembourg,96040,34276
+2021-04-11,Luxembourg,96039,34276
 2021-04-11,Madagascar,0,0
 2021-04-11,Malawi,209353,0
 2021-04-11,Malaysia,589106,399911
@@ -24601,7 +24601,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-12,Djibouti,0,0
 2021-04-12,Dominica,17948,475
 2021-04-12,Dominican Republic,856474,54395
-2021-04-12,Ecuador,250631,112624
+2021-04-12,Ecuador,562745,135182
 2021-04-12,Egypt,164534,0
 2021-04-12,El Salvador,200000,0
 2021-04-12,Equatorial Guinea,11090,2990
@@ -24650,7 +24650,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-12,Libya,0,0
 2021-04-12,Liechtenstein,4815,2956
 2021-04-12,Lithuania,496639,179331
-2021-04-12,Luxembourg,99980,35156
+2021-04-12,Luxembourg,99979,35156
 2021-04-12,Madagascar,0,0
 2021-04-12,Malawi,212615,0
 2021-04-12,Malaysia,614409,413829
@@ -24787,7 +24787,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-13,Djibouti,0,0
 2021-04-13,Dominica,17948,475
 2021-04-13,Dominican Republic,856474,54395
-2021-04-13,Ecuador,250631,112624
+2021-04-13,Ecuador,603632,143727
 2021-04-13,Egypt,164534,0
 2021-04-13,El Salvador,308426,2367
 2021-04-13,Equatorial Guinea,11090,2990
@@ -24836,7 +24836,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-13,Libya,0,0
 2021-04-13,Liechtenstein,5075,2971
 2021-04-13,Lithuania,512550,182289
-2021-04-13,Luxembourg,103558,37846
+2021-04-13,Luxembourg,103557,37846
 2021-04-13,Madagascar,0,0
 2021-04-13,Malawi,229220,0
 2021-04-13,Malaysia,630498,421512
@@ -24973,7 +24973,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-14,Djibouti,0,0
 2021-04-14,Dominica,17948,475
 2021-04-14,Dominican Republic,909898,600000
-2021-04-14,Ecuador,338180,142782
+2021-04-14,Ecuador,632527,147868
 2021-04-14,Egypt,164534,0
 2021-04-14,El Salvador,355941,5533
 2021-04-14,Equatorial Guinea,11090,2990
@@ -25022,7 +25022,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-14,Libya,0,0
 2021-04-14,Liechtenstein,5364,3005
 2021-04-14,Lithuania,532751,188925
-2021-04-14,Luxembourg,107156,37846
+2021-04-14,Luxembourg,107155,37846
 2021-04-14,Madagascar,0,0
 2021-04-14,Malawi,240744,0
 2021-04-14,Malaysia,651423,429204
@@ -25159,7 +25159,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-15,Djibouti,0,0
 2021-04-15,Dominica,17948,475
 2021-04-15,Dominican Republic,909898,600000
-2021-04-15,Ecuador,338180,146952
+2021-04-15,Ecuador,661453,156202
 2021-04-15,Egypt,164534,0
 2021-04-15,El Salvador,401179,9631
 2021-04-15,Equatorial Guinea,11090,2990
@@ -25208,7 +25208,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-15,Libya,0,0
 2021-04-15,Liechtenstein,5654,3022
 2021-04-15,Lithuania,550831,194079
-2021-04-15,Luxembourg,110427,37846
+2021-04-15,Luxembourg,110426,37846
 2021-04-15,Madagascar,0,0
 2021-04-15,Malawi,240744,0
 2021-04-15,Malaysia,669507,438354
@@ -25345,7 +25345,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-16,Djibouti,0,0
 2021-04-16,Dominica,17948,475
 2021-04-16,Dominican Republic,909898,600000
-2021-04-16,Ecuador,354019,160132
+2021-04-16,Ecuador,690331,171126
 2021-04-16,Egypt,164534,0
 2021-04-16,El Salvador,445109,15456
 2021-04-16,Equatorial Guinea,27579,5305
@@ -25394,7 +25394,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-16,Libya,0,0
 2021-04-16,Liechtenstein,5944,3025
 2021-04-16,Lithuania,566419,198961
-2021-04-16,Luxembourg,113932,37846
+2021-04-16,Luxembourg,113931,37846
 2021-04-16,Madagascar,0,0
 2021-04-16,Malawi,251368,0
 2021-04-16,Malaysia,685116,442273
@@ -25531,7 +25531,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-17,Djibouti,10246,0
 2021-04-17,Dominica,17948,475
 2021-04-17,Dominican Republic,909898,600000
-2021-04-17,Ecuador,377199,167933
+2021-04-17,Ecuador,731470,175888
 2021-04-17,Egypt,164534,0
 2021-04-17,El Salvador,483638,18375
 2021-04-17,Equatorial Guinea,27579,5305
@@ -25580,7 +25580,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-17,Libya,750,0
 2021-04-17,Liechtenstein,5944,3028
 2021-04-17,Lithuania,568729,199160
-2021-04-17,Luxembourg,118109,37846
+2021-04-17,Luxembourg,118108,37846
 2021-04-17,Madagascar,0,0
 2021-04-17,Malawi,251368,0
 2021-04-17,Malaysia,693676,443344
@@ -25717,7 +25717,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-18,Djibouti,10246,0
 2021-04-18,Dominica,17948,475
 2021-04-18,Dominican Republic,909898,600000
-2021-04-18,Ecuador,384093,170276
+2021-04-18,Ecuador,734040,176186
 2021-04-18,Egypt,660000,0
 2021-04-18,El Salvador,483638,18375
 2021-04-18,Equatorial Guinea,27579,5305
@@ -25766,7 +25766,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-18,Libya,750,0
 2021-04-18,Liechtenstein,5944,3028
 2021-04-18,Lithuania,568813,199162
-2021-04-18,Luxembourg,118109,37846
+2021-04-18,Luxembourg,118108,37846
 2021-04-18,Madagascar,0,0
 2021-04-18,Malawi,257754,0
 2021-04-18,Malaysia,699767,447092
@@ -25903,7 +25903,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-19,Djibouti,10246,0
 2021-04-19,Dominica,17948,475
 2021-04-19,Dominican Republic,909898,600000
-2021-04-19,Ecuador,401871,175840
+2021-04-19,Ecuador,770219,181278
 2021-04-19,Egypt,660000,0
 2021-04-19,El Salvador,483638,18375
 2021-04-19,Equatorial Guinea,27579,5305
@@ -25952,7 +25952,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-19,Libya,750,0
 2021-04-19,Liechtenstein,6497,3038
 2021-04-19,Lithuania,573675,200153
-2021-04-19,Luxembourg,119250,37846
+2021-04-19,Luxembourg,119249,37846
 2021-04-19,Madagascar,0,0
 2021-04-19,Malawi,258107,0
 2021-04-19,Malaysia,724409,455394
@@ -26089,7 +26089,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-20,Djibouti,10246,0
 2021-04-20,Dominica,18173,2548
 2021-04-20,Dominican Republic,909898,600000
-2021-04-20,Ecuador,421937,179292
+2021-04-20,Ecuador,814385,185544
 2021-04-20,Egypt,660000,0
 2021-04-20,El Salvador,483638,18375
 2021-04-20,Equatorial Guinea,38024,7417
@@ -26138,7 +26138,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-20,Libya,750,0
 2021-04-20,Liechtenstein,7040,3040
 2021-04-20,Lithuania,584396,204721
-2021-04-20,Luxembourg,120297,37846
+2021-04-20,Luxembourg,120296,37846
 2021-04-20,Madagascar,0,0
 2021-04-20,Malawi,260614,0
 2021-04-20,Malaysia,746471,466562
@@ -26275,7 +26275,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-21,Djibouti,10246,0
 2021-04-21,Dominica,18173,2548
 2021-04-21,Dominican Republic,909898,600000
-2021-04-21,Ecuador,457403,186299
+2021-04-21,Ecuador,868444,191922
 2021-04-21,Egypt,660000,0
 2021-04-21,El Salvador,483638,18375
 2021-04-21,Equatorial Guinea,38024,7417
@@ -26324,7 +26324,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-21,Libya,750,0
 2021-04-21,Liechtenstein,7301,3279
 2021-04-21,Lithuania,598278,217549
-2021-04-21,Luxembourg,123130,37846
+2021-04-21,Luxembourg,123129,37846
 2021-04-21,Madagascar,0,0
 2021-04-21,Malawi,263931,0
 2021-04-21,Malaysia,762278,478280
@@ -26461,7 +26461,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-22,Djibouti,10246,0
 2021-04-22,Dominica,18237,4818
 2021-04-22,Dominican Republic,909898,600000
-2021-04-22,Ecuador,486524,188986
+2021-04-22,Ecuador,914921,194948
 2021-04-22,Egypt,660000,0
 2021-04-22,El Salvador,632613,24074
 2021-04-22,Equatorial Guinea,47410,8389
@@ -26510,7 +26510,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-22,Libya,750,0
 2021-04-22,Liechtenstein,7573,3527
 2021-04-22,Lithuania,614018,228017
-2021-04-22,Luxembourg,125731,37846
+2021-04-22,Luxembourg,125730,37846
 2021-04-22,Madagascar,0,0
 2021-04-22,Malawi,267293,0
 2021-04-22,Malaysia,776637,493334
@@ -26647,7 +26647,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-23,Djibouti,10246,0
 2021-04-23,Dominica,18237,4818
 2021-04-23,Dominican Republic,909898,600000
-2021-04-23,Ecuador,514854,196350
+2021-04-23,Ecuador,964925,203731
 2021-04-23,Egypt,660000,0
 2021-04-23,El Salvador,674495,24074
 2021-04-23,Equatorial Guinea,47410,8389
@@ -26696,7 +26696,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-23,Libya,750,0
 2021-04-23,Liechtenstein,7839,3762
 2021-04-23,Lithuania,630619,236103
-2021-04-23,Luxembourg,128526,37846
+2021-04-23,Luxembourg,128525,37846
 2021-04-23,Madagascar,0,0
 2021-04-23,Malawi,267293,0
 2021-04-23,Malaysia,788839,500005
@@ -26833,7 +26833,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-24,Djibouti,10246,0
 2021-04-24,Dominica,18237,4818
 2021-04-24,Dominican Republic,909898,600000
-2021-04-24,Ecuador,532367,200350
+2021-04-24,Ecuador,982882,208382
 2021-04-24,Egypt,660000,0
 2021-04-24,El Salvador,674495,24074
 2021-04-24,Equatorial Guinea,47410,8389
@@ -26882,7 +26882,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-24,Libya,750,0
 2021-04-24,Liechtenstein,7841,3763
 2021-04-24,Lithuania,634590,236692
-2021-04-24,Luxembourg,130582,37846
+2021-04-24,Luxembourg,130581,37846
 2021-04-24,Madagascar,0,0
 2021-04-24,Malawi,267293,0
 2021-04-24,Malaysia,796786,503481
@@ -27019,7 +27019,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-25,Djibouti,10246,0
 2021-04-25,Dominica,18237,4818
 2021-04-25,Dominican Republic,993804,754074
-2021-04-25,Ecuador,541420,202517
+2021-04-25,Ecuador,990526,208699
 2021-04-25,Egypt,660000,0
 2021-04-25,El Salvador,674495,24074
 2021-04-25,Equatorial Guinea,47410,8389
@@ -27068,7 +27068,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-25,Libya,750,0
 2021-04-25,Liechtenstein,7841,3763
 2021-04-25,Lithuania,634856,236696
-2021-04-25,Luxembourg,130582,37846
+2021-04-25,Luxembourg,130581,37846
 2021-04-25,Madagascar,0,0
 2021-04-25,Malawi,267293,0
 2021-04-25,Malaysia,805878,509165
@@ -27205,7 +27205,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-26,Djibouti,10246,0
 2021-04-26,Dominica,18237,4818
 2021-04-26,Dominican Republic,1029281,768065
-2021-04-26,Ecuador,555265,210224
+2021-04-26,Ecuador,1026736,219341
 2021-04-26,Egypt,660000,0
 2021-04-26,El Salvador,718089,27513
 2021-04-26,Equatorial Guinea,47410,8389
@@ -27254,7 +27254,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-26,Libya,750,0
 2021-04-26,Liechtenstein,7845,4003
 2021-04-26,Lithuania,639788,237954
-2021-04-26,Luxembourg,131866,37846
+2021-04-26,Luxembourg,131865,37846
 2021-04-26,Madagascar,0,0
 2021-04-26,Malawi,277442,0
 2021-04-26,Malaysia,827185,518080
@@ -27391,7 +27391,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-27,Djibouti,10246,0
 2021-04-27,Dominica,18237,4818
 2021-04-27,Dominican Republic,1067830,779431
-2021-04-27,Ecuador,595699,220476
+2021-04-27,Ecuador,1078158,230120
 2021-04-27,Egypt,660000,0
 2021-04-27,El Salvador,747918,40255
 2021-04-27,Equatorial Guinea,47410,8389
@@ -27440,7 +27440,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-27,Libya,750,0
 2021-04-27,Liechtenstein,7864,4233
 2021-04-27,Lithuania,651647,239192
-2021-04-27,Luxembourg,132680,37846
+2021-04-27,Luxembourg,132679,37846
 2021-04-27,Madagascar,0,0
 2021-04-27,Malawi,281049,0
 2021-04-27,Malaysia,849970,529908
@@ -27577,7 +27577,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-28,Djibouti,12547,495
 2021-04-28,Dominica,18498,9323
 2021-04-28,Dominican Republic,1106733,787103
-2021-04-28,Ecuador,633421,227972
+2021-04-28,Ecuador,1124648,238659
 2021-04-28,Egypt,660000,0
 2021-04-28,El Salvador,775959,58000
 2021-04-28,Equatorial Guinea,64646,10872
@@ -27626,7 +27626,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-28,Libya,750,0
 2021-04-28,Liechtenstein,8139,4236
 2021-04-28,Lithuania,665508,240725
-2021-04-28,Luxembourg,136445,37846
+2021-04-28,Luxembourg,136444,37846
 2021-04-28,Madagascar,0,0
 2021-04-28,Malawi,285824,0
 2021-04-28,Malaysia,876381,543086
@@ -27763,7 +27763,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-29,Djibouti,12547,495
 2021-04-29,Dominica,18498,9323
 2021-04-29,Dominican Republic,1143669,791831
-2021-04-29,Ecuador,691000,229865
+2021-04-29,Ecuador,1193052,240816
 2021-04-29,Egypt,660000,0
 2021-04-29,El Salvador,806790,68279
 2021-04-29,Equatorial Guinea,64646,10872
@@ -27812,7 +27812,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-29,Libya,750,0
 2021-04-29,Liechtenstein,8410,4244
 2021-04-29,Lithuania,678468,260540
-2021-04-29,Luxembourg,140487,37846
+2021-04-29,Luxembourg,140486,37846
 2021-04-29,Madagascar,0,0
 2021-04-29,Malawi,290344,0
 2021-04-29,Malaysia,882828,549122
@@ -27949,7 +27949,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-30,Djibouti,12547,495
 2021-04-30,Dominica,18498,9323
 2021-04-30,Dominican Republic,1174227,795791
-2021-04-30,Ecuador,748021,239431
+2021-04-30,Ecuador,1249905,252633
 2021-04-30,Egypt,660000,0
 2021-04-30,El Salvador,839870,75855
 2021-04-30,Equatorial Guinea,64646,10872
@@ -27998,7 +27998,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-30,Libya,750,0
 2021-04-30,Liechtenstein,8914,4254
 2021-04-30,Lithuania,689820,287006
-2021-04-30,Luxembourg,144374,37846
+2021-04-30,Luxembourg,144373,37846
 2021-04-30,Madagascar,0,0
 2021-04-30,Malawi,296127,0
 2021-04-30,Malaysia,900529,557987
@@ -28135,7 +28135,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-01,Djibouti,12547,495
 2021-05-01,Dominica,18498,9323
 2021-05-01,Dominican Republic,1185502,796683
-2021-05-01,Ecuador,791822,244972
+2021-05-01,Ecuador,1300075,256445
 2021-05-01,Egypt,660000,0
 2021-05-01,El Salvador,839870,75855
 2021-05-01,Equatorial Guinea,64646,10872
@@ -28184,7 +28184,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-01,Libya,750,0
 2021-05-01,Liechtenstein,8914,4254
 2021-05-01,Lithuania,696539,296099
-2021-05-01,Luxembourg,148443,37846
+2021-05-01,Luxembourg,148442,37846
 2021-05-01,Madagascar,0,0
 2021-05-01,Malawi,296127,0
 2021-05-01,Malaysia,903439,560455
@@ -28321,7 +28321,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-02,Djibouti,12547,495
 2021-05-02,Dominica,18498,9323
 2021-05-02,Dominican Republic,1192415,796969
-2021-05-02,Ecuador,821960,245512
+2021-05-02,Ecuador,1339627,257273
 2021-05-02,Egypt,660000,0
 2021-05-02,El Salvador,839870,75855
 2021-05-02,Equatorial Guinea,64646,10872
@@ -28370,7 +28370,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-02,Libya,750,0
 2021-05-02,Liechtenstein,8914,4254
 2021-05-02,Lithuania,696567,296819
-2021-05-02,Luxembourg,148443,37846
+2021-05-02,Luxembourg,148442,37846
 2021-05-02,Madagascar,0,0
 2021-05-02,Malawi,296127,0
 2021-05-02,Malaysia,911050,568555
@@ -28507,7 +28507,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-03,Djibouti,12547,495
 2021-05-03,Dominica,18498,9323
 2021-05-03,Dominican Republic,1251674,800988
-2021-05-03,Ecuador,821960,245512
+2021-05-03,Ecuador,1386261,260850
 2021-05-03,Egypt,660000,0
 2021-05-03,El Salvador,839870,75855
 2021-05-03,Equatorial Guinea,64646,10872
@@ -28556,7 +28556,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-03,Libya,750,0
 2021-05-03,Liechtenstein,9192,4254
 2021-05-03,Lithuania,705991,300812
-2021-05-03,Luxembourg,152141,37846
+2021-05-03,Luxembourg,152140,37846
 2021-05-03,Madagascar,0,0
 2021-05-03,Malawi,296127,0
 2021-05-03,Malaysia,935517,595219
@@ -28693,7 +28693,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-04,Djibouti,12547,495
 2021-05-04,Dominica,18498,9323
 2021-05-04,Dominican Republic,1319445,804258
-2021-05-04,Ecuador,889218,252044
+2021-05-04,Ecuador,1419009,267993
 2021-05-04,Egypt,660000,0
 2021-05-04,El Salvador,890109,101024
 2021-05-04,Equatorial Guinea,64646,10872
@@ -28742,7 +28742,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-04,Libya,750,0
 2021-05-04,Liechtenstein,9463,4254
 2021-05-04,Lithuania,717144,318004
-2021-05-04,Luxembourg,155885,37846
+2021-05-04,Luxembourg,155884,37846
 2021-05-04,Madagascar,0,0
 2021-05-04,Malawi,296127,0
 2021-05-04,Malaysia,965593,614889
@@ -28879,7 +28879,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-05,Djibouti,12547,495
 2021-05-05,Dominica,18498,9323
 2021-05-05,Dominican Republic,1389890,807263
-2021-05-05,Ecuador,924539,257546
+2021-05-05,Ecuador,1461243,277204
 2021-05-05,Egypt,660000,0
 2021-05-05,El Salvador,917399,112488
 2021-05-05,Equatorial Guinea,64646,10872
@@ -28928,7 +28928,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-05,Libya,750,0
 2021-05-05,Liechtenstein,9741,4257
 2021-05-05,Lithuania,729750,340200
-2021-05-05,Luxembourg,160416,37846
+2021-05-05,Luxembourg,160415,37846
 2021-05-05,Madagascar,0,0
 2021-05-05,Malawi,296127,0
 2021-05-05,Malaysia,997612,637753
@@ -29065,7 +29065,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-06,Djibouti,12547,495
 2021-05-06,Dominica,18498,9323
 2021-05-06,Dominican Republic,1456488,807893
-2021-05-06,Ecuador,953238,262438
+2021-05-06,Ecuador,1508443,287908
 2021-05-06,Egypt,660000,0
 2021-05-06,El Salvador,941508,126920
 2021-05-06,Equatorial Guinea,64646,10872
@@ -29114,7 +29114,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-06,Libya,750,0
 2021-05-06,Liechtenstein,10020,4264
 2021-05-06,Lithuania,744813,360781
-2021-05-06,Luxembourg,165364,37846
+2021-05-06,Luxembourg,165363,37846
 2021-05-06,Madagascar,0,0
 2021-05-06,Malawi,311751,0
 2021-05-06,Malaysia,1034601,656490
@@ -29251,7 +29251,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-07,Djibouti,12547,495
 2021-05-07,Dominica,18864,13144
 2021-05-07,Dominican Republic,1515063,810045
-2021-05-07,Ecuador,981620,264202
+2021-05-07,Ecuador,1548985,293942
 2021-05-07,Egypt,660000,0
 2021-05-07,El Salvador,958828,155716
 2021-05-07,Equatorial Guinea,64646,10872
@@ -29300,7 +29300,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-07,Libya,750,0
 2021-05-07,Liechtenstein,10026,4496
 2021-05-07,Lithuania,763984,375597
-2021-05-07,Luxembourg,169637,37846
+2021-05-07,Luxembourg,169636,37846
 2021-05-07,Madagascar,0,0
 2021-05-07,Malawi,311751,0
 2021-05-07,Malaysia,1066841,671935
@@ -29437,7 +29437,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-08,Djibouti,12547,495
 2021-05-08,Dominica,18864,13144
 2021-05-08,Dominican Republic,1535083,810445
-2021-05-08,Ecuador,981620,264202
+2021-05-08,Ecuador,1564336,295809
 2021-05-08,Egypt,660000,0
 2021-05-08,El Salvador,958828,155716
 2021-05-08,Equatorial Guinea,64646,10872
@@ -29486,7 +29486,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-08,Libya,750,0
 2021-05-08,Liechtenstein,10029,4499
 2021-05-08,Lithuania,778104,377298
-2021-05-08,Luxembourg,175116,37846
+2021-05-08,Luxembourg,175115,37846
 2021-05-08,Madagascar,0,0
 2021-05-08,Malawi,318138,0
 2021-05-08,Malaysia,1085456,680334
@@ -29623,7 +29623,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-09,Djibouti,12547,495
 2021-05-09,Dominica,18864,13144
 2021-05-09,Dominican Republic,1543725,810556
-2021-05-09,Ecuador,1024121,265841
+2021-05-09,Ecuador,1569600,296274
 2021-05-09,Egypt,1064360,235852
 2021-05-09,El Salvador,958828,155716
 2021-05-09,Equatorial Guinea,64646,10872
@@ -29672,7 +29672,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-09,Libya,750,0
 2021-05-09,Liechtenstein,10029,4499
 2021-05-09,Lithuania,785187,377354
-2021-05-09,Luxembourg,175116,37846
+2021-05-09,Luxembourg,175115,37846
 2021-05-09,Madagascar,0,0
 2021-05-09,Malawi,319323,0
 2021-05-09,Malaysia,1111260,686918
@@ -29809,7 +29809,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-10,Djibouti,12547,495
 2021-05-10,Dominica,18864,13144
 2021-05-10,Dominican Republic,1671046,812583
-2021-05-10,Ecuador,1024121,265841
+2021-05-10,Ecuador,1597119,299698
 2021-05-10,Egypt,1064360,235852
 2021-05-10,El Salvador,958828,155716
 2021-05-10,Equatorial Guinea,64646,10872
@@ -29858,7 +29858,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-10,Libya,106559,0
 2021-05-10,Liechtenstein,10327,4762
 2021-05-10,Lithuania,800826,382386
-2021-05-10,Luxembourg,179425,37846
+2021-05-10,Luxembourg,179424,37846
 2021-05-10,Madagascar,0,0
 2021-05-10,Malawi,320300,0
 2021-05-10,Malaysia,1147890,711703
@@ -29995,7 +29995,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-11,Djibouti,12547,495
 2021-05-11,Dominica,18864,13144
 2021-05-11,Dominican Republic,1825500,814909
-2021-05-11,Ecuador,1066590,272606
+2021-05-11,Ecuador,1622752,311203
 2021-05-11,Egypt,1133956,238020
 2021-05-11,El Salvador,969970,197702
 2021-05-11,Equatorial Guinea,64646,10872
@@ -30044,7 +30044,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-11,Libya,106559,0
 2021-05-11,Liechtenstein,10613,5020
 2021-05-11,Lithuania,816621,393125
-2021-05-11,Luxembourg,183278,37846
+2021-05-11,Luxembourg,183277,37846
 2021-05-11,Madagascar,0,0
 2021-05-11,Malawi,320300,0
 2021-05-11,Malaysia,1178347,730106
@@ -30181,7 +30181,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-12,Djibouti,12547,495
 2021-05-12,Dominica,19099,13938
 2021-05-12,Dominican Republic,1984662,816694
-2021-05-12,Ecuador,1076427,279271
+2021-05-12,Ecuador,1641434,333148
 2021-05-12,Egypt,1133956,238020
 2021-05-12,El Salvador,969970,197702
 2021-05-12,Equatorial Guinea,64646,10872
@@ -30230,7 +30230,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-12,Libya,106559,0
 2021-05-12,Liechtenstein,10623,5310
 2021-05-12,Lithuania,835158,406345
-2021-05-12,Luxembourg,187608,37846
+2021-05-12,Luxembourg,187607,37846
 2021-05-12,Madagascar,609,0
 2021-05-12,Malawi,320300,0
 2021-05-12,Malaysia,1188651,737918
@@ -30367,7 +30367,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-13,Djibouti,12547,495
 2021-05-13,Dominica,19099,13938
 2021-05-13,Dominican Republic,2122713,818317
-2021-05-13,Ecuador,1101897,304001
+2021-05-13,Ecuador,1664813,355413
 2021-05-13,Egypt,1133956,238020
 2021-05-13,El Salvador,995901,264673
 2021-05-13,Equatorial Guinea,64646,10872
@@ -30416,7 +30416,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-13,Libya,106559,0
 2021-05-13,Liechtenstein,10627,5588
 2021-05-13,Lithuania,851766,420013
-2021-05-13,Luxembourg,191714,37846
+2021-05-13,Luxembourg,191713,37846
 2021-05-13,Madagascar,609,0
 2021-05-13,Malawi,330348,0
 2021-05-13,Malaysia,1188762,737925
@@ -30553,7 +30553,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-14,Djibouti,12547,495
 2021-05-14,Dominica,19099,13938
 2021-05-14,Dominican Republic,2251255,820232
-2021-05-14,Ecuador,1138269,318024
+2021-05-14,Ecuador,1707046,375077
 2021-05-14,Egypt,1133956,238020
 2021-05-14,El Salvador,1012645,297604
 2021-05-14,Equatorial Guinea,64646,10872
@@ -30602,7 +30602,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-14,Libya,106559,0
 2021-05-14,Liechtenstein,10634,5866
 2021-05-14,Lithuania,868359,435068
-2021-05-14,Luxembourg,196017,37846
+2021-05-14,Luxembourg,196016,37846
 2021-05-14,Madagascar,609,0
 2021-05-14,Malawi,330348,0
 2021-05-14,Malaysia,1188823,737932
@@ -30739,7 +30739,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-15,Djibouti,12547,495
 2021-05-15,Dominica,19099,13938
 2021-05-15,Dominican Republic,2284580,820525
-2021-05-15,Ecuador,1152298,333638
+2021-05-15,Ecuador,1725030,397021
 2021-05-15,Egypt,1133956,238020
 2021-05-15,El Salvador,1024727,325860
 2021-05-15,Equatorial Guinea,64646,10872
@@ -30788,7 +30788,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-15,Libya,106559,0
 2021-05-15,Liechtenstein,10638,5866
 2021-05-15,Lithuania,871460,438122
-2021-05-15,Luxembourg,199570,37846
+2021-05-15,Luxembourg,199569,37846
 2021-05-15,Madagascar,609,0
 2021-05-15,Malawi,332955,0
 2021-05-15,Malaysia,1199126,738524
@@ -30925,7 +30925,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-16,Djibouti,12547,495
 2021-05-16,Dominica,19099,13938
 2021-05-16,Dominican Republic,2299179,820641
-2021-05-16,Ecuador,1179062,345662
+2021-05-16,Ecuador,1740198,403597
 2021-05-16,Egypt,1133956,238020
 2021-05-16,El Salvador,1024727,325860
 2021-05-16,Equatorial Guinea,64646,10872
@@ -30974,7 +30974,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-16,Libya,106559,0
 2021-05-16,Liechtenstein,10638,5868
 2021-05-16,Lithuania,871753,438331
-2021-05-16,Luxembourg,199570,37846
+2021-05-16,Luxembourg,199569,37846
 2021-05-16,Madagascar,609,0
 2021-05-16,Malawi,332955,0
 2021-05-16,Malaysia,1209105,738851
@@ -31111,7 +31111,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-17,Djibouti,12547,495
 2021-05-17,Dominica,19271,14678
 2021-05-17,Dominican Republic,2299179,820641
-2021-05-17,Ecuador,1203517,356936
+2021-05-17,Ecuador,1767464,424357
 2021-05-17,Egypt,1133956,238020
 2021-05-17,El Salvador,1036121,366265
 2021-05-17,Equatorial Guinea,64646,10872
@@ -31160,7 +31160,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-17,Libya,106559,0
 2021-05-17,Liechtenstein,10653,6415
 2021-05-17,Lithuania,882559,443330
-2021-05-17,Luxembourg,204856,37846
+2021-05-17,Luxembourg,204855,37846
 2021-05-17,Madagascar,609,0
 2021-05-17,Malawi,334363,0
 2021-05-17,Malaysia,1241538,766959
@@ -31297,7 +31297,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-18,Djibouti,12547,495
 2021-05-18,Dominica,19360,14859
 2021-05-18,Dominican Republic,2545132,825594
-2021-05-18,Ecuador,1203778,379621
+2021-05-18,Ecuador,1786544,448926
 2021-05-18,Egypt,1133956,238020
 2021-05-18,El Salvador,1051425,400508
 2021-05-18,Equatorial Guinea,130641,45129
@@ -31346,7 +31346,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-18,Libya,106559,0
 2021-05-18,Liechtenstein,10661,6955
 2021-05-18,Lithuania,893321,457255
-2021-05-18,Luxembourg,209478,37846
+2021-05-18,Luxembourg,209477,37846
 2021-05-18,Madagascar,3890,0
 2021-05-18,Malawi,335232,0
 2021-05-18,Malaysia,1287207,799249
@@ -31483,7 +31483,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-19,Djibouti,12547,495
 2021-05-19,Dominica,19360,14859
 2021-05-19,Dominican Republic,2658818,829313
-2021-05-19,Ecuador,1225735,401335
+2021-05-19,Ecuador,1807824,477003
 2021-05-19,Egypt,1133956,238020
 2021-05-19,El Salvador,1066112,431149
 2021-05-19,Equatorial Guinea,130641,45129
@@ -31532,7 +31532,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-19,Libya,106559,0
 2021-05-19,Liechtenstein,10941,7215
 2021-05-19,Lithuania,909705,474156
-2021-05-19,Luxembourg,213274,37846
+2021-05-19,Luxembourg,213273,37846
 2021-05-19,Madagascar,3890,0
 2021-05-19,Malawi,336826,0
 2021-05-19,Malaysia,1337271,833268
@@ -31669,7 +31669,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-20,Djibouti,12547,495
 2021-05-20,Dominica,19360,14859
 2021-05-20,Dominican Republic,2748532,845114
-2021-05-20,Ecuador,1299730,428075
+2021-05-20,Ecuador,1852555,509733
 2021-05-20,Egypt,1133956,238020
 2021-05-20,El Salvador,1079935,463969
 2021-05-20,Equatorial Guinea,130641,45129
@@ -31718,7 +31718,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-20,Libya,106559,0
 2021-05-20,Liechtenstein,11227,7476
 2021-05-20,Lithuania,925461,491148
-2021-05-20,Luxembourg,216013,37846
+2021-05-20,Luxembourg,216012,37846
 2021-05-20,Madagascar,3890,0
 2021-05-20,Malawi,339481,0
 2021-05-20,Malaysia,1396393,855175
@@ -31855,7 +31855,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-21,Djibouti,12547,495
 2021-05-21,Dominica,19360,14859
 2021-05-21,Dominican Republic,2822348,871981
-2021-05-21,Ecuador,1299730,428075
+2021-05-21,Ecuador,1897451,549660
 2021-05-21,Egypt,1133956,238020
 2021-05-21,El Salvador,1083936,514905
 2021-05-21,Equatorial Guinea,130641,45129
@@ -31904,7 +31904,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-21,Libya,106559,0
 2021-05-21,Liechtenstein,11524,7739
 2021-05-21,Lithuania,936055,506517
-2021-05-21,Luxembourg,218448,37846
+2021-05-21,Luxembourg,218447,37846
 2021-05-21,Madagascar,13539,0
 2021-05-21,Malawi,341698,0
 2021-05-21,Malaysia,1438560,873946
@@ -32041,7 +32041,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-22,Djibouti,12547,495
 2021-05-22,Dominica,19360,14859
 2021-05-22,Dominican Republic,2845928,879449
-2021-05-22,Ecuador,1404426,488627
+2021-05-22,Ecuador,1935689,569089
 2021-05-22,Egypt,1575449,302544
 2021-05-22,El Salvador,1097762,544689
 2021-05-22,Equatorial Guinea,136124,56843
@@ -32090,7 +32090,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-22,Libya,106559,0
 2021-05-22,Liechtenstein,11524,7740
 2021-05-22,Lithuania,938465,513209
-2021-05-22,Luxembourg,220998,37846
+2021-05-22,Luxembourg,220997,37846
 2021-05-22,Madagascar,13539,0
 2021-05-22,Malawi,344394,0
 2021-05-22,Malaysia,1481742,877124
@@ -32227,7 +32227,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-23,Djibouti,12547,495
 2021-05-23,Dominica,19360,14859
 2021-05-23,Dominican Republic,2855808,883202
-2021-05-23,Ecuador,1448787,497559
+2021-05-23,Ecuador,2018957,576652
 2021-05-23,Egypt,1653599,308617
 2021-05-23,El Salvador,1097762,544689
 2021-05-23,Equatorial Guinea,136124,56843
@@ -32276,7 +32276,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-23,Libya,106559,0
 2021-05-23,Liechtenstein,11524,7740
 2021-05-23,Lithuania,939953,513560
-2021-05-23,Luxembourg,220998,37846
+2021-05-23,Luxembourg,220997,37846
 2021-05-23,Madagascar,13539,0
 2021-05-23,Malawi,344647,0
 2021-05-23,Malaysia,1519679,885491
@@ -32413,7 +32413,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-24,Djibouti,12547,2396
 2021-05-24,Dominica,19360,14859
 2021-05-24,Dominican Republic,2932987,912779
-2021-05-24,Ecuador,1448787,497559
+2021-05-24,Ecuador,2019883,578909
 2021-05-24,Egypt,1745841,314146
 2021-05-24,El Salvador,1101172,592011
 2021-05-24,Equatorial Guinea,136124,56843
@@ -32462,7 +32462,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-24,Libya,106559,0
 2021-05-24,Liechtenstein,11524,7740
 2021-05-24,Lithuania,945388,522709
-2021-05-24,Luxembourg,222099,37846
+2021-05-24,Luxembourg,222098,37846
 2021-05-24,Madagascar,17258,0
 2021-05-24,Malawi,344647,0
 2021-05-24,Malaysia,1589249,911513
@@ -32599,7 +32599,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-25,Djibouti,12547,2396
 2021-05-25,Dominica,19360,14859
 2021-05-25,Dominican Republic,3003678,944337
-2021-05-25,Ecuador,1509795,515361
+2021-05-25,Ecuador,2025253,580055
 2021-05-25,Egypt,1812826,315338
 2021-05-25,El Salvador,1109726,631925
 2021-05-25,Equatorial Guinea,142475,64150
@@ -32648,7 +32648,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-25,Libya,106559,0
 2021-05-25,Liechtenstein,12085,7745
 2021-05-25,Lithuania,960334,533576
-2021-05-25,Luxembourg,223357,37846
+2021-05-25,Luxembourg,223356,37846
 2021-05-25,Madagascar,17258,0
 2021-05-25,Malawi,345806,0
 2021-05-25,Malaysia,1658814,942203
@@ -32785,7 +32785,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-26,Djibouti,12547,2396
 2021-05-26,Dominica,19634,16815
 2021-05-26,Dominican Republic,3064800,976512
-2021-05-26,Ecuador,1509795,515361
+2021-05-26,Ecuador,2031190,632639
 2021-05-26,Egypt,1812826,315338
 2021-05-26,El Salvador,1115104,672423
 2021-05-26,Equatorial Guinea,142475,64150
@@ -32834,7 +32834,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-26,Libya,106559,0
 2021-05-26,Liechtenstein,12370,8016
 2021-05-26,Lithuania,976685,546564
-2021-05-26,Luxembourg,224140,37846
+2021-05-26,Luxembourg,224139,37846
 2021-05-26,Madagascar,21912,0
 2021-05-26,Malawi,347638,0
 2021-05-26,Malaysia,1679108,944102
@@ -32971,7 +32971,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-27,Djibouti,12547,2396
 2021-05-27,Dominica,19634,16815
 2021-05-27,Dominican Republic,3115252,1006332
-2021-05-27,Ecuador,1526895,583429
+2021-05-27,Ecuador,2033340,691297
 2021-05-27,Egypt,1812826,315338
 2021-05-27,El Salvador,1118980,713248
 2021-05-27,Equatorial Guinea,142475,64150
@@ -33020,7 +33020,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-27,Libya,106559,0
 2021-05-27,Liechtenstein,12669,8300
 2021-05-27,Lithuania,991911,561832
-2021-05-27,Luxembourg,225533,37846
+2021-05-27,Luxembourg,225532,37846
 2021-05-27,Madagascar,21912,0
 2021-05-27,Malawi,347638,0
 2021-05-27,Malaysia,1737811,993568
@@ -33157,7 +33157,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-28,Djibouti,12547,2396
 2021-05-28,Dominica,19733,17201
 2021-05-28,Dominican Republic,3155232,1033751
-2021-05-28,Ecuador,1538178,634478
+2021-05-28,Ecuador,2045995,733712
 2021-05-28,Egypt,1812826,315338
 2021-05-28,El Salvador,1118980,713248
 2021-05-28,Equatorial Guinea,148079,71598
@@ -33206,7 +33206,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-28,Libya,106559,0
 2021-05-28,Liechtenstein,12680,8814
 2021-05-28,Lithuania,1008970,577367
-2021-05-28,Luxembourg,226762,37846
+2021-05-28,Luxembourg,226761,37846
 2021-05-28,Madagascar,21912,0
 2021-05-28,Malawi,352607,0
 2021-05-28,Malaysia,1784603,1020995
@@ -33343,7 +33343,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-29,Djibouti,12547,2396
 2021-05-29,Dominica,19733,17201
 2021-05-29,Dominican Republic,3169176,1041039
-2021-05-29,Ecuador,1552480,653003
+2021-05-29,Ecuador,2062863,753751
 2021-05-29,Egypt,2254371,331903
 2021-05-29,El Salvador,1118980,713248
 2021-05-29,Equatorial Guinea,148079,71598
@@ -33392,7 +33392,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-29,Libya,106559,0
 2021-05-29,Liechtenstein,12680,8815
 2021-05-29,Lithuania,1014454,583441
-2021-05-29,Luxembourg,227998,37846
+2021-05-29,Luxembourg,227997,37846
 2021-05-29,Madagascar,21912,0
 2021-05-29,Malawi,354777,0
 2021-05-29,Malaysia,1835596,1035971
@@ -33529,7 +33529,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-30,Djibouti,12547,2396
 2021-05-30,Dominica,19733,17201
 2021-05-30,Dominican Republic,3171332,1042831
-2021-05-30,Ecuador,1562970,662035
+2021-05-30,Ecuador,2076035,761605
 2021-05-30,Egypt,2254371,331903
 2021-05-30,El Salvador,1118980,713248
 2021-05-30,Equatorial Guinea,148079,71598
@@ -33578,7 +33578,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-30,Libya,106559,0
 2021-05-30,Liechtenstein,12680,8815
 2021-05-30,Lithuania,1015020,583471
-2021-05-30,Luxembourg,227998,37846
+2021-05-30,Luxembourg,227997,37846
 2021-05-30,Madagascar,21912,0
 2021-05-30,Malawi,355093,0
 2021-05-30,Malaysia,1873934,1060302
@@ -33715,7 +33715,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-31,Djibouti,12547,2396
 2021-05-31,Dominica,19809,17271
 2021-05-31,Dominican Republic,3223950,1087424
-2021-05-31,Ecuador,1562970,662035
+2021-05-31,Ecuador,2101930,794645
 2021-05-31,Egypt,2254371,331903
 2021-05-31,El Salvador,1140890,784880
 2021-05-31,Equatorial Guinea,148085,76418
@@ -33764,7 +33764,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-31,Libya,106559,0
 2021-05-31,Liechtenstein,12955,9096
 2021-05-31,Lithuania,1020189,596836
-2021-05-31,Luxembourg,229687,37846
+2021-05-31,Luxembourg,229686,37846
 2021-05-31,Madagascar,36640,0
 2021-05-31,Malawi,355118,0
 2021-05-31,Malaysia,1941494,1088882
@@ -33901,7 +33901,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-01,Djibouti,12547,8810
 2021-06-01,Dominica,19809,17271
 2021-06-01,Dominican Republic,3313861,1142655
-2021-06-01,Ecuador,1622557,765141
+2021-06-01,Ecuador,2127085,820005
 2021-06-01,Egypt,2465521,356958
 2021-06-01,El Salvador,1153150,818097
 2021-06-01,Equatorial Guinea,148085,76418
@@ -33950,7 +33950,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-01,Libya,243891,0
 2021-06-01,Liechtenstein,13243,9360
 2021-06-01,Lithuania,1038143,611752
-2021-06-01,Luxembourg,232355,37846
+2021-06-01,Luxembourg,232354,37846
 2021-06-01,Madagascar,36640,0
 2021-06-01,Malawi,356134,0
 2021-06-01,Malaysia,2016790,1113267
@@ -34087,7 +34087,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-02,Djibouti,12547,8810
 2021-06-02,Dominica,19830,17296
 2021-06-02,Dominican Republic,3424187,1201200
-2021-06-02,Ecuador,1657029,790860
+2021-06-02,Ecuador,2157118,847618
 2021-06-02,Egypt,2465521,356958
 2021-06-02,El Salvador,1169097,846311
 2021-06-02,Equatorial Guinea,148085,76418
@@ -34136,7 +34136,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-02,Libya,243891,0
 2021-06-02,Liechtenstein,13535,9631
 2021-06-02,Lithuania,1057265,633418
-2021-06-02,Luxembourg,237687,37846
+2021-06-02,Luxembourg,237686,37846
 2021-06-02,Madagascar,36640,0
 2021-06-02,Malawi,357015,0
 2021-06-02,Malaysia,2113618,1123109
@@ -34273,7 +34273,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-03,Djibouti,12547,8810
 2021-06-03,Dominica,19830,17296
 2021-06-03,Dominican Republic,3530338,1231191
-2021-06-03,Ecuador,1702124,827094
+2021-06-03,Ecuador,2207972,876663
 2021-06-03,Egypt,2465521,356958
 2021-06-03,El Salvador,1169097,846311
 2021-06-03,Equatorial Guinea,148579,87610
@@ -34322,7 +34322,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-03,Libya,243891,0
 2021-06-03,Liechtenstein,13821,9899
 2021-06-03,Lithuania,1077991,650406
-2021-06-03,Luxembourg,242343,37846
+2021-06-03,Luxembourg,242342,37846
 2021-06-03,Madagascar,36640,0
 2021-06-03,Malawi,357650,0
 2021-06-03,Malaysia,2224787,1130911
@@ -34459,7 +34459,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-04,Djibouti,12547,8810
 2021-06-04,Dominica,19830,17296
 2021-06-04,Dominican Republic,3687044,1302763
-2021-06-04,Ecuador,1744825,853011
+2021-06-04,Ecuador,2264304,913297
 2021-06-04,Egypt,2465521,356958
 2021-06-04,El Salvador,1169097,846311
 2021-06-04,Equatorial Guinea,148579,87610
@@ -34508,7 +34508,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-04,Libya,243891,0
 2021-06-04,Liechtenstein,14378,9907
 2021-06-04,Lithuania,1097834,673237
-2021-06-04,Luxembourg,247070,37846
+2021-06-04,Luxembourg,247069,37846
 2021-06-04,Madagascar,36640,0
 2021-06-04,Malawi,357650,0
 2021-06-04,Malaysia,2311024,1135845
@@ -34645,7 +34645,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-05,Djibouti,12547,8810
 2021-06-05,Dominica,19970,17430
 2021-06-05,Dominican Republic,3784461,1330909
-2021-06-05,Ecuador,1774025,871958
+2021-06-05,Ecuador,2293215,930969
 2021-06-05,Egypt,2465521,356958
 2021-06-05,El Salvador,1169097,846311
 2021-06-05,Equatorial Guinea,148579,87610
@@ -34694,7 +34694,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-05,Libya,243891,0
 2021-06-05,Liechtenstein,14379,9908
 2021-06-05,Lithuania,1110178,679229
-2021-06-05,Luxembourg,250749,37846
+2021-06-05,Luxembourg,250748,37846
 2021-06-05,Madagascar,36640,0
 2021-06-05,Malawi,357650,0
 2021-06-05,Malaysia,2383067,1137233
@@ -34831,7 +34831,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-06,Djibouti,12547,8810
 2021-06-06,Dominica,19970,17430
 2021-06-06,Dominican Republic,3848889,1348310
-2021-06-06,Ecuador,1791632,874174
+2021-06-06,Ecuador,2312566,942289
 2021-06-06,Egypt,2465521,356958
 2021-06-06,El Salvador,1169097,846311
 2021-06-06,Equatorial Guinea,148579,87610
@@ -34880,7 +34880,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-06,Libya,243891,0
 2021-06-06,Liechtenstein,14379,9908
 2021-06-06,Lithuania,1115599,679429
-2021-06-06,Luxembourg,250749,37846
+2021-06-06,Luxembourg,250748,37846
 2021-06-06,Madagascar,36640,0
 2021-06-06,Malawi,358989,19
 2021-06-06,Malaysia,2463916,1138805
@@ -35017,7 +35017,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-07,Djibouti,12547,8810
 2021-06-07,Dominica,19970,17430
 2021-06-07,Dominican Republic,3971831,1445238
-2021-06-07,Ecuador,1825096,891976
+2021-06-07,Ecuador,2354049,960501
 2021-06-07,Egypt,2465521,356958
 2021-06-07,El Salvador,1245684,901540
 2021-06-07,Equatorial Guinea,148579,87610
@@ -35066,7 +35066,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-07,Libya,243891,0
 2021-06-07,Liechtenstein,14663,10208
 2021-06-07,Lithuania,1122465,695741
-2021-06-07,Luxembourg,254110,37846
+2021-06-07,Luxembourg,254109,37846
 2021-06-07,Madagascar,36640,0
 2021-06-07,Malawi,359165,19
 2021-06-07,Malaysia,2524530,1143897
@@ -35203,7 +35203,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-08,Djibouti,12547,8810
 2021-06-08,Dominica,19970,17430
 2021-06-08,Dominican Republic,4091884,1564664
-2021-06-08,Ecuador,1877548,910697
+2021-06-08,Ecuador,2396948,979121
 2021-06-08,Egypt,2465521,356958
 2021-06-08,El Salvador,1245684,901540
 2021-06-08,Equatorial Guinea,148579,87610
@@ -35252,7 +35252,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-08,Libya,243891,0
 2021-06-08,Liechtenstein,14953,10497
 2021-06-08,Lithuania,1134435,711739
-2021-06-08,Luxembourg,257893,37846
+2021-06-08,Luxembourg,257892,37846
 2021-06-08,Madagascar,78539,0
 2021-06-08,Malawi,359165,19
 2021-06-08,Malaysia,2632617,1190003
@@ -35389,7 +35389,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-09,Djibouti,12547,8810
 2021-06-09,Dominica,20048,17630
 2021-06-09,Dominican Republic,4212646,1687954
-2021-06-09,Ecuador,1877548,910697
+2021-06-09,Ecuador,2435210,1001096
 2021-06-09,Egypt,2820175,520041
 2021-06-09,El Salvador,1300747,930618
 2021-06-09,Equatorial Guinea,148579,87610
@@ -35438,7 +35438,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-09,Libya,317809,0
 2021-06-09,Liechtenstein,15522,10499
 2021-06-09,Lithuania,1146009,729829
-2021-06-09,Luxembourg,260605,37846
+2021-06-09,Luxembourg,260604,37846
 2021-06-09,Madagascar,78539,0
 2021-06-09,Malawi,365256,2100
 2021-06-09,Malaysia,2748632,1230575
@@ -35575,7 +35575,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-10,Djibouti,12547,8810
 2021-06-10,Dominica,20048,17630
 2021-06-10,Dominican Republic,4223427,1827556
-2021-06-10,Ecuador,1877548,910697
+2021-06-10,Ecuador,2472499,1034560
 2021-06-10,Egypt,2820175,520041
 2021-06-10,El Salvador,1300747,930618
 2021-06-10,Equatorial Guinea,148579,98649
@@ -35624,7 +35624,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-10,Libya,317809,0
 2021-06-10,Liechtenstein,16084,10509
 2021-06-10,Lithuania,1154987,747782
-2021-06-10,Luxembourg,263284,37846
+2021-06-10,Luxembourg,263283,37846
 2021-06-10,Madagascar,97300,0
 2021-06-10,Malawi,366198,3476
 2021-06-10,Malaysia,2862139,1277823
@@ -35761,7 +35761,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-11,Djibouti,12547,8810
 2021-06-11,Dominica,20048,17630
 2021-06-11,Dominican Republic,4227940,1945871
-2021-06-11,Ecuador,1877548,910697
+2021-06-11,Ecuador,2513790,1078992
 2021-06-11,Egypt,2820175,520041
 2021-06-11,El Salvador,1345716,965208
 2021-06-11,Equatorial Guinea,148579,98649
@@ -35810,7 +35810,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-11,Libya,317809,0
 2021-06-11,Liechtenstein,16627,10543
 2021-06-11,Lithuania,1165846,761765
-2021-06-11,Luxembourg,265713,37846
+2021-06-11,Luxembourg,265712,37846
 2021-06-11,Madagascar,97300,0
 2021-06-11,Malawi,368465,5803
 2021-06-11,Malaysia,2958266,1307999
@@ -35947,7 +35947,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-12,Djibouti,12547,8810
 2021-06-12,Dominica,20048,17630
 2021-06-12,Dominican Republic,4241798,1978069
-2021-06-12,Ecuador,1877548,910697
+2021-06-12,Ecuador,2539644,1102872
 2021-06-12,Egypt,2931715,575045
 2021-06-12,El Salvador,1345716,965208
 2021-06-12,Equatorial Guinea,148579,99605
@@ -35996,7 +35996,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-12,Libya,330260,0
 2021-06-12,Liechtenstein,16627,10546
 2021-06-12,Lithuania,1169898,764626
-2021-06-12,Luxembourg,268175,37846
+2021-06-12,Luxembourg,268174,37846
 2021-06-12,Madagascar,97300,0
 2021-06-12,Malawi,370003,7611
 2021-06-12,Malaysia,3061149,1341999
@@ -36133,7 +36133,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-13,Djibouti,12547,8810
 2021-06-13,Dominica,20048,17630
 2021-06-13,Dominican Republic,4258343,1992998
-2021-06-13,Ecuador,2043159,1038013
+2021-06-13,Ecuador,2562513,1115712
 2021-06-13,Egypt,2931715,575045
 2021-06-13,El Salvador,1345716,965208
 2021-06-13,Equatorial Guinea,148579,99605
@@ -36182,7 +36182,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-13,Libya,330260,0
 2021-06-13,Liechtenstein,16627,10546
 2021-06-13,Lithuania,1173038,768697
-2021-06-13,Luxembourg,268175,37846
+2021-06-13,Luxembourg,268174,37846
 2021-06-13,Madagascar,97300,0
 2021-06-13,Malawi,370003,7611
 2021-06-13,Malaysia,3165605,1368869
@@ -36319,7 +36319,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-14,Djibouti,12547,8810
 2021-06-14,Dominica,20134,17844
 2021-06-14,Dominican Republic,4272574,2097995
-2021-06-14,Ecuador,2043159,1038013
+2021-06-14,Ecuador,2601633,1132598
 2021-06-14,Egypt,3078964,668014
 2021-06-14,El Salvador,1345716,965208
 2021-06-14,Equatorial Guinea,148579,99605
@@ -36368,7 +36368,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-14,Libya,330260,0
 2021-06-14,Liechtenstein,17182,10558
 2021-06-14,Lithuania,1177148,784899
-2021-06-14,Luxembourg,270829,37846
+2021-06-14,Luxembourg,270828,37846
 2021-06-14,Madagascar,136785,0
 2021-06-14,Malawi,371791,9466
 2021-06-14,Malaysia,3312379,1424555
@@ -36505,7 +36505,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-15,Djibouti,12547,8810
 2021-06-15,Dominica,20134,17844
 2021-06-15,Dominican Republic,4286397,2186707
-2021-06-15,Ecuador,2079889,1053498
+2021-06-15,Ecuador,2651770,1151328
 2021-06-15,Egypt,3078964,668014
 2021-06-15,El Salvador,1384489,1004438
 2021-06-15,Equatorial Guinea,148579,106451
@@ -36554,7 +36554,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-15,Libya,330260,0
 2021-06-15,Liechtenstein,17740,10562
 2021-06-15,Lithuania,1185263,803046
-2021-06-15,Luxembourg,273069,37846
+2021-06-15,Luxembourg,273068,37846
 2021-06-15,Madagascar,150329,0
 2021-06-15,Malawi,373577,13786
 2021-06-15,Malaysia,3478320,1480535
@@ -36691,7 +36691,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-16,Djibouti,12547,8810
 2021-06-16,Dominica,20134,17844
 2021-06-16,Dominican Republic,4301394,2252316
-2021-06-16,Ecuador,2079889,1053498
+2021-06-16,Ecuador,2712169,1185001
 2021-06-16,Egypt,3117818,676889
 2021-06-16,El Salvador,1407787,1019670
 2021-06-16,Equatorial Guinea,148579,106451
@@ -36740,7 +36740,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-16,Libya,351408,0
 2021-06-16,Liechtenstein,18026,10836
 2021-06-16,Lithuania,1192191,826117
-2021-06-16,Luxembourg,278064,37846
+2021-06-16,Luxembourg,278063,37846
 2021-06-16,Madagascar,150329,0
 2021-06-16,Malawi,375578,17735
 2021-06-16,Malaysia,3683296,1488712
@@ -36877,7 +36877,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-17,Djibouti,12547,8810
 2021-06-17,Dominica,20183,18009
 2021-06-17,Dominican Republic,4344495,2330856
-2021-06-17,Ecuador,2079889,1053498
+2021-06-17,Ecuador,2771694,1229989
 2021-06-17,Egypt,3117818,676889
 2021-06-17,El Salvador,1407787,1019670
 2021-06-17,Equatorial Guinea,148579,108567
@@ -36926,7 +36926,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-17,Libya,351408,0
 2021-06-17,Liechtenstein,18313,11101
 2021-06-17,Lithuania,1202035,846521
-2021-06-17,Luxembourg,283301,37846
+2021-06-17,Luxembourg,283300,37846
 2021-06-17,Madagascar,150329,0
 2021-06-17,Malawi,378694,27473
 2021-06-17,Malaysia,3867138,1532881
@@ -37063,7 +37063,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-18,Djibouti,12547,8810
 2021-06-18,Dominica,20183,18009
 2021-06-18,Dominican Republic,4422388,2412686
-2021-06-18,Ecuador,2079889,1053498
+2021-06-18,Ecuador,2834826,1259111
 2021-06-18,Egypt,3117818,676889
 2021-06-18,El Salvador,1425927,1040634
 2021-06-18,Equatorial Guinea,148579,108567
@@ -37112,7 +37112,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-18,Libya,351408,0
 2021-06-18,Liechtenstein,18599,11396
 2021-06-18,Lithuania,1208005,866655
-2021-06-18,Luxembourg,287994,37846
+2021-06-18,Luxembourg,287993,37846
 2021-06-18,Madagascar,150329,0
 2021-06-18,Malawi,380697,33264
 2021-06-18,Malaysia,4019220,1565469
@@ -37249,7 +37249,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-19,Djibouti,12547,8810
 2021-06-19,Dominica,20183,18009
 2021-06-19,Dominican Republic,4491478,2452188
-2021-06-19,Ecuador,2351838,1206416
+2021-06-19,Ecuador,2878004,1270329
 2021-06-19,Egypt,3117818,676889
 2021-06-19,El Salvador,1425927,1040634
 2021-06-19,Equatorial Guinea,148579,108567
@@ -37298,7 +37298,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-19,Libya,351408,0
 2021-06-19,Liechtenstein,18599,11396
 2021-06-19,Lithuania,1209261,872478
-2021-06-19,Luxembourg,293312,37846
+2021-06-19,Luxembourg,293311,37846
 2021-06-19,Madagascar,150329,0
 2021-06-19,Malawi,383273,37412
 2021-06-19,Malaysia,4153850,1601616
@@ -37435,7 +37435,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-20,Djibouti,12547,8810
 2021-06-20,Dominica,20183,18009
 2021-06-20,Dominican Republic,4541739,2470706
-2021-06-20,Ecuador,2368971,1211696
+2021-06-20,Ecuador,2891272,1273986
 2021-06-20,Egypt,3315854,694613
 2021-06-20,El Salvador,1425927,1040634
 2021-06-20,Equatorial Guinea,148579,108567
@@ -37484,7 +37484,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-20,Libya,351408,0
 2021-06-20,Liechtenstein,18599,11396
 2021-06-20,Lithuania,1209621,873441
-2021-06-20,Luxembourg,293312,37846
+2021-06-20,Luxembourg,293311,37846
 2021-06-20,Madagascar,188752,0
 2021-06-20,Malawi,383273,37412
 2021-06-20,Malaysia,4274965,1625787
@@ -37621,7 +37621,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-21,Djibouti,12547,8810
 2021-06-21,Dominica,20183,18009
 2021-06-21,Dominican Republic,4625991,2546487
-2021-06-21,Ecuador,2426450,1231776
+2021-06-21,Ecuador,2944399,1288031
 2021-06-21,Egypt,3315854,694613
 2021-06-21,El Salvador,1445369,1060888
 2021-06-21,Equatorial Guinea,148579,108567
@@ -37670,7 +37670,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-21,Libya,351408,0
 2021-06-21,Liechtenstein,18600,11397
 2021-06-21,Lithuania,1214271,885930
-2021-06-21,Luxembourg,299314,37846
+2021-06-21,Luxembourg,299313,37846
 2021-06-21,Madagascar,188752,0
 2021-06-21,Malawi,383726,38782
 2021-06-21,Malaysia,4464873,1680269
@@ -37807,7 +37807,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-22,Djibouti,12547,8810
 2021-06-22,Dominica,20183,18009
 2021-06-22,Dominican Republic,4691111,2610476
-2021-06-22,Ecuador,2480014,1245371
+2021-06-22,Ecuador,3000143,1301245
 2021-06-22,Egypt,3315854,694613
 2021-06-22,El Salvador,1475388,1070928
 2021-06-22,Equatorial Guinea,148579,108567
@@ -37856,7 +37856,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-22,Libya,351408,0
 2021-06-22,Liechtenstein,18603,11922
 2021-06-22,Lithuania,1218332,907718
-2021-06-22,Luxembourg,305555,37846
+2021-06-22,Luxembourg,305554,37846
 2021-06-22,Madagascar,188752,0
 2021-06-22,Malawi,384406,40645
 2021-06-22,Malaysia,4662972,1740951
@@ -37993,7 +37993,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-23,Djibouti,12547,8810
 2021-06-23,Dominica,20183,18009
 2021-06-23,Dominican Republic,4746498,2655737
-2021-06-23,Ecuador,2537302,1260361
+2021-06-23,Ecuador,3057705,1318171
 2021-06-23,Egypt,3418331,720604
 2021-06-23,El Salvador,1508453,1078069
 2021-06-23,Equatorial Guinea,149185,110295
@@ -38042,7 +38042,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-23,Libya,370066,0
 2021-06-23,Liechtenstein,18619,12208
 2021-06-23,Lithuania,1221699,931943
-2021-06-23,Luxembourg,311258,37846
+2021-06-23,Luxembourg,311257,37846
 2021-06-23,Madagascar,188752,0
 2021-06-23,Malawi,384671,41685
 2021-06-23,Malaysia,4846930,1820650
@@ -38179,7 +38179,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-24,Djibouti,12547,8810
 2021-06-24,Dominica,20183,18009
 2021-06-24,Dominican Republic,4790322,2692223
-2021-06-24,Ecuador,2592300,1287273
+2021-06-24,Ecuador,3113935,1346455
 2021-06-24,Egypt,3418331,720604
 2021-06-24,El Salvador,1508453,1078069
 2021-06-24,Equatorial Guinea,149185,110295
@@ -38228,7 +38228,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-24,Libya,370066,0
 2021-06-24,Liechtenstein,18830,12517
 2021-06-24,Lithuania,1223313,940709
-2021-06-24,Luxembourg,316501,37846
+2021-06-24,Luxembourg,316500,37846
 2021-06-24,Madagascar,196291,0
 2021-06-24,Malawi,385047,42393
 2021-06-24,Malaysia,5028881,1915015
@@ -38365,7 +38365,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-25,Djibouti,12547,8810
 2021-06-25,Dominica,20302,19007
 2021-06-25,Dominican Republic,4826862,2718646
-2021-06-25,Ecuador,2643327,1300929
+2021-06-25,Ecuador,3167620,1362557
 2021-06-25,Egypt,3418331,720604
 2021-06-25,El Salvador,1585582,1089023
 2021-06-25,Equatorial Guinea,149185,111343
@@ -38414,7 +38414,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-25,Libya,370066,0
 2021-06-25,Liechtenstein,19088,12535
 2021-06-25,Lithuania,1227553,965846
-2021-06-25,Luxembourg,322528,37846
+2021-06-25,Luxembourg,322527,37846
 2021-06-25,Madagascar,196291,0
 2021-06-25,Malawi,385114,42616
 2021-06-25,Malaysia,5182446,1983028
@@ -38551,7 +38551,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-26,Djibouti,12547,8810
 2021-06-26,Dominica,20302,19007
 2021-06-26,Dominican Republic,4842540,2727265
-2021-06-26,Ecuador,2680072,1311563
+2021-06-26,Ecuador,3205607,1379403
 2021-06-26,Egypt,3418331,720604
 2021-06-26,El Salvador,1585582,1089023
 2021-06-26,Equatorial Guinea,149185,111343
@@ -38600,7 +38600,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-26,Libya,370066,0
 2021-06-26,Liechtenstein,19088,12536
 2021-06-26,Lithuania,1228492,973360
-2021-06-26,Luxembourg,328928,37846
+2021-06-26,Luxembourg,328927,37846
 2021-06-26,Madagascar,196291,0
 2021-06-26,Malawi,385219,43102
 2021-06-26,Malaysia,5322809,2039185
@@ -38737,7 +38737,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-27,Djibouti,12547,8810
 2021-06-27,Dominica,20302,19007
 2021-06-27,Dominican Republic,4851699,2731358
-2021-06-27,Ecuador,2701284,1322723
+2021-06-27,Ecuador,3219417,1387648
 2021-06-27,Egypt,3489503,763894
 2021-06-27,El Salvador,1585582,1089023
 2021-06-27,Equatorial Guinea,149185,111343
@@ -38786,7 +38786,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-27,Libya,370066,0
 2021-06-27,Liechtenstein,19088,12536
 2021-06-27,Lithuania,1229132,979015
-2021-06-27,Luxembourg,328928,37846
+2021-06-27,Luxembourg,328927,37846
 2021-06-27,Madagascar,196291,0
 2021-06-27,Malawi,385236,43155
 2021-06-27,Malaysia,5434035,2105049
@@ -38923,7 +38923,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-28,Djibouti,12547,8810
 2021-06-28,Dominica,20302,19007
 2021-06-28,Dominican Republic,4883358,2770178
-2021-06-28,Ecuador,2747894,1343132
+2021-06-28,Ecuador,3267172,1409070
 2021-06-28,Egypt,3502181,780460
 2021-06-28,El Salvador,1585582,1089023
 2021-06-28,Equatorial Guinea,150363,114490
@@ -38972,7 +38972,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-28,Libya,370066,0
 2021-06-28,Liechtenstein,19119,12795
 2021-06-28,Lithuania,1232275,996201
-2021-06-28,Luxembourg,334971,37846
+2021-06-28,Luxembourg,334970,37846
 2021-06-28,Madagascar,197001,0
 2021-06-28,Malawi,385242,43165
 2021-06-28,Malaysia,5599294,2148391
@@ -39109,7 +39109,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-29,Djibouti,12547,8810
 2021-06-29,Dominica,20302,19007
 2021-06-29,Dominican Republic,4918071,2827967
-2021-06-29,Ecuador,2793332,1359225
+2021-06-29,Ecuador,3315019,1425765
 2021-06-29,Egypt,3502181,780460
 2021-06-29,El Salvador,1585582,1089023
 2021-06-29,Equatorial Guinea,150363,114490
@@ -39158,7 +39158,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-29,Libya,379404,0
 2021-06-29,Liechtenstein,19139,13079
 2021-06-29,Lithuania,1236664,1018107
-2021-06-29,Luxembourg,338796,37846
+2021-06-29,Luxembourg,338795,37846
 2021-06-29,Madagascar,197001,0
 2021-06-29,Malawi,385242,43165
 2021-06-29,Malaysia,5757259,2233419
@@ -39295,7 +39295,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-30,Djibouti,12547,8810
 2021-06-30,Dominica,20302,19007
 2021-06-30,Dominican Republic,4949582,2892597
-2021-06-30,Ecuador,2840809,1381779
+2021-06-30,Ecuador,3369155,1451898
 2021-06-30,Egypt,3502181,780460
 2021-06-30,El Salvador,1585582,1089023
 2021-06-30,Equatorial Guinea,150609,114501
@@ -39344,7 +39344,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-30,Libya,379404,0
 2021-06-30,Liechtenstein,19406,13358
 2021-06-30,Lithuania,1242230,1037723
-2021-06-30,Luxembourg,341022,37846
+2021-06-30,Luxembourg,341021,37846
 2021-06-30,Madagascar,197001,0
 2021-06-30,Malawi,385242,43165
 2021-06-30,Malaysia,5930290,2329920
@@ -39481,7 +39481,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-01,Djibouti,12547,8810
 2021-07-01,Dominica,20302,19007
 2021-07-01,Dominican Republic,4949582,2892597
-2021-07-01,Ecuador,2885050,1416916
+2021-07-01,Ecuador,3421867,1496029
 2021-07-01,Egypt,3502181,780460
 2021-07-01,El Salvador,1703849,1142328
 2021-07-01,Equatorial Guinea,150609,114501
@@ -39530,7 +39530,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-01,Libya,379404,0
 2021-07-01,Liechtenstein,19684,13626
 2021-07-01,Lithuania,1247661,1050947
-2021-07-01,Luxembourg,343703,37846
+2021-07-01,Luxembourg,343702,37846
 2021-07-01,Madagascar,197001,0
 2021-07-01,Malawi,385242,43165
 2021-07-01,Malaysia,6113396,2416180
@@ -39667,7 +39667,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-02,Djibouti,12547,8810
 2021-07-02,Dominica,20390,19548
 2021-07-02,Dominican Republic,5008715,3025993
-2021-07-02,Ecuador,2885050,1460920
+2021-07-02,Ecuador,3481980,1540763
 2021-07-02,Egypt,3502181,780460
 2021-07-02,El Salvador,1727992,1162511
 2021-07-02,Equatorial Guinea,150609,114501
@@ -39716,7 +39716,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-02,Libya,379404,0
 2021-07-02,Liechtenstein,19739,14169
 2021-07-02,Lithuania,1252478,1067007
-2021-07-02,Luxembourg,346621,37846
+2021-07-02,Luxembourg,346620,37846
 2021-07-02,Madagascar,197001,0
 2021-07-02,Malawi,385242,43165
 2021-07-02,Malaysia,6283069,2486508
@@ -39853,7 +39853,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-03,Djibouti,12547,8810
 2021-07-03,Dominica,20390,19548
 2021-07-03,Dominican Republic,5019355,3058630
-2021-07-03,Ecuador,2968679,1483111
+2021-07-03,Ecuador,3544647,1567082
 2021-07-03,Egypt,3502181,780460
 2021-07-03,El Salvador,1727992,1162511
 2021-07-03,Equatorial Guinea,150609,114501
@@ -39902,7 +39902,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-03,Libya,379404,0
 2021-07-03,Liechtenstein,19739,14170
 2021-07-03,Lithuania,1254461,1071170
-2021-07-03,Luxembourg,350878,37846
+2021-07-03,Luxembourg,350877,37846
 2021-07-03,Madagascar,197001,0
 2021-07-03,Malawi,385242,43165
 2021-07-03,Malaysia,6427554,2565055
@@ -40039,7 +40039,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-04,Djibouti,12547,8810
 2021-07-04,Dominica,20390,19548
 2021-07-04,Dominican Republic,5030094,3089408
-2021-07-04,Ecuador,3012559,1505020
+2021-07-04,Ecuador,3583704,1585259
 2021-07-04,Egypt,3560795,881307
 2021-07-04,El Salvador,1727992,1162511
 2021-07-04,Equatorial Guinea,150609,114501
@@ -40088,7 +40088,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-04,Libya,379404,0
 2021-07-04,Liechtenstein,19739,14170
 2021-07-04,Lithuania,1254746,1071538
-2021-07-04,Luxembourg,350878,37846
+2021-07-04,Luxembourg,350877,37846
 2021-07-04,Madagascar,197001,0
 2021-07-04,Malawi,385242,43165
 2021-07-04,Malaysia,6562330,2645155
@@ -40225,7 +40225,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-05,Djibouti,12547,8810
 2021-07-05,Dominica,20390,19548
 2021-07-05,Dominican Republic,5061730,3192086
-2021-07-05,Ecuador,3111781,1535477
+2021-07-05,Ecuador,3695238,1621719
 2021-07-05,Egypt,3560795,881307
 2021-07-05,El Salvador,1727992,1162511
 2021-07-05,Equatorial Guinea,155073,115768
@@ -40274,7 +40274,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-05,Libya,379404,0
 2021-07-05,Liechtenstein,19756,14452
 2021-07-05,Lithuania,1258370,1081763
-2021-07-05,Luxembourg,354926,37846
+2021-07-05,Luxembourg,354913,37846
 2021-07-05,Madagascar,197001,0
 2021-07-05,Malawi,385242,43165
 2021-07-05,Malaysia,6768431,2765125
@@ -40411,7 +40411,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-06,Djibouti,12547,8810
 2021-07-06,Dominica,20390,19548
 2021-07-06,Dominican Republic,5097374,3299075
-2021-07-06,Ecuador,3225402,1569450
+2021-07-06,Ecuador,3834564,1661534
 2021-07-06,Egypt,3568042,929877
 2021-07-06,El Salvador,1775190,1209742
 2021-07-06,Equatorial Guinea,155073,115768
@@ -40460,7 +40460,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-06,Libya,379404,0
 2021-07-06,Liechtenstein,20002,14741
 2021-07-06,Lithuania,1259821,1085292
-2021-07-06,Luxembourg,358816,37846
+2021-07-06,Luxembourg,358785,37846
 2021-07-06,Madagascar,197001,0
 2021-07-06,Malawi,385242,43165
 2021-07-06,Malaysia,6984598,2902567
@@ -40597,7 +40597,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-07,Djibouti,12547,8810
 2021-07-07,Dominica,20390,19548
 2021-07-07,Dominican Republic,5131732,3403094
-2021-07-07,Ecuador,3360276,1598116
+2021-07-07,Ecuador,3997643,1696516
 2021-07-07,Egypt,3576269,953615
 2021-07-07,El Salvador,1775190,1209742
 2021-07-07,Equatorial Guinea,160525,116517
@@ -40646,7 +40646,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-07,Libya,379404,0
 2021-07-07,Liechtenstein,20059,15274
 2021-07-07,Lithuania,1265180,1097827
-2021-07-07,Luxembourg,362341,37846
+2021-07-07,Luxembourg,362291,37846
 2021-07-07,Madagascar,197001,0
 2021-07-07,Malawi,385242,43165
 2021-07-07,Malaysia,7202856,3077578
@@ -40783,7 +40783,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-08,Djibouti,12547,8810
 2021-07-08,Dominica,20390,19548
 2021-07-08,Dominican Republic,5165832,3469190
-2021-07-08,Ecuador,3511574,1631424
+2021-07-08,Ecuador,4191204,1733939
 2021-07-08,Egypt,3580443,979639
 2021-07-08,El Salvador,1891203,1245721
 2021-07-08,Equatorial Guinea,160525,116517
@@ -40832,7 +40832,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-08,Libya,393688,0
 2021-07-08,Liechtenstein,20115,15812
 2021-07-08,Lithuania,1270855,1111159
-2021-07-08,Luxembourg,365447,37846
+2021-07-08,Luxembourg,365389,37846
 2021-07-08,Madagascar,197001,0
 2021-07-08,Malawi,385242,43165
 2021-07-08,Malaysia,7432020,3236469
@@ -40969,7 +40969,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-09,Djibouti,12547,8810
 2021-07-09,Dominica,20456,19548
 2021-07-09,Dominican Republic,5198112,3515118
-2021-07-09,Ecuador,3714533,1644155
+2021-07-09,Ecuador,4424085,1771968
 2021-07-09,Egypt,3580443,979639
 2021-07-09,El Salvador,1951564,1261316
 2021-07-09,Equatorial Guinea,160525,116517
@@ -41018,7 +41018,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-09,Libya,393688,0
 2021-07-09,Liechtenstein,20200,16330
 2021-07-09,Lithuania,1276058,1121874
-2021-07-09,Luxembourg,368220,37846
+2021-07-09,Luxembourg,368156,37846
 2021-07-09,Madagascar,197001,0
 2021-07-09,Malawi,385242,43165
 2021-07-09,Malaysia,7652013,3364454
@@ -41155,7 +41155,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-10,Djibouti,12547,8810
 2021-07-10,Dominica,20456,19548
 2021-07-10,Dominican Republic,5217103,3536178
-2021-07-10,Ecuador,3933031,1686084
+2021-07-10,Ecuador,4657329,1791343
 2021-07-10,Egypt,3580443,979639
 2021-07-10,El Salvador,1951564,1261316
 2021-07-10,Equatorial Guinea,161870,117082
@@ -41204,7 +41204,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-10,Libya,393688,0
 2021-07-10,Liechtenstein,20200,16330
 2021-07-10,Lithuania,1278056,1125459
-2021-07-10,Luxembourg,371643,37846
+2021-07-10,Luxembourg,371570,37846
 2021-07-10,Madagascar,197001,0
 2021-07-10,Malawi,385242,43165
 2021-07-10,Malaysia,7871237,3479029
@@ -41341,7 +41341,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-11,Djibouti,12547,8810
 2021-07-11,Dominica,20456,19548
 2021-07-11,Dominican Republic,5226733,3547663
-2021-07-11,Ecuador,4088423,1697724
+2021-07-11,Ecuador,4834608,1804336
 2021-07-11,Egypt,3580443,979639
 2021-07-11,El Salvador,1951564,1261316
 2021-07-11,Equatorial Guinea,161870,117082
@@ -41390,7 +41390,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-11,Libya,425119,0
 2021-07-11,Liechtenstein,20200,16330
 2021-07-11,Lithuania,1278271,1125653
-2021-07-11,Luxembourg,371643,37846
+2021-07-11,Luxembourg,371570,37846
 2021-07-11,Madagascar,197001,0
 2021-07-11,Malawi,385242,43165
 2021-07-11,Malaysia,8065228,3581935
@@ -41527,7 +41527,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-12,Djibouti,12547,8810
 2021-07-12,Dominica,20456,19548
 2021-07-12,Dominican Republic,5246674,3574258
-2021-07-12,Ecuador,4088423,1697724
+2021-07-12,Ecuador,5088128,1831948
 2021-07-12,Egypt,3627345,1428958
 2021-07-12,El Salvador,2011356,1272637
 2021-07-12,Equatorial Guinea,161870,117082
@@ -41576,7 +41576,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-12,Libya,425119,0
 2021-07-12,Liechtenstein,20255,16860
 2021-07-12,Lithuania,1281330,1134958
-2021-07-12,Luxembourg,374560,37846
+2021-07-12,Luxembourg,374449,37846
 2021-07-12,Madagascar,197001,0
 2021-07-12,Malawi,385242,43165
 2021-07-12,Malaysia,8335831,3743407
@@ -41713,7 +41713,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-13,Djibouti,12547,8810
 2021-07-13,Dominica,20456,19548
 2021-07-13,Dominican Republic,5271104,3604070
-2021-07-13,Ecuador,4629829,1754033
+2021-07-13,Ecuador,5409502,1863316
 2021-07-13,Egypt,3627345,1428958
 2021-07-13,El Salvador,2064686,1288097
 2021-07-13,Equatorial Guinea,161988,117124
@@ -41762,7 +41762,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-13,Libya,425119,0
 2021-07-13,Liechtenstein,20303,17401
 2021-07-13,Lithuania,1285608,1142029
-2021-07-13,Luxembourg,377291,37846
+2021-07-13,Luxembourg,377080,37846
 2021-07-13,Madagascar,197001,0
 2021-07-13,Malawi,385242,43165
 2021-07-13,Malaysia,8602565,3913140
@@ -41899,7 +41899,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-14,Djibouti,12547,8810
 2021-07-14,Dominica,20456,19548
 2021-07-14,Dominican Republic,5294786,3629728
-2021-07-14,Ecuador,5079607,1811269
+2021-07-14,Ecuador,5780354,1894128
 2021-07-14,Egypt,3627345,1428958
 2021-07-14,El Salvador,2118271,1303943
 2021-07-14,Equatorial Guinea,161988,117124
@@ -41948,7 +41948,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-14,Libya,425119,0
 2021-07-14,Liechtenstein,20330,17669
 2021-07-14,Lithuania,1289919,1147688
-2021-07-14,Luxembourg,379832,37846
+2021-07-14,Luxembourg,379523,37846
 2021-07-14,Madagascar,197001,0
 2021-07-14,Malawi,385242,43165
 2021-07-14,Malaysia,8895956,4074699
@@ -42085,7 +42085,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-15,Djibouti,12547,8810
 2021-07-15,Dominica,20456,19548
 2021-07-15,Dominican Republic,5316275,3657968
-2021-07-15,Ecuador,5447856,1833845
+2021-07-15,Ecuador,6185969,1918299
 2021-07-15,Egypt,3627345,1428958
 2021-07-15,El Salvador,2118271,1303943
 2021-07-15,Equatorial Guinea,161988,117124
@@ -42134,7 +42134,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-15,Libya,425119,0
 2021-07-15,Liechtenstein,20583,17943
 2021-07-15,Lithuania,1296594,1154669
-2021-07-15,Luxembourg,381515,37846
+2021-07-15,Luxembourg,381130,37846
 2021-07-15,Madagascar,197001,0
 2021-07-15,Malawi,385242,43165
 2021-07-15,Malaysia,9211191,4234386
@@ -42271,7 +42271,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-16,Djibouti,12547,8810
 2021-07-16,Dominica,20456,19548
 2021-07-16,Dominican Republic,5336442,3692082
-2021-07-16,Ecuador,5730317,1861422
+2021-07-16,Ecuador,6569164,1948602
 2021-07-16,Egypt,3627345,1428958
 2021-07-16,El Salvador,2239434,1323958
 2021-07-16,Equatorial Guinea,161988,117124
@@ -42320,7 +42320,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-16,Libya,425119,0
 2021-07-16,Liechtenstein,20593,18247
 2021-07-16,Lithuania,1302943,1163187
-2021-07-16,Luxembourg,383428,37846
+2021-07-16,Luxembourg,382867,37846
 2021-07-16,Madagascar,197001,0
 2021-07-16,Malawi,385242,43165
 2021-07-16,Malaysia,9492891,4367312
@@ -42457,7 +42457,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-17,Djibouti,12547,8810
 2021-07-17,Dominica,20456,19548
 2021-07-17,Dominican Republic,5346011,3713656
-2021-07-17,Ecuador,6001154,1881825
+2021-07-17,Ecuador,6858675,1968512
 2021-07-17,Egypt,3627345,1428958
 2021-07-17,El Salvador,2239434,1323958
 2021-07-17,Equatorial Guinea,170583,117979
@@ -42506,7 +42506,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-17,Libya,425119,0
 2021-07-17,Liechtenstein,20593,18247
 2021-07-17,Lithuania,1304804,1165025
-2021-07-17,Luxembourg,385732,37846
+2021-07-17,Luxembourg,385031,37846
 2021-07-17,Madagascar,197001,0
 2021-07-17,Malawi,385242,43165
 2021-07-17,Malaysia,9754815,4497415
@@ -42643,7 +42643,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-18,Djibouti,12547,8810
 2021-07-18,Dominica,20456,19548
 2021-07-18,Dominican Republic,5350169,3723277
-2021-07-18,Ecuador,6281841,1896486
+2021-07-18,Ecuador,7098633,1983183
 2021-07-18,Egypt,3627345,1428958
 2021-07-18,El Salvador,2239434,1323958
 2021-07-18,Equatorial Guinea,170583,117979
@@ -42692,7 +42692,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-18,Libya,480116,0
 2021-07-18,Liechtenstein,20593,18247
 2021-07-18,Lithuania,1305718,1165800
-2021-07-18,Luxembourg,385732,37846
+2021-07-18,Luxembourg,385031,37846
 2021-07-18,Madagascar,197001,0
 2021-07-18,Malawi,385242,43165
 2021-07-18,Malaysia,10006116,4600445
@@ -42829,7 +42829,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-19,Djibouti,12547,8810
 2021-07-19,Dominica,20456,19548
 2021-07-19,Dominican Republic,5369886,3780347
-2021-07-19,Ecuador,6551874,1916003
+2021-07-19,Ecuador,7400080,2002842
 2021-07-19,Egypt,3627345,1428958
 2021-07-19,El Salvador,2300055,1338206
 2021-07-19,Equatorial Guinea,170583,117979
@@ -42878,7 +42878,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-19,Libya,480116,0
 2021-07-19,Liechtenstein,20593,18248
 2021-07-19,Lithuania,1310301,1172914
-2021-07-19,Luxembourg,387016,37846
+2021-07-19,Luxembourg,386194,37846
 2021-07-19,Madagascar,197001,0
 2021-07-19,Malawi,385242,43165
 2021-07-19,Malaysia,10292140,4753754
@@ -43015,7 +43015,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-20,Djibouti,12547,8810
 2021-07-20,Dominica,20456,19548
 2021-07-20,Dominican Republic,5390472,3836969
-2021-07-20,Ecuador,6778045,1929259
+2021-07-20,Ecuador,7693781,2022471
 2021-07-20,Egypt,3627345,1428958
 2021-07-20,El Salvador,2354228,1356475
 2021-07-20,Equatorial Guinea,170583,117979
@@ -43064,7 +43064,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-20,Libya,480116,0
 2021-07-20,Liechtenstein,20598,18248
 2021-07-20,Lithuania,1317422,1179068
-2021-07-20,Luxembourg,387943,37846
+2021-07-20,Luxembourg,387009,37846
 2021-07-20,Madagascar,197001,0
 2021-07-20,Malawi,385242,43165
 2021-07-20,Malaysia,10499486,4856243
@@ -43201,7 +43201,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-21,Djibouti,12547,8810
 2021-07-21,Dominica,20456,19548
 2021-07-21,Dominican Republic,5411771,3893882
-2021-07-21,Ecuador,7087388,1968499
+2021-07-21,Ecuador,7954844,2039232
 2021-07-21,Egypt,3627345,1428958
 2021-07-21,El Salvador,2411606,1372767
 2021-07-21,Equatorial Guinea,174001,119701
@@ -43250,7 +43250,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-21,Libya,480116,0
 2021-07-21,Liechtenstein,20600,18249
 2021-07-21,Lithuania,1325496,1184782
-2021-07-21,Luxembourg,388577,37846
+2021-07-21,Luxembourg,387594,37846
 2021-07-21,Madagascar,197001,0
 2021-07-21,Malawi,385242,43165
 2021-07-21,Malaysia,10787279,5025130
@@ -43387,7 +43387,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-22,Djibouti,12547,8810
 2021-07-22,Dominica,20456,19548
 2021-07-22,Dominican Republic,5432072,3944218
-2021-07-22,Ecuador,7302932,1992419
+2021-07-22,Ecuador,8186138,2067706
 2021-07-22,Egypt,3627345,1428958
 2021-07-22,El Salvador,2468324,1392537
 2021-07-22,Equatorial Guinea,174001,119701
@@ -43436,7 +43436,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-22,Libya,480116,0
 2021-07-22,Liechtenstein,20622,18471
 2021-07-22,Lithuania,1337349,1191395
-2021-07-22,Luxembourg,389241,37846
+2021-07-22,Luxembourg,388215,37846
 2021-07-22,Madagascar,197001,0
 2021-07-22,Malawi,385242,43165
 2021-07-22,Malaysia,11129077,5200982
@@ -43573,7 +43573,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-23,Djibouti,12547,8810
 2021-07-23,Dominica,20784,19550
 2021-07-23,Dominican Republic,5450751,3984498
-2021-07-23,Ecuador,7494082,2016586
+2021-07-23,Ecuador,8408870,2096929
 2021-07-23,Egypt,3627345,1428958
 2021-07-23,El Salvador,2527604,1409999
 2021-07-23,Equatorial Guinea,174001,119701
@@ -43622,7 +43622,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-23,Libya,480116,0
 2021-07-23,Liechtenstein,20629,18853
 2021-07-23,Lithuania,1349094,1197368
-2021-07-23,Luxembourg,390095,37846
+2021-07-23,Luxembourg,388963,37846
 2021-07-23,Madagascar,197001,0
 2021-07-23,Malawi,385242,43165
 2021-07-23,Malaysia,11442618,5364948
@@ -43759,7 +43759,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-24,Djibouti,12547,8810
 2021-07-24,Dominica,20784,19550
 2021-07-24,Dominican Republic,5458029,3996388
-2021-07-24,Ecuador,7648949,2028931
+2021-07-24,Ecuador,8585908,2115810
 2021-07-24,Egypt,3627345,1428958
 2021-07-24,El Salvador,2527604,1409999
 2021-07-24,Equatorial Guinea,178913,122500
@@ -43808,7 +43808,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-24,Libya,480116,0
 2021-07-24,Liechtenstein,20629,18853
 2021-07-24,Lithuania,1352221,1198748
-2021-07-24,Luxembourg,391180,37846
+2021-07-24,Luxembourg,389856,37846
 2021-07-24,Madagascar,197001,0
 2021-07-24,Malawi,385242,43165
 2021-07-24,Malaysia,11735362,5502197
@@ -43945,7 +43945,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-25,Djibouti,12547,8810
 2021-07-25,Dominica,20784,19550
 2021-07-25,Dominican Republic,5459382,3999041
-2021-07-25,Ecuador,7828824,2051577
+2021-07-25,Ecuador,8714585,2127616
 2021-07-25,Egypt,3696996,1607705
 2021-07-25,El Salvador,2527604,1409999
 2021-07-25,Equatorial Guinea,178913,122500
@@ -43994,7 +43994,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-25,Libya,530808,0
 2021-07-25,Liechtenstein,20629,18853
 2021-07-25,Lithuania,1353515,1199519
-2021-07-25,Luxembourg,391180,37846
+2021-07-25,Luxembourg,389856,37846
 2021-07-25,Madagascar,197001,0
 2021-07-25,Malawi,385242,43165
 2021-07-25,Malaysia,12024556,5626922
@@ -44131,7 +44131,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-26,Djibouti,12547,8810
 2021-07-26,Dominica,20784,19550
 2021-07-26,Dominican Republic,5473614,4036927
-2021-07-26,Ecuador,7960999,2090177
+2021-07-26,Ecuador,8854376,2167886
 2021-07-26,Egypt,3697974,1639532
 2021-07-26,El Salvador,2592926,1424279
 2021-07-26,Equatorial Guinea,178913,122500
@@ -44180,7 +44180,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-26,Libya,530808,0
 2021-07-26,Liechtenstein,20629,18854
 2021-07-26,Lithuania,1363563,1206907
-2021-07-26,Luxembourg,392084,37846
+2021-07-26,Luxembourg,390625,37846
 2021-07-26,Madagascar,197001,0
 2021-07-26,Malawi,385242,43165
 2021-07-26,Malaysia,12365323,5821848
@@ -44317,7 +44317,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-27,Djibouti,12547,8810
 2021-07-27,Dominica,20784,19550
 2021-07-27,Dominican Republic,5491708,4088555
-2021-07-27,Ecuador,8148966,2146056
+2021-07-27,Ecuador,9058601,2227340
 2021-07-27,Egypt,3697974,1639532
 2021-07-27,El Salvador,2653346,1440285
 2021-07-27,Equatorial Guinea,178913,122500
@@ -44366,7 +44366,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-27,Libya,530808,0
 2021-07-27,Liechtenstein,20631,18854
 2021-07-27,Lithuania,1374478,1212072
-2021-07-27,Luxembourg,392655,37846
+2021-07-27,Luxembourg,391097,37846
 2021-07-27,Madagascar,197001,0
 2021-07-27,Malawi,390738,57670
 2021-07-27,Malaysia,12730813,6026733
@@ -44503,7 +44503,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-28,Djibouti,12547,8810
 2021-07-28,Dominica,20784,19550
 2021-07-28,Dominican Republic,5508883,4139202
-2021-07-28,Ecuador,8368783,2215238
+2021-07-28,Ecuador,9285899,2304523
 2021-07-28,Egypt,3697974,1639532
 2021-07-28,El Salvador,2710883,1457048
 2021-07-28,Equatorial Guinea,178913,122500
@@ -44552,7 +44552,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-28,Libya,546745,0
 2021-07-28,Liechtenstein,20631,18856
 2021-07-28,Lithuania,1386084,1217555
-2021-07-28,Luxembourg,393421,37846
+2021-07-28,Luxembourg,391769,37846
 2021-07-28,Madagascar,197001,0
 2021-07-28,Malawi,410724,93471
 2021-07-28,Malaysia,13104299,6233021
@@ -44689,7 +44689,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-29,Djibouti,12547,8810
 2021-07-29,Dominica,20784,19550
 2021-07-29,Dominican Republic,5524571,4174568
-2021-07-29,Ecuador,8642055,2287730
+2021-07-29,Ecuador,9543339,2364819
 2021-07-29,Egypt,3697974,1639532
 2021-07-29,El Salvador,2763989,1473747
 2021-07-29,Equatorial Guinea,179210,127055
@@ -44738,7 +44738,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-29,Libya,546745,0
 2021-07-29,Liechtenstein,20632,18856
 2021-07-29,Lithuania,1401624,1223466
-2021-07-29,Luxembourg,394154,37846
+2021-07-29,Luxembourg,392430,37846
 2021-07-29,Madagascar,197001,0
 2021-07-29,Malawi,410724,93471
 2021-07-29,Malaysia,13463874,6450722
@@ -44875,7 +44875,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-30,Djibouti,12547,8810
 2021-07-30,Dominica,20892,19661
 2021-07-30,Dominican Republic,5538092,4205772
-2021-07-30,Ecuador,8884880,2337059
+2021-07-30,Ecuador,9812429,2421414
 2021-07-30,Egypt,3697974,1639532
 2021-07-30,El Salvador,2821728,1487461
 2021-07-30,Equatorial Guinea,179210,127055
@@ -44924,7 +44924,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-30,Libya,546745,0
 2021-07-30,Liechtenstein,20639,18857
 2021-07-30,Lithuania,1411998,1230158
-2021-07-30,Luxembourg,394911,37846
+2021-07-30,Luxembourg,393071,37846
 2021-07-30,Madagascar,197001,0
 2021-07-30,Malawi,447525,133032
 2021-07-30,Malaysia,13793306,6653110
@@ -45061,7 +45061,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-31,Djibouti,12547,8810
 2021-07-31,Dominica,20892,19661
 2021-07-31,Dominican Republic,5543146,4215901
-2021-07-31,Ecuador,9047885,2371921
+2021-07-31,Ecuador,10013732,2463878
 2021-07-31,Egypt,3697974,1639532
 2021-07-31,El Salvador,2821728,1487461
 2021-07-31,Equatorial Guinea,179210,127055
@@ -45110,7 +45110,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-31,Libya,546745,0
 2021-07-31,Liechtenstein,20640,18857
 2021-07-31,Lithuania,1415291,1234032
-2021-07-31,Luxembourg,395690,37846
+2021-07-31,Luxembourg,393739,37846
 2021-07-31,Madagascar,197001,0
 2021-07-31,Malawi,453729,138134
 2021-07-31,Malaysia,14125023,6859541
@@ -45247,7 +45247,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-01,Djibouti,12547,8810
 2021-08-01,Dominica,20892,19661
 2021-08-01,Dominican Republic,5545143,4219737
-2021-08-01,Ecuador,9047885,2371921
+2021-08-01,Ecuador,10130519,2510904
 2021-08-01,Egypt,3783581,1786973
 2021-08-01,El Salvador,2821728,1487461
 2021-08-01,Equatorial Guinea,179210,127055
@@ -45296,7 +45296,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-01,Libya,546745,0
 2021-08-01,Liechtenstein,20640,18857
 2021-08-01,Lithuania,1416079,1236446
-2021-08-01,Luxembourg,395690,37846
+2021-08-01,Luxembourg,393739,37846
 2021-08-01,Madagascar,197001,0
 2021-08-01,Malawi,454752,139581
 2021-08-01,Malaysia,14431923,7044284
@@ -45433,7 +45433,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-02,Djibouti,12547,8810
 2021-08-02,Dominica,20892,19661
 2021-08-02,Dominican Republic,5558518,4250852
-2021-08-02,Ecuador,9269733,2462728
+2021-08-02,Ecuador,10225907,2612934
 2021-08-02,Egypt,3783581,1786973
 2021-08-02,El Salvador,2896621,1497789
 2021-08-02,Equatorial Guinea,180420,128438
@@ -45482,7 +45482,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-02,Libya,546745,0
 2021-08-02,Liechtenstein,20640,18857
 2021-08-02,Lithuania,1423409,1246090
-2021-08-02,Luxembourg,396371,37846
+2021-08-02,Luxembourg,394336,37846
 2021-08-02,Madagascar,197001,0
 2021-08-02,Malawi,455207,140328
 2021-08-02,Malaysia,14664975,7294668
@@ -45619,7 +45619,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-03,Djibouti,31528,8810
 2021-08-03,Dominica,20892,19661
 2021-08-03,Dominican Republic,5572496,4282396
-2021-08-03,Ecuador,9358610,2559190
+2021-08-03,Ecuador,10317605,2736142
 2021-08-03,Egypt,3783581,1786973
 2021-08-03,El Salvador,2933053,1549195
 2021-08-03,Equatorial Guinea,180420,128438
@@ -45668,7 +45668,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-03,Libya,546745,0
 2021-08-03,Liechtenstein,20640,18857
 2021-08-03,Lithuania,1432369,1250811
-2021-08-03,Luxembourg,396964,37846
+2021-08-03,Luxembourg,394863,37846
 2021-08-03,Madagascar,197001,0
 2021-08-03,Malawi,455763,142099
 2021-08-03,Malaysia,14915337,7544133
@@ -45805,7 +45805,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-04,Djibouti,31528,8810
 2021-08-04,Dominica,20892,19661
 2021-08-04,Dominican Republic,5586823,4312006
-2021-08-04,Ecuador,9446897,2691724
+2021-08-04,Ecuador,10396699,2874922
 2021-08-04,Egypt,3783581,1786973
 2021-08-04,El Salvador,2966136,1612170
 2021-08-04,Equatorial Guinea,181290,130488
@@ -45854,7 +45854,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-04,Libya,661010,0
 2021-08-04,Liechtenstein,20640,18857
 2021-08-04,Lithuania,1444342,1258193
-2021-08-04,Luxembourg,397484,37846
+2021-08-04,Luxembourg,395325,37846
 2021-08-04,Madagascar,197001,0
 2021-08-04,Malawi,456126,142282
 2021-08-04,Malaysia,15153051,7815788
@@ -45991,7 +45991,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-05,Djibouti,31528,18981
 2021-08-05,Dominica,20892,19661
 2021-08-05,Dominican Republic,5600470,4337509
-2021-08-05,Ecuador,9524743,2859366
+2021-08-05,Ecuador,10463859,3037168
 2021-08-05,Egypt,3840732,1808590
 2021-08-05,El Salvador,3034231,1630122
 2021-08-05,Equatorial Guinea,181290,130488
@@ -46040,7 +46040,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-05,Libya,686214,0
 2021-08-05,Liechtenstein,20640,18857
 2021-08-05,Lithuania,1465478,1272813
-2021-08-05,Luxembourg,398018,37846
+2021-08-05,Luxembourg,395827,37846
 2021-08-05,Madagascar,197001,0
 2021-08-05,Malawi,463236,158982
 2021-08-05,Malaysia,15383428,8115944
@@ -46177,7 +46177,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-06,Djibouti,31528,18981
 2021-08-06,Dominica,20892,19661
 2021-08-06,Dominican Republic,5612488,4358673
-2021-08-06,Ecuador,9585665,3063873
+2021-08-06,Ecuador,10516985,3238546
 2021-08-06,Egypt,3840732,1808590
 2021-08-06,El Salvador,3034231,1630122
 2021-08-06,Equatorial Guinea,181290,130488
@@ -46226,7 +46226,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-06,Libya,686214,0
 2021-08-06,Liechtenstein,20642,18857
 2021-08-06,Lithuania,1484024,1285955
-2021-08-06,Luxembourg,398650,37846
+2021-08-06,Luxembourg,396400,37846
 2021-08-06,Madagascar,197001,0
 2021-08-06,Malawi,463236,158982
 2021-08-06,Malaysia,15579693,8380156
@@ -46363,7 +46363,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-07,Djibouti,31528,18981
 2021-08-07,Dominica,20892,19661
 2021-08-07,Dominican Republic,5617370,4366182
-2021-08-07,Ecuador,9637618,3246001
+2021-08-07,Ecuador,10563220,3429675
 2021-08-07,Egypt,3840732,1808590
 2021-08-07,El Salvador,3034231,1630122
 2021-08-07,Equatorial Guinea,182152,132137
@@ -46412,7 +46412,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-07,Libya,686214,0
 2021-08-07,Liechtenstein,20642,18857
 2021-08-07,Lithuania,1489811,1290800
-2021-08-07,Luxembourg,399431,37846
+2021-08-07,Luxembourg,397077,37846
 2021-08-07,Madagascar,197001,0
 2021-08-07,Malawi,463236,158982
 2021-08-07,Malaysia,15775166,8624692
@@ -46549,7 +46549,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-08,Djibouti,31528,18981
 2021-08-08,Dominica,20892,19661
 2021-08-08,Dominican Republic,5619234,4369473
-2021-08-08,Ecuador,9929240,3422242
+2021-08-08,Ecuador,10605030,3594872
 2021-08-08,Egypt,3840732,1808590
 2021-08-08,El Salvador,3034231,1630122
 2021-08-08,Equatorial Guinea,182152,132137
@@ -46598,7 +46598,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-08,Libya,686214,0
 2021-08-08,Liechtenstein,20642,18857
 2021-08-08,Lithuania,1490955,1291708
-2021-08-08,Luxembourg,399475,37846
+2021-08-08,Luxembourg,397116,37846
 2021-08-08,Madagascar,197001,0
 2021-08-08,Malawi,464848,159229
 2021-08-08,Malaysia,15940319,8863255
@@ -46735,7 +46735,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-09,Djibouti,31528,18981
 2021-08-09,Dominica,20892,19661
 2021-08-09,Dominican Republic,5631732,4391693
-2021-08-09,Ecuador,9929240,3422242
+2021-08-09,Ecuador,10605501,3598922
 2021-08-09,Egypt,3840732,1808590
 2021-08-09,El Salvador,3062555,1700524
 2021-08-09,Equatorial Guinea,182152,132137
@@ -46784,7 +46784,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-09,Libya,712033,0
 2021-08-09,Liechtenstein,20661,19426
 2021-08-09,Lithuania,1504097,1302591
-2021-08-09,Luxembourg,399984,37846
+2021-08-09,Luxembourg,397575,37846
 2021-08-09,Madagascar,197001,0
 2021-08-09,Malawi,464848,159229
 2021-08-09,Malaysia,16135360,9144597
@@ -46921,7 +46921,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-10,Djibouti,31528,18981
 2021-08-10,Dominica,20892,19661
 2021-08-10,Dominican Republic,5645781,4417043
-2021-08-10,Ecuador,9929240,3422242
+2021-08-10,Ecuador,10608516,3974941
 2021-08-10,Egypt,3883927,1866622
 2021-08-10,El Salvador,3093546,1765055
 2021-08-10,Equatorial Guinea,182152,132137
@@ -46970,7 +46970,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-10,Libya,712033,0
 2021-08-10,Liechtenstein,20837,19532
 2021-08-10,Lithuania,1515600,1312815
-2021-08-10,Luxembourg,400443,37846
+2021-08-10,Luxembourg,397990,37846
 2021-08-10,Madagascar,197001,0
 2021-08-10,Malawi,496636,192017
 2021-08-10,Malaysia,16304424,9344783
@@ -47107,7 +47107,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-11,Djibouti,31528,18981
 2021-08-11,Dominica,20892,19661
 2021-08-11,Dominican Republic,5652804,4429487
-2021-08-11,Ecuador,9944522,4152609
+2021-08-11,Ecuador,10610994,4309296
 2021-08-11,Egypt,3883927,1866622
 2021-08-11,El Salvador,3133669,1817323
 2021-08-11,Equatorial Guinea,182152,132137
@@ -47156,7 +47156,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-11,Libya,712033,0
 2021-08-11,Liechtenstein,20858,19825
 2021-08-11,Lithuania,1526851,1324221
-2021-08-11,Luxembourg,400976,37846
+2021-08-11,Luxembourg,398469,37846
 2021-08-11,Madagascar,197001,0
 2021-08-11,Malawi,496636,192017
 2021-08-11,Malaysia,16540650,9617769
@@ -47293,7 +47293,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-12,Djibouti,32548,20516
 2021-08-12,Dominica,20892,19661
 2021-08-12,Dominican Republic,5657720,4438630
-2021-08-12,Ecuador,9945975,4417050
+2021-08-12,Ecuador,10612935,4578818
 2021-08-12,Egypt,3883927,1866622
 2021-08-12,El Salvador,3170859,1875122
 2021-08-12,Equatorial Guinea,186356,136091
@@ -47342,7 +47342,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-12,Libya,712033,0
 2021-08-12,Liechtenstein,20862,20027
 2021-08-12,Lithuania,1541080,1338640
-2021-08-12,Luxembourg,401491,37846
+2021-08-12,Luxembourg,398924,37846
 2021-08-12,Madagascar,197001,0
 2021-08-12,Malawi,523868,219249
 2021-08-12,Malaysia,16748906,9949600
@@ -47479,7 +47479,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-13,Djibouti,32548,20516
 2021-08-13,Dominica,20892,19661
 2021-08-13,Dominican Republic,5667626,4455264
-2021-08-13,Ecuador,9955383,4622931
+2021-08-13,Ecuador,10615611,4776537
 2021-08-13,Egypt,3883927,1866622
 2021-08-13,El Salvador,3213935,1929977
 2021-08-13,Equatorial Guinea,186356,136091
@@ -47528,7 +47528,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-13,Libya,712033,0
 2021-08-13,Liechtenstein,21172,20028
 2021-08-13,Lithuania,1552554,1351431
-2021-08-13,Luxembourg,402017,37846
+2021-08-13,Luxembourg,399357,37846
 2021-08-13,Madagascar,197001,0
 2021-08-13,Malawi,523868,219249
 2021-08-13,Malaysia,16920633,10258780
@@ -47665,7 +47665,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-14,Djibouti,32548,20516
 2021-08-14,Dominica,20892,19661
 2021-08-14,Dominican Republic,5671374,4461013
-2021-08-14,Ecuador,9956358,4727968
+2021-08-14,Ecuador,10616571,4879776
 2021-08-14,Egypt,3883927,1866622
 2021-08-14,El Salvador,3213935,1929977
 2021-08-14,Equatorial Guinea,186356,136091
@@ -47714,7 +47714,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-14,Libya,712033,0
 2021-08-14,Liechtenstein,21172,20028
 2021-08-14,Lithuania,1555253,1353862
-2021-08-14,Luxembourg,402566,37846
+2021-08-14,Luxembourg,399790,37846
 2021-08-14,Madagascar,197001,0
 2021-08-14,Malawi,565968,261349
 2021-08-14,Malaysia,17086906,10545979
@@ -47851,7 +47851,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-15,Djibouti,32548,20516
 2021-08-15,Dominica,20892,19661
 2021-08-15,Dominican Republic,5672584,4462896
-2021-08-15,Ecuador,9956777,4785653
+2021-08-15,Ecuador,10617261,4944406
 2021-08-15,Egypt,3883927,1866622
 2021-08-15,El Salvador,3213935,1929977
 2021-08-15,Equatorial Guinea,186356,136091
@@ -47900,7 +47900,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-15,Libya,712033,0
 2021-08-15,Liechtenstein,21172,20028
 2021-08-15,Lithuania,1556001,1354473
-2021-08-15,Luxembourg,402566,37846
+2021-08-15,Luxembourg,399790,37846
 2021-08-15,Madagascar,197001,0
 2021-08-15,Malawi,569519,264900
 2021-08-15,Malaysia,17233428,10824727
@@ -48037,7 +48037,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-16,Djibouti,32548,20516
 2021-08-16,Dominica,20892,19661
 2021-08-16,Dominican Republic,5672922,4463319
-2021-08-16,Ecuador,9956777,4785653
+2021-08-16,Ecuador,10619135,5320762
 2021-08-16,Egypt,4319631,2157904
 2021-08-16,El Salvador,3242244,1992941
 2021-08-16,Equatorial Guinea,187837,137612
@@ -48086,7 +48086,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-16,Libya,712033,0
 2021-08-16,Liechtenstein,21193,20294
 2021-08-16,Lithuania,1566532,1368474
-2021-08-16,Luxembourg,402942,37846
+2021-08-16,Luxembourg,400130,37846
 2021-08-16,Madagascar,197001,0
 2021-08-16,Malawi,570110,265491
 2021-08-16,Malaysia,17413051,11157451
@@ -48223,7 +48223,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-17,Djibouti,32548,20516
 2021-08-17,Dominica,20892,19661
 2021-08-17,Dominican Republic,5683833,4480873
-2021-08-17,Ecuador,9958643,5557594
+2021-08-17,Ecuador,10624503,5728292
 2021-08-17,Egypt,4319631,2157904
 2021-08-17,El Salvador,3273631,2053820
 2021-08-17,Equatorial Guinea,187837,137612
@@ -48272,7 +48272,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-17,Libya,712033,0
 2021-08-17,Liechtenstein,21414,20357
 2021-08-17,Lithuania,1575103,1379656
-2021-08-17,Luxembourg,403599,37846
+2021-08-17,Luxembourg,400726,37846
 2021-08-17,Madagascar,197001,0
 2021-08-17,Malawi,585592,285505
 2021-08-17,Malaysia,17601807,11504928
@@ -48409,7 +48409,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-18,Djibouti,32548,20516
 2021-08-18,Dominica,20892,19661
 2021-08-18,Dominican Republic,5696721,4501030
-2021-08-18,Ecuador,9960012,5919425
+2021-08-18,Ecuador,10632145,6111379
 2021-08-18,Egypt,4319631,2157904
 2021-08-18,El Salvador,3306114,2111079
 2021-08-18,Equatorial Guinea,189524,139705
@@ -48458,7 +48458,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-18,Libya,837907,52050
 2021-08-18,Liechtenstein,21619,20393
 2021-08-18,Lithuania,1587313,1394866
-2021-08-18,Luxembourg,404282,37846
+2021-08-18,Luxembourg,401351,37846
 2021-08-18,Madagascar,197001,0
 2021-08-18,Malawi,598158,303470
 2021-08-18,Malaysia,17796296,11865530
@@ -48595,7 +48595,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-19,Djibouti,33388,20841
 2021-08-19,Dominica,20892,19661
 2021-08-19,Dominican Republic,5709646,4520504
-2021-08-19,Ecuador,9961744,6273354
+2021-08-19,Ecuador,10639941,6435968
 2021-08-19,Egypt,4319631,2157904
 2021-08-19,El Salvador,3324137,2185430
 2021-08-19,Equatorial Guinea,189524,139705
@@ -48644,7 +48644,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-19,Libya,837907,52050
 2021-08-19,Liechtenstein,21619,20393
 2021-08-19,Lithuania,1598132,1411276
-2021-08-19,Luxembourg,404983,37846
+2021-08-19,Luxembourg,401987,37846
 2021-08-19,Madagascar,197001,0
 2021-08-19,Malawi,611442,323221
 2021-08-19,Malaysia,17979485,12213637
@@ -48781,7 +48781,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-20,Djibouti,33388,20841
 2021-08-20,Dominica,21548,19887
 2021-08-20,Dominican Republic,5719571,4534518
-2021-08-20,Ecuador,9963105,6537132
+2021-08-20,Ecuador,10646425,6710639
 2021-08-20,Egypt,4319631,2157904
 2021-08-20,El Salvador,3341998,2260225
 2021-08-20,Equatorial Guinea,189524,139705
@@ -48830,7 +48830,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-20,Libya,837907,52050
 2021-08-20,Liechtenstein,21623,20393
 2021-08-20,Lithuania,1607620,1423720
-2021-08-20,Luxembourg,405668,37846
+2021-08-20,Luxembourg,402604,37846
 2021-08-20,Madagascar,197001,0
 2021-08-20,Malawi,621867,340565
 2021-08-20,Malaysia,18136084,12549859
@@ -48967,7 +48967,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-21,Djibouti,33388,20841
 2021-08-21,Dominica,21548,19887
 2021-08-21,Dominican Republic,5723752,4540737
-2021-08-21,Ecuador,9963626,6729500
+2021-08-21,Ecuador,10653892,6901692
 2021-08-21,Egypt,4319631,2157904
 2021-08-21,El Salvador,3341998,2260225
 2021-08-21,Equatorial Guinea,190481,141326
@@ -49016,7 +49016,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-21,Libya,837907,52050
 2021-08-21,Liechtenstein,21995,20419
 2021-08-21,Lithuania,1609712,1425640
-2021-08-21,Luxembourg,406192,37846
+2021-08-21,Luxembourg,403056,37846
 2021-08-21,Madagascar,197001,0
 2021-08-21,Malawi,621867,340565
 2021-08-21,Malaysia,18297538,12869104
@@ -49153,7 +49153,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-22,Djibouti,33388,20841
 2021-08-22,Dominica,21548,19887
 2021-08-22,Dominican Republic,5725316,4543100
-2021-08-22,Ecuador,9964227,6871506
+2021-08-22,Ecuador,10659805,7032989
 2021-08-22,Egypt,4319631,2157904
 2021-08-22,El Salvador,3341998,2260225
 2021-08-22,Equatorial Guinea,190481,141326
@@ -49202,7 +49202,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-22,Libya,837907,52050
 2021-08-22,Liechtenstein,21995,20419
 2021-08-22,Lithuania,1610152,1426020
-2021-08-22,Luxembourg,406319,37846
+2021-08-22,Luxembourg,403156,37846
 2021-08-22,Madagascar,197001,0
 2021-08-22,Malawi,635098,360616
 2021-08-22,Malaysia,18437090,13178941
@@ -49339,7 +49339,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-23,Djibouti,33388,20841
 2021-08-23,Dominica,21548,19887
 2021-08-23,Dominican Republic,5737876,4559262
-2021-08-23,Ecuador,9970890,7096816
+2021-08-23,Ecuador,10670150,7223294
 2021-08-23,Egypt,4319631,2157904
 2021-08-23,El Salvador,3362515,2338332
 2021-08-23,Equatorial Guinea,190481,141326
@@ -49388,7 +49388,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-23,Libya,837907,52050
 2021-08-23,Liechtenstein,22110,20450
 2021-08-23,Lithuania,1618128,1436847
-2021-08-23,Luxembourg,406604,37846
+2021-08-23,Luxembourg,403418,37846
 2021-08-23,Madagascar,197001,0
 2021-08-23,Malawi,635311,360886
 2021-08-23,Malaysia,18589208,13429906
@@ -49525,7 +49525,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-24,Djibouti,33388,20841
 2021-08-24,Dominica,21548,19887
 2021-08-24,Dominican Republic,5751312,4576556
-2021-08-24,Ecuador,9973150,7311692
+2021-08-24,Ecuador,10687641,7448932
 2021-08-24,Egypt,4319631,2157904
 2021-08-24,El Salvador,3383511,2410750
 2021-08-24,Equatorial Guinea,192792,143787
@@ -49574,7 +49574,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-24,Libya,837907,52050
 2021-08-24,Liechtenstein,22384,20453
 2021-08-24,Lithuania,1624324,1446113
-2021-08-24,Luxembourg,407317,37846
+2021-08-24,Luxembourg,404063,37846
 2021-08-24,Madagascar,197001,0
 2021-08-24,Malawi,643799,372544
 2021-08-24,Malaysia,18746418,13701848
@@ -49711,7 +49711,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-25,Djibouti,35396,22849
 2021-08-25,Dominica,21548,19887
 2021-08-25,Dominican Republic,5764675,4594526
-2021-08-25,Ecuador,9979810,7533965
+2021-08-25,Ecuador,10706903,7673265
 2021-08-25,Egypt,5109996,2894590
 2021-08-25,El Salvador,3410745,2485544
 2021-08-25,Equatorial Guinea,192792,143787
@@ -49760,7 +49760,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-25,Libya,837907,52050
 2021-08-25,Liechtenstein,22510,20461
 2021-08-25,Lithuania,1632127,1456624
-2021-08-25,Luxembourg,407866,37846
+2021-08-25,Luxembourg,404560,37846
 2021-08-25,Madagascar,197001,0
 2021-08-25,Malawi,651096,382516
 2021-08-25,Malaysia,18910277,13969818
@@ -49897,7 +49897,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-26,Djibouti,35396,22849
 2021-08-26,Dominica,21548,19887
 2021-08-26,Dominican Republic,5776328,4609868
-2021-08-26,Ecuador,9982080,7768189
+2021-08-26,Ecuador,10726520,7919350
 2021-08-26,Egypt,5109996,2894590
 2021-08-26,El Salvador,3410745,2485544
 2021-08-26,Equatorial Guinea,192792,143787
@@ -49946,7 +49946,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-26,Libya,951010,52050
 2021-08-26,Liechtenstein,22631,20476
 2021-08-26,Lithuania,1640247,1468894
-2021-08-26,Luxembourg,408356,37846
+2021-08-26,Luxembourg,405000,37846
 2021-08-26,Madagascar,197001,0
 2021-08-26,Malawi,651096,382516
 2021-08-26,Malaysia,19072099,14229270
@@ -50083,7 +50083,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-27,Djibouti,35396,22849
 2021-08-27,Dominica,22343,20186
 2021-08-27,Dominican Republic,5787089,4623226
-2021-08-27,Ecuador,9984903,8018924
+2021-08-27,Ecuador,10746271,8183354
 2021-08-27,Egypt,5616607,3124398
 2021-08-27,El Salvador,3478958,2625944
 2021-08-27,Equatorial Guinea,197657,148062
@@ -50132,7 +50132,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-27,Libya,951010,52050
 2021-08-27,Liechtenstein,22922,20483
 2021-08-27,Lithuania,1647974,1480282
-2021-08-27,Luxembourg,409027,37846
+2021-08-27,Luxembourg,405601,37846
 2021-08-27,Madagascar,197001,0
 2021-08-27,Malawi,662638,397700
 2021-08-27,Malaysia,19215993,14436766
@@ -50269,7 +50269,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-28,Djibouti,35396,22849
 2021-08-28,Dominica,22343,20186
 2021-08-28,Dominican Republic,5790794,4628273
-2021-08-28,Ecuador,9987247,8208617
+2021-08-28,Ecuador,10760514,8368150
 2021-08-28,Egypt,5616607,3124398
 2021-08-28,El Salvador,3478958,2625944
 2021-08-28,Equatorial Guinea,197657,148062
@@ -50318,7 +50318,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-28,Libya,951010,52050
 2021-08-28,Liechtenstein,22922,20483
 2021-08-28,Lithuania,1649556,1481639
-2021-08-28,Luxembourg,409572,37846
+2021-08-28,Luxembourg,406107,37846
 2021-08-28,Madagascar,197001,0
 2021-08-28,Malawi,662638,397700
 2021-08-28,Malaysia,19376344,14636139
@@ -50455,7 +50455,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-29,Djibouti,35396,22849
 2021-08-29,Dominica,22343,20186
 2021-08-29,Dominican Republic,5792064,4629910
-2021-08-29,Ecuador,10699102,8561694
+2021-08-29,Ecuador,10772784,8481218
 2021-08-29,Egypt,5616607,3124398
 2021-08-29,El Salvador,3478958,2625944
 2021-08-29,Equatorial Guinea,197657,148062
@@ -50504,7 +50504,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-29,Libya,951010,52050
 2021-08-29,Liechtenstein,22922,20483
 2021-08-29,Lithuania,1649901,1481870
-2021-08-29,Luxembourg,409572,37846
+2021-08-29,Luxembourg,406107,37846
 2021-08-29,Madagascar,197001,0
 2021-08-29,Malawi,669053,405722
 2021-08-29,Malaysia,19528754,14804493
@@ -50641,7 +50641,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-30,Djibouti,35396,22849
 2021-08-30,Dominica,22343,20186
 2021-08-30,Dominican Republic,5802974,4643779
-2021-08-30,Ecuador,10699102,8561694
+2021-08-30,Ecuador,10794687,8659927
 2021-08-30,Egypt,5616607,3124398
 2021-08-30,El Salvador,3501844,2706050
 2021-08-30,Equatorial Guinea,197657,148062
@@ -50690,7 +50690,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-30,Libya,951010,52050
 2021-08-30,Liechtenstein,22922,20484
 2021-08-30,Lithuania,1655396,1491311
-2021-08-30,Luxembourg,410064,37846
+2021-08-30,Luxembourg,406569,37846
 2021-08-30,Madagascar,197001,0
 2021-08-30,Malawi,681196,405896
 2021-08-30,Malaysia,19712636,14989026
@@ -50827,7 +50827,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-31,Djibouti,35396,22849
 2021-08-31,Dominica,22343,20186
 2021-08-31,Dominican Republic,5815574,4658577
-2021-08-31,Ecuador,10699102,8813346
+2021-08-31,Ecuador,10817074,8817252
 2021-08-31,Egypt,5616607,3124398
 2021-08-31,El Salvador,3539933,2758428
 2021-08-31,Equatorial Guinea,197657,148062
@@ -50876,7 +50876,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-31,Libya,951010,52050
 2021-08-31,Liechtenstein,22922,20484
 2021-08-31,Lithuania,1660485,1498456
-2021-08-31,Luxembourg,410784,37846
+2021-08-31,Luxembourg,407232,37846
 2021-08-31,Madagascar,197001,0
 2021-08-31,Malawi,683640,410484
 2021-08-31,Malaysia,19835235,15138379
@@ -51013,7 +51013,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-01,Djibouti,36344,23797
 2021-09-01,Dominica,22343,20186
 2021-09-01,Dominican Republic,5827045,4671784
-2021-09-01,Ecuador,10699102,9005051
+2021-09-01,Ecuador,10817074,8817252
 2021-09-01,Egypt,6182511,3208954
 2021-09-01,El Salvador,3539933,2758428
 2021-09-01,Equatorial Guinea,197657,148062
@@ -51062,7 +51062,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-01,Libya,1071946,58539
 2021-09-01,Liechtenstein,22922,20484
 2021-09-01,Lithuania,1665286,1505173
-2021-09-01,Luxembourg,411306,37846
+2021-09-01,Luxembourg,407679,37846
 2021-09-01,Madagascar,197001,0
 2021-09-01,Malawi,688002,418255
 2021-09-01,Malaysia,20028354,15355795
@@ -51199,7 +51199,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-02,Djibouti,36344,23797
 2021-09-02,Dominica,22343,20186
 2021-09-02,Dominican Republic,5838647,4684130
-2021-09-02,Ecuador,10699102,9005051
+2021-09-02,Ecuador,10817074,8817252
 2021-09-02,Egypt,6182511,3208954
 2021-09-02,El Salvador,3594559,2875693
 2021-09-02,Equatorial Guinea,203304,150322
@@ -51248,7 +51248,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-02,Libya,1071946,58539
 2021-09-02,Liechtenstein,22923,20484
 2021-09-02,Lithuania,1670983,1514455
-2021-09-02,Luxembourg,411866,37846
+2021-09-02,Luxembourg,408186,37846
 2021-09-02,Madagascar,197001,0
 2021-09-02,Malawi,688002,418255
 2021-09-02,Malaysia,20215932,15549736
@@ -51385,7 +51385,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-03,Djibouti,36344,23797
 2021-09-03,Dominica,22559,20278
 2021-09-03,Dominican Republic,5848770,4694576
-2021-09-03,Ecuador,10699102,9005051
+2021-09-03,Ecuador,10817074,8817252
 2021-09-03,Egypt,6182511,3208954
 2021-09-03,El Salvador,3654043,2894776
 2021-09-03,Equatorial Guinea,203304,150322
@@ -51434,7 +51434,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-03,Libya,1071946,58539
 2021-09-03,Liechtenstein,22930,20484
 2021-09-03,Lithuania,1675896,1522233
-2021-09-03,Luxembourg,412608,37846
+2021-09-03,Luxembourg,408872,37846
 2021-09-03,Madagascar,197001,0
 2021-09-03,Malawi,690515,422408
 2021-09-03,Malaysia,20368587,15732889
@@ -51571,7 +51571,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-04,Djibouti,36344,23797
 2021-09-04,Dominica,22559,20278
 2021-09-04,Dominican Republic,5852088,4698661
-2021-09-04,Ecuador,10699102,9263839
+2021-09-04,Ecuador,10817074,8817252
 2021-09-04,Egypt,6182511,3208954
 2021-09-04,El Salvador,3654043,2894776
 2021-09-04,Equatorial Guinea,204222,156224
@@ -51620,7 +51620,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-04,Libya,1071946,58539
 2021-09-04,Liechtenstein,22932,20484
 2021-09-04,Lithuania,1677418,1523486
-2021-09-04,Luxembourg,413067,37846
+2021-09-04,Luxembourg,409285,37846
 2021-09-04,Madagascar,197001,0
 2021-09-04,Malawi,696977,430476
 2021-09-04,Malaysia,20514547,15901901
@@ -51757,7 +51757,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-05,Djibouti,36344,23797
 2021-09-05,Dominica,22559,20278
 2021-09-05,Dominican Republic,5853238,4699926
-2021-09-05,Ecuador,10699102,9323600
+2021-09-05,Ecuador,10817074,8817252
 2021-09-05,Egypt,6913913,3505075
 2021-09-05,El Salvador,3654043,2894776
 2021-09-05,Equatorial Guinea,204222,156224
@@ -51806,7 +51806,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-05,Libya,1071946,58539
 2021-09-05,Liechtenstein,22932,20484
 2021-09-05,Lithuania,1677531,1523616
-2021-09-05,Luxembourg,413155,37846
+2021-09-05,Luxembourg,409365,37846
 2021-09-05,Madagascar,197001,0
 2021-09-05,Malawi,697559,431247
 2021-09-05,Malaysia,20659959,16058616
@@ -51943,7 +51943,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-06,Djibouti,36344,23797
 2021-09-06,Dominica,22559,20278
 2021-09-06,Dominican Republic,5864778,4710022
-2021-09-06,Ecuador,10699102,9404080
+2021-09-06,Ecuador,10817074,8817252
 2021-09-06,Egypt,6913913,3505075
 2021-09-06,El Salvador,3697347,2927769
 2021-09-06,Equatorial Guinea,204222,156224
@@ -51992,7 +51992,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-06,Libya,1071946,58539
 2021-09-06,Liechtenstein,22933,20485
 2021-09-06,Lithuania,1681431,1530566
-2021-09-06,Luxembourg,413617,37846
+2021-09-06,Luxembourg,409794,37846
 2021-09-06,Madagascar,210666,86090
 2021-09-06,Malawi,697824,432188
 2021-09-06,Malaysia,20794976,16243455
@@ -52129,7 +52129,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-07,Djibouti,36344,23797
 2021-09-07,Dominica,22559,20278
 2021-09-07,Dominican Republic,5876522,4721182
-2021-09-07,Ecuador,10699102,9471723
+2021-09-07,Ecuador,10817074,8817252
 2021-09-07,Egypt,6913913,3505075
 2021-09-07,El Salvador,3731756,2960429
 2021-09-07,Equatorial Guinea,204222,156224
@@ -52178,7 +52178,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-07,Libya,1071946,58539
 2021-09-07,Liechtenstein,22942,20636
 2021-09-07,Lithuania,1685423,1536890
-2021-09-07,Luxembourg,414338,37846
+2021-09-07,Luxembourg,410454,37846
 2021-09-07,Madagascar,210666,86090
 2021-09-07,Malawi,701061,435997
 2021-09-07,Malaysia,20934632,16438683
@@ -52315,7 +52315,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-08,Djibouti,36344,23797
 2021-09-08,Dominica,22559,20278
 2021-09-08,Dominican Republic,5888643,4733550
-2021-09-08,Ecuador,10699102,9526478
+2021-09-08,Ecuador,10822280,9530623
 2021-09-08,Egypt,6913913,3505075
 2021-09-08,El Salvador,3731756,2960429
 2021-09-08,Equatorial Guinea,205925,158126
@@ -52364,7 +52364,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-08,Libya,1071946,58539
 2021-09-08,Liechtenstein,22944,20637
 2021-09-08,Lithuania,1689306,1543767
-2021-09-08,Luxembourg,414877,37846
+2021-09-08,Luxembourg,410905,37846
 2021-09-08,Madagascar,210666,86090
 2021-09-08,Malawi,701061,435997
 2021-09-08,Malaysia,21066270,16634298
@@ -52501,7 +52501,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-09,Djibouti,38634,26087
 2021-09-09,Dominica,22559,20278
 2021-09-09,Dominican Republic,5899155,4744602
-2021-09-09,Ecuador,10699102,9573230
+2021-09-09,Ecuador,10838560,9577621
 2021-09-09,Egypt,7076086,3693748
 2021-09-09,El Salvador,3790602,3036403
 2021-09-09,Equatorial Guinea,205925,158126
@@ -52550,7 +52550,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-09,Libya,1163013,111063
 2021-09-09,Liechtenstein,22946,20637
 2021-09-09,Lithuania,1694011,1552363
-2021-09-09,Luxembourg,415502,37846
+2021-09-09,Luxembourg,411483,37846
 2021-09-09,Madagascar,210666,86090
 2021-09-09,Malawi,701061,435997
 2021-09-09,Malaysia,21208611,16824680
@@ -52687,7 +52687,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-10,Djibouti,38634,26087
 2021-09-10,Dominica,22930,20464
 2021-09-10,Dominican Republic,5908816,4754536
-2021-09-10,Ecuador,10699102,9620899
+2021-09-10,Ecuador,10855329,9626101
 2021-09-10,Egypt,7076086,3693748
 2021-09-10,El Salvador,3818524,3074388
 2021-09-10,Equatorial Guinea,207723,159113
@@ -52736,7 +52736,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-10,Libya,1201793,120514
 2021-09-10,Liechtenstein,22964,20936
 2021-09-10,Lithuania,1698916,1560174
-2021-09-10,Luxembourg,416241,37846
+2021-09-10,Luxembourg,412148,37846
 2021-09-10,Madagascar,210666,86090
 2021-09-10,Malawi,707769,448000
 2021-09-10,Malaysia,21328675,17001172
@@ -52873,7 +52873,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-11,Djibouti,38634,26087
 2021-09-11,Dominica,22930,20464
 2021-09-11,Dominican Republic,5912118,4757982
-2021-09-11,Ecuador,10699102,9620899
+2021-09-11,Ecuador,10858515,9635837
 2021-09-11,Egypt,7076086,3693748
 2021-09-11,El Salvador,3818524,3074388
 2021-09-11,Equatorial Guinea,207723,159113
@@ -52922,7 +52922,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-11,Libya,1201793,120514
 2021-09-11,Liechtenstein,22965,20936
 2021-09-11,Lithuania,1700177,1561248
-2021-09-11,Luxembourg,416890,37846
+2021-09-11,Luxembourg,412753,37846
 2021-09-11,Madagascar,210666,86090
 2021-09-11,Malawi,710897,450250
 2021-09-11,Malaysia,21425915,17171724
@@ -53059,7 +53059,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-12,Djibouti,38634,26087
 2021-09-12,Dominica,22930,20464
 2021-09-12,Dominican Republic,5913137,4759116
-2021-09-12,Ecuador,10699102,9620899
+2021-09-12,Ecuador,10860128,9640749
 2021-09-12,Egypt,7076086,3693748
 2021-09-12,El Salvador,3818524,3074388
 2021-09-12,Equatorial Guinea,207723,159113
@@ -53108,7 +53108,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-12,Libya,1201793,120514
 2021-09-12,Liechtenstein,22965,20936
 2021-09-12,Lithuania,1700326,1561334
-2021-09-12,Luxembourg,416918,37846
+2021-09-12,Luxembourg,412780,37846
 2021-09-12,Madagascar,210666,86090
 2021-09-12,Malawi,713014,452402
 2021-09-12,Malaysia,21506294,17322854
@@ -53245,7 +53245,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-13,Djibouti,38634,26087
 2021-09-13,Dominica,22930,20464
 2021-09-13,Dominican Republic,5923466,4769499
-2021-09-13,Ecuador,10699102,9620899
+2021-09-13,Ecuador,10893166,9670730
 2021-09-13,Egypt,7076086,3693748
 2021-09-13,El Salvador,3847187,3107461
 2021-09-13,Equatorial Guinea,210358,159805
@@ -53294,7 +53294,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-13,Libya,1201793,120514
 2021-09-13,Liechtenstein,23596,20940
 2021-09-13,Lithuania,1704714,1568300
-2021-09-13,Luxembourg,416918,37846
+2021-09-13,Luxembourg,412841,37846
 2021-09-13,Madagascar,210666,86090
 2021-09-13,Malawi,718103,457324
 2021-09-13,Malaysia,21576242,17480766
@@ -53431,7 +53431,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-14,Djibouti,38634,26087
 2021-09-14,Dominica,22930,20464
 2021-09-14,Dominican Republic,5934452,4780400
-2021-09-14,Ecuador,10699102,9620899
+2021-09-14,Ecuador,10935808,9702280
 2021-09-14,Egypt,7076086,3693748
 2021-09-14,El Salvador,3861053,3149656
 2021-09-14,Equatorial Guinea,210358,159805
@@ -53480,7 +53480,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-14,Libya,1201793,120514
 2021-09-14,Liechtenstein,23666,21186
 2021-09-14,Lithuania,1708880,1574725
-2021-09-14,Luxembourg,416918,37846
+2021-09-14,Luxembourg,413649,37846
 2021-09-14,Madagascar,210666,86090
 2021-09-14,Malawi,725381,461402
 2021-09-14,Malaysia,21653450,17653079
@@ -53617,7 +53617,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-15,Djibouti,39923,26087
 2021-09-15,Dominica,22930,20464
 2021-09-15,Dominican Republic,5945357,4791169
-2021-09-15,Ecuador,10699102,9727747
+2021-09-15,Ecuador,10987141,9732661
 2021-09-15,Egypt,7743420,4245776
 2021-09-15,El Salvador,3861053,3149656
 2021-09-15,Equatorial Guinea,210358,159805
@@ -53666,7 +53666,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-15,Libya,1246217,135092
 2021-09-15,Liechtenstein,23687,21383
 2021-09-15,Lithuania,1712680,1581219
-2021-09-15,Luxembourg,416918,37846
+2021-09-15,Luxembourg,414110,37846
 2021-09-15,Madagascar,210666,86090
 2021-09-15,Malawi,725381,461402
 2021-09-15,Malaysia,21721344,17833355
@@ -53803,7 +53803,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-16,Djibouti,39923,26087
 2021-09-16,Dominica,22930,20464
 2021-09-16,Dominican Republic,5957432,4802290
-2021-09-16,Ecuador,10699102,9757569
+2021-09-16,Ecuador,11032028,9757569
 2021-09-16,Egypt,7743420,4245776
 2021-09-16,El Salvador,3875388,3190530
 2021-09-16,Equatorial Guinea,210358,159805
@@ -53852,7 +53852,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-16,Libya,1246217,135092
 2021-09-16,Liechtenstein,23699,21383
 2021-09-16,Lithuania,1716766,1588340
-2021-09-16,Luxembourg,416918,37846
+2021-09-16,Luxembourg,414505,399522
 2021-09-16,Madagascar,210666,86090
 2021-09-16,Malawi,737225,466208
 2021-09-16,Malaysia,21786081,17973545
@@ -53989,7 +53989,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-17,Djibouti,39923,26087
 2021-09-17,Dominica,23300,20671
 2021-09-17,Dominican Republic,5970547,4813036
-2021-09-17,Ecuador,10699102,9757569
+2021-09-17,Ecuador,11032028,9757569
 2021-09-17,Egypt,7743420,4245776
 2021-09-17,El Salvador,3875388,3190530
 2021-09-17,Equatorial Guinea,210358,159805
@@ -54010,7 +54010,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-17,Guinea,953942,433757
 2021-09-17,Guinea-Bissau,28097,2993
 2021-09-17,Guyana,341600,176695
-2021-09-17,Haiti,40198,17484
+2021-09-17,Haiti,42494,18535
 2021-09-17,Honduras,2947650,1689501
 2021-09-17,Hungary,5855039,5564586
 2021-09-17,Iceland,281141,274175
@@ -54038,11 +54038,11 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-17,Libya,1246217,135092
 2021-09-17,Liechtenstein,23699,21383
 2021-09-17,Lithuania,1720541,1595670
-2021-09-17,Luxembourg,416918,37846
+2021-09-17,Luxembourg,414577,399522
 2021-09-17,Madagascar,210666,86090
 2021-09-17,Malawi,742169,469604
 2021-09-17,Malaysia,21863951,18135561
-2021-09-17,Maldives,390644,330022
+2021-09-17,Maldives,390672,330306
 2021-09-17,Mali,284052,86477
 2021-09-17,Malta,418618,418036
 2021-09-17,Mauritania,311544,21545
@@ -54139,7 +54139,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-18,Bahamas,105753,65915
 2021-09-18,Bahrain,1160375,1104103
 2021-09-18,Bangladesh,21836090,14462060
-2021-09-18,Barbados,123950,97050
+2021-09-18,Barbados,125925,97580
 2021-09-18,Belarus,1751254,1455251
 2021-09-18,Belgium,8515499,8297278
 2021-09-18,Belize,180196,95523
@@ -54154,7 +54154,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-18,Burkina Faso,166160,102268
 2021-09-18,Burma,4944654,3239764
 2021-09-18,Cabo Verde,272501,94997
-2021-09-18,Cambodia,11608143,10114802
+2021-09-18,Cambodia,11825416,10217045
 2021-09-18,Cameroon,363773,80748
 2021-09-18,Canada,28657928,26345872
 2021-09-18,Central African Republic,102591,9901
@@ -54175,7 +54175,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-18,Djibouti,39923,26087
 2021-09-18,Dominica,23300,20671
 2021-09-18,Dominican Republic,5974744,4816740
-2021-09-18,Ecuador,10699102,9757569
+2021-09-18,Ecuador,11032028,9757569
 2021-09-18,Egypt,7743420,4245776
 2021-09-18,El Salvador,3875388,3190530
 2021-09-18,Equatorial Guinea,210358,159805
@@ -54196,7 +54196,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-18,Guinea,953942,433757
 2021-09-18,Guinea-Bissau,28097,2993
 2021-09-18,Guyana,341600,176695
-2021-09-18,Haiti,40198,17484
+2021-09-18,Haiti,42494,18535
 2021-09-18,Honduras,2947650,1689501
 2021-09-18,Hungary,5855039,5564586
 2021-09-18,Iceland,281141,274175
@@ -54224,11 +54224,11 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-18,Libya,1246217,135092
 2021-09-18,Liechtenstein,23699,21383
 2021-09-18,Lithuania,1721360,1596432
-2021-09-18,Luxembourg,416918,37846
+2021-09-18,Luxembourg,414577,399522
 2021-09-18,Madagascar,210666,86090
-2021-09-18,Malawi,748937,473443
+2021-09-18,Malawi,747312,471299
 2021-09-18,Malaysia,21941842,18295014
-2021-09-18,Maldives,390644,330022
+2021-09-18,Maldives,390965,331405
 2021-09-18,Mali,284052,86477
 2021-09-18,Malta,418730,418230
 2021-09-18,Mauritania,311544,21545
@@ -54295,7 +54295,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-18,Timor-Leste,408918,234406
 2021-09-18,Togo,414249,237692
 2021-09-18,Trinidad and Tobago,557693,462338
-2021-09-18,Tunisia,4610453,3128815
+2021-09-18,Tunisia,4656510,3209273
 2021-09-18,Turkey,52601310,41902917
 2021-09-18,USA,211489242,181035022
 2021-09-18,Uganda,1030447,366658
@@ -54325,7 +54325,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-19,Bahamas,105753,65915
 2021-09-19,Bahrain,1160955,1105321
 2021-09-19,Bangladesh,22148103,14684688
-2021-09-19,Barbados,123950,97050
+2021-09-19,Barbados,125925,97580
 2021-09-19,Belarus,1751254,1455251
 2021-09-19,Belgium,8515499,8297278
 2021-09-19,Belize,180196,95523
@@ -54340,7 +54340,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-19,Burkina Faso,166160,102268
 2021-09-19,Burma,4944654,3239764
 2021-09-19,Cabo Verde,272501,94997
-2021-09-19,Cambodia,11608143,10114802
+2021-09-19,Cambodia,12049739,10304104
 2021-09-19,Cameroon,363773,80748
 2021-09-19,Canada,28679898,26380463
 2021-09-19,Central African Republic,102591,9901
@@ -54361,13 +54361,13 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-19,Djibouti,39923,26087
 2021-09-19,Dominica,23300,20671
 2021-09-19,Dominican Republic,5974744,4816740
-2021-09-19,Ecuador,10699102,9757569
+2021-09-19,Ecuador,11032028,9757569
 2021-09-19,Egypt,7743420,4245776
 2021-09-19,El Salvador,3907613,3246234
 2021-09-19,Equatorial Guinea,210358,159805
 2021-09-19,Estonia,748329,586559
 2021-09-19,Eswatini,180709,172985
-2021-09-19,Ethiopia,2414934,551375
+2021-09-19,Ethiopia,2442551,576319
 2021-09-19,Fiji,569958,342191
 2021-09-19,Finland,4104178,3270303
 2021-09-19,France,49707676,43042655
@@ -54382,7 +54382,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-19,Guinea,953942,433757
 2021-09-19,Guinea-Bissau,28097,2993
 2021-09-19,Guyana,341600,176695
-2021-09-19,Haiti,40198,17484
+2021-09-19,Haiti,42494,18535
 2021-09-19,Honduras,2947650,1689501
 2021-09-19,Hungary,5859814,5571043
 2021-09-19,Iceland,281141,274175
@@ -54410,11 +54410,11 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-19,Libya,1246217,135092
 2021-09-19,Liechtenstein,23699,21383
 2021-09-19,Lithuania,1721489,1596523
-2021-09-19,Luxembourg,416918,37846
+2021-09-19,Luxembourg,414577,399522
 2021-09-19,Madagascar,210666,86090
 2021-09-19,Malawi,748937,473443
 2021-09-19,Malaysia,22003333,18453322
-2021-09-19,Maldives,390644,330022
+2021-09-19,Maldives,390965,331405
 2021-09-19,Mali,284052,86477
 2021-09-19,Malta,418730,418230
 2021-09-19,Mauritania,311544,21545
@@ -54464,7 +54464,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-19,Slovenia,1088171,968679
 2021-09-19,Solomon Islands,74573,23171
 2021-09-19,Somalia,231089,120216
-2021-09-19,South Africa,11367049,7734069
+2021-09-19,South Africa,11579000,7911171
 2021-09-19,South Korea,35414516,21489009
 2021-09-19,South Sudan,55182,11927
 2021-09-19,Spain,37385758,35784743
@@ -54481,7 +54481,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-19,Timor-Leste,408918,234406
 2021-09-19,Togo,414249,237692
 2021-09-19,Trinidad and Tobago,558486,463504
-2021-09-19,Tunisia,4610453,3128815
+2021-09-19,Tunisia,4656510,3209273
 2021-09-19,Turkey,52672498,42024517
 2021-09-19,USA,211776515,181382976
 2021-09-19,Uganda,1030447,366658
