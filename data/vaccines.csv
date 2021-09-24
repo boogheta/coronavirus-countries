@@ -649,7 +649,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-04,Kuwait,0,0
 2020-12-04,Kyrgyzstan,0,0
 2020-12-04,Laos,0,0
-2020-12-04,Latvia,0,0
+2020-12-04,Latvia,1,0
 2020-12-04,Lebanon,0,0
 2020-12-04,Lesotho,0,0
 2020-12-04,Liberia,0,0
@@ -835,7 +835,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-05,Kuwait,0,0
 2020-12-05,Kyrgyzstan,0,0
 2020-12-05,Laos,0,0
-2020-12-05,Latvia,0,0
+2020-12-05,Latvia,1,0
 2020-12-05,Lebanon,0,0
 2020-12-05,Lesotho,0,0
 2020-12-05,Liberia,0,0
@@ -1021,7 +1021,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-06,Kuwait,0,0
 2020-12-06,Kyrgyzstan,0,0
 2020-12-06,Laos,0,0
-2020-12-06,Latvia,0,0
+2020-12-06,Latvia,1,0
 2020-12-06,Lebanon,0,0
 2020-12-06,Lesotho,0,0
 2020-12-06,Liberia,0,0
@@ -1207,7 +1207,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-07,Kuwait,0,0
 2020-12-07,Kyrgyzstan,0,0
 2020-12-07,Laos,0,0
-2020-12-07,Latvia,0,0
+2020-12-07,Latvia,1,0
 2020-12-07,Lebanon,0,0
 2020-12-07,Lesotho,0,0
 2020-12-07,Liberia,0,0
@@ -1393,7 +1393,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-08,Kuwait,0,0
 2020-12-08,Kyrgyzstan,0,0
 2020-12-08,Laos,0,0
-2020-12-08,Latvia,0,0
+2020-12-08,Latvia,1,0
 2020-12-08,Lebanon,0,0
 2020-12-08,Lesotho,0,0
 2020-12-08,Liberia,0,0
@@ -1579,7 +1579,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-09,Kuwait,0,0
 2020-12-09,Kyrgyzstan,0,0
 2020-12-09,Laos,0,0
-2020-12-09,Latvia,0,0
+2020-12-09,Latvia,2,0
 2020-12-09,Lebanon,0,0
 2020-12-09,Lesotho,0,0
 2020-12-09,Liberia,0,0
@@ -1765,7 +1765,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-10,Kuwait,0,0
 2020-12-10,Kyrgyzstan,0,0
 2020-12-10,Laos,0,0
-2020-12-10,Latvia,0,0
+2020-12-10,Latvia,2,0
 2020-12-10,Lebanon,0,0
 2020-12-10,Lesotho,0,0
 2020-12-10,Liberia,0,0
@@ -1951,7 +1951,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-11,Kuwait,0,0
 2020-12-11,Kyrgyzstan,0,0
 2020-12-11,Laos,0,0
-2020-12-11,Latvia,0,0
+2020-12-11,Latvia,2,0
 2020-12-11,Lebanon,0,0
 2020-12-11,Lesotho,0,0
 2020-12-11,Liberia,0,0
@@ -2137,7 +2137,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-12,Kuwait,0,0
 2020-12-12,Kyrgyzstan,0,0
 2020-12-12,Laos,0,0
-2020-12-12,Latvia,0,0
+2020-12-12,Latvia,2,0
 2020-12-12,Lebanon,0,0
 2020-12-12,Lesotho,0,0
 2020-12-12,Liberia,0,0
@@ -2323,7 +2323,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-13,Kuwait,0,0
 2020-12-13,Kyrgyzstan,0,0
 2020-12-13,Laos,0,0
-2020-12-13,Latvia,0,0
+2020-12-13,Latvia,2,0
 2020-12-13,Lebanon,0,0
 2020-12-13,Lesotho,0,0
 2020-12-13,Liberia,0,0
@@ -2509,7 +2509,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-14,Kuwait,0,0
 2020-12-14,Kyrgyzstan,0,0
 2020-12-14,Laos,0,0
-2020-12-14,Latvia,0,0
+2020-12-14,Latvia,2,0
 2020-12-14,Lebanon,0,0
 2020-12-14,Lesotho,0,0
 2020-12-14,Liberia,0,0
@@ -2695,7 +2695,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-15,Kuwait,0,0
 2020-12-15,Kyrgyzstan,0,0
 2020-12-15,Laos,0,0
-2020-12-15,Latvia,0,0
+2020-12-15,Latvia,3,0
 2020-12-15,Lebanon,0,0
 2020-12-15,Lesotho,0,0
 2020-12-15,Liberia,0,0
@@ -2881,7 +2881,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-16,Kuwait,0,0
 2020-12-16,Kyrgyzstan,0,0
 2020-12-16,Laos,0,0
-2020-12-16,Latvia,0,0
+2020-12-16,Latvia,4,0
 2020-12-16,Lebanon,0,0
 2020-12-16,Lesotho,0,0
 2020-12-16,Liberia,0,0
@@ -3067,7 +3067,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-17,Kuwait,0,0
 2020-12-17,Kyrgyzstan,0,0
 2020-12-17,Laos,0,0
-2020-12-17,Latvia,0,0
+2020-12-17,Latvia,4,0
 2020-12-17,Lebanon,0,0
 2020-12-17,Lesotho,0,0
 2020-12-17,Liberia,0,0
@@ -3253,7 +3253,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-18,Kuwait,0,0
 2020-12-18,Kyrgyzstan,0,0
 2020-12-18,Laos,0,0
-2020-12-18,Latvia,0,0
+2020-12-18,Latvia,7,0
 2020-12-18,Lebanon,0,0
 2020-12-18,Lesotho,0,0
 2020-12-18,Liberia,0,0
@@ -3439,7 +3439,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-19,Kuwait,0,0
 2020-12-19,Kyrgyzstan,0,0
 2020-12-19,Laos,0,0
-2020-12-19,Latvia,0,0
+2020-12-19,Latvia,7,0
 2020-12-19,Lebanon,0,0
 2020-12-19,Lesotho,0,0
 2020-12-19,Liberia,0,0
@@ -3625,7 +3625,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-20,Kuwait,0,0
 2020-12-20,Kyrgyzstan,0,0
 2020-12-20,Laos,0,0
-2020-12-20,Latvia,0,0
+2020-12-20,Latvia,11,0
 2020-12-20,Lebanon,0,0
 2020-12-20,Lesotho,0,0
 2020-12-20,Liberia,0,0
@@ -3811,7 +3811,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-21,Kuwait,0,0
 2020-12-21,Kyrgyzstan,0,0
 2020-12-21,Laos,0,0
-2020-12-21,Latvia,0,0
+2020-12-21,Latvia,14,0
 2020-12-21,Lebanon,0,0
 2020-12-21,Lesotho,0,0
 2020-12-21,Liberia,0,0
@@ -3997,7 +3997,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-22,Kuwait,0,0
 2020-12-22,Kyrgyzstan,0,0
 2020-12-22,Laos,0,0
-2020-12-22,Latvia,0,0
+2020-12-22,Latvia,18,0
 2020-12-22,Lebanon,0,0
 2020-12-22,Lesotho,0,0
 2020-12-22,Liberia,0,0
@@ -4183,7 +4183,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-23,Kuwait,0,0
 2020-12-23,Kyrgyzstan,0,0
 2020-12-23,Laos,0,0
-2020-12-23,Latvia,0,0
+2020-12-23,Latvia,21,0
 2020-12-23,Lebanon,0,0
 2020-12-23,Lesotho,0,0
 2020-12-23,Liberia,0,0
@@ -4369,7 +4369,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-24,Kuwait,0,0
 2020-12-24,Kyrgyzstan,0,0
 2020-12-24,Laos,0,0
-2020-12-24,Latvia,0,0
+2020-12-24,Latvia,24,0
 2020-12-24,Lebanon,0,0
 2020-12-24,Lesotho,0,0
 2020-12-24,Liberia,0,0
@@ -4555,7 +4555,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-25,Kuwait,0,0
 2020-12-25,Kyrgyzstan,0,0
 2020-12-25,Laos,0,0
-2020-12-25,Latvia,0,0
+2020-12-25,Latvia,24,0
 2020-12-25,Lebanon,0,0
 2020-12-25,Lesotho,0,0
 2020-12-25,Liberia,0,0
@@ -4741,7 +4741,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-26,Kuwait,0,0
 2020-12-26,Kyrgyzstan,0,0
 2020-12-26,Laos,0,0
-2020-12-26,Latvia,0,0
+2020-12-26,Latvia,27,0
 2020-12-26,Lebanon,0,0
 2020-12-26,Lesotho,0,0
 2020-12-26,Liberia,0,0
@@ -4927,7 +4927,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-27,Kuwait,0,0
 2020-12-27,Kyrgyzstan,0,0
 2020-12-27,Laos,0,0
-2020-12-27,Latvia,0,0
+2020-12-27,Latvia,32,0
 2020-12-27,Lebanon,0,0
 2020-12-27,Lesotho,0,0
 2020-12-27,Liberia,0,0
@@ -5113,7 +5113,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-28,Kuwait,0,0
 2020-12-28,Kyrgyzstan,0,0
 2020-12-28,Laos,0,0
-2020-12-28,Latvia,595,0
+2020-12-28,Latvia,638,0
 2020-12-28,Lebanon,0,0
 2020-12-28,Lesotho,0,0
 2020-12-28,Liberia,0,0
@@ -5299,7 +5299,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-29,Kuwait,0,0
 2020-12-29,Kyrgyzstan,0,0
 2020-12-29,Laos,0,0
-2020-12-29,Latvia,1468,0
+2020-12-29,Latvia,1517,0
 2020-12-29,Lebanon,0,0
 2020-12-29,Lesotho,0,0
 2020-12-29,Liberia,0,0
@@ -5485,7 +5485,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-30,Kuwait,0,0
 2020-12-30,Kyrgyzstan,0,0
 2020-12-30,Laos,0,0
-2020-12-30,Latvia,2261,0
+2020-12-30,Latvia,2318,0
 2020-12-30,Lebanon,0,0
 2020-12-30,Lesotho,0,0
 2020-12-30,Liberia,0,0
@@ -5671,7 +5671,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-31,Kuwait,0,0
 2020-12-31,Kyrgyzstan,0,0
 2020-12-31,Laos,0,0
-2020-12-31,Latvia,2261,0
+2020-12-31,Latvia,2325,0
 2020-12-31,Lebanon,0,0
 2020-12-31,Lesotho,0,0
 2020-12-31,Liberia,0,0
@@ -5857,7 +5857,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-01,Kuwait,0,0
 2021-01-01,Kyrgyzstan,0,0
 2021-01-01,Laos,0,0
-2021-01-01,Latvia,2261,0
+2021-01-01,Latvia,2332,1
 2021-01-01,Lebanon,0,0
 2021-01-01,Lesotho,0,0
 2021-01-01,Liberia,0,0
@@ -6043,7 +6043,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-02,Kuwait,0,0
 2021-01-02,Kyrgyzstan,0,0
 2021-01-02,Laos,0,0
-2021-01-02,Latvia,2261,0
+2021-01-02,Latvia,2334,1
 2021-01-02,Lebanon,0,0
 2021-01-02,Lesotho,0,0
 2021-01-02,Liberia,0,0
@@ -6229,7 +6229,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-03,Kuwait,0,0
 2021-01-03,Kyrgyzstan,0,0
 2021-01-03,Laos,0,0
-2021-01-03,Latvia,2261,0
+2021-01-03,Latvia,2338,1
 2021-01-03,Lebanon,0,0
 2021-01-03,Lesotho,0,0
 2021-01-03,Liberia,0,0
@@ -6415,7 +6415,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-04,Kuwait,0,0
 2021-01-04,Kyrgyzstan,0,0
 2021-01-04,Laos,0,0
-2021-01-04,Latvia,2960,0
+2021-01-04,Latvia,3044,1
 2021-01-04,Lebanon,0,0
 2021-01-04,Lesotho,0,0
 2021-01-04,Liberia,0,0
@@ -6601,7 +6601,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-05,Kuwait,0,0
 2021-01-05,Kyrgyzstan,0,0
 2021-01-05,Laos,0,0
-2021-01-05,Latvia,3848,0
+2021-01-05,Latvia,3941,1
 2021-01-05,Lebanon,0,0
 2021-01-05,Lesotho,0,0
 2021-01-05,Liberia,0,0
@@ -6787,7 +6787,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-06,Kuwait,0,0
 2021-01-06,Kyrgyzstan,0,0
 2021-01-06,Laos,0,0
-2021-01-06,Latvia,4624,0
+2021-01-06,Latvia,4721,4
 2021-01-06,Lebanon,0,0
 2021-01-06,Lesotho,0,0
 2021-01-06,Liberia,0,0
@@ -6973,7 +6973,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-07,Kuwait,0,0
 2021-01-07,Kyrgyzstan,0,0
 2021-01-07,Laos,0,0
-2021-01-07,Latvia,5433,0
+2021-01-07,Latvia,5534,4
 2021-01-07,Lebanon,0,0
 2021-01-07,Lesotho,0,0
 2021-01-07,Liberia,0,0
@@ -7159,7 +7159,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-08,Kuwait,0,0
 2021-01-08,Kyrgyzstan,0,0
 2021-01-08,Laos,0,0
-2021-01-08,Latvia,6340,0
+2021-01-08,Latvia,6450,7
 2021-01-08,Lebanon,0,0
 2021-01-08,Lesotho,0,0
 2021-01-08,Liberia,0,0
@@ -7345,7 +7345,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-09,Kuwait,0,0
 2021-01-09,Kyrgyzstan,0,0
 2021-01-09,Laos,0,0
-2021-01-09,Latvia,6645,0
+2021-01-09,Latvia,6761,7
 2021-01-09,Lebanon,0,0
 2021-01-09,Lesotho,0,0
 2021-01-09,Liberia,0,0
@@ -7531,7 +7531,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-10,Kuwait,0,0
 2021-01-10,Kyrgyzstan,0,0
 2021-01-10,Laos,0,0
-2021-01-10,Latvia,6981,0
+2021-01-10,Latvia,7097,8
 2021-01-10,Lebanon,0,0
 2021-01-10,Lesotho,0,0
 2021-01-10,Liberia,0,0
@@ -7717,7 +7717,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-11,Kuwait,0,0
 2021-01-11,Kyrgyzstan,0,0
 2021-01-11,Laos,0,0
-2021-01-11,Latvia,8348,0
+2021-01-11,Latvia,8472,8
 2021-01-11,Lebanon,0,0
 2021-01-11,Lesotho,0,0
 2021-01-11,Liberia,0,0
@@ -7903,7 +7903,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-12,Kuwait,0,0
 2021-01-12,Kyrgyzstan,0,0
 2021-01-12,Laos,0,0
-2021-01-12,Latvia,9975,0
+2021-01-12,Latvia,10108,10
 2021-01-12,Lebanon,0,0
 2021-01-12,Lesotho,0,0
 2021-01-12,Liberia,0,0
@@ -8089,7 +8089,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-13,Kuwait,0,0
 2021-01-13,Kyrgyzstan,0,0
 2021-01-13,Laos,0,0
-2021-01-13,Latvia,11487,0
+2021-01-13,Latvia,11627,15
 2021-01-13,Lebanon,0,0
 2021-01-13,Lesotho,0,0
 2021-01-13,Liberia,0,0
@@ -8275,7 +8275,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-14,Kuwait,0,0
 2021-01-14,Kyrgyzstan,0,0
 2021-01-14,Laos,0,0
-2021-01-14,Latvia,13311,0
+2021-01-14,Latvia,13465,19
 2021-01-14,Lebanon,0,0
 2021-01-14,Lesotho,0,0
 2021-01-14,Liberia,0,0
@@ -8461,7 +8461,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-15,Kuwait,0,0
 2021-01-15,Kyrgyzstan,0,0
 2021-01-15,Laos,0,0
-2021-01-15,Latvia,15185,0
+2021-01-15,Latvia,15344,19
 2021-01-15,Lebanon,0,0
 2021-01-15,Lesotho,0,0
 2021-01-15,Liberia,0,0
@@ -8647,7 +8647,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-16,Kuwait,0,0
 2021-01-16,Kyrgyzstan,0,0
 2021-01-16,Laos,0,0
-2021-01-16,Latvia,15852,0
+2021-01-16,Latvia,16017,20
 2021-01-16,Lebanon,0,0
 2021-01-16,Lesotho,0,0
 2021-01-16,Liberia,0,0
@@ -8833,7 +8833,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-17,Kuwait,0,0
 2021-01-17,Kyrgyzstan,0,0
 2021-01-17,Laos,0,0
-2021-01-17,Latvia,15969,0
+2021-01-17,Latvia,16138,25
 2021-01-17,Lebanon,0,0
 2021-01-17,Lesotho,0,0
 2021-01-17,Liberia,0,0
@@ -9019,7 +9019,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-18,Kuwait,0,0
 2021-01-18,Kyrgyzstan,0,0
 2021-01-18,Laos,0,0
-2021-01-18,Latvia,16242,575
+2021-01-18,Latvia,16413,608
 2021-01-18,Lebanon,0,0
 2021-01-18,Lesotho,0,0
 2021-01-18,Liberia,0,0
@@ -9205,7 +9205,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-19,Kuwait,0,0
 2021-01-19,Kyrgyzstan,0,0
 2021-01-19,Laos,0,0
-2021-01-19,Latvia,16314,1380
+2021-01-19,Latvia,16492,1417
 2021-01-19,Lebanon,0,0
 2021-01-19,Lesotho,0,0
 2021-01-19,Liberia,0,0
@@ -9391,7 +9391,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-20,Kuwait,0,0
 2021-01-20,Kyrgyzstan,0,0
 2021-01-20,Laos,0,0
-2021-01-20,Latvia,16333,2134
+2021-01-20,Latvia,16519,2178
 2021-01-20,Lebanon,0,0
 2021-01-20,Lesotho,0,0
 2021-01-20,Liberia,0,0
@@ -9577,7 +9577,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-21,Kuwait,0,0
 2021-01-21,Kyrgyzstan,0,0
 2021-01-21,Laos,0,0
-2021-01-21,Latvia,16599,2147
+2021-01-21,Latvia,16792,2199
 2021-01-21,Lebanon,0,0
 2021-01-21,Lesotho,0,0
 2021-01-21,Liberia,0,0
@@ -9763,7 +9763,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-22,Kuwait,0,0
 2021-01-22,Kyrgyzstan,0,0
 2021-01-22,Laos,0,0
-2021-01-22,Latvia,16798,2164
+2021-01-22,Latvia,17000,2222
 2021-01-22,Lebanon,0,0
 2021-01-22,Lesotho,0,0
 2021-01-22,Liberia,0,0
@@ -9949,7 +9949,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-23,Kuwait,0,0
 2021-01-23,Kyrgyzstan,0,0
 2021-01-23,Laos,0,0
-2021-01-23,Latvia,16924,2164
+2021-01-23,Latvia,17132,2224
 2021-01-23,Lebanon,0,0
 2021-01-23,Lesotho,0,0
 2021-01-23,Liberia,0,0
@@ -10135,7 +10135,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-24,Kuwait,0,0
 2021-01-24,Kyrgyzstan,0,0
 2021-01-24,Laos,0,0
-2021-01-24,Latvia,16924,2164
+2021-01-24,Latvia,17132,2229
 2021-01-24,Lebanon,0,0
 2021-01-24,Lesotho,0,0
 2021-01-24,Liberia,0,0
@@ -10321,7 +10321,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-25,Kuwait,0,0
 2021-01-25,Kyrgyzstan,0,0
 2021-01-25,Laos,0,0
-2021-01-25,Latvia,16943,2813
+2021-01-25,Latvia,17158,2882
 2021-01-25,Lebanon,0,0
 2021-01-25,Lesotho,0,0
 2021-01-25,Liberia,0,0
@@ -10507,7 +10507,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-26,Kuwait,0,0
 2021-01-26,Kyrgyzstan,0,0
 2021-01-26,Laos,0,0
-2021-01-26,Latvia,16973,3634
+2021-01-26,Latvia,17194,3712
 2021-01-26,Lebanon,0,0
 2021-01-26,Lesotho,0,0
 2021-01-26,Liberia,0,0
@@ -10693,7 +10693,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-27,Kuwait,0,0
 2021-01-27,Kyrgyzstan,0,0
 2021-01-27,Laos,0,0
-2021-01-27,Latvia,17054,4376
+2021-01-27,Latvia,17283,4461
 2021-01-27,Lebanon,0,0
 2021-01-27,Lesotho,0,0
 2021-01-27,Liberia,0,0
@@ -10879,7 +10879,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-28,Kuwait,0,0
 2021-01-28,Kyrgyzstan,0,0
 2021-01-28,Laos,0,0
-2021-01-28,Latvia,17083,5129
+2021-01-28,Latvia,17320,5218
 2021-01-28,Lebanon,0,0
 2021-01-28,Lesotho,0,0
 2021-01-28,Liberia,0,0
@@ -11065,7 +11065,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-29,Kuwait,0,0
 2021-01-29,Kyrgyzstan,0,0
 2021-01-29,Laos,0,0
-2021-01-29,Latvia,17135,6042
+2021-01-29,Latvia,17376,6132
 2021-01-29,Lebanon,0,0
 2021-01-29,Lesotho,0,0
 2021-01-29,Liberia,0,0
@@ -11251,7 +11251,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-30,Kuwait,0,0
 2021-01-30,Kyrgyzstan,0,0
 2021-01-30,Laos,0,0
-2021-01-30,Latvia,17139,6346
+2021-01-30,Latvia,17388,6440
 2021-01-30,Lebanon,0,0
 2021-01-30,Lesotho,0,0
 2021-01-30,Liberia,0,0
@@ -11437,7 +11437,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-31,Kuwait,0,0
 2021-01-31,Kyrgyzstan,0,0
 2021-01-31,Laos,0,0
-2021-01-31,Latvia,17139,6680
+2021-01-31,Latvia,17399,6778
 2021-01-31,Lebanon,0,0
 2021-01-31,Lesotho,0,0
 2021-01-31,Liberia,0,0
@@ -11623,7 +11623,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-01,Kuwait,0,0
 2021-02-01,Kyrgyzstan,0,0
 2021-02-01,Laos,0,0
-2021-02-01,Latvia,17152,7853
+2021-02-01,Latvia,17420,7954
 2021-02-01,Lebanon,0,0
 2021-02-01,Lesotho,0,0
 2021-02-01,Liberia,0,0
@@ -11809,7 +11809,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-02,Kuwait,0,0
 2021-02-02,Kyrgyzstan,0,0
 2021-02-02,Laos,0,0
-2021-02-02,Latvia,17289,9531
+2021-02-02,Latvia,17567,9636
 2021-02-02,Lebanon,0,0
 2021-02-02,Lesotho,0,0
 2021-02-02,Liberia,0,0
@@ -11995,7 +11995,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-03,Kuwait,0,0
 2021-02-03,Kyrgyzstan,0,0
 2021-02-03,Laos,0,0
-2021-02-03,Latvia,17533,10909
+2021-02-03,Latvia,17820,11018
 2021-02-03,Lebanon,0,0
 2021-02-03,Lesotho,0,0
 2021-02-03,Liberia,0,0
@@ -12181,7 +12181,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-04,Kuwait,0,0
 2021-02-04,Kyrgyzstan,0,0
 2021-02-04,Laos,0,0
-2021-02-04,Latvia,17673,12275
+2021-02-04,Latvia,17964,12388
 2021-02-04,Lebanon,0,0
 2021-02-04,Lesotho,0,0
 2021-02-04,Liberia,0,0
@@ -12367,7 +12367,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-05,Kuwait,0,0
 2021-02-05,Kyrgyzstan,0,0
 2021-02-05,Laos,0,0
-2021-02-05,Latvia,17834,13782
+2021-02-05,Latvia,18132,13896
 2021-02-05,Lebanon,0,0
 2021-02-05,Lesotho,0,0
 2021-02-05,Liberia,0,0
@@ -12553,7 +12553,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-06,Kuwait,0,0
 2021-02-06,Kyrgyzstan,0,0
 2021-02-06,Laos,0,0
-2021-02-06,Latvia,17843,14343
+2021-02-06,Latvia,18148,14457
 2021-02-06,Lebanon,0,0
 2021-02-06,Lesotho,0,0
 2021-02-06,Liberia,0,0
@@ -12739,7 +12739,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-07,Kuwait,0,0
 2021-02-07,Kyrgyzstan,0,0
 2021-02-07,Laos,0,0
-2021-02-07,Latvia,17845,14466
+2021-02-07,Latvia,18154,14581
 2021-02-07,Lebanon,0,0
 2021-02-07,Lesotho,0,0
 2021-02-07,Liberia,0,0
@@ -12925,7 +12925,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-08,Kuwait,0,0
 2021-02-08,Kyrgyzstan,0,0
 2021-02-08,Laos,0,0
-2021-02-08,Latvia,18101,14621
+2021-02-08,Latvia,18416,14740
 2021-02-08,Lebanon,0,0
 2021-02-08,Lesotho,0,0
 2021-02-08,Liberia,0,0
@@ -13111,7 +13111,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-09,Kuwait,0,0
 2021-02-09,Kyrgyzstan,0,0
 2021-02-09,Laos,0,0
-2021-02-09,Latvia,18241,14664
+2021-02-09,Latvia,18561,14787
 2021-02-09,Lebanon,0,0
 2021-02-09,Lesotho,0,0
 2021-02-09,Liberia,0,0
@@ -13297,7 +13297,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-10,Kuwait,0,0
 2021-02-10,Kyrgyzstan,0,0
 2021-02-10,Laos,0,0
-2021-02-10,Latvia,18669,14863
+2021-02-10,Latvia,19005,14995
 2021-02-10,Lebanon,0,0
 2021-02-10,Lesotho,0,0
 2021-02-10,Liberia,0,0
@@ -13483,7 +13483,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-11,Kuwait,0,0
 2021-02-11,Kyrgyzstan,0,0
 2021-02-11,Laos,0,0
-2021-02-11,Latvia,19766,15545
+2021-02-11,Latvia,20118,15687
 2021-02-11,Lebanon,0,0
 2021-02-11,Lesotho,0,0
 2021-02-11,Liberia,0,0
@@ -13669,7 +13669,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-12,Kuwait,0,0
 2021-02-12,Kyrgyzstan,0,0
 2021-02-12,Laos,0,0
-2021-02-12,Latvia,20936,16102
+2021-02-12,Latvia,21308,16251
 2021-02-12,Lebanon,0,0
 2021-02-12,Lesotho,0,0
 2021-02-12,Liberia,0,0
@@ -13855,7 +13855,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-13,Kuwait,0,0
 2021-02-13,Kyrgyzstan,0,0
 2021-02-13,Laos,0,0
-2021-02-13,Latvia,21160,16279
+2021-02-13,Latvia,21537,16428
 2021-02-13,Lebanon,0,0
 2021-02-13,Lesotho,0,0
 2021-02-13,Liberia,0,0
@@ -14041,7 +14041,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-14,Kuwait,0,0
 2021-02-14,Kyrgyzstan,0,0
 2021-02-14,Laos,0,0
-2021-02-14,Latvia,21161,16299
+2021-02-14,Latvia,21546,16450
 2021-02-14,Lebanon,0,0
 2021-02-14,Lesotho,0,0
 2021-02-14,Liberia,0,0
@@ -14227,7 +14227,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-15,Kuwait,137000,38000
 2021-02-15,Kyrgyzstan,0,0
 2021-02-15,Laos,0,0
-2021-02-15,Latvia,21875,16454
+2021-02-15,Latvia,22274,16606
 2021-02-15,Lebanon,0,0
 2021-02-15,Lesotho,0,0
 2021-02-15,Liberia,0,0
@@ -14413,7 +14413,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-16,Kuwait,137000,38000
 2021-02-16,Kyrgyzstan,0,0
 2021-02-16,Laos,0,0
-2021-02-16,Latvia,23177,16530
+2021-02-16,Latvia,23597,16686
 2021-02-16,Lebanon,0,0
 2021-02-16,Lesotho,0,0
 2021-02-16,Liberia,0,0
@@ -14599,7 +14599,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-17,Kuwait,137000,38000
 2021-02-17,Kyrgyzstan,0,0
 2021-02-17,Laos,0,0
-2021-02-17,Latvia,24969,16709
+2021-02-17,Latvia,25433,16868
 2021-02-17,Lebanon,0,0
 2021-02-17,Lesotho,0,0
 2021-02-17,Liberia,0,0
@@ -14785,7 +14785,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-18,Kuwait,137000,38000
 2021-02-18,Kyrgyzstan,0,0
 2021-02-18,Laos,0,0
-2021-02-18,Latvia,26462,16764
+2021-02-18,Latvia,26937,16926
 2021-02-18,Lebanon,0,0
 2021-02-18,Lesotho,0,0
 2021-02-18,Liberia,0,0
@@ -14971,7 +14971,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-19,Kuwait,137000,38000
 2021-02-19,Kyrgyzstan,0,0
 2021-02-19,Laos,0,0
-2021-02-19,Latvia,27767,16821
+2021-02-19,Latvia,28264,16985
 2021-02-19,Lebanon,0,0
 2021-02-19,Lesotho,0,0
 2021-02-19,Liberia,0,0
@@ -15157,7 +15157,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-20,Kuwait,137000,38000
 2021-02-20,Kyrgyzstan,0,0
 2021-02-20,Laos,0,0
-2021-02-20,Latvia,28489,16840
+2021-02-20,Latvia,28998,17007
 2021-02-20,Lebanon,0,0
 2021-02-20,Lesotho,0,0
 2021-02-20,Liberia,0,0
@@ -15343,7 +15343,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-21,Kuwait,137000,38000
 2021-02-21,Kyrgyzstan,0,0
 2021-02-21,Laos,0,0
-2021-02-21,Latvia,29296,16840
+2021-02-21,Latvia,29812,17010
 2021-02-21,Lebanon,0,0
 2021-02-21,Lesotho,0,0
 2021-02-21,Liberia,0,0
@@ -15529,7 +15529,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-22,Kuwait,137000,38000
 2021-02-22,Kyrgyzstan,0,0
 2021-02-22,Laos,0,0
-2021-02-22,Latvia,30962,16870
+2021-02-22,Latvia,31571,17045
 2021-02-22,Lebanon,0,0
 2021-02-22,Lesotho,0,0
 2021-02-22,Liberia,0,0
@@ -15715,7 +15715,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-23,Kuwait,137000,38000
 2021-02-23,Kyrgyzstan,0,0
 2021-02-23,Laos,0,0
-2021-02-23,Latvia,33202,16899
+2021-02-23,Latvia,33949,17078
 2021-02-23,Lebanon,0,0
 2021-02-23,Lesotho,0,0
 2021-02-23,Liberia,0,0
@@ -15901,7 +15901,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-24,Kuwait,137000,38000
 2021-02-24,Kyrgyzstan,0,0
 2021-02-24,Laos,0,0
-2021-02-24,Latvia,37428,16931
+2021-02-24,Latvia,38250,17119
 2021-02-24,Lebanon,0,0
 2021-02-24,Lesotho,0,0
 2021-02-24,Liberia,0,0
@@ -16087,7 +16087,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-25,Kuwait,137000,38000
 2021-02-25,Kyrgyzstan,0,0
 2021-02-25,Laos,0,0
-2021-02-25,Latvia,41446,16974
+2021-02-25,Latvia,42418,17166
 2021-02-25,Lebanon,0,0
 2021-02-25,Lesotho,0,0
 2021-02-25,Liberia,0,0
@@ -16273,7 +16273,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-26,Kuwait,137000,38000
 2021-02-26,Kyrgyzstan,0,0
 2021-02-26,Laos,0,0
-2021-02-26,Latvia,44529,17061
+2021-02-26,Latvia,45735,17256
 2021-02-26,Lebanon,0,0
 2021-02-26,Lesotho,0,0
 2021-02-26,Liberia,0,0
@@ -16459,7 +16459,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-27,Kuwait,137000,38000
 2021-02-27,Kyrgyzstan,0,0
 2021-02-27,Laos,0,0
-2021-02-27,Latvia,45091,17070
+2021-02-27,Latvia,46323,17267
 2021-02-27,Lebanon,0,0
 2021-02-27,Lesotho,0,0
 2021-02-27,Liberia,0,0
@@ -16645,7 +16645,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-28,Kuwait,137000,38000
 2021-02-28,Kyrgyzstan,0,0
 2021-02-28,Laos,0,0
-2021-02-28,Latvia,45216,17072
+2021-02-28,Latvia,46457,17271
 2021-02-28,Lebanon,0,0
 2021-02-28,Lesotho,0,0
 2021-02-28,Liberia,0,0
@@ -16707,7 +16707,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-28,Solomon Islands,0,0
 2021-02-28,Somalia,0,0
 2021-02-28,South Africa,70527,70527
-2021-02-28,South Korea,25988,2396
+2021-02-28,South Korea,25988,2400
 2021-02-28,South Sudan,0,0
 2021-02-28,Spain,2567617,1261848
 2021-02-28,Sri Lanka,466350,0
@@ -16831,7 +16831,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-01,Kuwait,137000,38000
 2021-03-01,Kyrgyzstan,0,0
 2021-03-01,Laos,0,0
-2021-03-01,Latvia,46117,17298
+2021-03-01,Latvia,48263,17503
 2021-03-01,Lebanon,0,0
 2021-03-01,Lesotho,0,0
 2021-03-01,Liberia,0,0
@@ -16893,7 +16893,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-01,Solomon Islands,0,0
 2021-03-01,Somalia,0,0
 2021-03-01,South Africa,73047,73047
-2021-03-01,South Korea,27539,2401
+2021-03-01,South Korea,27539,2406
 2021-03-01,South Sudan,0,0
 2021-03-01,Spain,2642034,1266700
 2021-03-01,Sri Lanka,509275,0
@@ -17017,7 +17017,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-02,Kuwait,137000,38000
 2021-03-02,Kyrgyzstan,0,0
 2021-03-02,Laos,0,0
-2021-03-02,Latvia,47646,17600
+2021-03-02,Latvia,50503,17810
 2021-03-02,Lebanon,0,0
 2021-03-02,Lesotho,0,0
 2021-03-02,Liberia,0,0
@@ -17079,7 +17079,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-02,Solomon Islands,0,0
 2021-03-02,Somalia,0,0
 2021-03-02,South Africa,76037,76037
-2021-03-02,South Korea,93996,2424
+2021-03-02,South Korea,93996,2422
 2021-03-02,South Sudan,0,0
 2021-03-02,Spain,2772318,1287002
 2021-03-02,Sri Lanka,553821,0
@@ -17203,7 +17203,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-03,Kuwait,137000,38000
 2021-03-03,Kyrgyzstan,0,0
 2021-03-03,Laos,0,0
-2021-03-03,Latvia,50717,17789
+2021-03-03,Latvia,55184,18010
 2021-03-03,Lebanon,0,0
 2021-03-03,Lesotho,0,0
 2021-03-03,Liberia,0,0
@@ -17265,7 +17265,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-03,Solomon Islands,0,0
 2021-03-03,Somalia,0,0
 2021-03-03,South Africa,83570,83570
-2021-03-03,South Korea,163456,2514
+2021-03-03,South Korea,163456,2473
 2021-03-03,South Sudan,0,0
 2021-03-03,Spain,2920179,1308913
 2021-03-03,Sri Lanka,599991,0
@@ -17389,7 +17389,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-04,Kuwait,137000,38000
 2021-03-04,Kyrgyzstan,0,0
 2021-03-04,Laos,0,0
-2021-03-04,Latvia,55082,17906
+2021-03-04,Latvia,62216,18132
 2021-03-04,Lebanon,0,0
 2021-03-04,Lesotho,0,0
 2021-03-04,Liberia,0,0
@@ -17451,7 +17451,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-04,Solomon Islands,0,0
 2021-03-04,Somalia,0,0
 2021-03-04,South Africa,92029,92029
-2021-03-04,South Korea,233826,2929
+2021-03-04,South Korea,233826,2686
 2021-03-04,South Sudan,0,0
 2021-03-04,Spain,3129092,1342485
 2021-03-04,Sri Lanka,650991,0
@@ -17575,7 +17575,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-05,Kuwait,137000,38000
 2021-03-05,Kyrgyzstan,0,0
 2021-03-05,Laos,0,0
-2021-03-05,Latvia,58482,18043
+2021-03-05,Latvia,68127,18273
 2021-03-05,Lebanon,0,0
 2021-03-05,Lesotho,0,0
 2021-03-05,Liberia,0,0
@@ -17637,7 +17637,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-05,Solomon Islands,0,0
 2021-03-05,Somalia,0,0
 2021-03-05,South Africa,100180,100180
-2021-03-05,South Korea,304464,3095
+2021-03-05,South Korea,304464,2777
 2021-03-05,South Sudan,0,0
 2021-03-05,Spain,3129092,1342485
 2021-03-05,Sri Lanka,699521,0
@@ -17761,7 +17761,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-06,Kuwait,137000,38000
 2021-03-06,Kyrgyzstan,0,0
 2021-03-06,Laos,0,0
-2021-03-06,Latvia,58965,18047
+2021-03-06,Latvia,69095,18279
 2021-03-06,Lebanon,0,0
 2021-03-06,Lesotho,0,0
 2021-03-06,Liberia,0,0
@@ -17823,7 +17823,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-06,Solomon Islands,0,0
 2021-03-06,Somalia,0,0
 2021-03-06,South Africa,101573,101573
-2021-03-06,South Korea,322508,3103
+2021-03-06,South Korea,322508,2786
 2021-03-06,South Sudan,0,0
 2021-03-06,Spain,3129092,1342485
 2021-03-06,Sri Lanka,724278,0
@@ -17947,7 +17947,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-07,Kuwait,137000,38000
 2021-03-07,Kyrgyzstan,0,0
 2021-03-07,Laos,0,0
-2021-03-07,Latvia,58970,18047
+2021-03-07,Latvia,69181,18288
 2021-03-07,Lebanon,0,0
 2021-03-07,Lesotho,0,0
 2021-03-07,Liberia,0,0
@@ -18009,7 +18009,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-07,Solomon Islands,0,0
 2021-03-07,Somalia,0,0
 2021-03-07,South Africa,101573,101573
-2021-03-07,South Korea,324597,3107
+2021-03-07,South Korea,324597,2791
 2021-03-07,South Sudan,0,0
 2021-03-07,Spain,3328703,1383488
 2021-03-07,Sri Lanka,729562,0
@@ -18133,7 +18133,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-08,Kuwait,322000,38000
 2021-03-08,Kyrgyzstan,0,0
 2021-03-08,Laos,0,0
-2021-03-08,Latvia,60110,18084
+2021-03-08,Latvia,71241,18332
 2021-03-08,Lebanon,0,0
 2021-03-08,Lesotho,0,0
 2021-03-08,Liberia,0,0
@@ -18195,7 +18195,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-08,Solomon Islands,0,0
 2021-03-08,Somalia,0,0
 2021-03-08,South Africa,101841,101841
-2021-03-08,South Korea,392197,3120
+2021-03-08,South Korea,392197,2802
 2021-03-08,South Sudan,0,0
 2021-03-08,Spain,3436412,1412236
 2021-03-08,Sri Lanka,737062,0
@@ -18319,7 +18319,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-09,Kuwait,322000,38000
 2021-03-09,Kyrgyzstan,0,0
 2021-03-09,Laos,0,0
-2021-03-09,Latvia,61897,18109
+2021-03-09,Latvia,74021,18361
 2021-03-09,Lebanon,0,0
 2021-03-09,Lesotho,0,0
 2021-03-09,Liberia,0,0
@@ -18381,7 +18381,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-09,Solomon Islands,0,0
 2021-03-09,Somalia,0,0
 2021-03-09,South Africa,107054,107054
-2021-03-09,South Korea,455742,3268
+2021-03-09,South Korea,455742,2884
 2021-03-09,South Sudan,0,0
 2021-03-09,Spain,3541667,1447838
 2021-03-09,Sri Lanka,743775,0
@@ -18505,7 +18505,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-10,Kuwait,322000,38000
 2021-03-10,Kyrgyzstan,0,0
 2021-03-10,Laos,0,0
-2021-03-10,Latvia,63757,18132
+2021-03-10,Latvia,76985,18404
 2021-03-10,Lebanon,75341,11875
 2021-03-10,Lesotho,0,0
 2021-03-10,Liberia,0,0
@@ -18567,7 +18567,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-10,Solomon Islands,0,0
 2021-03-10,Somalia,0,0
 2021-03-10,South Africa,128887,128887
-2021-03-10,South Korea,510001,3486
+2021-03-10,South Korea,510001,3107
 2021-03-10,South Sudan,0,0
 2021-03-10,Spain,3668848,1503258
 2021-03-10,Sri Lanka,752098,0
@@ -18691,7 +18691,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-11,Kuwait,322000,38000
 2021-03-11,Kyrgyzstan,0,0
 2021-03-11,Laos,0,0
-2021-03-11,Latvia,65646,18142
+2021-03-11,Latvia,80216,18418
 2021-03-11,Lebanon,76883,15084
 2021-03-11,Lesotho,0,0
 2021-03-11,Liberia,0,0
@@ -18753,7 +18753,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-11,Solomon Islands,0,0
 2021-03-11,Somalia,0,0
 2021-03-11,South Africa,138014,138014
-2021-03-11,South Korea,554643,3837
+2021-03-11,South Korea,554643,3374
 2021-03-11,South Sudan,0,0
 2021-03-11,Spain,3769523,1583244
 2021-03-11,Sri Lanka,759548,0
@@ -18877,7 +18877,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-12,Kuwait,322000,38000
 2021-03-12,Kyrgyzstan,0,0
 2021-03-12,Laos,0,0
-2021-03-12,Latvia,69004,18149
+2021-03-12,Latvia,86517,18432
 2021-03-12,Lebanon,78177,17711
 2021-03-12,Lesotho,0,0
 2021-03-12,Liberia,0,0
@@ -18939,7 +18939,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-12,Solomon Islands,0,0
 2021-03-12,Somalia,0,0
 2021-03-12,South Africa,145215,145215
-2021-03-12,South Korea,592982,3980
+2021-03-12,South Korea,592982,3521
 2021-03-12,South Sudan,0,0
 2021-03-12,Spain,3769523,1583244
 2021-03-12,Sri Lanka,760765,0
@@ -19063,7 +19063,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-13,Kuwait,322000,38000
 2021-03-13,Kyrgyzstan,0,0
 2021-03-13,Laos,0,0
-2021-03-13,Latvia,69705,18150
+2021-03-13,Latvia,87682,18435
 2021-03-13,Lebanon,78177,17711
 2021-03-13,Lesotho,0,0
 2021-03-13,Liberia,0,0
@@ -19125,7 +19125,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-13,Solomon Islands,0,0
 2021-03-13,Somalia,0,0
 2021-03-13,South Africa,145544,145544
-2021-03-13,South Korea,596857,3996
+2021-03-13,South Korea,596857,3544
 2021-03-13,South Sudan,0,0
 2021-03-13,Spain,3769523,1583244
 2021-03-13,Sri Lanka,770408,0
@@ -19249,7 +19249,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-14,Kuwait,322000,38000
 2021-03-14,Kyrgyzstan,0,0
 2021-03-14,Laos,0,0
-2021-03-14,Latvia,69769,18150
+2021-03-14,Latvia,87758,18438
 2021-03-14,Lebanon,78177,17711
 2021-03-14,Lesotho,0,0
 2021-03-14,Liberia,0,0
@@ -19311,7 +19311,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-14,Solomon Islands,0,0
 2021-03-14,Somalia,0,0
 2021-03-14,South Africa,145544,145544
-2021-03-14,South Korea,598068,4004
+2021-03-14,South Korea,598068,3551
 2021-03-14,South Sudan,0,0
 2021-03-14,Spain,3769523,1583244
 2021-03-14,Sri Lanka,773011,0
@@ -19435,7 +19435,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-15,Kuwait,322000,38000
 2021-03-15,Kyrgyzstan,0,0
 2021-03-15,Laos,0,0
-2021-03-15,Latvia,72190,18213
+2021-03-15,Latvia,92409,18509
 2021-03-15,Lebanon,81802,22923
 2021-03-15,Lesotho,0,0
 2021-03-15,Liberia,0,0
@@ -19497,7 +19497,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-15,Solomon Islands,0,0
 2021-03-15,Somalia,0,0
 2021-03-15,South Africa,147753,147753
-2021-03-15,South Korea,611352,4792
+2021-03-15,South Korea,611352,4340
 2021-03-15,South Sudan,0,0
 2021-03-15,Spain,3951221,1693674
 2021-03-15,Sri Lanka,784500,0
@@ -19621,7 +19621,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-16,Kuwait,322000,38000
 2021-03-16,Kyrgyzstan,0,0
 2021-03-16,Laos,0,0
-2021-03-16,Latvia,72240,18335
+2021-03-16,Latvia,92493,18641
 2021-03-16,Lebanon,86098,29066
 2021-03-16,Lesotho,0,0
 2021-03-16,Liberia,0,0
@@ -19683,7 +19683,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-16,Solomon Islands,0,0
 2021-03-16,Somalia,0,0
 2021-03-16,South Africa,157286,157286
-2021-03-16,South Korea,630741,5337
+2021-03-16,South Korea,630741,4877
 2021-03-16,South Sudan,0,0
 2021-03-16,Spain,4013681,1728537
 2021-03-16,Sri Lanka,796792,0
@@ -19807,7 +19807,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-17,Kuwait,322000,38000
 2021-03-17,Kyrgyzstan,0,0
 2021-03-17,Laos,40732,0
-2021-03-17,Latvia,72306,18439
+2021-03-17,Latvia,92579,18751
 2021-03-17,Lebanon,88219,32671
 2021-03-17,Lesotho,0,0
 2021-03-17,Liberia,0,0
@@ -19869,7 +19869,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-17,Solomon Islands,0,0
 2021-03-17,Somalia,0,0
 2021-03-17,South Africa,168413,168413
-2021-03-17,South Korea,651093,5858
+2021-03-17,South Korea,651093,5395
 2021-03-17,South Sudan,0,0
 2021-03-17,Spain,4052470,1804615
 2021-03-17,Sri Lanka,806449,0
@@ -19993,7 +19993,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-18,Kuwait,322000,38000
 2021-03-18,Kyrgyzstan,0,0
 2021-03-18,Laos,40732,0
-2021-03-18,Latvia,72320,18699
+2021-03-18,Latvia,92614,19018
 2021-03-18,Lebanon,90974,38513
 2021-03-18,Lesotho,0,0
 2021-03-18,Liberia,0,0
@@ -20055,7 +20055,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-18,Solomon Islands,0,0
 2021-03-18,Somalia,0,0
 2021-03-18,South Africa,177275,177275
-2021-03-18,South Korea,670678,6266
+2021-03-18,South Korea,670678,5723
 2021-03-18,South Sudan,0,0
 2021-03-18,Spain,4106550,1886813
 2021-03-18,Sri Lanka,815585,0
@@ -20179,7 +20179,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-19,Kuwait,322000,38000
 2021-03-19,Kyrgyzstan,0,0
 2021-03-19,Laos,40732,0
-2021-03-19,Latvia,72595,18986
+2021-03-19,Latvia,93213,19311
 2021-03-19,Lebanon,92573,42704
 2021-03-19,Lesotho,0,0
 2021-03-19,Liberia,0,0
@@ -20241,7 +20241,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-19,Solomon Islands,0,0
 2021-03-19,Somalia,0,0
 2021-03-19,South Africa,182983,182983
-2021-03-19,South Korea,687954,6707
+2021-03-19,South Korea,687954,6152
 2021-03-19,South Sudan,0,0
 2021-03-19,Spain,4106550,1886813
 2021-03-19,Sri Lanka,824523,0
@@ -20365,7 +20365,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-20,Kuwait,322000,38000
 2021-03-20,Kyrgyzstan,0,0
 2021-03-20,Laos,40732,0
-2021-03-20,Latvia,72811,18986
+2021-03-20,Latvia,93640,19312
 2021-03-20,Lebanon,92597,42752
 2021-03-20,Lesotho,0,0
 2021-03-20,Liberia,0,0
@@ -20427,7 +20427,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-20,Solomon Islands,0,0
 2021-03-20,Somalia,0,0
 2021-03-20,South Africa,182983,182983
-2021-03-20,South Korea,689235,6724
+2021-03-20,South Korea,689235,6484
 2021-03-20,South Sudan,0,0
 2021-03-20,Spain,4106550,1886813
 2021-03-20,Sri Lanka,829220,0
@@ -20551,7 +20551,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-21,Kuwait,322000,38000
 2021-03-21,Kyrgyzstan,0,0
 2021-03-21,Laos,40732,0
-2021-03-21,Latvia,72814,18986
+2021-03-21,Latvia,93676,19318
 2021-03-21,Lebanon,93801,44619
 2021-03-21,Lesotho,0,0
 2021-03-21,Liberia,0,0
@@ -20613,7 +20613,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-21,Solomon Islands,0,0
 2021-03-21,Somalia,0,0
 2021-03-21,South Africa,182983,182983
-2021-03-21,South Korea,689293,6732
+2021-03-21,South Korea,689293,6776
 2021-03-21,South Sudan,0,0
 2021-03-21,Spain,4106550,1886813
 2021-03-21,Sri Lanka,829865,0
@@ -20737,7 +20737,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-22,Kuwait,500000,38000
 2021-03-22,Kyrgyzstan,0,0
 2021-03-22,Laos,40732,0
-2021-03-22,Latvia,74497,19216
+2021-03-22,Latvia,96637,19555
 2021-03-22,Lebanon,98022,50097
 2021-03-22,Lesotho,0,0
 2021-03-22,Liberia,0,0
@@ -20799,7 +20799,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-22,Solomon Islands,0,0
 2021-03-22,Somalia,0,0
 2021-03-22,South Africa,182983,182983
-2021-03-22,South Korea,693083,6793
+2021-03-22,South Korea,693083,7130
 2021-03-22,South Sudan,0,0
 2021-03-22,Spain,4211040,2110868
 2021-03-22,Sri Lanka,838355,0
@@ -20923,7 +20923,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-23,Kuwait,500000,38000
 2021-03-23,Kyrgyzstan,0,0
 2021-03-23,Laos,40732,0
-2021-03-23,Latvia,78362,19604
+2021-03-23,Latvia,102837,19948
 2021-03-23,Lebanon,102363,55655
 2021-03-23,Lesotho,0,0
 2021-03-23,Liberia,0,0
@@ -20985,7 +20985,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-23,Solomon Islands,0,0
 2021-03-23,Somalia,0,0
 2021-03-23,South Africa,194257,194257
-2021-03-23,South Korea,715015,6951
+2021-03-23,South Korea,715015,7884
 2021-03-23,South Sudan,0,0
 2021-03-23,Spain,4252598,2156598
 2021-03-23,Sri Lanka,838355,0
@@ -21109,7 +21109,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-24,Kuwait,500000,38000
 2021-03-24,Kyrgyzstan,0,0
 2021-03-24,Laos,40732,0
-2021-03-24,Latvia,82445,20286
+2021-03-24,Latvia,109509,20639
 2021-03-24,Lebanon,105534,60481
 2021-03-24,Lesotho,0,0
 2021-03-24,Liberia,0,0
@@ -21171,7 +21171,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-24,Solomon Islands,0,0
 2021-03-24,Somalia,0,0
 2021-03-24,South Africa,207808,207808
-2021-03-24,South Korea,745610,6958
+2021-03-24,South Korea,745610,9095
 2021-03-24,South Sudan,0,0
 2021-03-24,Spain,4343860,2276233
 2021-03-24,Sri Lanka,838355,0
@@ -21295,7 +21295,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-25,Kuwait,500000,38000
 2021-03-25,Kyrgyzstan,0,0
 2021-03-25,Laos,40732,0
-2021-03-25,Latvia,86078,20959
+2021-03-25,Latvia,115132,21321
 2021-03-25,Lebanon,108630,65401
 2021-03-25,Lesotho,0,0
 2021-03-25,Liberia,0,0
@@ -21357,7 +21357,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-25,Solomon Islands,0,0
 2021-03-25,Somalia,0,0
 2021-03-25,South Africa,220129,220129
-2021-03-25,South Korea,780351,7187
+2021-03-25,South Korea,780351,10477
 2021-03-25,South Sudan,0,0
 2021-03-25,Spain,4447534,2392202
 2021-03-25,Sri Lanka,838355,0
@@ -21481,7 +21481,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-26,Kuwait,500000,38000
 2021-03-26,Kyrgyzstan,0,0
 2021-03-26,Laos,40732,0
-2021-03-26,Latvia,88732,21654
+2021-03-26,Latvia,118996,22020
 2021-03-26,Lebanon,111019,69055
 2021-03-26,Lesotho,0,0
 2021-03-26,Liberia,0,0
@@ -21543,7 +21543,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-26,Solomon Islands,0,0
 2021-03-26,Somalia,0,0
 2021-03-26,South Africa,231002,231002
-2021-03-26,South Korea,805357,7334
+2021-03-26,South Korea,805357,12036
 2021-03-26,South Sudan,0,0
 2021-03-26,Spain,4561529,2505842
 2021-03-26,Sri Lanka,838355,0
@@ -21667,7 +21667,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-27,Kuwait,500000,38000
 2021-03-27,Kyrgyzstan,0,0
 2021-03-27,Laos,40732,0
-2021-03-27,Latvia,88919,21979
+2021-03-27,Latvia,119260,22354
 2021-03-27,Lebanon,111517,69610
 2021-03-27,Lesotho,0,0
 2021-03-27,Liberia,0,0
@@ -21729,7 +21729,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-27,Solomon Islands,0,0
 2021-03-27,Somalia,0,0
 2021-03-27,South Africa,231605,231605
-2021-03-27,South Korea,806696,7346
+2021-03-27,South Korea,806696,12052
 2021-03-27,South Sudan,0,0
 2021-03-27,Spain,4561529,2505842
 2021-03-27,Sri Lanka,884164,0
@@ -21853,7 +21853,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-28,Kuwait,500000,38000
 2021-03-28,Kyrgyzstan,0,0
 2021-03-28,Laos,40732,0
-2021-03-28,Latvia,88941,21979
+2021-03-28,Latvia,119296,22358
 2021-03-28,Lebanon,114730,71982
 2021-03-28,Lesotho,0,0
 2021-03-28,Liberia,0,0
@@ -21915,7 +21915,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-28,Solomon Islands,0,0
 2021-03-28,Somalia,0,0
 2021-03-28,South Africa,231605,231605
-2021-03-28,South Korea,806775,7356
+2021-03-28,South Korea,806775,12063
 2021-03-28,South Sudan,0,0
 2021-03-28,Spain,4561529,2505842
 2021-03-28,Sri Lanka,894053,0
@@ -22039,7 +22039,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-29,Kuwait,500000,38000
 2021-03-29,Kyrgyzstan,0,0
 2021-03-29,Laos,40732,0
-2021-03-29,Latvia,90360,22374
+2021-03-29,Latvia,121327,22764
 2021-03-29,Lebanon,118998,74905
 2021-03-29,Lesotho,0,0
 2021-03-29,Liberia,0,0
@@ -22101,7 +22101,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-29,Solomon Islands,0,0
 2021-03-29,Somalia,0,0
 2021-03-29,South Africa,239665,239665
-2021-03-29,South Korea,834775,7367
+2021-03-29,South Korea,834775,13008
 2021-03-29,South Sudan,0,0
 2021-03-29,Spain,4967230,2604209
 2021-03-29,Sri Lanka,894365,0
@@ -22225,7 +22225,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-30,Kuwait,500000,38000
 2021-03-30,Kyrgyzstan,0,0
 2021-03-30,Laos,40732,0
-2021-03-30,Latvia,94028,23080
+2021-03-30,Latvia,126268,23492
 2021-03-30,Lebanon,127913,79734
 2021-03-30,Lesotho,0,0
 2021-03-30,Liberia,0,0
@@ -22287,7 +22287,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-30,Solomon Islands,0,0
 2021-03-30,Somalia,0,0
 2021-03-30,South Africa,251707,251707
-2021-03-30,South Korea,864855,7564
+2021-03-30,South Korea,864855,15163
 2021-03-30,South Sudan,0,0
 2021-03-30,Spain,5092535,2644076
 2021-03-30,Sri Lanka,903467,0
@@ -22411,7 +22411,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-31,Kuwait,500000,38000
 2021-03-31,Kyrgyzstan,0,0
 2021-03-31,Laos,40732,0
-2021-03-31,Latvia,97800,24308
+2021-03-31,Latvia,131490,24729
 2021-03-31,Lebanon,133294,82992
 2021-03-31,Lesotho,0,0
 2021-03-31,Liberia,0,0
@@ -22473,7 +22473,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-31,Solomon Islands,0,0
 2021-03-31,Somalia,0,0
 2021-03-31,South Africa,263878,263878
-2021-03-31,South Korea,889077,7600
+2021-03-31,South Korea,889077,19992
 2021-03-31,South Sudan,0,0
 2021-03-31,Spain,5314076,2721084
 2021-03-31,Sri Lanka,913219,0
@@ -22597,7 +22597,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-01,Kuwait,500000,38000
 2021-04-01,Kyrgyzstan,0,0
 2021-04-01,Laos,40732,0
-2021-04-01,Latvia,100714,25029
+2021-04-01,Latvia,135344,25462
 2021-04-01,Lebanon,136761,85571
 2021-04-01,Lesotho,0,0
 2021-04-01,Liberia,0,0
@@ -22659,7 +22659,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-01,Solomon Islands,0,0
 2021-04-01,Somalia,0,0
 2021-04-01,South Africa,269102,269102
-2021-04-01,South Korea,926769,7618
+2021-04-01,South Korea,926769,27287
 2021-04-01,South Sudan,0,0
 2021-04-01,Spain,5545140,2797015
 2021-04-01,Sri Lanka,919753,0
@@ -22783,7 +22783,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-02,Kuwait,500000,38000
 2021-04-02,Kyrgyzstan,0,0
 2021-04-02,Laos,40732,0
-2021-04-02,Latvia,101145,25029
+2021-04-02,Latvia,135935,25467
 2021-04-02,Lebanon,138558,87150
 2021-04-02,Lesotho,0,0
 2021-04-02,Liberia,0,0
@@ -22845,7 +22845,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-02,Solomon Islands,0,0
 2021-04-02,Somalia,0,0
 2021-04-02,South Africa,269102,269102
-2021-04-02,South Korea,966823,8090
+2021-04-02,South Korea,966823,34365
 2021-04-02,South Sudan,0,0
 2021-04-02,Spain,5545140,2797015
 2021-04-02,Sri Lanka,923954,0
@@ -22969,7 +22969,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-03,Kuwait,500000,38000
 2021-04-03,Kyrgyzstan,0,0
 2021-04-03,Laos,40732,0
-2021-04-03,Latvia,103915,25097
+2021-04-03,Latvia,139403,25544
 2021-04-03,Lebanon,138610,87232
 2021-04-03,Lesotho,0,0
 2021-04-03,Liberia,0,0
@@ -23031,7 +23031,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-03,Solomon Islands,0,0
 2021-04-03,Somalia,0,0
 2021-04-03,South Africa,269102,269102
-2021-04-03,South Korea,975499,8115
+2021-04-03,South Korea,975499,34946
 2021-04-03,South Sudan,0,0
 2021-04-03,Spain,5707450,2841148
 2021-04-03,Sri Lanka,923954,0
@@ -23155,7 +23155,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-04,Kuwait,500000,38000
 2021-04-04,Kyrgyzstan,0,0
 2021-04-04,Laos,40732,0
-2021-04-04,Latvia,105490,25097
+2021-04-04,Latvia,141038,25544
 2021-04-04,Lebanon,139855,88195
 2021-04-04,Lesotho,0,0
 2021-04-04,Liberia,0,0
@@ -23217,7 +23217,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-04,Solomon Islands,0,0
 2021-04-04,Somalia,0,0
 2021-04-04,South Africa,269102,269102
-2021-04-04,South Korea,976165,8130
+2021-04-04,South Korea,976165,35029
 2021-04-04,South Sudan,0,0
 2021-04-04,Spain,5707450,2841148
 2021-04-04,Sri Lanka,924479,0
@@ -23341,7 +23341,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-05,Kuwait,500000,38000
 2021-04-05,Kyrgyzstan,0,0
 2021-04-05,Laos,40732,0
-2021-04-05,Latvia,108088,25097
+2021-04-05,Latvia,143918,25551
 2021-04-05,Lebanon,144264,91039
 2021-04-05,Lesotho,0,0
 2021-04-05,Liberia,0,0
@@ -23403,7 +23403,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-05,Solomon Islands,0,0
 2021-04-05,Somalia,0,0
 2021-04-05,South Africa,269102,269102
-2021-04-05,South Korea,1014024,8980
+2021-04-05,South Korea,1014024,36208
 2021-04-05,South Sudan,0,0
 2021-04-05,Spain,5890888,2852806
 2021-04-05,Sri Lanka,924479,0
@@ -23527,7 +23527,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-06,Kuwait,500000,38000
 2021-04-06,Kyrgyzstan,644,0
 2021-04-06,Laos,40732,0
-2021-04-06,Latvia,112372,25592
+2021-04-06,Latvia,149202,26063
 2021-04-06,Lebanon,150660,94112
 2021-04-06,Lesotho,0,0
 2021-04-06,Liberia,0,0
@@ -23589,7 +23589,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-06,Solomon Islands,0,0
 2021-04-06,Somalia,0,0
 2021-04-06,South Africa,272438,272438
-2021-04-06,South Korea,1053636,9971
+2021-04-06,South Korea,1053636,42757
 2021-04-06,South Sudan,0,0
 2021-04-06,Spain,6118710,2902291
 2021-04-06,Sri Lanka,924536,0
@@ -23713,7 +23713,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-07,Kuwait,500000,38000
 2021-04-07,Kyrgyzstan,849,0
 2021-04-07,Laos,40732,0
-2021-04-07,Latvia,120007,26052
+2021-04-07,Latvia,158678,26558
 2021-04-07,Lebanon,161164,97989
 2021-04-07,Lesotho,0,0
 2021-04-07,Liberia,0,0
@@ -23775,7 +23775,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-07,Solomon Islands,0,0
 2021-04-07,Somalia,0,0
 2021-04-07,South Africa,278909,278909
-2021-04-07,South Korea,1092383,10925
+2021-04-07,South Korea,1092383,52973
 2021-04-07,South Sudan,0,0
 2021-04-07,Spain,6416016,2941831
 2021-04-07,Sri Lanka,924687,0
@@ -23899,7 +23899,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-08,Kuwait,500000,38000
 2021-04-08,Kyrgyzstan,849,0
 2021-04-08,Laos,40732,0
-2021-04-08,Latvia,124883,26313
+2021-04-08,Latvia,165872,26848
 2021-04-08,Lebanon,167957,100621
 2021-04-08,Lesotho,0,0
 2021-04-08,Liberia,0,0
@@ -23961,7 +23961,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-08,Solomon Islands,0,0
 2021-04-08,Somalia,0,0
 2021-04-08,South Africa,283629,283629
-2021-04-08,South Korea,1130550,12225
+2021-04-08,South Korea,1130550,63592
 2021-04-08,South Sudan,0,0
 2021-04-08,Spain,6791079,3020450
 2021-04-08,Sri Lanka,924687,0
@@ -24085,7 +24085,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-09,Kuwait,500000,38000
 2021-04-09,Kyrgyzstan,849,0
 2021-04-09,Laos,40732,0
-2021-04-09,Latvia,128377,26490
+2021-04-09,Latvia,171080,27050
 2021-04-09,Lebanon,170506,101873
 2021-04-09,Lesotho,0,0
 2021-04-09,Liberia,0,0
@@ -24147,7 +24147,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-09,Solomon Islands,0,0
 2021-04-09,Somalia,0,0
 2021-04-09,South Africa,288368,288368
-2021-04-09,South Korea,1165432,13481
+2021-04-09,South Korea,1165432,72089
 2021-04-09,South Sudan,0,0
 2021-04-09,Spain,7159716,3072109
 2021-04-09,Sri Lanka,925082,0
@@ -24271,7 +24271,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-10,Kuwait,500000,38000
 2021-04-10,Kyrgyzstan,849,0
 2021-04-10,Laos,40732,0
-2021-04-10,Latvia,129627,26571
+2021-04-10,Latvia,172859,27141
 2021-04-10,Lebanon,170571,103016
 2021-04-10,Lesotho,0,0
 2021-04-10,Liberia,0,0
@@ -24333,7 +24333,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-10,Solomon Islands,0,0
 2021-04-10,Somalia,0,0
 2021-04-10,South Africa,288406,288406
-2021-04-10,South Korea,1174693,13851
+2021-04-10,South Korea,1174693,73556
 2021-04-10,South Sudan,0,0
 2021-04-10,Spain,7159716,3072109
 2021-04-10,Sri Lanka,925082,0
@@ -24457,7 +24457,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-11,Kuwait,500000,38000
 2021-04-11,Kyrgyzstan,849,0
 2021-04-11,Laos,40732,0
-2021-04-11,Latvia,129627,26571
+2021-04-11,Latvia,172958,27148
 2021-04-11,Lebanon,170571,103016
 2021-04-11,Lesotho,0,0
 2021-04-11,Liberia,0,0
@@ -24519,7 +24519,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-11,Solomon Islands,0,0
 2021-04-11,Somalia,0,0
 2021-04-11,South Africa,288406,288406
-2021-04-11,South Korea,1175055,13866
+2021-04-11,South Korea,1175055,73603
 2021-04-11,South Sudan,0,0
 2021-04-11,Spain,7159716,3072109
 2021-04-11,Sri Lanka,925242,0
@@ -24643,7 +24643,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-12,Kuwait,500000,38000
 2021-04-12,Kyrgyzstan,2100,0
 2021-04-12,Laos,40732,0
-2021-04-12,Latvia,131620,26615
+2021-04-12,Latvia,175606,27217
 2021-04-12,Lebanon,178155,107811
 2021-04-12,Lesotho,0,0
 2021-04-12,Liberia,0,0
@@ -24705,7 +24705,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-12,Solomon Islands,0,0
 2021-04-12,Somalia,0,0
 2021-04-12,South Africa,289787,289787
-2021-04-12,South Korea,1214731,15132
+2021-04-12,South Korea,1214731,74923
 2021-04-12,South Sudan,0,0
 2021-04-12,Spain,7676560,3108437
 2021-04-12,Sri Lanka,925242,0
@@ -24829,7 +24829,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-13,Kuwait,500000,38000
 2021-04-13,Kyrgyzstan,2100,0
 2021-04-13,Laos,40732,0
-2021-04-13,Latvia,134851,26679
+2021-04-13,Latvia,179632,27293
 2021-04-13,Lebanon,184109,112056
 2021-04-13,Lesotho,0,0
 2021-04-13,Liberia,0,0
@@ -24891,7 +24891,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-13,Solomon Islands,2622,0
 2021-04-13,Somalia,0,0
 2021-04-13,South Africa,292623,292623
-2021-04-13,South Korea,1260036,15957
+2021-04-13,South Korea,1260036,75757
 2021-04-13,South Sudan,0,0
 2021-04-13,Spain,7937566,3136091
 2021-04-13,Sri Lanka,925242,0
@@ -25015,7 +25015,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-14,Kuwait,500000,38000
 2021-04-14,Kyrgyzstan,2100,0
 2021-04-14,Laos,105568,30281
-2021-04-14,Latvia,140594,26888
+2021-04-14,Latvia,185988,27545
 2021-04-14,Lebanon,184111,112057
 2021-04-14,Lesotho,0,0
 2021-04-14,Liberia,0,0
@@ -25077,7 +25077,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-14,Solomon Islands,2622,0
 2021-04-14,Somalia,0,0
 2021-04-14,South Africa,292623,292623
-2021-04-14,South Korea,1306738,16027
+2021-04-14,South Korea,1306738,75828
 2021-04-14,South Sudan,0,0
 2021-04-14,Spain,8250887,3185186
 2021-04-14,Sri Lanka,925242,0
@@ -25201,7 +25201,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-15,Kuwait,500000,38000
 2021-04-15,Kyrgyzstan,2100,0
 2021-04-15,Laos,105568,30281
-2021-04-15,Latvia,145683,27478
+2021-04-15,Latvia,191429,28232
 2021-04-15,Lebanon,198763,121860
 2021-04-15,Lesotho,0,0
 2021-04-15,Liberia,0,0
@@ -25263,7 +25263,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-15,Solomon Islands,2622,0
 2021-04-15,Somalia,0,0
 2021-04-15,South Africa,292623,292623
-2021-04-15,South Korea,1400659,16082
+2021-04-15,South Korea,1400659,75897
 2021-04-15,South Sudan,947,0
 2021-04-15,Spain,8631548,3253537
 2021-04-15,Sri Lanka,925242,0
@@ -25387,7 +25387,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-16,Kuwait,500000,38000
 2021-04-16,Kyrgyzstan,2100,0
 2021-04-16,Laos,105568,30281
-2021-04-16,Latvia,153805,28048
+2021-04-16,Latvia,200016,28946
 2021-04-16,Lebanon,199999,122648
 2021-04-16,Lesotho,0,0
 2021-04-16,Liberia,0,0
@@ -25449,7 +25449,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-16,Solomon Islands,2622,0
 2021-04-16,Somalia,0,0
 2021-04-16,South Africa,292623,292623
-2021-04-16,South Korea,1504361,16320
+2021-04-16,South Korea,1504361,76180
 2021-04-16,South Sudan,947,0
 2021-04-16,Spain,9002054,3328701
 2021-04-16,Sri Lanka,925242,0
@@ -25573,7 +25573,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-17,Kuwait,500000,38000
 2021-04-17,Kyrgyzstan,2100,0
 2021-04-17,Laos,105568,30281
-2021-04-17,Latvia,159702,28145
+2021-04-17,Latvia,206300,29059
 2021-04-17,Lebanon,200111,122657
 2021-04-17,Lesotho,16000,0
 2021-04-17,Liberia,0,0
@@ -25635,7 +25635,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-17,Solomon Islands,2622,0
 2021-04-17,Somalia,117567,0
 2021-04-17,South Africa,292623,292623
-2021-04-17,South Korea,1533919,16351
+2021-04-17,South Korea,1533919,76233
 2021-04-17,South Sudan,947,0
 2021-04-17,Spain,9002054,3328701
 2021-04-17,Sri Lanka,925242,0
@@ -25759,7 +25759,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-18,Kuwait,822000,38000
 2021-04-18,Kyrgyzstan,2100,0
 2021-04-18,Laos,105568,30281
-2021-04-18,Latvia,160622,28145
+2021-04-18,Latvia,207228,29064
 2021-04-18,Lebanon,204564,124888
 2021-04-18,Lesotho,16000,0
 2021-04-18,Liberia,0,0
@@ -25821,7 +25821,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-18,Solomon Islands,2622,0
 2021-04-18,Somalia,117567,0
 2021-04-18,South Africa,292623,292623
-2021-04-18,South Korea,1538854,16366
+2021-04-18,South Korea,1538854,76263
 2021-04-18,South Sudan,947,0
 2021-04-18,Spain,9002054,3328701
 2021-04-18,Sri Lanka,925242,0
@@ -25945,7 +25945,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-19,Kuwait,822000,38000
 2021-04-19,Kyrgyzstan,2100,0
 2021-04-19,Laos,106105,30921
-2021-04-19,Latvia,163733,28756
+2021-04-19,Latvia,210543,29773
 2021-04-19,Lebanon,213168,130118
 2021-04-19,Lesotho,16000,0
 2021-04-19,Liberia,0,0
@@ -26007,7 +26007,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-19,Solomon Islands,2622,0
 2021-04-19,Somalia,117567,0
 2021-04-19,South Africa,292623,292623
-2021-04-19,South Korea,1662045,16404
+2021-04-19,South Korea,1662045,76325
 2021-04-19,South Sudan,947,0
 2021-04-19,Spain,9441685,3411914
 2021-04-19,Sri Lanka,925242,0
@@ -26131,7 +26131,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-20,Kuwait,822000,38000
 2021-04-20,Kyrgyzstan,2100,0
 2021-04-20,Laos,106105,30921
-2021-04-20,Latvia,169047,30637
+2021-04-20,Latvia,216000,31749
 2021-04-20,Lebanon,217778,134014
 2021-04-20,Lesotho,16000,0
 2021-04-20,Liberia,0,0
@@ -26193,7 +26193,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-20,Solomon Islands,3479,0
 2021-04-20,Somalia,117567,0
 2021-04-20,South Africa,292623,292623
-2021-04-20,South Korea,1793640,16445
+2021-04-20,South Korea,1793640,76408
 2021-04-20,South Sudan,947,0
 2021-04-20,Spain,9588913,3452119
 2021-04-20,Sri Lanka,925242,0
@@ -26317,7 +26317,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-21,Kuwait,822000,38000
 2021-04-21,Kyrgyzstan,2100,0
 2021-04-21,Laos,108501,42674
-2021-04-21,Latvia,176074,33465
+2021-04-21,Latvia,223289,34768
 2021-04-21,Lebanon,217778,134014
 2021-04-21,Lesotho,16000,0
 2021-04-21,Liberia,0,0
@@ -26379,7 +26379,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-21,Solomon Islands,3479,0
 2021-04-21,Somalia,117567,0
 2021-04-21,South Africa,292623,292623
-2021-04-21,South Korea,1926616,16523
+2021-04-21,South Korea,1926616,76556
 2021-04-21,South Sudan,947,0
 2021-04-21,Spain,9886203,3611606
 2021-04-21,Sri Lanka,925242,0
@@ -26503,7 +26503,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-22,Kuwait,822000,38000
 2021-04-22,Kyrgyzstan,2100,0
 2021-04-22,Laos,109706,47112
-2021-04-22,Latvia,183315,35888
+2021-04-22,Latvia,230697,37265
 2021-04-22,Lebanon,217778,134014
 2021-04-22,Lesotho,16000,0
 2021-04-22,Liberia,0,0
@@ -26565,7 +26565,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-22,Solomon Islands,3479,0
 2021-04-22,Somalia,117567,0
 2021-04-22,South Africa,292623,292623
-2021-04-22,South Korea,2058752,16718
+2021-04-22,South Korea,2058752,95260
 2021-04-22,South Sudan,947,0
 2021-04-22,Spain,10141949,3768015
 2021-04-22,Sri Lanka,925242,0
@@ -26689,7 +26689,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-23,Kuwait,822000,38000
 2021-04-23,Kyrgyzstan,2100,0
 2021-04-23,Laos,109706,47112
-2021-04-23,Latvia,191824,37851
+2021-04-23,Latvia,239488,39321
 2021-04-23,Lebanon,217778,134014
 2021-04-23,Lesotho,16000,0
 2021-04-23,Liberia,0,0
@@ -26751,7 +26751,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-23,Solomon Islands,3479,0
 2021-04-23,Somalia,117567,0
 2021-04-23,South Africa,292623,292623
-2021-04-23,South Korea,2219244,16773
+2021-04-23,South Korea,2219244,114974
 2021-04-23,South Sudan,947,0
 2021-04-23,Spain,10405863,3862789
 2021-04-23,Sri Lanka,925242,0
@@ -26875,7 +26875,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-24,Kuwait,822000,38000
 2021-04-24,Kyrgyzstan,2100,0
 2021-04-24,Laos,122310,57215
-2021-04-24,Latvia,197232,38474
+2021-04-24,Latvia,245042,39993
 2021-04-24,Lebanon,267582,140950
 2021-04-24,Lesotho,16000,0
 2021-04-24,Liberia,0,0
@@ -26937,7 +26937,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-24,Solomon Islands,3479,0
 2021-04-24,Somalia,117567,0
 2021-04-24,South Africa,292623,292623
-2021-04-24,South Korea,2284456,16810
+2021-04-24,South Korea,2284456,120820
 2021-04-24,South Sudan,947,0
 2021-04-24,Spain,10405863,3862789
 2021-04-24,Sri Lanka,925242,0
@@ -27061,7 +27061,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-25,Kuwait,822000,38000
 2021-04-25,Kyrgyzstan,2100,0
 2021-04-25,Laos,125363,58315
-2021-04-25,Latvia,198553,38503
+2021-04-25,Latvia,246408,40033
 2021-04-25,Lebanon,271335,144227
 2021-04-25,Lesotho,16000,0
 2021-04-25,Liberia,0,0
@@ -27123,7 +27123,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-25,Solomon Islands,3479,0
 2021-04-25,Somalia,117567,0
 2021-04-25,South Africa,292623,292623
-2021-04-25,South Korea,2290816,16829
+2021-04-25,South Korea,2290816,121217
 2021-04-25,South Sudan,947,0
 2021-04-25,Spain,10796466,3947465
 2021-04-25,Sri Lanka,925242,0
@@ -27247,7 +27247,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-26,Kuwait,822000,38000
 2021-04-26,Kyrgyzstan,2100,0
 2021-04-26,Laos,126072,58315
-2021-04-26,Latvia,201159,40343
+2021-04-26,Latvia,249086,41963
 2021-04-26,Lebanon,274263,147642
 2021-04-26,Lesotho,16000,0
 2021-04-26,Liberia,0,0
@@ -27309,7 +27309,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-26,Solomon Islands,3479,0
 2021-04-26,Somalia,117567,0
 2021-04-26,South Africa,292623,292623
-2021-04-26,South Korea,2433789,16865
+2021-04-26,South Korea,2433789,142893
 2021-04-26,South Sudan,947,0
 2021-04-26,Spain,11013911,4020945
 2021-04-26,Sri Lanka,925242,0
@@ -27433,7 +27433,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-27,Kuwait,822000,38000
 2021-04-27,Kyrgyzstan,2100,0
 2021-04-27,Laos,126072,58315
-2021-04-27,Latvia,205768,43080
+2021-04-27,Latvia,253791,44880
 2021-04-27,Lebanon,282456,155812
 2021-04-27,Lesotho,16000,0
 2021-04-27,Liberia,0,0
@@ -27495,7 +27495,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-27,Solomon Islands,3479,0
 2021-04-27,Somalia,117567,0
 2021-04-27,South Africa,292623,292623
-2021-04-27,South Korea,2610917,16911
+2021-04-27,South Korea,2610917,164758
 2021-04-27,South Sudan,947,0
 2021-04-27,Spain,11261171,4166758
 2021-04-27,Sri Lanka,925242,0
@@ -27619,7 +27619,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-28,Kuwait,822000,38000
 2021-04-28,Kyrgyzstan,27000,858
 2021-04-28,Laos,126072,58315
-2021-04-28,Latvia,216787,46519
+2021-04-28,Latvia,264987,48570
 2021-04-28,Lebanon,290216,165059
 2021-04-28,Lesotho,16000,0
 2021-04-28,Liberia,0,0
@@ -27681,7 +27681,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-28,Solomon Islands,3479,0
 2021-04-28,Somalia,117567,0
 2021-04-28,South Africa,298153,298153
-2021-04-28,South Korea,2843176,17004
+2021-04-28,South Korea,2843176,185313
 2021-04-28,South Sudan,947,0
 2021-04-28,Spain,11520146,4413784
 2021-04-28,Sri Lanka,925242,0
@@ -27805,7 +27805,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-29,Kuwait,822000,38000
 2021-04-29,Kyrgyzstan,27000,858
 2021-04-29,Laos,126072,58315
-2021-04-29,Latvia,227062,50319
+2021-04-29,Latvia,275388,52657
 2021-04-29,Lebanon,293030,168130
 2021-04-29,Lesotho,16000,0
 2021-04-29,Liberia,0,0
@@ -27867,7 +27867,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-29,Solomon Islands,3479,0
 2021-04-29,Somalia,117567,0
 2021-04-29,South Africa,307591,307591
-2021-04-29,South Korea,3105609,17097
+2021-04-29,South Korea,3105609,215467
 2021-04-29,South Sudan,947,0
 2021-04-29,Spain,11763360,4689766
 2021-04-29,Sri Lanka,927711,5880
@@ -27991,7 +27991,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-30,Kuwait,822000,38000
 2021-04-30,Kyrgyzstan,27000,858
 2021-04-30,Laos,126072,58315
-2021-04-30,Latvia,235930,52874
+2021-04-30,Latvia,284375,55326
 2021-04-30,Lebanon,293260,168466
 2021-04-30,Lesotho,16000,0
 2021-04-30,Liberia,0,0
@@ -28053,7 +28053,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-30,Solomon Islands,3479,0
 2021-04-30,Somalia,117567,0
 2021-04-30,South Africa,317656,317656
-2021-04-30,South Korea,3383737,18204
+2021-04-30,South Korea,3383737,246227
 2021-04-30,South Sudan,947,0
 2021-04-30,Spain,11763360,4689766
 2021-04-30,Sri Lanka,928107,25354
@@ -28177,7 +28177,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-01,Kuwait,822000,38000
 2021-05-01,Kyrgyzstan,27000,858
 2021-05-01,Laos,126072,58315
-2021-05-01,Latvia,242246,53382
+2021-05-01,Latvia,290726,55849
 2021-05-01,Lebanon,293277,168481
 2021-05-01,Lesotho,16000,0
 2021-05-01,Liberia,0,0
@@ -28239,7 +28239,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-01,Solomon Islands,3479,0
 2021-05-01,Somalia,117567,0
 2021-05-01,South Africa,318670,318670
-2021-05-01,South Korea,3424079,18327
+2021-05-01,South Korea,3424079,254107
 2021-05-01,South Sudan,947,0
 2021-05-01,Spain,11763360,4689766
 2021-05-01,Sri Lanka,928107,63192
@@ -28363,7 +28363,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-02,Kuwait,822000,38000
 2021-05-02,Kyrgyzstan,27000,858
 2021-05-02,Laos,126072,58315
-2021-05-02,Latvia,243822,53412
+2021-05-02,Latvia,292312,55890
 2021-05-02,Lebanon,294945,170964
 2021-05-02,Lesotho,16000,0
 2021-05-02,Liberia,0,0
@@ -28425,7 +28425,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-02,Solomon Islands,3479,0
 2021-05-02,Somalia,123570,0
 2021-05-02,South Africa,318670,318670
-2021-05-02,South Korea,3425698,18359
+2021-05-02,South Korea,3425698,254458
 2021-05-02,South Sudan,947,0
 2021-05-02,Spain,12196079,5113598
 2021-05-02,Sri Lanka,928107,88088
@@ -28549,7 +28549,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-03,Kuwait,822000,38000
 2021-05-03,Kyrgyzstan,27000,858
 2021-05-03,Laos,126072,58315
-2021-05-03,Latvia,245832,54200
+2021-05-03,Latvia,294372,56811
 2021-05-03,Lebanon,298835,174905
 2021-05-03,Lesotho,16000,0
 2021-05-03,Liberia,0,0
@@ -28611,7 +28611,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-03,Solomon Islands,3479,0
 2021-05-03,Somalia,123570,0
 2021-05-03,South Africa,329098,329098
-2021-05-03,South Korea,3512547,19027
+2021-05-03,South Korea,3512547,285690
 2021-05-03,South Sudan,947,0
 2021-05-03,Spain,12381213,5202297
 2021-05-03,Sri Lanka,928107,96871
@@ -28735,7 +28735,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-04,Kuwait,822000,38000
 2021-05-04,Kyrgyzstan,27000,858
 2021-05-04,Laos,126072,58315
-2021-05-04,Latvia,254469,54340
+2021-05-04,Latvia,303053,56973
 2021-05-04,Lebanon,307573,180401
 2021-05-04,Lesotho,16000,0
 2021-05-04,Liberia,0,0
@@ -28797,7 +28797,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-04,Solomon Islands,3479,0
 2021-05-04,Somalia,123570,0
 2021-05-04,South Africa,353181,353181
-2021-05-04,South Korea,3587949,19716
+2021-05-04,South Korea,3587949,317516
 2021-05-04,South Sudan,947,0
 2021-05-04,Spain,12686341,5394315
 2021-05-04,Sri Lanka,928107,120006
@@ -28921,7 +28921,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-05,Kuwait,822000,38000
 2021-05-05,Kyrgyzstan,27000,858
 2021-05-05,Laos,126072,58315
-2021-05-05,Latvia,263841,61113
+2021-05-05,Latvia,312659,64259
 2021-05-05,Lebanon,317612,183372
 2021-05-05,Lesotho,16000,0
 2021-05-05,Liberia,0,0
@@ -28983,7 +28983,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-05,Solomon Islands,3479,0
 2021-05-05,Somalia,123570,0
 2021-05-05,South Africa,366101,366101
-2021-05-05,South Korea,3593674,19867
+2021-05-05,South Korea,3593674,343007
 2021-05-05,South Sudan,947,0
 2021-05-05,Spain,12966552,5696827
 2021-05-05,Sri Lanka,928107,141721
@@ -29107,7 +29107,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-06,Kuwait,822000,38000
 2021-05-06,Kyrgyzstan,27000,858
 2021-05-06,Laos,126072,58315
-2021-05-06,Latvia,277157,68830
+2021-05-06,Latvia,326240,72562
 2021-05-06,Lebanon,325383,184322
 2021-05-06,Lesotho,16000,0
 2021-05-06,Liberia,0,0
@@ -29169,7 +29169,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-06,Solomon Islands,3479,0
 2021-05-06,Somalia,123570,0
 2021-05-06,South Africa,366101,366101
-2021-05-06,South Korea,3651672,20331
+2021-05-06,South Korea,3651672,417007
 2021-05-06,South Sudan,947,0
 2021-05-06,Spain,13271511,5956451
 2021-05-06,Sri Lanka,928107,159986
@@ -29293,7 +29293,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-07,Kuwait,822000,38000
 2021-05-07,Kyrgyzstan,27000,858
 2021-05-07,Laos,126072,58315
-2021-05-07,Latvia,288726,76722
+2021-05-07,Latvia,338082,80942
 2021-05-07,Lebanon,325383,184322
 2021-05-07,Lesotho,16000,0
 2021-05-07,Liberia,0,0
@@ -29355,7 +29355,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-07,Solomon Islands,3479,0
 2021-05-07,Somalia,123570,0
 2021-05-07,South Africa,381171,381171
-2021-05-07,South Korea,3700146,20917
+2021-05-07,South Korea,3700146,494315
 2021-05-07,South Sudan,947,0
 2021-05-07,Spain,13271511,5956451
 2021-05-07,Sri Lanka,928107,177235
@@ -29479,7 +29479,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-08,Kuwait,822000,38000
 2021-05-08,Kyrgyzstan,27000,858
 2021-05-08,Laos,126072,58315
-2021-05-08,Latvia,298637,78829
+2021-05-08,Latvia,348121,83270
 2021-05-08,Lebanon,325383,184322
 2021-05-08,Lesotho,16000,0
 2021-05-08,Liberia,0,0
@@ -29541,7 +29541,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-08,Solomon Islands,3479,0
 2021-05-08,Somalia,123570,0
 2021-05-08,South Africa,382480,382480
-2021-05-08,South Korea,3712367,20997
+2021-05-08,South Korea,3712367,521987
 2021-05-08,South Sudan,947,0
 2021-05-08,Spain,13271511,5956451
 2021-05-08,Sri Lanka,928107,177235
@@ -29665,7 +29665,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-09,Kuwait,822000,38000
 2021-05-09,Kyrgyzstan,27000,858
 2021-05-09,Laos,126072,58315
-2021-05-09,Latvia,299885,79123
+2021-05-09,Latvia,349459,83647
 2021-05-09,Lebanon,325383,184322
 2021-05-09,Lesotho,16000,0
 2021-05-09,Liberia,0,0
@@ -29727,7 +29727,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-09,Solomon Islands,3479,0
 2021-05-09,Somalia,123570,0
 2021-05-09,South Africa,382480,382480
-2021-05-09,South Korea,3712430,21013
+2021-05-09,South Korea,3712430,526767
 2021-05-09,South Sudan,947,0
 2021-05-09,Spain,13797431,6221476
 2021-05-09,Sri Lanka,928400,197340
@@ -29851,7 +29851,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-10,Kuwait,822000,38000
 2021-05-10,Kyrgyzstan,27000,858
 2021-05-10,Laos,405200,83273
-2021-05-10,Latvia,304781,83352
+2021-05-10,Latvia,354488,88246
 2021-05-10,Lebanon,325383,184322
 2021-05-10,Lesotho,16000,0
 2021-05-10,Liberia,0,0
@@ -29913,7 +29913,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-10,Solomon Islands,3479,0
 2021-05-10,Somalia,123570,0
 2021-05-10,South Africa,395230,395230
-2021-05-10,South Korea,3726306,21449
+2021-05-10,South Korea,3726306,604746
 2021-05-10,South Sudan,947,0
 2021-05-10,Spain,14028954,6327447
 2021-05-10,Sri Lanka,931276,198981
@@ -30037,7 +30037,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-11,Kuwait,822000,38000
 2021-05-11,Kyrgyzstan,37117,6010
 2021-05-11,Laos,405200,83273
-2021-05-11,Latvia,317320,88299
+2021-05-11,Latvia,367365,93685
 2021-05-11,Lebanon,325383,184322
 2021-05-11,Lesotho,16000,0
 2021-05-11,Liberia,0,0
@@ -30099,7 +30099,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-11,Solomon Islands,3479,0
 2021-05-11,Somalia,123570,0
 2021-05-11,South Africa,414372,414372
-2021-05-11,South Korea,3735216,21884
+2021-05-11,South Korea,3735216,685857
 2021-05-11,South Sudan,947,0
 2021-05-11,Spain,14318348,6502978
 2021-05-11,Sri Lanka,948817,213953
@@ -30223,7 +30223,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-12,Kuwait,822000,38000
 2021-05-12,Kyrgyzstan,37117,6010
 2021-05-12,Laos,405200,83273
-2021-05-12,Latvia,332468,94949
+2021-05-12,Latvia,383154,100894
 2021-05-12,Lebanon,325383,184322
 2021-05-12,Lesotho,16000,0
 2021-05-12,Liberia,36404,0
@@ -30285,7 +30285,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-12,Solomon Islands,3479,0
 2021-05-12,Somalia,123570,0
 2021-05-12,South Africa,430730,430730
-2021-05-12,South Korea,3741736,22324
+2021-05-12,South Korea,3741736,769060
 2021-05-12,South Sudan,5459,0
 2021-05-12,Spain,14555552,6716156
 2021-05-12,Sri Lanka,996445,223803
@@ -30409,7 +30409,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-13,Kuwait,822000,38000
 2021-05-13,Kyrgyzstan,37117,6010
 2021-05-13,Laos,405200,83273
-2021-05-13,Latvia,346779,101696
+2021-05-13,Latvia,398182,108375
 2021-05-13,Lebanon,325383,184322
 2021-05-13,Lesotho,16000,0
 2021-05-13,Liberia,36404,0
@@ -30471,7 +30471,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-13,Solomon Islands,3479,0
 2021-05-13,Somalia,123570,0
 2021-05-13,South Africa,455169,455169
-2021-05-13,South Korea,3750775,23096
+2021-05-13,South Korea,3750775,847494
 2021-05-13,South Sudan,5459,0
 2021-05-13,Spain,14911306,6976683
 2021-05-13,Sri Lanka,1075848,233992
@@ -30595,7 +30595,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-14,Kuwait,822000,38000
 2021-05-14,Kyrgyzstan,37117,6010
 2021-05-14,Laos,474983,88483
-2021-05-14,Latvia,357875,111071
+2021-05-14,Latvia,409949,118647
 2021-05-14,Lebanon,377044,204024
 2021-05-14,Lesotho,16000,0
 2021-05-14,Liberia,36404,0
@@ -30657,7 +30657,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-14,Solomon Islands,3479,0
 2021-05-14,Somalia,123570,0
 2021-05-14,South Africa,474318,474318
-2021-05-14,South Korea,3762110,27562
+2021-05-14,South Korea,3762110,928084
 2021-05-14,South Sudan,5459,0
 2021-05-14,Spain,14911306,6976683
 2021-05-14,Sri Lanka,1140122,243957
@@ -30781,7 +30781,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-15,Kuwait,822000,38000
 2021-05-15,Kyrgyzstan,37117,6010
 2021-05-15,Laos,493481,89266
-2021-05-15,Latvia,365336,116424
+2021-05-15,Latvia,417715,124309
 2021-05-15,Lebanon,377487,204031
 2021-05-15,Lesotho,16000,0
 2021-05-15,Liberia,36404,0
@@ -30843,7 +30843,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-15,Solomon Islands,3479,0
 2021-05-15,Somalia,123570,0
 2021-05-15,South Africa,478452,478452
-2021-05-15,South Korea,3763572,28179
+2021-05-15,South Korea,3763572,958330
 2021-05-15,South Sudan,5459,0
 2021-05-15,Spain,14911306,6976683
 2021-05-15,Sri Lanka,1140122,243957
@@ -30967,7 +30967,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-16,Kuwait,822000,38000
 2021-05-16,Kyrgyzstan,37117,6010
 2021-05-16,Laos,493481,89266
-2021-05-16,Latvia,369262,117402
+2021-05-16,Latvia,421755,125339
 2021-05-16,Lebanon,382219,204515
 2021-05-16,Lesotho,16000,0
 2021-05-16,Liberia,36404,0
@@ -31029,7 +31029,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-16,Solomon Islands,3479,0
 2021-05-16,Somalia,124471,0
 2021-05-16,South Africa,478733,478733
-2021-05-16,South Korea,3763700,28219
+2021-05-16,South Korea,3763700,963388
 2021-05-16,South Sudan,5459,0
 2021-05-16,Spain,15320846,7213716
 2021-05-16,Sri Lanka,1273861,267900
@@ -31153,7 +31153,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-17,Kuwait,822000,38000
 2021-05-17,Kyrgyzstan,37117,6010
 2021-05-17,Laos,533172,90405
-2021-05-17,Latvia,375972,121754
+2021-05-17,Latvia,428848,130262
 2021-05-17,Lebanon,399742,207252
 2021-05-17,Lesotho,16000,0
 2021-05-17,Liberia,36404,0
@@ -31215,7 +31215,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-17,Solomon Islands,3479,0
 2021-05-17,Somalia,124471,0
 2021-05-17,South Africa,478733,478733
-2021-05-17,South Korea,3777346,44504
+2021-05-17,South Korea,3777346,1064029
 2021-05-17,South Sudan,5459,0
 2021-05-17,Spain,15495889,7323426
 2021-05-17,Sri Lanka,1300558,269512
@@ -31339,7 +31339,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-18,Kuwait,822000,38000
 2021-05-18,Kyrgyzstan,37117,6010
 2021-05-18,Laos,542132,92582
-2021-05-18,Latvia,385588,128183
+2021-05-18,Latvia,439374,137542
 2021-05-18,Lebanon,410328,208086
 2021-05-18,Lesotho,36637,0
 2021-05-18,Liberia,36404,0
@@ -31401,7 +31401,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-18,Solomon Islands,3479,0
 2021-05-18,Somalia,124471,0
 2021-05-18,South Africa,519139,479768
-2021-05-18,South Korea,3790057,84949
+2021-05-18,South Korea,3790057,1206089
 2021-05-18,South Sudan,6403,0
 2021-05-18,Spain,15741247,7469173
 2021-05-18,Sri Lanka,1350065,294892
@@ -31525,7 +31525,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-19,Kuwait,822000,38000
 2021-05-19,Kyrgyzstan,37117,6010
 2021-05-19,Laos,553612,95394
-2021-05-19,Latvia,393955,141459
+2021-05-19,Latvia,448776,151790
 2021-05-19,Lebanon,421523,210156
 2021-05-19,Lesotho,36637,0
 2021-05-19,Liberia,36404,0
@@ -31587,7 +31587,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-19,Solomon Islands,3479,0
 2021-05-19,Somalia,124471,0
 2021-05-19,South Africa,558170,479768
-2021-05-19,South Korea,3792074,85926
+2021-05-19,South Korea,3792074,1299260
 2021-05-19,South Sudan,6403,0
 2021-05-19,Spain,16049843,7697288
 2021-05-19,Sri Lanka,1383082,300121
@@ -31711,7 +31711,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-20,Kuwait,822000,38000
 2021-05-20,Kyrgyzstan,37117,6010
 2021-05-20,Laos,568233,101026
-2021-05-20,Latvia,400709,154398
+2021-05-20,Latvia,456555,166109
 2021-05-20,Lebanon,436484,215366
 2021-05-20,Lesotho,36637,0
 2021-05-20,Liberia,36404,0
@@ -31773,7 +31773,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-20,Solomon Islands,3479,0
 2021-05-20,Somalia,124471,0
 2021-05-20,South Africa,597406,479768
-2021-05-20,South Korea,3804642,152645
+2021-05-20,South Korea,3804642,1510730
 2021-05-20,South Sudan,6403,0
 2021-05-20,Spain,16347683,7865313
 2021-05-20,Sri Lanka,1399927,307396
@@ -31897,7 +31897,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-21,Kuwait,822000,38000
 2021-05-21,Kyrgyzstan,37117,6010
 2021-05-21,Laos,584532,105734
-2021-05-21,Latvia,409932,164850
+2021-05-21,Latvia,466849,177974
 2021-05-21,Lebanon,443737,217312
 2021-05-21,Lesotho,36637,122
 2021-05-21,Liberia,52446,0
@@ -31959,7 +31959,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-21,Solomon Islands,3479,0
 2021-05-21,Somalia,124471,0
 2021-05-21,South Africa,642382,479768
-2021-05-21,South Korea,3819463,240055
+2021-05-21,South Korea,3819463,1736508
 2021-05-21,South Sudan,7500,0
 2021-05-21,Spain,16347683,7865313
 2021-05-21,Sri Lanka,1410615,316134
@@ -32083,7 +32083,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-22,Kuwait,822000,38000
 2021-05-22,Kyrgyzstan,37117,6010
 2021-05-22,Laos,602669,126249
-2021-05-22,Latvia,415106,172015
+2021-05-22,Latvia,472475,185691
 2021-05-22,Lebanon,444282,217327
 2021-05-22,Lesotho,36637,122
 2021-05-22,Liberia,52446,0
@@ -32145,7 +32145,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-22,Solomon Islands,3479,0
 2021-05-22,Somalia,124471,0
 2021-05-22,South Africa,647983,479768
-2021-05-22,South Korea,3824760,256388
+2021-05-22,South Korea,3824760,1772353
 2021-05-22,South Sudan,7500,0
 2021-05-22,Spain,16347683,7865313
 2021-05-22,Sri Lanka,1426735,322631
@@ -32269,7 +32269,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-23,Kuwait,822000,38000
 2021-05-23,Kyrgyzstan,37117,6010
 2021-05-23,Laos,602669,126249
-2021-05-23,Latvia,416160,173942
+2021-05-23,Latvia,473549,187666
 2021-05-23,Lebanon,446633,218181
 2021-05-23,Lesotho,36637,122
 2021-05-23,Liberia,52446,0
@@ -32331,7 +32331,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-23,Solomon Islands,3479,0
 2021-05-23,Somalia,124471,0
 2021-05-23,South Africa,651628,479768
-2021-05-23,South Korea,3825088,256715
+2021-05-23,South Korea,3825088,1775094
 2021-05-23,South Sudan,7500,0
 2021-05-23,Spain,16709939,8130648
 2021-05-23,Sri Lanka,1437147,328231
@@ -32455,7 +32455,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-24,Kuwait,822000,38000
 2021-05-24,Kyrgyzstan,37117,6010
 2021-05-24,Laos,602669,126249
-2021-05-24,Latvia,421452,179775
+2021-05-24,Latvia,479593,194252
 2021-05-24,Lebanon,455766,222412
 2021-05-24,Lesotho,36637,122
 2021-05-24,Liberia,53626,0
@@ -32517,7 +32517,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-24,Solomon Islands,3479,0
 2021-05-24,Somalia,125205,0
 2021-05-24,South Africa,700904,479768
-2021-05-24,South Korea,3897180,315221
+2021-05-24,South Korea,3897180,1880283
 2021-05-24,South Sudan,7976,0
 2021-05-24,Spain,16953205,8250814
 2021-05-24,Sri Lanka,1439501,333423
@@ -32641,7 +32641,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-25,Kuwait,822000,38000
 2021-05-25,Kyrgyzstan,37117,6010
 2021-05-25,Laos,602669,126249
-2021-05-25,Latvia,428148,194077
+2021-05-25,Latvia,486535,208990
 2021-05-25,Lebanon,458915,223181
 2021-05-25,Lesotho,36637,122
 2021-05-25,Liberia,53626,0
@@ -32703,7 +32703,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-25,Solomon Islands,3479,0
 2021-05-25,Somalia,125582,0
 2021-05-25,South Africa,761903,479768
-2021-05-25,South Korea,3975671,373737
+2021-05-25,South Korea,3975671,1973941
 2021-05-25,South Sudan,7976,0
 2021-05-25,Spain,17187731,8434233
 2021-05-25,Sri Lanka,1441501,340928
@@ -32827,7 +32827,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-26,Kuwait,822000,38000
 2021-05-26,Kyrgyzstan,37117,6010
 2021-05-26,Laos,614566,136217
-2021-05-26,Latvia,435736,208447
+2021-05-26,Latvia,494465,224020
 2021-05-26,Lebanon,479863,235423
 2021-05-26,Lesotho,36637,122
 2021-05-26,Liberia,55690,0
@@ -32889,7 +32889,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-26,Solomon Islands,3479,0
 2021-05-26,Somalia,125582,0
 2021-05-26,South Africa,828204,479768
-2021-05-26,South Korea,4063617,427389
+2021-05-26,South Korea,4063617,2041767
 2021-05-26,South Sudan,8606,0
 2021-05-26,Spain,17487591,8614678
 2021-05-26,Sri Lanka,1443066,343277
@@ -33013,7 +33013,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-27,Kuwait,822000,38000
 2021-05-27,Kyrgyzstan,37117,6010
 2021-05-27,Laos,614566,136217
-2021-05-27,Latvia,440827,224519
+2021-05-27,Latvia,500172,241177
 2021-05-27,Lebanon,486638,238695
 2021-05-27,Lesotho,36637,122
 2021-05-27,Liberia,55690,0
@@ -33075,7 +33075,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-27,Solomon Islands,3479,0
 2021-05-27,Somalia,128519,942
 2021-05-27,South Africa,898955,479768
-2021-05-27,South Korea,4725910,470999
+2021-05-27,South Korea,4725910,2097214
 2021-05-27,South Sudan,8606,0
 2021-05-27,Spain,17707320,8804363
 2021-05-27,Sri Lanka,1446712,343976
@@ -33199,7 +33199,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-28,Kuwait,822000,38000
 2021-05-28,Kyrgyzstan,37117,6010
 2021-05-28,Laos,614566,136217
-2021-05-28,Latvia,450119,237813
+2021-05-28,Latvia,510670,256844
 2021-05-28,Lebanon,496596,240732
 2021-05-28,Lesotho,36637,122
 2021-05-28,Liberia,55690,0
@@ -33261,7 +33261,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-28,Solomon Islands,3479,0
 2021-05-28,Somalia,128519,942
 2021-05-28,South Africa,963876,479768
-2021-05-28,South Korea,5271138,524672
+2021-05-28,South Korea,5271138,2162496
 2021-05-28,South Sudan,8606,0
 2021-05-28,Spain,17707320,8804363
 2021-05-28,Sri Lanka,1488651,344397
@@ -33385,7 +33385,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-29,Kuwait,822000,38000
 2021-05-29,Kyrgyzstan,37117,6010
 2021-05-29,Laos,614566,136217
-2021-05-29,Latvia,453872,244610
+2021-05-29,Latvia,515786,265265
 2021-05-29,Lebanon,501061,241304
 2021-05-29,Lesotho,36637,122
 2021-05-29,Liberia,55690,0
@@ -33447,7 +33447,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-29,Solomon Islands,3479,0
 2021-05-29,Somalia,128519,942
 2021-05-29,South Africa,968319,479768
-2021-05-29,South Korea,5435939,531041
+2021-05-29,South Korea,5435939,2171421
 2021-05-29,South Sudan,8606,0
 2021-05-29,Spain,17707320,8804363
 2021-05-29,Sri Lanka,1505273,345728
@@ -33571,7 +33571,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-30,Kuwait,822000,38000
 2021-05-30,Kyrgyzstan,37117,6010
 2021-05-30,Laos,614566,136217
-2021-05-30,Latvia,455685,246347
+2021-05-30,Latvia,518534,267401
 2021-05-30,Lebanon,507853,244319
 2021-05-30,Lesotho,36637,122
 2021-05-30,Liberia,55690,0
@@ -33633,7 +33633,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-30,Solomon Islands,3479,0
 2021-05-30,Somalia,128519,942
 2021-05-30,South Africa,970448,479768
-2021-05-30,South Korea,5440793,531141
+2021-05-30,South Korea,5440793,2171534
 2021-05-30,South Sudan,8606,0
 2021-05-30,Spain,18032417,9221285
 2021-05-30,Sri Lanka,1526750,346240
@@ -33757,7 +33757,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-31,Kuwait,822000,38000
 2021-05-31,Kyrgyzstan,37117,6010
 2021-05-31,Laos,638377,227317
-2021-05-31,Latvia,459946,251300
+2021-05-31,Latvia,524580,275451
 2021-05-31,Lebanon,521645,252790
 2021-05-31,Lesotho,36637,122
 2021-05-31,Liberia,56144,0
@@ -33819,7 +33819,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-31,Solomon Islands,3479,0
 2021-05-31,Somalia,129419,4714
 2021-05-31,South Africa,1045104,479768
-2021-05-31,South Korea,5827897,550151
+2021-05-31,South Korea,5827897,2198882
 2021-05-31,South Sudan,9744,0
 2021-05-31,Spain,18178604,9405245
 2021-05-31,Sri Lanka,1608518,348224
@@ -33943,7 +33943,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-01,Kuwait,822000,38000
 2021-06-01,Kyrgyzstan,37117,6010
 2021-06-01,Laos,662521,239935
-2021-06-01,Latvia,459946,251300
+2021-06-01,Latvia,531679,290504
 2021-06-01,Lebanon,535694,264446
 2021-06-01,Lesotho,36637,122
 2021-06-01,Liberia,56144,0
@@ -34005,7 +34005,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-01,Solomon Islands,3479,0
 2021-06-01,Somalia,129419,4714
 2021-06-01,South Africa,1117569,479768
-2021-06-01,South Korea,6395950,571276
+2021-06-01,South Korea,6395950,2225445
 2021-06-01,South Sudan,9744,0
 2021-06-01,Spain,18426204,9679187
 2021-06-01,Sri Lanka,1691562,349745
@@ -34129,7 +34129,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-02,Kuwait,822000,38000
 2021-06-02,Kyrgyzstan,37117,6010
 2021-06-02,Laos,664661,249353
-2021-06-02,Latvia,459946,251300
+2021-06-02,Latvia,536428,309214
 2021-06-02,Lebanon,546388,273130
 2021-06-02,Lesotho,36637,122
 2021-06-02,Liberia,56144,0
@@ -34191,7 +34191,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-02,Solomon Islands,3479,0
 2021-06-02,Somalia,129419,8199
 2021-06-02,South Africa,1193352,479768
-2021-06-02,South Korea,6779243,590708
+2021-06-02,South Korea,6779243,2248317
 2021-06-02,South Sudan,9744,0
 2021-06-02,Spain,18720164,9979204
 2021-06-02,Sri Lanka,1766636,351017
@@ -34315,7 +34315,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-03,Kuwait,822000,38000
 2021-06-03,Kyrgyzstan,37117,6010
 2021-06-03,Laos,667657,265848
-2021-06-03,Latvia,459946,251300
+2021-06-03,Latvia,541022,327529
 2021-06-03,Lebanon,563270,284750
 2021-06-03,Lesotho,36637,122
 2021-06-03,Liberia,56144,0
@@ -34377,7 +34377,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-03,Solomon Islands,3479,0
 2021-06-03,Somalia,129419,8199
 2021-06-03,South Africa,1266893,479768
-2021-06-03,South Korea,7123680,611553
+2021-06-03,South Korea,7123680,2274349
 2021-06-03,South Sudan,9744,0
 2021-06-03,Spain,19038135,10257209
 2021-06-03,Sri Lanka,1766636,351017
@@ -34501,7 +34501,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-04,Kuwait,822000,38000
 2021-06-04,Kyrgyzstan,37117,6010
 2021-06-04,Laos,674311,283474
-2021-06-04,Latvia,459946,251300
+2021-06-04,Latvia,547980,342453
 2021-06-04,Lebanon,564476,284995
 2021-06-04,Lesotho,36637,122
 2021-06-04,Liberia,56144,0
@@ -34563,7 +34563,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-04,Solomon Islands,3479,0
 2021-06-04,Somalia,129419,8199
 2021-06-04,South Africa,1336547,479768
-2021-06-04,South Korea,7493144,634775
+2021-06-04,South Korea,7493144,2304494
 2021-06-04,South Sudan,9744,0
 2021-06-04,Spain,19038135,10257209
 2021-06-04,Sri Lanka,1766636,351017
@@ -34687,7 +34687,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-05,Kuwait,822000,38000
 2021-06-05,Kyrgyzstan,37117,6010
 2021-06-05,Laos,679729,302524
-2021-06-05,Latvia,459946,251300
+2021-06-05,Latvia,551390,351351
 2021-06-05,Lebanon,566738,285352
 2021-06-05,Lesotho,36637,122
 2021-06-05,Liberia,56144,0
@@ -34749,7 +34749,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-05,Solomon Islands,3479,0
 2021-06-05,Somalia,129419,8199
 2021-06-05,South Africa,1343433,479768
-2021-06-05,South Korea,7633434,635981
+2021-06-05,South Korea,7633434,2306967
 2021-06-05,South Sudan,9744,0
 2021-06-05,Spain,19038135,10257209
 2021-06-05,Sri Lanka,1920801,351459
@@ -34873,7 +34873,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-06,Kuwait,822000,38000
 2021-06-06,Kyrgyzstan,37117,6010
 2021-06-06,Laos,683354,310305
-2021-06-06,Latvia,459946,251300
+2021-06-06,Latvia,552788,356256
 2021-06-06,Lebanon,574301,288833
 2021-06-06,Lesotho,36637,122
 2021-06-06,Liberia,56144,0
@@ -34935,7 +34935,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-06,Solomon Islands,3479,0
 2021-06-06,Somalia,129419,8199
 2021-06-06,South Africa,1350245,479768
-2021-06-06,South Korea,7636543,635989
+2021-06-06,South Korea,7636543,2307009
 2021-06-06,South Sudan,9744,0
 2021-06-06,Spain,19786574,11002869
 2021-06-06,Sri Lanka,1943708,353156
@@ -35059,7 +35059,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-07,Kuwait,822000,38000
 2021-06-07,Kyrgyzstan,37117,6010
 2021-06-07,Laos,686794,313402
-2021-06-07,Latvia,459946,251300
+2021-06-07,Latvia,558805,366166
 2021-06-07,Lebanon,589810,297186
 2021-06-07,Lesotho,36637,122
 2021-06-07,Liberia,56144,0
@@ -35121,7 +35121,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-07,Solomon Islands,3479,0
 2021-06-07,Somalia,129419,8199
 2021-06-07,South Africa,1433730,479768
-2021-06-07,South Korea,8531696,645301
+2021-06-07,South Korea,8531696,2327777
 2021-06-07,South Sudan,9744,0
 2021-06-07,Spain,20048174,11260175
 2021-06-07,Sri Lanka,1948187,353302
@@ -35245,7 +35245,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-08,Kuwait,822000,38000
 2021-06-08,Kyrgyzstan,37117,6010
 2021-06-08,Laos,691381,326239
-2021-06-08,Latvia,459946,251300
+2021-06-08,Latvia,564257,380246
 2021-06-08,Lebanon,602419,304999
 2021-06-08,Lesotho,36637,122
 2021-06-08,Liberia,63662,140
@@ -35307,7 +35307,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-08,Solomon Islands,3479,0
 2021-06-08,Somalia,129419,12599
 2021-06-08,South Africa,1525271,479768
-2021-06-08,South Korea,9278754,661786
+2021-06-08,South Korea,9278754,2353690
 2021-06-08,South Sudan,11889,0
 2021-06-08,Spain,20305788,11552393
 2021-06-08,Sri Lanka,1979802,353789
@@ -35431,7 +35431,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-09,Kuwait,822000,38000
 2021-06-09,Kyrgyzstan,88178,47400
 2021-06-09,Laos,694374,340214
-2021-06-09,Latvia,459946,251300
+2021-06-09,Latvia,570515,393592
 2021-06-09,Lebanon,617035,311113
 2021-06-09,Lesotho,36637,122
 2021-06-09,Liberia,63662,140
@@ -35493,7 +35493,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-09,Solomon Islands,3479,0
 2021-06-09,Somalia,129733,13646
 2021-06-09,South Africa,1619011,479768
-2021-06-09,South Korea,9873259,683584
+2021-06-09,South Korea,9873259,2378361
 2021-06-09,South Sudan,11889,0
 2021-06-09,Spain,20628061,11893951
 2021-06-09,Sri Lanka,2023256,353955
@@ -35617,7 +35617,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-10,Kuwait,822000,38000
 2021-06-10,Kyrgyzstan,88178,47400
 2021-06-10,Laos,698503,355853
-2021-06-10,Latvia,459946,251300
+2021-06-10,Latvia,576574,406163
 2021-06-10,Lebanon,633877,315085
 2021-06-10,Lesotho,36637,122
 2021-06-10,Liberia,63662,467
@@ -35679,7 +35679,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-10,Solomon Islands,3479,0
 2021-06-10,Somalia,129733,13646
 2021-06-10,South Africa,1690026,479768
-2021-06-10,South Korea,10641310,964659
+2021-06-10,South Korea,10641310,2666820
 2021-06-10,South Sudan,11889,0
 2021-06-10,Spain,20963619,12250002
 2021-06-10,Sri Lanka,2089320,361645
@@ -35803,7 +35803,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-11,Kuwait,822000,38000
 2021-06-11,Kyrgyzstan,88178,47400
 2021-06-11,Laos,708652,371251
-2021-06-11,Latvia,459946,251300
+2021-06-11,Latvia,582448,419281
 2021-06-11,Lebanon,646546,316677
 2021-06-11,Lesotho,36637,122
 2021-06-11,Liberia,63662,467
@@ -35865,7 +35865,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-11,Solomon Islands,3479,0
 2021-06-11,Somalia,129733,13646
 2021-06-11,South Africa,1767415,479768
-2021-06-11,South Korea,11468925,1193169
+2021-06-11,South Korea,11468925,2904749
 2021-06-11,South Sudan,11889,0
 2021-06-11,Spain,20963619,12250002
 2021-06-11,Sri Lanka,2156935,387438
@@ -35989,7 +35989,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-12,Kuwait,822000,38000
 2021-06-12,Kyrgyzstan,88178,47400
 2021-06-12,Laos,712793,385921
-2021-06-12,Latvia,459946,251300
+2021-06-12,Latvia,586860,424450
 2021-06-12,Lebanon,668318,317000
 2021-06-12,Lesotho,36637,122
 2021-06-12,Liberia,63662,467
@@ -36051,7 +36051,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-12,Solomon Islands,3479,0
 2021-06-12,Somalia,135107,19879
 2021-06-12,South Africa,1773417,479768
-2021-06-12,South Korea,11858225,1308232
+2021-06-12,South Korea,11858225,3024044
 2021-06-12,South Sudan,11889,0
 2021-06-12,Spain,20963619,12250002
 2021-06-12,Sri Lanka,2199504,433202
@@ -36175,7 +36175,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-13,Kuwait,822000,38000
 2021-06-13,Kyrgyzstan,88178,47400
 2021-06-13,Laos,713709,394679
-2021-06-13,Latvia,459946,251300
+2021-06-13,Latvia,588141,425277
 2021-06-13,Lebanon,689509,321358
 2021-06-13,Lesotho,36637,122
 2021-06-13,Liberia,63662,467
@@ -36237,7 +36237,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-13,Solomon Islands,3479,0
 2021-06-13,Somalia,135107,19879
 2021-06-13,South Africa,1777288,479768
-2021-06-13,South Korea,11886185,1320035
+2021-06-13,South Korea,11886185,3036079
 2021-06-13,South Sudan,11889,0
 2021-06-13,Spain,21474788,12813055
 2021-06-13,Sri Lanka,2259385,509998
@@ -36361,7 +36361,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-14,Kuwait,822000,38000
 2021-06-14,Kyrgyzstan,88178,47400
 2021-06-14,Laos,713818,397038
-2021-06-14,Latvia,459946,251300
+2021-06-14,Latvia,591757,432946
 2021-06-14,Lebanon,701602,330037
 2021-06-14,Lesotho,36637,122
 2021-06-14,Liberia,65097,493
@@ -36423,7 +36423,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-14,Solomon Islands,3479,0
 2021-06-14,Somalia,135107,21441
 2021-06-14,South Africa,1871987,479768
-2021-06-14,South Korea,12656174,1513280
+2021-06-14,South Korea,12656174,3295452
 2021-06-14,South Sudan,17350,1513
 2021-06-14,Spain,21713840,13007371
 2021-06-14,Sri Lanka,2285572,544898
@@ -36547,7 +36547,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-15,Kuwait,822000,38000
 2021-06-15,Kyrgyzstan,88178,47400
 2021-06-15,Laos,717648,404480
-2021-06-15,Latvia,459946,251300
+2021-06-15,Latvia,596259,443100
 2021-06-15,Lebanon,716565,341907
 2021-06-15,Lesotho,36637,122
 2021-06-15,Liberia,66884,553
@@ -36609,7 +36609,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-15,Solomon Islands,3479,0
 2021-06-15,Somalia,135107,21441
 2021-06-15,South Africa,1965812,479768
-2021-06-15,South Korea,13303765,1650426
+2021-06-15,South Korea,13303765,3505093
 2021-06-15,South Sudan,17350,1513
 2021-06-15,Spain,22048919,13301010
 2021-06-15,Sri Lanka,2317012,613200
@@ -36733,7 +36733,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-16,Kuwait,822000,38000
 2021-06-16,Kyrgyzstan,88178,47400
 2021-06-16,Laos,719562,414785
-2021-06-16,Latvia,459946,251300
+2021-06-16,Latvia,601928,454975
 2021-06-16,Lebanon,718199,343251
 2021-06-16,Lesotho,36637,122
 2021-06-16,Liberia,66884,553
@@ -36795,7 +36795,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-16,Solomon Islands,3479,0
 2021-06-16,Somalia,135107,21441
 2021-06-16,South Africa,1974099,479768
-2021-06-16,South Korea,13872559,1851565
+2021-06-16,South Korea,13872559,3788533
 2021-06-16,South Sudan,17350,1513
 2021-06-16,Spain,22365104,13641091
 2021-06-16,Sri Lanka,2350564,677353
@@ -36919,7 +36919,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-17,Kuwait,822000,38000
 2021-06-17,Kyrgyzstan,88178,47400
 2021-06-17,Laos,719562,414785
-2021-06-17,Latvia,459946,251300
+2021-06-17,Latvia,607481,464378
 2021-06-17,Lebanon,747426,364162
 2021-06-17,Lesotho,36637,122
 2021-06-17,Liberia,66884,553
@@ -36981,7 +36981,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-17,Solomon Islands,3479,0
 2021-06-17,Somalia,135107,23602
 2021-06-17,South Africa,2069346,479768
-2021-06-17,South Korea,14316137,1900045
+2021-06-17,South Korea,14316137,3918607
 2021-06-17,South Sudan,17350,1513
 2021-06-17,Spain,22684911,13939564
 2021-06-17,Sri Lanka,2380354,702551
@@ -37105,7 +37105,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-18,Kuwait,822000,38000
 2021-06-18,Kyrgyzstan,88178,47400
 2021-06-18,Laos,742607,440530
-2021-06-18,Latvia,459946,251300
+2021-06-18,Latvia,613182,478026
 2021-06-18,Lebanon,758974,368007
 2021-06-18,Lesotho,36637,122
 2021-06-18,Liberia,66884,553
@@ -37167,7 +37167,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-18,Solomon Islands,3479,0
 2021-06-18,Somalia,135107,24816
 2021-06-18,South Africa,2137071,479768
-2021-06-18,South Korea,14853756,1952777
+2021-06-18,South Korea,14853756,4046980
 2021-06-18,South Sudan,17350,1513
 2021-06-18,Spain,22684911,13939564
 2021-06-18,Sri Lanka,2391683,748573
@@ -37291,7 +37291,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-19,Kuwait,822000,38000
 2021-06-19,Kyrgyzstan,88178,47400
 2021-06-19,Laos,753750,455128
-2021-06-19,Latvia,459946,251300
+2021-06-19,Latvia,616730,484467
 2021-06-19,Lebanon,760592,368127
 2021-06-19,Lesotho,36637,122
 2021-06-19,Liberia,66884,553
@@ -37353,7 +37353,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-19,Solomon Islands,3479,0
 2021-06-19,Somalia,135107,24816
 2021-06-19,South Africa,2141624,479768
-2021-06-19,South Korea,15070276,1973713
+2021-06-19,South Korea,15070276,4083127
 2021-06-19,South Sudan,17350,1513
 2021-06-19,Spain,22684911,13939564
 2021-06-19,Sri Lanka,2430811,787007
@@ -37477,7 +37477,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-20,Kuwait,822000,38000
 2021-06-20,Kyrgyzstan,88178,47400
 2021-06-20,Laos,753750,455128
-2021-06-20,Latvia,459946,251300
+2021-06-20,Latvia,617757,487594
 2021-06-20,Lebanon,761818,368851
 2021-06-20,Lesotho,36637,122
 2021-06-20,Liberia,68134,687
@@ -37539,7 +37539,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-20,Solomon Islands,3479,0
 2021-06-20,Somalia,135107,28871
 2021-06-20,South Africa,2141624,479768
-2021-06-20,South Korea,15071002,1974154
+2021-06-20,South Korea,15071002,4084322
 2021-06-20,South Sudan,27338,2072
 2021-06-20,Spain,23200566,14431683
 2021-06-20,Sri Lanka,2455180,806252
@@ -37663,7 +37663,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-21,Kuwait,822000,38000
 2021-06-21,Kyrgyzstan,88178,47400
 2021-06-21,Laos,780552,461632
-2021-06-21,Latvia,459946,251300
+2021-06-21,Latvia,621366,498054
 2021-06-21,Lebanon,761818,368851
 2021-06-21,Lesotho,36637,122
 2021-06-21,Liberia,68134,687
@@ -37725,7 +37725,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-21,Solomon Islands,18042,3427
 2021-06-21,Somalia,135107,28871
 2021-06-21,South Africa,2229242,479768
-2021-06-21,South Korea,15118648,1992747
+2021-06-21,South Korea,15118648,4202377
 2021-06-21,South Sudan,27338,2072
 2021-06-21,Spain,23443444,14745736
 2021-06-21,Sri Lanka,2472807,829116
@@ -37849,7 +37849,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-22,Kuwait,822000,38000
 2021-06-22,Kyrgyzstan,88178,47400
 2021-06-22,Laos,798257,470370
-2021-06-22,Latvia,459946,251300
+2021-06-22,Latvia,624363,506731
 2021-06-22,Lebanon,761818,368851
 2021-06-22,Lesotho,36637,122
 2021-06-22,Liberia,68134,687
@@ -37911,7 +37911,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-22,Solomon Islands,18042,3427
 2021-06-22,Somalia,135107,43157
 2021-06-22,South Africa,2229242,479768
-2021-06-22,South Korea,15167662,2013326
+2021-06-22,South Korea,15167662,4328316
 2021-06-22,South Sudan,27338,2072
 2021-06-22,Spain,23772029,15138439
 2021-06-22,Sri Lanka,2482166,842183
@@ -38035,7 +38035,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-23,Kuwait,822000,38000
 2021-06-23,Kyrgyzstan,99900,73800
 2021-06-23,Laos,798257,470370
-2021-06-23,Latvia,459946,251301
+2021-06-23,Latvia,624604,506981
 2021-06-23,Lebanon,794834,380671
 2021-06-23,Lesotho,36637,122
 2021-06-23,Liberia,68134,687
@@ -38097,7 +38097,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-23,Solomon Islands,18042,3427
 2021-06-23,Somalia,135760,54639
 2021-06-23,South Africa,2229242,479768
-2021-06-23,South Korea,15211958,2030770
+2021-06-23,South Korea,15211958,4449162
 2021-06-23,South Sudan,27338,2072
 2021-06-23,Spain,24079429,15602526
 2021-06-23,Sri Lanka,2482166,842183
@@ -38221,7 +38221,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-24,Kuwait,822000,38000
 2021-06-24,Kyrgyzstan,99900,73800
 2021-06-24,Laos,853782,494477
-2021-06-24,Latvia,459946,251301
+2021-06-24,Latvia,624644,507062
 2021-06-24,Lebanon,809864,385884
 2021-06-24,Lesotho,36637,122
 2021-06-24,Liberia,74372,2270
@@ -38283,7 +38283,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-24,Solomon Islands,18042,3427
 2021-06-24,Somalia,135760,54639
 2021-06-24,South Africa,2550248,479768
-2021-06-24,South Korea,15257831,2045309
+2021-06-24,South Korea,15257831,4557448
 2021-06-24,South Sudan,30849,2110
 2021-06-24,Spain,24325902,15894800
 2021-06-24,Sri Lanka,2500428,866792
@@ -38407,7 +38407,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-25,Kuwait,822000,38000
 2021-06-25,Kyrgyzstan,99900,73800
 2021-06-25,Laos,869006,513003
-2021-06-25,Latvia,459946,251301
+2021-06-25,Latvia,625442,509618
 2021-06-25,Lebanon,846312,397414
 2021-06-25,Lesotho,36637,122
 2021-06-25,Liberia,74372,2270
@@ -38469,7 +38469,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-25,Solomon Islands,18042,3427
 2021-06-25,Somalia,135760,54639
 2021-06-25,South Africa,2661378,479768
-2021-06-25,South Korea,15321978,2059200
+2021-06-25,South Korea,15321978,4654637
 2021-06-25,South Sudan,30849,2110
 2021-06-25,Spain,24325902,15894800
 2021-06-25,Sri Lanka,2500428,866792
@@ -38593,7 +38593,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-26,Kuwait,822000,38000
 2021-06-26,Kyrgyzstan,99900,73800
 2021-06-26,Laos,884428,524103
-2021-06-26,Latvia,459946,251301
+2021-06-26,Latvia,626705,512194
 2021-06-26,Lebanon,849525,397740
 2021-06-26,Lesotho,36637,122
 2021-06-26,Liberia,74372,2270
@@ -38655,7 +38655,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-26,Solomon Islands,18042,3427
 2021-06-26,Somalia,135760,54639
 2021-06-26,South Africa,2682710,479768
-2021-06-26,South Korea,15333322,2059958
+2021-06-26,South Korea,15333322,4678393
 2021-06-26,South Sudan,30849,2110
 2021-06-26,Spain,24325902,15894800
 2021-06-26,Sri Lanka,2500428,866792
@@ -38779,7 +38779,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-27,Kuwait,822000,38000
 2021-06-27,Kyrgyzstan,99900,73800
 2021-06-27,Laos,884428,524103
-2021-06-27,Latvia,459946,251301
+2021-06-27,Latvia,627410,514254
 2021-06-27,Lebanon,852887,401031
 2021-06-27,Lesotho,36637,122
 2021-06-27,Liberia,74372,2270
@@ -38841,7 +38841,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-27,Solomon Islands,18042,3427
 2021-06-27,Somalia,135760,54639
 2021-06-27,South Africa,2779912,479768
-2021-06-27,South Korea,15333395,2059988
+2021-06-27,South Korea,15333395,4679186
 2021-06-27,South Sudan,30849,2110
 2021-06-27,Spain,24792784,16609913
 2021-06-27,Sri Lanka,2500428,866792
@@ -38965,7 +38965,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-28,Kuwait,822000,38000
 2021-06-28,Kyrgyzstan,99900,73800
 2021-06-28,Laos,886238,530029
-2021-06-28,Latvia,459946,251301
+2021-06-28,Latvia,630730,527775
 2021-06-28,Lebanon,870901,414486
 2021-06-28,Lesotho,36637,122
 2021-06-28,Liberia,79670,2542
@@ -39027,7 +39027,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-28,Solomon Islands,18042,3427
 2021-06-28,Somalia,137981,66195
 2021-06-28,South Africa,2787996,479768
-2021-06-28,South Korea,15346842,2069490
+2021-06-28,South Korea,15346842,4824320
 2021-06-28,South Sudan,42166,2754
 2021-06-28,Spain,25007416,17088342
 2021-06-28,Sri Lanka,2605558,900519
@@ -39151,7 +39151,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-29,Kuwait,822000,38000
 2021-06-29,Kyrgyzstan,99900,73800
 2021-06-29,Laos,886238,530029
-2021-06-29,Latvia,459946,251301
+2021-06-29,Latvia,635774,539019
 2021-06-29,Lebanon,886953,425901
 2021-06-29,Lesotho,36637,122
 2021-06-29,Liberia,79670,2542
@@ -39213,7 +39213,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-29,Solomon Islands,18050,3692
 2021-06-29,Somalia,138603,69812
 2021-06-29,South Africa,2900666,479768
-2021-06-29,South Korea,15363770,2083018
+2021-06-29,South Korea,15363770,4969964
 2021-06-29,South Sudan,42166,2754
 2021-06-29,Spain,25320606,17519587
 2021-06-29,Sri Lanka,2636524,939472
@@ -39337,7 +39337,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-30,Kuwait,822000,38000
 2021-06-30,Kyrgyzstan,99900,73800
 2021-06-30,Laos,886238,530029
-2021-06-30,Latvia,459946,251301
+2021-06-30,Latvia,640695,550762
 2021-06-30,Lebanon,909523,439633
 2021-06-30,Lesotho,36637,122
 2021-06-30,Liberia,79670,2542
@@ -39399,7 +39399,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-30,Solomon Islands,18050,3692
 2021-06-30,Somalia,138603,69812
 2021-06-30,South Africa,3026636,479768
-2021-06-30,South Korea,15378659,2096672
+2021-06-30,South Korea,15378659,5107672
 2021-06-30,South Sudan,42166,2754
 2021-06-30,Spain,25627278,17990526
 2021-06-30,Sri Lanka,2697778,995325
@@ -39523,7 +39523,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-01,Kuwait,822000,38000
 2021-07-01,Kyrgyzstan,99900,73800
 2021-07-01,Laos,886238,530029
-2021-07-01,Latvia,459946,251301
+2021-07-01,Latvia,645444,559462
 2021-07-01,Lebanon,914967,444248
 2021-07-01,Lesotho,36637,122
 2021-07-01,Liberia,79670,2542
@@ -39585,7 +39585,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-01,Solomon Islands,18050,3692
 2021-07-01,Somalia,138603,69812
 2021-07-01,South Africa,3155717,479768
-2021-07-01,South Korea,15383253,2114518
+2021-07-01,South Korea,15383253,5229247
 2021-07-01,South Sudan,42166,2754
 2021-07-01,Spain,25948237,18466362
 2021-07-01,Sri Lanka,2789537,1077086
@@ -39709,7 +39709,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-02,Kuwait,822000,38000
 2021-07-02,Kyrgyzstan,99900,73800
 2021-07-02,Laos,886238,530029
-2021-07-02,Latvia,459946,251301
+2021-07-02,Latvia,650551,568757
 2021-07-02,Lebanon,925393,451207
 2021-07-02,Lesotho,36637,122
 2021-07-02,Liberia,79670,2542
@@ -39771,7 +39771,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-02,Solomon Islands,18050,3692
 2021-07-02,Somalia,138603,69812
 2021-07-02,South Africa,3155717,479768
-2021-07-02,South Korea,15388498,2138294
+2021-07-02,South Korea,15388498,5351084
 2021-07-02,South Sudan,42166,2754
 2021-07-02,Spain,25948237,18466362
 2021-07-02,Sri Lanka,2889602,1146978
@@ -39895,7 +39895,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-03,Kuwait,1452148,923307
 2021-07-03,Kyrgyzstan,99900,73800
 2021-07-03,Laos,886238,530029
-2021-07-03,Latvia,459946,251301
+2021-07-03,Latvia,653719,575811
 2021-07-03,Lebanon,926962,451270
 2021-07-03,Lesotho,36637,122
 2021-07-03,Liberia,79670,2542
@@ -39957,7 +39957,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-03,Solomon Islands,18050,3692
 2021-07-03,Somalia,138603,69812
 2021-07-03,South Africa,3307588,479768
-2021-07-03,South Korea,15390082,2139523
+2021-07-03,South Korea,15390082,5368393
 2021-07-03,South Sudan,42166,2754
 2021-07-03,Spain,25948237,18466362
 2021-07-03,Sri Lanka,2916330,1206499
@@ -40081,7 +40081,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-04,Kuwait,1452148,923307
 2021-07-04,Kyrgyzstan,99900,73800
 2021-07-04,Laos,942835,587832
-2021-07-04,Latvia,459946,251301
+2021-07-04,Latvia,655134,577461
 2021-07-04,Lebanon,928112,451741
 2021-07-04,Lesotho,36637,122
 2021-07-04,Liberia,79670,2542
@@ -40143,7 +40143,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-04,Solomon Islands,18050,3692
 2021-07-04,Somalia,138603,69812
 2021-07-04,South Africa,3314278,479768
-2021-07-04,South Korea,15390125,2139540
+2021-07-04,South Korea,15390125,5369065
 2021-07-04,South Sudan,42166,2754
 2021-07-04,Spain,26505676,19135448
 2021-07-04,Sri Lanka,2951245,1235288
@@ -40267,7 +40267,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-05,Kuwait,1452148,923307
 2021-07-05,Kyrgyzstan,99900,73800
 2021-07-05,Laos,947702,589809
-2021-07-05,Latvia,459946,251301
+2021-07-05,Latvia,659214,582646
 2021-07-05,Lebanon,936652,454597
 2021-07-05,Lesotho,36637,19685
 2021-07-05,Liberia,85137,6904
@@ -40329,7 +40329,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-05,Solomon Islands,18050,3692
 2021-07-05,Somalia,138603,69812
 2021-07-05,South Africa,3466228,479768
-2021-07-05,South Korea,15444812,2176704
+2021-07-05,South Korea,15444812,5445725
 2021-07-05,South Sudan,45074,3387
 2021-07-05,Spain,26727529,19530228
 2021-07-05,Sri Lanka,2971751,1250443
@@ -40453,7 +40453,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-06,Kuwait,1452148,923307
 2021-07-06,Kyrgyzstan,99900,73800
 2021-07-06,Laos,956535,595647
-2021-07-06,Latvia,459946,251301
+2021-07-06,Latvia,663999,588808
 2021-07-06,Lebanon,947181,463548
 2021-07-06,Lesotho,36637,19685
 2021-07-06,Liberia,85137,6904
@@ -40515,7 +40515,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-06,Solomon Islands,18050,3692
 2021-07-06,Somalia,149336,85027
 2021-07-06,South Africa,3631102,479768
-2021-07-06,South Korea,15483340,2219502
+2021-07-06,South Korea,15483340,5536820
 2021-07-06,South Sudan,45074,3387
 2021-07-06,Spain,26996373,19982080
 2021-07-06,Sri Lanka,2971751,1250443
@@ -40639,7 +40639,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-07,Kuwait,1452148,923307
 2021-07-07,Kyrgyzstan,99900,73800
 2021-07-07,Laos,956535,595647
-2021-07-07,Latvia,459946,251301
+2021-07-07,Latvia,669398,596149
 2021-07-07,Lebanon,976771,502939
 2021-07-07,Lesotho,36637,19685
 2021-07-07,Liberia,85137,6904
@@ -40701,7 +40701,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-07,Solomon Islands,18050,3692
 2021-07-07,Somalia,149336,85027
 2021-07-07,South Africa,3631102,479768
-2021-07-07,South Korea,15518905,2262761
+2021-07-07,South Korea,15518905,5626105
 2021-07-07,South Sudan,45074,3387
 2021-07-07,Spain,27277127,20528505
 2021-07-07,Sri Lanka,3244417,1284531
@@ -40825,7 +40825,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-08,Kuwait,1452148,923307
 2021-07-08,Kyrgyzstan,99900,73800
 2021-07-08,Laos,956535,595647
-2021-07-08,Latvia,459946,251301
+2021-07-08,Latvia,673843,602385
 2021-07-08,Lebanon,993893,524368
 2021-07-08,Lesotho,36637,19685
 2021-07-08,Liberia,85137,6904
@@ -40887,7 +40887,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-08,Solomon Islands,18050,3692
 2021-07-08,Somalia,149996,85886
 2021-07-08,South Africa,3639039,1253978
-2021-07-08,South Korea,15557114,2315077
+2021-07-08,South Korea,15557114,5732607
 2021-07-08,South Sudan,45074,3387
 2021-07-08,Spain,27534723,20999346
 2021-07-08,Sri Lanka,3396167,1320528
@@ -41011,7 +41011,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-09,Kuwait,1452148,923307
 2021-07-09,Kyrgyzstan,99900,73800
 2021-07-09,Laos,1015262,632798
-2021-07-09,Latvia,459946,251301
+2021-07-09,Latvia,679186,610902
 2021-07-09,Lebanon,1003157,531102
 2021-07-09,Lesotho,36637,19685
 2021-07-09,Liberia,85137,6904
@@ -41073,7 +41073,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-09,Solomon Islands,18050,3692
 2021-07-09,Somalia,149996,85886
 2021-07-09,South Africa,3756282,1344690
-2021-07-09,South Korea,15615657,2399483
+2021-07-09,South Korea,15615657,5881438
 2021-07-09,South Sudan,45074,3387
 2021-07-09,Spain,27534723,20999346
 2021-07-09,Sri Lanka,3584651,1354170
@@ -41197,7 +41197,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-10,Kuwait,1452148,923307
 2021-07-10,Kyrgyzstan,99900,73800
 2021-07-10,Laos,1015262,632798
-2021-07-10,Latvia,459946,251301
+2021-07-10,Latvia,682101,617655
 2021-07-10,Lebanon,1004731,531886
 2021-07-10,Lesotho,36637,19685
 2021-07-10,Liberia,85137,6904
@@ -41259,7 +41259,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-10,Solomon Islands,18050,3692
 2021-07-10,Somalia,149996,85886
 2021-07-10,South Africa,3783990,1355743
-2021-07-10,South Korea,15628659,2431081
+2021-07-10,South Korea,15628659,5920912
 2021-07-10,South Sudan,45074,3387
 2021-07-10,Spain,27534723,20999346
 2021-07-10,Sri Lanka,3754422,1378696
@@ -41383,7 +41383,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-11,Kuwait,1452148,923307
 2021-07-11,Kyrgyzstan,99900,73800
 2021-07-11,Laos,1025248,641545
-2021-07-11,Latvia,459946,251301
+2021-07-11,Latvia,683531,619205
 2021-07-11,Lebanon,1007250,534593
 2021-07-11,Lesotho,36637,19685
 2021-07-11,Liberia,85137,6904
@@ -41445,7 +41445,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-11,Solomon Islands,18050,3692
 2021-07-11,Somalia,162655,87135
 2021-07-11,South Africa,3783990,1355743
-2021-07-11,South Korea,15629203,2432030
+2021-07-11,South Korea,15629203,5922068
 2021-07-11,South Sudan,45074,3387
 2021-07-11,Spain,27994332,21789996
 2021-07-11,Sri Lanka,3896184,1423239
@@ -41569,7 +41569,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-12,Kuwait,1452148,923307
 2021-07-12,Kyrgyzstan,99900,73800
 2021-07-12,Laos,1025248,641545
-2021-07-12,Latvia,459946,251301
+2021-07-12,Latvia,687101,623787
 2021-07-12,Lebanon,1017413,548180
 2021-07-12,Lesotho,36637,19685
 2021-07-12,Liberia,86288,9135
@@ -41631,7 +41631,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-12,Solomon Islands,18050,3692
 2021-07-12,Somalia,162655,87135
 2021-07-12,South Africa,3887113,1399497
-2021-07-12,South Korea,15660704,2485737
+2021-07-12,South Korea,15660704,6015906
 2021-07-12,South Sudan,45074,3387
 2021-07-12,Spain,28216249,22139864
 2021-07-12,Sri Lanka,3991392,1446973
@@ -41755,7 +41755,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-13,Kuwait,1452148,923307
 2021-07-13,Kyrgyzstan,99900,73800
 2021-07-13,Laos,1025248,641545
-2021-07-13,Latvia,459946,251301
+2021-07-13,Latvia,691570,628111
 2021-07-13,Lebanon,1035976,598534
 2021-07-13,Lesotho,36637,19685
 2021-07-13,Liberia,86288,9135
@@ -41817,7 +41817,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-13,Solomon Islands,19641,5987
 2021-07-13,Somalia,162655,87135
 2021-07-13,South Africa,3995020,1459950
-2021-07-13,South Korea,15768959,2553577
+2021-07-13,South Korea,15768959,6126146
 2021-07-13,South Sudan,51571,4344
 2021-07-13,Spain,28475900,22511734
 2021-07-13,Sri Lanka,4192446,1504809
@@ -41941,7 +41941,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-14,Kuwait,1452148,923307
 2021-07-14,Kyrgyzstan,99900,73800
 2021-07-14,Laos,1038254,670727
-2021-07-14,Latvia,459946,251301
+2021-07-14,Latvia,696408,631495
 2021-07-14,Lebanon,1043698,623244
 2021-07-14,Lesotho,36637,19685
 2021-07-14,Liberia,86288,9135
@@ -42003,7 +42003,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-14,Solomon Islands,19641,5987
 2021-07-14,Somalia,162655,87135
 2021-07-14,South Africa,3995020,1459950
-2021-07-14,South Korea,15881256,2637935
+2021-07-14,South Korea,15881256,6248709
 2021-07-14,South Sudan,51571,4344
 2021-07-14,Spain,28759879,22949155
 2021-07-14,Sri Lanka,4496770,1537230
@@ -42127,7 +42127,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-15,Kuwait,1452148,923307
 2021-07-15,Kyrgyzstan,99900,73800
 2021-07-15,Laos,1038254,670727
-2021-07-15,Latvia,459946,251301
+2021-07-15,Latvia,700358,634037
 2021-07-15,Lebanon,1049566,646667
 2021-07-15,Lesotho,36637,19685
 2021-07-15,Liberia,86288,9135
@@ -42189,7 +42189,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-15,Solomon Islands,19641,5987
 2021-07-15,Somalia,162655,87135
 2021-07-15,South Africa,4335517,1674152
-2021-07-15,South Korea,16004410,2740941
+2021-07-15,South Korea,16004410,6391477
 2021-07-15,South Sudan,51571,4344
 2021-07-15,Spain,29033376,23372796
 2021-07-15,Sri Lanka,4847360,1583740
@@ -42313,7 +42313,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-16,Kuwait,1452148,923307
 2021-07-16,Kyrgyzstan,99900,73800
 2021-07-16,Laos,1038254,670727
-2021-07-16,Latvia,459946,251301
+2021-07-16,Latvia,705001,637073
 2021-07-16,Lebanon,1049953,648309
 2021-07-16,Lesotho,36637,19685
 2021-07-16,Liberia,86288,9135
@@ -42375,7 +42375,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-16,Solomon Islands,19641,5987
 2021-07-16,Somalia,162655,87135
 2021-07-16,South Africa,4335517,1674152
-2021-07-16,South Korea,16139269,2868764
+2021-07-16,South Korea,16139269,6576025
 2021-07-16,South Sudan,51571,4344
 2021-07-16,Spain,29033376,23372796
 2021-07-16,Sri Lanka,5175605,1628876
@@ -42499,7 +42499,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-17,Kuwait,1452148,923307
 2021-07-17,Kyrgyzstan,99900,73800
 2021-07-17,Laos,1050818,670727
-2021-07-17,Latvia,459946,251301
+2021-07-17,Latvia,707973,639336
 2021-07-17,Lebanon,1050264,649780
 2021-07-17,Lesotho,36637,19685
 2021-07-17,Liberia,86288,9135
@@ -42561,7 +42561,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-17,Solomon Islands,19641,5987
 2021-07-17,Somalia,162655,87135
 2021-07-17,South Africa,4335517,1674152
-2021-07-17,South Korea,16173879,2895900
+2021-07-17,South Korea,16173879,6612849
 2021-07-17,South Sudan,51571,4344
 2021-07-17,Spain,29033376,23372796
 2021-07-17,Sri Lanka,5404938,1646176
@@ -42685,7 +42685,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-18,Kuwait,1452148,923307
 2021-07-18,Kyrgyzstan,99900,73800
 2021-07-18,Laos,1050818,670727
-2021-07-18,Latvia,459946,251301
+2021-07-18,Latvia,708866,640130
 2021-07-18,Lebanon,1050411,650494
 2021-07-18,Lesotho,36637,19685
 2021-07-18,Liberia,86288,9135
@@ -42747,7 +42747,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-18,Solomon Islands,19641,5987
 2021-07-18,Somalia,162655,87135
 2021-07-18,South Africa,4335517,1674152
-2021-07-18,South Korea,16176338,2896395
+2021-07-18,South Korea,16176338,6613425
 2021-07-18,South Sudan,51571,4344
 2021-07-18,Spain,29484796,24041017
 2021-07-18,Sri Lanka,5578909,1668074
@@ -42871,7 +42871,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-19,Kuwait,1452148,923307
 2021-07-19,Kyrgyzstan,99900,73800
 2021-07-19,Laos,1050818,670727
-2021-07-19,Latvia,459946,251301
+2021-07-19,Latvia,711968,643321
 2021-07-19,Lebanon,1059349,666808
 2021-07-19,Lesotho,36637,19685
 2021-07-19,Liberia,86288,9135
@@ -42933,7 +42933,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-19,Solomon Islands,19641,5987
 2021-07-19,Somalia,162655,87135
 2021-07-19,South Africa,4376024,1688514
-2021-07-19,South Korea,16336583,2958652
+2021-07-19,South Korea,16336583,6684979
 2021-07-19,South Sudan,52226,4763
 2021-07-19,Spain,29697691,24344008
 2021-07-19,Sri Lanka,5675329,1686564
@@ -43057,7 +43057,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-20,Kuwait,1452148,923307
 2021-07-20,Kyrgyzstan,99900,73800
 2021-07-20,Laos,1050818,670727
-2021-07-20,Latvia,459946,251301
+2021-07-20,Latvia,715962,647401
 2021-07-20,Lebanon,1059942,668513
 2021-07-20,Lesotho,36637,19685
 2021-07-20,Liberia,86288,9135
@@ -43119,7 +43119,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-20,Solomon Islands,20538,7282
 2021-07-20,Somalia,162655,87135
 2021-07-20,South Africa,4533966,1786939
-2021-07-20,South Korea,16487383,3013695
+2021-07-20,South Korea,16487383,6746556
 2021-07-20,South Sudan,52226,4763
 2021-07-20,Spain,29956479,24700450
 2021-07-20,Sri Lanka,5876281,1697686
@@ -43243,7 +43243,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-21,Kuwait,1452148,923307
 2021-07-21,Kyrgyzstan,99900,73800
 2021-07-21,Laos,1061689,670727
-2021-07-21,Latvia,459946,251301
+2021-07-21,Latvia,720325,651858
 2021-07-21,Lebanon,1062845,684674
 2021-07-21,Lesotho,36637,19685
 2021-07-21,Liberia,86288,9135
@@ -43305,7 +43305,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-21,Solomon Islands,20538,7282
 2021-07-21,Somalia,162655,87135
 2021-07-21,South Africa,4533966,1786939
-2021-07-21,South Korea,16627143,3047220
+2021-07-21,South Korea,16627143,6786087
 2021-07-21,South Sudan,52226,4763
 2021-07-21,Spain,30217311,25060958
 2021-07-21,Sri Lanka,6138757,1713686
@@ -43429,7 +43429,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-22,Kuwait,1452148,923307
 2021-07-22,Kyrgyzstan,99900,73800
 2021-07-22,Laos,1061689,670727
-2021-07-22,Latvia,459946,251301
+2021-07-22,Latvia,723983,655993
 2021-07-22,Lebanon,1070745,710837
 2021-07-22,Lesotho,36637,19685
 2021-07-22,Liberia,86288,9135
@@ -43491,7 +43491,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-22,Solomon Islands,20538,7282
 2021-07-22,Somalia,162655,87135
 2021-07-22,South Africa,5045795,2154922
-2021-07-22,South Korea,16767881,3106057
+2021-07-22,South Korea,16767881,6845940
 2021-07-22,South Sudan,52226,4763
 2021-07-22,Spain,30500003,25398978
 2021-07-22,Sri Lanka,6317202,1722998
@@ -43615,7 +43615,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-23,Kuwait,1452148,923307
 2021-07-23,Kyrgyzstan,99900,73800
 2021-07-23,Laos,1061689,670727
-2021-07-23,Latvia,459946,251301
+2021-07-23,Latvia,727643,659596
 2021-07-23,Lebanon,1071033,711334
 2021-07-23,Lesotho,36637,19685
 2021-07-23,Liberia,86288,9135
@@ -43677,7 +43677,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-23,Solomon Islands,20538,7282
 2021-07-23,Somalia,162655,87135
 2021-07-23,South Africa,5202583,2274267
-2021-07-23,South Korea,16914690,3170999
+2021-07-23,South Korea,16914690,6905797
 2021-07-23,South Sudan,52226,4763
 2021-07-23,Spain,30500003,25398978
 2021-07-23,Sri Lanka,6542533,1736314
@@ -43801,7 +43801,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-24,Kuwait,1452148,923307
 2021-07-24,Kyrgyzstan,99900,73800
 2021-07-24,Laos,1061689,670727
-2021-07-24,Latvia,459946,251301
+2021-07-24,Latvia,730767,662270
 2021-07-24,Lebanon,1072498,714008
 2021-07-24,Lesotho,36637,19685
 2021-07-24,Liberia,86288,9135
@@ -43863,7 +43863,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-24,Solomon Islands,20538,7282
 2021-07-24,Somalia,162655,87135
 2021-07-24,South Africa,5202583,2274267
-2021-07-24,South Korea,16944081,3182428
+2021-07-24,South Korea,16944081,6916913
 2021-07-24,South Sudan,52226,4763
 2021-07-24,Spain,30500003,25398978
 2021-07-24,Sri Lanka,6693072,1746397
@@ -43987,7 +43987,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-25,Kuwait,1452148,923307
 2021-07-25,Kyrgyzstan,99900,73800
 2021-07-25,Laos,1062365,670727
-2021-07-25,Latvia,459946,251301
+2021-07-25,Latvia,731544,663114
 2021-07-25,Lebanon,1077758,729375
 2021-07-25,Lesotho,36637,19685
 2021-07-25,Liberia,86288,9135
@@ -44049,7 +44049,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-25,Solomon Islands,20538,7282
 2021-07-25,Somalia,162655,87135
 2021-07-25,South Africa,5266979,2311559
-2021-07-25,South Korea,16945730,3182509
+2021-07-25,South Korea,16945730,6917005
 2021-07-25,South Sudan,52226,4763
 2021-07-25,Spain,30827932,25944318
 2021-07-25,Sri Lanka,7114087,1793472
@@ -44173,7 +44173,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-26,Kuwait,1452148,923307
 2021-07-26,Kyrgyzstan,99900,73800
 2021-07-26,Laos,1062365,670727
-2021-07-26,Latvia,459946,251301
+2021-07-26,Latvia,734426,666574
 2021-07-26,Lebanon,1084513,753638
 2021-07-26,Lesotho,36637,19685
 2021-07-26,Liberia,86288,9135
@@ -44235,7 +44235,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-26,Solomon Islands,20538,7282
 2021-07-26,Somalia,162655,87135
 2021-07-26,South Africa,5266979,2311559
-2021-07-26,South Korea,17565207,3204895
+2021-07-26,South Korea,17565207,6981923
 2021-07-26,South Sudan,52226,4763
 2021-07-26,Spain,30996228,26151164
 2021-07-26,Sri Lanka,7434297,1806612
@@ -44359,7 +44359,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-27,Kuwait,1452148,923307
 2021-07-27,Kyrgyzstan,392788,112517
 2021-07-27,Laos,1062365,670727
-2021-07-27,Latvia,459946,251301
+2021-07-27,Latvia,737860,670007
 2021-07-27,Lebanon,1092004,781112
 2021-07-27,Lesotho,36637,19685
 2021-07-27,Liberia,86288,9135
@@ -44421,7 +44421,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-27,Solomon Islands,29429,9934
 2021-07-27,Somalia,162655,87135
 2021-07-27,South Africa,5580927,2580001
-2021-07-27,South Korea,17947555,3228415
+2021-07-27,South Korea,17947555,7030532
 2021-07-27,South Sudan,52226,4763
 2021-07-27,Spain,31315140,26420097
 2021-07-27,Sri Lanka,7839638,1882693
@@ -44545,7 +44545,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-28,Kuwait,1452148,923307
 2021-07-28,Kyrgyzstan,403640,114178
 2021-07-28,Laos,1062365,670727
-2021-07-28,Latvia,459946,251301
+2021-07-28,Latvia,741527,673903
 2021-07-28,Lebanon,1098232,802678
 2021-07-28,Lesotho,36637,19685
 2021-07-28,Liberia,86288,9135
@@ -44607,7 +44607,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-28,Solomon Islands,29429,9934
 2021-07-28,Somalia,162655,87135
 2021-07-28,South Africa,5580927,2580001
-2021-07-28,South Korea,18427939,3247064
+2021-07-28,South Korea,18427939,7073136
 2021-07-28,South Sudan,52226,4763
 2021-07-28,Spain,31592444,26694887
 2021-07-28,Sri Lanka,8232194,1886930
@@ -44731,7 +44731,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-29,Kuwait,1452148,923307
 2021-07-29,Kyrgyzstan,423415,115566
 2021-07-29,Laos,1062365,670727
-2021-07-29,Latvia,459946,251301
+2021-07-29,Latvia,744748,676833
 2021-07-29,Lebanon,1105750,821661
 2021-07-29,Lesotho,36637,19685
 2021-07-29,Liberia,86288,9135
@@ -44793,7 +44793,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-29,Solomon Islands,29429,9934
 2021-07-29,Somalia,162655,87135
 2021-07-29,South Africa,5921627,2835930
-2021-07-29,South Korea,18775844,3260254
+2021-07-29,South Korea,18775844,7116450
 2021-07-29,South Sudan,52226,4763
 2021-07-29,Spain,31851618,26933847
 2021-07-29,Sri Lanka,8718433,1994384
@@ -44917,7 +44917,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-30,Kuwait,1452148,923307
 2021-07-30,Kyrgyzstan,445911,116380
 2021-07-30,Laos,1062365,670727
-2021-07-30,Latvia,459946,251301
+2021-07-30,Latvia,748530,680498
 2021-07-30,Lebanon,1112396,832531
 2021-07-30,Lesotho,36637,19685
 2021-07-30,Liberia,86288,9135
@@ -44979,7 +44979,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-30,Solomon Islands,29429,9934
 2021-07-30,Somalia,162655,87135
 2021-07-30,South Africa,5921627,2835930
-2021-07-30,South Korea,19273259,3271446
+2021-07-30,South Korea,19273259,7176718
 2021-07-30,South Sudan,52226,4763
 2021-07-30,Spain,31851618,26933847
 2021-07-30,Sri Lanka,9178909,2063809
@@ -45103,7 +45103,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-31,Kuwait,1452148,923307
 2021-07-31,Kyrgyzstan,453881,116456
 2021-07-31,Laos,1179668,988156
-2021-07-31,Latvia,459946,251301
+2021-07-31,Latvia,751058,682465
 2021-07-31,Lebanon,1113441,833450
 2021-07-31,Lesotho,36637,19685
 2021-07-31,Liberia,86288,9135
@@ -45165,7 +45165,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-31,Solomon Islands,29429,9934
 2021-07-31,Somalia,162655,87135
 2021-07-31,South Africa,5921627,2835930
-2021-07-31,South Korea,19489034,3273739
+2021-07-31,South Korea,19489034,7190247
 2021-07-31,South Sudan,52226,4763
 2021-07-31,Spain,31851618,26933847
 2021-07-31,Sri Lanka,9634704,2134106
@@ -45289,7 +45289,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-01,Kuwait,1452148,923307
 2021-08-01,Kyrgyzstan,461947,117311
 2021-08-01,Laos,1179668,988156
-2021-08-01,Latvia,459946,251301
+2021-08-01,Latvia,751992,683277
 2021-08-01,Lebanon,1114578,834680
 2021-08-01,Lesotho,36637,19685
 2021-08-01,Liberia,86288,9135
@@ -45351,7 +45351,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-01,Solomon Islands,29429,9934
 2021-08-01,Somalia,162655,87135
 2021-08-01,South Africa,5921627,2835930
-2021-08-01,South Korea,19517082,3273770
+2021-08-01,South Korea,19517082,7190769
 2021-08-01,South Sudan,52226,4763
 2021-08-01,Spain,32169472,27262062
 2021-08-01,Sri Lanka,9944683,2154206
@@ -45475,7 +45475,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-02,Kuwait,1452148,923307
 2021-08-02,Kyrgyzstan,479994,120236
 2021-08-02,Laos,1179668,988156
-2021-08-02,Latvia,459946,251301
+2021-08-02,Latvia,754958,685834
 2021-08-02,Lebanon,1127622,854534
 2021-08-02,Lesotho,36637,19685
 2021-08-02,Liberia,86288,9135
@@ -45537,7 +45537,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-02,Solomon Islands,29429,10975
 2021-08-02,Somalia,186595,87135
 2021-08-02,South Africa,6123925,2982952
-2021-08-02,South Korea,19994367,3281859
+2021-08-02,South Korea,19994367,7227120
 2021-08-02,South Sudan,52226,4763
 2021-08-02,Spain,32352818,27437503
 2021-08-02,Sri Lanka,10076981,2254887
@@ -45661,7 +45661,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-03,Kuwait,1452148,923307
 2021-08-03,Kyrgyzstan,502789,131906
 2021-08-03,Laos,1179668,988156
-2021-08-03,Latvia,459946,251301
+2021-08-03,Latvia,758624,689431
 2021-08-03,Lebanon,1140969,875981
 2021-08-03,Lesotho,36637,19685
 2021-08-03,Liberia,86288,9135
@@ -45723,7 +45723,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-03,Solomon Islands,29429,10975
 2021-08-03,Somalia,186595,87135
 2021-08-03,South Africa,6403808,3212974
-2021-08-03,South Korea,20215179,3293204
+2021-08-03,South Korea,20215179,7334330
 2021-08-03,South Sudan,52226,4763
 2021-08-03,Spain,32650750,27811786
 2021-08-03,Sri Lanka,10309855,2448361
@@ -45847,7 +45847,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-04,Kuwait,1452148,923307
 2021-08-04,Kyrgyzstan,507740,137643
 2021-08-04,Laos,1179668,988156
-2021-08-04,Latvia,459946,251301
+2021-08-04,Latvia,762596,692777
 2021-08-04,Lebanon,1144668,881922
 2021-08-04,Lesotho,36637,19685
 2021-08-04,Liberia,86288,9135
@@ -45909,7 +45909,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-04,Solomon Islands,29429,10975
 2021-08-04,Somalia,186595,87135
 2021-08-04,South Africa,6403808,3212974
-2021-08-04,South Korea,20381783,3304204
+2021-08-04,South Korea,20381783,7444500
 2021-08-04,South Sudan,52226,4763
 2021-08-04,Spain,32892680,28034427
 2021-08-04,Sri Lanka,10481285,2584091
@@ -46033,7 +46033,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-05,Kuwait,1452148,923307
 2021-08-05,Kyrgyzstan,521785,149564
 2021-08-05,Laos,1179668,988156
-2021-08-05,Latvia,459946,251301
+2021-08-05,Latvia,765786,695306
 2021-08-05,Lebanon,1154170,898619
 2021-08-05,Lesotho,36637,19685
 2021-08-05,Liberia,86288,9135
@@ -46095,7 +46095,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-05,Solomon Islands,29429,10975
 2021-08-05,Somalia,186595,87135
 2021-08-05,South Africa,6546410,3327950
-2021-08-05,South Korea,20575814,3320284
+2021-08-05,South Korea,20575814,7571535
 2021-08-05,South Sudan,52226,4763
 2021-08-05,Spain,33141450,28255949
 2021-08-05,Sri Lanka,10616683,2646042
@@ -46219,7 +46219,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-06,Kuwait,1452148,923307
 2021-08-06,Kyrgyzstan,532904,162962
 2021-08-06,Laos,1315924,988156
-2021-08-06,Latvia,459946,251301
+2021-08-06,Latvia,769774,698701
 2021-08-06,Lebanon,1163468,913882
 2021-08-06,Lesotho,36637,19685
 2021-08-06,Liberia,86288,9135
@@ -46281,7 +46281,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-06,Solomon Islands,29429,10975
 2021-08-06,Somalia,186595,87135
 2021-08-06,South Africa,6546410,3327950
-2021-08-06,South Korea,20832570,3343807
+2021-08-06,South Korea,20832570,7727510
 2021-08-06,South Sudan,52226,4763
 2021-08-06,Spain,33141450,28255949
 2021-08-06,Sri Lanka,10777259,2679063
@@ -46405,7 +46405,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-07,Kuwait,1452148,923307
 2021-08-07,Kyrgyzstan,538640,170813
 2021-08-07,Laos,1315924,988156
-2021-08-07,Latvia,459946,251301
+2021-08-07,Latvia,772628,701328
 2021-08-07,Lebanon,1166408,916081
 2021-08-07,Lesotho,36637,19685
 2021-08-07,Liberia,86288,9135
@@ -46467,7 +46467,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-07,Solomon Islands,29429,10975
 2021-08-07,Somalia,186595,87135
 2021-08-07,South Africa,6546410,3327950
-2021-08-07,South Korea,20954520,3346593
+2021-08-07,South Korea,20954520,7763451
 2021-08-07,South Sudan,52226,4763
 2021-08-07,Spain,33141450,28255949
 2021-08-07,Sri Lanka,10871332,2699350
@@ -46591,7 +46591,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-08,Kuwait,1452148,923307
 2021-08-08,Kyrgyzstan,542209,179070
 2021-08-08,Laos,1361484,988156
-2021-08-08,Latvia,459946,251301
+2021-08-08,Latvia,773402,701960
 2021-08-08,Lebanon,1167764,917338
 2021-08-08,Lesotho,36637,19685
 2021-08-08,Liberia,86288,9135
@@ -46653,7 +46653,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-08,Solomon Islands,29429,10975
 2021-08-08,Somalia,186595,87135
 2021-08-08,South Africa,6866089,3576698
-2021-08-08,South Korea,20982309,3346649
+2021-08-08,South Korea,20982309,7765718
 2021-08-08,South Sudan,52226,4763
 2021-08-08,Spain,33424529,28587458
 2021-08-08,Sri Lanka,10986524,2778714
@@ -46777,7 +46777,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-09,Kuwait,1452148,923307
 2021-08-09,Kyrgyzstan,552283,195593
 2021-08-09,Laos,1361484,988156
-2021-08-09,Latvia,459946,251301
+2021-08-09,Latvia,776137,704270
 2021-08-09,Lebanon,1177369,925160
 2021-08-09,Lesotho,36637,19685
 2021-08-09,Liberia,86288,9135
@@ -46839,7 +46839,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-09,Solomon Islands,43466,13155
 2021-08-09,Somalia,186595,87135
 2021-08-09,South Africa,6866089,3576698
-2021-08-09,South Korea,21419823,3365591
+2021-08-09,South Korea,21419823,7939744
 2021-08-09,South Sudan,52226,4763
 2021-08-09,Spain,33575961,28768777
 2021-08-09,Sri Lanka,10986524,2778714
@@ -46963,7 +46963,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-10,Kuwait,1452148,923307
 2021-08-10,Kyrgyzstan,561878,214559
 2021-08-10,Laos,1361484,988156
-2021-08-10,Latvia,459946,251301
+2021-08-10,Latvia,779470,707400
 2021-08-10,Lebanon,1195843,944579
 2021-08-10,Lesotho,36637,19685
 2021-08-10,Liberia,86288,9135
@@ -47025,7 +47025,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-10,Solomon Islands,43466,13155
 2021-08-10,Somalia,186595,87135
 2021-08-10,South Africa,6995459,3719508
-2021-08-10,South Korea,21683875,3389717
+2021-08-10,South Korea,21683875,8109210
 2021-08-10,South Sudan,52226,4763
 2021-08-10,Spain,33871458,28993301
 2021-08-10,Sri Lanka,10986524,2778714
@@ -47149,7 +47149,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-11,Kuwait,1452148,923307
 2021-08-11,Kyrgyzstan,571497,233841
 2021-08-11,Laos,1361484,988156
-2021-08-11,Latvia,459946,251301
+2021-08-11,Latvia,784119,710875
 2021-08-11,Lebanon,1207245,958392
 2021-08-11,Lesotho,36637,19685
 2021-08-11,Liberia,86288,9135
@@ -47211,7 +47211,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-11,Solomon Islands,43466,13155
 2021-08-11,Somalia,186595,87135
 2021-08-11,South Africa,6995459,3719508
-2021-08-11,South Korea,21862547,3417028
+2021-08-11,South Korea,21862547,8272746
 2021-08-11,South Sudan,52226,4763
 2021-08-11,Spain,34196761,29221276
 2021-08-11,Sri Lanka,10986524,2778714
@@ -47335,7 +47335,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-12,Kuwait,1452148,923307
 2021-08-12,Kyrgyzstan,575817,243177
 2021-08-12,Laos,1361484,988156
-2021-08-12,Latvia,459946,251301
+2021-08-12,Latvia,787251,713351
 2021-08-12,Lebanon,1212455,965036
 2021-08-12,Lesotho,36637,19685
 2021-08-12,Liberia,86288,9135
@@ -47397,7 +47397,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-12,Solomon Islands,43466,13155
 2021-08-12,Somalia,186595,87135
 2021-08-12,South Africa,7249045,3958231
-2021-08-12,South Korea,22032067,3987894
+2021-08-12,South Korea,22032067,8979872
 2021-08-12,South Sudan,52226,4763
 2021-08-12,Spain,34455543,29526380
 2021-08-12,Sri Lanka,11534750,3775976
@@ -47521,7 +47521,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-13,Kuwait,1452148,923307
 2021-08-13,Kyrgyzstan,583200,257126
 2021-08-13,Laos,1361484,988156
-2021-08-13,Latvia,459946,251301
+2021-08-13,Latvia,791278,716307
 2021-08-13,Lebanon,1219190,971668
 2021-08-13,Lesotho,36637,19685
 2021-08-13,Liberia,86288,9135
@@ -47583,7 +47583,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-13,Solomon Islands,43466,13155
 2021-08-13,Somalia,186595,87135
 2021-08-13,South Africa,7249045,3958231
-2021-08-13,South Korea,22276234,4462890
+2021-08-13,South Korea,22276234,9601053
 2021-08-13,South Sudan,52226,4763
 2021-08-13,Spain,34455543,29526380
 2021-08-13,Sri Lanka,11534750,3775976
@@ -47707,7 +47707,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-14,Kuwait,2668082,923307
 2021-08-14,Kyrgyzstan,585938,261380
 2021-08-14,Laos,1662994,988156
-2021-08-14,Latvia,459946,251301
+2021-08-14,Latvia,793614,718180
 2021-08-14,Lebanon,1220046,972073
 2021-08-14,Lesotho,36637,19685
 2021-08-14,Liberia,86288,9135
@@ -47769,7 +47769,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-14,Solomon Islands,43466,13155
 2021-08-14,Somalia,186595,87135
 2021-08-14,South Africa,7249045,3958231
-2021-08-14,South Korea,22419672,4616753
+2021-08-14,South Korea,22419672,9783719
 2021-08-14,South Sudan,52226,4763
 2021-08-14,Spain,34455543,29526380
 2021-08-14,Sri Lanka,11534750,3775976
@@ -47893,7 +47893,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-15,Kuwait,2668082,923307
 2021-08-15,Kyrgyzstan,592126,272424
 2021-08-15,Laos,1662994,988156
-2021-08-15,Latvia,459946,251301
+2021-08-15,Latvia,794307,718841
 2021-08-15,Lebanon,1225483,978199
 2021-08-15,Lesotho,36637,19685
 2021-08-15,Liberia,86288,9135
@@ -47955,7 +47955,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-15,Solomon Islands,43466,13155
 2021-08-15,Somalia,186595,87135
 2021-08-15,South Africa,7389049,4082852
-2021-08-15,South Korea,22438194,4620795
+2021-08-15,South Korea,22438194,9789328
 2021-08-15,South Sudan,52226,4763
 2021-08-15,Spain,34716227,29794008
 2021-08-15,Sri Lanka,11534750,3775976
@@ -48079,7 +48079,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-16,Kuwait,2668082,923307
 2021-08-16,Kyrgyzstan,600784,285926
 2021-08-16,Laos,1662994,988156
-2021-08-16,Latvia,459946,251301
+2021-08-16,Latvia,796932,721218
 2021-08-16,Lebanon,1234040,987616
 2021-08-16,Lesotho,36637,19685
 2021-08-16,Liberia,86288,9135
@@ -48141,7 +48141,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-16,Solomon Islands,48883,14437
 2021-08-16,Somalia,186595,87135
 2021-08-16,South Africa,7486036,4197442
-2021-08-16,South Korea,23110656,4861235
+2021-08-16,South Korea,23110656,10045938
 2021-08-16,South Sudan,52226,4763
 2021-08-16,Spain,34867478,29968303
 2021-08-16,Sri Lanka,11534750,3775976
@@ -48265,7 +48265,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-17,Kuwait,2668082,923307
 2021-08-17,Kyrgyzstan,610622,299834
 2021-08-17,Laos,1828039,988156
-2021-08-17,Latvia,459946,251301
+2021-08-17,Latvia,800084,724375
 2021-08-17,Lebanon,1246189,997575
 2021-08-17,Lesotho,36637,19685
 2021-08-17,Liberia,86288,9135
@@ -48327,7 +48327,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-17,Solomon Islands,48883,14437
 2021-08-17,Somalia,186595,87135
 2021-08-17,South Africa,7486036,4197442
-2021-08-17,South Korea,23836615,5323468
+2021-08-17,South Korea,23836615,10542362
 2021-08-17,South Sudan,52226,4763
 2021-08-17,Spain,35072910,30261332
 2021-08-17,Sri Lanka,11534750,3775976
@@ -48451,7 +48451,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-18,Kuwait,2668082,923307
 2021-08-18,Kyrgyzstan,618384,312948
 2021-08-18,Laos,1828039,988156
-2021-08-18,Latvia,459946,251301
+2021-08-18,Latvia,804626,727801
 2021-08-18,Lebanon,1254059,1003901
 2021-08-18,Lesotho,36637,19685
 2021-08-18,Liberia,86288,9135
@@ -48513,7 +48513,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-18,Solomon Islands,48883,14437
 2021-08-18,Somalia,186595,87135
 2021-08-18,South Africa,7702298,4482893
-2021-08-18,South Korea,24361261,5619659
+2021-08-18,South Korea,24361261,10862414
 2021-08-18,South Sudan,52226,4763
 2021-08-18,Spain,35269276,30565129
 2021-08-18,Sri Lanka,11534750,3775976
@@ -48637,7 +48637,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-19,Kuwait,2668082,923307
 2021-08-19,Kyrgyzstan,627819,334370
 2021-08-19,Laos,1828039,988156
-2021-08-19,Latvia,459946,251301
+2021-08-19,Latvia,807932,730592
 2021-08-19,Lebanon,1262162,1012967
 2021-08-19,Lesotho,36637,19685
 2021-08-19,Liberia,86288,9135
@@ -48699,7 +48699,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-19,Solomon Islands,48883,14437
 2021-08-19,Somalia,186595,87135
 2021-08-19,South Africa,7808653,4629371
-2021-08-19,South Korea,24866902,5892457
+2021-08-19,South Korea,24866902,11156279
 2021-08-19,South Sudan,52226,4763
 2021-08-19,Spain,35442173,31096470
 2021-08-19,Sri Lanka,11534750,3775976
@@ -48823,7 +48823,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-20,Kuwait,2668082,923307
 2021-08-20,Kyrgyzstan,633235,346902
 2021-08-20,Laos,2060418,1644691
-2021-08-20,Latvia,459946,251301
+2021-08-20,Latvia,811972,734115
 2021-08-20,Lebanon,1267899,1018723
 2021-08-20,Lesotho,36637,19685
 2021-08-20,Liberia,86288,9135
@@ -48885,7 +48885,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-20,Solomon Islands,48883,14437
 2021-08-20,Somalia,186595,87135
 2021-08-20,South Africa,7986245,4782071
-2021-08-20,South Korea,25558563,6203192
+2021-08-20,South Korea,25558563,11489676
 2021-08-20,South Sudan,52226,4763
 2021-08-20,Spain,35442173,31096470
 2021-08-20,Sri Lanka,11799191,5269083
@@ -49009,7 +49009,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-21,Kuwait,2668082,923307
 2021-08-21,Kyrgyzstan,635267,352916
 2021-08-21,Laos,2060418,1646691
-2021-08-21,Latvia,459946,251301
+2021-08-21,Latvia,814134,735996
 2021-08-21,Lebanon,1267899,1018723
 2021-08-21,Lesotho,36637,19685
 2021-08-21,Liberia,86288,9135
@@ -49071,7 +49071,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-21,Solomon Islands,48883,14437
 2021-08-21,Somalia,188765,93757
 2021-08-21,South Africa,7986245,4782071
-2021-08-21,South Korea,25923798,6325993
+2021-08-21,South Korea,25923798,11613432
 2021-08-21,South Sudan,52226,4763
 2021-08-21,Spain,35442173,31096470
 2021-08-21,Sri Lanka,12073373,5514315
@@ -49195,7 +49195,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-22,Kuwait,2668082,923307
 2021-08-22,Kyrgyzstan,638014,360447
 2021-08-22,Laos,2109937,1664137
-2021-08-22,Latvia,459946,251301
+2021-08-22,Latvia,814873,736586
 2021-08-22,Lebanon,1267899,1018723
 2021-08-22,Lesotho,36637,19685
 2021-08-22,Liberia,86288,9135
@@ -49257,7 +49257,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-22,Solomon Islands,48883,14437
 2021-08-22,Somalia,188765,93757
 2021-08-22,South Africa,8017522,4832763
-2021-08-22,South Korea,25964059,6328252
+2021-08-22,South Korea,25964059,11615735
 2021-08-22,South Sudan,52226,4763
 2021-08-22,Spain,35667383,31447188
 2021-08-22,Sri Lanka,12088864,5620254
@@ -49381,7 +49381,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-23,Kuwait,2668082,923307
 2021-08-23,Kyrgyzstan,644276,375905
 2021-08-23,Laos,2131014,1668064
-2021-08-23,Latvia,459946,251301
+2021-08-23,Latvia,817739,739302
 2021-08-23,Lebanon,1285408,1033816
 2021-08-23,Lesotho,36637,19685
 2021-08-23,Liberia,104545,27392
@@ -49443,7 +49443,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-23,Solomon Islands,48883,14437
 2021-08-23,Somalia,188765,93757
 2021-08-23,South Africa,8240067,4983911
-2021-08-23,South Korea,26352372,7041210
+2021-08-23,South Korea,26352372,12335219
 2021-08-23,South Sudan,52226,4763
 2021-08-23,Spain,35831729,31653643
 2021-08-23,Sri Lanka,12096630,5664905
@@ -49567,7 +49567,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-24,Kuwait,2668082,923307
 2021-08-24,Kyrgyzstan,644276,375905
 2021-08-24,Laos,2188426,1686246
-2021-08-24,Latvia,459946,251301
+2021-08-24,Latvia,821344,742229
 2021-08-24,Lebanon,1302092,1045662
 2021-08-24,Lesotho,36637,19685
 2021-08-24,Liberia,104545,27392
@@ -49629,7 +49629,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-24,Solomon Islands,48883,14437
 2021-08-24,Somalia,188765,93757
 2021-08-24,South Africa,8439579,5141248
-2021-08-24,South Korea,26758268,7639906
+2021-08-24,South Korea,26758268,12940131
 2021-08-24,South Sudan,52226,4763
 2021-08-24,Spain,35950365,31930874
 2021-08-24,Sri Lanka,12129492,5807496
@@ -49733,7 +49733,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-25,Guinea-Bissau,28097,2993
 2021-08-25,Guyana,305012,155688
 2021-08-25,Haiti,26058,3360
-2021-08-25,Honduras,3774621,1079698
+2021-08-25,Honduras,2694923,1079698
 2021-08-25,Hungary,5715525,5504899
 2021-08-25,Iceland,277766,262924
 2021-08-25,India,463341344,134581894
@@ -49753,7 +49753,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-25,Kuwait,2668082,923307
 2021-08-25,Kyrgyzstan,658752,403364
 2021-08-25,Laos,2235384,1702119
-2021-08-25,Latvia,459946,251301
+2021-08-25,Latvia,824981,745683
 2021-08-25,Lebanon,1311269,1050433
 2021-08-25,Lesotho,71597,32181
 2021-08-25,Liberia,104545,27392
@@ -49815,7 +49815,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-25,Solomon Islands,48883,14437
 2021-08-25,Somalia,188765,93757
 2021-08-25,South Africa,8439579,5141248
-2021-08-25,South Korea,27136654,8106783
+2021-08-25,South Korea,27136654,13418456
 2021-08-25,South Sudan,52226,4763
 2021-08-25,Spain,36111205,32239782
 2021-08-25,Sri Lanka,12149634,5949451
@@ -49919,7 +49919,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-26,Guinea-Bissau,28097,2993
 2021-08-26,Guyana,306906,158557
 2021-08-26,Haiti,26208,3360
-2021-08-26,Honduras,3774621,1079698
+2021-08-26,Honduras,2694923,1079698
 2021-08-26,Hungary,5725336,5505341
 2021-08-26,Iceland,278928,263354
 2021-08-26,India,468130627,136260584
@@ -49939,7 +49939,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-26,Kuwait,2668082,923307
 2021-08-26,Kyrgyzstan,668691,418848
 2021-08-26,Laos,2278765,1722553
-2021-08-26,Latvia,459946,251301
+2021-08-26,Latvia,828106,748353
 2021-08-26,Lebanon,1325693,1060103
 2021-08-26,Lesotho,71597,32181
 2021-08-26,Liberia,104545,27392
@@ -50001,7 +50001,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-26,Solomon Islands,48883,14437
 2021-08-26,Somalia,188765,93757
 2021-08-26,South Africa,8439579,5141248
-2021-08-26,South Korea,27790729,8520005
+2021-08-26,South Korea,27790729,13844832
 2021-08-26,South Sudan,52226,4763
 2021-08-26,Spain,36237517,32459380
 2021-08-26,Sri Lanka,12220331,6121540
@@ -50105,7 +50105,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-27,Guinea-Bissau,28097,2993
 2021-08-27,Guyana,308758,159460
 2021-08-27,Haiti,27305,4734
-2021-08-27,Honduras,3774621,1079698
+2021-08-27,Honduras,2694923,1079698
 2021-08-27,Hungary,5725336,5505341
 2021-08-27,Iceland,279121,263531
 2021-08-27,India,476059071,139481456
@@ -50125,7 +50125,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-27,Kuwait,2668082,923307
 2021-08-27,Kyrgyzstan,674622,429172
 2021-08-27,Laos,2278765,1722553
-2021-08-27,Latvia,459946,251301
+2021-08-27,Latvia,832378,751886
 2021-08-27,Lebanon,1334413,1065424
 2021-08-27,Lesotho,71597,32181
 2021-08-27,Liberia,104545,27392
@@ -50187,7 +50187,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-27,Solomon Islands,48883,14437
 2021-08-27,Somalia,188765,93757
 2021-08-27,South Africa,9026420,5601878
-2021-08-27,South Korea,28393766,9050384
+2021-08-27,South Korea,28393766,14395608
 2021-08-27,South Sudan,52226,4763
 2021-08-27,Spain,36237517,32459380
 2021-08-27,Sri Lanka,12255121,6464296
@@ -50291,7 +50291,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-28,Guinea-Bissau,28097,2993
 2021-08-28,Guyana,308758,159460
 2021-08-28,Haiti,27305,4734
-2021-08-28,Honduras,3774621,1079698
+2021-08-28,Honduras,2694923,1079698
 2021-08-28,Hungary,5725336,5505341
 2021-08-28,Iceland,279121,263531
 2021-08-28,India,483512657,142352109
@@ -50311,7 +50311,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-28,Kuwait,2668082,923307
 2021-08-28,Kyrgyzstan,676156,431907
 2021-08-28,Laos,2376594,1758720
-2021-08-28,Latvia,459946,251301
+2021-08-28,Latvia,834390,753405
 2021-08-28,Lebanon,1335375,1065690
 2021-08-28,Lesotho,71597,32181
 2021-08-28,Liberia,104545,27392
@@ -50373,7 +50373,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-28,Solomon Islands,48883,14437
 2021-08-28,Somalia,188765,93757
 2021-08-28,South Africa,9026420,5601878
-2021-08-28,South Korea,28670103,9303618
+2021-08-28,South Korea,28670103,14651124
 2021-08-28,South Sudan,52226,4763
 2021-08-28,Spain,36237517,32459380
 2021-08-28,Sri Lanka,12290482,6873138
@@ -50477,7 +50477,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-29,Guinea-Bissau,28097,2993
 2021-08-29,Guyana,308758,159460
 2021-08-29,Haiti,27305,4734
-2021-08-29,Honduras,4077054,1308136
+2021-08-29,Honduras,2768918,1308136
 2021-08-29,Hungary,5725336,5505341
 2021-08-29,Iceland,279121,263531
 2021-08-29,India,488153607,144434244
@@ -50497,7 +50497,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-29,Kuwait,2668082,923307
 2021-08-29,Kyrgyzstan,680409,441427
 2021-08-29,Laos,2407056,1775178
-2021-08-29,Latvia,459946,251301
+2021-08-29,Latvia,835071,753887
 2021-08-29,Lebanon,1346202,1076309
 2021-08-29,Lesotho,71597,32181
 2021-08-29,Liberia,104545,27392
@@ -50559,7 +50559,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-29,Solomon Islands,48883,14437
 2021-08-29,Somalia,188765,93757
 2021-08-29,South Africa,9026420,5601878
-2021-08-29,South Korea,28686309,9319423
+2021-08-29,South Korea,28686309,14667021
 2021-08-29,South Sudan,52226,4763
 2021-08-29,Spain,36346563,32811664
 2021-08-29,Sri Lanka,12309254,7042418
@@ -50663,7 +50663,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-30,Guinea-Bissau,28097,2993
 2021-08-30,Guyana,311539,160649
 2021-08-30,Haiti,27305,4734
-2021-08-30,Honduras,4077054,1308136
+2021-08-30,Honduras,2768918,1308136
 2021-08-30,Hungary,5754566,5507371
 2021-08-30,Iceland,279121,263531
 2021-08-30,India,493077195,146228416
@@ -50683,7 +50683,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-30,Kuwait,2668082,923307
 2021-08-30,Kyrgyzstan,680926,442499
 2021-08-30,Laos,2420333,1784704
-2021-08-30,Latvia,459946,251301
+2021-08-30,Latvia,838187,756927
 2021-08-30,Lebanon,1353031,1082550
 2021-08-30,Lesotho,71597,32181
 2021-08-30,Liberia,104545,27392
@@ -50745,7 +50745,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-30,Solomon Islands,48883,14437
 2021-08-30,Somalia,194876,96177
 2021-08-30,South Africa,9253007,5818291
-2021-08-30,South Korea,29076054,9880795
+2021-08-30,South Korea,29076054,15266987
 2021-08-30,South Sudan,52387,4763
 2021-08-30,Spain,36431416,32996436
 2021-08-30,Sri Lanka,12325287,7173120
@@ -50849,7 +50849,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-31,Guinea-Bissau,28097,2993
 2021-08-31,Guyana,313469,161022
 2021-08-31,Haiti,29332,6750
-2021-08-31,Honduras,4077054,1308136
+2021-08-31,Honduras,2768918,1308136
 2021-08-31,Hungary,5772010,5509130
 2021-08-31,Iceland,279365,263695
 2021-08-31,India,497002083,147797142
@@ -50869,7 +50869,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-31,Kuwait,2668082,923307
 2021-08-31,Kyrgyzstan,685629,453130
 2021-08-31,Laos,2443845,1794698
-2021-08-31,Latvia,459946,251301
+2021-08-31,Latvia,841714,759830
 2021-08-31,Lebanon,1367317,1090613
 2021-08-31,Lesotho,71597,32181
 2021-08-31,Liberia,104545,27392
@@ -50931,7 +50931,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-31,Solomon Islands,53974,17627
 2021-08-31,Somalia,194876,96177
 2021-08-31,South Africa,9418185,5985293
-2021-08-31,South Korea,29323832,10371723
+2021-08-31,South Korea,29323832,15797221
 2021-08-31,South Sudan,52387,4763
 2021-08-31,Spain,36533328,33376693
 2021-08-31,Sri Lanka,12423579,7703411
@@ -51035,7 +51035,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-01,Guinea-Bissau,28097,2993
 2021-09-01,Guyana,313469,161022
 2021-09-01,Haiti,29332,6750
-2021-09-01,Honduras,4077054,1308136
+2021-09-01,Honduras,2768918,1308136
 2021-09-01,Hungary,5781121,5510678
 2021-09-01,Iceland,279509,263778
 2021-09-01,India,509668131,151908785
@@ -51055,7 +51055,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-01,Kuwait,2668082,923307
 2021-09-01,Kyrgyzstan,690946,460598
 2021-09-01,Laos,2474767,1804017
-2021-09-01,Latvia,459946,251301
+2021-09-01,Latvia,844346,763095
 2021-09-01,Lebanon,1376615,1099404
 2021-09-01,Lesotho,71597,32181
 2021-09-01,Liberia,104545,27392
@@ -51117,7 +51117,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-01,Solomon Islands,53974,17627
 2021-09-01,Somalia,197682,97425
 2021-09-01,South Africa,9581161,6145216
-2021-09-01,South Korea,29502442,10732805
+2021-09-01,South Korea,29502442,16332177
 2021-09-01,South Sudan,52387,4763
 2021-09-01,Spain,36613696,33657941
 2021-09-01,Sri Lanka,12468949,8169232
@@ -51221,7 +51221,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-02,Guinea-Bissau,28097,2993
 2021-09-02,Guyana,313469,161022
 2021-09-02,Haiti,29332,6750
-2021-09-02,Honduras,4077054,1308136
+2021-09-02,Honduras,2768918,1308136
 2021-09-02,Hungary,5799584,5512118
 2021-09-02,Iceland,279665,264204
 2021-09-02,India,515627968,154147659
@@ -51241,7 +51241,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-02,Kuwait,2668082,923307
 2021-09-02,Kyrgyzstan,696371,469782
 2021-09-02,Laos,2504151,1815215
-2021-09-02,Latvia,459946,251301
+2021-09-02,Latvia,847206,765831
 2021-09-02,Lebanon,1386363,1108203
 2021-09-02,Lesotho,71597,32181
 2021-09-02,Liberia,104545,27392
@@ -51303,7 +51303,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-02,Solomon Islands,53974,17627
 2021-09-02,Somalia,197682,97425
 2021-09-02,South Africa,9741655,6301758
-2021-09-02,South Korea,29688782,11115373
+2021-09-02,South Korea,29688782,16832288
 2021-09-02,South Sudan,52387,4763
 2021-09-02,Spain,36696877,33940053
 2021-09-02,Sri Lanka,12564209,8582094
@@ -51407,7 +51407,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-03,Guinea-Bissau,28097,2993
 2021-09-03,Guyana,318569,166763
 2021-09-03,Haiti,32226,9744
-2021-09-03,Honduras,4077054,1308136
+2021-09-03,Honduras,2768918,1308136
 2021-09-03,Hungary,5799584,5512118
 2021-09-03,Iceland,279947,264427
 2021-09-03,India,519667854,155987081
@@ -51427,7 +51427,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-03,Kuwait,2668082,923307
 2021-09-03,Kyrgyzstan,698892,474366
 2021-09-03,Laos,2529903,1824260
-2021-09-03,Latvia,459946,251301
+2021-09-03,Latvia,850358,769320
 2021-09-03,Lebanon,1388124,1109082
 2021-09-03,Lesotho,71597,32181
 2021-09-03,Liberia,104545,27392
@@ -51489,7 +51489,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-03,Solomon Islands,53974,17627
 2021-09-03,Somalia,197682,97425
 2021-09-03,South Africa,9741655,6301758
-2021-09-03,South Korea,29922266,11588176
+2021-09-03,South Korea,29922266,17531560
 2021-09-03,South Sudan,52387,4763
 2021-09-03,Spain,36696877,33940053
 2021-09-03,Sri Lanka,12604733,8801182
@@ -51593,7 +51593,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-04,Guinea-Bissau,28097,2993
 2021-09-04,Guyana,318569,166763
 2021-09-04,Haiti,32226,9744
-2021-09-04,Honduras,4077054,1308136
+2021-09-04,Honduras,2768918,1308136
 2021-09-04,Hungary,5799584,5512118
 2021-09-04,Iceland,279947,264427
 2021-09-04,India,521015869,156729100
@@ -51613,7 +51613,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-04,Kuwait,2668082,923307
 2021-09-04,Kyrgyzstan,700537,476780
 2021-09-04,Laos,2537992,1831021
-2021-09-04,Latvia,459946,251301
+2021-09-04,Latvia,851939,771322
 2021-09-04,Lebanon,1389689,1109889
 2021-09-04,Lesotho,71597,32181
 2021-09-04,Liberia,104545,27392
@@ -51675,7 +51675,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-04,Solomon Islands,53974,17627
 2021-09-04,Somalia,197682,97425
 2021-09-04,South Africa,9741655,6301758
-2021-09-04,South Korea,30041070,11793463
+2021-09-04,South Korea,30041070,17792382
 2021-09-04,South Sudan,52387,4763
 2021-09-04,Spain,36696877,33940053
 2021-09-04,Sri Lanka,12660231,9007588
@@ -51779,7 +51779,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-05,Guinea-Bissau,28097,2993
 2021-09-05,Guyana,318569,166763
 2021-09-05,Haiti,32226,9744
-2021-09-05,Honduras,4077054,1308136
+2021-09-05,Honduras,2768918,1308136
 2021-09-05,Hungary,5817481,5519838
 2021-09-05,Iceland,279947,264427
 2021-09-05,India,525319361,159196152
@@ -51799,7 +51799,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-05,Kuwait,2668082,923307
 2021-09-05,Kyrgyzstan,703407,481593
 2021-09-05,Laos,2545657,1837302
-2021-09-05,Latvia,459946,251301
+2021-09-05,Latvia,852463,771802
 2021-09-05,Lebanon,1393246,1112101
 2021-09-05,Lesotho,71597,32181
 2021-09-05,Liberia,104545,27392
@@ -51861,7 +51861,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-05,Solomon Islands,53974,17627
 2021-09-05,Somalia,197682,97425
 2021-09-05,South Africa,9961650,6492469
-2021-09-05,South Korea,30049604,11797837
+2021-09-05,South Korea,30049604,17800561
 2021-09-05,South Sudan,52387,4763
 2021-09-05,Spain,36820586,34270593
 2021-09-05,Sri Lanka,12703070,9137887
@@ -51965,7 +51965,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-06,Guinea-Bissau,28097,2993
 2021-09-06,Guyana,318569,166763
 2021-09-06,Haiti,32226,9744
-2021-09-06,Honduras,4526090,1629331
+2021-09-06,Honduras,2896759,1629331
 2021-09-06,Hungary,5821254,5524203
 2021-09-06,Iceland,279947,264427
 2021-09-06,India,527862293,160591270
@@ -51985,7 +51985,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-06,Kuwait,2668082,923307
 2021-09-06,Kyrgyzstan,710470,490322
 2021-09-06,Laos,2545657,1837302
-2021-09-06,Latvia,459946,251301
+2021-09-06,Latvia,854665,774016
 2021-09-06,Lebanon,1407930,1127514
 2021-09-06,Lesotho,71597,32181
 2021-09-06,Liberia,104545,27392
@@ -52047,7 +52047,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-06,Solomon Islands,53974,17627
 2021-09-06,Somalia,207256,102749
 2021-09-06,South Africa,9961650,6492469
-2021-09-06,South Korea,30793580,12345562
+2021-09-06,South Korea,30793580,18435315
 2021-09-06,South Sudan,53147,6718
 2021-09-06,Spain,36889887,34418544
 2021-09-06,Sri Lanka,12729601,9179246
@@ -52151,7 +52151,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-07,Guinea-Bissau,28097,2993
 2021-09-07,Guyana,322586,169209
 2021-09-07,Haiti,34317,12225
-2021-09-07,Honduras,4526090,1629331
+2021-09-07,Honduras,2896759,1629331
 2021-09-07,Hungary,5825831,5530279
 2021-09-07,Iceland,280122,264629
 2021-09-07,India,536004002,163664402
@@ -52171,7 +52171,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-07,Kuwait,2668082,923307
 2021-09-07,Kyrgyzstan,714055,494364
 2021-09-07,Laos,2560372,1842398
-2021-09-07,Latvia,459946,251301
+2021-09-07,Latvia,857414,776388
 2021-09-07,Lebanon,1412410,1132405
 2021-09-07,Lesotho,71597,32181
 2021-09-07,Liberia,104545,27392
@@ -52233,7 +52233,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-07,Solomon Islands,53974,17627
 2021-09-07,Somalia,207256,102749
 2021-09-07,South Africa,10218230,6751662
-2021-09-07,South Korea,31368201,12639689
+2021-09-07,South Korea,31368201,18856343
 2021-09-07,South Sudan,53147,6718
 2021-09-07,Spain,37008271,34739745
 2021-09-07,Sri Lanka,12823147,9414851
@@ -52337,7 +52337,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-08,Guinea-Bissau,28097,2993
 2021-09-08,Guyana,325095,170125
 2021-09-08,Haiti,34317,12225
-2021-09-08,Honduras,4526090,1629331
+2021-09-08,Honduras,2896759,1629331
 2021-09-08,Hungary,5830217,5535463
 2021-09-08,Iceland,280122,264629
 2021-09-08,India,543462433,167088377
@@ -52357,7 +52357,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-08,Kuwait,2668082,923307
 2021-09-08,Kyrgyzstan,714055,494364
 2021-09-08,Laos,2560372,1842398
-2021-09-08,Latvia,459946,251301
+2021-09-08,Latvia,860672,780223
 2021-09-08,Lebanon,1426561,1144621
 2021-09-08,Lesotho,71597,32181
 2021-09-08,Liberia,104545,27392
@@ -52419,7 +52419,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-08,Solomon Islands,53974,17627
 2021-09-08,Somalia,207256,102749
 2021-09-08,South Africa,10218230,6751662
-2021-09-08,South Korea,31754177,12830390
+2021-09-08,South Korea,31754177,19163380
 2021-09-08,South Sudan,55182,11927
 2021-09-08,Spain,37067635,34903802
 2021-09-08,Sri Lanka,12952755,9714857
@@ -52523,7 +52523,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-09,Guinea-Bissau,28097,2993
 2021-09-09,Guyana,329909,172155
 2021-09-09,Haiti,36583,14382
-2021-09-09,Honduras,4637151,1689501
+2021-09-09,Honduras,2947650,1689501
 2021-09-09,Hungary,5834961,5541598
 2021-09-09,Iceland,280311,265096
 2021-09-09,India,550694661,170215578
@@ -52543,7 +52543,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-09,Kuwait,2668082,923307
 2021-09-09,Kyrgyzstan,731217,514203
 2021-09-09,Laos,2560372,1842398
-2021-09-09,Latvia,459946,251301
+2021-09-09,Latvia,863672,783167
 2021-09-09,Lebanon,1433885,1150655
 2021-09-09,Lesotho,71597,32181
 2021-09-09,Liberia,104545,27392
@@ -52605,7 +52605,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-09,Solomon Islands,53974,17627
 2021-09-09,Somalia,207256,102749
 2021-09-09,South Africa,10359652,6888163
-2021-09-09,South Korea,32194194,13005079
+2021-09-09,South Korea,32194194,19455314
 2021-09-09,South Sudan,55182,11927
 2021-09-09,Spain,37126744,35070311
 2021-09-09,Sri Lanka,13128756,9994589
@@ -52709,7 +52709,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-10,Guinea-Bissau,28097,2993
 2021-09-10,Guyana,329909,172155
 2021-09-10,Haiti,37389,15343
-2021-09-10,Honduras,4637151,1689501
+2021-09-10,Honduras,2947650,1689501
 2021-09-10,Hungary,5834961,5541598
 2021-09-10,Iceland,280486,266050
 2021-09-10,India,552964723,171150008
@@ -52729,7 +52729,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-10,Kuwait,2668082,923307
 2021-09-10,Kyrgyzstan,734421,517815
 2021-09-10,Laos,2633604,1859931
-2021-09-10,Latvia,459946,251301
+2021-09-10,Latvia,867033,786622
 2021-09-10,Lebanon,1441739,1156916
 2021-09-10,Lesotho,71597,32181
 2021-09-10,Liberia,104545,27392
@@ -52791,7 +52791,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-10,Solomon Islands,53974,17627
 2021-09-10,Somalia,207256,102749
 2021-09-10,South Africa,10664881,7153911
-2021-09-10,South Korea,32847155,13244200
+2021-09-10,South Korea,32847155,19872837
 2021-09-10,South Sudan,55182,11927
 2021-09-10,Spain,37126744,35070311
 2021-09-10,Sri Lanka,13264805,10211537
@@ -52895,7 +52895,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-11,Guinea-Bissau,28097,2993
 2021-09-11,Guyana,329909,172155
 2021-09-11,Haiti,37389,15343
-2021-09-11,Honduras,4637151,1689501
+2021-09-11,Honduras,2947650,1689501
 2021-09-11,Hungary,5834961,5541598
 2021-09-11,Iceland,280486,266050
 2021-09-11,India,558984568,174444404
@@ -52915,7 +52915,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-11,Kuwait,2668082,923307
 2021-09-11,Kyrgyzstan,735276,518500
 2021-09-11,Laos,2650948,1860415
-2021-09-11,Latvia,459946,251301
+2021-09-11,Latvia,868457,788114
 2021-09-11,Lebanon,1443056,1157494
 2021-09-11,Lesotho,71597,32181
 2021-09-11,Liberia,104545,27392
@@ -52977,7 +52977,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-11,Solomon Islands,53974,17627
 2021-09-11,Somalia,223498,116200
 2021-09-11,South Africa,10707263,7187179
-2021-09-11,South Korea,33175515,13371970
+2021-09-11,South Korea,33175515,20085005
 2021-09-11,South Sudan,55182,11927
 2021-09-11,Spain,37126744,35070311
 2021-09-11,Sri Lanka,13371289,10406048
@@ -53081,7 +53081,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-12,Guinea-Bissau,28097,2993
 2021-09-12,Guyana,329909,172155
 2021-09-12,Haiti,37389,15343
-2021-09-12,Honduras,4637151,1689501
+2021-09-12,Honduras,2947650,1689501
 2021-09-12,Hungary,5840588,5545538
 2021-09-12,Iceland,280486,266050
 2021-09-12,India,563337272,176940864
@@ -53101,7 +53101,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-12,Kuwait,2668082,923307
 2021-09-12,Kyrgyzstan,740586,525926
 2021-09-12,Laos,2650948,1860415
-2021-09-12,Latvia,459946,251301
+2021-09-12,Latvia,869054,788545
 2021-09-12,Lebanon,1455792,1166885
 2021-09-12,Lesotho,71597,32181
 2021-09-12,Liberia,104545,27392
@@ -53163,7 +53163,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-12,Solomon Islands,53974,17627
 2021-09-12,Somalia,223498,116200
 2021-09-12,South Africa,10720370,7199405
-2021-09-12,South Korea,33197303,13386413
+2021-09-12,South Korea,33197303,20110566
 2021-09-12,South Sudan,55182,11927
 2021-09-12,Spain,37216507,35300384
 2021-09-12,Sri Lanka,13458620,10544228
@@ -53267,7 +53267,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-13,Guinea-Bissau,28097,2993
 2021-09-13,Guyana,329909,172155
 2021-09-13,Haiti,37389,15343
-2021-09-13,Honduras,4637151,1689501
+2021-09-13,Honduras,2947650,1689501
 2021-09-13,Hungary,5843502,5549383
 2021-09-13,Iceland,280486,266050
 2021-09-13,India,570046655,180237914
@@ -53287,7 +53287,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-13,Kuwait,2668082,923307
 2021-09-13,Kyrgyzstan,743257,530448
 2021-09-13,Laos,2650948,1860415
-2021-09-13,Latvia,459946,251301
+2021-09-13,Latvia,871069,791265
 2021-09-13,Lebanon,1458845,1170077
 2021-09-13,Lesotho,71597,32181
 2021-09-13,Liberia,104545,27392
@@ -53349,7 +53349,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-13,Solomon Islands,53974,17627
 2021-09-13,Somalia,223498,116200
 2021-09-13,South Africa,10860642,7330517
-2021-09-13,South Korea,34025319,13426860
+2021-09-13,South Korea,34025319,20533555
 2021-09-13,South Sudan,55182,11927
 2021-09-13,Spain,37243220,35413078
 2021-09-13,Sri Lanka,13497826,10579220
@@ -53453,7 +53453,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-14,Guinea-Bissau,28097,2993
 2021-09-14,Guyana,337030,175037
 2021-09-14,Haiti,37389,15343
-2021-09-14,Honduras,4637151,1689501
+2021-09-14,Honduras,2947650,1689501
 2021-09-14,Hungary,5847002,5553346
 2021-09-14,Iceland,280707,269286
 2021-09-14,India,571662310,181051759
@@ -53473,7 +53473,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-14,Kuwait,2668082,923307
 2021-09-14,Kyrgyzstan,749242,540454
 2021-09-14,Laos,2650948,1860415
-2021-09-14,Latvia,459946,251301
+2021-09-14,Latvia,873608,793973
 2021-09-14,Lebanon,1463082,1174145
 2021-09-14,Lesotho,71597,32181
 2021-09-14,Liberia,104545,27392
@@ -53535,7 +53535,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-14,Solomon Islands,74573,23171
 2021-09-14,Somalia,223498,116200
 2021-09-14,South Africa,11034034,7473903
-2021-09-14,South Korea,34627496,13459153
+2021-09-14,South Korea,34627496,20758129
 2021-09-14,South Sudan,55182,11927
 2021-09-14,Spain,37303202,35571661
 2021-09-14,Sri Lanka,13553534,10672627
@@ -53639,7 +53639,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-15,Guinea-Bissau,28097,2993
 2021-09-15,Guyana,337030,175037
 2021-09-15,Haiti,37389,15343
-2021-09-15,Honduras,4637151,1689501
+2021-09-15,Honduras,2947650,1689501
 2021-09-15,Hungary,5850887,5558919
 2021-09-15,Iceland,280889,272185
 2021-09-15,India,576856263,184494452
@@ -53659,7 +53659,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-15,Kuwait,2668082,923307
 2021-09-15,Kyrgyzstan,756207,550410
 2021-09-15,Laos,2650948,1860415
-2021-09-15,Latvia,459946,251301
+2021-09-15,Latvia,876487,797263
 2021-09-15,Lebanon,1488940,1194887
 2021-09-15,Lesotho,71597,32181
 2021-09-15,Liberia,104545,27392
@@ -53721,7 +53721,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-15,Solomon Islands,74573,23171
 2021-09-15,Somalia,231089,120216
 2021-09-15,South Africa,11206776,7609183
-2021-09-15,South Korea,35003737,13508896
+2021-09-15,South Korea,35003737,21198247
 2021-09-15,South Sudan,55182,11927
 2021-09-15,Spain,37341455,35688441
 2021-09-15,Sri Lanka,13602365,10747236
@@ -53825,7 +53825,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-16,Guinea-Bissau,28097,2993
 2021-09-16,Guyana,341600,176695
 2021-09-16,Haiti,37389,15343
-2021-09-16,Honduras,4637151,1689501
+2021-09-16,Honduras,2947650,1689501
 2021-09-16,Hungary,5855039,5564586
 2021-09-16,Iceland,281029,273612
 2021-09-16,India,582842108,188499533
@@ -53845,7 +53845,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-16,Kuwait,2668082,923307
 2021-09-16,Kyrgyzstan,757736,553491
 2021-09-16,Laos,2650948,1860415
-2021-09-16,Latvia,459946,251301
+2021-09-16,Latvia,879424,800346
 2021-09-16,Lebanon,1492383,1197963
 2021-09-16,Lesotho,71597,32181
 2021-09-16,Liberia,104545,27392
@@ -53907,7 +53907,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-16,Solomon Islands,74573,23171
 2021-09-16,Somalia,231089,120216
 2021-09-16,South Africa,11367049,7734069
-2021-09-16,South Korea,35434366,13553291
+2021-09-16,South Korea,35434366,21512044
 2021-09-16,South Sudan,55182,11927
 2021-09-16,Spain,37385758,35784743
 2021-09-16,Sri Lanka,13649253,10814200
@@ -54011,7 +54011,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-17,Guinea-Bissau,76511,6783
 2021-09-17,Guyana,341600,176695
 2021-09-17,Haiti,42494,18535
-2021-09-17,Honduras,4637151,1689501
+2021-09-17,Honduras,2947650,1689501
 2021-09-17,Hungary,5855039,5564586
 2021-09-17,Iceland,281141,274175
 2021-09-17,India,586105233,191282617
@@ -54031,7 +54031,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-17,Kuwait,2668082,923307
 2021-09-17,Kyrgyzstan,762691,560146
 2021-09-17,Laos,2650948,1860415
-2021-09-17,Latvia,459946,251301
+2021-09-17,Latvia,883140,804603
 2021-09-17,Lebanon,1499846,1204577
 2021-09-17,Lesotho,71597,32181
 2021-09-17,Liberia,104545,27392
@@ -54093,7 +54093,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-17,Solomon Islands,74573,23171
 2021-09-17,Somalia,231089,120216
 2021-09-17,South Africa,11367049,7734069
-2021-09-17,South Korea,36095152,13686798
+2021-09-17,South Korea,36095152,21956588
 2021-09-17,South Sudan,55182,11927
 2021-09-17,Spain,37385758,35784743
 2021-09-17,Sri Lanka,13690202,10867900
@@ -54197,7 +54197,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-18,Guinea-Bissau,76511,6783
 2021-09-18,Guyana,341600,176695
 2021-09-18,Haiti,42494,18535
-2021-09-18,Honduras,4637151,1689501
+2021-09-18,Honduras,2947650,1689501
 2021-09-18,Hungary,5855039,5564586
 2021-09-18,Iceland,281141,274175
 2021-09-18,India,597205296,198809823
@@ -54217,7 +54217,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-18,Kuwait,2668082,923307
 2021-09-18,Kyrgyzstan,764781,561853
 2021-09-18,Laos,2650948,1860415
-2021-09-18,Latvia,459946,251301
+2021-09-18,Latvia,885683,807339
 2021-09-18,Lebanon,1500527,1205426
 2021-09-18,Lesotho,71597,32181
 2021-09-18,Liberia,104545,27392
@@ -54279,7 +54279,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-18,Solomon Islands,74573,23171
 2021-09-18,Somalia,231089,120216
 2021-09-18,South Africa,11367049,7734069
-2021-09-18,South Korea,36486736,13748199
+2021-09-18,South Korea,36486736,22146699
 2021-09-18,South Sudan,55182,11927
 2021-09-18,Spain,37385758,35784743
 2021-09-18,Sri Lanka,13720887,10968195
@@ -54383,7 +54383,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-19,Guinea-Bissau,76511,6783
 2021-09-19,Guyana,341600,176695
 2021-09-19,Haiti,42494,18535
-2021-09-19,Honduras,4637151,1689501
+2021-09-19,Honduras,2947650,1689501
 2021-09-19,Hungary,5859814,5571043
 2021-09-19,Iceland,281141,274175
 2021-09-19,India,602206789,202571907
@@ -54403,7 +54403,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-19,Kuwait,2668082,923307
 2021-09-19,Kyrgyzstan,768526,565989
 2021-09-19,Laos,2799549,1909360
-2021-09-19,Latvia,459946,251301
+2021-09-19,Latvia,886135,807975
 2021-09-19,Lebanon,1506291,1210873
 2021-09-19,Lesotho,71597,32181
 2021-09-19,Liberia,104545,27392
@@ -54465,7 +54465,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-19,Solomon Islands,74573,23171
 2021-09-19,Somalia,231089,120216
 2021-09-19,South Africa,11579000,7911171
-2021-09-19,South Korea,36508007,13751790
+2021-09-19,South Korea,36508007,22172602
 2021-09-19,South Sudan,69157,26884
 2021-09-19,Spain,37472155,36086354
 2021-09-19,Sri Lanka,13749897,11054101
@@ -54569,7 +54569,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-20,Guinea-Bissau,76511,6783
 2021-09-20,Guyana,346529,179115
 2021-09-20,Haiti,42494,18535
-2021-09-20,Honduras,5034639,1992167
+2021-09-20,Honduras,3042472,1992167
 2021-09-20,Hungary,5862458,5579231
 2021-09-20,Iceland,281141,274175
 2021-09-20,India,606563237,205669279
@@ -54589,7 +54589,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-20,Kuwait,2668082,923307
 2021-09-20,Kyrgyzstan,774616,571416
 2021-09-20,Laos,2799549,1909360
-2021-09-20,Latvia,459946,251301
+2021-09-20,Latvia,888385,810817
 2021-09-20,Lebanon,1516847,1222780
 2021-09-20,Lesotho,249173,238727
 2021-09-20,Liberia,104545,27392
@@ -54651,7 +54651,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-20,Solomon Islands,74573,23171
 2021-09-20,Somalia,241945,148196
 2021-09-20,South Africa,11579000,7911171
-2021-09-20,South Korea,36537983,13756713
+2021-09-20,South Korea,36537983,22186413
 2021-09-20,South Sudan,69157,26884
 2021-09-20,Spain,37472155,36086354
 2021-09-20,Sri Lanka,13772541,11093465
@@ -54755,7 +54755,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-21,Guinea-Bissau,76511,6783
 2021-09-21,Guyana,346529,179115
 2021-09-21,Haiti,42899,18987
-2021-09-21,Honduras,5034639,1992167
+2021-09-21,Honduras,3042472,1992167
 2021-09-21,Hungary,5865865,5591911
 2021-09-21,Iceland,281267,274497
 2021-09-21,India,612360533,209475729
@@ -54775,7 +54775,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-21,Kuwait,2668082,923307
 2021-09-21,Kyrgyzstan,780874,576364
 2021-09-21,Laos,2799549,1909360
-2021-09-21,Latvia,459946,251301
+2021-09-21,Latvia,891296,814233
 2021-09-21,Lebanon,1530587,1239048
 2021-09-21,Lesotho,249173,238727
 2021-09-21,Liberia,104545,27392
@@ -54837,7 +54837,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-21,Solomon Islands,74573,23171
 2021-09-21,Somalia,241945,148196
 2021-09-21,South Africa,11848402,8108520
-2021-09-21,South Korea,36544511,13758100
+2021-09-21,South Korea,36544511,22190565
 2021-09-21,South Sudan,69157,26884
 2021-09-21,Spain,37508658,36184677
 2021-09-21,Sri Lanka,13802944,11124145
@@ -54941,7 +54941,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-22,Guinea-Bissau,87231,7484
 2021-09-22,Guyana,346529,179115
 2021-09-22,Haiti,42899,18987
-2021-09-22,Honduras,5034639,1992167
+2021-09-22,Honduras,3042472,1992167
 2021-09-22,Hungary,5869259,5600425
 2021-09-22,Iceland,281267,274497
 2021-09-22,India,615659928,211638045
@@ -54961,7 +54961,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-22,Kuwait,2668082,923307
 2021-09-22,Kyrgyzstan,788761,582500
 2021-09-22,Laos,2799549,1909360
-2021-09-22,Latvia,459946,251301
+2021-09-22,Latvia,894490,816629
 2021-09-22,Lebanon,1535076,1243953
 2021-09-22,Lesotho,249173,238727
 2021-09-22,Liberia,104545,27392
@@ -55023,7 +55023,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-22,Solomon Islands,74573,23171
 2021-09-22,Somalia,241945,148196
 2021-09-22,South Africa,11987011,8228296
-2021-09-22,South Korea,36572002,13764681
+2021-09-22,South Korea,36572002,22206411
 2021-09-22,South Sudan,72173,28448
 2021-09-22,Spain,37538323,36259105
 2021-09-22,Sri Lanka,13906987,11203890
@@ -55127,7 +55127,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-23,Guinea-Bissau,87231,7484
 2021-09-23,Guyana,351981,181862
 2021-09-23,Haiti,42899,18987
-2021-09-23,Honduras,5034639,1992167
+2021-09-23,Honduras,3042472,1992167
 2021-09-23,Hungary,5873523,5615273
 2021-09-23,Iceland,281440,275493
 2021-09-23,India,621209052,216030785
@@ -55147,7 +55147,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-23,Kuwait,2668082,923307
 2021-09-23,Kyrgyzstan,795968,587748
 2021-09-23,Laos,2799549,1909360
-2021-09-23,Latvia,459946,251301
+2021-09-23,Latvia,894490,816629
 2021-09-23,Lebanon,1545290,1254856
 2021-09-23,Lesotho,249173,238727
 2021-09-23,Liberia,104545,27392
@@ -55209,7 +55209,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-23,Solomon Islands,74573,23171
 2021-09-23,Somalia,249200,181599
 2021-09-23,South Africa,12115821,8344762
-2021-09-23,South Korea,37132188,13929897
+2021-09-23,South Korea,37132188,22582280
 2021-09-23,South Sudan,72173,28448
 2021-09-23,Spain,37538323,36259105
 2021-09-23,Sri Lanka,14032696,11306826
