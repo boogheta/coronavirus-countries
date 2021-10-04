@@ -7228,7 +7228,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-08,Sudan,0,0
 2021-01-08,Suriname,0,0
 2021-01-08,Sweden,16234,0
-2021-01-08,Switzerland,37596,26
+2021-01-08,Switzerland,37596,30
 2021-01-08,Syria,0,0
 2021-01-08,Taiwan,0,0
 2021-01-08,Tajikistan,0,0
@@ -7414,7 +7414,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-09,Sudan,0,0
 2021-01-09,Suriname,0,0
 2021-01-09,Sweden,16234,0
-2021-01-09,Switzerland,39714,29
+2021-01-09,Switzerland,39714,33
 2021-01-09,Syria,0,0
 2021-01-09,Taiwan,0,0
 2021-01-09,Tajikistan,0,0
@@ -7600,7 +7600,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-10,Sudan,0,0
 2021-01-10,Suriname,0,0
 2021-01-10,Sweden,52171,8
-2021-01-10,Switzerland,39746,30
+2021-01-10,Switzerland,39746,34
 2021-01-10,Syria,0,0
 2021-01-10,Taiwan,0,0
 2021-01-10,Tajikistan,0,0
@@ -7786,7 +7786,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-11,Sudan,0,0
 2021-01-11,Suriname,0,0
 2021-01-11,Sweden,52171,8
-2021-01-11,Switzerland,47041,39
+2021-01-11,Switzerland,47041,43
 2021-01-11,Syria,0,0
 2021-01-11,Taiwan,0,0
 2021-01-11,Tajikistan,0,0
@@ -7972,7 +7972,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-12,Sudan,0,0
 2021-01-12,Suriname,0,0
 2021-01-12,Sweden,52171,8
-2021-01-12,Switzerland,57313,45
+2021-01-12,Switzerland,57313,49
 2021-01-12,Syria,0,0
 2021-01-12,Taiwan,0,0
 2021-01-12,Tajikistan,0,0
@@ -8158,7 +8158,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-13,Sudan,0,0
 2021-01-13,Suriname,0,0
 2021-01-13,Sweden,52171,8
-2021-01-13,Switzerland,68143,172
+2021-01-13,Switzerland,68143,176
 2021-01-13,Syria,0,0
 2021-01-13,Taiwan,0,0
 2021-01-13,Tajikistan,0,0
@@ -8344,7 +8344,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-14,Sudan,0,0
 2021-01-14,Suriname,0,0
 2021-01-14,Sweden,52171,8
-2021-01-14,Switzerland,78569,238
+2021-01-14,Switzerland,78569,242
 2021-01-14,Syria,0,0
 2021-01-14,Taiwan,0,0
 2021-01-14,Tajikistan,0,0
@@ -8530,7 +8530,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-15,Sudan,0,0
 2021-01-15,Suriname,0,0
 2021-01-15,Sweden,52171,8
-2021-01-15,Switzerland,89111,291
+2021-01-15,Switzerland,89111,295
 2021-01-15,Syria,0,0
 2021-01-15,Taiwan,0,0
 2021-01-15,Tajikistan,0,0
@@ -8716,7 +8716,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-16,Sudan,0,0
 2021-01-16,Suriname,0,0
 2021-01-16,Sweden,52171,8
-2021-01-16,Switzerland,93447,296
+2021-01-16,Switzerland,93447,300
 2021-01-16,Syria,0,0
 2021-01-16,Taiwan,0,0
 2021-01-16,Tajikistan,0,0
@@ -8902,7 +8902,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-17,Sudan,0,0
 2021-01-17,Suriname,0,0
 2021-01-17,Sweden,130872,50
-2021-01-17,Switzerland,94108,300
+2021-01-17,Switzerland,94108,304
 2021-01-17,Syria,0,0
 2021-01-17,Taiwan,0,0
 2021-01-17,Tajikistan,0,0
@@ -9088,7 +9088,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-18,Sudan,0,0
 2021-01-18,Suriname,0,0
 2021-01-18,Sweden,130872,50
-2021-01-18,Switzerland,105478,1052
+2021-01-18,Switzerland,105478,1056
 2021-01-18,Syria,0,0
 2021-01-18,Taiwan,0,0
 2021-01-18,Tajikistan,0,0
@@ -9274,7 +9274,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-19,Sudan,0,0
 2021-01-19,Suriname,0,0
 2021-01-19,Sweden,130872,50
-2021-01-19,Switzerland,121901,1753
+2021-01-19,Switzerland,121902,1757
 2021-01-19,Syria,0,0
 2021-01-19,Taiwan,0,0
 2021-01-19,Tajikistan,0,0
@@ -9460,7 +9460,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-20,Sudan,0,0
 2021-01-20,Suriname,0,0
 2021-01-20,Sweden,130872,50
-2021-01-20,Switzerland,141333,2661
+2021-01-20,Switzerland,141334,2666
 2021-01-20,Syria,0,0
 2021-01-20,Taiwan,0,0
 2021-01-20,Tajikistan,0,0
@@ -9646,7 +9646,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-21,Sudan,0,0
 2021-01-21,Suriname,0,0
 2021-01-21,Sweden,130872,50
-2021-01-21,Switzerland,163790,3232
+2021-01-21,Switzerland,163791,3237
 2021-01-21,Syria,0,0
 2021-01-21,Taiwan,0,0
 2021-01-21,Tajikistan,0,0
@@ -9832,7 +9832,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-22,Sudan,0,0
 2021-01-22,Suriname,0,0
 2021-01-22,Sweden,130872,50
-2021-01-22,Switzerland,182894,3720
+2021-01-22,Switzerland,182897,3725
 2021-01-22,Syria,0,0
 2021-01-22,Taiwan,0,0
 2021-01-22,Tajikistan,0,0
@@ -10018,7 +10018,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-23,Sudan,0,0
 2021-01-23,Suriname,0,0
 2021-01-23,Sweden,130872,50
-2021-01-23,Switzerland,188608,3815
+2021-01-23,Switzerland,188611,3820
 2021-01-23,Syria,0,0
 2021-01-23,Taiwan,0,0
 2021-01-23,Tajikistan,0,0
@@ -10204,7 +10204,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-24,Sudan,0,0
 2021-01-24,Suriname,0,0
 2021-01-24,Sweden,235918,10779
-2021-01-24,Switzerland,189778,3827
+2021-01-24,Switzerland,189781,3832
 2021-01-24,Syria,0,0
 2021-01-24,Taiwan,0,0
 2021-01-24,Tajikistan,0,0
@@ -10390,7 +10390,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-25,Sudan,0,0
 2021-01-25,Suriname,0,0
 2021-01-25,Sweden,235918,10779
-2021-01-25,Switzerland,205498,5275
+2021-01-25,Switzerland,205501,5280
 2021-01-25,Syria,0,0
 2021-01-25,Taiwan,0,0
 2021-01-25,Tajikistan,0,0
@@ -10576,7 +10576,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-26,Sudan,0,0
 2021-01-26,Suriname,0,0
 2021-01-26,Sweden,235918,10779
-2021-01-26,Switzerland,227732,7828
+2021-01-26,Switzerland,227735,7833
 2021-01-26,Syria,0,0
 2021-01-26,Taiwan,0,0
 2021-01-26,Tajikistan,0,0
@@ -10762,7 +10762,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-27,Sudan,0,0
 2021-01-27,Suriname,0,0
 2021-01-27,Sweden,235918,10779
-2021-01-27,Switzerland,249915,9803
+2021-01-27,Switzerland,249919,9809
 2021-01-27,Syria,0,0
 2021-01-27,Taiwan,0,0
 2021-01-27,Tajikistan,0,0
@@ -10948,7 +10948,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-28,Sudan,0,0
 2021-01-28,Suriname,0,0
 2021-01-28,Sweden,235918,10779
-2021-01-28,Switzerland,273839,12505
+2021-01-28,Switzerland,273843,12512
 2021-01-28,Syria,0,0
 2021-01-28,Taiwan,0,0
 2021-01-28,Tajikistan,0,0
@@ -11134,7 +11134,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-29,Sudan,0,0
 2021-01-29,Suriname,0,0
 2021-01-29,Sweden,235918,10779
-2021-01-29,Switzerland,288674,15139
+2021-01-29,Switzerland,288678,15146
 2021-01-29,Syria,0,0
 2021-01-29,Taiwan,0,0
 2021-01-29,Tajikistan,0,0
@@ -11320,7 +11320,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-30,Sudan,0,0
 2021-01-30,Suriname,0,0
 2021-01-30,Sweden,235918,10779
-2021-01-30,Switzerland,288674,15139
+2021-01-30,Switzerland,288678,15146
 2021-01-30,Syria,0,0
 2021-01-30,Taiwan,0,0
 2021-01-30,Tajikistan,0,0
@@ -11506,7 +11506,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-31,Sudan,0,0
 2021-01-31,Suriname,0,0
 2021-01-31,Sweden,300698,36968
-2021-01-31,Switzerland,288674,15139
+2021-01-31,Switzerland,288678,15146
 2021-01-31,Syria,0,0
 2021-01-31,Taiwan,0,0
 2021-01-31,Tajikistan,0,0
@@ -11692,7 +11692,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-01,Sudan,0,0
 2021-02-01,Suriname,0,0
 2021-02-01,Sweden,300698,36968
-2021-02-01,Switzerland,300498,19352
+2021-02-01,Switzerland,300503,19359
 2021-02-01,Syria,0,0
 2021-02-01,Taiwan,0,0
 2021-02-01,Tajikistan,0,0
@@ -11878,7 +11878,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-02,Sudan,0,0
 2021-02-02,Suriname,0,0
 2021-02-02,Sweden,300698,36968
-2021-02-02,Switzerland,314156,25058
+2021-02-02,Switzerland,314161,25065
 2021-02-02,Syria,0,0
 2021-02-02,Taiwan,0,0
 2021-02-02,Tajikistan,0,0
@@ -12064,7 +12064,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-03,Sudan,0,0
 2021-02-03,Suriname,0,0
 2021-02-03,Sweden,300698,36968
-2021-02-03,Switzerland,327904,30386
+2021-02-03,Switzerland,327909,30393
 2021-02-03,Syria,0,0
 2021-02-03,Taiwan,0,0
 2021-02-03,Tajikistan,0,0
@@ -12250,7 +12250,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-04,Sudan,0,0
 2021-02-04,Suriname,0,0
 2021-02-04,Sweden,300698,36968
-2021-02-04,Switzerland,341298,37443
+2021-02-04,Switzerland,341303,37450
 2021-02-04,Syria,0,0
 2021-02-04,Taiwan,0,0
 2021-02-04,Tajikistan,0,0
@@ -12436,7 +12436,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-05,Sudan,0,0
 2021-02-05,Suriname,0,0
 2021-02-05,Sweden,300698,36968
-2021-02-05,Switzerland,353674,44438
+2021-02-05,Switzerland,353680,44445
 2021-02-05,Syria,0,0
 2021-02-05,Taiwan,0,0
 2021-02-05,Tajikistan,0,0
@@ -12622,7 +12622,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-06,Sudan,0,0
 2021-02-06,Suriname,0,0
 2021-02-06,Sweden,300698,36968
-2021-02-06,Switzerland,355487,45967
+2021-02-06,Switzerland,355493,45974
 2021-02-06,Syria,0,0
 2021-02-06,Taiwan,0,0
 2021-02-06,Tajikistan,0,0
@@ -12808,7 +12808,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-07,Sudan,0,0
 2021-02-07,Suriname,0,0
 2021-02-07,Sweden,344222,93082
-2021-02-07,Switzerland,356410,46240
+2021-02-07,Switzerland,356416,46247
 2021-02-07,Syria,0,0
 2021-02-07,Taiwan,0,0
 2021-02-07,Tajikistan,0,0
@@ -12994,7 +12994,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-08,Sudan,0,0
 2021-02-08,Suriname,0,0
 2021-02-08,Sweden,344222,93082
-2021-02-08,Switzerland,366237,54759
+2021-02-08,Switzerland,366243,54766
 2021-02-08,Syria,0,0
 2021-02-08,Taiwan,0,0
 2021-02-08,Tajikistan,0,0
@@ -13180,7 +13180,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-09,Sudan,0,0
 2021-02-09,Suriname,0,0
 2021-02-09,Sweden,344222,93082
-2021-02-09,Switzerland,380516,65792
+2021-02-09,Switzerland,380522,65799
 2021-02-09,Syria,0,0
 2021-02-09,Taiwan,0,0
 2021-02-09,Tajikistan,0,0
@@ -13366,7 +13366,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-10,Sudan,0,0
 2021-02-10,Suriname,0,0
 2021-02-10,Sweden,344222,93082
-2021-02-10,Switzerland,396966,75958
+2021-02-10,Switzerland,396972,75965
 2021-02-10,Syria,0,0
 2021-02-10,Taiwan,0,0
 2021-02-10,Tajikistan,0,0
@@ -13552,7 +13552,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-11,Sudan,0,0
 2021-02-11,Suriname,0,0
 2021-02-11,Sweden,344222,93082
-2021-02-11,Switzerland,413061,87182
+2021-02-11,Switzerland,413067,87189
 2021-02-11,Syria,0,0
 2021-02-11,Taiwan,0,0
 2021-02-11,Tajikistan,0,0
@@ -13738,7 +13738,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-12,Sudan,0,0
 2021-02-12,Suriname,0,0
 2021-02-12,Sweden,344222,93082
-2021-02-12,Switzerland,429064,97320
+2021-02-12,Switzerland,429070,97327
 2021-02-12,Syria,0,0
 2021-02-12,Taiwan,0,0
 2021-02-12,Tajikistan,0,0
@@ -13924,7 +13924,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-13,Sudan,0,0
 2021-02-13,Suriname,0,0
 2021-02-13,Sweden,344222,93082
-2021-02-13,Switzerland,432448,100866
+2021-02-13,Switzerland,432454,100873
 2021-02-13,Syria,0,0
 2021-02-13,Taiwan,0,0
 2021-02-13,Tajikistan,0,0
@@ -14110,7 +14110,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-14,Sudan,0,0
 2021-02-14,Suriname,0,0
 2021-02-14,Sweden,390987,163726
-2021-02-14,Switzerland,433284,101370
+2021-02-14,Switzerland,433290,101377
 2021-02-14,Syria,0,0
 2021-02-14,Taiwan,0,0
 2021-02-14,Tajikistan,0,0
@@ -14296,7 +14296,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-15,Sudan,0,0
 2021-02-15,Suriname,0,0
 2021-02-15,Sweden,390987,163726
-2021-02-15,Switzerland,443047,110329
+2021-02-15,Switzerland,443053,110336
 2021-02-15,Syria,0,0
 2021-02-15,Taiwan,0,0
 2021-02-15,Tajikistan,0,0
@@ -14482,7 +14482,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-16,Sudan,0,0
 2021-02-16,Suriname,0,0
 2021-02-16,Sweden,390987,163726
-2021-02-16,Switzerland,455534,122610
+2021-02-16,Switzerland,455540,122617
 2021-02-16,Syria,0,0
 2021-02-16,Taiwan,0,0
 2021-02-16,Tajikistan,0,0
@@ -14668,7 +14668,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-17,Sudan,0,0
 2021-02-17,Suriname,0,0
 2021-02-17,Sweden,390987,163726
-2021-02-17,Switzerland,465985,136163
+2021-02-17,Switzerland,465993,136170
 2021-02-17,Syria,0,0
 2021-02-17,Taiwan,0,0
 2021-02-17,Tajikistan,0,0
@@ -14854,7 +14854,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-18,Sudan,0,0
 2021-02-18,Suriname,0,0
 2021-02-18,Sweden,390987,163726
-2021-02-18,Switzerland,477599,152799
+2021-02-18,Switzerland,477607,152806
 2021-02-18,Syria,0,0
 2021-02-18,Taiwan,0,0
 2021-02-18,Tajikistan,0,0
@@ -15040,7 +15040,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-19,Sudan,0,0
 2021-02-19,Suriname,0,0
 2021-02-19,Sweden,390987,163726
-2021-02-19,Switzerland,487182,167399
+2021-02-19,Switzerland,487190,167408
 2021-02-19,Syria,0,0
 2021-02-19,Taiwan,0,0
 2021-02-19,Tajikistan,0,0
@@ -15226,7 +15226,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-20,Sudan,0,0
 2021-02-20,Suriname,0,0
 2021-02-20,Sweden,390987,163726
-2021-02-20,Switzerland,489895,171934
+2021-02-20,Switzerland,489903,171943
 2021-02-20,Syria,0,0
 2021-02-20,Taiwan,0,0
 2021-02-20,Tajikistan,0,0
@@ -15412,7 +15412,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-21,Sudan,0,0
 2021-02-21,Suriname,0,0
 2021-02-21,Sweden,460952,247567
-2021-02-21,Switzerland,490703,172774
+2021-02-21,Switzerland,490711,172783
 2021-02-21,Syria,0,0
 2021-02-21,Taiwan,0,0
 2021-02-21,Tajikistan,0,0
@@ -15598,7 +15598,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-22,Sudan,0,0
 2021-02-22,Suriname,0,0
 2021-02-22,Sweden,460952,247567
-2021-02-22,Switzerland,497611,185618
+2021-02-22,Switzerland,497619,185628
 2021-02-22,Syria,0,0
 2021-02-22,Taiwan,0,0
 2021-02-22,Tajikistan,0,0
@@ -15784,7 +15784,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-23,Sudan,0,0
 2021-02-23,Suriname,0,0
 2021-02-23,Sweden,460952,247567
-2021-02-23,Switzerland,507285,202233
+2021-02-23,Switzerland,507293,202243
 2021-02-23,Syria,0,0
 2021-02-23,Taiwan,0,0
 2021-02-23,Tajikistan,0,0
@@ -15970,7 +15970,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-24,Sudan,0,0
 2021-02-24,Suriname,0,0
 2021-02-24,Sweden,460952,247567
-2021-02-24,Switzerland,517132,220325
+2021-02-24,Switzerland,517140,220337
 2021-02-24,Syria,0,0
 2021-02-24,Taiwan,0,0
 2021-02-24,Tajikistan,0,0
@@ -16156,7 +16156,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-25,Sudan,0,0
 2021-02-25,Suriname,0,0
 2021-02-25,Sweden,460952,247567
-2021-02-25,Switzerland,526948,239582
+2021-02-25,Switzerland,526957,239594
 2021-02-25,Syria,0,0
 2021-02-25,Taiwan,0,0
 2021-02-25,Tajikistan,0,0
@@ -16342,7 +16342,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-26,Sudan,0,0
 2021-02-26,Suriname,0,0
 2021-02-26,Sweden,460952,247567
-2021-02-26,Switzerland,535193,255744
+2021-02-26,Switzerland,535202,255757
 2021-02-26,Syria,0,0
 2021-02-26,Taiwan,0,0
 2021-02-26,Tajikistan,0,0
@@ -16528,7 +16528,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-27,Sudan,0,0
 2021-02-27,Suriname,0,0
 2021-02-27,Sweden,460952,247567
-2021-02-27,Switzerland,537381,260115
+2021-02-27,Switzerland,537390,260128
 2021-02-27,Syria,0,0
 2021-02-27,Taiwan,0,0
 2021-02-27,Tajikistan,0,0
@@ -16714,7 +16714,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-28,Sudan,0,0
 2021-02-28,Suriname,0,0
 2021-02-28,Sweden,562565,301846
-2021-02-28,Switzerland,537992,261491
+2021-02-28,Switzerland,538001,261504
 2021-02-28,Syria,0,0
 2021-02-28,Taiwan,0,0
 2021-02-28,Tajikistan,0,0
@@ -16900,7 +16900,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-01,Sudan,0,0
 2021-03-01,Suriname,0,0
 2021-03-01,Sweden,562565,301846
-2021-03-01,Switzerland,548302,273110
+2021-03-01,Switzerland,548313,273125
 2021-03-01,Syria,0,0
 2021-03-01,Taiwan,0,0
 2021-03-01,Tajikistan,0,0
@@ -17086,7 +17086,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-02,Sudan,0,0
 2021-03-02,Suriname,0,0
 2021-03-02,Sweden,562565,301846
-2021-03-02,Switzerland,559575,287374
+2021-03-02,Switzerland,559586,287390
 2021-03-02,Syria,0,0
 2021-03-02,Taiwan,0,0
 2021-03-02,Tajikistan,0,0
@@ -17272,7 +17272,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-03,Sudan,0,0
 2021-03-03,Suriname,0,0
 2021-03-03,Sweden,562565,301846
-2021-03-03,Switzerland,575119,303335
+2021-03-03,Switzerland,575130,303351
 2021-03-03,Syria,0,0
 2021-03-03,Taiwan,0,0
 2021-03-03,Tajikistan,0,0
@@ -17458,7 +17458,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-04,Sudan,0,0
 2021-03-04,Suriname,0,0
 2021-03-04,Sweden,562565,301846
-2021-03-04,Switzerland,592320,319294
+2021-03-04,Switzerland,592331,319310
 2021-03-04,Syria,0,0
 2021-03-04,Taiwan,0,0
 2021-03-04,Tajikistan,0,0
@@ -17644,7 +17644,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-05,Sudan,0,0
 2021-03-05,Suriname,0,0
 2021-03-05,Sweden,562565,301846
-2021-03-05,Switzerland,606840,333563
+2021-03-05,Switzerland,606851,333579
 2021-03-05,Syria,0,0
 2021-03-05,Taiwan,0,0
 2021-03-05,Tajikistan,0,0
@@ -17830,7 +17830,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-06,Sudan,0,0
 2021-03-06,Suriname,0,0
 2021-03-06,Sweden,562565,301846
-2021-03-06,Switzerland,610227,336405
+2021-03-06,Switzerland,610238,336421
 2021-03-06,Syria,0,0
 2021-03-06,Taiwan,0,0
 2021-03-06,Tajikistan,0,0
@@ -18016,7 +18016,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-07,Sudan,0,0
 2021-03-07,Suriname,0,0
 2021-03-07,Sweden,713968,339458
-2021-03-07,Switzerland,611254,337334
+2021-03-07,Switzerland,611265,337350
 2021-03-07,Syria,0,0
 2021-03-07,Taiwan,0,0
 2021-03-07,Tajikistan,0,0
@@ -18202,7 +18202,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-08,Sudan,0,0
 2021-03-08,Suriname,0,0
 2021-03-08,Sweden,713968,339458
-2021-03-08,Switzerland,624088,347634
+2021-03-08,Switzerland,624103,347650
 2021-03-08,Syria,0,0
 2021-03-08,Taiwan,0,0
 2021-03-08,Tajikistan,0,0
@@ -18388,7 +18388,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-09,Sudan,0,0
 2021-03-09,Suriname,0,0
 2021-03-09,Sweden,713968,339458
-2021-03-09,Switzerland,641309,360568
+2021-03-09,Switzerland,641324,360584
 2021-03-09,Syria,0,0
 2021-03-09,Taiwan,0,0
 2021-03-09,Tajikistan,0,0
@@ -18574,7 +18574,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-10,Sudan,0,0
 2021-03-10,Suriname,0,0
 2021-03-10,Sweden,713968,339458
-2021-03-10,Switzerland,659971,371729
+2021-03-10,Switzerland,659988,371745
 2021-03-10,Syria,0,0
 2021-03-10,Taiwan,0,0
 2021-03-10,Tajikistan,0,0
@@ -18760,7 +18760,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-11,Sudan,0,0
 2021-03-11,Suriname,0,0
 2021-03-11,Sweden,713968,339458
-2021-03-11,Switzerland,678914,384600
+2021-03-11,Switzerland,678931,384618
 2021-03-11,Syria,0,0
 2021-03-11,Taiwan,0,0
 2021-03-11,Tajikistan,0,0
@@ -18946,7 +18946,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-12,Sudan,0,0
 2021-03-12,Suriname,0,0
 2021-03-12,Sweden,713968,339458
-2021-03-12,Switzerland,694738,396018
+2021-03-12,Switzerland,694755,396036
 2021-03-12,Syria,0,0
 2021-03-12,Taiwan,0,0
 2021-03-12,Tajikistan,0,0
@@ -19132,7 +19132,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-13,Sudan,0,0
 2021-03-13,Suriname,0,0
 2021-03-13,Sweden,713968,339458
-2021-03-13,Switzerland,698516,398259
+2021-03-13,Switzerland,698533,398277
 2021-03-13,Syria,0,0
 2021-03-13,Taiwan,0,0
 2021-03-13,Tajikistan,0,0
@@ -19318,7 +19318,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-14,Sudan,0,0
 2021-03-14,Suriname,0,0
 2021-03-14,Sweden,895993,378147
-2021-03-14,Switzerland,699500,398720
+2021-03-14,Switzerland,699517,398738
 2021-03-14,Syria,0,0
 2021-03-14,Taiwan,0,0
 2021-03-14,Tajikistan,0,0
@@ -19504,7 +19504,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-15,Sudan,0,0
 2021-03-15,Suriname,0,0
 2021-03-15,Sweden,895993,378147
-2021-03-15,Switzerland,710227,408879
+2021-03-15,Switzerland,710244,408897
 2021-03-15,Syria,0,0
 2021-03-15,Taiwan,0,0
 2021-03-15,Tajikistan,0,0
@@ -19690,7 +19690,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-16,Sudan,0,0
 2021-03-16,Suriname,0,0
 2021-03-16,Sweden,895993,378147
-2021-03-16,Switzerland,725130,422548
+2021-03-16,Switzerland,725147,422566
 2021-03-16,Syria,0,0
 2021-03-16,Taiwan,0,0
 2021-03-16,Tajikistan,0,0
@@ -19876,7 +19876,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-17,Sudan,0,0
 2021-03-17,Suriname,0,0
 2021-03-17,Sweden,895993,378147
-2021-03-17,Switzerland,740575,438363
+2021-03-17,Switzerland,740593,438380
 2021-03-17,Syria,0,0
 2021-03-17,Taiwan,0,0
 2021-03-17,Tajikistan,0,0
@@ -20062,7 +20062,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-18,Sudan,0,0
 2021-03-18,Suriname,0,0
 2021-03-18,Sweden,895993,378147
-2021-03-18,Switzerland,757381,454528
+2021-03-18,Switzerland,757399,454546
 2021-03-18,Syria,0,0
 2021-03-18,Taiwan,0,0
 2021-03-18,Tajikistan,0,0
@@ -20248,7 +20248,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-19,Sudan,0,0
 2021-03-19,Suriname,9196,0
 2021-03-19,Sweden,895993,378147
-2021-03-19,Switzerland,772000,467557
+2021-03-19,Switzerland,772018,467576
 2021-03-19,Syria,0,0
 2021-03-19,Taiwan,0,0
 2021-03-19,Tajikistan,0,0
@@ -20434,7 +20434,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-20,Sudan,0,0
 2021-03-20,Suriname,11879,0
 2021-03-20,Sweden,895993,378147
-2021-03-20,Switzerland,775380,470376
+2021-03-20,Switzerland,775398,470396
 2021-03-20,Syria,0,0
 2021-03-20,Taiwan,0,0
 2021-03-20,Tajikistan,0,0
@@ -20620,7 +20620,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-21,Sudan,0,0
 2021-03-21,Suriname,11879,0
 2021-03-21,Sweden,1014199,432741
-2021-03-21,Switzerland,776339,470767
+2021-03-21,Switzerland,776357,470787
 2021-03-21,Syria,0,0
 2021-03-21,Taiwan,0,0
 2021-03-21,Tajikistan,0,0
@@ -20806,7 +20806,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-22,Sudan,0,0
 2021-03-22,Suriname,13749,0
 2021-03-22,Sweden,1014199,432741
-2021-03-22,Switzerland,789822,481812
+2021-03-22,Switzerland,789840,481832
 2021-03-22,Syria,0,0
 2021-03-22,Taiwan,1578,0
 2021-03-22,Tajikistan,0,0
@@ -20992,7 +20992,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-23,Sudan,0,0
 2021-03-23,Suriname,14716,0
 2021-03-23,Sweden,1014199,432741
-2021-03-23,Switzerland,808073,495572
+2021-03-23,Switzerland,808092,495593
 2021-03-23,Syria,0,0
 2021-03-23,Taiwan,3218,0
 2021-03-23,Tajikistan,0,0
@@ -21178,7 +21178,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-24,Sudan,0,0
 2021-03-24,Suriname,15998,0
 2021-03-24,Sweden,1014199,432741
-2021-03-24,Switzerland,828975,509346
+2021-03-24,Switzerland,828994,509367
 2021-03-24,Syria,0,0
 2021-03-24,Taiwan,5169,0
 2021-03-24,Tajikistan,0,0
@@ -21364,7 +21364,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-25,Sudan,0,0
 2021-03-25,Suriname,15998,0
 2021-03-25,Sweden,1014199,432741
-2021-03-25,Switzerland,854010,522742
+2021-03-25,Switzerland,854029,522764
 2021-03-25,Syria,0,0
 2021-03-25,Taiwan,7053,0
 2021-03-25,Tajikistan,0,0
@@ -21550,7 +21550,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-26,Sudan,0,0
 2021-03-26,Suriname,19983,0
 2021-03-26,Sweden,1014199,432741
-2021-03-26,Switzerland,877193,535199
+2021-03-26,Switzerland,877212,535223
 2021-03-26,Syria,0,0
 2021-03-26,Taiwan,9232,0
 2021-03-26,Tajikistan,0,0
@@ -21736,7 +21736,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-27,Sudan,0,0
 2021-03-27,Suriname,22377,0
 2021-03-27,Sweden,1014199,432741
-2021-03-27,Switzerland,884816,537721
+2021-03-27,Switzerland,884852,537745
 2021-03-27,Syria,0,0
 2021-03-27,Taiwan,9377,0
 2021-03-27,Tajikistan,0,0
@@ -21922,7 +21922,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-28,Sudan,0,0
 2021-03-28,Suriname,23304,0
 2021-03-28,Sweden,1143380,500493
-2021-03-28,Switzerland,887713,538429
+2021-03-28,Switzerland,887749,538453
 2021-03-28,Syria,0,0
 2021-03-28,Taiwan,9412,0
 2021-03-28,Tajikistan,0,0
@@ -22108,7 +22108,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-29,Sudan,0,0
 2021-03-29,Suriname,23304,0
 2021-03-29,Sweden,1143380,500493
-2021-03-29,Switzerland,908459,550467
+2021-03-29,Switzerland,908495,550494
 2021-03-29,Syria,0,0
 2021-03-29,Taiwan,10891,0
 2021-03-29,Tajikistan,0,0
@@ -22294,7 +22294,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-30,Sudan,0,0
 2021-03-30,Suriname,24528,0
 2021-03-30,Sweden,1143380,500493
-2021-03-30,Switzerland,936410,563615
+2021-03-30,Switzerland,936447,563642
 2021-03-30,Syria,0,0
 2021-03-30,Taiwan,12648,0
 2021-03-30,Tajikistan,0,0
@@ -22480,7 +22480,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-31,Sudan,0,0
 2021-03-31,Suriname,26057,0
 2021-03-31,Sweden,1143380,500493
-2021-03-31,Switzerland,960365,578182
+2021-03-31,Switzerland,960405,578210
 2021-03-31,Syria,0,0
 2021-03-31,Taiwan,14400,0
 2021-03-31,Tajikistan,0,0
@@ -22666,7 +22666,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-01,Sudan,0,0
 2021-04-01,Suriname,26057,0
 2021-04-01,Sweden,1143380,500493
-2021-04-01,Switzerland,984122,595687
+2021-04-01,Switzerland,984163,595715
 2021-04-01,Syria,0,0
 2021-04-01,Taiwan,16450,0
 2021-04-01,Tajikistan,0,0
@@ -22852,7 +22852,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-02,Sudan,0,0
 2021-04-02,Suriname,27760,0
 2021-04-02,Sweden,1143380,500493
-2021-04-02,Switzerland,990218,600019
+2021-04-02,Switzerland,990259,600047
 2021-04-02,Syria,0,0
 2021-04-02,Taiwan,17056,0
 2021-04-02,Tajikistan,0,0
@@ -23038,7 +23038,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-03,Sudan,0,0
 2021-04-03,Suriname,27760,0
 2021-04-03,Sweden,1143380,500493
-2021-04-03,Switzerland,994167,602531
+2021-04-03,Switzerland,994208,602559
 2021-04-03,Syria,0,0
 2021-04-03,Taiwan,17078,0
 2021-04-03,Tajikistan,0,0
@@ -23224,7 +23224,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-04,Sudan,0,0
 2021-04-04,Suriname,27760,0
 2021-04-04,Sweden,1340099,568044
-2021-04-04,Switzerland,995237,603205
+2021-04-04,Switzerland,995278,603233
 2021-04-04,Syria,0,0
 2021-04-04,Taiwan,17078,0
 2021-04-04,Tajikistan,0,0
@@ -23410,7 +23410,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-05,Sudan,43122,0
 2021-04-05,Suriname,27760,0
 2021-04-05,Sweden,1340099,568044
-2021-04-05,Switzerland,998950,605376
+2021-04-05,Switzerland,998991,605404
 2021-04-05,Syria,0,0
 2021-04-05,Taiwan,17245,0
 2021-04-05,Tajikistan,0,0
@@ -23596,7 +23596,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-06,Sudan,63837,0
 2021-04-06,Suriname,27760,0
 2021-04-06,Sweden,1340099,568044
-2021-04-06,Switzerland,1017632,624603
+2021-04-06,Switzerland,1017673,624631
 2021-04-06,Syria,0,0
 2021-04-06,Taiwan,18657,0
 2021-04-06,Tajikistan,0,0
@@ -23782,7 +23782,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-07,Sudan,63837,0
 2021-04-07,Suriname,30037,0
 2021-04-07,Sweden,1340099,568044
-2021-04-07,Switzerland,1043871,644576
+2021-04-07,Switzerland,1043913,644605
 2021-04-07,Syria,0,0
 2021-04-07,Taiwan,20075,0
 2021-04-07,Tajikistan,0,0
@@ -23968,7 +23968,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-08,Sudan,63837,0
 2021-04-08,Suriname,30037,0
 2021-04-08,Sweden,1340099,568044
-2021-04-08,Switzerland,1074388,665843
+2021-04-08,Switzerland,1074430,665872
 2021-04-08,Syria,2500,0
 2021-04-08,Taiwan,21873,0
 2021-04-08,Tajikistan,0,0
@@ -24154,7 +24154,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-09,Sudan,63837,0
 2021-04-09,Suriname,32614,0
 2021-04-09,Sweden,1340099,568044
-2021-04-09,Switzerland,1104329,683388
+2021-04-09,Switzerland,1104375,683417
 2021-04-09,Syria,2500,0
 2021-04-09,Taiwan,24450,0
 2021-04-09,Tajikistan,0,0
@@ -24340,7 +24340,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-10,Sudan,100010,0
 2021-04-10,Suriname,32614,0
 2021-04-10,Sweden,1340099,568044
-2021-04-10,Switzerland,1114772,687553
+2021-04-10,Switzerland,1114819,687582
 2021-04-10,Syria,2500,0
 2021-04-10,Taiwan,24658,0
 2021-04-10,Tajikistan,0,0
@@ -24526,7 +24526,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-11,Sudan,100010,0
 2021-04-11,Suriname,32614,0
 2021-04-11,Sweden,1591533,660999
-2021-04-11,Switzerland,1117625,688852
+2021-04-11,Switzerland,1117672,688881
 2021-04-11,Syria,2500,0
 2021-04-11,Taiwan,24701,0
 2021-04-11,Tajikistan,0,0
@@ -24712,7 +24712,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-12,Sudan,100010,0
 2021-04-12,Suriname,33038,0
 2021-04-12,Sweden,1591533,660999
-2021-04-12,Switzerland,1148957,701702
+2021-04-12,Switzerland,1149004,701731
 2021-04-12,Syria,2500,0
 2021-04-12,Taiwan,25882,0
 2021-04-12,Tajikistan,0,0
@@ -24898,7 +24898,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-13,Sudan,100010,0
 2021-04-13,Suriname,33640,0
 2021-04-13,Sweden,1591533,660999
-2021-04-13,Switzerland,1186280,718238
+2021-04-13,Switzerland,1186327,718268
 2021-04-13,Syria,2500,0
 2021-04-13,Taiwan,27113,0
 2021-04-13,Tajikistan,0,0
@@ -25084,7 +25084,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-14,Sudan,100010,0
 2021-04-14,Suriname,33640,0
 2021-04-14,Sweden,1591533,660999
-2021-04-14,Switzerland,1226341,734962
+2021-04-14,Switzerland,1226389,734992
 2021-04-14,Syria,2500,0
 2021-04-14,Taiwan,28497,0
 2021-04-14,Tajikistan,0,0
@@ -25270,7 +25270,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-15,Sudan,100010,0
 2021-04-15,Suriname,33640,0
 2021-04-15,Sweden,1591533,660999
-2021-04-15,Switzerland,1267606,751896
+2021-04-15,Switzerland,1267655,751928
 2021-04-15,Syria,2500,0
 2021-04-15,Taiwan,30039,0
 2021-04-15,Tajikistan,0,0
@@ -25456,7 +25456,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-16,Sudan,100010,0
 2021-04-16,Suriname,34630,0
 2021-04-16,Sweden,1591533,660999
-2021-04-16,Switzerland,1306289,767977
+2021-04-16,Switzerland,1306339,768010
 2021-04-16,Syria,2500,0
 2021-04-16,Taiwan,32389,0
 2021-04-16,Tajikistan,0,0
@@ -25642,7 +25642,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-17,Sudan,100010,0
 2021-04-17,Suriname,34630,0
 2021-04-17,Sweden,1591533,660999
-2021-04-17,Switzerland,1320756,771678
+2021-04-17,Switzerland,1320806,771711
 2021-04-17,Syria,2500,0
 2021-04-17,Taiwan,32450,0
 2021-04-17,Tajikistan,0,0
@@ -25828,7 +25828,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-18,Sudan,100010,0
 2021-04-18,Suriname,34630,0
 2021-04-18,Sweden,2000091,725226
-2021-04-18,Switzerland,1326253,772602
+2021-04-18,Switzerland,1326303,772635
 2021-04-18,Syria,2500,0
 2021-04-18,Taiwan,32450,0
 2021-04-18,Tajikistan,0,0
@@ -26014,7 +26014,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-19,Sudan,100010,0
 2021-04-19,Suriname,34630,0
 2021-04-19,Sweden,2000091,725226
-2021-04-19,Switzerland,1362484,787630
+2021-04-19,Switzerland,1362534,787664
 2021-04-19,Syria,2500,0
 2021-04-19,Taiwan,32450,0
 2021-04-19,Tajikistan,0,0
@@ -26200,7 +26200,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-20,Sudan,100010,0
 2021-04-20,Suriname,34630,0
 2021-04-20,Sweden,2000091,725226
-2021-04-20,Switzerland,1406658,807287
+2021-04-20,Switzerland,1406709,807322
 2021-04-20,Syria,2500,0
 2021-04-20,Taiwan,34197,0
 2021-04-20,Tajikistan,0,0
@@ -26386,7 +26386,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-21,Sudan,100010,0
 2021-04-21,Suriname,35424,0
 2021-04-21,Sweden,2000091,725226
-2021-04-21,Switzerland,1453636,827663
+2021-04-21,Switzerland,1453686,827699
 2021-04-21,Syria,2500,0
 2021-04-21,Taiwan,36731,0
 2021-04-21,Tajikistan,0,0
@@ -26572,7 +26572,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-22,Sudan,100010,0
 2021-04-22,Suriname,35777,0
 2021-04-22,Sweden,2000091,725226
-2021-04-22,Switzerland,1504703,851277
+2021-04-22,Switzerland,1504754,851312
 2021-04-22,Syria,2500,0
 2021-04-22,Taiwan,39221,0
 2021-04-22,Tajikistan,0,0
@@ -26758,7 +26758,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-23,Sudan,140227,0
 2021-04-23,Suriname,35777,0
 2021-04-23,Sweden,2000091,725226
-2021-04-23,Switzerland,1550968,871446
+2021-04-23,Switzerland,1551019,871481
 2021-04-23,Syria,2500,0
 2021-04-23,Taiwan,42523,0
 2021-04-23,Tajikistan,0,0
@@ -26944,7 +26944,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-24,Sudan,140227,0
 2021-04-24,Suriname,36503,0
 2021-04-24,Sweden,2000091,725226
-2021-04-24,Switzerland,1572097,877750
+2021-04-24,Switzerland,1572148,877801
 2021-04-24,Syria,2500,0
 2021-04-24,Taiwan,42672,0
 2021-04-24,Tajikistan,0,0
@@ -27130,7 +27130,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-25,Sudan,140227,0
 2021-04-25,Suriname,36503,0
 2021-04-25,Sweden,2402612,761972
-2021-04-25,Switzerland,1581505,880439
+2021-04-25,Switzerland,1581556,880490
 2021-04-25,Syria,2500,0
 2021-04-25,Taiwan,42672,0
 2021-04-25,Tajikistan,0,0
@@ -27316,7 +27316,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-26,Sudan,140227,0
 2021-04-26,Suriname,36503,0
 2021-04-26,Sweden,2402612,761972
-2021-04-26,Switzerland,1619599,899477
+2021-04-26,Switzerland,1619650,899529
 2021-04-26,Syria,2500,0
 2021-04-26,Taiwan,45387,0
 2021-04-26,Tajikistan,0,0
@@ -27502,7 +27502,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-27,Sudan,140227,0
 2021-04-27,Suriname,37158,0
 2021-04-27,Sweden,2402612,761972
-2021-04-27,Switzerland,1669637,923980
+2021-04-27,Switzerland,1669688,924035
 2021-04-27,Syria,2500,0
 2021-04-27,Taiwan,48180,0
 2021-04-27,Tajikistan,0,0
@@ -27688,7 +27688,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-28,Sudan,140227,0
 2021-04-28,Suriname,38351,0
 2021-04-28,Sweden,2402612,761972
-2021-04-28,Switzerland,1721935,945559
+2021-04-28,Switzerland,1721986,945614
 2021-04-28,Syria,2500,0
 2021-04-28,Taiwan,50833,0
 2021-04-28,Tajikistan,0,0
@@ -27874,7 +27874,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-29,Sudan,140227,0
 2021-04-29,Suriname,38351,0
 2021-04-29,Sweden,2402612,761972
-2021-04-29,Switzerland,1772151,968692
+2021-04-29,Switzerland,1772203,968747
 2021-04-29,Syria,2500,0
 2021-04-29,Taiwan,54189,0
 2021-04-29,Tajikistan,0,0
@@ -28060,7 +28060,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-30,Sudan,140227,0
 2021-04-30,Suriname,38351,0
 2021-04-30,Sweden,2402612,761972
-2021-04-30,Switzerland,1824964,981115
+2021-04-30,Switzerland,1825018,981170
 2021-04-30,Syria,2500,0
 2021-04-30,Taiwan,57884,0
 2021-04-30,Tajikistan,0,0
@@ -28246,7 +28246,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-01,Sudan,140227,0
 2021-05-01,Suriname,39953,0
 2021-05-01,Sweden,2402612,761972
-2021-05-01,Switzerland,1851374,985032
+2021-05-01,Switzerland,1851428,985087
 2021-05-01,Syria,2500,0
 2021-05-01,Taiwan,57884,0
 2021-05-01,Tajikistan,0,0
@@ -28432,7 +28432,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-02,Sudan,140227,0
 2021-05-02,Suriname,39953,0
 2021-05-02,Sweden,2774132,788666
-2021-05-02,Switzerland,1863209,986036
+2021-05-02,Switzerland,1863263,986091
 2021-05-02,Syria,2500,0
 2021-05-02,Taiwan,58252,0
 2021-05-02,Tajikistan,0,0
@@ -28618,7 +28618,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-03,Sudan,140227,0
 2021-05-03,Suriname,39953,0
 2021-05-03,Sweden,2774132,788666
-2021-05-03,Switzerland,1914881,996270
+2021-05-03,Switzerland,1914935,996325
 2021-05-03,Syria,2500,0
 2021-05-03,Taiwan,62437,0
 2021-05-03,Tajikistan,0,0
@@ -28804,7 +28804,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-04,Sudan,140227,0
 2021-05-04,Suriname,41205,82
 2021-05-04,Sweden,2774132,788666
-2021-05-04,Switzerland,1970314,1017750
+2021-05-04,Switzerland,1970370,1017808
 2021-05-04,Syria,2500,0
 2021-05-04,Taiwan,67931,0
 2021-05-04,Tajikistan,0,0
@@ -28990,7 +28990,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-05,Sudan,140227,0
 2021-05-05,Suriname,41205,82
 2021-05-05,Sweden,2774132,788666
-2021-05-05,Switzerland,2023302,1044324
+2021-05-05,Switzerland,2023358,1044386
 2021-05-05,Syria,2500,0
 2021-05-05,Taiwan,73988,0
 2021-05-05,Tajikistan,0,0
@@ -29176,7 +29176,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-06,Sudan,140227,0
 2021-05-06,Suriname,41205,82
 2021-05-06,Sweden,2774132,788666
-2021-05-06,Switzerland,2083186,1075805
+2021-05-06,Switzerland,2083242,1075866
 2021-05-06,Syria,2500,0
 2021-05-06,Taiwan,80861,0
 2021-05-06,Tajikistan,0,0
@@ -29362,7 +29362,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-07,Sudan,140227,0
 2021-05-07,Suriname,43636,252
 2021-05-07,Sweden,2774132,788666
-2021-05-07,Switzerland,2139465,1106338
+2021-05-07,Switzerland,2139521,1106400
 2021-05-07,Syria,2500,0
 2021-05-07,Taiwan,91002,0
 2021-05-07,Tajikistan,69229,0
@@ -29548,7 +29548,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-08,Sudan,140227,0
 2021-05-08,Suriname,44918,502
 2021-05-08,Sweden,2774132,788666
-2021-05-08,Switzerland,2169727,1116969
+2021-05-08,Switzerland,2169783,1117031
 2021-05-08,Syria,2500,0
 2021-05-08,Taiwan,91002,0
 2021-05-08,Tajikistan,69229,0
@@ -29734,7 +29734,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-09,Sudan,140227,0
 2021-05-09,Suriname,44918,502
 2021-05-09,Sweden,3116956,902869
-2021-05-09,Switzerland,2182722,1120347
+2021-05-09,Switzerland,2182778,1120409
 2021-05-09,Syria,2500,0
 2021-05-09,Taiwan,92049,0
 2021-05-09,Tajikistan,70517,0
@@ -29920,7 +29920,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-10,Sudan,140227,0
 2021-05-10,Suriname,44918,502
 2021-05-10,Sweden,3116956,902869
-2021-05-10,Switzerland,2230246,1154345
+2021-05-10,Switzerland,2230303,1154407
 2021-05-10,Syria,2500,0
 2021-05-10,Taiwan,92049,0
 2021-05-10,Tajikistan,70517,0
@@ -30106,7 +30106,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-11,Sudan,140227,0
 2021-05-11,Suriname,47453,732
 2021-05-11,Sweden,3116956,902869
-2021-05-11,Switzerland,2286507,1194919
+2021-05-11,Switzerland,2286567,1194981
 2021-05-11,Syria,2500,0
 2021-05-11,Taiwan,112543,0
 2021-05-11,Tajikistan,70517,0
@@ -30292,7 +30292,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-12,Sudan,140227,0
 2021-05-12,Suriname,47453,732
 2021-05-12,Sweden,3116956,902869
-2021-05-12,Switzerland,2342391,1237765
+2021-05-12,Switzerland,2342451,1237831
 2021-05-12,Syria,2500,0
 2021-05-12,Taiwan,129669,0
 2021-05-12,Tajikistan,70517,0
@@ -30478,7 +30478,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-13,Sudan,140227,0
 2021-05-13,Suriname,48904,998
 2021-05-13,Sweden,3116956,902869
-2021-05-13,Switzerland,2373180,1253441
+2021-05-13,Switzerland,2373240,1253507
 2021-05-13,Syria,2500,0
 2021-05-13,Taiwan,151997,0
 2021-05-13,Tajikistan,70517,0
@@ -30664,7 +30664,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-14,Sudan,140227,0
 2021-05-14,Suriname,48904,998
 2021-05-14,Sweden,3116956,902869
-2021-05-14,Switzerland,2419206,1290040
+2021-05-14,Switzerland,2419266,1290106
 2021-05-14,Syria,2500,0
 2021-05-14,Taiwan,186149,0
 2021-05-14,Tajikistan,70517,0
@@ -30850,7 +30850,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-15,Sudan,140227,0
 2021-05-15,Suriname,49961,1612
 2021-05-15,Sweden,3116956,902869
-2021-05-15,Switzerland,2450847,1303182
+2021-05-15,Switzerland,2450907,1303248
 2021-05-15,Syria,2500,0
 2021-05-15,Taiwan,186149,0
 2021-05-15,Tajikistan,70517,0
@@ -31036,7 +31036,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-16,Sudan,140227,0
 2021-05-16,Suriname,49961,1612
 2021-05-16,Sweden,3395631,1049055
-2021-05-16,Switzerland,2465969,1307557
+2021-05-16,Switzerland,2466029,1307623
 2021-05-16,Syria,2500,0
 2021-05-16,Taiwan,194678,0
 2021-05-16,Tajikistan,72347,0
@@ -31222,7 +31222,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-17,Sudan,140227,0
 2021-05-17,Suriname,52109,2053
 2021-05-17,Sweden,3395631,1049055
-2021-05-17,Switzerland,2509485,1349181
+2021-05-17,Switzerland,2509546,1349246
 2021-05-17,Syria,2500,0
 2021-05-17,Taiwan,220352,0
 2021-05-17,Tajikistan,72347,0
@@ -31408,7 +31408,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-18,Sudan,140227,0
 2021-05-18,Suriname,52109,2053
 2021-05-18,Sweden,3395631,1049055
-2021-05-18,Switzerland,2563080,1397328
+2021-05-18,Switzerland,2563142,1397393
 2021-05-18,Syria,2500,0
 2021-05-18,Taiwan,245008,0
 2021-05-18,Tajikistan,72347,0
@@ -31594,7 +31594,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-19,Sudan,140227,0
 2021-05-19,Suriname,54837,2525
 2021-05-19,Sweden,3395631,1049055
-2021-05-19,Switzerland,2620312,1444079
+2021-05-19,Switzerland,2620374,1444144
 2021-05-19,Syria,2500,0
 2021-05-19,Taiwan,264589,0
 2021-05-19,Tajikistan,72347,0
@@ -31780,7 +31780,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-20,Sudan,140227,0
 2021-05-20,Suriname,60319,4474
 2021-05-20,Sweden,3395631,1049055
-2021-05-20,Switzerland,2679194,1496185
+2021-05-20,Switzerland,2679256,1496250
 2021-05-20,Syria,2500,0
 2021-05-20,Taiwan,281647,0
 2021-05-20,Tajikistan,72347,0
@@ -31966,7 +31966,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-21,Sudan,140227,0
 2021-05-21,Suriname,62862,5439
 2021-05-21,Sweden,3395631,1049055
-2021-05-21,Switzerland,2736338,1542446
+2021-05-21,Switzerland,2736400,1542511
 2021-05-21,Syria,2500,0
 2021-05-21,Taiwan,299844,0
 2021-05-21,Tajikistan,72347,0
@@ -32152,7 +32152,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-22,Sudan,140227,0
 2021-05-22,Suriname,62862,5439
 2021-05-22,Sweden,3395631,1049055
-2021-05-22,Switzerland,2767778,1559376
+2021-05-22,Switzerland,2767840,1559440
 2021-05-22,Syria,2500,0
 2021-05-22,Taiwan,299844,0
 2021-05-22,Tajikistan,72347,0
@@ -32338,7 +32338,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-23,Sudan,140227,0
 2021-05-23,Suriname,64866,9254
 2021-05-23,Sweden,3646062,1250993
-2021-05-23,Switzerland,2780876,1565482
+2021-05-23,Switzerland,2780938,1565546
 2021-05-23,Syria,2500,0
 2021-05-23,Taiwan,302698,0
 2021-05-23,Tajikistan,74403,0
@@ -32524,7 +32524,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-24,Sudan,140227,0
 2021-05-24,Suriname,64866,9254
 2021-05-24,Sweden,3646062,1250993
-2021-05-24,Switzerland,2812311,1585132
+2021-05-24,Switzerland,2812373,1585196
 2021-05-24,Syria,2500,0
 2021-05-24,Taiwan,311678,0
 2021-05-24,Tajikistan,74403,0
@@ -32710,7 +32710,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-25,Sudan,140227,0
 2021-05-25,Suriname,65675,10787
 2021-05-25,Sweden,3646062,1250993
-2021-05-25,Switzerland,2862849,1637640
+2021-05-25,Switzerland,2862911,1637704
 2021-05-25,Syria,2500,0
 2021-05-25,Taiwan,319665,0
 2021-05-25,Tajikistan,74403,0
@@ -32896,7 +32896,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-26,Sudan,140227,0
 2021-05-26,Suriname,66623,11919
 2021-05-26,Sweden,3646062,1250993
-2021-05-26,Switzerland,2917924,1691016
+2021-05-26,Switzerland,2917987,1691082
 2021-05-26,Syria,2500,0
 2021-05-26,Taiwan,319665,0
 2021-05-26,Tajikistan,74403,0
@@ -33082,7 +33082,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-27,Sudan,140227,0
 2021-05-27,Suriname,66623,11919
 2021-05-27,Sweden,3646062,1250993
-2021-05-27,Switzerland,2975448,1743128
+2021-05-27,Switzerland,2975511,1743194
 2021-05-27,Syria,24781,0
 2021-05-27,Taiwan,319665,0
 2021-05-27,Tajikistan,74403,0
@@ -33268,7 +33268,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-28,Sudan,140227,0
 2021-05-28,Suriname,67472,13244
 2021-05-28,Sweden,3646062,1250993
-2021-05-28,Switzerland,3028547,1797129
+2021-05-28,Switzerland,3028610,1797198
 2021-05-28,Syria,24781,0
 2021-05-28,Taiwan,319665,0
 2021-05-28,Tajikistan,74403,0
@@ -33454,7 +33454,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-29,Sudan,140227,0
 2021-05-29,Suriname,68441,14502
 2021-05-29,Sweden,3646062,1250993
-2021-05-29,Switzerland,3057413,1823439
+2021-05-29,Switzerland,3057476,1823508
 2021-05-29,Syria,24781,0
 2021-05-29,Taiwan,319665,0
 2021-05-29,Tajikistan,74403,0
@@ -33640,7 +33640,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-30,Sudan,320305,37931
 2021-05-30,Suriname,68441,14502
 2021-05-30,Sweden,3842534,1537581
-2021-05-30,Switzerland,3071509,1834416
+2021-05-30,Switzerland,3071572,1834485
 2021-05-30,Syria,24781,0
 2021-05-30,Taiwan,319665,0
 2021-05-30,Tajikistan,79376,12399
@@ -33826,7 +33826,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-31,Sudan,320305,37931
 2021-05-31,Suriname,68441,14502
 2021-05-31,Sweden,3842534,1537581
-2021-05-31,Switzerland,3116816,1883818
+2021-05-31,Switzerland,3116879,1883886
 2021-05-31,Syria,24781,0
 2021-05-31,Taiwan,319665,0
 2021-05-31,Tajikistan,79376,12399
@@ -34012,7 +34012,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-01,Sudan,320305,37931
 2021-06-01,Suriname,69226,15948
 2021-06-01,Sweden,3842534,1537581
-2021-06-01,Switzerland,3172924,1938032
+2021-06-01,Switzerland,3172987,1938101
 2021-06-01,Syria,24781,0
 2021-06-01,Taiwan,319665,0
 2021-06-01,Tajikistan,79376,12399
@@ -34198,7 +34198,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-02,Sudan,360721,41393
 2021-06-02,Suriname,70336,17172
 2021-06-02,Sweden,3842534,1537581
-2021-06-02,Switzerland,3232623,1992834
+2021-06-02,Switzerland,3232687,1992905
 2021-06-02,Syria,24781,0
 2021-06-02,Taiwan,562029,0
 2021-06-02,Tajikistan,79376,12399
@@ -34384,7 +34384,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-03,Sudan,360721,41393
 2021-06-03,Suriname,71396,18656
 2021-06-03,Sweden,3842534,1537581
-2021-06-03,Switzerland,3288674,2042042
+2021-06-03,Switzerland,3288740,2042114
 2021-06-03,Syria,24781,0
 2021-06-03,Taiwan,624132,0
 2021-06-03,Tajikistan,79376,12399
@@ -34570,7 +34570,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-04,Sudan,360721,41393
 2021-06-04,Suriname,71396,18656
 2021-06-04,Sweden,3842534,1537581
-2021-06-04,Switzerland,3345597,2098216
+2021-06-04,Switzerland,3345663,2098289
 2021-06-04,Syria,24781,0
 2021-06-04,Taiwan,678418,0
 2021-06-04,Tajikistan,79376,12399
@@ -34756,7 +34756,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-05,Sudan,360721,41393
 2021-06-05,Suriname,75013,21155
 2021-06-05,Sweden,3842534,1537581
-2021-06-05,Switzerland,3390373,2128364
+2021-06-05,Switzerland,3390439,2128437
 2021-06-05,Syria,24781,0
 2021-06-05,Taiwan,678418,0
 2021-06-05,Tajikistan,79376,12399
@@ -34942,7 +34942,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-06,Sudan,360721,41393
 2021-06-06,Suriname,80816,21256
 2021-06-06,Sweden,4059371,1903959
-2021-06-06,Switzerland,3406394,2140591
+2021-06-06,Switzerland,3406460,2140664
 2021-06-06,Syria,71519,0
 2021-06-06,Taiwan,699187,0
 2021-06-06,Tajikistan,83743,13547
@@ -35128,7 +35128,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-07,Sudan,404397,60800
 2021-06-07,Suriname,86640,21436
 2021-06-07,Sweden,4059371,1903959
-2021-06-07,Switzerland,3460094,2190426
+2021-06-07,Switzerland,3460160,2190499
 2021-06-07,Syria,71519,0
 2021-06-07,Taiwan,724819,0
 2021-06-07,Tajikistan,83743,13547
@@ -35314,7 +35314,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-08,Sudan,417209,66311
 2021-06-08,Suriname,88708,21658
 2021-06-08,Sweden,4059371,1903959
-2021-06-08,Switzerland,3517300,2247378
+2021-06-08,Switzerland,3517367,2247455
 2021-06-08,Syria,71519,0
 2021-06-08,Taiwan,743578,0
 2021-06-08,Tajikistan,83743,13547
@@ -35500,7 +35500,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-09,Sudan,417209,66311
 2021-06-09,Suriname,90029,22171
 2021-06-09,Sweden,4059371,1903959
-2021-06-09,Switzerland,3577654,2302018
+2021-06-09,Switzerland,3577721,2302096
 2021-06-09,Syria,71519,0
 2021-06-09,Taiwan,759746,0
 2021-06-09,Tajikistan,83743,13547
@@ -35686,7 +35686,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-10,Sudan,417209,66311
 2021-06-10,Suriname,90029,22171
 2021-06-10,Sweden,4059371,1903959
-2021-06-10,Switzerland,3641468,2346414
+2021-06-10,Switzerland,3641536,2346494
 2021-06-10,Syria,71519,0
 2021-06-10,Taiwan,782300,0
 2021-06-10,Tajikistan,83743,13547
@@ -35872,7 +35872,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-11,Sudan,417209,66311
 2021-06-11,Suriname,90029,22171
 2021-06-11,Sweden,4059371,1903959
-2021-06-11,Switzerland,3702922,2395732
+2021-06-11,Switzerland,3702990,2395812
 2021-06-11,Syria,71519,0
 2021-06-11,Taiwan,799129,0
 2021-06-11,Tajikistan,83743,13547
@@ -36058,7 +36058,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-12,Sudan,417209,66311
 2021-06-12,Suriname,101781,25297
 2021-06-12,Sweden,4059371,1903959
-2021-06-12,Switzerland,3745578,2425945
+2021-06-12,Switzerland,3745646,2426024
 2021-06-12,Syria,71519,0
 2021-06-12,Taiwan,799129,0
 2021-06-12,Tajikistan,83743,13547
@@ -36244,7 +36244,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-13,Sudan,417209,66311
 2021-06-13,Suriname,110920,25933
 2021-06-13,Sweden,4329017,2311921
-2021-06-13,Switzerland,3757683,2441218
+2021-06-13,Switzerland,3757751,2441297
 2021-06-13,Syria,71519,0
 2021-06-13,Taiwan,799129,0
 2021-06-13,Tajikistan,89121,13590
@@ -36430,7 +36430,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-14,Sudan,453690,86153
 2021-06-14,Suriname,118124,26291
 2021-06-14,Sweden,4329017,2311921
-2021-06-14,Switzerland,3813048,2486390
+2021-06-14,Switzerland,3813116,2486469
 2021-06-14,Syria,71519,0
 2021-06-14,Taiwan,855125,0
 2021-06-14,Tajikistan,89121,13590
@@ -36616,7 +36616,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-15,Sudan,453690,86153
 2021-06-15,Suriname,119956,26529
 2021-06-15,Sweden,4329017,2311921
-2021-06-15,Switzerland,3867247,2539332
+2021-06-15,Switzerland,3867316,2539412
 2021-06-15,Syria,71519,0
 2021-06-15,Taiwan,985084,24076
 2021-06-15,Tajikistan,89121,13590
@@ -36802,7 +36802,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-16,Sudan,453690,86153
 2021-06-16,Suriname,127363,28306
 2021-06-16,Sweden,4329017,2311921
-2021-06-16,Switzerland,3918745,2593578
+2021-06-16,Switzerland,3918814,2593658
 2021-06-16,Syria,71519,0
 2021-06-16,Taiwan,985084,24076
 2021-06-16,Tajikistan,89121,13590
@@ -36988,7 +36988,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-17,Sudan,453690,86153
 2021-06-17,Suriname,127363,28306
 2021-06-17,Sweden,4329017,2311921
-2021-06-17,Switzerland,3970191,2651287
+2021-06-17,Switzerland,3970260,2651367
 2021-06-17,Syria,71519,0
 2021-06-17,Taiwan,985084,24076
 2021-06-17,Tajikistan,89121,13590
@@ -37174,7 +37174,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-18,Sudan,453690,86153
 2021-06-18,Suriname,135354,30431
 2021-06-18,Sweden,4329017,2311921
-2021-06-18,Switzerland,4018490,2708499
+2021-06-18,Switzerland,4018560,2708578
 2021-06-18,Syria,71519,0
 2021-06-18,Taiwan,985084,24076
 2021-06-18,Tajikistan,89121,13590
@@ -37360,7 +37360,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-19,Sudan,453690,86153
 2021-06-19,Suriname,135354,30431
 2021-06-19,Sweden,4329017,2311921
-2021-06-19,Switzerland,4053316,2738755
+2021-06-19,Switzerland,4053387,2738834
 2021-06-19,Syria,71519,0
 2021-06-19,Taiwan,985084,24076
 2021-06-19,Tajikistan,89121,13590
@@ -37546,7 +37546,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-20,Sudan,520928,108764
 2021-06-20,Suriname,144662,31032
 2021-06-20,Sweden,4629084,2779124
-2021-06-20,Switzerland,4063149,2750805
+2021-06-20,Switzerland,4063220,2750884
 2021-06-20,Syria,71519,0
 2021-06-20,Taiwan,985084,24076
 2021-06-20,Tajikistan,116341,15734
@@ -37732,7 +37732,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-21,Sudan,520928,108764
 2021-06-21,Suriname,145832,31396
 2021-06-21,Sweden,4629084,2779124
-2021-06-21,Switzerland,4109961,2795819
+2021-06-21,Switzerland,4110034,2795898
 2021-06-21,Syria,102319,5957
 2021-06-21,Taiwan,1587581,28803
 2021-06-21,Tajikistan,116341,15734
@@ -37918,7 +37918,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-22,Sudan,520928,108764
 2021-06-22,Suriname,145832,31396
 2021-06-22,Sweden,4629084,2779124
-2021-06-22,Switzerland,4151998,2848873
+2021-06-22,Switzerland,4152073,2848953
 2021-06-22,Syria,102319,5957
 2021-06-22,Taiwan,1652232,29704
 2021-06-22,Tajikistan,116341,15734
@@ -38104,7 +38104,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-23,Sudan,520928,108764
 2021-06-23,Suriname,149697,32634
 2021-06-23,Sweden,4629084,2779124
-2021-06-23,Switzerland,4190843,2902472
+2021-06-23,Switzerland,4190930,2902551
 2021-06-23,Syria,102319,5957
 2021-06-23,Taiwan,1714268,31862
 2021-06-23,Tajikistan,116341,15734
@@ -38290,7 +38290,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-24,Sudan,520928,108764
 2021-06-24,Suriname,151208,33238
 2021-06-24,Sweden,4629084,2779124
-2021-06-24,Switzerland,4226276,2958036
+2021-06-24,Switzerland,4226363,2958116
 2021-06-24,Syria,102319,5957
 2021-06-24,Taiwan,1801743,33482
 2021-06-24,Tajikistan,116341,15734
@@ -38476,7 +38476,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-25,Sudan,520928,108764
 2021-06-25,Suriname,153121,34185
 2021-06-25,Sweden,4629084,2779124
-2021-06-25,Switzerland,4262695,3011951
+2021-06-25,Switzerland,4262782,3012031
 2021-06-25,Syria,102319,5957
 2021-06-25,Taiwan,1869105,36369
 2021-06-25,Tajikistan,116341,15734
@@ -38662,7 +38662,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-26,Sudan,520928,108764
 2021-06-26,Suriname,153121,34185
 2021-06-26,Sweden,4629084,2779124
-2021-06-26,Switzerland,4287492,3040337
+2021-06-26,Switzerland,4287579,3040418
 2021-06-26,Syria,102319,5957
 2021-06-26,Taiwan,1869105,36369
 2021-06-26,Tajikistan,116341,15734
@@ -38848,7 +38848,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-27,Sudan,520928,108764
 2021-06-27,Suriname,157459,34504
 2021-06-27,Sweden,4917651,3125076
-2021-06-27,Switzerland,4292624,3054172
+2021-06-27,Switzerland,4292711,3054253
 2021-06-27,Syria,102319,5957
 2021-06-27,Taiwan,1890292,36681
 2021-06-27,Tajikistan,205619,18029
@@ -39034,7 +39034,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-28,Sudan,550291,121132
 2021-06-28,Suriname,157982,34993
 2021-06-28,Sweden,4917651,3125076
-2021-06-28,Switzerland,4318391,3104963
+2021-06-28,Switzerland,4318479,3105044
 2021-06-28,Syria,102319,5957
 2021-06-28,Taiwan,1926572,38020
 2021-06-28,Tajikistan,205619,18029
@@ -39220,7 +39220,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-29,Sudan,554095,123862
 2021-06-29,Suriname,157982,34993
 2021-06-29,Sweden,4917651,3125076
-2021-06-29,Switzerland,4343131,3161056
+2021-06-29,Switzerland,4343220,3161138
 2021-06-29,Syria,102319,5957
 2021-06-29,Taiwan,1962990,39687
 2021-06-29,Tajikistan,205619,18029
@@ -39406,7 +39406,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-30,Sudan,554095,123862
 2021-06-30,Suriname,160268,35926
 2021-06-30,Sweden,4917651,3125076
-2021-06-30,Switzerland,4366101,3222262
+2021-06-30,Switzerland,4366201,3222346
 2021-06-30,Syria,102319,5957
 2021-06-30,Taiwan,2001418,41800
 2021-06-30,Tajikistan,205619,18029
@@ -39592,7 +39592,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-01,Sudan,554095,123862
 2021-07-01,Suriname,161525,36198
 2021-07-01,Sweden,4917651,3125076
-2021-07-01,Switzerland,4385973,3276414
+2021-07-01,Switzerland,4386074,3276501
 2021-07-01,Syria,102319,5957
 2021-07-01,Taiwan,2044241,43346
 2021-07-01,Tajikistan,205619,18029
@@ -39778,7 +39778,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-02,Sudan,554095,123862
 2021-07-02,Suriname,162516,36955
 2021-07-02,Sweden,4917651,3125076
-2021-07-02,Switzerland,4406120,3331816
+2021-07-02,Switzerland,4406222,3331903
 2021-07-02,Syria,102319,5957
 2021-07-02,Taiwan,2232145,46193
 2021-07-02,Tajikistan,280000,18578
@@ -39964,7 +39964,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-03,Sudan,554095,123862
 2021-07-03,Suriname,162516,36955
 2021-07-03,Sweden,4917651,3125076
-2021-07-03,Switzerland,4416375,3369671
+2021-07-03,Switzerland,4416477,3369758
 2021-07-03,Syria,102319,5957
 2021-07-03,Taiwan,2232145,46193
 2021-07-03,Tajikistan,280000,18578
@@ -40150,7 +40150,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-04,Sudan,554095,123862
 2021-07-04,Suriname,164396,37414
 2021-07-04,Sweden,5326765,3446084
-2021-07-04,Switzerland,4419075,3382116
+2021-07-04,Switzerland,4419177,3382203
 2021-07-04,Syria,102319,5957
 2021-07-04,Taiwan,2472399,46461
 2021-07-04,Tajikistan,304039,18868
@@ -40336,7 +40336,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-05,Sudan,554095,123862
 2021-07-05,Suriname,164903,37861
 2021-07-05,Sweden,5326765,3446084
-2021-07-05,Switzerland,4434730,3438919
+2021-07-05,Switzerland,4434833,3439006
 2021-07-05,Syria,102319,5957
 2021-07-05,Taiwan,2581047,47742
 2021-07-05,Tajikistan,304039,18868
@@ -40522,7 +40522,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-06,Sudan,554095,123862
 2021-07-06,Suriname,165456,38507
 2021-07-06,Sweden,5326765,3446084
-2021-07-06,Switzerland,4453107,3494705
+2021-07-06,Switzerland,4453211,3494793
 2021-07-06,Syria,102319,5957
 2021-07-06,Taiwan,2691066,49474
 2021-07-06,Tajikistan,328405,19000
@@ -40708,7 +40708,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-07,Sudan,554095,123862
 2021-07-07,Suriname,166063,39288
 2021-07-07,Sweden,5326765,3446084
-2021-07-07,Switzerland,4469368,3549743
+2021-07-07,Switzerland,4469472,3549831
 2021-07-07,Syria,102319,5957
 2021-07-07,Taiwan,2847653,52344
 2021-07-07,Tajikistan,339749,19136
@@ -40894,7 +40894,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-08,Sudan,554095,123862
 2021-07-08,Suriname,166063,39288
 2021-07-08,Sweden,5326765,3446084
-2021-07-08,Switzerland,4483026,3608207
+2021-07-08,Switzerland,4483130,3608296
 2021-07-08,Syria,102319,5957
 2021-07-08,Taiwan,3060361,60720
 2021-07-08,Tajikistan,339749,19136
@@ -41080,7 +41080,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-09,Sudan,554095,123862
 2021-07-09,Suriname,167560,40667
 2021-07-09,Sweden,5326765,3446084
-2021-07-09,Switzerland,4497058,3665538
+2021-07-09,Switzerland,4497162,3665628
 2021-07-09,Syria,121909,9312
 2021-07-09,Taiwan,3284679,72321
 2021-07-09,Tajikistan,361000,19940
@@ -41266,7 +41266,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-10,Sudan,554095,123862
 2021-07-10,Suriname,167560,40667
 2021-07-10,Sweden,5326765,3446084
-2021-07-10,Switzerland,4503418,3701480
+2021-07-10,Switzerland,4503522,3701570
 2021-07-10,Syria,121909,9312
 2021-07-10,Taiwan,3284679,72321
 2021-07-10,Tajikistan,361000,19940
@@ -41452,7 +41452,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-11,Sudan,554095,123862
 2021-07-11,Suriname,168570,40921
 2021-07-11,Sweden,5712439,3655976
-2021-07-11,Switzerland,4504759,3711856
+2021-07-11,Switzerland,4504863,3711946
 2021-07-11,Syria,121909,9312
 2021-07-11,Taiwan,3492257,73583
 2021-07-11,Tajikistan,377744,19950
@@ -41638,7 +41638,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-12,Sudan,554095,123862
 2021-07-12,Suriname,173978,41873
 2021-07-12,Sweden,5712439,3655976
-2021-07-12,Switzerland,4517404,3769019
+2021-07-12,Switzerland,4517508,3769109
 2021-07-12,Syria,121909,9312
 2021-07-12,Taiwan,3742680,78859
 2021-07-12,Tajikistan,377744,19950
@@ -41824,7 +41824,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-13,Sudan,554095,123862
 2021-07-13,Suriname,173978,41873
 2021-07-13,Sweden,5712439,3655976
-2021-07-13,Switzerland,4530837,3824538
+2021-07-13,Switzerland,4530941,3824628
 2021-07-13,Syria,121909,9312
 2021-07-13,Taiwan,3998233,85828
 2021-07-13,Tajikistan,377744,19950
@@ -42010,7 +42010,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-14,Sudan,554095,123862
 2021-07-14,Suriname,176325,44173
 2021-07-14,Sweden,5712439,3655976
-2021-07-14,Switzerland,4544839,3873370
+2021-07-14,Switzerland,4544943,3873460
 2021-07-14,Syria,121909,9312
 2021-07-14,Taiwan,4242075,95197
 2021-07-14,Tajikistan,377744,19950
@@ -42196,7 +42196,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-15,Sudan,554095,123862
 2021-07-15,Suriname,177146,45231
 2021-07-15,Sweden,5712439,3655976
-2021-07-15,Switzerland,4557908,3921567
+2021-07-15,Switzerland,4558012,3921657
 2021-07-15,Syria,121909,9312
 2021-07-15,Taiwan,4496176,107463
 2021-07-15,Tajikistan,377744,19950
@@ -42382,7 +42382,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-16,Sudan,554095,123862
 2021-07-16,Suriname,178317,46811
 2021-07-16,Sweden,5712439,3655976
-2021-07-16,Switzerland,4571754,3968753
+2021-07-16,Switzerland,4571861,3968844
 2021-07-16,Syria,121909,9312
 2021-07-16,Taiwan,4790949,125703
 2021-07-16,Tajikistan,421832,20190
@@ -42568,7 +42568,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-17,Sudan,554095,123862
 2021-07-17,Suriname,179523,47192
 2021-07-17,Sweden,5712439,3655976
-2021-07-17,Switzerland,4577461,3996129
+2021-07-17,Switzerland,4577568,3996220
 2021-07-17,Syria,121909,9312
 2021-07-17,Taiwan,4790949,125703
 2021-07-17,Tajikistan,421832,20190
@@ -42754,7 +42754,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-18,Sudan,627833,182727
 2021-07-18,Suriname,180541,47578
 2021-07-18,Sweden,6060666,3814659
-2021-07-18,Switzerland,4578228,4003182
+2021-07-18,Switzerland,4578335,4003273
 2021-07-18,Syria,121909,9312
 2021-07-18,Taiwan,5064007,130100
 2021-07-18,Tajikistan,431058,21034
@@ -42940,7 +42940,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-19,Sudan,627833,182727
 2021-07-19,Suriname,180632,48419
 2021-07-19,Sweden,6060666,3814659
-2021-07-19,Switzerland,4590252,4055180
+2021-07-19,Switzerland,4590360,4055271
 2021-07-19,Syria,121909,9312
 2021-07-19,Taiwan,5279558,140430
 2021-07-19,Tajikistan,431058,21034
@@ -43126,7 +43126,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-20,Sudan,627833,182727
 2021-07-20,Suriname,181365,48770
 2021-07-20,Sweden,6060666,3814659
-2021-07-20,Switzerland,4603036,4098108
+2021-07-20,Switzerland,4603144,4098200
 2021-07-20,Syria,121909,9312
 2021-07-20,Taiwan,5520060,154493
 2021-07-20,Tajikistan,431058,21034
@@ -43312,7 +43312,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-21,Sudan,627833,182727
 2021-07-21,Suriname,181869,49578
 2021-07-21,Sweden,6060666,3814659
-2021-07-21,Switzerland,4616366,4134708
+2021-07-21,Switzerland,4616475,4134811
 2021-07-21,Syria,121909,9312
 2021-07-21,Taiwan,5718272,176228
 2021-07-21,Tajikistan,447114,22242
@@ -43498,7 +43498,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-22,Sudan,627833,182727
 2021-07-22,Suriname,182342,50324
 2021-07-22,Sweden,6060666,3814659
-2021-07-22,Switzerland,4628024,4168490
+2021-07-22,Switzerland,4628133,4168594
 2021-07-22,Syria,121909,9312
 2021-07-22,Taiwan,5858787,200809
 2021-07-22,Tajikistan,447114,22242
@@ -43684,7 +43684,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-23,Sudan,627833,182727
 2021-07-23,Suriname,182951,51589
 2021-07-23,Sweden,6060666,3814659
-2021-07-23,Switzerland,4641561,4203934
+2021-07-23,Switzerland,4641670,4204039
 2021-07-23,Syria,121909,9312
 2021-07-23,Taiwan,6117598,229467
 2021-07-23,Tajikistan,447114,22242
@@ -43870,7 +43870,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-24,Sudan,627833,182727
 2021-07-24,Suriname,183522,52014
 2021-07-24,Sweden,6060666,3814659
-2021-07-24,Switzerland,4647086,4224204
+2021-07-24,Switzerland,4647195,4224309
 2021-07-24,Syria,121909,9312
 2021-07-24,Taiwan,6117598,229467
 2021-07-24,Tajikistan,447114,22242
@@ -44056,7 +44056,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-25,Sudan,627833,182727
 2021-07-25,Suriname,183785,52370
 2021-07-25,Sweden,6298557,4019319
-2021-07-25,Switzerland,4647893,4228261
+2021-07-25,Switzerland,4648002,4228366
 2021-07-25,Syria,121909,9312
 2021-07-25,Taiwan,6433287,240842
 2021-07-25,Tajikistan,462542,29524
@@ -44242,7 +44242,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-26,Sudan,627833,182727
 2021-07-26,Suriname,184064,53111
 2021-07-26,Sweden,6298557,4019319
-2021-07-26,Switzerland,4661431,4258422
+2021-07-26,Switzerland,4661540,4258528
 2021-07-26,Syria,121909,9312
 2021-07-26,Taiwan,6751025,262105
 2021-07-26,Tajikistan,462542,29524
@@ -44428,7 +44428,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-27,Sudan,627833,182727
 2021-07-27,Suriname,185077,54494
 2021-07-27,Sweden,6298557,4019319
-2021-07-27,Switzerland,4672962,4283056
+2021-07-27,Switzerland,4673071,4283162
 2021-07-27,Syria,121909,9312
 2021-07-27,Taiwan,7030253,288033
 2021-07-27,Tajikistan,462542,29524
@@ -44614,7 +44614,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-28,Sudan,627833,182727
 2021-07-28,Suriname,185653,55782
 2021-07-28,Sweden,6298557,4019319
-2021-07-28,Switzerland,4684853,4303553
+2021-07-28,Switzerland,4684963,4303661
 2021-07-28,Syria,121909,9312
 2021-07-28,Taiwan,7273091,315601
 2021-07-28,Tajikistan,524472,40450
@@ -44800,7 +44800,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-29,Sudan,627833,182727
 2021-07-29,Suriname,186012,56684
 2021-07-29,Sweden,6298557,4019319
-2021-07-29,Switzerland,4696061,4323796
+2021-07-29,Switzerland,4696172,4323906
 2021-07-29,Syria,121909,9312
 2021-07-29,Taiwan,7484172,342800
 2021-07-29,Tajikistan,524472,40450
@@ -44986,7 +44986,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-30,Sudan,627833,182727
 2021-07-30,Suriname,186297,58081
 2021-07-30,Sweden,6298557,4019319
-2021-07-30,Switzerland,4708764,4343898
+2021-07-30,Switzerland,4708875,4344008
 2021-07-30,Syria,121909,9312
 2021-07-30,Taiwan,7707830,381041
 2021-07-30,Tajikistan,524472,40450
@@ -45172,7 +45172,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-31,Sudan,627833,182727
 2021-07-31,Suriname,186297,58081
 2021-07-31,Sweden,6298557,4019319
-2021-07-31,Switzerland,4713269,4351094
+2021-07-31,Switzerland,4713380,4351204
 2021-07-31,Syria,121909,9312
 2021-07-31,Taiwan,7707830,381041
 2021-07-31,Tajikistan,524472,40450
@@ -45358,7 +45358,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-01,Sudan,636308,182727
 2021-08-01,Suriname,187094,59688
 2021-08-01,Sweden,6439092,4276991
-2021-08-01,Switzerland,4713599,4352232
+2021-08-01,Switzerland,4713710,4352342
 2021-08-01,Syria,121909,9312
 2021-08-01,Taiwan,7881726,388487
 2021-08-01,Tajikistan,750514,56301
@@ -45544,7 +45544,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-02,Sudan,636308,182727
 2021-08-02,Suriname,187405,61213
 2021-08-02,Sweden,6439092,4276991
-2021-08-02,Switzerland,4721426,4366600
+2021-08-02,Switzerland,4721537,4366711
 2021-08-02,Syria,121909,9312
 2021-08-02,Taiwan,8001300,403785
 2021-08-02,Tajikistan,750514,56301
@@ -45730,7 +45730,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-03,Sudan,636308,182727
 2021-08-03,Suriname,187887,63218
 2021-08-03,Sweden,6439092,4276991
-2021-08-03,Switzerland,4730454,4384539
+2021-08-03,Switzerland,4730565,4384651
 2021-08-03,Syria,121909,9312
 2021-08-03,Taiwan,8083073,418064
 2021-08-03,Tajikistan,750514,56301
@@ -45916,7 +45916,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-04,Sudan,636308,182727
 2021-08-04,Suriname,188207,65180
 2021-08-04,Sweden,6439092,4276991
-2021-08-04,Switzerland,4740991,4398787
+2021-08-04,Switzerland,4741102,4398899
 2021-08-04,Syria,121909,9312
 2021-08-04,Taiwan,8170117,437270
 2021-08-04,Tajikistan,1013808,80250
@@ -46102,7 +46102,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-05,Sudan,636308,182727
 2021-08-05,Suriname,188595,66617
 2021-08-05,Sweden,6439092,4276991
-2021-08-05,Switzerland,4751364,4414391
+2021-08-05,Switzerland,4751475,4414503
 2021-08-05,Syria,121909,9312
 2021-08-05,Taiwan,8418179,456869
 2021-08-05,Tajikistan,1013808,80250
@@ -46288,7 +46288,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-06,Sudan,636308,182727
 2021-08-06,Suriname,188685,66711
 2021-08-06,Sweden,6439092,4276991
-2021-08-06,Switzerland,4762957,4431607
+2021-08-06,Switzerland,4763069,4431719
 2021-08-06,Syria,121909,9312
 2021-08-06,Taiwan,8661701,492800
 2021-08-06,Tajikistan,1013808,80250
@@ -46474,7 +46474,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-07,Sudan,636308,182727
 2021-08-07,Suriname,189261,68598
 2021-08-07,Sweden,6439092,4276991
-2021-08-07,Switzerland,4767123,4436916
+2021-08-07,Switzerland,4767235,4437028
 2021-08-07,Syria,121909,9312
 2021-08-07,Taiwan,8661701,492800
 2021-08-07,Tajikistan,1013808,80250
@@ -46660,7 +46660,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-08,Sudan,636308,182727
 2021-08-08,Suriname,190027,71371
 2021-08-08,Sweden,6550639,4568692
-2021-08-08,Switzerland,4767359,4437542
+2021-08-08,Switzerland,4767471,4437654
 2021-08-08,Syria,121909,9312
 2021-08-08,Taiwan,8679320,500977
 2021-08-08,Tajikistan,1013808,80250
@@ -46846,7 +46846,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-09,Sudan,641154,182727
 2021-08-09,Suriname,190398,73425
 2021-08-09,Sweden,6550639,4568692
-2021-08-09,Switzerland,4776709,4450663
+2021-08-09,Switzerland,4776821,4450775
 2021-08-09,Syria,121909,9312
 2021-08-09,Taiwan,8709234,519029
 2021-08-09,Tajikistan,1013808,80250
@@ -47032,7 +47032,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-10,Sudan,641154,182727
 2021-08-10,Suriname,190989,74170
 2021-08-10,Sweden,6550639,4568692
-2021-08-10,Switzerland,4786670,4463860
+2021-08-10,Switzerland,4786782,4463971
 2021-08-10,Syria,121909,9312
 2021-08-10,Taiwan,8725490,540268
 2021-08-10,Tajikistan,1013808,80250
@@ -47218,7 +47218,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-11,Sudan,641154,182727
 2021-08-11,Suriname,191342,75327
 2021-08-11,Sweden,6550639,4568692
-2021-08-11,Switzerland,4797320,4477571
+2021-08-11,Switzerland,4797443,4477682
 2021-08-11,Syria,121909,9312
 2021-08-11,Taiwan,8867289,565947
 2021-08-11,Tajikistan,1541475,130000
@@ -47404,7 +47404,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-12,Sudan,641154,182727
 2021-08-12,Suriname,191609,76379
 2021-08-12,Sweden,6550639,4568692
-2021-08-12,Switzerland,4809964,4491652
+2021-08-12,Switzerland,4810088,4491765
 2021-08-12,Syria,121909,9312
 2021-08-12,Taiwan,9006569,596216
 2021-08-12,Tajikistan,1541475,130000
@@ -47590,7 +47590,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-13,Sudan,641154,182727
 2021-08-13,Suriname,192235,79433
 2021-08-13,Sweden,6550639,4568692
-2021-08-13,Switzerland,4823170,4506891
+2021-08-13,Switzerland,4823295,4507004
 2021-08-13,Syria,121909,9312
 2021-08-13,Taiwan,9100495,648746
 2021-08-13,Tajikistan,1541475,130000
@@ -47776,7 +47776,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-14,Sudan,641154,182727
 2021-08-14,Suriname,192963,82760
 2021-08-14,Sweden,6550639,4568692
-2021-08-14,Switzerland,4828977,4511807
+2021-08-14,Switzerland,4829102,4511920
 2021-08-14,Syria,121909,9312
 2021-08-14,Taiwan,9100495,648746
 2021-08-14,Tajikistan,1541475,130000
@@ -47962,7 +47962,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-15,Sudan,641154,182727
 2021-08-15,Suriname,193210,84873
 2021-08-15,Sweden,6686322,4903637
-2021-08-15,Switzerland,4829287,4512109
+2021-08-15,Switzerland,4829412,4512222
 2021-08-15,Syria,121909,9312
 2021-08-15,Taiwan,9162953,661884
 2021-08-15,Tajikistan,1699552,130976
@@ -48148,7 +48148,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-16,Sudan,641154,182727
 2021-08-16,Suriname,193505,86948
 2021-08-16,Sweden,6686322,4903637
-2021-08-16,Switzerland,4838927,4524707
+2021-08-16,Switzerland,4839066,4524823
 2021-08-16,Syria,121909,9312
 2021-08-16,Taiwan,9203556,683739
 2021-08-16,Tajikistan,1699552,130976
@@ -48334,7 +48334,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-17,Sudan,641154,182727
 2021-08-17,Suriname,194054,89235
 2021-08-17,Sweden,6686322,4903637
-2021-08-17,Switzerland,4850021,4537770
+2021-08-17,Switzerland,4850160,4537886
 2021-08-17,Syria,121909,9312
 2021-08-17,Taiwan,9247088,703946
 2021-08-17,Tajikistan,1755958,212000
@@ -48520,7 +48520,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-18,Sudan,641154,182727
 2021-08-18,Suriname,194371,90846
 2021-08-18,Sweden,6686322,4903637
-2021-08-18,Switzerland,4862845,4552228
+2021-08-18,Switzerland,4862984,4552346
 2021-08-18,Syria,121909,9312
 2021-08-18,Taiwan,9260988,725009
 2021-08-18,Tajikistan,1755958,212000
@@ -48706,7 +48706,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-19,Sudan,641154,182727
 2021-08-19,Suriname,194779,93451
 2021-08-19,Sweden,6686322,4903637
-2021-08-19,Switzerland,4876847,4564922
+2021-08-19,Switzerland,4876987,4565040
 2021-08-19,Syria,121909,9312
 2021-08-19,Taiwan,9269265,745301
 2021-08-19,Tajikistan,1755958,212000
@@ -48892,7 +48892,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-20,Sudan,641154,182727
 2021-08-20,Suriname,195367,97443
 2021-08-20,Sweden,6686322,4903637
-2021-08-20,Switzerland,4893346,4581190
+2021-08-20,Switzerland,4893488,4581308
 2021-08-20,Syria,121909,9312
 2021-08-20,Taiwan,9285878,771763
 2021-08-20,Tajikistan,1755958,212000
@@ -49078,7 +49078,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-21,Sudan,641154,182727
 2021-08-21,Suriname,196031,103701
 2021-08-21,Sweden,6686322,4903637
-2021-08-21,Switzerland,4900832,4586322
+2021-08-21,Switzerland,4900974,4586439
 2021-08-21,Syria,121909,9312
 2021-08-21,Taiwan,9285878,771763
 2021-08-21,Tajikistan,1755958,212000
@@ -49264,7 +49264,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-22,Sudan,645926,241564
 2021-08-22,Suriname,196628,103722
 2021-08-22,Sweden,6797100,5314425
-2021-08-22,Switzerland,4901296,4586769
+2021-08-22,Switzerland,4901438,4586886
 2021-08-22,Syria,121909,9312
 2021-08-22,Taiwan,9290591,777171
 2021-08-22,Tajikistan,1755958,212000
@@ -49450,7 +49450,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-23,Sudan,645926,241564
 2021-08-23,Suriname,197438,111019
 2021-08-23,Sweden,6797100,5314425
-2021-08-23,Switzerland,4913031,4598244
+2021-08-23,Switzerland,4913174,4598362
 2021-08-23,Syria,121909,9312
 2021-08-23,Taiwan,9463223,783754
 2021-08-23,Tajikistan,1891850,363895
@@ -49636,7 +49636,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-24,Sudan,645926,241564
 2021-08-24,Suriname,198011,114635
 2021-08-24,Sweden,6797100,5314425
-2021-08-24,Switzerland,4925872,4610478
+2021-08-24,Switzerland,4926019,4610598
 2021-08-24,Syria,121909,9312
 2021-08-24,Taiwan,9602065,802657
 2021-08-24,Tajikistan,1891850,363895
@@ -49822,7 +49822,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-25,Sudan,645926,241564
 2021-08-25,Suriname,198375,116588
 2021-08-25,Sweden,6797100,5314425
-2021-08-25,Switzerland,4941793,4624279
+2021-08-25,Switzerland,4941940,4624400
 2021-08-25,Syria,121909,9312
 2021-08-25,Taiwan,9678947,818212
 2021-08-25,Tajikistan,1891850,363895
@@ -50008,7 +50008,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-26,Sudan,645926,241564
 2021-08-26,Suriname,198729,121086
 2021-08-26,Sweden,6797100,5314425
-2021-08-26,Switzerland,4958986,4637363
+2021-08-26,Switzerland,4959134,4637484
 2021-08-26,Syria,121909,9312
 2021-08-26,Taiwan,9742912,843105
 2021-08-26,Tajikistan,1891850,363895
@@ -50194,7 +50194,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-27,Sudan,645926,241564
 2021-08-27,Suriname,199109,124535
 2021-08-27,Sweden,6797100,5314425
-2021-08-27,Switzerland,4979237,4652846
+2021-08-27,Switzerland,4979401,4652969
 2021-08-27,Syria,121909,9312
 2021-08-27,Taiwan,9908979,870355
 2021-08-27,Tajikistan,1891850,363895
@@ -50380,7 +50380,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-28,Sudan,645926,241564
 2021-08-28,Suriname,199496,129040
 2021-08-28,Sweden,6797100,5314425
-2021-08-28,Switzerland,4991080,4659166
+2021-08-28,Switzerland,4991250,4659290
 2021-08-28,Syria,121909,9312
 2021-08-28,Taiwan,9908979,870355
 2021-08-28,Tajikistan,1891850,363895
@@ -50566,7 +50566,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-29,Sudan,645926,241564
 2021-08-29,Suriname,201209,131819
 2021-08-29,Sweden,6887165,5699081
-2021-08-29,Switzerland,4992623,4659677
+2021-08-29,Switzerland,4992793,4659801
 2021-08-29,Syria,121909,9312
 2021-08-29,Taiwan,10005255,880910
 2021-08-29,Tajikistan,1891850,363895
@@ -50752,7 +50752,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-30,Sudan,645926,241564
 2021-08-30,Suriname,201756,133100
 2021-08-30,Sweden,6887165,5699081
-2021-08-30,Switzerland,5007355,4668497
+2021-08-30,Switzerland,5007568,4668622
 2021-08-30,Syria,201379,201379
 2021-08-30,Taiwan,10028069,900651
 2021-08-30,Tajikistan,1891850,363895
@@ -50938,7 +50938,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-31,Sudan,645926,241564
 2021-08-31,Suriname,202440,134684
 2021-08-31,Sweden,6887165,5699081
-2021-08-31,Switzerland,5022707,4678195
+2021-08-31,Switzerland,5022926,4678321
 2021-08-31,Syria,201379,201379
 2021-08-31,Taiwan,10038004,920962
 2021-08-31,Tajikistan,2009748,798308
@@ -51124,7 +51124,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-01,Sudan,645926,241564
 2021-09-01,Suriname,203156,136867
 2021-09-01,Sweden,6887165,5699081
-2021-09-01,Switzerland,5040197,4689976
+2021-09-01,Switzerland,5040425,4690103
 2021-09-01,Syria,201379,201379
 2021-09-01,Taiwan,10046132,936339
 2021-09-01,Tajikistan,2009748,798308
@@ -51310,7 +51310,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-02,Sudan,645926,241564
 2021-09-02,Suriname,203858,138909
 2021-09-02,Sweden,6887165,5699081
-2021-09-02,Switzerland,5058555,4700812
+2021-09-02,Switzerland,5058794,4700939
 2021-09-02,Syria,201379,201379
 2021-09-02,Taiwan,10051070,953170
 2021-09-02,Tajikistan,2009748,798308
@@ -51496,7 +51496,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-03,Sudan,645926,241564
 2021-09-03,Suriname,204873,140996
 2021-09-03,Sweden,6887165,5699081
-2021-09-03,Switzerland,5080006,4713412
+2021-09-03,Switzerland,5080309,4713543
 2021-09-03,Syria,201379,201379
 2021-09-03,Taiwan,10272559,971041
 2021-09-03,Tajikistan,2009748,798308
@@ -51682,7 +51682,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-04,Sudan,645926,241564
 2021-09-04,Suriname,205933,143239
 2021-09-04,Sweden,6887165,5699081
-2021-09-04,Switzerland,5091744,4719055
+2021-09-04,Switzerland,5092074,4719190
 2021-09-04,Syria,201379,201379
 2021-09-04,Taiwan,10272559,971041
 2021-09-04,Tajikistan,2009748,798308
@@ -51868,7 +51868,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-05,Sudan,645926,241564
 2021-09-05,Suriname,206440,145170
 2021-09-05,Sweden,6964357,5994421
-2021-09-05,Switzerland,5094094,4719558
+2021-09-05,Switzerland,5094452,4719693
 2021-09-05,Syria,201379,201379
 2021-09-05,Taiwan,10399097,981871
 2021-09-05,Tajikistan,2080138,981132
@@ -52054,7 +52054,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-06,Sudan,645926,241564
 2021-09-06,Suriname,207140,146506
 2021-09-06,Sweden,6964357,5994421
-2021-09-06,Switzerland,5109476,4728655
+2021-09-06,Switzerland,5109836,4728793
 2021-09-06,Syria,201379,201379
 2021-09-06,Taiwan,10468680,987679
 2021-09-06,Tajikistan,2097435,1077100
@@ -52240,7 +52240,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-07,Sudan,645926,241564
 2021-09-07,Suriname,207909,148654
 2021-09-07,Sweden,6964357,5994421
-2021-09-07,Switzerland,5125545,4738932
+2021-09-07,Switzerland,5125923,4739073
 2021-09-07,Syria,201379,201379
 2021-09-07,Taiwan,10552459,996147
 2021-09-07,Tajikistan,2097435,1077100
@@ -52426,7 +52426,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-08,Sudan,646192,339947
 2021-09-08,Suriname,209244,150407
 2021-09-08,Sweden,6964357,5994421
-2021-09-08,Switzerland,5147475,4751528
+2021-09-08,Switzerland,5147858,4751683
 2021-09-08,Syria,201379,201379
 2021-09-08,Taiwan,10652241,1008442
 2021-09-08,Tajikistan,2097435,1077100
@@ -52612,7 +52612,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-09,Sudan,646192,339947
 2021-09-09,Suriname,210235,151580
 2021-09-09,Sweden,6964357,5994421
-2021-09-09,Switzerland,5171762,4763378
+2021-09-09,Switzerland,5172152,4763539
 2021-09-09,Syria,201379,201379
 2021-09-09,Taiwan,10941158,1020520
 2021-09-09,Tajikistan,2097435,1077100
@@ -52798,7 +52798,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-10,Sudan,646192,339947
 2021-09-10,Suriname,211291,153141
 2021-09-10,Sweden,6964357,5994421
-2021-09-10,Switzerland,5201183,4780028
+2021-09-10,Switzerland,5201589,4780187
 2021-09-10,Syria,201379,201379
 2021-09-10,Taiwan,11263210,1038345
 2021-09-10,Tajikistan,2097435,1077100
@@ -52984,7 +52984,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-11,Sudan,646192,339947
 2021-09-11,Suriname,211518,153476
 2021-09-11,Sweden,6964357,5994421
-2021-09-11,Switzerland,5221824,4788520
+2021-09-11,Switzerland,5222257,4788682
 2021-09-11,Syria,201379,201379
 2021-09-11,Taiwan,11263210,1038345
 2021-09-11,Tajikistan,2097435,1077100
@@ -53170,7 +53170,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-12,Sudan,646192,339947
 2021-09-12,Suriname,212346,154459
 2021-09-12,Sweden,7031047,6211285
-2021-09-12,Switzerland,5225708,4789496
+2021-09-12,Switzerland,5226165,4789658
 2021-09-12,Syria,201379,201379
 2021-09-12,Taiwan,11416544,1046648
 2021-09-12,Tajikistan,2097435,1077100
@@ -53356,7 +53356,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-13,Sudan,646192,339947
 2021-09-13,Suriname,213095,155471
 2021-09-13,Sweden,7031047,6211285
-2021-09-13,Switzerland,5248965,4800696
+2021-09-13,Switzerland,5249426,4800869
 2021-09-13,Syria,285087,248862
 2021-09-13,Taiwan,11433445,1054651
 2021-09-13,Tajikistan,2168537,1278240
@@ -53542,7 +53542,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-14,Sudan,648840,505413
 2021-09-14,Suriname,214066,156431
 2021-09-14,Sweden,7031047,6211285
-2021-09-14,Switzerland,5273685,4813415
+2021-09-14,Switzerland,5274170,4813592
 2021-09-14,Syria,285087,248862
 2021-09-14,Taiwan,11442116,1062546
 2021-09-14,Tajikistan,2168537,1278240
@@ -53728,7 +53728,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-15,Sudan,648840,505413
 2021-09-15,Suriname,214886,157543
 2021-09-15,Sweden,7031047,6211285
-2021-09-15,Switzerland,5301913,4829292
+2021-09-15,Switzerland,5302410,4829477
 2021-09-15,Syria,285087,248862
 2021-09-15,Taiwan,11483332,1225096
 2021-09-15,Tajikistan,2168537,1278240
@@ -53914,7 +53914,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-16,Sudan,648840,505413
 2021-09-16,Suriname,216536,159506
 2021-09-16,Sweden,7031047,6211285
-2021-09-16,Switzerland,5326961,4844962
+2021-09-16,Switzerland,5327485,4845151
 2021-09-16,Syria,285087,248862
 2021-09-16,Taiwan,11536036,1402062
 2021-09-16,Tajikistan,2168537,1278240
@@ -54100,7 +54100,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-17,Sudan,648840,505413
 2021-09-17,Suriname,216889,159716
 2021-09-17,Sweden,7031047,6211285
-2021-09-17,Switzerland,5354213,4864372
+2021-09-17,Switzerland,5354768,4864567
 2021-09-17,Syria,285087,248862
 2021-09-17,Taiwan,11593038,1578805
 2021-09-17,Tajikistan,2268602,1480507
@@ -54286,7 +54286,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-18,Sudan,648840,505413
 2021-09-18,Suriname,216889,159716
 2021-09-18,Sweden,7031047,6211285
-2021-09-18,Switzerland,5369767,4874078
+2021-09-18,Switzerland,5370322,4874275
 2021-09-18,Syria,285087,248862
 2021-09-18,Taiwan,11593038,1578805
 2021-09-18,Tajikistan,2268602,1480507
@@ -54472,7 +54472,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-19,Sudan,649062,581846
 2021-09-19,Suriname,217777,160384
 2021-09-19,Sweden,7087595,6391895
-2021-09-19,Switzerland,5372819,4874862
+2021-09-19,Switzerland,5373386,4875059
 2021-09-19,Syria,285087,248862
 2021-09-19,Taiwan,11593038,1578805
 2021-09-19,Tajikistan,2268602,1480507
@@ -54658,7 +54658,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-20,Sudan,649062,581846
 2021-09-20,Suriname,217907,160664
 2021-09-20,Sweden,7087595,6391895
-2021-09-20,Switzerland,5390534,4886937
+2021-09-20,Switzerland,5391121,4887137
 2021-09-20,Syria,285087,248862
 2021-09-20,Taiwan,11593038,1578805
 2021-09-20,Tajikistan,2307140,1565281
@@ -54844,7 +54844,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-21,Sudan,649062,581846
 2021-09-21,Suriname,220181,162765
 2021-09-21,Sweden,7087595,6391895
-2021-09-21,Switzerland,5410504,4900506
+2021-09-21,Switzerland,5411095,4900715
 2021-09-21,Syria,285087,248862
 2021-09-21,Taiwan,11689760,1715597
 2021-09-21,Tajikistan,2307140,1565281
@@ -55030,7 +55030,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-22,Sudan,649062,581846
 2021-09-22,Suriname,221284,164141
 2021-09-22,Sweden,7087595,6391895
-2021-09-22,Switzerland,5430989,4916203
+2021-09-22,Switzerland,5431584,4916418
 2021-09-22,Syria,285087,248862
 2021-09-22,Taiwan,11763739,1826028
 2021-09-22,Tajikistan,2307140,1565281
@@ -55216,7 +55216,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-23,Sudan,649062,581846
 2021-09-23,Suriname,222408,165144
 2021-09-23,Sweden,7087595,6391895
-2021-09-23,Switzerland,5450138,4933029
+2021-09-23,Switzerland,5450934,4933394
 2021-09-23,Syria,285087,248862
 2021-09-23,Taiwan,11912534,1943932
 2021-09-23,Tajikistan,2307140,1565281
@@ -55402,7 +55402,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-24,Sudan,649062,581846
 2021-09-24,Suriname,223898,166783
 2021-09-24,Sweden,7123838,6481560
-2021-09-24,Switzerland,5468384,4953478
+2021-09-24,Switzerland,5469192,4954124
 2021-09-24,Syria,285087,248862
 2021-09-24,Taiwan,12075243,2067218
 2021-09-24,Tajikistan,2307140,1565281
@@ -55588,7 +55588,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-25,Sudan,649062,581846
 2021-09-25,Suriname,224646,167339
 2021-09-25,Sweden,7123838,6481560
-2021-09-25,Switzerland,5479292,4966255
+2021-09-25,Switzerland,5480112,4966916
 2021-09-25,Syria,285087,248862
 2021-09-25,Taiwan,12075243,2067218
 2021-09-25,Tajikistan,2307140,1565281
@@ -55774,7 +55774,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-26,Sudan,649062,581846
 2021-09-26,Suriname,224646,167339
 2021-09-26,Sweden,7123838,6481560
-2021-09-26,Switzerland,5481438,4967600
+2021-09-26,Switzerland,5482259,4968262
 2021-09-26,Syria,285087,248862
 2021-09-26,Taiwan,12278191,2151885
 2021-09-26,Tajikistan,2307140,1565281
@@ -55960,7 +55960,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-27,Sudan,649062,581846
 2021-09-27,Suriname,225526,168503
 2021-09-27,Sweden,7123838,6481560
-2021-09-27,Switzerland,5493233,4982715
+2021-09-27,Switzerland,5494271,4983425
 2021-09-27,Syria,285087,248862
 2021-09-27,Taiwan,12551676,2211654
 2021-09-27,Tajikistan,2398703,1740682
@@ -56146,7 +56146,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-28,Sudan,649062,581846
 2021-09-28,Suriname,226711,169519
 2021-09-28,Sweden,7141873,6536355
-2021-09-28,Switzerland,5505826,4996186
+2021-09-28,Switzerland,5507021,4996914
 2021-09-28,Syria,285087,248862
 2021-09-28,Taiwan,12812763,2278518
 2021-09-28,Tajikistan,2398703,1740682
@@ -56332,7 +56332,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-29,Sudan,649062,581846
 2021-09-29,Suriname,227418,170188
 2021-09-29,Sweden,7147833,6555719
-2021-09-29,Switzerland,5518865,5014124
+2021-09-29,Switzerland,5520118,5014870
 2021-09-29,Syria,482196,290221
 2021-09-29,Taiwan,13065648,2375773
 2021-09-29,Tajikistan,2398703,1740682
@@ -56425,7 +56425,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-30,Greece,6445666,6124452
 2021-09-30,Grenada,33132,22531
 2021-09-30,Guatemala,4522494,2455288
-2021-09-30,Guinea,1208906,564029
+2021-09-30,Guinea,1227490,578811
 2021-09-30,Guinea-Bissau,87231,7484
 2021-09-30,Guyana,357208,185972
 2021-09-30,Haiti,47010,20354
@@ -56454,7 +56454,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-30,Lesotho,324686,316384
 2021-09-30,Liberia,104545,27392
 2021-09-30,Libya,1381925,204130
-2021-09-30,Liechtenstein,24532,22920
+2021-09-30,Liechtenstein,24532,22921
 2021-09-30,Lithuania,1748435,1616389
 2021-09-30,Luxembourg,417935,399522
 2021-09-30,Madagascar,197001,184632
@@ -56518,7 +56518,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-30,Sudan,649062,581846
 2021-09-30,Suriname,229022,172220
 2021-09-30,Sweden,7152389,6569568
-2021-09-30,Switzerland,5529798,5030979
+2021-09-30,Switzerland,5531183,5031822
 2021-09-30,Syria,482196,290221
 2021-09-30,Taiwan,13243149,2637740
 2021-09-30,Tajikistan,2398703,1740682
@@ -56611,7 +56611,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-01,Greece,6452489,6140637
 2021-10-01,Grenada,34535,24450
 2021-10-01,Guatemala,4557123,2500717
-2021-10-01,Guinea,1208906,564029
+2021-10-01,Guinea,1227490,578811
 2021-10-01,Guinea-Bissau,87231,7484
 2021-10-01,Guyana,357208,185972
 2021-10-01,Haiti,49201,21143
@@ -56640,7 +56640,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-01,Lesotho,324686,316384
 2021-10-01,Liberia,104545,27392
 2021-10-01,Libya,1381925,204130
-2021-10-01,Liechtenstein,24532,22920
+2021-10-01,Liechtenstein,24560,22930
 2021-10-01,Lithuania,1751340,1619793
 2021-10-01,Luxembourg,417935,399522
 2021-10-01,Madagascar,197001,184632
@@ -56704,7 +56704,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-01,Sudan,649062,581846
 2021-10-01,Suriname,230110,173344
 2021-10-01,Sweden,7159590,6595856
-2021-10-01,Switzerland,5529798,5030979
+2021-10-01,Switzerland,5543322,5052634
 2021-10-01,Syria,482196,290221
 2021-10-01,Taiwan,13424778,2852420
 2021-10-01,Tajikistan,2398703,1740682
@@ -56797,7 +56797,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-02,Greece,6458416,6159873
 2021-10-02,Grenada,34535,24450
 2021-10-02,Guatemala,4576144,2524414
-2021-10-02,Guinea,1208906,564029
+2021-10-02,Guinea,1227490,578811
 2021-10-02,Guinea-Bissau,87231,7484
 2021-10-02,Guyana,357208,185972
 2021-10-02,Haiti,49201,21143
@@ -56815,7 +56815,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-02,Japan,89154655,75704359
 2021-10-02,Jordan,3720605,3298920
 2021-10-02,Kazakhstan,7684022,6635545
-2021-10-02,Kenya,2897007,914129
+2021-10-02,Kenya,2934743,926037
 2021-10-02,Kiribati,29429,6903
 2021-10-02,Kosovo,802225,541431
 2021-10-02,Kuwait,2668082,923307
@@ -56826,13 +56826,13 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-02,Lesotho,324686,316384
 2021-10-02,Liberia,104545,27392
 2021-10-02,Libya,1401958,235443
-2021-10-02,Liechtenstein,24532,22920
+2021-10-02,Liechtenstein,24563,22935
 2021-10-02,Lithuania,1751995,1620458
 2021-10-02,Luxembourg,417935,399522
 2021-10-02,Madagascar,197001,184632
-2021-10-02,Malawi,818939,498701
+2021-10-02,Malawi,821946,499390
 2021-10-02,Malaysia,23738320,20511444
-2021-10-02,Maldives,392315,339481
+2021-10-02,Maldives,392490,340730
 2021-10-02,Mali,318655,240321
 2021-10-02,Malta,420499,420429
 2021-10-02,Mauritania,311544,569587
@@ -56890,7 +56890,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-02,Sudan,649062,581846
 2021-10-02,Suriname,230230,173446
 2021-10-02,Sweden,7159590,6595856
-2021-10-02,Switzerland,5529798,5030979
+2021-10-02,Switzerland,5550238,5063739
 2021-10-02,Syria,482196,290221
 2021-10-02,Taiwan,13424778,2852420
 2021-10-02,Tajikistan,2398703,1740682
@@ -56971,7 +56971,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-03,Equatorial Guinea,225011,167635
 2021-10-03,Estonia,760795,614815
 2021-10-03,Eswatini,217532,210432
-2021-10-03,Ethiopia,2856031,859770
+2021-10-03,Ethiopia,2868247,871913
 2021-10-03,Fiji,591293,425902
 2021-10-03,Finland,4144322,3516322
 2021-10-03,France,50285691,44408729
@@ -56983,7 +56983,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-03,Greece,6458578,6160145
 2021-10-03,Grenada,34535,24450
 2021-10-03,Guatemala,4576144,2524414
-2021-10-03,Guinea,1208906,564029
+2021-10-03,Guinea,1227490,578811
 2021-10-03,Guinea-Bissau,87231,7484
 2021-10-03,Guyana,357208,185972
 2021-10-03,Haiti,49201,21143
@@ -57001,7 +57001,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-03,Japan,90287343,77162035
 2021-10-03,Jordan,3729142,3308671
 2021-10-03,Kazakhstan,7703478,6659215
-2021-10-03,Kenya,2897007,914129
+2021-10-03,Kenya,2944584,929499
 2021-10-03,Kiribati,29429,6903
 2021-10-03,Kosovo,802225,541431
 2021-10-03,Kuwait,2668082,923307
@@ -57012,13 +57012,13 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-03,Lesotho,324686,316384
 2021-10-03,Liberia,104545,27392
 2021-10-03,Libya,1401958,235443
-2021-10-03,Liechtenstein,24532,22920
+2021-10-03,Liechtenstein,24563,22935
 2021-10-03,Lithuania,1752250,1620623
 2021-10-03,Luxembourg,417935,399522
 2021-10-03,Madagascar,197001,184632
-2021-10-03,Malawi,818939,498701
+2021-10-03,Malawi,823582,499844
 2021-10-03,Malaysia,23834064,20621994
-2021-10-03,Maldives,392315,339481
+2021-10-03,Maldives,392490,340730
 2021-10-03,Mali,318655,240321
 2021-10-03,Malta,420499,420429
 2021-10-03,Mauritania,311544,569587
@@ -57068,7 +57068,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-03,Slovenia,1128828,1008190
 2021-10-03,Solomon Islands,74573,23171
 2021-10-03,Somalia,259041,236000
-2021-10-03,South Africa,12593276,8819130
+2021-10-03,South Africa,12840302,9075189
 2021-10-03,South Korea,39714000,27016188
 2021-10-03,South Sudan,77546,31053
 2021-10-03,Spain,37702384,36667138
@@ -57076,7 +57076,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-03,Sudan,649062,581846
 2021-10-03,Suriname,230230,173446
 2021-10-03,Sweden,7159590,6595856
-2021-10-03,Switzerland,5529798,5030979
+2021-10-03,Switzerland,5551734,5065813
 2021-10-03,Syria,482196,290221
 2021-10-03,Taiwan,13477691,3081268
 2021-10-03,Tajikistan,2398703,1740682
