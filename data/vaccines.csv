@@ -5075,7 +5075,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-28,Egypt,0,0
 2020-12-28,El Salvador,0,0
 2020-12-28,Equatorial Guinea,0,0
-2020-12-28,Estonia,509,0
+2020-12-28,Estonia,509,1
 2020-12-28,Eswatini,0,0
 2020-12-28,Ethiopia,0,0
 2020-12-28,Fiji,0,0
@@ -5261,7 +5261,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-29,Egypt,0,0
 2020-12-29,El Salvador,0,0
 2020-12-29,Equatorial Guinea,0,0
-2020-12-29,Estonia,876,0
+2020-12-29,Estonia,876,1
 2020-12-29,Eswatini,0,0
 2020-12-29,Ethiopia,0,0
 2020-12-29,Fiji,0,0
@@ -5447,7 +5447,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-30,Egypt,0,0
 2020-12-30,El Salvador,0,0
 2020-12-30,Equatorial Guinea,0,0
-2020-12-30,Estonia,1889,0
+2020-12-30,Estonia,1889,2
 2020-12-30,Eswatini,0,0
 2020-12-30,Ethiopia,0,0
 2020-12-30,Fiji,0,0
@@ -5633,7 +5633,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-31,Egypt,0,0
 2020-12-31,El Salvador,0,0
 2020-12-31,Equatorial Guinea,0,0
-2020-12-31,Estonia,2475,0
+2020-12-31,Estonia,2475,4
 2020-12-31,Eswatini,0,0
 2020-12-31,Ethiopia,0,0
 2020-12-31,Fiji,0,0
@@ -5819,7 +5819,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-01,Egypt,0,0
 2021-01-01,El Salvador,0,0
 2021-01-01,Equatorial Guinea,0,0
-2021-01-01,Estonia,2475,0
+2021-01-01,Estonia,2475,4
 2021-01-01,Eswatini,0,0
 2021-01-01,Ethiopia,0,0
 2021-01-01,Fiji,0,0
@@ -6005,7 +6005,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-02,Egypt,0,0
 2021-01-02,El Salvador,0,0
 2021-01-02,Equatorial Guinea,0,0
-2021-01-02,Estonia,2505,0
+2021-01-02,Estonia,2505,4
 2021-01-02,Eswatini,0,0
 2021-01-02,Ethiopia,0,0
 2021-01-02,Fiji,0,0
@@ -6191,7 +6191,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-03,Egypt,0,0
 2021-01-03,El Salvador,0,0
 2021-01-03,Equatorial Guinea,0,0
-2021-01-03,Estonia,2523,0
+2021-01-03,Estonia,2523,4
 2021-01-03,Eswatini,0,0
 2021-01-03,Ethiopia,0,0
 2021-01-03,Fiji,0,0
@@ -6377,7 +6377,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-04,Egypt,0,0
 2021-01-04,El Salvador,0,0
 2021-01-04,Equatorial Guinea,0,0
-2021-01-04,Estonia,3165,0
+2021-01-04,Estonia,3165,4
 2021-01-04,Eswatini,0,0
 2021-01-04,Ethiopia,0,0
 2021-01-04,Fiji,0,0
@@ -6563,7 +6563,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-05,Egypt,0,0
 2021-01-05,El Salvador,0,0
 2021-01-05,Equatorial Guinea,0,0
-2021-01-05,Estonia,4975,1
+2021-01-05,Estonia,4975,6
 2021-01-05,Eswatini,0,0
 2021-01-05,Ethiopia,0,0
 2021-01-05,Fiji,0,0
@@ -6749,7 +6749,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-06,Egypt,0,0
 2021-01-06,El Salvador,0,0
 2021-01-06,Equatorial Guinea,0,0
-2021-01-06,Estonia,6586,1
+2021-01-06,Estonia,6586,6
 2021-01-06,Eswatini,0,0
 2021-01-06,Ethiopia,0,0
 2021-01-06,Fiji,0,0
@@ -6935,7 +6935,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-07,Egypt,0,0
 2021-01-07,El Salvador,0,0
 2021-01-07,Equatorial Guinea,0,0
-2021-01-07,Estonia,7928,1
+2021-01-07,Estonia,7928,7
 2021-01-07,Eswatini,0,0
 2021-01-07,Ethiopia,0,0
 2021-01-07,Fiji,0,0
@@ -7121,7 +7121,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-08,Egypt,0,0
 2021-01-08,El Salvador,0,0
 2021-01-08,Equatorial Guinea,0,0
-2021-01-08,Estonia,10143,1
+2021-01-08,Estonia,10143,8
 2021-01-08,Eswatini,0,0
 2021-01-08,Ethiopia,0,0
 2021-01-08,Fiji,0,0
@@ -7307,7 +7307,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-09,Egypt,0,0
 2021-01-09,El Salvador,0,0
 2021-01-09,Equatorial Guinea,0,0
-2021-01-09,Estonia,10694,1
+2021-01-09,Estonia,10694,8
 2021-01-09,Eswatini,0,0
 2021-01-09,Ethiopia,0,0
 2021-01-09,Fiji,0,0
@@ -7493,7 +7493,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-10,Egypt,0,0
 2021-01-10,El Salvador,0,0
 2021-01-10,Equatorial Guinea,0,0
-2021-01-10,Estonia,10917,1
+2021-01-10,Estonia,10917,8
 2021-01-10,Eswatini,0,0
 2021-01-10,Ethiopia,0,0
 2021-01-10,Fiji,0,0
@@ -7679,7 +7679,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-11,Egypt,0,0
 2021-01-11,El Salvador,0,0
 2021-01-11,Equatorial Guinea,0,0
-2021-01-11,Estonia,11766,2
+2021-01-11,Estonia,11766,9
 2021-01-11,Eswatini,0,0
 2021-01-11,Ethiopia,0,0
 2021-01-11,Fiji,0,0
@@ -7865,7 +7865,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-12,Egypt,0,0
 2021-01-12,El Salvador,0,0
 2021-01-12,Equatorial Guinea,0,0
-2021-01-12,Estonia,13346,2
+2021-01-12,Estonia,13346,12
 2021-01-12,Eswatini,0,0
 2021-01-12,Ethiopia,0,0
 2021-01-12,Fiji,0,0
@@ -8051,7 +8051,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-13,Egypt,0,0
 2021-01-13,El Salvador,0,0
 2021-01-13,Equatorial Guinea,0,0
-2021-01-13,Estonia,14741,2
+2021-01-13,Estonia,14741,14
 2021-01-13,Eswatini,0,0
 2021-01-13,Ethiopia,0,0
 2021-01-13,Fiji,0,0
@@ -8237,7 +8237,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-14,Egypt,0,0
 2021-01-14,El Salvador,0,0
 2021-01-14,Equatorial Guinea,0,0
-2021-01-14,Estonia,16521,2
+2021-01-14,Estonia,16521,43
 2021-01-14,Eswatini,0,0
 2021-01-14,Ethiopia,0,0
 2021-01-14,Fiji,0,0
@@ -8423,7 +8423,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-15,Egypt,0,0
 2021-01-15,El Salvador,0,0
 2021-01-15,Equatorial Guinea,0,0
-2021-01-15,Estonia,17802,2
+2021-01-15,Estonia,17802,54
 2021-01-15,Eswatini,0,0
 2021-01-15,Ethiopia,0,0
 2021-01-15,Fiji,0,0
@@ -8609,7 +8609,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-16,Egypt,0,0
 2021-01-16,El Salvador,0,0
 2021-01-16,Equatorial Guinea,0,0
-2021-01-16,Estonia,18022,2
+2021-01-16,Estonia,18022,67
 2021-01-16,Eswatini,0,0
 2021-01-16,Ethiopia,0,0
 2021-01-16,Fiji,0,0
@@ -8795,7 +8795,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-17,Egypt,0,0
 2021-01-17,El Salvador,0,0
 2021-01-17,Equatorial Guinea,0,0
-2021-01-17,Estonia,18052,68
+2021-01-17,Estonia,18052,133
 2021-01-17,Eswatini,0,0
 2021-01-17,Ethiopia,0,0
 2021-01-17,Fiji,0,0
@@ -8981,7 +8981,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-18,Egypt,0,0
 2021-01-18,El Salvador,0,0
 2021-01-18,Equatorial Guinea,0,0
-2021-01-18,Estonia,18711,443
+2021-01-18,Estonia,18711,517
 2021-01-18,Eswatini,0,0
 2021-01-18,Ethiopia,0,0
 2021-01-18,Fiji,0,0
@@ -9167,7 +9167,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-19,Egypt,0,0
 2021-01-19,El Salvador,0,0
 2021-01-19,Equatorial Guinea,0,0
-2021-01-19,Estonia,19469,846
+2021-01-19,Estonia,19469,938
 2021-01-19,Eswatini,0,0
 2021-01-19,Ethiopia,0,0
 2021-01-19,Fiji,0,0
@@ -9353,7 +9353,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-20,Egypt,0,0
 2021-01-20,El Salvador,0,0
 2021-01-20,Equatorial Guinea,0,0
-2021-01-20,Estonia,20321,1476
+2021-01-20,Estonia,20321,1572
 2021-01-20,Eswatini,0,0
 2021-01-20,Ethiopia,0,0
 2021-01-20,Fiji,0,0
@@ -9539,7 +9539,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-21,Egypt,0,0
 2021-01-21,El Salvador,0,0
 2021-01-21,Equatorial Guinea,0,0
-2021-01-21,Estonia,21837,2141
+2021-01-21,Estonia,21837,2256
 2021-01-21,Eswatini,0,0
 2021-01-21,Ethiopia,0,0
 2021-01-21,Fiji,0,0
@@ -9725,7 +9725,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-22,Egypt,0,0
 2021-01-22,El Salvador,0,0
 2021-01-22,Equatorial Guinea,0,0
-2021-01-22,Estonia,23070,2410
+2021-01-22,Estonia,23070,2536
 2021-01-22,Eswatini,0,0
 2021-01-22,Ethiopia,0,0
 2021-01-22,Fiji,0,0
@@ -9911,7 +9911,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-23,Egypt,0,0
 2021-01-23,El Salvador,0,0
 2021-01-23,Equatorial Guinea,0,0
-2021-01-23,Estonia,23325,2413
+2021-01-23,Estonia,23325,2551
 2021-01-23,Eswatini,0,0
 2021-01-23,Ethiopia,0,0
 2021-01-23,Fiji,0,0
@@ -10097,7 +10097,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-24,Egypt,0,0
 2021-01-24,El Salvador,0,0
 2021-01-24,Equatorial Guinea,0,0
-2021-01-24,Estonia,23486,2413
+2021-01-24,Estonia,23486,2551
 2021-01-24,Eswatini,0,0
 2021-01-24,Ethiopia,0,0
 2021-01-24,Fiji,0,0
@@ -10283,7 +10283,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-25,Egypt,0,0
 2021-01-25,El Salvador,0,0
 2021-01-25,Equatorial Guinea,0,0
-2021-01-25,Estonia,23861,3100
+2021-01-25,Estonia,23861,3241
 2021-01-25,Eswatini,0,0
 2021-01-25,Ethiopia,0,0
 2021-01-25,Fiji,0,0
@@ -10469,7 +10469,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-26,Egypt,0,0
 2021-01-26,El Salvador,0,0
 2021-01-26,Equatorial Guinea,0,0
-2021-01-26,Estonia,24604,4751
+2021-01-26,Estonia,24604,4893
 2021-01-26,Eswatini,0,0
 2021-01-26,Ethiopia,0,0
 2021-01-26,Fiji,0,0
@@ -10655,7 +10655,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-27,Egypt,0,0
 2021-01-27,El Salvador,0,0
 2021-01-27,Equatorial Guinea,0,0
-2021-01-27,Estonia,25243,6247
+2021-01-27,Estonia,25243,6391
 2021-01-27,Eswatini,0,0
 2021-01-27,Ethiopia,0,0
 2021-01-27,Fiji,0,0
@@ -10841,7 +10841,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-28,Egypt,0,0
 2021-01-28,El Salvador,0,0
 2021-01-28,Equatorial Guinea,0,0
-2021-01-28,Estonia,26315,7647
+2021-01-28,Estonia,26315,7792
 2021-01-28,Eswatini,0,0
 2021-01-28,Ethiopia,0,0
 2021-01-28,Fiji,0,0
@@ -11027,7 +11027,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-29,Egypt,0,0
 2021-01-29,El Salvador,0,0
 2021-01-29,Equatorial Guinea,0,0
-2021-01-29,Estonia,27535,9633
+2021-01-29,Estonia,27535,9790
 2021-01-29,Eswatini,0,0
 2021-01-29,Ethiopia,0,0
 2021-01-29,Fiji,0,0
@@ -11213,7 +11213,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-30,Egypt,1315,0
 2021-01-30,El Salvador,0,0
 2021-01-30,Equatorial Guinea,0,0
-2021-01-30,Estonia,27801,10198
+2021-01-30,Estonia,27801,10356
 2021-01-30,Eswatini,0,0
 2021-01-30,Ethiopia,0,0
 2021-01-30,Fiji,0,0
@@ -11399,7 +11399,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-31,Egypt,1315,0
 2021-01-31,El Salvador,0,0
 2021-01-31,Equatorial Guinea,0,0
-2021-01-31,Estonia,28086,10451
+2021-01-31,Estonia,28086,10612
 2021-01-31,Eswatini,0,0
 2021-01-31,Ethiopia,0,0
 2021-01-31,Fiji,0,0
@@ -11585,7 +11585,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-01,Egypt,1315,0
 2021-02-01,El Salvador,0,0
 2021-02-01,Equatorial Guinea,0,0
-2021-02-01,Estonia,28806,11340
+2021-02-01,Estonia,28806,11505
 2021-02-01,Eswatini,0,0
 2021-02-01,Ethiopia,0,0
 2021-02-01,Fiji,0,0
@@ -11771,7 +11771,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-02,Egypt,1315,0
 2021-02-02,El Salvador,0,0
 2021-02-02,Equatorial Guinea,0,0
-2021-02-02,Estonia,30052,12863
+2021-02-02,Estonia,30052,13037
 2021-02-02,Eswatini,0,0
 2021-02-02,Ethiopia,0,0
 2021-02-02,Fiji,0,0
@@ -11957,7 +11957,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-03,Egypt,1315,0
 2021-02-03,El Salvador,0,0
 2021-02-03,Equatorial Guinea,0,0
-2021-02-03,Estonia,31715,14395
+2021-02-03,Estonia,31715,14577
 2021-02-03,Eswatini,0,0
 2021-02-03,Ethiopia,0,0
 2021-02-03,Fiji,0,0
@@ -12143,7 +12143,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-04,Egypt,1315,0
 2021-02-04,El Salvador,0,0
 2021-02-04,Equatorial Guinea,0,0
-2021-02-04,Estonia,33759,15952
+2021-02-04,Estonia,33759,16220
 2021-02-04,Eswatini,0,0
 2021-02-04,Ethiopia,0,0
 2021-02-04,Fiji,0,0
@@ -12329,7 +12329,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-05,Egypt,1315,0
 2021-02-05,El Salvador,0,0
 2021-02-05,Equatorial Guinea,0,0
-2021-02-05,Estonia,35308,17467
+2021-02-05,Estonia,35308,17744
 2021-02-05,Eswatini,0,0
 2021-02-05,Ethiopia,0,0
 2021-02-05,Fiji,0,0
@@ -12515,7 +12515,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-06,Egypt,1315,0
 2021-02-06,El Salvador,0,0
 2021-02-06,Equatorial Guinea,0,0
-2021-02-06,Estonia,35716,17612
+2021-02-06,Estonia,35716,17893
 2021-02-06,Eswatini,0,0
 2021-02-06,Ethiopia,0,0
 2021-02-06,Fiji,0,0
@@ -12701,7 +12701,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-07,Egypt,1315,0
 2021-02-07,El Salvador,0,0
 2021-02-07,Equatorial Guinea,0,0
-2021-02-07,Estonia,35727,17658
+2021-02-07,Estonia,35727,17940
 2021-02-07,Eswatini,0,0
 2021-02-07,Ethiopia,0,0
 2021-02-07,Fiji,0,0
@@ -12887,7 +12887,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-08,Egypt,1315,0
 2021-02-08,El Salvador,0,0
 2021-02-08,Equatorial Guinea,0,0
-2021-02-08,Estonia,36724,18286
+2021-02-08,Estonia,36724,18573
 2021-02-08,Eswatini,0,0
 2021-02-08,Ethiopia,0,0
 2021-02-08,Fiji,0,0
@@ -13073,7 +13073,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-09,Egypt,1315,0
 2021-02-09,El Salvador,0,0
 2021-02-09,Equatorial Guinea,0,0
-2021-02-09,Estonia,39001,19155
+2021-02-09,Estonia,39001,19451
 2021-02-09,Eswatini,0,0
 2021-02-09,Ethiopia,0,0
 2021-02-09,Fiji,0,0
@@ -13259,7 +13259,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-10,Egypt,1315,0
 2021-02-10,El Salvador,0,0
 2021-02-10,Equatorial Guinea,0,0
-2021-02-10,Estonia,41592,20062
+2021-02-10,Estonia,41592,20365
 2021-02-10,Eswatini,0,0
 2021-02-10,Ethiopia,0,0
 2021-02-10,Fiji,0,0
@@ -13445,7 +13445,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-11,Egypt,1315,0
 2021-02-11,El Salvador,0,0
 2021-02-11,Equatorial Guinea,0,0
-2021-02-11,Estonia,44347,21356
+2021-02-11,Estonia,44347,21689
 2021-02-11,Eswatini,0,0
 2021-02-11,Ethiopia,0,0
 2021-02-11,Fiji,0,0
@@ -13631,7 +13631,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-12,Egypt,1315,0
 2021-02-12,El Salvador,0,0
 2021-02-12,Equatorial Guinea,0,0
-2021-02-12,Estonia,45880,22159
+2021-02-12,Estonia,45880,22527
 2021-02-12,Eswatini,0,0
 2021-02-12,Ethiopia,0,0
 2021-02-12,Fiji,0,0
@@ -13817,7 +13817,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-13,Egypt,1315,0
 2021-02-13,El Salvador,0,0
 2021-02-13,Equatorial Guinea,0,0
-2021-02-13,Estonia,46012,22318
+2021-02-13,Estonia,46012,22686
 2021-02-13,Eswatini,0,0
 2021-02-13,Ethiopia,0,0
 2021-02-13,Fiji,0,0
@@ -14003,7 +14003,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-14,Egypt,1315,0
 2021-02-14,El Salvador,0,0
 2021-02-14,Equatorial Guinea,0,0
-2021-02-14,Estonia,46014,22377
+2021-02-14,Estonia,46014,22745
 2021-02-14,Eswatini,0,0
 2021-02-14,Ethiopia,0,0
 2021-02-14,Fiji,0,0
@@ -14189,7 +14189,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-15,Egypt,1315,0
 2021-02-15,El Salvador,0,0
 2021-02-15,Equatorial Guinea,0,0
-2021-02-15,Estonia,46632,22605
+2021-02-15,Estonia,46632,22979
 2021-02-15,Eswatini,0,0
 2021-02-15,Ethiopia,0,0
 2021-02-15,Fiji,0,0
@@ -14375,7 +14375,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-16,Egypt,1315,0
 2021-02-16,El Salvador,0,0
 2021-02-16,Equatorial Guinea,0,0
-2021-02-16,Estonia,48461,23178
+2021-02-16,Estonia,48461,23570
 2021-02-16,Eswatini,0,0
 2021-02-16,Ethiopia,0,0
 2021-02-16,Fiji,0,0
@@ -14561,7 +14561,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-17,Egypt,1315,0
 2021-02-17,El Salvador,0,0
 2021-02-17,Equatorial Guinea,0,0
-2021-02-17,Estonia,52125,23841
+2021-02-17,Estonia,52125,24285
 2021-02-17,Eswatini,0,0
 2021-02-17,Ethiopia,0,0
 2021-02-17,Fiji,0,0
@@ -14747,7 +14747,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-18,Egypt,1315,0
 2021-02-18,El Salvador,0,0
 2021-02-18,Equatorial Guinea,0,0
-2021-02-18,Estonia,57409,24856
+2021-02-18,Estonia,57409,25397
 2021-02-18,Eswatini,0,0
 2021-02-18,Ethiopia,0,0
 2021-02-18,Fiji,0,0
@@ -14933,7 +14933,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-19,Egypt,1315,0
 2021-02-19,El Salvador,0,0
 2021-02-19,Equatorial Guinea,0,0
-2021-02-19,Estonia,61181,25856
+2021-02-19,Estonia,61181,26453
 2021-02-19,Eswatini,0,0
 2021-02-19,Ethiopia,0,0
 2021-02-19,Fiji,0,0
@@ -15119,7 +15119,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-20,Egypt,1315,0
 2021-02-20,El Salvador,0,0
 2021-02-20,Equatorial Guinea,0,0
-2021-02-20,Estonia,61769,26078
+2021-02-20,Estonia,61769,26687
 2021-02-20,Eswatini,0,0
 2021-02-20,Ethiopia,0,0
 2021-02-20,Fiji,0,0
@@ -15305,7 +15305,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-21,Egypt,1315,0
 2021-02-21,El Salvador,0,0
 2021-02-21,Equatorial Guinea,0,0
-2021-02-21,Estonia,62281,26399
+2021-02-21,Estonia,62281,27016
 2021-02-21,Eswatini,0,0
 2021-02-21,Ethiopia,0,0
 2021-02-21,Fiji,0,0
@@ -15491,7 +15491,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-22,Egypt,1315,0
 2021-02-22,El Salvador,6000,0
 2021-02-22,Equatorial Guinea,0,0
-2021-02-22,Estonia,64375,27297
+2021-02-22,Estonia,64375,27964
 2021-02-22,Eswatini,0,0
 2021-02-22,Ethiopia,0,0
 2021-02-22,Fiji,0,0
@@ -15677,7 +15677,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-23,Egypt,1315,0
 2021-02-23,El Salvador,6000,0
 2021-02-23,Equatorial Guinea,0,0
-2021-02-23,Estonia,68160,28216
+2021-02-23,Estonia,68160,28966
 2021-02-23,Eswatini,0,0
 2021-02-23,Ethiopia,0,0
 2021-02-23,Fiji,0,0
@@ -15863,7 +15863,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-24,Egypt,1315,0
 2021-02-24,El Salvador,6000,0
 2021-02-24,Equatorial Guinea,0,0
-2021-02-24,Estonia,68491,28348
+2021-02-24,Estonia,68491,29106
 2021-02-24,Eswatini,0,0
 2021-02-24,Ethiopia,0,0
 2021-02-24,Fiji,0,0
@@ -16049,7 +16049,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-25,Egypt,1315,0
 2021-02-25,El Salvador,16000,0
 2021-02-25,Equatorial Guinea,0,0
-2021-02-25,Estonia,72217,31159
+2021-02-25,Estonia,72217,31974
 2021-02-25,Eswatini,0,0
 2021-02-25,Ethiopia,0,0
 2021-02-25,Fiji,0,0
@@ -16235,7 +16235,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-26,Egypt,1315,0
 2021-02-26,El Salvador,16000,0
 2021-02-26,Equatorial Guinea,0,0
-2021-02-26,Estonia,77397,33517
+2021-02-26,Estonia,77397,34386
 2021-02-26,Eswatini,0,0
 2021-02-26,Ethiopia,0,0
 2021-02-26,Fiji,0,0
@@ -16421,7 +16421,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-27,Egypt,1315,0
 2021-02-27,El Salvador,16000,0
 2021-02-27,Equatorial Guinea,0,0
-2021-02-27,Estonia,78432,33940
+2021-02-27,Estonia,78432,34826
 2021-02-27,Eswatini,0,0
 2021-02-27,Ethiopia,0,0
 2021-02-27,Fiji,0,0
@@ -16607,7 +16607,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-28,Egypt,1315,0
 2021-02-28,El Salvador,16000,0
 2021-02-28,Equatorial Guinea,0,0
-2021-02-28,Estonia,78616,34066
+2021-02-28,Estonia,78616,34957
 2021-02-28,Eswatini,0,0
 2021-02-28,Ethiopia,0,0
 2021-02-28,Fiji,0,0
@@ -16793,7 +16793,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-01,Egypt,1315,0
 2021-03-01,El Salvador,16000,0
 2021-03-01,Equatorial Guinea,0,0
-2021-03-01,Estonia,81060,35088
+2021-03-01,Estonia,81060,36023
 2021-03-01,Eswatini,0,0
 2021-03-01,Ethiopia,0,0
 2021-03-01,Fiji,0,0
@@ -16979,7 +16979,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-02,Egypt,1315,0
 2021-03-02,El Salvador,16000,0
 2021-03-02,Equatorial Guinea,0,0
-2021-03-02,Estonia,84024,37390
+2021-03-02,Estonia,84024,38387
 2021-03-02,Eswatini,0,0
 2021-03-02,Ethiopia,0,0
 2021-03-02,Fiji,0,0
@@ -17165,7 +17165,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-03,Egypt,1315,0
 2021-03-03,El Salvador,16000,0
 2021-03-03,Equatorial Guinea,0,0
-2021-03-03,Estonia,86932,39786
+2021-03-03,Estonia,86932,40820
 2021-03-03,Eswatini,0,0
 2021-03-03,Ethiopia,0,0
 2021-03-03,Fiji,0,0
@@ -17351,7 +17351,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-04,Egypt,1315,0
 2021-03-04,El Salvador,16000,0
 2021-03-04,Equatorial Guinea,0,0
-2021-03-04,Estonia,92068,42277
+2021-03-04,Estonia,92068,43378
 2021-03-04,Eswatini,0,0
 2021-03-04,Ethiopia,0,0
 2021-03-04,Fiji,0,0
@@ -17537,7 +17537,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-05,Egypt,1315,0
 2021-03-05,El Salvador,16000,0
 2021-03-05,Equatorial Guinea,0,0
-2021-03-05,Estonia,97639,43800
+2021-03-05,Estonia,97639,45013
 2021-03-05,Eswatini,0,0
 2021-03-05,Ethiopia,0,0
 2021-03-05,Fiji,0,0
@@ -17723,7 +17723,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-06,Egypt,1315,0
 2021-03-06,El Salvador,16000,0
 2021-03-06,Equatorial Guinea,0,0
-2021-03-06,Estonia,101225,43962
+2021-03-06,Estonia,101225,45241
 2021-03-06,Eswatini,0,0
 2021-03-06,Ethiopia,0,0
 2021-03-06,Fiji,0,0
@@ -17909,7 +17909,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-07,Egypt,1315,0
 2021-03-07,El Salvador,16000,0
 2021-03-07,Equatorial Guinea,0,0
-2021-03-07,Estonia,102219,43966
+2021-03-07,Estonia,102219,45259
 2021-03-07,Eswatini,0,0
 2021-03-07,Ethiopia,0,0
 2021-03-07,Fiji,0,0
@@ -18095,7 +18095,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-08,Egypt,1315,0
 2021-03-08,El Salvador,16000,0
 2021-03-08,Equatorial Guinea,0,0
-2021-03-08,Estonia,105635,44213
+2021-03-08,Estonia,105635,45571
 2021-03-08,Eswatini,0,0
 2021-03-08,Ethiopia,0,0
 2021-03-08,Fiji,0,0
@@ -18281,7 +18281,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-09,Egypt,1315,0
 2021-03-09,El Salvador,16000,0
 2021-03-09,Equatorial Guinea,0,0
-2021-03-09,Estonia,109670,45286
+2021-03-09,Estonia,109670,46715
 2021-03-09,Eswatini,0,0
 2021-03-09,Ethiopia,0,0
 2021-03-09,Fiji,0,0
@@ -18467,7 +18467,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-10,Egypt,1315,0
 2021-03-10,El Salvador,16000,0
 2021-03-10,Equatorial Guinea,0,0
-2021-03-10,Estonia,113671,47739
+2021-03-10,Estonia,113671,49249
 2021-03-10,Eswatini,0,0
 2021-03-10,Ethiopia,0,0
 2021-03-10,Fiji,0,0
@@ -18653,7 +18653,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-11,Egypt,1315,0
 2021-03-11,El Salvador,16000,0
 2021-03-11,Equatorial Guinea,0,0
-2021-03-11,Estonia,121847,50670
+2021-03-11,Estonia,121847,52320
 2021-03-11,Eswatini,0,0
 2021-03-11,Ethiopia,0,0
 2021-03-11,Fiji,0,0
@@ -18839,7 +18839,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-12,Egypt,1315,0
 2021-03-12,El Salvador,16000,0
 2021-03-12,Equatorial Guinea,0,0
-2021-03-12,Estonia,127577,52601
+2021-03-12,Estonia,127577,54371
 2021-03-12,Eswatini,0,0
 2021-03-12,Ethiopia,0,0
 2021-03-12,Fiji,0,0
@@ -19025,7 +19025,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-13,Egypt,1315,0
 2021-03-13,El Salvador,16000,0
 2021-03-13,Equatorial Guinea,0,0
-2021-03-13,Estonia,133000,52680
+2021-03-13,Estonia,133000,54514
 2021-03-13,Eswatini,0,0
 2021-03-13,Ethiopia,0,0
 2021-03-13,Fiji,0,0
@@ -19211,7 +19211,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-14,Egypt,1315,0
 2021-03-14,El Salvador,25000,0
 2021-03-14,Equatorial Guinea,0,0
-2021-03-14,Estonia,138266,52695
+2021-03-14,Estonia,138266,54564
 2021-03-14,Eswatini,0,0
 2021-03-14,Ethiopia,0,0
 2021-03-14,Fiji,0,0
@@ -19397,7 +19397,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-15,Egypt,1315,0
 2021-03-15,El Salvador,25000,0
 2021-03-15,Equatorial Guinea,0,0
-2021-03-15,Estonia,141618,52963
+2021-03-15,Estonia,141618,54894
 2021-03-15,Eswatini,0,0
 2021-03-15,Ethiopia,0,0
 2021-03-15,Fiji,0,0
@@ -19583,7 +19583,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-16,Egypt,1315,0
 2021-03-16,El Salvador,25000,0
 2021-03-16,Equatorial Guinea,5765,800
-2021-03-16,Estonia,145359,53762
+2021-03-16,Estonia,145359,55764
 2021-03-16,Eswatini,0,0
 2021-03-16,Ethiopia,0,0
 2021-03-16,Fiji,0,0
@@ -19769,7 +19769,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-17,Egypt,1315,0
 2021-03-17,El Salvador,36000,0
 2021-03-17,Equatorial Guinea,5765,800
-2021-03-17,Estonia,150529,54018
+2021-03-17,Estonia,150529,56155
 2021-03-17,Eswatini,0,0
 2021-03-17,Ethiopia,0,0
 2021-03-17,Fiji,0,0
@@ -19955,7 +19955,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-18,Egypt,1315,0
 2021-03-18,El Salvador,41512,0
 2021-03-18,Equatorial Guinea,5765,800
-2021-03-18,Estonia,157163,54804
+2021-03-18,Estonia,157163,57101
 2021-03-18,Eswatini,0,0
 2021-03-18,Ethiopia,0,0
 2021-03-18,Fiji,0,0
@@ -20141,7 +20141,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-19,Egypt,1315,0
 2021-03-19,El Salvador,41512,0
 2021-03-19,Equatorial Guinea,5765,800
-2021-03-19,Estonia,163612,56975
+2021-03-19,Estonia,163612,59413
 2021-03-19,Eswatini,0,0
 2021-03-19,Ethiopia,0,0
 2021-03-19,Fiji,0,0
@@ -20327,7 +20327,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-20,Egypt,1315,0
 2021-03-20,El Salvador,41512,0
 2021-03-20,Equatorial Guinea,5765,800
-2021-03-20,Estonia,165833,57032
+2021-03-20,Estonia,165833,59515
 2021-03-20,Eswatini,0,0
 2021-03-20,Ethiopia,0,0
 2021-03-20,Fiji,0,0
@@ -20513,7 +20513,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-21,Egypt,1315,0
 2021-03-21,El Salvador,49000,0
 2021-03-21,Equatorial Guinea,5765,800
-2021-03-21,Estonia,167154,57052
+2021-03-21,Estonia,167154,59546
 2021-03-21,Eswatini,0,0
 2021-03-21,Ethiopia,0,0
 2021-03-21,Fiji,0,0
@@ -20699,7 +20699,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-22,Egypt,1315,0
 2021-03-22,El Salvador,49000,0
 2021-03-22,Equatorial Guinea,5765,800
-2021-03-22,Estonia,169105,57589
+2021-03-22,Estonia,169105,60148
 2021-03-22,Eswatini,0,0
 2021-03-22,Ethiopia,0,0
 2021-03-22,Fiji,0,0
@@ -20885,7 +20885,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-23,Egypt,1315,0
 2021-03-23,El Salvador,49000,0
 2021-03-23,Equatorial Guinea,5765,800
-2021-03-23,Estonia,171849,57770
+2021-03-23,Estonia,171849,60405
 2021-03-23,Eswatini,0,0
 2021-03-23,Ethiopia,0,0
 2021-03-23,Fiji,0,0
@@ -21071,7 +21071,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-24,Egypt,1315,0
 2021-03-24,El Salvador,49000,0
 2021-03-24,Equatorial Guinea,5765,800
-2021-03-24,Estonia,177095,58175
+2021-03-24,Estonia,177095,60890
 2021-03-24,Eswatini,0,0
 2021-03-24,Ethiopia,0,0
 2021-03-24,Fiji,0,0
@@ -21257,7 +21257,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-25,Egypt,1315,0
 2021-03-25,El Salvador,49000,0
 2021-03-25,Equatorial Guinea,5765,800
-2021-03-25,Estonia,185579,59728
+2021-03-25,Estonia,185579,62575
 2021-03-25,Eswatini,0,0
 2021-03-25,Ethiopia,0,0
 2021-03-25,Fiji,0,0
@@ -21443,7 +21443,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-26,Egypt,1315,0
 2021-03-26,El Salvador,49000,0
 2021-03-26,Equatorial Guinea,5765,800
-2021-03-26,Estonia,191389,60593
+2021-03-26,Estonia,191389,63526
 2021-03-26,Eswatini,0,0
 2021-03-26,Ethiopia,0,0
 2021-03-26,Fiji,0,0
@@ -21629,7 +21629,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-27,Egypt,164534,0
 2021-03-27,El Salvador,49000,0
 2021-03-27,Equatorial Guinea,5765,800
-2021-03-27,Estonia,193519,60852
+2021-03-27,Estonia,193519,63806
 2021-03-27,Eswatini,0,0
 2021-03-27,Ethiopia,0,0
 2021-03-27,Fiji,0,0
@@ -21815,7 +21815,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-28,Egypt,164534,0
 2021-03-28,El Salvador,70000,0
 2021-03-28,Equatorial Guinea,5765,800
-2021-03-28,Estonia,194006,60900
+2021-03-28,Estonia,194006,63890
 2021-03-28,Eswatini,0,0
 2021-03-28,Ethiopia,0,0
 2021-03-28,Fiji,0,0
@@ -22001,7 +22001,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-29,Egypt,164534,0
 2021-03-29,El Salvador,70000,0
 2021-03-29,Equatorial Guinea,9748,2407
-2021-03-29,Estonia,195949,61241
+2021-03-29,Estonia,195949,64315
 2021-03-29,Eswatini,0,0
 2021-03-29,Ethiopia,0,0
 2021-03-29,Fiji,0,0
@@ -22187,7 +22187,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-30,Egypt,164534,0
 2021-03-30,El Salvador,70000,0
 2021-03-30,Equatorial Guinea,9748,2407
-2021-03-30,Estonia,198536,62217
+2021-03-30,Estonia,198536,65426
 2021-03-30,Eswatini,0,0
 2021-03-30,Ethiopia,0,0
 2021-03-30,Fiji,0,0
@@ -22373,7 +22373,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-31,Egypt,164534,0
 2021-03-31,El Salvador,99855,0
 2021-03-31,Equatorial Guinea,9748,2407
-2021-03-31,Estonia,202994,63733
+2021-03-31,Estonia,202994,67074
 2021-03-31,Eswatini,0,0
 2021-03-31,Ethiopia,0,0
 2021-03-31,Fiji,0,0
@@ -22559,7 +22559,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-01,Egypt,164534,0
 2021-04-01,El Salvador,120476,0
 2021-04-01,Equatorial Guinea,11090,2990
-2021-04-01,Estonia,210985,67689
+2021-04-01,Estonia,210985,71206
 2021-04-01,Eswatini,0,0
 2021-04-01,Ethiopia,0,0
 2021-04-01,Fiji,0,0
@@ -22745,7 +22745,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-02,Egypt,164534,0
 2021-04-02,El Salvador,133330,0
 2021-04-02,Equatorial Guinea,11090,2990
-2021-04-02,Estonia,214536,68070
+2021-04-02,Estonia,214536,71649
 2021-04-02,Eswatini,0,0
 2021-04-02,Ethiopia,0,0
 2021-04-02,Fiji,0,0
@@ -22931,7 +22931,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-03,Egypt,164534,0
 2021-04-03,El Salvador,133330,0
 2021-04-03,Equatorial Guinea,11090,2990
-2021-04-03,Estonia,222334,68694
+2021-04-03,Estonia,222334,72445
 2021-04-03,Eswatini,0,0
 2021-04-03,Ethiopia,0,0
 2021-04-03,Fiji,0,0
@@ -23117,7 +23117,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-04,Egypt,164534,0
 2021-04-04,El Salvador,133330,0
 2021-04-04,Equatorial Guinea,11090,2990
-2021-04-04,Estonia,226343,68833
+2021-04-04,Estonia,226343,72639
 2021-04-04,Eswatini,0,0
 2021-04-04,Ethiopia,0,0
 2021-04-04,Fiji,0,0
@@ -23303,7 +23303,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-05,Egypt,164534,0
 2021-04-05,El Salvador,133330,0
 2021-04-05,Equatorial Guinea,11090,2990
-2021-04-05,Estonia,228849,69824
+2021-04-05,Estonia,228849,73748
 2021-04-05,Eswatini,20262,0
 2021-04-05,Ethiopia,0,0
 2021-04-05,Fiji,0,0
@@ -23489,7 +23489,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-06,Egypt,164534,0
 2021-04-06,El Salvador,133330,0
 2021-04-06,Equatorial Guinea,11090,2990
-2021-04-06,Estonia,231326,70960
+2021-04-06,Estonia,231326,74961
 2021-04-06,Eswatini,20262,0
 2021-04-06,Ethiopia,0,0
 2021-04-06,Fiji,0,0
@@ -23675,7 +23675,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-07,Egypt,164534,0
 2021-04-07,El Salvador,160000,0
 2021-04-07,Equatorial Guinea,11090,2990
-2021-04-07,Estonia,236222,72079
+2021-04-07,Estonia,236222,76192
 2021-04-07,Eswatini,20262,0
 2021-04-07,Ethiopia,0,0
 2021-04-07,Fiji,0,0
@@ -23861,7 +23861,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-08,Egypt,164534,0
 2021-04-08,El Salvador,160000,0
 2021-04-08,Equatorial Guinea,11090,2990
-2021-04-08,Estonia,247854,73348
+2021-04-08,Estonia,247854,77715
 2021-04-08,Eswatini,27601,0
 2021-04-08,Ethiopia,430000,0
 2021-04-08,Fiji,0,0
@@ -24047,7 +24047,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-09,Egypt,164534,0
 2021-04-09,El Salvador,180000,0
 2021-04-09,Equatorial Guinea,11090,2990
-2021-04-09,Estonia,257422,74412
+2021-04-09,Estonia,257422,78968
 2021-04-09,Eswatini,27601,0
 2021-04-09,Ethiopia,430000,0
 2021-04-09,Fiji,0,0
@@ -24233,7 +24233,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-10,Egypt,164534,0
 2021-04-10,El Salvador,180000,0
 2021-04-10,Equatorial Guinea,11090,2990
-2021-04-10,Estonia,258646,74816
+2021-04-10,Estonia,258646,79424
 2021-04-10,Eswatini,27601,0
 2021-04-10,Ethiopia,430000,0
 2021-04-10,Fiji,0,0
@@ -24419,7 +24419,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-11,Egypt,164534,0
 2021-04-11,El Salvador,200000,0
 2021-04-11,Equatorial Guinea,11090,2990
-2021-04-11,Estonia,258931,74861
+2021-04-11,Estonia,258931,79472
 2021-04-11,Eswatini,27601,0
 2021-04-11,Ethiopia,430000,0
 2021-04-11,Fiji,0,0
@@ -24605,7 +24605,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-12,Egypt,164534,0
 2021-04-12,El Salvador,200000,0
 2021-04-12,Equatorial Guinea,11090,2990
-2021-04-12,Estonia,260399,75309
+2021-04-12,Estonia,260399,79968
 2021-04-12,Eswatini,27601,0
 2021-04-12,Ethiopia,430000,0
 2021-04-12,Fiji,0,0
@@ -24791,7 +24791,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-13,Egypt,164534,0
 2021-04-13,El Salvador,308426,2367
 2021-04-13,Equatorial Guinea,11090,2990
-2021-04-13,Estonia,262680,75886
+2021-04-13,Estonia,262680,80601
 2021-04-13,Eswatini,27601,0
 2021-04-13,Ethiopia,430000,0
 2021-04-13,Fiji,6278,0
@@ -24977,7 +24977,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-14,Egypt,164534,0
 2021-04-14,El Salvador,355941,5533
 2021-04-14,Equatorial Guinea,11090,2990
-2021-04-14,Estonia,268027,77761
+2021-04-14,Estonia,268027,82639
 2021-04-14,Eswatini,27601,0
 2021-04-14,Ethiopia,430000,0
 2021-04-14,Fiji,6278,0
@@ -25163,7 +25163,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-15,Egypt,164534,0
 2021-04-15,El Salvador,401179,9631
 2021-04-15,Equatorial Guinea,11090,2990
-2021-04-15,Estonia,277339,80968
+2021-04-15,Estonia,277339,86090
 2021-04-15,Eswatini,27601,0
 2021-04-15,Ethiopia,430000,0
 2021-04-15,Fiji,27705,0
@@ -25349,7 +25349,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-16,Egypt,164534,0
 2021-04-16,El Salvador,445109,15456
 2021-04-16,Equatorial Guinea,27579,5305
-2021-04-16,Estonia,285563,84270
+2021-04-16,Estonia,285563,89678
 2021-04-16,Eswatini,27601,0
 2021-04-16,Ethiopia,430000,0
 2021-04-16,Fiji,56000,0
@@ -25535,7 +25535,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-17,Egypt,164534,0
 2021-04-17,El Salvador,483638,18375
 2021-04-17,Equatorial Guinea,27579,5305
-2021-04-17,Estonia,286887,85009
+2021-04-17,Estonia,286887,90470
 2021-04-17,Eswatini,27601,0
 2021-04-17,Ethiopia,430000,0
 2021-04-17,Fiji,56000,0
@@ -25721,7 +25721,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-18,Egypt,660000,0
 2021-04-18,El Salvador,483638,18375
 2021-04-18,Equatorial Guinea,27579,5305
-2021-04-18,Estonia,287862,85441
+2021-04-18,Estonia,287862,90947
 2021-04-18,Eswatini,27601,0
 2021-04-18,Ethiopia,430000,0
 2021-04-18,Fiji,56000,0
@@ -25907,7 +25907,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-19,Egypt,660000,0
 2021-04-19,El Salvador,483638,18375
 2021-04-19,Equatorial Guinea,27579,5305
-2021-04-19,Estonia,289103,86815
+2021-04-19,Estonia,289103,92375
 2021-04-19,Eswatini,31846,0
 2021-04-19,Ethiopia,430000,0
 2021-04-19,Fiji,56000,0
@@ -26093,7 +26093,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-20,Egypt,660000,0
 2021-04-20,El Salvador,483638,18375
 2021-04-20,Equatorial Guinea,38024,7417
-2021-04-20,Estonia,291040,89100
+2021-04-20,Estonia,291040,94783
 2021-04-20,Eswatini,32958,0
 2021-04-20,Ethiopia,430000,0
 2021-04-20,Fiji,56000,0
@@ -26279,7 +26279,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-21,Egypt,660000,0
 2021-04-21,El Salvador,483638,18375
 2021-04-21,Equatorial Guinea,38024,7417
-2021-04-21,Estonia,295326,89914
+2021-04-21,Estonia,295326,95763
 2021-04-21,Eswatini,32958,0
 2021-04-21,Ethiopia,430000,0
 2021-04-21,Fiji,56000,0
@@ -26465,7 +26465,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-22,Egypt,660000,0
 2021-04-22,El Salvador,632613,24074
 2021-04-22,Equatorial Guinea,47410,8389
-2021-04-22,Estonia,303531,93297
+2021-04-22,Estonia,303531,99443
 2021-04-22,Eswatini,33279,0
 2021-04-22,Ethiopia,430000,0
 2021-04-22,Fiji,56000,0
@@ -26651,7 +26651,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-23,Egypt,660000,0
 2021-04-23,El Salvador,674495,24074
 2021-04-23,Equatorial Guinea,47410,8389
-2021-04-23,Estonia,309230,96508
+2021-04-23,Estonia,309230,102868
 2021-04-23,Eswatini,33532,0
 2021-04-23,Ethiopia,430000,0
 2021-04-23,Fiji,56000,0
@@ -26837,7 +26837,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-24,Egypt,660000,0
 2021-04-24,El Salvador,674495,24074
 2021-04-24,Equatorial Guinea,47410,8389
-2021-04-24,Estonia,310095,98712
+2021-04-24,Estonia,310095,105153
 2021-04-24,Eswatini,33532,0
 2021-04-24,Ethiopia,430000,0
 2021-04-24,Fiji,56000,0
@@ -27023,7 +27023,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-25,Egypt,660000,0
 2021-04-25,El Salvador,674495,24074
 2021-04-25,Equatorial Guinea,47410,8389
-2021-04-25,Estonia,311303,99896
+2021-04-25,Estonia,311303,106392
 2021-04-25,Eswatini,34897,0
 2021-04-25,Ethiopia,430000,0
 2021-04-25,Fiji,56000,0
@@ -27209,7 +27209,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-26,Egypt,660000,0
 2021-04-26,El Salvador,718089,27513
 2021-04-26,Equatorial Guinea,47410,8389
-2021-04-26,Estonia,312756,101674
+2021-04-26,Estonia,312756,108257
 2021-04-26,Eswatini,34897,0
 2021-04-26,Ethiopia,430000,0
 2021-04-26,Fiji,56000,0
@@ -27395,7 +27395,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-27,Egypt,660000,0
 2021-04-27,El Salvador,747918,40255
 2021-04-27,Equatorial Guinea,47410,8389
-2021-04-27,Estonia,316239,105028
+2021-04-27,Estonia,316239,111744
 2021-04-27,Eswatini,34897,0
 2021-04-27,Ethiopia,430000,0
 2021-04-27,Fiji,56000,0
@@ -27581,7 +27581,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-28,Egypt,660000,0
 2021-04-28,El Salvador,775959,58000
 2021-04-28,Equatorial Guinea,64646,10872
-2021-04-28,Estonia,322885,109596
+2021-04-28,Estonia,322885,116616
 2021-04-28,Eswatini,34897,0
 2021-04-28,Ethiopia,1071485,0
 2021-04-28,Fiji,56000,0
@@ -27767,7 +27767,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-29,Egypt,660000,0
 2021-04-29,El Salvador,806790,68279
 2021-04-29,Equatorial Guinea,64646,10872
-2021-04-29,Estonia,331103,116156
+2021-04-29,Estonia,331103,123673
 2021-04-29,Eswatini,34897,0
 2021-04-29,Ethiopia,1099614,0
 2021-04-29,Fiji,56000,0
@@ -27953,7 +27953,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-30,Egypt,660000,0
 2021-04-30,El Salvador,839870,75855
 2021-04-30,Equatorial Guinea,64646,10872
-2021-04-30,Estonia,336726,122396
+2021-04-30,Estonia,336726,130343
 2021-04-30,Eswatini,34897,0
 2021-04-30,Ethiopia,1114500,0
 2021-04-30,Fiji,56000,0
@@ -28139,7 +28139,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-01,Egypt,660000,0
 2021-05-01,El Salvador,839870,75855
 2021-05-01,Equatorial Guinea,64646,10872
-2021-05-01,Estonia,337677,124460
+2021-05-01,Estonia,337677,132471
 2021-05-01,Eswatini,34897,0
 2021-05-01,Ethiopia,1134885,0
 2021-05-01,Fiji,56000,0
@@ -28325,7 +28325,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-02,Egypt,660000,0
 2021-05-02,El Salvador,839870,75855
 2021-05-02,Equatorial Guinea,64646,10872
-2021-05-02,Estonia,339237,125342
+2021-05-02,Estonia,339237,133465
 2021-05-02,Eswatini,34897,0
 2021-05-02,Ethiopia,1141092,0
 2021-05-02,Fiji,56000,0
@@ -28511,7 +28511,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-03,Egypt,660000,0
 2021-05-03,El Salvador,839870,75855
 2021-05-03,Equatorial Guinea,64646,10872
-2021-05-03,Estonia,341564,128761
+2021-05-03,Estonia,341564,137042
 2021-05-03,Eswatini,34897,0
 2021-05-03,Ethiopia,1168268,0
 2021-05-03,Fiji,56000,0
@@ -28697,7 +28697,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-04,Egypt,660000,0
 2021-05-04,El Salvador,890109,101024
 2021-05-04,Equatorial Guinea,64646,10872
-2021-05-04,Estonia,346528,132501
+2021-05-04,Estonia,346528,141046
 2021-05-04,Eswatini,34897,0
 2021-05-04,Ethiopia,1194578,0
 2021-05-04,Fiji,56000,0
@@ -28883,7 +28883,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-05,Egypt,660000,0
 2021-05-05,El Salvador,917399,112488
 2021-05-05,Equatorial Guinea,64646,10872
-2021-05-05,Estonia,353795,138332
+2021-05-05,Estonia,353795,147295
 2021-05-05,Eswatini,34897,0
 2021-05-05,Ethiopia,1215934,0
 2021-05-05,Fiji,56000,0
@@ -29069,7 +29069,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-06,Egypt,660000,0
 2021-05-06,El Salvador,941508,126920
 2021-05-06,Equatorial Guinea,64646,10872
-2021-05-06,Estonia,362413,147288
+2021-05-06,Estonia,362413,156925
 2021-05-06,Eswatini,34897,0
 2021-05-06,Ethiopia,1237826,0
 2021-05-06,Fiji,56000,0
@@ -29255,7 +29255,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-07,Egypt,660000,0
 2021-05-07,El Salvador,958828,155716
 2021-05-07,Equatorial Guinea,64646,10872
-2021-05-07,Estonia,368699,154774
+2021-05-07,Estonia,368699,164942
 2021-05-07,Eswatini,34897,0
 2021-05-07,Ethiopia,1287801,0
 2021-05-07,Fiji,56000,0
@@ -29441,7 +29441,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-08,Egypt,660000,0
 2021-05-08,El Salvador,958828,155716
 2021-05-08,Equatorial Guinea,64646,10872
-2021-05-08,Estonia,371764,157216
+2021-05-08,Estonia,371764,167526
 2021-05-08,Eswatini,34897,0
 2021-05-08,Ethiopia,1290828,0
 2021-05-08,Fiji,56000,0
@@ -29627,7 +29627,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-09,Egypt,1064360,235852
 2021-05-09,El Salvador,958828,155716
 2021-05-09,Equatorial Guinea,64646,10872
-2021-05-09,Estonia,372931,159244
+2021-05-09,Estonia,372931,169650
 2021-05-09,Eswatini,34897,0
 2021-05-09,Ethiopia,1295723,0
 2021-05-09,Fiji,56000,0
@@ -29813,7 +29813,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-10,Egypt,1064360,235852
 2021-05-10,El Salvador,958828,155716
 2021-05-10,Equatorial Guinea,64646,10872
-2021-05-10,Estonia,375122,161371
+2021-05-10,Estonia,375122,171994
 2021-05-10,Eswatini,34897,0
 2021-05-10,Ethiopia,1300775,0
 2021-05-10,Fiji,56000,0
@@ -29999,7 +29999,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-11,Egypt,1133956,238020
 2021-05-11,El Salvador,969970,197702
 2021-05-11,Equatorial Guinea,64646,10872
-2021-05-11,Estonia,378862,163838
+2021-05-11,Estonia,378862,174709
 2021-05-11,Eswatini,34897,0
 2021-05-11,Ethiopia,1360752,0
 2021-05-11,Fiji,93000,0
@@ -30185,7 +30185,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-12,Egypt,1133956,238020
 2021-05-12,El Salvador,969970,197702
 2021-05-12,Equatorial Guinea,64646,10872
-2021-05-12,Estonia,384865,167951
+2021-05-12,Estonia,384865,179309
 2021-05-12,Eswatini,34897,0
 2021-05-12,Ethiopia,1397647,0
 2021-05-12,Fiji,93000,0
@@ -30371,7 +30371,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-13,Egypt,1133956,238020
 2021-05-13,El Salvador,995901,264673
 2021-05-13,Equatorial Guinea,64646,10872
-2021-05-13,Estonia,390690,175068
+2021-05-13,Estonia,390690,187037
 2021-05-13,Eswatini,35227,0
 2021-05-13,Ethiopia,1420251,0
 2021-05-13,Fiji,93000,0
@@ -30557,7 +30557,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-14,Egypt,1133956,238020
 2021-05-14,El Salvador,1012645,297604
 2021-05-14,Equatorial Guinea,64646,10872
-2021-05-14,Estonia,396808,177725
+2021-05-14,Estonia,396808,190286
 2021-05-14,Eswatini,35227,0
 2021-05-14,Ethiopia,1436665,0
 2021-05-14,Fiji,93000,0
@@ -30743,7 +30743,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-15,Egypt,1133956,238020
 2021-05-15,El Salvador,1024727,325860
 2021-05-15,Equatorial Guinea,64646,10872
-2021-05-15,Estonia,399939,178045
+2021-05-15,Estonia,399940,190763
 2021-05-15,Eswatini,35227,0
 2021-05-15,Ethiopia,1454503,0
 2021-05-15,Fiji,93000,0
@@ -30929,7 +30929,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-16,Egypt,1133956,238020
 2021-05-16,El Salvador,1024727,325860
 2021-05-16,Equatorial Guinea,64646,10872
-2021-05-16,Estonia,400871,178074
+2021-05-16,Estonia,400872,190891
 2021-05-16,Eswatini,35227,0
 2021-05-16,Ethiopia,1460021,0
 2021-05-16,Fiji,93000,0
@@ -31115,7 +31115,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-17,Egypt,1133956,238020
 2021-05-17,El Salvador,1036121,366265
 2021-05-17,Equatorial Guinea,64646,10872
-2021-05-17,Estonia,406759,179126
+2021-05-17,Estonia,406760,192805
 2021-05-17,Eswatini,35227,0
 2021-05-17,Ethiopia,1470079,0
 2021-05-17,Fiji,93000,0
@@ -31301,7 +31301,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-18,Egypt,1133956,238020
 2021-05-18,El Salvador,1051425,400508
 2021-05-18,Equatorial Guinea,130641,45129
-2021-05-18,Estonia,412616,181186
+2021-05-18,Estonia,412617,195669
 2021-05-18,Eswatini,35227,0
 2021-05-18,Ethiopia,1484820,0
 2021-05-18,Fiji,93000,0
@@ -31487,7 +31487,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-19,Egypt,1133956,238020
 2021-05-19,El Salvador,1066112,431149
 2021-05-19,Equatorial Guinea,130641,45129
-2021-05-19,Estonia,417842,184944
+2021-05-19,Estonia,417843,200628
 2021-05-19,Eswatini,35227,0
 2021-05-19,Ethiopia,1501724,0
 2021-05-19,Fiji,93000,0
@@ -31673,7 +31673,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-20,Egypt,1133956,238020
 2021-05-20,El Salvador,1079935,463969
 2021-05-20,Equatorial Guinea,130641,45129
-2021-05-20,Estonia,423172,194330
+2021-05-20,Estonia,423175,211426
 2021-05-20,Eswatini,35227,0
 2021-05-20,Ethiopia,1534280,0
 2021-05-20,Fiji,93000,0
@@ -31859,7 +31859,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-21,Egypt,1133956,238020
 2021-05-21,El Salvador,1083936,514905
 2021-05-21,Equatorial Guinea,130641,45129
-2021-05-21,Estonia,429793,202002
+2021-05-21,Estonia,429800,220616
 2021-05-21,Eswatini,35227,0
 2021-05-21,Ethiopia,1584156,0
 2021-05-21,Fiji,93000,0
@@ -32045,7 +32045,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-22,Egypt,1575449,302544
 2021-05-22,El Salvador,1097762,544689
 2021-05-22,Equatorial Guinea,136124,56843
-2021-05-22,Estonia,433893,202760
+2021-05-22,Estonia,433901,222040
 2021-05-22,Eswatini,35227,0
 2021-05-22,Ethiopia,1615117,0
 2021-05-22,Fiji,93000,0
@@ -32231,7 +32231,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-23,Egypt,1653599,308617
 2021-05-23,El Salvador,1097762,544689
 2021-05-23,Equatorial Guinea,136124,56843
-2021-05-23,Estonia,437225,203157
+2021-05-23,Estonia,437233,222754
 2021-05-23,Eswatini,35227,0
 2021-05-23,Ethiopia,1655244,0
 2021-05-23,Fiji,93000,0
@@ -32417,7 +32417,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-24,Egypt,1745841,314146
 2021-05-24,El Salvador,1101172,592011
 2021-05-24,Equatorial Guinea,136124,56843
-2021-05-24,Estonia,441607,204274
+2021-05-24,Estonia,441615,224913
 2021-05-24,Eswatini,35227,0
 2021-05-24,Ethiopia,1684450,0
 2021-05-24,Fiji,93000,0
@@ -32603,7 +32603,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-25,Egypt,1812826,315338
 2021-05-25,El Salvador,1109726,631925
 2021-05-25,Equatorial Guinea,142475,64150
-2021-05-25,Estonia,446589,206311
+2021-05-25,Estonia,446598,227601
 2021-05-25,Eswatini,35227,0
 2021-05-25,Ethiopia,1717481,0
 2021-05-25,Fiji,107014,2913
@@ -32789,7 +32789,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-26,Egypt,1812826,315338
 2021-05-26,El Salvador,1115104,672423
 2021-05-26,Equatorial Guinea,142475,64150
-2021-05-26,Estonia,452375,211934
+2021-05-26,Estonia,452384,234104
 2021-05-26,Eswatini,35227,0
 2021-05-26,Ethiopia,1738550,0
 2021-05-26,Fiji,107014,2913
@@ -32975,7 +32975,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-27,Egypt,1812826,315338
 2021-05-27,El Salvador,1118980,713248
 2021-05-27,Equatorial Guinea,142475,64150
-2021-05-27,Estonia,458111,222363
+2021-05-27,Estonia,458121,245662
 2021-05-27,Eswatini,35227,0
 2021-05-27,Ethiopia,1784722,0
 2021-05-27,Fiji,107014,2913
@@ -33161,7 +33161,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-28,Egypt,1812826,315338
 2021-05-28,El Salvador,1118980,713248
 2021-05-28,Equatorial Guinea,148079,71598
-2021-05-28,Estonia,462864,230104
+2021-05-28,Estonia,462875,255377
 2021-05-28,Eswatini,35227,0
 2021-05-28,Ethiopia,1798140,0
 2021-05-28,Fiji,107014,2913
@@ -33347,7 +33347,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-29,Egypt,2254371,331903
 2021-05-29,El Salvador,1118980,713248
 2021-05-29,Equatorial Guinea,148079,71598
-2021-05-29,Estonia,466698,231479
+2021-05-29,Estonia,466709,257733
 2021-05-29,Eswatini,35227,0
 2021-05-29,Ethiopia,1801175,0
 2021-05-29,Fiji,107014,2913
@@ -33533,7 +33533,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-30,Egypt,2254371,331903
 2021-05-30,El Salvador,1118980,713248
 2021-05-30,Equatorial Guinea,148079,71598
-2021-05-30,Estonia,470229,232484
+2021-05-30,Estonia,470240,259195
 2021-05-30,Eswatini,35227,0
 2021-05-30,Ethiopia,1805006,0
 2021-05-30,Fiji,107014,2913
@@ -33719,7 +33719,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-31,Egypt,2254371,331903
 2021-05-31,El Salvador,1140890,784880
 2021-05-31,Equatorial Guinea,148085,76418
-2021-05-31,Estonia,472531,233898
+2021-05-31,Estonia,472543,261132
 2021-05-31,Eswatini,35227,0
 2021-05-31,Ethiopia,1813739,0
 2021-05-31,Fiji,107014,2913
@@ -33905,7 +33905,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-01,Egypt,2465521,356958
 2021-06-01,El Salvador,1153150,818097
 2021-06-01,Equatorial Guinea,148085,76418
-2021-06-01,Estonia,478280,236720
+2021-06-01,Estonia,478292,265325
 2021-06-01,Eswatini,35227,0
 2021-06-01,Ethiopia,1822343,0
 2021-06-01,Fiji,136247,2913
@@ -34091,7 +34091,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-02,Egypt,2465521,356958
 2021-06-02,El Salvador,1169097,846311
 2021-06-02,Equatorial Guinea,148085,76418
-2021-06-02,Estonia,484040,241936
+2021-06-02,Estonia,484052,271227
 2021-06-02,Eswatini,35227,0
 2021-06-02,Ethiopia,1838569,0
 2021-06-02,Fiji,136247,2913
@@ -34277,7 +34277,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-03,Egypt,2465521,356958
 2021-06-03,El Salvador,1169097,846311
 2021-06-03,Equatorial Guinea,148579,87610
-2021-06-03,Estonia,490159,249826
+2021-06-03,Estonia,490171,279758
 2021-06-03,Eswatini,35227,0
 2021-06-03,Ethiopia,1853259,0
 2021-06-03,Fiji,136247,2913
@@ -34463,7 +34463,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-04,Egypt,2465521,356958
 2021-06-04,El Salvador,1169097,846311
 2021-06-04,Equatorial Guinea,148579,87610
-2021-06-04,Estonia,495185,256437
+2021-06-04,Estonia,495197,287141
 2021-06-04,Eswatini,35227,0
 2021-06-04,Ethiopia,1865958,0
 2021-06-04,Fiji,136247,2913
@@ -34649,7 +34649,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-05,Egypt,2465521,356958
 2021-06-05,El Salvador,1169097,846311
 2021-06-05,Equatorial Guinea,148579,87610
-2021-06-05,Estonia,498639,258186
+2021-06-05,Estonia,498651,290354
 2021-06-05,Eswatini,35227,0
 2021-06-05,Ethiopia,1878367,0
 2021-06-05,Fiji,136247,2913
@@ -34835,7 +34835,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-06,Egypt,2465521,356958
 2021-06-06,El Salvador,1169097,846311
 2021-06-06,Equatorial Guinea,148579,87610
-2021-06-06,Estonia,500257,261785
+2021-06-06,Estonia,500269,294088
 2021-06-06,Eswatini,35227,0
 2021-06-06,Ethiopia,1882719,0
 2021-06-06,Fiji,136247,2913
@@ -35021,7 +35021,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-07,Egypt,2465521,356958
 2021-06-07,El Salvador,1245684,901540
 2021-06-07,Equatorial Guinea,148579,87610
-2021-06-07,Estonia,503235,265087
+2021-06-07,Estonia,503247,297964
 2021-06-07,Eswatini,35227,0
 2021-06-07,Ethiopia,1888214,0
 2021-06-07,Fiji,136247,2913
@@ -35207,7 +35207,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-08,Egypt,2465521,356958
 2021-06-08,El Salvador,1245684,901540
 2021-06-08,Equatorial Guinea,148579,87610
-2021-06-08,Estonia,507461,270438
+2021-06-08,Estonia,507473,303918
 2021-06-08,Eswatini,35227,0
 2021-06-08,Ethiopia,1894717,0
 2021-06-08,Fiji,218830,4599
@@ -35393,7 +35393,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-09,Egypt,2820175,520041
 2021-06-09,El Salvador,1300747,930618
 2021-06-09,Equatorial Guinea,148579,87610
-2021-06-09,Estonia,511807,279564
+2021-06-09,Estonia,511819,313621
 2021-06-09,Eswatini,35227,0
 2021-06-09,Ethiopia,1901363,0
 2021-06-09,Fiji,218830,4599
@@ -35579,7 +35579,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-10,Egypt,2820175,520041
 2021-06-10,El Salvador,1300747,930618
 2021-06-10,Equatorial Guinea,148579,98649
-2021-06-10,Estonia,516137,290176
+2021-06-10,Estonia,516152,324769
 2021-06-10,Eswatini,35227,0
 2021-06-10,Ethiopia,1920676,0
 2021-06-10,Fiji,218830,4599
@@ -35765,7 +35765,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-11,Egypt,2820175,520041
 2021-06-11,El Salvador,1345716,965208
 2021-06-11,Equatorial Guinea,148579,98649
-2021-06-11,Estonia,519558,298633
+2021-06-11,Estonia,519573,333686
 2021-06-11,Eswatini,35227,0
 2021-06-11,Ethiopia,1932522,0
 2021-06-11,Fiji,218830,4599
@@ -35951,7 +35951,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-12,Egypt,2931715,575045
 2021-06-12,El Salvador,1345716,965208
 2021-06-12,Equatorial Guinea,148579,99605
-2021-06-12,Estonia,521761,303262
+2021-06-12,Estonia,521776,338444
 2021-06-12,Eswatini,35227,0
 2021-06-12,Ethiopia,1936566,0
 2021-06-12,Fiji,218830,4599
@@ -36137,7 +36137,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-13,Egypt,2931715,575045
 2021-06-13,El Salvador,1345716,965208
 2021-06-13,Equatorial Guinea,148579,99605
-2021-06-13,Estonia,523450,306149
+2021-06-13,Estonia,523465,341430
 2021-06-13,Eswatini,35227,0
 2021-06-13,Ethiopia,1939970,0
 2021-06-13,Fiji,218830,4599
@@ -36323,7 +36323,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-14,Egypt,3078964,668014
 2021-06-14,El Salvador,1345716,965208
 2021-06-14,Equatorial Guinea,148579,99605
-2021-06-14,Estonia,526606,310753
+2021-06-14,Estonia,526621,346497
 2021-06-14,Eswatini,35227,0
 2021-06-14,Ethiopia,1948073,0
 2021-06-14,Fiji,218830,4599
@@ -36509,7 +36509,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-15,Egypt,3078964,668014
 2021-06-15,El Salvador,1384489,1004438
 2021-06-15,Equatorial Guinea,148579,106451
-2021-06-15,Estonia,530052,317864
+2021-06-15,Estonia,530068,353954
 2021-06-15,Eswatini,35227,0
 2021-06-15,Ethiopia,1954623,0
 2021-06-15,Fiji,237940,4599
@@ -36695,7 +36695,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-16,Egypt,3117818,676889
 2021-06-16,El Salvador,1407787,1019670
 2021-06-16,Equatorial Guinea,148579,106451
-2021-06-16,Estonia,532977,328182
+2021-06-16,Estonia,532994,364765
 2021-06-16,Eswatini,35227,0
 2021-06-16,Ethiopia,1962486,0
 2021-06-16,Fiji,237940,4599
@@ -36881,7 +36881,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-17,Egypt,3117818,676889
 2021-06-17,El Salvador,1407787,1019670
 2021-06-17,Equatorial Guinea,148579,108567
-2021-06-17,Estonia,535891,339394
+2021-06-17,Estonia,535908,376449
 2021-06-17,Eswatini,35227,0
 2021-06-17,Ethiopia,1964005,0
 2021-06-17,Fiji,237940,4599
@@ -37067,7 +37067,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-18,Egypt,3117818,676889
 2021-06-18,El Salvador,1425927,1040634
 2021-06-18,Equatorial Guinea,148579,108567
-2021-06-18,Estonia,540371,348956
+2021-06-18,Estonia,540388,387855
 2021-06-18,Eswatini,35227,0
 2021-06-18,Ethiopia,1974476,0
 2021-06-18,Fiji,237940,4599
@@ -37253,7 +37253,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-19,Egypt,3117818,676889
 2021-06-19,El Salvador,1425927,1040634
 2021-06-19,Equatorial Guinea,148579,108567
-2021-06-19,Estonia,541997,353594
+2021-06-19,Estonia,542014,392733
 2021-06-19,Eswatini,35227,0
 2021-06-19,Ethiopia,1975727,0
 2021-06-19,Fiji,237940,4599
@@ -37439,7 +37439,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-20,Egypt,3315854,694613
 2021-06-20,El Salvador,1425927,1040634
 2021-06-20,Equatorial Guinea,148579,108567
-2021-06-20,Estonia,543771,355862
+2021-06-20,Estonia,543788,395364
 2021-06-20,Eswatini,35227,0
 2021-06-20,Ethiopia,1975957,0
 2021-06-20,Fiji,237940,4599
@@ -37625,7 +37625,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-21,Egypt,3315854,694613
 2021-06-21,El Salvador,1445369,1060888
 2021-06-21,Equatorial Guinea,148579,108567
-2021-06-21,Estonia,546667,361585
+2021-06-21,Estonia,546684,401893
 2021-06-21,Eswatini,35227,0
 2021-06-21,Ethiopia,1975957,0
 2021-06-21,Fiji,256018,17990
@@ -37811,7 +37811,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-22,Egypt,3315854,694613
 2021-06-22,El Salvador,1475388,1070928
 2021-06-22,Equatorial Guinea,148579,108567
-2021-06-22,Estonia,548491,365627
+2021-06-22,Estonia,548508,406242
 2021-06-22,Eswatini,35227,0
 2021-06-22,Ethiopia,1982320,0
 2021-06-22,Fiji,256018,17990
@@ -37997,7 +37997,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-23,Egypt,3418331,720604
 2021-06-23,El Salvador,1508453,1078069
 2021-06-23,Equatorial Guinea,149185,110295
-2021-06-23,Estonia,548494,365750
+2021-06-23,Estonia,548511,406365
 2021-06-23,Eswatini,36227,8078
 2021-06-23,Ethiopia,1987301,0
 2021-06-23,Fiji,256018,17990
@@ -38183,7 +38183,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-24,Egypt,3418331,720604
 2021-06-24,El Salvador,1508453,1078069
 2021-06-24,Equatorial Guinea,149185,110295
-2021-06-24,Estonia,548530,365890
+2021-06-24,Estonia,548547,406523
 2021-06-24,Eswatini,36227,8078
 2021-06-24,Ethiopia,1987927,0
 2021-06-24,Fiji,256018,17990
@@ -38369,7 +38369,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-25,Egypt,3418331,720604
 2021-06-25,El Salvador,1585582,1089023
 2021-06-25,Equatorial Guinea,149185,111343
-2021-06-25,Estonia,550541,371524
+2021-06-25,Estonia,550558,412538
 2021-06-25,Eswatini,37028,9768
 2021-06-25,Ethiopia,1988335,0
 2021-06-25,Fiji,256018,17990
@@ -38555,7 +38555,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-26,Egypt,3418331,720604
 2021-06-26,El Salvador,1585582,1089023
 2021-06-26,Equatorial Guinea,149185,111343
-2021-06-26,Estonia,551689,374833
+2021-06-26,Estonia,551706,416191
 2021-06-26,Eswatini,37231,10392
 2021-06-26,Ethiopia,1988902,0
 2021-06-26,Fiji,256018,17990
@@ -38741,7 +38741,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-27,Egypt,3489503,763894
 2021-06-27,El Salvador,1585582,1089023
 2021-06-27,Equatorial Guinea,149185,111343
-2021-06-27,Estonia,552912,378035
+2021-06-27,Estonia,552929,419712
 2021-06-27,Eswatini,37231,10392
 2021-06-27,Ethiopia,1989297,0
 2021-06-27,Fiji,256018,17990
@@ -38927,7 +38927,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-28,Egypt,3502181,780460
 2021-06-28,El Salvador,1585582,1089023
 2021-06-28,Equatorial Guinea,150363,114490
-2021-06-28,Estonia,554835,383592
+2021-06-28,Estonia,554852,425861
 2021-06-28,Eswatini,37231,10392
 2021-06-28,Ethiopia,2003226,0
 2021-06-28,Fiji,256018,17990
@@ -39113,7 +39113,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-29,Egypt,3502181,780460
 2021-06-29,El Salvador,1585582,1089023
 2021-06-29,Equatorial Guinea,150363,114490
-2021-06-29,Estonia,557015,389820
+2021-06-29,Estonia,557032,432468
 2021-06-29,Eswatini,37231,10392
 2021-06-29,Ethiopia,2010091,0
 2021-06-29,Fiji,278954,43345
@@ -39299,7 +39299,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-30,Egypt,3502181,780460
 2021-06-30,El Salvador,1585582,1089023
 2021-06-30,Equatorial Guinea,150609,114501
-2021-06-30,Estonia,559446,396253
+2021-06-30,Estonia,559464,439481
 2021-06-30,Eswatini,37231,10392
 2021-06-30,Ethiopia,2019163,0
 2021-06-30,Fiji,278954,43345
@@ -39485,7 +39485,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-01,Egypt,3502181,780460
 2021-07-01,El Salvador,1703849,1142328
 2021-07-01,Equatorial Guinea,150609,114501
-2021-07-01,Estonia,561836,401251
+2021-07-01,Estonia,561854,444988
 2021-07-01,Eswatini,37231,10392
 2021-07-01,Ethiopia,2022116,0
 2021-07-01,Fiji,278954,43345
@@ -39671,7 +39671,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-02,Egypt,3502181,780460
 2021-07-02,El Salvador,1727992,1162511
 2021-07-02,Equatorial Guinea,150609,114501
-2021-07-02,Estonia,564181,406307
+2021-07-02,Estonia,564201,450721
 2021-07-02,Eswatini,37231,10392
 2021-07-02,Ethiopia,2029761,0
 2021-07-02,Fiji,278954,43345
@@ -39857,7 +39857,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-03,Egypt,3502181,780460
 2021-07-03,El Salvador,1727992,1162511
 2021-07-03,Equatorial Guinea,150609,114501
-2021-07-03,Estonia,565521,409998
+2021-07-03,Estonia,565541,455003
 2021-07-03,Eswatini,37231,10392
 2021-07-03,Ethiopia,2034764,0
 2021-07-03,Fiji,278954,43345
@@ -40043,7 +40043,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-04,Egypt,3560795,881307
 2021-07-04,El Salvador,1727992,1162511
 2021-07-04,Equatorial Guinea,150609,114501
-2021-07-04,Estonia,566873,414170
+2021-07-04,Estonia,566893,459924
 2021-07-04,Eswatini,37231,10392
 2021-07-04,Ethiopia,2036792,0
 2021-07-04,Fiji,278954,43345
@@ -40229,7 +40229,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-05,Egypt,3560795,881307
 2021-07-05,El Salvador,1727992,1162511
 2021-07-05,Equatorial Guinea,155073,115768
-2021-07-05,Estonia,569407,416253
+2021-07-05,Estonia,569428,462495
 2021-07-05,Eswatini,37231,10392
 2021-07-05,Ethiopia,2047751,0
 2021-07-05,Fiji,278954,43345
@@ -40415,7 +40415,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-06,Egypt,3568042,929877
 2021-07-06,El Salvador,1775190,1209742
 2021-07-06,Equatorial Guinea,155073,115768
-2021-07-06,Estonia,571978,422027
+2021-07-06,Estonia,571999,468781
 2021-07-06,Eswatini,37402,11124
 2021-07-06,Ethiopia,2049573,0
 2021-07-06,Fiji,324462,54737
@@ -40601,7 +40601,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-07,Egypt,3576269,953615
 2021-07-07,El Salvador,1775190,1209742
 2021-07-07,Equatorial Guinea,160525,116517
-2021-07-07,Estonia,574482,426122
+2021-07-07,Estonia,574503,473495
 2021-07-07,Eswatini,37558,13893
 2021-07-07,Ethiopia,2053298,0
 2021-07-07,Fiji,324462,54737
@@ -40787,7 +40787,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-08,Egypt,3580443,979639
 2021-07-08,El Salvador,1891203,1245721
 2021-07-08,Equatorial Guinea,160525,116517
-2021-07-08,Estonia,577137,431574
+2021-07-08,Estonia,577158,479529
 2021-07-08,Eswatini,37558,13893
 2021-07-08,Ethiopia,2055126,0
 2021-07-08,Fiji,324462,54737
@@ -40973,7 +40973,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-09,Egypt,3580443,979639
 2021-07-09,El Salvador,1951564,1261316
 2021-07-09,Equatorial Guinea,160525,116517
-2021-07-09,Estonia,580010,435328
+2021-07-09,Estonia,580031,483969
 2021-07-09,Eswatini,37558,13893
 2021-07-09,Ethiopia,2055593,0
 2021-07-09,Fiji,324462,54737
@@ -41159,7 +41159,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-10,Egypt,3580443,979639
 2021-07-10,El Salvador,1951564,1261316
 2021-07-10,Equatorial Guinea,161870,117082
-2021-07-10,Estonia,581564,437047
+2021-07-10,Estonia,581585,486154
 2021-07-10,Eswatini,37558,13893
 2021-07-10,Ethiopia,2058122,0
 2021-07-10,Fiji,324462,54737
@@ -41345,7 +41345,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-11,Egypt,3580443,979639
 2021-07-11,El Salvador,1951564,1261316
 2021-07-11,Equatorial Guinea,161870,117082
-2021-07-11,Estonia,583133,440224
+2021-07-11,Estonia,583154,489530
 2021-07-11,Eswatini,37558,13893
 2021-07-11,Ethiopia,2058333,0
 2021-07-11,Fiji,324462,54737
@@ -41531,7 +41531,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-12,Egypt,3627345,1428958
 2021-07-12,El Salvador,2011356,1272637
 2021-07-12,Equatorial Guinea,161870,117082
-2021-07-12,Estonia,584975,442844
+2021-07-12,Estonia,584996,492680
 2021-07-12,Eswatini,37558,13893
 2021-07-12,Ethiopia,2062456,0
 2021-07-12,Fiji,324462,54737
@@ -41717,7 +41717,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-13,Egypt,3627345,1428958
 2021-07-13,El Salvador,2064686,1288097
 2021-07-13,Equatorial Guinea,161988,117124
-2021-07-13,Estonia,587420,447036
+2021-07-13,Estonia,587442,497555
 2021-07-13,Eswatini,37558,13893
 2021-07-13,Ethiopia,2064777,0
 2021-07-13,Fiji,353355,66643
@@ -41903,7 +41903,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-14,Egypt,3627345,1428958
 2021-07-14,El Salvador,2118271,1303943
 2021-07-14,Equatorial Guinea,161988,117124
-2021-07-14,Estonia,589681,451910
+2021-07-14,Estonia,589703,503017
 2021-07-14,Eswatini,37997,22072
 2021-07-14,Ethiopia,2077549,0
 2021-07-14,Fiji,353355,66643
@@ -42089,7 +42089,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-15,Egypt,3627345,1428958
 2021-07-15,El Salvador,2118271,1303943
 2021-07-15,Equatorial Guinea,161988,117124
-2021-07-15,Estonia,592659,456430
+2021-07-15,Estonia,592682,508738
 2021-07-15,Eswatini,37997,22072
 2021-07-15,Ethiopia,2090997,0
 2021-07-15,Fiji,353355,66643
@@ -42275,7 +42275,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-16,Egypt,3627345,1428958
 2021-07-16,El Salvador,2239434,1323958
 2021-07-16,Equatorial Guinea,161988,117124
-2021-07-16,Estonia,594655,459425
+2021-07-16,Estonia,594678,512582
 2021-07-16,Eswatini,37997,22072
 2021-07-16,Ethiopia,2111842,0
 2021-07-16,Fiji,353355,66643
@@ -42461,7 +42461,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-17,Egypt,3627345,1428958
 2021-07-17,El Salvador,2239434,1323958
 2021-07-17,Equatorial Guinea,170583,117979
-2021-07-17,Estonia,595925,460031
+2021-07-17,Estonia,595948,513659
 2021-07-17,Eswatini,37997,22072
 2021-07-17,Ethiopia,2129768,0
 2021-07-17,Fiji,353355,66643
@@ -42647,7 +42647,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-18,Egypt,3627345,1428958
 2021-07-18,El Salvador,2239434,1323958
 2021-07-18,Equatorial Guinea,170583,117979
-2021-07-18,Estonia,598969,461319
+2021-07-18,Estonia,598992,515713
 2021-07-18,Eswatini,38169,25256
 2021-07-18,Ethiopia,2129768,0
 2021-07-18,Fiji,353355,66643
@@ -42833,7 +42833,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-19,Egypt,3627345,1428958
 2021-07-19,El Salvador,2300055,1338206
 2021-07-19,Equatorial Guinea,170583,117979
-2021-07-19,Estonia,602084,464052
+2021-07-19,Estonia,602107,519432
 2021-07-19,Eswatini,38169,25256
 2021-07-19,Ethiopia,2129768,0
 2021-07-19,Fiji,353355,66643
@@ -43019,7 +43019,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-20,Egypt,3627345,1428958
 2021-07-20,El Salvador,2354228,1356475
 2021-07-20,Equatorial Guinea,170583,117979
-2021-07-20,Estonia,605385,468905
+2021-07-20,Estonia,605408,525171
 2021-07-20,Eswatini,38169,25256
 2021-07-20,Ethiopia,2144550,0
 2021-07-20,Fiji,393095,78624
@@ -43205,7 +43205,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-21,Egypt,3627345,1428958
 2021-07-21,El Salvador,2411606,1372767
 2021-07-21,Equatorial Guinea,174001,119701
-2021-07-21,Estonia,608441,472748
+2021-07-21,Estonia,608464,529729
 2021-07-21,Eswatini,38326,27341
 2021-07-21,Ethiopia,2144550,0
 2021-07-21,Fiji,393095,78624
@@ -43391,7 +43391,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-22,Egypt,3627345,1428958
 2021-07-22,El Salvador,2468324,1392537
 2021-07-22,Equatorial Guinea,174001,119701
-2021-07-22,Estonia,612218,476708
+2021-07-22,Estonia,612242,534976
 2021-07-22,Eswatini,38326,27341
 2021-07-22,Ethiopia,2155657,0
 2021-07-22,Fiji,393095,78624
@@ -43577,7 +43577,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-23,Egypt,3627345,1428958
 2021-07-23,El Salvador,2527604,1409999
 2021-07-23,Equatorial Guinea,174001,119701
-2021-07-23,Estonia,616399,479953
+2021-07-23,Estonia,616423,539189
 2021-07-23,Eswatini,38326,27341
 2021-07-23,Ethiopia,2160707,0
 2021-07-23,Fiji,393095,78624
@@ -43763,7 +43763,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-24,Egypt,3627345,1428958
 2021-07-24,El Salvador,2527604,1409999
 2021-07-24,Equatorial Guinea,178913,122500
-2021-07-24,Estonia,618748,480947
+2021-07-24,Estonia,618772,540831
 2021-07-24,Eswatini,38326,27341
 2021-07-24,Ethiopia,2171831,0
 2021-07-24,Fiji,393095,78624
@@ -43949,7 +43949,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-25,Egypt,3696996,1607705
 2021-07-25,El Salvador,2527604,1409999
 2021-07-25,Equatorial Guinea,178913,122500
-2021-07-25,Estonia,621012,481899
+2021-07-25,Estonia,621037,542497
 2021-07-25,Eswatini,38326,27341
 2021-07-25,Ethiopia,2175114,0
 2021-07-25,Fiji,393095,78624
@@ -44135,7 +44135,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-26,Egypt,3697974,1639532
 2021-07-26,El Salvador,2592926,1424279
 2021-07-26,Equatorial Guinea,178913,122500
-2021-07-26,Estonia,624238,484264
+2021-07-26,Estonia,624264,545727
 2021-07-26,Eswatini,38326,27341
 2021-07-26,Ethiopia,2179990,0
 2021-07-26,Fiji,393095,78624
@@ -44321,7 +44321,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-27,Egypt,3697974,1639532
 2021-07-27,El Salvador,2653346,1440285
 2021-07-27,Equatorial Guinea,178913,122500
-2021-07-27,Estonia,626894,487742
+2021-07-27,Estonia,626920,549842
 2021-07-27,Eswatini,38326,27341
 2021-07-27,Ethiopia,2184338,0
 2021-07-27,Fiji,441171,97268
@@ -44507,7 +44507,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-28,Egypt,3697974,1639532
 2021-07-28,El Salvador,2710883,1457048
 2021-07-28,Equatorial Guinea,178913,122500
-2021-07-28,Estonia,629962,490194
+2021-07-28,Estonia,629988,553049
 2021-07-28,Eswatini,38326,27341
 2021-07-28,Ethiopia,2197813,0
 2021-07-28,Fiji,441171,97268
@@ -44693,7 +44693,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-29,Egypt,3697974,1639532
 2021-07-29,El Salvador,2763989,1473747
 2021-07-29,Equatorial Guinea,179210,127055
-2021-07-29,Estonia,633366,492011
+2021-07-29,Estonia,633393,555454
 2021-07-29,Eswatini,38326,27341
 2021-07-29,Ethiopia,2204417,0
 2021-07-29,Fiji,441171,97268
@@ -44879,7 +44879,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-30,Egypt,3697974,1639532
 2021-07-30,El Salvador,2821728,1487461
 2021-07-30,Equatorial Guinea,179210,127055
-2021-07-30,Estonia,636585,493931
+2021-07-30,Estonia,636613,558010
 2021-07-30,Eswatini,38326,27341
 2021-07-30,Ethiopia,2216338,0
 2021-07-30,Fiji,441171,97268
@@ -45065,7 +45065,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-31,Egypt,3697974,1639532
 2021-07-31,El Salvador,2821728,1487461
 2021-07-31,Equatorial Guinea,179210,127055
-2021-07-31,Estonia,638640,494839
+2021-07-31,Estonia,638668,559495
 2021-07-31,Eswatini,38326,27341
 2021-07-31,Ethiopia,2217097,0
 2021-07-31,Fiji,441171,97268
@@ -45251,7 +45251,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-01,Egypt,3783581,1786973
 2021-08-01,El Salvador,2821728,1487461
 2021-08-01,Equatorial Guinea,179210,127055
-2021-08-01,Estonia,640619,495649
+2021-08-01,Estonia,640647,560840
 2021-08-01,Eswatini,38326,27341
 2021-08-01,Ethiopia,2217097,0
 2021-08-01,Fiji,441171,97268
@@ -45437,7 +45437,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-02,Egypt,3783581,1786973
 2021-08-02,El Salvador,2896621,1497789
 2021-08-02,Equatorial Guinea,180420,128438
-2021-08-02,Estonia,644449,497725
+2021-08-02,Estonia,644491,563548
 2021-08-02,Eswatini,38734,27674
 2021-08-02,Ethiopia,2221206,0
 2021-08-02,Fiji,484629,144194
@@ -45623,7 +45623,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-03,Egypt,3783581,1786973
 2021-08-03,El Salvador,2933053,1549195
 2021-08-03,Equatorial Guinea,180420,128438
-2021-08-03,Estonia,648745,499684
+2021-08-03,Estonia,648787,566362
 2021-08-03,Eswatini,43734,32665
 2021-08-03,Ethiopia,2227813,0
 2021-08-03,Fiji,484629,144194
@@ -45809,7 +45809,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-04,Egypt,3783581,1786973
 2021-08-04,El Salvador,2966136,1612170
 2021-08-04,Equatorial Guinea,181290,130488
-2021-08-04,Estonia,653462,501125
+2021-08-04,Estonia,653505,569177
 2021-08-04,Eswatini,49529,38469
 2021-08-04,Ethiopia,2250893,0
 2021-08-04,Fiji,484629,144194
@@ -45995,7 +45995,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-05,Egypt,3840732,1808590
 2021-08-05,El Salvador,3034231,1630122
 2021-08-05,Equatorial Guinea,181290,130488
-2021-08-05,Estonia,657407,502577
+2021-08-05,Estonia,657450,571617
 2021-08-05,Eswatini,57503,46443
 2021-08-05,Ethiopia,2254270,0
 2021-08-05,Fiji,484629,144194
@@ -46181,7 +46181,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-06,Egypt,3840732,1808590
 2021-08-06,El Salvador,3034231,1630122
 2021-08-06,Equatorial Guinea,181290,130488
-2021-08-06,Estonia,662371,504360
+2021-08-06,Estonia,662415,574586
 2021-08-06,Eswatini,65243,54183
 2021-08-06,Ethiopia,2267254,0
 2021-08-06,Fiji,484629,144194
@@ -46367,7 +46367,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-07,Egypt,3840732,1808590
 2021-08-07,El Salvador,3034231,1630122
 2021-08-07,Equatorial Guinea,182152,132137
-2021-08-07,Estonia,664999,505276
+2021-08-07,Estonia,665044,576204
 2021-08-07,Eswatini,65243,54183
 2021-08-07,Ethiopia,2267254,0
 2021-08-07,Fiji,484629,144194
@@ -46553,7 +46553,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-08,Egypt,3840732,1808590
 2021-08-08,El Salvador,3034231,1630122
 2021-08-08,Equatorial Guinea,182152,132137
-2021-08-08,Estonia,666719,505624
+2021-08-08,Estonia,666765,576952
 2021-08-08,Eswatini,65243,54183
 2021-08-08,Ethiopia,2270390,0
 2021-08-08,Fiji,484629,144194
@@ -46739,7 +46739,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-09,Egypt,3840732,1808590
 2021-08-09,El Salvador,3062555,1700524
 2021-08-09,Equatorial Guinea,182152,132137
-2021-08-09,Estonia,670608,507243
+2021-08-09,Estonia,670663,579665
 2021-08-09,Eswatini,73612,62552
 2021-08-09,Ethiopia,2286107,0
 2021-08-09,Fiji,512282,178606
@@ -46925,7 +46925,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-10,Egypt,3883927,1866622
 2021-08-10,El Salvador,3093546,1765055
 2021-08-10,Equatorial Guinea,182152,132137
-2021-08-10,Estonia,674828,509176
+2021-08-10,Estonia,674883,582715
 2021-08-10,Eswatini,80129,69069
 2021-08-10,Ethiopia,2291339,0
 2021-08-10,Fiji,512282,178606
@@ -47111,7 +47111,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-11,Egypt,3883927,1866622
 2021-08-11,El Salvador,3133669,1817323
 2021-08-11,Equatorial Guinea,182152,132137
-2021-08-11,Estonia,678766,510962
+2021-08-11,Estonia,678821,585362
 2021-08-11,Eswatini,87590,76530
 2021-08-11,Ethiopia,2297485,0
 2021-08-11,Fiji,512282,178606
@@ -47297,7 +47297,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-12,Egypt,3883927,1866622
 2021-08-12,El Salvador,3170859,1875122
 2021-08-12,Equatorial Guinea,186356,136091
-2021-08-12,Estonia,682533,512889
+2021-08-12,Estonia,682590,587997
 2021-08-12,Eswatini,96175,85115
 2021-08-12,Ethiopia,2302496,0
 2021-08-12,Fiji,512282,178606
@@ -47483,7 +47483,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-13,Egypt,3883927,1866622
 2021-08-13,El Salvador,3213935,1929977
 2021-08-13,Equatorial Guinea,186356,136091
-2021-08-13,Estonia,686502,514848
+2021-08-13,Estonia,686560,590895
 2021-08-13,Eswatini,96175,93731
 2021-08-13,Ethiopia,2311076,0
 2021-08-13,Fiji,512282,178606
@@ -47669,7 +47669,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-14,Egypt,3883927,1866622
 2021-08-14,El Salvador,3213935,1929977
 2021-08-14,Equatorial Guinea,186356,136091
-2021-08-14,Estonia,689317,516615
+2021-08-14,Estonia,689375,593315
 2021-08-14,Eswatini,96175,100126
 2021-08-14,Ethiopia,2311076,0
 2021-08-14,Fiji,512282,178606
@@ -47855,7 +47855,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-15,Egypt,3883927,1866622
 2021-08-15,El Salvador,3213935,1929977
 2021-08-15,Equatorial Guinea,186356,136091
-2021-08-15,Estonia,690890,517416
+2021-08-15,Estonia,690948,594430
 2021-08-15,Eswatini,96175,102504
 2021-08-15,Ethiopia,2311076,0
 2021-08-15,Fiji,512282,178606
@@ -48041,7 +48041,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-16,Egypt,4319631,2157904
 2021-08-16,El Salvador,3242244,1992941
 2021-08-16,Equatorial Guinea,187837,137612
-2021-08-16,Estonia,694128,519583
+2021-08-16,Estonia,694186,597309
 2021-08-16,Eswatini,96175,102749
 2021-08-16,Ethiopia,2314394,0
 2021-08-16,Fiji,533705,211496
@@ -48227,7 +48227,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-17,Egypt,4319631,2157904
 2021-08-17,El Salvador,3273631,2053820
 2021-08-17,Equatorial Guinea,187837,137612
-2021-08-17,Estonia,697016,521591
+2021-08-17,Estonia,697075,599829
 2021-08-17,Eswatini,96175,109596
 2021-08-17,Ethiopia,2326531,0
 2021-08-17,Fiji,533705,211496
@@ -48413,7 +48413,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-18,Egypt,4319631,2157904
 2021-08-18,El Salvador,3306114,2111079
 2021-08-18,Equatorial Guinea,189524,139705
-2021-08-18,Estonia,700273,523617
+2021-08-18,Estonia,700333,602370
 2021-08-18,Eswatini,96175,109596
 2021-08-18,Ethiopia,2326531,0
 2021-08-18,Fiji,533705,211496
@@ -48599,7 +48599,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-19,Egypt,4319631,2157904
 2021-08-19,El Salvador,3324137,2185430
 2021-08-19,Equatorial Guinea,189524,139705
-2021-08-19,Estonia,703538,526130
+2021-08-19,Estonia,703599,605600
 2021-08-19,Eswatini,96175,109596
 2021-08-19,Ethiopia,2326531,0
 2021-08-19,Fiji,533705,211496
@@ -48785,7 +48785,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-20,Egypt,4319631,2157904
 2021-08-20,El Salvador,3341998,2260225
 2021-08-20,Equatorial Guinea,189524,139705
-2021-08-20,Estonia,704376,526712
+2021-08-20,Estonia,704437,606329
 2021-08-20,Eswatini,96175,109596
 2021-08-20,Ethiopia,2326531,0
 2021-08-20,Fiji,533705,211496
@@ -48971,7 +48971,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-21,Egypt,4319631,2157904
 2021-08-21,El Salvador,3341998,2260225
 2021-08-21,Equatorial Guinea,190481,141326
-2021-08-21,Estonia,706223,527664
+2021-08-21,Estonia,706285,607541
 2021-08-21,Eswatini,96175,109596
 2021-08-21,Ethiopia,2326531,0
 2021-08-21,Fiji,533705,211496
@@ -49157,7 +49157,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-22,Egypt,4319631,2157904
 2021-08-22,El Salvador,3341998,2260225
 2021-08-22,Equatorial Guinea,190481,141326
-2021-08-22,Estonia,707409,527883
+2021-08-22,Estonia,707471,607942
 2021-08-22,Eswatini,96175,109596
 2021-08-22,Ethiopia,2326531,0
 2021-08-22,Fiji,533705,211496
@@ -49343,7 +49343,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-23,Egypt,4319631,2157904
 2021-08-23,El Salvador,3362515,2338332
 2021-08-23,Equatorial Guinea,190481,141326
-2021-08-23,Estonia,709797,529620
+2021-08-23,Estonia,709861,610039
 2021-08-23,Eswatini,96175,109596
 2021-08-23,Ethiopia,2326531,0
 2021-08-23,Fiji,543254,234905
@@ -49529,7 +49529,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-24,Egypt,4319631,2157904
 2021-08-24,El Salvador,3383511,2410750
 2021-08-24,Equatorial Guinea,192792,143787
-2021-08-24,Estonia,712102,531490
+2021-08-24,Estonia,712167,612271
 2021-08-24,Eswatini,96175,109596
 2021-08-24,Ethiopia,2326531,0
 2021-08-24,Fiji,543254,234905
@@ -49715,7 +49715,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-25,Egypt,5109996,2894590
 2021-08-25,El Salvador,3410745,2485544
 2021-08-25,Equatorial Guinea,192792,143787
-2021-08-25,Estonia,714681,533447
+2021-08-25,Estonia,714746,614757
 2021-08-25,Eswatini,96175,109596
 2021-08-25,Ethiopia,2326531,0
 2021-08-25,Fiji,543254,234905
@@ -49901,7 +49901,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-26,Egypt,5109996,2894590
 2021-08-26,El Salvador,3410745,2485544
 2021-08-26,Equatorial Guinea,192792,143787
-2021-08-26,Estonia,716758,535097
+2021-08-26,Estonia,716824,616770
 2021-08-26,Eswatini,96175,109596
 2021-08-26,Ethiopia,2326531,0
 2021-08-26,Fiji,543254,234905
@@ -50087,7 +50087,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-27,Egypt,5616607,3124398
 2021-08-27,El Salvador,3478958,2625944
 2021-08-27,Equatorial Guinea,197657,148062
-2021-08-27,Estonia,719636,537029
+2021-08-27,Estonia,719702,619206
 2021-08-27,Eswatini,96175,109596
 2021-08-27,Ethiopia,2326531,0
 2021-08-27,Fiji,543254,234905
@@ -50273,7 +50273,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-28,Egypt,5616607,3124398
 2021-08-28,El Salvador,3478958,2625944
 2021-08-28,Equatorial Guinea,197657,148062
-2021-08-28,Estonia,721908,538429
+2021-08-28,Estonia,721974,621072
 2021-08-28,Eswatini,96175,109596
 2021-08-28,Ethiopia,2326531,0
 2021-08-28,Fiji,543254,234905
@@ -50459,7 +50459,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-29,Egypt,5616607,3124398
 2021-08-29,El Salvador,3478958,2625944
 2021-08-29,Equatorial Guinea,197657,148062
-2021-08-29,Estonia,723785,540310
+2021-08-29,Estonia,723852,623222
 2021-08-29,Eswatini,96175,109596
 2021-08-29,Ethiopia,2326531,0
 2021-08-29,Fiji,543254,234905
@@ -50645,7 +50645,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-30,Egypt,5616607,3124398
 2021-08-30,El Salvador,3501844,2706050
 2021-08-30,Equatorial Guinea,197657,148062
-2021-08-30,Estonia,725590,542362
+2021-08-30,Estonia,725657,625629
 2021-08-30,Eswatini,96175,109596
 2021-08-30,Ethiopia,2326531,0
 2021-08-30,Fiji,543254,234905
@@ -50831,7 +50831,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-31,Egypt,5616607,3124398
 2021-08-31,El Salvador,3539933,2758428
 2021-08-31,Equatorial Guinea,197657,148062
-2021-08-31,Estonia,727406,545613
+2021-08-31,Estonia,727473,629207
 2021-08-31,Eswatini,96175,109596
 2021-08-31,Ethiopia,2326531,0
 2021-08-31,Fiji,558944,266608
@@ -51017,7 +51017,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-01,Egypt,6182511,3208954
 2021-09-01,El Salvador,3539933,2758428
 2021-09-01,Equatorial Guinea,197657,148062
-2021-09-01,Estonia,728428,546955
+2021-09-01,Estonia,728495,630709
 2021-09-01,Eswatini,96175,109596
 2021-09-01,Ethiopia,2326531,0
 2021-09-01,Fiji,558944,266608
@@ -51203,7 +51203,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-02,Egypt,6182511,3208954
 2021-09-02,El Salvador,3594559,2875693
 2021-09-02,Equatorial Guinea,203304,150322
-2021-09-02,Estonia,730078,548816
+2021-09-02,Estonia,730145,632954
 2021-09-02,Eswatini,96175,109596
 2021-09-02,Ethiopia,2326531,0
 2021-09-02,Fiji,558944,266608
@@ -51389,7 +51389,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-03,Egypt,6182511,3208954
 2021-09-03,El Salvador,3654043,2894776
 2021-09-03,Equatorial Guinea,203304,150322
-2021-09-03,Estonia,731565,550639
+2021-09-03,Estonia,731632,635126
 2021-09-03,Eswatini,96175,109596
 2021-09-03,Ethiopia,2326531,0
 2021-09-03,Fiji,558944,266608
@@ -51575,7 +51575,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-04,Egypt,6182511,3208954
 2021-09-04,El Salvador,3654043,2894776
 2021-09-04,Equatorial Guinea,204222,156224
-2021-09-04,Estonia,732700,552682
+2021-09-04,Estonia,732768,637452
 2021-09-04,Eswatini,96175,109596
 2021-09-04,Ethiopia,2326531,0
 2021-09-04,Fiji,558944,266608
@@ -51761,7 +51761,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-05,Egypt,6913913,3505075
 2021-09-05,El Salvador,3654043,2894776
 2021-09-05,Equatorial Guinea,204222,156224
-2021-09-05,Estonia,733160,554568
+2021-09-05,Estonia,733228,639483
 2021-09-05,Eswatini,179200,171325
 2021-09-05,Ethiopia,2326531,0
 2021-09-05,Fiji,558944,266608
@@ -51947,7 +51947,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-06,Egypt,6913913,3505075
 2021-09-06,El Salvador,3697347,2927769
 2021-09-06,Equatorial Guinea,204222,156224
-2021-09-06,Estonia,734453,556975
+2021-09-06,Estonia,734521,642180
 2021-09-06,Eswatini,179200,171325
 2021-09-06,Ethiopia,2326531,0
 2021-09-06,Fiji,558944,266608
@@ -52133,7 +52133,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-07,Egypt,6913913,3505075
 2021-09-07,El Salvador,3731756,2960429
 2021-09-07,Equatorial Guinea,204222,156224
-2021-09-07,Estonia,735800,559242
+2021-09-07,Estonia,735868,644764
 2021-09-07,Eswatini,179200,171325
 2021-09-07,Ethiopia,2326531,0
 2021-09-07,Fiji,566210,299943
@@ -52319,7 +52319,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-08,Egypt,6913913,3505075
 2021-09-08,El Salvador,3731756,2960429
 2021-09-08,Equatorial Guinea,205925,158126
-2021-09-08,Estonia,736954,561472
+2021-09-08,Estonia,737022,647245
 2021-09-08,Eswatini,180709,172985
 2021-09-08,Ethiopia,2326531,0
 2021-09-08,Fiji,566210,299943
@@ -52505,7 +52505,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-09,Egypt,7076086,3693748
 2021-09-09,El Salvador,3790602,3036403
 2021-09-09,Equatorial Guinea,205925,158126
-2021-09-09,Estonia,738093,563776
+2021-09-09,Estonia,738163,649801
 2021-09-09,Eswatini,180709,172985
 2021-09-09,Ethiopia,2326531,0
 2021-09-09,Fiji,566210,299943
@@ -52691,7 +52691,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-10,Egypt,7076086,3693748
 2021-09-10,El Salvador,3818524,3074388
 2021-09-10,Equatorial Guinea,207723,159113
-2021-09-10,Estonia,739237,566228
+2021-09-10,Estonia,739308,652493
 2021-09-10,Eswatini,180709,172985
 2021-09-10,Ethiopia,2326531,0
 2021-09-10,Fiji,566210,299943
@@ -52877,7 +52877,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-11,Egypt,7076086,3693748
 2021-09-11,El Salvador,3818524,3074388
 2021-09-11,Equatorial Guinea,207723,159113
-2021-09-11,Estonia,740098,568092
+2021-09-11,Estonia,740169,654511
 2021-09-11,Eswatini,180709,172985
 2021-09-11,Ethiopia,2326531,0
 2021-09-11,Fiji,566210,299943
@@ -53063,7 +53063,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-12,Egypt,7076086,3693748
 2021-09-12,El Salvador,3818524,3074388
 2021-09-12,Equatorial Guinea,207723,159113
-2021-09-12,Estonia,740544,569776
+2021-09-12,Estonia,740615,656274
 2021-09-12,Eswatini,180709,172985
 2021-09-12,Ethiopia,2326531,0
 2021-09-12,Fiji,566210,299943
@@ -53249,7 +53249,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-13,Egypt,7076086,3693748
 2021-09-13,El Salvador,3847187,3107461
 2021-09-13,Equatorial Guinea,210358,159805
-2021-09-13,Estonia,741490,572546
+2021-09-13,Estonia,741561,659253
 2021-09-13,Eswatini,180709,172985
 2021-09-13,Ethiopia,2334572,492214
 2021-09-13,Fiji,566210,299943
@@ -53435,7 +53435,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-14,Egypt,7076086,3693748
 2021-09-14,El Salvador,3861053,3149656
 2021-09-14,Equatorial Guinea,210358,159805
-2021-09-14,Estonia,742625,575522
+2021-09-14,Estonia,742697,662483
 2021-09-14,Eswatini,180709,172985
 2021-09-14,Ethiopia,2339171,507069
 2021-09-14,Fiji,569958,342191
@@ -53621,7 +53621,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-15,Egypt,7743420,4245776
 2021-09-15,El Salvador,3861053,3149656
 2021-09-15,Equatorial Guinea,210358,159805
-2021-09-15,Estonia,743706,578351
+2021-09-15,Estonia,743778,665514
 2021-09-15,Eswatini,180709,172985
 2021-09-15,Ethiopia,2366290,513192
 2021-09-15,Fiji,569958,342191
@@ -53807,7 +53807,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-16,Egypt,8158764,4805587
 2021-09-16,El Salvador,3875388,3190530
 2021-09-16,Equatorial Guinea,210358,159805
-2021-09-16,Estonia,744886,580953
+2021-09-16,Estonia,744960,668472
 2021-09-16,Eswatini,180709,172985
 2021-09-16,Ethiopia,2398917,518516
 2021-09-16,Fiji,569958,342191
@@ -53993,7 +53993,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-17,Egypt,8158764,4805587
 2021-09-17,El Salvador,3875388,3190530
 2021-09-17,Equatorial Guinea,210358,159805
-2021-09-17,Estonia,746320,583568
+2021-09-17,Estonia,746394,671697
 2021-09-17,Eswatini,180709,172985
 2021-09-17,Ethiopia,2414898,545211
 2021-09-17,Fiji,569958,342191
@@ -54179,7 +54179,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-18,Egypt,8158764,4805587
 2021-09-18,El Salvador,3875388,3190530
 2021-09-18,Equatorial Guinea,210358,159805
-2021-09-18,Estonia,747353,585542
+2021-09-18,Estonia,747427,674161
 2021-09-18,Eswatini,180709,172985
 2021-09-18,Ethiopia,2414934,551375
 2021-09-18,Fiji,569958,342191
@@ -54365,7 +54365,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-19,Egypt,8158764,4805587
 2021-09-19,El Salvador,3907613,3246234
 2021-09-19,Equatorial Guinea,210358,159805
-2021-09-19,Estonia,748053,586592
+2021-09-19,Estonia,748128,675622
 2021-09-19,Eswatini,200605,193318
 2021-09-19,Ethiopia,2442551,576319
 2021-09-19,Fiji,569958,342191
@@ -54551,7 +54551,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-20,Egypt,8158764,4805587
 2021-09-20,El Salvador,3907613,3246234
 2021-09-20,Equatorial Guinea,219233,162602
-2021-09-20,Estonia,748893,588885
+2021-09-20,Estonia,748969,678260
 2021-09-20,Eswatini,200605,193318
 2021-09-20,Ethiopia,2555907,628720
 2021-09-20,Fiji,569958,342191
@@ -54737,7 +54737,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-21,Egypt,8158764,4805587
 2021-09-21,El Salvador,3933200,3251206
 2021-09-21,Equatorial Guinea,219233,162602
-2021-09-21,Estonia,749726,592026
+2021-09-21,Estonia,749802,681598
 2021-09-21,Eswatini,200605,193318
 2021-09-21,Ethiopia,2584644,640524
 2021-09-21,Fiji,587948,387320
@@ -54923,7 +54923,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-22,Egypt,8158764,4805587
 2021-09-22,El Salvador,3962912,3270554
 2021-09-22,Equatorial Guinea,219233,162602
-2021-09-22,Estonia,750757,595015
+2021-09-22,Estonia,750833,684906
 2021-09-22,Eswatini,206478,199621
 2021-09-22,Ethiopia,2624638,656832
 2021-09-22,Fiji,587948,387320
@@ -55109,7 +55109,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-23,Egypt,9593247,4805587
 2021-09-23,El Salvador,4007200,3290794
 2021-09-23,Equatorial Guinea,219233,162602
-2021-09-23,Estonia,752193,597686
+2021-09-23,Estonia,752269,688231
 2021-09-23,Eswatini,206478,199621
 2021-09-23,Ethiopia,2729775,730475
 2021-09-23,Fiji,587948,387320
@@ -55295,7 +55295,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-24,Egypt,9593247,4805587
 2021-09-24,El Salvador,4007200,3290794
 2021-09-24,Equatorial Guinea,219233,162602
-2021-09-24,Estonia,753624,600689
+2021-09-24,Estonia,753700,691883
 2021-09-24,Eswatini,208925,201803
 2021-09-24,Ethiopia,2751057,742413
 2021-09-24,Fiji,587948,387320
@@ -55481,7 +55481,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-25,Egypt,9593247,4805587
 2021-09-25,El Salvador,4007200,3290794
 2021-09-25,Equatorial Guinea,219233,162602
-2021-09-25,Estonia,754639,603141
+2021-09-25,Estonia,754715,694925
 2021-09-25,Eswatini,208925,201803
 2021-09-25,Ethiopia,2760230,745957
 2021-09-25,Fiji,587948,387320
@@ -55667,7 +55667,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-26,Egypt,9593247,4805587
 2021-09-26,El Salvador,4036100,3308736
 2021-09-26,Equatorial Guinea,219233,162602
-2021-09-26,Estonia,755180,604617
+2021-09-26,Estonia,755257,696722
 2021-09-26,Eswatini,208925,201803
 2021-09-26,Ethiopia,2776985,758344
 2021-09-26,Fiji,587948,387320
@@ -55853,7 +55853,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-27,Egypt,10524707,5698602
 2021-09-27,El Salvador,4055962,3327590
 2021-09-27,Equatorial Guinea,219233,162602
-2021-09-27,Estonia,755675,605773
+2021-09-27,Estonia,755753,698103
 2021-09-27,Eswatini,208925,201803
 2021-09-27,Ethiopia,2785637,774011
 2021-09-27,Fiji,587948,387320
@@ -56039,7 +56039,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-28,Egypt,10524707,5698602
 2021-09-28,El Salvador,4055962,3327590
 2021-09-28,Equatorial Guinea,219233,162602
-2021-09-28,Estonia,756899,608002
+2021-09-28,Estonia,756977,700828
 2021-09-28,Eswatini,208925,201803
 2021-09-28,Ethiopia,2797751,813269
 2021-09-28,Fiji,591293,425902
@@ -56225,7 +56225,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-29,Egypt,10524707,5698602
 2021-09-29,El Salvador,4088016,3396764
 2021-09-29,Equatorial Guinea,219233,162602
-2021-09-29,Estonia,757936,609690
+2021-09-29,Estonia,758015,702962
 2021-09-29,Eswatini,217532,210432
 2021-09-29,Ethiopia,2827455,833177
 2021-09-29,Fiji,591293,425902
@@ -56411,7 +56411,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-30,Egypt,11113946,5845818
 2021-09-30,El Salvador,4107518,3416168
 2021-09-30,Equatorial Guinea,225011,167635
-2021-09-30,Estonia,758875,611576
+2021-09-30,Estonia,758955,705199
 2021-09-30,Eswatini,217532,210432
 2021-09-30,Ethiopia,2853785,850522
 2021-09-30,Fiji,591293,425902
@@ -56597,7 +56597,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-01,Egypt,11113946,5845818
 2021-10-01,El Salvador,4107518,3416168
 2021-10-01,Equatorial Guinea,225011,167635
-2021-10-01,Estonia,759852,612878
+2021-10-01,Estonia,759932,707034
 2021-10-01,Eswatini,217532,210432
 2021-10-01,Ethiopia,2856031,859770
 2021-10-01,Fiji,591293,425902
@@ -56783,7 +56783,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-02,Egypt,11113946,5845818
 2021-10-02,El Salvador,4107518,3416168
 2021-10-02,Equatorial Guinea,225011,167635
-2021-10-02,Estonia,760434,614464
+2021-10-02,Estonia,760515,708898
 2021-10-02,Eswatini,217532,210432
 2021-10-02,Ethiopia,2856031,859770
 2021-10-02,Fiji,591293,425902
@@ -56969,7 +56969,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-03,Egypt,11113946,5845818
 2021-10-03,El Salvador,4122611,3452992
 2021-10-03,Equatorial Guinea,225011,167635
-2021-10-03,Estonia,760717,614828
+2021-10-03,Estonia,760798,709386
 2021-10-03,Eswatini,217532,210432
 2021-10-03,Ethiopia,2868247,871913
 2021-10-03,Fiji,591293,425902
@@ -57155,7 +57155,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-04,Egypt,11113946,5845818
 2021-10-04,El Salvador,4135720,3488144
 2021-10-04,Equatorial Guinea,225011,167635
-2021-10-04,Estonia,761367,615918
+2021-10-04,Estonia,761448,710748
 2021-10-04,Eswatini,217532,210432
 2021-10-04,Ethiopia,2890113,878759
 2021-10-04,Fiji,591293,425902
@@ -57341,7 +57341,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-05,Egypt,11113946,5845818
 2021-10-05,El Salvador,4147316,3516535
 2021-10-05,Equatorial Guinea,225011,167635
-2021-10-05,Estonia,762172,617317
+2021-10-05,Estonia,762253,712460
 2021-10-05,Eswatini,217532,210432
 2021-10-05,Ethiopia,2900826,884250
 2021-10-05,Fiji,593442,462441
@@ -57527,7 +57527,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-06,Egypt,11113946,5845818
 2021-10-06,El Salvador,4160845,3530340
 2021-10-06,Equatorial Guinea,232116,171698
-2021-10-06,Estonia,762907,618614
+2021-10-06,Estonia,762988,714038
 2021-10-06,Eswatini,217532,210432
 2021-10-06,Ethiopia,2924511,898674
 2021-10-06,Fiji,593442,462441
@@ -57713,7 +57713,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-07,Egypt,11113946,5845818
 2021-10-07,El Salvador,4173627,3544315
 2021-10-07,Equatorial Guinea,232116,171698
-2021-10-07,Estonia,763707,619751
+2021-10-07,Estonia,763788,715504
 2021-10-07,Eswatini,217532,210432
 2021-10-07,Ethiopia,2943541,907568
 2021-10-07,Fiji,593442,462441
@@ -57888,7 +57888,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-08,Costa Rica,3470013,2290280
 2021-10-08,Cote d'Ivoire,1193877,273400
 2021-10-08,Croatia,1832889,1718074
-2021-10-08,Cuba,9613466,5868567
+2021-10-08,Cuba,9613466,6117779
 2021-10-08,Cyprus,597414,560123
 2021-10-08,Czechia,6106445,5999251
 2021-10-08,Denmark,4460485,4383736
@@ -57899,7 +57899,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-08,Egypt,13552189,6602177
 2021-10-08,El Salvador,4173627,3544315
 2021-10-08,Equatorial Guinea,232116,171698
-2021-10-08,Estonia,764675,621008
+2021-10-08,Estonia,764756,717093
 2021-10-08,Eswatini,217532,210432
 2021-10-08,Ethiopia,2943541,907568
 2021-10-08,Fiji,593442,462441
@@ -58074,7 +58074,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-09,Costa Rica,3470013,2290280
 2021-10-09,Cote d'Ivoire,1193877,273400
 2021-10-09,Croatia,1852552,1735022
-2021-10-09,Cuba,9613466,5868567
+2021-10-09,Cuba,9613466,6117779
 2021-10-09,Cyprus,597414,560123
 2021-10-09,Czechia,6107544,6000742
 2021-10-09,Denmark,4460485,4383736
@@ -58085,7 +58085,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-09,Egypt,13552189,6602177
 2021-10-09,El Salvador,4173627,3544315
 2021-10-09,Equatorial Guinea,232116,171698
-2021-10-09,Estonia,765303,622425
+2021-10-09,Estonia,765385,718787
 2021-10-09,Eswatini,217532,210432
 2021-10-09,Ethiopia,2943541,907568
 2021-10-09,Fiji,593442,462441
@@ -58260,7 +58260,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-10,Costa Rica,3470013,2290280
 2021-10-10,Cote d'Ivoire,1193877,273400
 2021-10-10,Croatia,1852552,1735022
-2021-10-10,Cuba,9613466,5868567
+2021-10-10,Cuba,9613466,6117779
 2021-10-10,Cyprus,598723,562207
 2021-10-10,Czechia,6108232,6001346
 2021-10-10,Denmark,4460485,4383736
@@ -58271,7 +58271,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-10,Egypt,13552189,6602177
 2021-10-10,El Salvador,4188803,3555188
 2021-10-10,Equatorial Guinea,232116,171698
-2021-10-10,Estonia,765654,623286
+2021-10-10,Estonia,765736,719773
 2021-10-10,Eswatini,227080,219736
 2021-10-10,Ethiopia,2943541,907568
 2021-10-10,Fiji,593442,462441
