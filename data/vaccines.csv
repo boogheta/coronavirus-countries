@@ -16423,7 +16423,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-26,Solomon Islands,0,0
 2021-02-26,Somalia,0,0
 2021-02-26,South Africa,63648,63648
-2021-02-26,South Korea,28254,5075
+2021-02-26,South Korea,28371,5145
 2021-02-26,South Sudan,0,0
 2021-02-26,Spain,2361852,1243783
 2021-02-26,Sri Lanka,406633,0
@@ -16610,7 +16610,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-27,Solomon Islands,0,0
 2021-02-27,Somalia,0,0
 2021-02-27,South Africa,67303,67303
-2021-02-27,South Korea,29796,5144
+2021-02-27,South Korea,29914,5219
 2021-02-27,South Sudan,0,0
 2021-02-27,Spain,2361852,1243783
 2021-02-27,Sri Lanka,441976,0
@@ -16797,7 +16797,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-28,Solomon Islands,0,0
 2021-02-28,Somalia,0,0
 2021-02-28,South Africa,70527,70527
-2021-02-28,South Korea,30714,5189
+2021-02-28,South Korea,30834,5265
 2021-02-28,South Sudan,0,0
 2021-02-28,Spain,2567617,1261848
 2021-02-28,Sri Lanka,466350,0
@@ -16984,7 +16984,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-01,Solomon Islands,0,0
 2021-03-01,Somalia,0,0
 2021-03-01,South Africa,73047,73047
-2021-03-01,South Korea,32375,5260
+2021-03-01,South Korea,32498,5338
 2021-03-01,South Sudan,0,0
 2021-03-01,Spain,2642034,1266700
 2021-03-01,Sri Lanka,509275,0
@@ -17171,7 +17171,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-02,Solomon Islands,0,0
 2021-03-02,Somalia,0,0
 2021-03-02,South Africa,76037,76037
-2021-03-02,South Korea,99000,5364
+2021-03-02,South Korea,99126,5444
 2021-03-02,South Sudan,0,0
 2021-03-02,Spain,2772318,1287002
 2021-03-02,Sri Lanka,553821,0
@@ -17358,7 +17358,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-03,Solomon Islands,0,0
 2021-03-03,Somalia,0,0
 2021-03-03,South Africa,83570,83570
-2021-03-03,South Korea,168594,5501
+2021-03-03,South Korea,168724,5585
 2021-03-03,South Sudan,0,0
 2021-03-03,Spain,2920179,1308913
 2021-03-03,Sri Lanka,599991,0
@@ -17545,7 +17545,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-04,Solomon Islands,0,0
 2021-03-04,Somalia,0,0
 2021-03-04,South Africa,92029,92029
-2021-03-04,South Korea,239127,5820
+2021-03-04,South Korea,239265,5905
 2021-03-04,South Sudan,0,0
 2021-03-04,Spain,3129092,1342485
 2021-03-04,Sri Lanka,650991,0
@@ -17732,7 +17732,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-05,Solomon Islands,0,0
 2021-03-05,Somalia,0,0
 2021-03-05,South Africa,100180,100180
-2021-03-05,South Korea,309938,6015
+2021-03-05,South Korea,310078,6103
 2021-03-05,South Sudan,0,0
 2021-03-05,Spain,3129092,1342485
 2021-03-05,Sri Lanka,699521,0
@@ -17919,7 +17919,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-06,Solomon Islands,0,0
 2021-03-06,Somalia,0,0
 2021-03-06,South Africa,101573,101573
-2021-03-06,South Korea,328108,6062
+2021-03-06,South Korea,328253,6150
 2021-03-06,South Sudan,0,0
 2021-03-06,Spain,3129092,1342485
 2021-03-06,Sri Lanka,724278,0
@@ -18106,7 +18106,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-07,Solomon Islands,0,0
 2021-03-07,Somalia,0,0
 2021-03-07,South Africa,101573,101573
-2021-03-07,South Korea,330289,6095
+2021-03-07,South Korea,330435,6183
 2021-03-07,South Sudan,0,0
 2021-03-07,Spain,3328703,1383488
 2021-03-07,Sri Lanka,729562,0
@@ -18293,7 +18293,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-08,Solomon Islands,0,0
 2021-03-08,Somalia,0,0
 2021-03-08,South Africa,101841,101841
-2021-03-08,South Korea,398062,6193
+2021-03-08,South Korea,398220,6284
 2021-03-08,South Sudan,0,0
 2021-03-08,Spain,3436412,1412236
 2021-03-08,Sri Lanka,737062,0
@@ -18480,7 +18480,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-09,Solomon Islands,0,0
 2021-03-09,Somalia,0,0
 2021-03-09,South Africa,107054,107054
-2021-03-09,South Korea,461844,6375
+2021-03-09,South Korea,462007,6466
 2021-03-09,South Sudan,0,0
 2021-03-09,Spain,3541667,1447838
 2021-03-09,Sri Lanka,743775,0
@@ -18667,7 +18667,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-10,Solomon Islands,0,0
 2021-03-10,Somalia,0,0
 2021-03-10,South Africa,128887,128887
-2021-03-10,South Korea,516327,6694
+2021-03-10,South Korea,516497,6786
 2021-03-10,South Sudan,0,0
 2021-03-10,Spain,3668848,1503258
 2021-03-10,Sri Lanka,752098,0
@@ -18854,7 +18854,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-11,Solomon Islands,0,0
 2021-03-11,Somalia,0,0
 2021-03-11,South Africa,138014,138014
-2021-03-11,South Korea,561206,7079
+2021-03-11,South Korea,561384,7176
 2021-03-11,South Sudan,0,0
 2021-03-11,Spain,3769523,1583244
 2021-03-11,Sri Lanka,759548,0
@@ -19041,7 +19041,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-12,Solomon Islands,0,0
 2021-03-12,Somalia,0,0
 2021-03-12,South Africa,145215,145215
-2021-03-12,South Korea,599760,7364
+2021-03-12,South Korea,599941,7461
 2021-03-12,South Sudan,0,0
 2021-03-12,Spain,3769523,1583244
 2021-03-12,Sri Lanka,760765,0
@@ -19228,7 +19228,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-13,Solomon Islands,0,0
 2021-03-13,Somalia,0,0
 2021-03-13,South Africa,145544,145544
-2021-03-13,South Korea,603805,7459
+2021-03-13,South Korea,603994,7557
 2021-03-13,South Sudan,0,0
 2021-03-13,Spain,3769523,1583244
 2021-03-13,Sri Lanka,770408,0
@@ -19415,7 +19415,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-14,Solomon Islands,0,0
 2021-03-14,Somalia,0,0
 2021-03-14,South Africa,145544,145544
-2021-03-14,South Korea,605133,7507
+2021-03-14,South Korea,605325,7605
 2021-03-14,South Sudan,0,0
 2021-03-14,Spain,3769523,1583244
 2021-03-14,Sri Lanka,773011,0
@@ -19602,7 +19602,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-15,Solomon Islands,0,0
 2021-03-15,Somalia,0,0
 2021-03-15,South Africa,147753,147753
-2021-03-15,South Korea,618683,8413
+2021-03-15,South Korea,618878,8512
 2021-03-15,South Sudan,0,0
 2021-03-15,Spain,3951221,1693674
 2021-03-15,Sri Lanka,784500,0
@@ -19789,7 +19789,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-16,Solomon Islands,0,0
 2021-03-16,Somalia,0,0
 2021-03-16,South Africa,157286,157286
-2021-03-16,South Korea,638406,9154
+2021-03-16,South Korea,638608,9259
 2021-03-16,South Sudan,0,0
 2021-03-16,Spain,4013681,1728537
 2021-03-16,Sri Lanka,796792,0
@@ -19976,7 +19976,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-17,Solomon Islands,0,0
 2021-03-17,Somalia,0,0
 2021-03-17,South Africa,168413,168413
-2021-03-17,South Korea,659071,9788
+2021-03-17,South Korea,659277,9897
 2021-03-17,South Sudan,0,0
 2021-03-17,Spain,4052470,1804615
 2021-03-17,Sri Lanka,806449,0
@@ -20163,7 +20163,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-18,Solomon Islands,0,0
 2021-03-18,Somalia,0,0
 2021-03-18,South Africa,177275,177275
-2021-03-18,South Korea,679046,10300
+2021-03-18,South Korea,679260,10410
 2021-03-18,South Sudan,0,0
 2021-03-18,Spain,4106550,1886813
 2021-03-18,Sri Lanka,815585,0
@@ -20350,7 +20350,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-19,Solomon Islands,0,0
 2021-03-19,Somalia,0,0
 2021-03-19,South Africa,182983,182983
-2021-03-19,South Korea,696703,10926
+2021-03-19,South Korea,696932,11039
 2021-03-19,South Sudan,0,0
 2021-03-19,Spain,4106550,1886813
 2021-03-19,Sri Lanka,824523,0
@@ -20537,7 +20537,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-20,Solomon Islands,0,0
 2021-03-20,Somalia,0,0
 2021-03-20,South Africa,182983,182983
-2021-03-20,South Korea,698182,11320
+2021-03-20,South Korea,698416,11434
 2021-03-20,South Sudan,0,0
 2021-03-20,Spain,4106550,1886813
 2021-03-20,Sri Lanka,829220,0
@@ -20724,7 +20724,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-21,Solomon Islands,0,0
 2021-03-21,Somalia,0,0
 2021-03-21,South Africa,182983,182983
-2021-03-21,South Korea,698401,11661
+2021-03-21,South Korea,698641,11777
 2021-03-21,South Sudan,0,0
 2021-03-21,Spain,4106550,1886813
 2021-03-21,Sri Lanka,829865,0
@@ -20911,7 +20911,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-22,Solomon Islands,0,0
 2021-03-22,Somalia,0,0
 2021-03-22,South Africa,182983,182983
-2021-03-22,South Korea,702494,12129
+2021-03-22,South Korea,702739,12249
 2021-03-22,South Sudan,0,0
 2021-03-22,Spain,4211040,2110868
 2021-03-22,Sri Lanka,838355,0
@@ -21098,7 +21098,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-23,Solomon Islands,0,0
 2021-03-23,Somalia,0,0
 2021-03-23,South Africa,194257,194257
-2021-03-23,South Korea,724805,13061
+2021-03-23,South Korea,725058,13184
 2021-03-23,South Sudan,0,0
 2021-03-23,Spain,4252598,2156598
 2021-03-23,Sri Lanka,838355,0
@@ -21285,7 +21285,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-24,Solomon Islands,0,0
 2021-03-24,Somalia,0,0
 2021-03-24,South Africa,207808,207808
-2021-03-24,South Korea,755770,14391
+2021-03-24,South Korea,756031,14517
 2021-03-24,South Sudan,0,0
 2021-03-24,Spain,4343860,2276233
 2021-03-24,Sri Lanka,838355,0
@@ -21472,7 +21472,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-25,Solomon Islands,0,0
 2021-03-25,Somalia,0,0
 2021-03-25,South Africa,220129,220129
-2021-03-25,South Korea,790919,15920
+2021-03-25,South Korea,791186,16051
 2021-03-25,South Sudan,0,0
 2021-03-25,Spain,4447534,2392202
 2021-03-25,Sri Lanka,838355,0
@@ -21659,7 +21659,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-26,Solomon Islands,0,0
 2021-03-26,Somalia,0,0
 2021-03-26,South Africa,231002,231002
-2021-03-26,South Korea,816386,17680
+2021-03-26,South Korea,816658,17812
 2021-03-26,South Sudan,0,0
 2021-03-26,Spain,4561529,2505842
 2021-03-26,Sri Lanka,838355,0
@@ -21846,7 +21846,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-27,Solomon Islands,0,0
 2021-03-27,Somalia,0,0
 2021-03-27,South Africa,231605,231605
-2021-03-27,South Korea,818048,17803
+2021-03-27,South Korea,818330,17939
 2021-03-27,South Sudan,0,0
 2021-03-27,Spain,4561529,2505842
 2021-03-27,Sri Lanka,884164,0
@@ -22033,7 +22033,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-28,Solomon Islands,0,0
 2021-03-28,Somalia,0,0
 2021-03-28,South Africa,231605,231605
-2021-03-28,South Korea,818304,17866
+2021-03-28,South Korea,818588,18004
 2021-03-28,South Sudan,0,0
 2021-03-28,Spain,4561529,2505842
 2021-03-28,Sri Lanka,894053,0
@@ -22220,7 +22220,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-29,Solomon Islands,0,0
 2021-03-29,Somalia,0,0
 2021-03-29,South Africa,239665,239665
-2021-03-29,South Korea,846640,18945
+2021-03-29,South Korea,846931,19088
 2021-03-29,South Sudan,0,0
 2021-03-29,Spain,4967230,2604209
 2021-03-29,Sri Lanka,894365,0
@@ -22407,7 +22407,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-30,Solomon Islands,0,0
 2021-03-30,Somalia,0,0
 2021-03-30,South Africa,251707,251707
-2021-03-30,South Korea,877114,21266
+2021-03-30,South Korea,877415,21415
 2021-03-30,South Sudan,0,0
 2021-03-30,Spain,5092535,2644076
 2021-03-30,Sri Lanka,903467,0
@@ -22594,7 +22594,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-31,Solomon Islands,0,0
 2021-03-31,Somalia,0,0
 2021-03-31,South Africa,263878,263878
-2021-03-31,South Korea,901775,26258
+2021-03-31,South Korea,902091,26415
 2021-03-31,South Sudan,0,0
 2021-03-31,Spain,5314076,2721084
 2021-03-31,Sri Lanka,913219,0
@@ -22781,7 +22781,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-01,Solomon Islands,0,0
 2021-04-01,Somalia,0,0
 2021-04-01,South Africa,269102,269102
-2021-04-01,South Korea,939990,33766
+2021-04-01,South Korea,940320,33926
 2021-04-01,South Sudan,0,0
 2021-04-01,Spain,5545140,2797015
 2021-04-01,Sri Lanka,919753,0
@@ -22968,7 +22968,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-02,Solomon Islands,0,0
 2021-04-02,Somalia,0,0
 2021-04-02,South Africa,269102,269102
-2021-04-02,South Korea,980507,41004
+2021-04-02,South Korea,980847,41167
 2021-04-02,South Sudan,0,0
 2021-04-02,Spain,5545140,2797015
 2021-04-02,Sri Lanka,923954,0
@@ -23155,7 +23155,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-03,Solomon Islands,0,0
 2021-04-03,Somalia,0,0
 2021-04-03,South Africa,269102,269102
-2021-04-03,South Korea,989506,41730
+2021-04-03,South Korea,989851,41900
 2021-04-03,South Sudan,0,0
 2021-04-03,Spain,5707450,2841148
 2021-04-03,Sri Lanka,923954,0
@@ -23342,7 +23342,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-04,Solomon Islands,0,0
 2021-04-04,Somalia,0,0
 2021-04-04,South Africa,269102,269102
-2021-04-04,South Korea,990332,41880
+2021-04-04,South Korea,990683,42054
 2021-04-04,South Sudan,0,0
 2021-04-04,Spain,5707450,2841148
 2021-04-04,Sri Lanka,924479,0
@@ -23529,7 +23529,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-05,Solomon Islands,0,0
 2021-04-05,Somalia,0,0
 2021-04-05,South Africa,269102,269102
-2021-04-05,South Korea,1028674,43290
+2021-04-05,South Korea,1029030,43469
 2021-04-05,South Sudan,0,0
 2021-04-05,Spain,5890888,2852806
 2021-04-05,Sri Lanka,924479,0
@@ -23716,7 +23716,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-06,Solomon Islands,0,0
 2021-04-06,Somalia,0,0
 2021-04-06,South Africa,272438,272438
-2021-04-06,South Korea,1068929,50198
+2021-04-06,South Korea,1069297,50387
 2021-04-06,South Sudan,0,0
 2021-04-06,Spain,6118710,2902291
 2021-04-06,Sri Lanka,924536,0
@@ -23903,7 +23903,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-07,Solomon Islands,0,0
 2021-04-07,Somalia,0,0
 2021-04-07,South Africa,278909,278909
-2021-04-07,South Korea,1108376,60818
+2021-04-07,South Korea,1108766,61015
 2021-04-07,South Sudan,0,0
 2021-04-07,Spain,6416016,2941831
 2021-04-07,Sri Lanka,924687,0
@@ -24090,7 +24090,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-08,Solomon Islands,0,0
 2021-04-08,Somalia,0,0
 2021-04-08,South Africa,283629,283629
-2021-04-08,South Korea,1147252,71964
+2021-04-08,South Korea,1147664,72168
 2021-04-08,South Sudan,0,0
 2021-04-08,Spain,6791079,3020450
 2021-04-08,Sri Lanka,924687,0
@@ -24277,7 +24277,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-09,Solomon Islands,0,0
 2021-04-09,Somalia,0,0
 2021-04-09,South Africa,288368,288368
-2021-04-09,South Korea,1182863,80961
+2021-04-09,South Korea,1183291,81171
 2021-04-09,South Sudan,0,0
 2021-04-09,Spain,7159716,3072109
 2021-04-09,Sri Lanka,925082,0
@@ -24464,7 +24464,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-10,Solomon Islands,0,0
 2021-04-10,Somalia,0,0
 2021-04-10,South Africa,288406,288406
-2021-04-10,South Korea,1192603,82716
+2021-04-10,South Korea,1193043,82932
 2021-04-10,South Sudan,0,0
 2021-04-10,Spain,7159716,3072109
 2021-04-10,Sri Lanka,925082,0
@@ -24651,7 +24651,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-11,Solomon Islands,0,0
 2021-04-11,Somalia,0,0
 2021-04-11,South Africa,288406,288406
-2021-04-11,South Korea,1193202,82879
+2021-04-11,South Korea,1193646,83101
 2021-04-11,South Sudan,0,0
 2021-04-11,Spain,7159716,3072109
 2021-04-11,Sri Lanka,925242,0
@@ -24838,7 +24838,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-12,Solomon Islands,0,0
 2021-04-12,Somalia,0,0
 2021-04-12,South Africa,289787,289787
-2021-04-12,South Korea,1233555,84675
+2021-04-12,South Korea,1234008,84902
 2021-04-12,South Sudan,0,0
 2021-04-12,Spain,7676560,3108437
 2021-04-12,Sri Lanka,925242,0
@@ -25025,7 +25025,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-13,Solomon Islands,2622,0
 2021-04-13,Somalia,0,0
 2021-04-13,South Africa,292623,292623
-2021-04-13,South Korea,1279438,85876
+2021-04-13,South Korea,1279906,86107
 2021-04-13,South Sudan,0,0
 2021-04-13,Spain,7937566,3136091
 2021-04-13,Sri Lanka,925242,0
@@ -25212,7 +25212,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-14,Solomon Islands,2622,0
 2021-04-14,Somalia,0,0
 2021-04-14,South Africa,292623,292623
-2021-04-14,South Korea,1326574,86225
+2021-04-14,South Korea,1327050,86462
 2021-04-14,South Sudan,0,0
 2021-04-14,Spain,8250887,3185186
 2021-04-14,Sri Lanka,925242,0
@@ -25399,7 +25399,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-15,Solomon Islands,2622,0
 2021-04-15,Somalia,0,0
 2021-04-15,South Africa,292623,292623
-2021-04-15,South Korea,1421009,86557
+2021-04-15,South Korea,1421504,86798
 2021-04-15,South Sudan,947,0
 2021-04-15,Spain,8631548,3253537
 2021-04-15,Sri Lanka,925242,0
@@ -25586,7 +25586,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-16,Solomon Islands,2622,0
 2021-04-16,Somalia,0,0
 2021-04-16,South Africa,292623,292623
-2021-04-16,South Korea,1525222,87135
+2021-04-16,South Korea,1525722,87381
 2021-04-16,South Sudan,947,0
 2021-04-16,Spain,9002054,3328701
 2021-04-16,Sri Lanka,925242,0
@@ -25773,7 +25773,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-17,Solomon Islands,2622,0
 2021-04-17,Somalia,117567,0
 2021-04-17,South Africa,292623,292623
-2021-04-17,South Korea,1555218,87406
+2021-04-17,South Korea,1555726,87655
 2021-04-17,South Sudan,947,0
 2021-04-17,Spain,9002054,3328701
 2021-04-17,Sri Lanka,925242,0
@@ -25960,7 +25960,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-18,Solomon Islands,2622,0
 2021-04-18,Somalia,117567,0
 2021-04-18,South Africa,292623,292623
-2021-04-18,South Korea,1560379,87550
+2021-04-18,South Korea,1560893,87800
 2021-04-18,South Sudan,947,0
 2021-04-18,Spain,9002054,3328701
 2021-04-18,Sri Lanka,925242,0
@@ -26147,7 +26147,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-19,Solomon Islands,2622,0
 2021-04-19,Somalia,117567,0
 2021-04-19,South Africa,292623,292623
-2021-04-19,South Korea,1683980,87842
+2021-04-19,South Korea,1684504,88099
 2021-04-19,South Sudan,947,0
 2021-04-19,Spain,9441685,3411914
 2021-04-19,Sri Lanka,925242,0
@@ -26334,7 +26334,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-20,Solomon Islands,3479,0
 2021-04-20,Somalia,117567,0
 2021-04-20,South Africa,292623,292623
-2021-04-20,South Korea,1816010,88206
+2021-04-20,South Korea,1816547,88471
 2021-04-20,South Sudan,947,0
 2021-04-20,Spain,9588913,3452119
 2021-04-20,Sri Lanka,925242,0
@@ -26521,7 +26521,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-21,Solomon Islands,3479,0
 2021-04-21,Somalia,117567,0
 2021-04-21,South Africa,292623,292623
-2021-04-21,South Korea,1949495,88711
+2021-04-21,South Korea,1950042,88984
 2021-04-21,South Sudan,947,0
 2021-04-21,Spain,9886203,3611606
 2021-04-21,Sri Lanka,925242,0
@@ -26708,7 +26708,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-22,Solomon Islands,3479,0
 2021-04-22,Somalia,117567,0
 2021-04-22,South Africa,292623,292623
-2021-04-22,South Korea,2082132,107783
+2021-04-22,South Korea,2082690,108065
 2021-04-22,South Sudan,947,0
 2021-04-22,Spain,10141949,3768015
 2021-04-22,Sri Lanka,925242,0
@@ -26895,7 +26895,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-23,Solomon Islands,3479,0
 2021-04-23,Somalia,117567,0
 2021-04-23,South Africa,292623,292623
-2021-04-23,South Korea,2242992,127857
+2021-04-23,South Korea,2243559,128150
 2021-04-23,South Sudan,947,0
 2021-04-23,Spain,10405863,3862789
 2021-04-23,Sri Lanka,925242,0
@@ -27082,7 +27082,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-24,Solomon Islands,3479,0
 2021-04-24,Somalia,117567,0
 2021-04-24,South Africa,292623,292623
-2021-04-24,South Korea,2308533,133964
+2021-04-24,South Korea,2309105,134263
 2021-04-24,South Sudan,947,0
 2021-04-24,Spain,10405863,3862789
 2021-04-24,Sri Lanka,925242,0
@@ -27269,7 +27269,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-25,Solomon Islands,3479,0
 2021-04-25,Somalia,117567,0
 2021-04-25,South Africa,292623,292623
-2021-04-25,South Korea,2315154,134512
+2021-04-25,South Korea,2315731,134812
 2021-04-25,South Sudan,947,0
 2021-04-25,Spain,10796466,3947465
 2021-04-25,Sri Lanka,925242,0
@@ -27456,7 +27456,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-26,Solomon Islands,3479,0
 2021-04-26,Somalia,117567,0
 2021-04-26,South Africa,292623,292623
-2021-04-26,South Korea,2458468,156488
+2021-04-26,South Korea,2459054,156791
 2021-04-26,South Sudan,947,0
 2021-04-26,Spain,11013911,4020945
 2021-04-26,Sri Lanka,925242,0
@@ -27643,7 +27643,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-27,Solomon Islands,3479,0
 2021-04-27,Somalia,117567,0
 2021-04-27,South Africa,292623,292623
-2021-04-27,South Korea,2635963,178775
+2021-04-27,South Korea,2636561,179090
 2021-04-27,South Sudan,947,0
 2021-04-27,Spain,11261171,4166758
 2021-04-27,Sri Lanka,925242,0
@@ -27830,7 +27830,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-28,Solomon Islands,3479,0
 2021-04-28,Somalia,117567,0
 2021-04-28,South Africa,298153,298153
-2021-04-28,South Korea,2868599,199739
+2021-04-28,South Korea,2869209,200063
 2021-04-28,South Sudan,947,0
 2021-04-28,Spain,11520146,4413784
 2021-04-28,Sri Lanka,925242,0
@@ -28017,7 +28017,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-29,Solomon Islands,3479,0
 2021-04-29,Somalia,117567,0
 2021-04-29,South Africa,307591,307591
-2021-04-29,South Korea,3131463,230340
+2021-04-29,South Korea,3132084,230677
 2021-04-29,South Sudan,947,0
 2021-04-29,Spain,11763360,4689766
 2021-04-29,Sri Lanka,927711,5880
@@ -28204,7 +28204,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-30,Solomon Islands,3479,0
 2021-04-30,Somalia,117567,0
 2021-04-30,South Africa,317656,317656
-2021-04-30,South Korea,3410072,261626
+2021-04-30,South Korea,3410708,261974
 2021-04-30,South Sudan,947,0
 2021-04-30,Spain,11763360,4689766
 2021-04-30,Sri Lanka,928107,25354
@@ -28391,7 +28391,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-01,Solomon Islands,3479,0
 2021-05-01,Somalia,117567,0
 2021-05-01,South Africa,318670,318670
-2021-05-01,South Korea,3450675,269794
+2021-05-01,South Korea,3451317,270150
 2021-05-01,South Sudan,947,0
 2021-05-01,Spain,11763360,4689766
 2021-05-01,Sri Lanka,928107,63192
@@ -28578,7 +28578,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-02,Solomon Islands,3479,0
 2021-05-02,Somalia,123570,0
 2021-05-02,South Africa,318670,318670
-2021-05-02,South Korea,3452527,270353
+2021-05-02,South Korea,3453176,270713
 2021-05-02,South Sudan,947,0
 2021-05-02,Spain,12196079,5113598
 2021-05-02,Sri Lanka,928107,88088
@@ -28765,7 +28765,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-03,Solomon Islands,3479,0
 2021-05-03,Somalia,123570,0
 2021-05-03,South Africa,329098,329098
-2021-05-03,South Korea,3539735,302014
+2021-05-03,South Korea,3540390,302381
 2021-05-03,South Sudan,947,0
 2021-05-03,Spain,12381213,5202297
 2021-05-03,Sri Lanka,928107,96871
@@ -28952,7 +28952,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-04,Solomon Islands,3479,0
 2021-05-04,Somalia,123570,0
 2021-05-04,South Africa,353181,353181
-2021-05-04,South Korea,3615566,334323
+2021-05-04,South Korea,3616227,334699
 2021-05-04,South Sudan,947,0
 2021-05-04,Spain,12686341,5394315
 2021-05-04,Sri Lanka,928107,120006
@@ -29139,7 +29139,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-05,Solomon Islands,3479,0
 2021-05-05,Somalia,123570,0
 2021-05-05,South Africa,366101,366101
-2021-05-05,South Korea,3621691,360218
+2021-05-05,South Korea,3622357,360605
 2021-05-05,South Sudan,947,0
 2021-05-05,Spain,12966552,5696827
 2021-05-05,Sri Lanka,928107,141721
@@ -29326,7 +29326,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-06,Solomon Islands,3479,0
 2021-05-06,Somalia,123570,0
 2021-05-06,South Africa,366101,366101
-2021-05-06,South Korea,3680246,434800
+2021-05-06,South Korea,3680930,435198
 2021-05-06,South Sudan,947,0
 2021-05-06,Spain,13271511,5956451
 2021-05-06,Sri Lanka,928107,159986
@@ -29513,7 +29513,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-07,Solomon Islands,3479,0
 2021-05-07,Somalia,123570,0
 2021-05-07,South Africa,381171,381171
-2021-05-07,South Korea,3729172,512705
+2021-05-07,South Korea,3729865,513111
 2021-05-07,South Sudan,947,0
 2021-05-07,Spain,13271511,5956451
 2021-05-07,Sri Lanka,928107,177235
@@ -29700,7 +29700,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-08,Solomon Islands,3479,0
 2021-05-08,Somalia,123570,0
 2021-05-08,South Africa,382480,382480
-2021-05-08,South Korea,3741735,540809
+2021-05-08,South Korea,3742437,541221
 2021-05-08,South Sudan,947,0
 2021-05-08,Spain,13271511,5956451
 2021-05-08,Sri Lanka,928107,177235
@@ -29887,7 +29887,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-09,Solomon Islands,3479,0
 2021-05-09,Somalia,123570,0
 2021-05-09,South Africa,382480,382480
-2021-05-09,South Korea,3742027,545815
+2021-05-09,South Korea,3742732,546229
 2021-05-09,South Sudan,947,0
 2021-05-09,Spain,13797431,6221476
 2021-05-09,Sri Lanka,928400,197340
@@ -30074,7 +30074,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-10,Solomon Islands,3479,0
 2021-05-10,Somalia,123570,0
 2021-05-10,South Africa,395230,395230
-2021-05-10,South Korea,3756407,624291
+2021-05-10,South Korea,3757119,624719
 2021-05-10,South Sudan,947,0
 2021-05-10,Spain,14028954,6327447
 2021-05-10,Sri Lanka,931276,198981
@@ -30261,7 +30261,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-11,Solomon Islands,3479,0
 2021-05-11,Somalia,123570,0
 2021-05-11,South Africa,414372,414372
-2021-05-11,South Korea,3765803,705873
+2021-05-11,South Korea,3766535,706308
 2021-05-11,South Sudan,947,0
 2021-05-11,Spain,14318348,6502978
 2021-05-11,Sri Lanka,948817,213953
@@ -30448,7 +30448,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-12,Solomon Islands,3479,0
 2021-05-12,Somalia,123570,0
 2021-05-12,South Africa,430730,430730
-2021-05-12,South Korea,3772773,789494
+2021-05-12,South Korea,3773513,789938
 2021-05-12,South Sudan,5459,0
 2021-05-12,Spain,14555552,6716156
 2021-05-12,Sri Lanka,996445,223803
@@ -30635,7 +30635,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-13,Solomon Islands,3479,0
 2021-05-13,Somalia,123570,0
 2021-05-13,South Africa,455169,455169
-2021-05-13,South Korea,3782345,868404
+2021-05-13,South Korea,3783094,868855
 2021-05-13,South Sudan,5459,0
 2021-05-13,Spain,14911306,6976683
 2021-05-13,Sri Lanka,1075848,233992
@@ -30822,7 +30822,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-14,Solomon Islands,3479,0
 2021-05-14,Somalia,123570,0
 2021-05-14,South Africa,474318,474318
-2021-05-14,South Korea,3794260,949508
+2021-05-14,South Korea,3795024,949967
 2021-05-14,South Sudan,5459,0
 2021-05-14,Spain,14911306,6976683
 2021-05-14,Sri Lanka,1140122,243957
@@ -31009,7 +31009,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-15,Solomon Islands,3479,0
 2021-05-15,Somalia,123570,0
 2021-05-15,South Africa,478452,478452
-2021-05-15,South Korea,3796091,980059
+2021-05-15,South Korea,3796866,980527
 2021-05-15,South Sudan,5459,0
 2021-05-15,Spain,14911306,6976683
 2021-05-15,Sri Lanka,1140122,243957
@@ -31196,7 +31196,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-16,Solomon Islands,3479,0
 2021-05-16,Somalia,124471,0
 2021-05-16,South Africa,478733,478733
-2021-05-16,South Korea,3796556,985331
+2021-05-16,South Korea,3797343,985807
 2021-05-16,South Sudan,5459,0
 2021-05-16,Spain,15320846,7213716
 2021-05-16,Sri Lanka,1273861,267900
@@ -31383,7 +31383,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-17,Solomon Islands,3479,0
 2021-05-17,Somalia,124471,0
 2021-05-17,South Africa,478733,478733
-2021-05-17,South Korea,3810629,1086339
+2021-05-17,South Korea,3811424,1086827
 2021-05-17,South Sudan,5459,0
 2021-05-17,Spain,15495889,7323426
 2021-05-17,Sri Lanka,1300558,269512
@@ -31570,7 +31570,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-18,Solomon Islands,3479,0
 2021-05-18,Somalia,124471,0
 2021-05-18,South Africa,519139,479768
-2021-05-18,South Korea,3823838,1228730
+2021-05-18,South Korea,3824643,1229227
 2021-05-18,South Sudan,6403,0
 2021-05-18,Spain,15741247,7469173
 2021-05-18,Sri Lanka,1350065,294892
@@ -31757,7 +31757,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-19,Solomon Islands,3479,0
 2021-05-19,Somalia,124471,0
 2021-05-19,South Africa,558170,479768
-2021-05-19,South Korea,3826332,1322235
+2021-05-19,South Korea,3827147,1322738
 2021-05-19,South Sudan,6403,0
 2021-05-19,Spain,16049843,7697288
 2021-05-19,Sri Lanka,1383082,300121
@@ -31944,7 +31944,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-20,Solomon Islands,3479,0
 2021-05-20,Somalia,124471,0
 2021-05-20,South Africa,597406,479768
-2021-05-20,South Korea,3839423,1534135
+2021-05-20,South Korea,3840250,1534650
 2021-05-20,South Sudan,6403,0
 2021-05-20,Spain,16347683,7865313
 2021-05-20,Sri Lanka,1399927,307396
@@ -32131,7 +32131,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-21,Solomon Islands,3479,0
 2021-05-21,Somalia,124471,0
 2021-05-21,South Africa,642382,479768
-2021-05-21,South Korea,3854798,1760382
+2021-05-21,South Korea,3855638,1760906
 2021-05-21,South Sudan,7500,0
 2021-05-21,Spain,16347683,7865313
 2021-05-21,Sri Lanka,1410615,316134
@@ -32318,7 +32318,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-22,Solomon Islands,3479,0
 2021-05-22,Somalia,124471,0
 2021-05-22,South Africa,647983,479768
-2021-05-22,South Korea,3860406,1796521
+2021-05-22,South Korea,3861252,1797052
 2021-05-22,South Sudan,7500,0
 2021-05-22,Spain,16347683,7865313
 2021-05-22,Sri Lanka,1426735,322631
@@ -32505,7 +32505,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-23,Solomon Islands,3479,0
 2021-05-23,Somalia,124471,0
 2021-05-23,South Africa,651628,479768
-2021-05-23,South Korea,3860945,1799404
+2021-05-23,South Korea,3861795,1799936
 2021-05-23,South Sudan,7500,0
 2021-05-23,Spain,16709939,8130648
 2021-05-23,Sri Lanka,1437147,328231
@@ -32692,7 +32692,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-24,Solomon Islands,3479,0
 2021-05-24,Somalia,125205,0
 2021-05-24,South Africa,700904,479768
-2021-05-24,South Korea,3933408,1904878
+2021-05-24,South Korea,3934265,1905420
 2021-05-24,South Sudan,7976,0
 2021-05-24,Spain,16953205,8250814
 2021-05-24,Sri Lanka,1439501,333423
@@ -32879,7 +32879,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-25,Solomon Islands,3479,0
 2021-05-25,Somalia,125582,0
 2021-05-25,South Africa,761903,479768
-2021-05-25,South Korea,4012357,1998883
+2021-05-25,South Korea,4013224,1999430
 2021-05-25,South Sudan,7976,0
 2021-05-25,Spain,17187731,8434233
 2021-05-25,Sri Lanka,1441501,340928
@@ -33066,7 +33066,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-26,Solomon Islands,3479,0
 2021-05-26,Somalia,125582,0
 2021-05-26,South Africa,828204,479768
-2021-05-26,South Korea,4100746,2066991
+2021-05-26,South Korea,4101624,2067549
 2021-05-26,South Sudan,8606,0
 2021-05-26,Spain,17487591,8614678
 2021-05-26,Sri Lanka,1443066,343277
@@ -33253,7 +33253,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-27,Solomon Islands,3479,0
 2021-05-27,Somalia,128519,942
 2021-05-27,South Africa,898955,479768
-2021-05-27,South Korea,4763581,2122803
+2021-05-27,South Korea,4764467,2123374
 2021-05-27,South Sudan,8606,0
 2021-05-27,Spain,17707320,8804363
 2021-05-27,Sri Lanka,1446712,343976
@@ -33440,7 +33440,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-28,Solomon Islands,3479,0
 2021-05-28,Somalia,128519,942
 2021-05-28,South Africa,963876,479768
-2021-05-28,South Korea,5309342,2188388
+2021-05-28,South Korea,5310236,2188966
 2021-05-28,South Sudan,8606,0
 2021-05-28,Spain,17707320,8804363
 2021-05-28,Sri Lanka,1488651,344397
@@ -33627,7 +33627,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-29,Solomon Islands,3479,0
 2021-05-29,Somalia,128519,942
 2021-05-29,South Africa,968319,479768
-2021-05-29,South Korea,5474503,2197485
+2021-05-29,South Korea,5475407,2198067
 2021-05-29,South Sudan,8606,0
 2021-05-29,Spain,17707320,8804363
 2021-05-29,Sri Lanka,1505273,345728
@@ -33814,7 +33814,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-30,Solomon Islands,3479,0
 2021-05-30,Somalia,128519,942
 2021-05-30,South Africa,970448,479768
-2021-05-30,South Korea,5479675,2197745
+2021-05-30,South Korea,5480585,2198334
 2021-05-30,South Sudan,8606,0
 2021-05-30,Spain,18032417,9221285
 2021-05-30,Sri Lanka,1526750,346240
@@ -34001,7 +34001,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-31,Solomon Islands,3479,0
 2021-05-31,Somalia,129419,4714
 2021-05-31,South Africa,1045104,479768
-2021-05-31,South Korea,5867119,2225291
+2021-05-31,South Korea,5868037,2225888
 2021-05-31,South Sudan,9744,0
 2021-05-31,Spain,18178604,9405245
 2021-05-31,Sri Lanka,1608518,348224
@@ -34188,7 +34188,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-01,Solomon Islands,3479,0
 2021-06-01,Somalia,129419,4714
 2021-06-01,South Africa,1117569,479768
-2021-06-01,South Korea,6435720,2252218
+2021-06-01,South Korea,6436649,2252818
 2021-06-01,South Sudan,9744,0
 2021-06-01,Spain,18426204,9679187
 2021-06-01,Sri Lanka,1691562,349745
@@ -34375,7 +34375,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-02,Solomon Islands,3479,0
 2021-06-02,Somalia,129419,8199
 2021-06-02,South Africa,1193352,479768
-2021-06-02,South Korea,6819533,2275404
+2021-06-02,South Korea,6820478,2276008
 2021-06-02,South Sudan,9744,0
 2021-06-02,Spain,18720164,9979204
 2021-06-02,Sri Lanka,1766636,351017
@@ -34562,7 +34562,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-03,Solomon Islands,3479,0
 2021-06-03,Somalia,129419,8199
 2021-06-03,South Africa,1266893,479768
-2021-06-03,South Korea,7164451,2301760
+2021-06-03,South Korea,7165410,2302371
 2021-06-03,South Sudan,9744,0
 2021-06-03,Spain,19038135,10257209
 2021-06-03,Sri Lanka,1766636,351017
@@ -34749,7 +34749,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-04,Solomon Islands,3479,0
 2021-06-04,Somalia,129419,8199
 2021-06-04,South Africa,1336547,479768
-2021-06-04,South Korea,7534455,2332258
+2021-06-04,South Korea,7535423,2332877
 2021-06-04,South Sudan,9744,0
 2021-06-04,Spain,19038135,10257209
 2021-06-04,Sri Lanka,1766636,351017
@@ -34936,7 +34936,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-05,Solomon Islands,3479,0
 2021-06-05,Somalia,129419,8199
 2021-06-05,South Africa,1343433,479768
-2021-06-05,South Korea,7675057,2335016
+2021-06-05,South Korea,7676032,2335642
 2021-06-05,South Sudan,9744,0
 2021-06-05,Spain,19038135,10257209
 2021-06-05,Sri Lanka,1920801,351459
@@ -35123,7 +35123,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-06,Solomon Islands,3479,0
 2021-06-06,Somalia,129419,8199
 2021-06-06,South Africa,1350245,479768
-2021-06-06,South Korea,7678373,2335247
+2021-06-06,South Korea,7679353,2335877
 2021-06-06,South Sudan,9744,0
 2021-06-06,Spain,19786574,11002869
 2021-06-06,Sri Lanka,1943708,353156
@@ -35310,7 +35310,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-07,Solomon Islands,3479,0
 2021-06-07,Somalia,129419,8199
 2021-06-07,South Africa,1433730,479768
-2021-06-07,South Korea,8573972,2356390
+2021-06-07,South Korea,8574959,2357027
 2021-06-07,South Sudan,9744,0
 2021-06-07,Spain,20048174,11260175
 2021-06-07,Sri Lanka,1948187,353302
@@ -35497,7 +35497,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-08,Solomon Islands,3479,0
 2021-06-08,Somalia,129419,12599
 2021-06-08,South Africa,1525271,479768
-2021-06-08,South Korea,9321429,2382687
+2021-06-08,South Korea,9322425,2383338
 2021-06-08,South Sudan,11889,0
 2021-06-08,Spain,20305788,11552393
 2021-06-08,Sri Lanka,1979802,353789
@@ -35684,7 +35684,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-09,Solomon Islands,3479,0
 2021-06-09,Somalia,129733,13646
 2021-06-09,South Africa,1619011,479768
-2021-06-09,South Korea,9916367,2407742
+2021-06-09,South Korea,9917368,2408409
 2021-06-09,South Sudan,11889,0
 2021-06-09,Spain,20628061,11893951
 2021-06-09,Sri Lanka,2023256,353955
@@ -35871,7 +35871,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-10,Solomon Islands,3479,0
 2021-06-10,Somalia,129733,13646
 2021-06-10,South Africa,1690026,479768
-2021-06-10,South Korea,10684949,2696743
+2021-06-10,South Korea,10685955,2697427
 2021-06-10,South Sudan,11889,0
 2021-06-10,Spain,20963619,12250002
 2021-06-10,Sri Lanka,2089320,361645
@@ -36058,7 +36058,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-11,Solomon Islands,3479,0
 2021-06-11,Somalia,129733,13646
 2021-06-11,South Africa,1767415,479768
-2021-06-11,South Korea,11513138,2935171
+2021-06-11,South Korea,11514157,2935867
 2021-06-11,South Sudan,11889,0
 2021-06-11,Spain,20963619,12250002
 2021-06-11,Sri Lanka,2156935,387438
@@ -36245,7 +36245,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-12,Solomon Islands,3479,0
 2021-06-12,Somalia,135107,19879
 2021-06-12,South Africa,1773417,479768
-2021-06-12,South Korea,11902765,3054815
+2021-06-12,South Korea,11903789,3055519
 2021-06-12,South Sudan,11889,0
 2021-06-12,Spain,20963619,12250002
 2021-06-12,Sri Lanka,2199504,433202
@@ -36432,7 +36432,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-13,Solomon Islands,3479,0
 2021-06-13,Somalia,135107,19879
 2021-06-13,South Africa,1777288,479768
-2021-06-13,South Korea,11930897,3067108
+2021-06-13,South Korea,11931929,3067820
 2021-06-13,South Sudan,11889,0
 2021-06-13,Spain,21474788,12813055
 2021-06-13,Sri Lanka,2259385,509998
@@ -36619,7 +36619,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-14,Solomon Islands,3479,0
 2021-06-14,Somalia,135107,21441
 2021-06-14,South Africa,1871987,479768
-2021-06-14,South Korea,12701411,3326901
+2021-06-14,South Korea,12702452,3327626
 2021-06-14,South Sudan,17350,1513
 2021-06-14,Spain,21713840,13007371
 2021-06-14,Sri Lanka,2285572,544898
@@ -36806,7 +36806,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-15,Solomon Islands,3479,0
 2021-06-15,Somalia,135107,21441
 2021-06-15,South Africa,1965812,479768
-2021-06-15,South Korea,13349529,3537001
+2021-06-15,South Korea,13350580,3537736
 2021-06-15,South Sudan,17350,1513
 2021-06-15,Spain,22048919,13301010
 2021-06-15,Sri Lanka,2317012,613200
@@ -36993,7 +36993,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-16,Solomon Islands,3479,0
 2021-06-16,Somalia,135107,21441
 2021-06-16,South Africa,1974099,479768
-2021-06-16,South Korea,13918918,3820996
+2021-06-16,South Korea,13919974,3821742
 2021-06-16,South Sudan,17350,1513
 2021-06-16,Spain,22365104,13641091
 2021-06-16,Sri Lanka,2350564,677353
@@ -37180,7 +37180,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-17,Solomon Islands,3479,0
 2021-06-17,Somalia,135107,23602
 2021-06-17,South Africa,2069346,479768
-2021-06-17,South Korea,14363026,3951565
+2021-06-17,South Korea,14364088,3952331
 2021-06-17,South Sudan,17350,1513
 2021-06-17,Spain,22684911,13939564
 2021-06-17,Sri Lanka,2380354,702551
@@ -37367,7 +37367,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-18,Solomon Islands,3479,0
 2021-06-18,Somalia,135107,24816
 2021-06-18,South Africa,2137071,479768
-2021-06-18,South Korea,14901213,4080478
+2021-06-18,South Korea,14902283,4081258
 2021-06-18,South Sudan,17350,1513
 2021-06-18,Spain,22684911,13939564
 2021-06-18,Sri Lanka,2391683,748573
@@ -37554,7 +37554,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-19,Solomon Islands,3479,0
 2021-06-19,Somalia,135107,24816
 2021-06-19,South Africa,2141624,479768
-2021-06-19,South Korea,15118049,4117027
+2021-06-19,South Korea,15119129,4117823
 2021-06-19,South Sudan,17350,1513
 2021-06-19,Spain,22684911,13939564
 2021-06-19,Sri Lanka,2430811,787007
@@ -37741,7 +37741,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-20,Solomon Islands,3479,0
 2021-06-20,Somalia,135107,28871
 2021-06-20,South Africa,2141624,479768
-2021-06-20,South Korea,15118987,4118493
+2021-06-20,South Korea,15120071,4119293
 2021-06-20,South Sudan,27338,2072
 2021-06-20,Spain,23200566,14431683
 2021-06-20,Sri Lanka,2455180,806252
@@ -37928,7 +37928,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-21,Solomon Islands,18042,3427
 2021-06-21,Somalia,135107,28871
 2021-06-21,South Africa,2229242,479768
-2021-06-21,South Korea,15167143,4237016
+2021-06-21,South Korea,15168240,4237823
 2021-06-21,South Sudan,27338,2072
 2021-06-21,Spain,23443444,14745736
 2021-06-21,Sri Lanka,2472807,829116
@@ -38115,7 +38115,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-22,Solomon Islands,18042,3427
 2021-06-22,Somalia,135107,43157
 2021-06-22,South Africa,2229242,479768
-2021-06-22,South Korea,15216629,4363469
+2021-06-22,South Korea,15217737,4364295
 2021-06-22,South Sudan,27338,2072
 2021-06-22,Spain,23772029,15138439
 2021-06-22,Sri Lanka,2482166,842183
@@ -38302,7 +38302,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-23,Solomon Islands,18042,3427
 2021-06-23,Somalia,135760,54639
 2021-06-23,South Africa,2229242,479768
-2021-06-23,South Korea,15261435,4484792
+2021-06-23,South Korea,15262555,4485629
 2021-06-23,South Sudan,27338,2072
 2021-06-23,Spain,24079429,15602526
 2021-06-23,Sri Lanka,2482166,842183
@@ -38489,7 +38489,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-24,Solomon Islands,18042,3427
 2021-06-24,Somalia,135760,54639
 2021-06-24,South Africa,2550248,479768
-2021-06-24,South Korea,15307787,4593559
+2021-06-24,South Korea,15308917,4594402
 2021-06-24,South Sudan,30849,2110
 2021-06-24,Spain,24325902,15894800
 2021-06-24,Sri Lanka,2500428,866792
@@ -38676,7 +38676,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-25,Solomon Islands,18042,3427
 2021-06-25,Somalia,135760,54639
 2021-06-25,South Africa,2661378,479768
-2021-06-25,South Korea,15372508,4691312
+2021-06-25,South Korea,15373649,4692172
 2021-06-25,South Sudan,30849,2110
 2021-06-25,Spain,24325902,15894800
 2021-06-25,Sri Lanka,2500428,866792
@@ -38863,7 +38863,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-26,Solomon Islands,18042,3427
 2021-06-26,Somalia,135760,54639
 2021-06-26,South Africa,2682710,479768
-2021-06-26,South Korea,15384195,4715437
+2021-06-26,South Korea,15385348,4716304
 2021-06-26,South Sudan,30849,2110
 2021-06-26,Spain,24325902,15894800
 2021-06-26,Sri Lanka,2500428,866792
@@ -39050,7 +39050,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-27,Solomon Islands,18042,3427
 2021-06-27,Somalia,135760,54639
 2021-06-27,South Africa,2779912,479768
-2021-06-27,South Korea,15384497,4716546
+2021-06-27,South Korea,15385655,4717420
 2021-06-27,South Sudan,30849,2110
 2021-06-27,Spain,24792784,16609913
 2021-06-27,Sri Lanka,2500428,866792
@@ -39237,7 +39237,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-28,Solomon Islands,18042,3427
 2021-06-28,Somalia,137981,66195
 2021-06-28,South Africa,2787996,479768
-2021-06-28,South Korea,15398412,4862183
+2021-06-28,South Korea,15399586,4863064
 2021-06-28,South Sudan,42166,2754
 2021-06-28,Spain,25007416,17088342
 2021-06-28,Sri Lanka,2605558,900519
@@ -39424,7 +39424,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-29,Solomon Islands,18050,3692
 2021-06-29,Somalia,138603,69812
 2021-06-29,South Africa,2900666,479768
-2021-06-29,South Korea,15415912,5008364
+2021-06-29,South Korea,15417097,5009253
 2021-06-29,South Sudan,42166,2754
 2021-06-29,Spain,25320606,17519587
 2021-06-29,Sri Lanka,2636524,939472
@@ -39611,7 +39611,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-30,Solomon Islands,18050,3692
 2021-06-30,Somalia,138603,69812
 2021-06-30,South Africa,3026636,479768
-2021-06-30,South Korea,15431391,5146569
+2021-06-30,South Korea,15432583,5147466
 2021-06-30,South Sudan,42166,2754
 2021-06-30,Spain,25627278,17990526
 2021-06-30,Sri Lanka,2697778,995325
@@ -39798,7 +39798,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-01,Solomon Islands,18050,3692
 2021-07-01,Somalia,138603,69812
 2021-07-01,South Africa,3155717,479768
-2021-07-01,South Korea,15436598,5268631
+2021-07-01,South Korea,15437804,5269536
 2021-07-01,South Sudan,42166,2754
 2021-07-01,Spain,25948237,18466362
 2021-07-01,Sri Lanka,2789537,1077086
@@ -39985,7 +39985,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-02,Solomon Islands,18050,3692
 2021-07-02,Somalia,138603,69812
 2021-07-02,South Africa,3155717,479768
-2021-07-02,South Korea,15442501,5390970
+2021-07-02,South Korea,15443716,5391886
 2021-07-02,South Sudan,42166,2754
 2021-07-02,Spain,25948237,18466362
 2021-07-02,Sri Lanka,2889602,1146978
@@ -40172,7 +40172,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-03,Solomon Islands,18050,3692
 2021-07-03,Somalia,138603,69812
 2021-07-03,South Africa,3307588,479768
-2021-07-03,South Korea,15444499,5408621
+2021-07-03,South Korea,15445720,5409547
 2021-07-03,South Sudan,42166,2754
 2021-07-03,Spain,25948237,18466362
 2021-07-03,Sri Lanka,2916330,1206499
@@ -40359,7 +40359,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-04,Solomon Islands,18050,3692
 2021-07-04,Somalia,138603,69812
 2021-07-04,South Africa,3314278,479768
-2021-07-04,South Korea,15444777,5409482
+2021-07-04,South Korea,15446002,5410412
 2021-07-04,South Sudan,42166,2754
 2021-07-04,Spain,26505676,19135448
 2021-07-04,Sri Lanka,2951245,1235288
@@ -40546,7 +40546,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-05,Solomon Islands,18050,3692
 2021-07-05,Somalia,138603,69812
 2021-07-05,South Africa,3466228,479768
-2021-07-05,South Korea,15500043,5486594
+2021-07-05,South Korea,15501279,5487534
 2021-07-05,South Sudan,45074,3387
 2021-07-05,Spain,26727529,19530228
 2021-07-05,Sri Lanka,2971751,1250443
@@ -40733,7 +40733,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-06,Solomon Islands,18050,3692
 2021-07-06,Somalia,149336,85027
 2021-07-06,South Africa,3631102,479768
-2021-07-06,South Korea,15539199,5578203
+2021-07-06,South Korea,15540447,5579155
 2021-07-06,South Sudan,45074,3387
 2021-07-06,Spain,26996373,19982080
 2021-07-06,Sri Lanka,2971751,1250443
@@ -40920,7 +40920,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-07,Solomon Islands,18050,3692
 2021-07-07,Somalia,149336,85027
 2021-07-07,South Africa,3631102,479768
-2021-07-07,South Korea,15575338,5668020
+2021-07-07,South Korea,15576600,5668989
 2021-07-07,South Sudan,45074,3387
 2021-07-07,Spain,27277127,20528505
 2021-07-07,Sri Lanka,3244417,1284531
@@ -41107,7 +41107,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-08,Solomon Islands,18050,3692
 2021-07-08,Somalia,149996,85886
 2021-07-08,South Africa,3639039,1253978
-2021-07-08,South Korea,15614120,5775087
+2021-07-08,South Korea,15615390,5776063
 2021-07-08,South Sudan,45074,3387
 2021-07-08,Spain,27534723,20999346
 2021-07-08,Sri Lanka,3396167,1320528
@@ -41294,7 +41294,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-09,Solomon Islands,18050,3692
 2021-07-09,Somalia,149996,85886
 2021-07-09,South Africa,3756282,1344690
-2021-07-09,South Korea,15673199,5924523
+2021-07-09,South Korea,15674477,5925509
 2021-07-09,South Sudan,45074,3387
 2021-07-09,Spain,27534723,20999346
 2021-07-09,Sri Lanka,3584651,1354170
@@ -41481,7 +41481,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-10,Solomon Islands,18050,3692
 2021-07-10,Somalia,149996,85886
 2021-07-10,South Africa,3783990,1355743
-2021-07-10,South Korea,15686516,5964344
+2021-07-10,South Korea,15687800,5965340
 2021-07-10,South Sudan,45074,3387
 2021-07-10,Spain,27534723,20999346
 2021-07-10,Sri Lanka,3754422,1378696
@@ -41668,7 +41668,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-11,Solomon Islands,18050,3692
 2021-07-11,Somalia,162655,87135
 2021-07-11,South Africa,3783990,1355743
-2021-07-11,South Korea,15687308,5965714
+2021-07-11,South Korea,15688596,5966713
 2021-07-11,South Sudan,45074,3387
 2021-07-11,Spain,27994332,21789996
 2021-07-11,Sri Lanka,3896184,1423239
@@ -41855,7 +41855,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-12,Solomon Islands,18050,3692
 2021-07-12,Somalia,162655,87135
 2021-07-12,South Africa,3887113,1399497
-2021-07-12,South Korea,15719206,6060076
+2021-07-12,South Korea,15720507,6061089
 2021-07-12,South Sudan,45074,3387
 2021-07-12,Spain,28216249,22139864
 2021-07-12,Sri Lanka,3991392,1446973
@@ -42042,7 +42042,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-13,Solomon Islands,19641,5987
 2021-07-13,Somalia,162655,87135
 2021-07-13,South Africa,3995020,1459950
-2021-07-13,South Korea,15827909,6170830
+2021-07-13,South Korea,15829220,6171853
 2021-07-13,South Sudan,51571,4344
 2021-07-13,Spain,28475900,22511734
 2021-07-13,Sri Lanka,4192446,1504809
@@ -42229,7 +42229,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-14,Solomon Islands,19641,5987
 2021-07-14,Somalia,162655,87135
 2021-07-14,South Africa,3995020,1459950
-2021-07-14,South Korea,15940637,6293888
+2021-07-14,South Korea,15941954,6294920
 2021-07-14,South Sudan,51571,4344
 2021-07-14,Spain,28759879,22949155
 2021-07-14,Sri Lanka,4496770,1537230
@@ -42416,7 +42416,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-15,Solomon Islands,19641,5987
 2021-07-15,Somalia,162655,87135
 2021-07-15,South Africa,4335517,1674152
-2021-07-15,South Korea,16064271,6437268
+2021-07-15,South Korea,16065596,6438316
 2021-07-15,South Sudan,51571,4344
 2021-07-15,Spain,29033376,23372796
 2021-07-15,Sri Lanka,4847360,1583740
@@ -42603,7 +42603,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-16,Solomon Islands,19641,5987
 2021-07-16,Somalia,162655,87135
 2021-07-16,South Africa,4335517,1674152
-2021-07-16,South Korea,16199581,6622402
+2021-07-16,South Korea,16200915,6623462
 2021-07-16,South Sudan,51571,4344
 2021-07-16,Spain,29033376,23372796
 2021-07-16,Sri Lanka,5175605,1628876
@@ -42790,7 +42790,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-17,Solomon Islands,19641,5987
 2021-07-17,Somalia,162655,87135
 2021-07-17,South Africa,4335517,1674152
-2021-07-17,South Korea,16234470,6659633
+2021-07-17,South Korea,16235813,6660705
 2021-07-17,South Sudan,51571,4344
 2021-07-17,Spain,29033376,23372796
 2021-07-17,Sri Lanka,5404938,1646176
@@ -42977,7 +42977,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-18,Solomon Islands,19641,5987
 2021-07-18,Somalia,162655,87135
 2021-07-18,South Africa,4335517,1674152
-2021-07-18,South Korea,16237128,6660473
+2021-07-18,South Korea,16238477,6661550
 2021-07-18,South Sudan,51571,4344
 2021-07-18,Spain,29484796,24041017
 2021-07-18,Sri Lanka,5578909,1668074
@@ -43164,7 +43164,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-19,Solomon Islands,19641,5987
 2021-07-19,Somalia,162655,87135
 2021-07-19,South Africa,4376024,1688514
-2021-07-19,South Korea,16397749,6732617
+2021-07-19,South Korea,16399104,6733706
 2021-07-19,South Sudan,52226,4763
 2021-07-19,Spain,29697691,24344008
 2021-07-19,Sri Lanka,5675329,1686564
@@ -43351,7 +43351,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-20,Solomon Islands,20538,7282
 2021-07-20,Somalia,162655,87135
 2021-07-20,South Africa,4533966,1786939
-2021-07-20,South Korea,16548932,6794719
+2021-07-20,South Korea,16550294,6795818
 2021-07-20,South Sudan,52226,4763
 2021-07-20,Spain,29956479,24700450
 2021-07-20,Sri Lanka,5876281,1697686
@@ -43538,7 +43538,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-21,Solomon Islands,20538,7282
 2021-07-21,Somalia,162655,87135
 2021-07-21,South Africa,4533966,1786939
-2021-07-21,South Korea,16689059,6834862
+2021-07-21,South Korea,16690425,6835972
 2021-07-21,South Sudan,52226,4763
 2021-07-21,Spain,30217311,25060958
 2021-07-21,Sri Lanka,6138757,1713686
@@ -43725,7 +43725,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-22,Solomon Islands,20538,7282
 2021-07-22,Somalia,162655,87135
 2021-07-22,South Africa,5045795,2154922
-2021-07-22,South Korea,16830088,6895226
+2021-07-22,South Korea,16831460,6896345
 2021-07-22,South Sudan,52226,4763
 2021-07-22,Spain,30500003,25398978
 2021-07-22,Sri Lanka,6317202,1722998
@@ -43912,7 +43912,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-23,Solomon Islands,20538,7282
 2021-07-23,Somalia,162655,87135
 2021-07-23,South Africa,5202583,2274267
-2021-07-23,South Korea,16977205,6955779
+2021-07-23,South Korea,16978582,6956912
 2021-07-23,South Sudan,52226,4763
 2021-07-23,Spain,30500003,25398978
 2021-07-23,Sri Lanka,6542533,1736314
@@ -44099,7 +44099,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-24,Solomon Islands,20538,7282
 2021-07-24,Somalia,162655,87135
 2021-07-24,South Africa,5202583,2274267
-2021-07-24,South Korea,17006827,6967370
+2021-07-24,South Korea,17008207,6968508
 2021-07-24,South Sudan,52226,4763
 2021-07-24,Spain,30500003,25398978
 2021-07-24,Sri Lanka,6693072,1746397
@@ -44286,7 +44286,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-25,Solomon Islands,20538,7282
 2021-07-25,Somalia,162655,87135
 2021-07-25,South Africa,5266979,2311559
-2021-07-25,South Korea,17008642,6967744
+2021-07-25,South Korea,17010022,6968889
 2021-07-25,South Sudan,52226,4763
 2021-07-25,Spain,30827932,25944318
 2021-07-25,Sri Lanka,7114087,1793472
@@ -44473,7 +44473,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-26,Solomon Islands,20538,7282
 2021-07-26,Somalia,162655,87135
 2021-07-26,South Africa,5266979,2311559
-2021-07-26,South Korea,17628531,7033328
+2021-07-26,South Korea,17629915,7034493
 2021-07-26,South Sudan,52226,4763
 2021-07-26,Spain,30996228,26151164
 2021-07-26,Sri Lanka,7434297,1806612
@@ -44660,7 +44660,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-27,Solomon Islands,29429,9934
 2021-07-27,Somalia,162655,87135
 2021-07-27,South Africa,5580927,2580001
-2021-07-27,South Korea,18011190,7082549
+2021-07-27,South Korea,18012578,7083727
 2021-07-27,South Sudan,52226,4763
 2021-07-27,Spain,31315140,26420097
 2021-07-27,Sri Lanka,7839638,1882693
@@ -44847,7 +44847,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-28,Solomon Islands,29429,9934
 2021-07-28,Somalia,162655,87135
 2021-07-28,South Africa,5580927,2580001
-2021-07-28,South Korea,18491929,7125706
+2021-07-28,South Korea,18493321,7126894
 2021-07-28,South Sudan,52226,4763
 2021-07-28,Spain,31592444,26694887
 2021-07-28,Sri Lanka,8232194,1886930
@@ -45034,7 +45034,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-29,Solomon Islands,29429,9934
 2021-07-29,Somalia,162655,87135
 2021-07-29,South Africa,5921627,2835930
-2021-07-29,South Korea,18840193,7169611
+2021-07-29,South Korea,18841588,7170813
 2021-07-29,South Sudan,52226,4763
 2021-07-29,Spain,31851618,26933847
 2021-07-29,Sri Lanka,8718433,1994384
@@ -45221,7 +45221,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-30,Solomon Islands,29429,9934
 2021-07-30,Somalia,162655,87135
 2021-07-30,South Africa,5921627,2835930
-2021-07-30,South Korea,19337907,7230452
+2021-07-30,South Korea,19339309,7231661
 2021-07-30,South Sudan,52226,4763
 2021-07-30,Spain,31851618,26933847
 2021-07-30,Sri Lanka,9178909,2063809
@@ -45408,7 +45408,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-31,Solomon Islands,29429,9934
 2021-07-31,Somalia,162655,87135
 2021-07-31,South Africa,5921627,2835930
-2021-07-31,South Korea,19553921,7244358
+2021-07-31,South Korea,19555324,7245574
 2021-07-31,South Sudan,52226,4763
 2021-07-31,Spain,31851618,26933847
 2021-07-31,Sri Lanka,9634704,2134106
@@ -45595,7 +45595,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-01,Solomon Islands,29429,9934
 2021-08-01,Somalia,162655,87135
 2021-08-01,South Africa,5921627,2835930
-2021-08-01,South Korea,19582114,7245161
+2021-08-01,South Korea,19583519,7246380
 2021-08-01,South Sudan,52226,4763
 2021-08-01,Spain,32169472,27262062
 2021-08-01,Sri Lanka,9944683,2154206
@@ -45782,7 +45782,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-02,Solomon Islands,29429,10975
 2021-08-02,Somalia,186595,87135
 2021-08-02,South Africa,6123925,2982952
-2021-08-02,South Korea,20059716,7282019
+2021-08-02,South Korea,20061130,7283247
 2021-08-02,South Sudan,52226,4763
 2021-08-02,Spain,32352818,27437503
 2021-08-02,Sri Lanka,10076981,2254887
@@ -45969,7 +45969,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-03,Solomon Islands,29429,10975
 2021-08-03,Somalia,186595,87135
 2021-08-03,South Africa,6403808,3212974
-2021-08-03,South Korea,20280888,7389776
+2021-08-03,South Korea,20282312,7391014
 2021-08-03,South Sudan,52226,4763
 2021-08-03,Spain,32650750,27811786
 2021-08-03,Sri Lanka,10309855,2448361
@@ -46156,7 +46156,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-04,Solomon Islands,29429,10975
 2021-08-04,Somalia,186595,87135
 2021-08-04,South Africa,6403808,3212974
-2021-08-04,South Korea,20447822,7500514
+2021-08-04,South Korea,20449251,7501764
 2021-08-04,South Sudan,52226,4763
 2021-08-04,Spain,32892680,28034427
 2021-08-04,Sri Lanka,10481285,2584091
@@ -46343,7 +46343,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-05,Solomon Islands,29429,10975
 2021-08-05,Somalia,186595,87135
 2021-08-05,South Africa,6546410,3327950
-2021-08-05,South Korea,20642196,7628005
+2021-08-05,South Korea,20643627,7629259
 2021-08-05,South Sudan,52226,4763
 2021-08-05,Spain,33141450,28255949
 2021-08-05,Sri Lanka,10616683,2646042
@@ -46530,7 +46530,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-06,Solomon Islands,29429,10975
 2021-08-06,Somalia,186595,87135
 2021-08-06,South Africa,6546410,3327950
-2021-08-06,South Korea,20899310,7784549
+2021-08-06,South Korea,20900746,7785813
 2021-08-06,South Sudan,52226,4763
 2021-08-06,Spain,33141450,28255949
 2021-08-06,Sri Lanka,10777259,2679063
@@ -46717,7 +46717,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-07,Solomon Islands,29429,10975
 2021-08-07,Somalia,186595,87135
 2021-08-07,South Africa,6546410,3327950
-2021-08-07,South Korea,21021544,7820838
+2021-08-07,South Korea,21022984,7822106
 2021-08-07,South Sudan,52226,4763
 2021-08-07,Spain,33141450,28255949
 2021-08-07,Sri Lanka,10871332,2699350
@@ -46904,7 +46904,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-08,Solomon Islands,29429,10975
 2021-08-08,Somalia,186595,87135
 2021-08-08,South Africa,6866089,3576698
-2021-08-08,South Korea,21049544,7823336
+2021-08-08,South Korea,21050986,7824610
 2021-08-08,South Sudan,52226,4763
 2021-08-08,Spain,33424529,28587458
 2021-08-08,Sri Lanka,10986524,2778714
@@ -47091,7 +47091,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-09,Solomon Islands,43466,13155
 2021-08-09,Somalia,186595,87135
 2021-08-09,South Africa,6866089,3576698
-2021-08-09,South Korea,21487354,7997799
+2021-08-09,South Korea,21488801,7999087
 2021-08-09,South Sudan,52226,4763
 2021-08-09,Spain,33575961,28768777
 2021-08-09,Sri Lanka,10986524,2778714
@@ -47278,7 +47278,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-10,Solomon Islands,43466,13155
 2021-08-10,Somalia,186595,87135
 2021-08-10,South Africa,6995459,3719508
-2021-08-10,South Korea,21751791,8167762
+2021-08-10,South Korea,21753240,8169059
 2021-08-10,South Sudan,52226,4763
 2021-08-10,Spain,33871458,28993301
 2021-08-10,Sri Lanka,10986524,2778714
@@ -47465,7 +47465,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-11,Solomon Islands,43466,13155
 2021-08-11,Somalia,186595,87135
 2021-08-11,South Africa,6995459,3719508
-2021-08-11,South Korea,21930835,8331707
+2021-08-11,South Korea,21932290,8333013
 2021-08-11,South Sudan,52226,4763
 2021-08-11,Spain,34196761,29221276
 2021-08-11,Sri Lanka,10986524,2778714
@@ -47652,7 +47652,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-12,Solomon Islands,43466,13155
 2021-08-12,Somalia,186595,87135
 2021-08-12,South Africa,7249045,3958231
-2021-08-12,South Korea,22100632,9039267
+2021-08-12,South Korea,22102096,9040577
 2021-08-12,South Sudan,52226,4763
 2021-08-12,Spain,34455543,29526380
 2021-08-12,Sri Lanka,11534750,3775976
@@ -47839,7 +47839,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-13,Solomon Islands,43466,13155
 2021-08-13,Somalia,186595,87135
 2021-08-13,South Africa,7249045,3958231
-2021-08-13,South Korea,22345175,9660828
+2021-08-13,South Korea,22346642,9662146
 2021-08-13,South Sudan,52226,4763
 2021-08-13,Spain,34455543,29526380
 2021-08-13,Sri Lanka,11534750,3775976
@@ -48026,7 +48026,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-14,Solomon Islands,43466,13155
 2021-08-14,Somalia,186595,87135
 2021-08-14,South Africa,7249045,3958231
-2021-08-14,South Korea,22488837,9843782
+2021-08-14,South Korea,22490306,9845107
 2021-08-14,South Sudan,52226,4763
 2021-08-14,Spain,34455543,29526380
 2021-08-14,Sri Lanka,11534750,3775976
@@ -48213,7 +48213,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-15,Solomon Islands,43466,13155
 2021-08-15,Somalia,186595,87135
 2021-08-15,South Africa,7389049,4082852
-2021-08-15,South Korea,22507514,9849553
+2021-08-15,South Korea,22508988,9850879
 2021-08-15,South Sudan,52226,4763
 2021-08-15,Spain,34716227,29794008
 2021-08-15,Sri Lanka,11534750,3775976
@@ -48400,7 +48400,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-16,Solomon Islands,48883,14437
 2021-08-16,Somalia,186595,87135
 2021-08-16,South Africa,7486036,4197442
-2021-08-16,South Korea,23180250,10106582
+2021-08-16,South Korea,23181726,10107913
 2021-08-16,South Sudan,52226,4763
 2021-08-16,Spain,34867478,29968303
 2021-08-16,Sri Lanka,11534750,3775976
@@ -48587,7 +48587,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-17,Solomon Islands,48883,14437
 2021-08-17,Somalia,186595,87135
 2021-08-17,South Africa,7486036,4197442
-2021-08-17,South Korea,23906484,10603380
+2021-08-17,South Korea,23907963,10604719
 2021-08-17,South Sudan,52226,4763
 2021-08-17,Spain,35072910,30261332
 2021-08-17,Sri Lanka,11534750,3775976
@@ -48774,7 +48774,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-18,Solomon Islands,48883,14437
 2021-08-18,Somalia,186595,87135
 2021-08-18,South Africa,7702298,4482893
-2021-08-18,South Korea,24431367,10923834
+2021-08-18,South Korea,24432849,10925176
 2021-08-18,South Sudan,52226,4763
 2021-08-18,Spain,35269276,30565129
 2021-08-18,Sri Lanka,11534750,3775976
@@ -48961,7 +48961,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-19,Solomon Islands,48883,14437
 2021-08-19,Somalia,186595,87135
 2021-08-19,South Africa,7808653,4629371
-2021-08-19,South Korea,24937242,11218064
+2021-08-19,South Korea,24938730,11219414
 2021-08-19,South Sudan,52226,4763
 2021-08-19,Spain,35442173,31096470
 2021-08-19,Sri Lanka,11534750,3775976
@@ -49148,7 +49148,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-20,Solomon Islands,48883,14437
 2021-08-20,Somalia,186595,87135
 2021-08-20,South Africa,7986245,4782071
-2021-08-20,South Korea,25629199,11551847
+2021-08-20,South Korea,25630689,11553208
 2021-08-20,South Sudan,52226,4763
 2021-08-20,Spain,35442173,31096470
 2021-08-20,Sri Lanka,11799191,5269083
@@ -49335,7 +49335,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-21,Solomon Islands,48883,14437
 2021-08-21,Somalia,188765,93757
 2021-08-21,South Africa,7986245,4782071
-2021-08-21,South Korea,25994625,11675859
+2021-08-21,South Korea,25996116,11677223
 2021-08-21,South Sudan,52226,4763
 2021-08-21,Spain,35442173,31096470
 2021-08-21,Sri Lanka,12073373,5514315
@@ -49522,7 +49522,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-22,Solomon Islands,48883,14437
 2021-08-22,Somalia,188765,93757
 2021-08-22,South Africa,8017522,4832763
-2021-08-22,South Korea,26034997,11678315
+2021-08-22,South Korea,26036490,11679683
 2021-08-22,South Sudan,52226,4763
 2021-08-22,Spain,35667383,31447188
 2021-08-22,Sri Lanka,12088864,5620254
@@ -49709,7 +49709,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-23,Solomon Islands,48883,14437
 2021-08-23,Somalia,188765,93757
 2021-08-23,South Africa,8240067,4983911
-2021-08-23,South Korea,26423547,12398173
+2021-08-23,South Korea,26425042,12399548
 2021-08-23,South Sudan,52226,4763
 2021-08-23,Spain,35831729,31653643
 2021-08-23,Sri Lanka,12096630,5664905
@@ -49896,7 +49896,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-24,Solomon Islands,48883,14437
 2021-08-24,Somalia,188765,93757
 2021-08-24,South Africa,8439579,5141248
-2021-08-24,South Korea,26829671,13003427
+2021-08-24,South Korea,26831174,13004817
 2021-08-24,South Sudan,52226,4763
 2021-08-24,Spain,35950365,31930874
 2021-08-24,Sri Lanka,12129492,5807496
@@ -50083,7 +50083,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-25,Solomon Islands,48883,14437
 2021-08-25,Somalia,188765,93757
 2021-08-25,South Africa,8439579,5141248
-2021-08-25,South Korea,27208302,13482172
+2021-08-25,South Korea,27209805,13483568
 2021-08-25,South Sudan,52226,4763
 2021-08-25,Spain,36111205,32239782
 2021-08-25,Sri Lanka,12149634,5949451
@@ -50270,7 +50270,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-26,Solomon Islands,48883,14437
 2021-08-26,Somalia,188765,93757
 2021-08-26,South Africa,8439579,5141248
-2021-08-26,South Korea,27862664,13908987
+2021-08-26,South Korea,27864174,13910389
 2021-08-26,South Sudan,52226,4763
 2021-08-26,Spain,36237517,32459380
 2021-08-26,Sri Lanka,12220331,6121540
@@ -50457,7 +50457,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-27,Solomon Islands,48883,14437
 2021-08-27,Somalia,188765,93757
 2021-08-27,South Africa,9026420,5601878
-2021-08-27,South Korea,28465902,14460131
+2021-08-27,South Korea,28467415,14461540
 2021-08-27,South Sudan,52226,4763
 2021-08-27,Spain,36237517,32459380
 2021-08-27,Sri Lanka,12255121,6464296
@@ -50644,7 +50644,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-28,Solomon Islands,48883,14437
 2021-08-28,Somalia,188765,93757
 2021-08-28,South Africa,9026420,5601878
-2021-08-28,South Korea,28742476,14715946
+2021-08-28,South Korea,28743993,14717360
 2021-08-28,South Sudan,52226,4763
 2021-08-28,Spain,36237517,32459380
 2021-08-28,Sri Lanka,12290482,6873138
@@ -50831,7 +50831,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-29,Solomon Islands,48883,14437
 2021-08-29,Somalia,188765,93757
 2021-08-29,South Africa,9026420,5601878
-2021-08-29,South Korea,28758785,14731977
+2021-08-29,South Korea,28760304,14733395
 2021-08-29,South Sudan,52226,4763
 2021-08-29,Spain,36346563,32811664
 2021-08-29,Sri Lanka,12309254,7042418
@@ -51018,7 +51018,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-30,Solomon Islands,48883,14437
 2021-08-30,Somalia,194876,96177
 2021-08-30,South Africa,9253007,5818291
-2021-08-30,South Korea,29148799,15332265
+2021-08-30,South Korea,29150320,15333689
 2021-08-30,South Sudan,52387,4763
 2021-08-30,Spain,36431416,32996436
 2021-08-30,Sri Lanka,12325287,7173120
@@ -51205,7 +51205,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-31,Solomon Islands,53974,17627
 2021-08-31,Somalia,194876,96177
 2021-08-31,South Africa,9418185,5985293
-2021-08-31,South Korea,29396772,15862899
+2021-08-31,South Korea,29398298,15864333
 2021-08-31,South Sudan,52387,4763
 2021-08-31,Spain,36533328,33376693
 2021-08-31,Sri Lanka,12423579,7703411
@@ -51392,7 +51392,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-01,Solomon Islands,53974,17627
 2021-09-01,Somalia,197682,97425
 2021-09-01,South Africa,9581161,6145216
-2021-09-01,South Korea,29575581,16398234
+2021-09-01,South Korea,29577109,16399672
 2021-09-01,South Sudan,52387,4763
 2021-09-01,Spain,36613696,33657941
 2021-09-01,Sri Lanka,12468949,8169232
@@ -51579,7 +51579,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-02,Solomon Islands,53974,17627
 2021-09-02,Somalia,197682,97425
 2021-09-02,South Africa,9741655,6301758
-2021-09-02,South Korea,29762077,16898623
+2021-09-02,South Korea,29763610,16900064
 2021-09-02,South Sudan,52387,4763
 2021-09-02,Spain,36696877,33940053
 2021-09-02,Sri Lanka,12564209,8582094
@@ -51766,7 +51766,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-03,Solomon Islands,53974,17627
 2021-09-03,Somalia,197682,97425
 2021-09-03,South Africa,9741655,6301758
-2021-09-03,South Korea,29995760,17598200
+2021-09-03,South Korea,29997297,17599645
 2021-09-03,South Sudan,52387,4763
 2021-09-03,Spain,36696877,33940053
 2021-09-03,Sri Lanka,12604733,8801182
@@ -51953,7 +51953,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-04,Solomon Islands,53974,17627
 2021-09-04,Somalia,197682,97425
 2021-09-04,South Africa,9741655,6301758
-2021-09-04,South Korea,30114666,17859246
+2021-09-04,South Korea,30116204,17860694
 2021-09-04,South Sudan,52387,4763
 2021-09-04,Spain,36696877,33940053
 2021-09-04,Sri Lanka,12660231,9007588
@@ -52140,7 +52140,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-05,Solomon Islands,53974,17627
 2021-09-05,Somalia,197682,97425
 2021-09-05,South Africa,9961650,6492469
-2021-09-05,South Korea,30123281,17867557
+2021-09-05,South Korea,30124819,17869006
 2021-09-05,South Sudan,52387,4763
 2021-09-05,Spain,36820586,34270593
 2021-09-05,Sri Lanka,12703070,9137887
@@ -52327,7 +52327,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-06,Solomon Islands,53974,17627
 2021-09-06,Somalia,207256,102749
 2021-09-06,South Africa,9961650,6492469
-2021-09-06,South Korea,30867423,18502592
+2021-09-06,South Korea,30868963,18504045
 2021-09-06,South Sudan,53147,6718
 2021-09-06,Spain,36889887,34418544
 2021-09-06,Sri Lanka,12729601,9179246
@@ -52514,7 +52514,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-07,Solomon Islands,53974,17627
 2021-09-07,Somalia,207256,102749
 2021-09-07,South Africa,10218230,6751662
-2021-09-07,South Korea,31442257,18924017
+2021-09-07,South Korea,31443802,18925479
 2021-09-07,South Sudan,53147,6718
 2021-09-07,Spain,37008271,34739745
 2021-09-07,Sri Lanka,12823147,9414851
@@ -52701,7 +52701,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-08,Solomon Islands,53974,17627
 2021-09-08,Somalia,207256,102749
 2021-09-08,South Africa,10218230,6751662
-2021-09-08,South Korea,31828423,19231393
+2021-09-08,South Korea,31829975,19232862
 2021-09-08,South Sudan,55182,11927
 2021-09-08,Spain,37067635,34903802
 2021-09-08,Sri Lanka,12952755,9714857
@@ -52888,7 +52888,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-09,Solomon Islands,53974,17627
 2021-09-09,Somalia,207256,102749
 2021-09-09,South Africa,10359652,6888163
-2021-09-09,South Korea,32268645,19523693
+2021-09-09,South Korea,32270201,19525167
 2021-09-09,South Sudan,55182,11927
 2021-09-09,Spain,37126744,35070311
 2021-09-09,Sri Lanka,13128756,9994589
@@ -53075,7 +53075,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-10,Solomon Islands,53974,17627
 2021-09-10,Somalia,207256,102749
 2021-09-10,South Africa,10664881,7153911
-2021-09-10,South Korea,32921829,19941624
+2021-09-10,South Korea,32923390,19943105
 2021-09-10,South Sudan,55182,11927
 2021-09-10,Spain,37126744,35070311
 2021-09-10,Sri Lanka,13264805,10211537
@@ -53262,7 +53262,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-11,Solomon Islands,53974,17627
 2021-09-11,Somalia,223498,116200
 2021-09-11,South Africa,10707263,7187179
-2021-09-11,South Korea,33250429,20154126
+2021-09-11,South Korea,33251993,20155611
 2021-09-11,South Sudan,55182,11927
 2021-09-11,Spain,37126744,35070311
 2021-09-11,Sri Lanka,13371289,10406048
@@ -53449,7 +53449,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-12,Solomon Islands,53974,17627
 2021-09-12,Somalia,223498,116200
 2021-09-12,South Africa,10720370,7199405
-2021-09-12,South Korea,33272304,20179820
+2021-09-12,South Korea,33273875,20181308
 2021-09-12,South Sudan,55182,11927
 2021-09-12,Spain,37216507,35300384
 2021-09-12,Sri Lanka,13458620,10544228
@@ -53636,7 +53636,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-13,Solomon Islands,53974,17627
 2021-09-13,Somalia,223498,116200
 2021-09-13,South Africa,10860642,7330517
-2021-09-13,South Korea,34100517,20603124
+2021-09-13,South Korea,34102089,20604619
 2021-09-13,South Sudan,55182,11927
 2021-09-13,Spain,37243220,35413078
 2021-09-13,Sri Lanka,13497826,10579220
@@ -53823,7 +53823,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-14,Solomon Islands,74573,23171
 2021-09-14,Somalia,223498,116200
 2021-09-14,South Africa,11034034,7473903
-2021-09-14,South Korea,34702850,20828009
+2021-09-14,South Korea,34704423,20829507
 2021-09-14,South Sudan,55182,11927
 2021-09-14,Spain,37303202,35571661
 2021-09-14,Sri Lanka,13553534,10672627
@@ -54010,7 +54010,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-15,Solomon Islands,74573,23171
 2021-09-15,Somalia,231089,120216
 2021-09-15,South Africa,11206776,7609183
-2021-09-15,South Korea,35079271,21268436
+2021-09-15,South Korea,35080846,21269940
 2021-09-15,South Sudan,55182,11927
 2021-09-15,Spain,37341455,35688441
 2021-09-15,Sri Lanka,13602365,10747236
@@ -54197,7 +54197,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-16,Solomon Islands,74573,23171
 2021-09-16,Somalia,231089,120216
 2021-09-16,South Africa,11367049,7734069
-2021-09-16,South Korea,35510085,21582548
+2021-09-16,South Korea,35511665,21584058
 2021-09-16,South Sudan,55182,11927
 2021-09-16,Spain,37385758,35784743
 2021-09-16,Sri Lanka,13649253,10814200
@@ -54384,7 +54384,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-17,Solomon Islands,74573,23171
 2021-09-17,Somalia,231089,120216
 2021-09-17,South Africa,11367049,7734069
-2021-09-17,South Korea,36171257,22027653
+2021-09-17,South Korea,36172840,22029166
 2021-09-17,South Sudan,55182,11927
 2021-09-17,Spain,37385758,35784743
 2021-09-17,Sri Lanka,13690202,10867900
@@ -54571,7 +54571,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-18,Solomon Islands,74573,23171
 2021-09-18,Somalia,231089,120216
 2021-09-18,South Africa,11367049,7734069
-2021-09-18,South Korea,36563843,22218187
+2021-09-18,South Korea,36565428,22219702
 2021-09-18,South Sudan,55182,11927
 2021-09-18,Spain,37385758,35784743
 2021-09-18,Sri Lanka,13720887,10968195
@@ -54758,7 +54758,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-19,Solomon Islands,74573,23171
 2021-09-19,Somalia,231089,120216
 2021-09-19,South Africa,11579000,7911171
-2021-09-19,South Korea,36585180,22244262
+2021-09-19,South Korea,36586767,22245779
 2021-09-19,South Sudan,69157,26884
 2021-09-19,Spain,37472155,36086354
 2021-09-19,Sri Lanka,13749897,11054101
@@ -54945,7 +54945,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-20,Solomon Islands,74573,23171
 2021-09-20,Somalia,241945,148196
 2021-09-20,South Africa,11579000,7911171
-2021-09-20,South Korea,36615240,22258320
+2021-09-20,South Korea,36616827,22259839
 2021-09-20,South Sudan,69157,26884
 2021-09-20,Spain,37472155,36086354
 2021-09-20,Sri Lanka,13772541,11093465
@@ -55132,7 +55132,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-21,Solomon Islands,74573,23171
 2021-09-21,Somalia,241945,148196
 2021-09-21,South Africa,11848402,8108520
-2021-09-21,South Korea,36621836,22262685
+2021-09-21,South Korea,36623424,22264206
 2021-09-21,South Sudan,69157,26884
 2021-09-21,Spain,37508658,36184677
 2021-09-21,Sri Lanka,13802944,11124145
@@ -55319,7 +55319,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-22,Solomon Islands,74573,23171
 2021-09-22,Somalia,241945,148196
 2021-09-22,South Africa,11987011,8228296
-2021-09-22,South Korea,36649450,22278766
+2021-09-22,South Korea,36651038,22280293
 2021-09-22,South Sudan,72173,28448
 2021-09-22,Spain,37538323,36259105
 2021-09-22,Sri Lanka,13906987,11203890
@@ -55506,7 +55506,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-23,Solomon Islands,74573,23171
 2021-09-23,Somalia,249200,181599
 2021-09-23,South Africa,12115821,8344762
-2021-09-23,South Korea,37211632,22656050
+2021-09-23,South Korea,37213220,22657582
 2021-09-23,South Sudan,74198,29553
 2021-09-23,Spain,37571186,36335711
 2021-09-23,Sri Lanka,14032696,11306826
@@ -55693,7 +55693,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-24,Solomon Islands,74573,23171
 2021-09-24,Somalia,249200,181599
 2021-09-24,South Africa,12136460,8362232
-2021-09-24,South Korea,37829031,23071536
+2021-09-24,South Korea,37830620,23073073
 2021-09-24,South Sudan,74198,29553
 2021-09-24,Spain,37571186,36335711
 2021-09-24,Sri Lanka,14183520,11406358
@@ -55880,7 +55880,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-25,Solomon Islands,74573,23171
 2021-09-25,Somalia,249200,181599
 2021-09-25,South Africa,12136460,8362232
-2021-09-25,South Korea,38142428,23287361
+2021-09-25,South Korea,38144018,23288902
 2021-09-25,South Sudan,74198,29553
 2021-09-25,Spain,37571186,36335711
 2021-09-25,Sri Lanka,14302376,11511115
@@ -56067,7 +56067,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-26,Solomon Islands,74573,23171
 2021-09-26,Somalia,250415,213944
 2021-09-26,South Africa,12167828,8391620
-2021-09-26,South Korea,38168931,23311318
+2021-09-26,South Korea,38170523,23312864
 2021-09-26,South Sudan,74198,29553
 2021-09-26,Spain,37612369,36447564
 2021-09-26,Sri Lanka,14367807,11593990
@@ -56254,7 +56254,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-27,Solomon Islands,74573,23171
 2021-09-27,Somalia,250415,213944
 2021-09-27,South Africa,12268498,8501712
-2021-09-27,South Korea,38586495,24023961
+2021-09-27,South Korea,38588088,24025510
 2021-09-27,South Sudan,74198,29553
 2021-09-27,Spain,37632058,36501799
 2021-09-27,Sri Lanka,14391759,11610686
@@ -56441,7 +56441,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-28,Solomon Islands,74573,23171
 2021-09-28,Somalia,251458,225617
 2021-09-28,South Africa,12268498,8501712
-2021-09-28,South Korea,38844214,24714835
+2021-09-28,South Korea,38845808,24716390
 2021-09-28,South Sudan,74198,29553
 2021-09-28,Spain,37657732,36566753
 2021-09-28,Sri Lanka,14433611,11662496
@@ -56628,7 +56628,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-29,Solomon Islands,74573,23171
 2021-09-29,Somalia,259041,236000
 2021-09-29,South Africa,12268498,8501712
-2021-09-29,South Korea,39076069,25242121
+2021-09-29,South Korea,39077668,25243683
 2021-09-29,South Sudan,74198,29553
 2021-09-29,Spain,37680085,36613575
 2021-09-29,Sri Lanka,14471052,11700763
@@ -56815,7 +56815,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-30,Solomon Islands,74573,23171
 2021-09-30,Somalia,259041,236000
 2021-09-30,South Africa,12593276,8819130
-2021-09-30,South Korea,39420699,25784710
+2021-09-30,South Korea,39422298,25786281
 2021-09-30,South Sudan,74198,29553
 2021-09-30,Spain,37702384,36667138
 2021-09-30,Sri Lanka,14502913,11730305
@@ -57002,7 +57002,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-01,Solomon Islands,74573,23171
 2021-10-01,Somalia,259041,236000
 2021-10-01,South Africa,12593276,8819130
-2021-10-01,South Korea,39657764,26646889
+2021-10-01,South Korea,39659362,26648464
 2021-10-01,South Sudan,77546,31053
 2021-10-01,Spain,37702384,36667138
 2021-10-01,Sri Lanka,14524408,11773685
@@ -57189,7 +57189,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-02,Solomon Islands,74573,23171
 2021-10-02,Somalia,259041,236000
 2021-10-02,South Africa,12593276,8819130
-2021-10-02,South Korea,39782589,27054381
+2021-10-02,South Korea,39784188,27055957
 2021-10-02,South Sudan,77546,31053
 2021-10-02,Spain,37702384,36667138
 2021-10-02,Sri Lanka,14555215,11821594
@@ -57376,7 +57376,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-03,Solomon Islands,74573,23171
 2021-10-03,Somalia,259041,236000
 2021-10-03,South Africa,12840302,9075189
-2021-10-03,South Korea,39786038,27087887
+2021-10-03,South Korea,39787638,27089464
 2021-10-03,South Sudan,77546,31053
 2021-10-03,Spain,37727757,36745965
 2021-10-03,Sri Lanka,14570141,11853825
@@ -57563,7 +57563,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-04,Solomon Islands,74573,23171
 2021-10-04,Somalia,259041,236000
 2021-10-04,South Africa,12840302,9075189
-2021-10-04,South Korea,39811640,27298195
+2021-10-04,South Korea,39813240,27299772
 2021-10-04,South Sudan,77546,31053
 2021-10-04,Spain,37741414,36771680
 2021-10-04,Sri Lanka,14580206,11861029
@@ -57750,7 +57750,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-05,Solomon Islands,104760,25444
 2021-10-05,Somalia,259041,236000
 2021-10-05,South Africa,13063132,9364725
-2021-10-05,South Korea,39857044,28065476
+2021-10-05,South Korea,39858648,28067059
 2021-10-05,South Sudan,77546,31053
 2021-10-05,Spain,37755682,36802767
 2021-10-05,Sri Lanka,14598456,11925577
@@ -57937,7 +57937,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-06,Solomon Islands,104760,25444
 2021-10-06,Somalia,297741,244760
 2021-10-06,South Africa,13182547,9526247
-2021-10-06,South Korea,39894354,28577373
+2021-10-06,South Korea,39895957,28578959
 2021-10-06,South Sudan,77546,31053
 2021-10-06,Spain,37772454,36832362
 2021-10-06,Sri Lanka,14615232,11967327
@@ -58124,7 +58124,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-07,Solomon Islands,104760,25444
 2021-10-07,Somalia,297741,244760
 2021-10-07,South Africa,13182547,9526247
-2021-10-07,South Korea,39931452,29289245
+2021-10-07,South Korea,39933058,29290831
 2021-10-07,South Sudan,77546,31053
 2021-10-07,Spain,37788299,36867685
 2021-10-07,Sri Lanka,14639679,12043368
@@ -58311,7 +58311,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-08,Solomon Islands,104760,25444
 2021-10-08,Somalia,297741,244760
 2021-10-08,South Africa,13302682,9686443
-2021-10-08,South Korea,39976737,30389247
+2021-10-08,South Korea,39978344,30390838
 2021-10-08,South Sudan,81061,31952
 2021-10-08,Spain,37788299,36867685
 2021-10-08,Sri Lanka,14668211,12123409
@@ -58498,7 +58498,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-09,Solomon Islands,104760,25444
 2021-10-09,Somalia,297741,244760
 2021-10-09,South Africa,13302682,9686443
-2021-10-09,South Korea,39987616,30493330
+2021-10-09,South Korea,39989225,30494924
 2021-10-09,South Sudan,81061,31952
 2021-10-09,Spain,37788299,36867685
 2021-10-09,Sri Lanka,14684749,12255004
@@ -58685,7 +58685,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-10,Solomon Islands,104760,25444
 2021-10-10,Somalia,297741,244760
 2021-10-10,South Africa,13302682,9686443
-2021-10-10,South Korea,39990374,30511512
+2021-10-10,South Korea,39991983,30513110
 2021-10-10,South Sudan,81061,31952
 2021-10-10,Spain,37816635,36937743
 2021-10-10,Sri Lanka,14698140,12360162
@@ -58872,7 +58872,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-11,Solomon Islands,104760,25444
 2021-10-11,Somalia,297741,244760
 2021-10-11,South Africa,13466577,9911989
-2021-10-11,South Korea,40084127,30677869
+2021-10-11,South Korea,40085740,30679472
 2021-10-11,South Sudan,82889,32761
 2021-10-11,Spain,37816635,36937743
 2021-10-11,Sri Lanka,14703606,12398451
@@ -59059,7 +59059,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-12,Solomon Islands,113423,28497
 2021-10-12,Somalia,297741,244760
 2021-10-12,South Africa,13466577,9911989
-2021-10-12,South Korea,40190988,31279693
+2021-10-12,South Korea,40192601,31281297
 2021-10-12,South Sudan,82889,32761
 2021-10-12,Spain,37830132,36961165
 2021-10-12,Sri Lanka,14716712,12480870
@@ -59246,7 +59246,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-13,Solomon Islands,113423,28497
 2021-10-13,Somalia,297741,244760
 2021-10-13,South Africa,13907243,10218549
-2021-10-13,South Korea,40248821,31691910
+2021-10-13,South Korea,40250436,31693517
 2021-10-13,South Sudan,82889,32761
 2021-10-13,Spain,37846897,36994918
 2021-10-13,Sri Lanka,14731502,12553819
@@ -59433,7 +59433,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-14,Solomon Islands,113423,28497
 2021-10-14,Somalia,341084,258631
 2021-10-14,South Africa,13907243,10218549
-2021-10-14,South Korea,40303896,32150296
+2021-10-14,South Korea,40305513,32151904
 2021-10-14,South Sudan,82889,32761
 2021-10-14,Spain,37868453,37029165
 2021-10-14,Sri Lanka,14745130,12613749
@@ -59620,7 +59620,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-15,Solomon Islands,113423,28497
 2021-10-15,Somalia,341084,258631
 2021-10-15,South Africa,13929429,10539458
-2021-10-15,South Korea,40393590,32871793
+2021-10-15,South Korea,40395208,32873402
 2021-10-15,South Sudan,82889,32761
 2021-10-15,Spain,37868453,37029165
 2021-10-15,Sri Lanka,14754334,12657989
@@ -59807,7 +59807,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-16,Solomon Islands,113423,28497
 2021-10-16,Somalia,341084,258631
 2021-10-16,South Africa,13929429,10539458
-2021-10-16,South Korea,40458033,33227295
+2021-10-16,South Korea,40459651,33228905
 2021-10-16,South Sudan,82889,32761
 2021-10-16,Spain,37868453,37029165
 2021-10-16,Sri Lanka,14767778,12720463
@@ -59994,7 +59994,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-17,Solomon Islands,113423,28497
 2021-10-17,Somalia,361937,285192
 2021-10-17,South Africa,14097921,10759755
-2021-10-17,South Korea,40459955,33247128
+2021-10-17,South Korea,40461573,33248740
 2021-10-17,South Sudan,84658,35809
 2021-10-17,Spain,37891519,37074146
 2021-10-17,Sri Lanka,14777220,12768759
@@ -60181,7 +60181,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-18,Solomon Islands,113423,28497
 2021-10-18,Somalia,361937,285192
 2021-10-18,South Africa,14097921,10759755
-2021-10-18,South Korea,40531881,33878254
+2021-10-18,South Korea,40533499,33879870
 2021-10-18,South Sudan,84658,35809
 2021-10-18,Spain,37899559,37086628
 2021-10-18,Sri Lanka,14780138,12783535
@@ -60368,7 +60368,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-19,Solomon Islands,113423,28497
 2021-10-19,Somalia,361937,285192
 2021-10-19,South Africa,14313392,11036024
-2021-10-19,South Korea,40569346,34325933
+2021-10-19,South Korea,40570964,34327554
 2021-10-19,South Sudan,84658,35809
 2021-10-19,Spain,37908612,37102507
 2021-10-19,Sri Lanka,14785189,12818379
@@ -60555,7 +60555,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-20,Solomon Islands,113423,28497
 2021-10-20,Somalia,361937,285192
 2021-10-20,South Africa,14313392,11036024
-2021-10-20,South Korea,40638445,34650652
+2021-10-20,South Korea,40640066,34652278
 2021-10-20,South Sudan,84658,38231
 2021-10-20,Spain,37938819,37176352
 2021-10-20,Sri Lanka,14788141,12839638
@@ -60742,7 +60742,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-21,Solomon Islands,113423,28497
 2021-10-21,Somalia,361937,285192
 2021-10-21,South Africa,14313392,11036024
-2021-10-21,South Korea,40698308,35059872
+2021-10-21,South Korea,40699929,35061501
 2021-10-21,South Sudan,84658,38653
 2021-10-21,Spain,37954027,37199581
 2021-10-21,Sri Lanka,14789068,12850329
@@ -60929,7 +60929,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-22,Solomon Islands,113423,28497
 2021-10-22,Somalia,361937,285192
 2021-10-22,South Africa,14313392,11036024
-2021-10-22,South Korea,40764468,35694184
+2021-10-22,South Korea,40766088,35695816
 2021-10-22,South Sudan,84658,38653
 2021-10-22,Spain,37954027,37199581
 2021-10-22,Sri Lanka,14868800,12932536
@@ -61116,7 +61116,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-23,Solomon Islands,113423,28497
 2021-10-23,Somalia,361937,285192
 2021-10-23,South Africa,14742868,11546163
-2021-10-23,South Korea,40816037,36028431
+2021-10-23,South Korea,40817658,36030066
 2021-10-23,South Sudan,84658,38653
 2021-10-23,Spain,37954027,37199581
 2021-10-23,Sri Lanka,14928248,13038469
@@ -61303,7 +61303,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-24,Solomon Islands,113423,28497
 2021-10-24,Somalia,361937,285192
 2021-10-24,South Africa,14742868,11546163
-2021-10-24,South Korea,40819908,36045415
+2021-10-24,South Korea,40821529,36047051
 2021-10-24,South Sudan,84658,38653
 2021-10-24,Spain,37979234,37234272
 2021-10-24,Sri Lanka,14975778,13126455
@@ -61490,7 +61490,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-25,Solomon Islands,121778,31054
 2021-10-25,Somalia,361937,285192
 2021-10-25,South Africa,14864813,11697646
-2021-10-25,South Korea,40898474,36479045
+2021-10-25,South Korea,40900095,36480687
 2021-10-25,South Sudan,84839,42361
 2021-10-25,Spain,37988609,37250048
 2021-10-25,Sri Lanka,14987889,13156574
@@ -61677,7 +61677,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-26,Solomon Islands,121778,31054
 2021-10-26,Somalia,363102,291760
 2021-10-26,South Africa,14864813,11697646
-2021-10-26,South Korea,40939758,36760791
+2021-10-26,South Korea,40941381,36762437
 2021-10-26,South Sudan,84839,42361
 2021-10-26,Spain,37998740,37263047
 2021-10-26,Sri Lanka,15061354,13201141
@@ -61864,7 +61864,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-27,Solomon Islands,121778,31054
 2021-10-27,Somalia,363102,291760
 2021-10-27,South Africa,14864813,11697646
-2021-10-27,South Korea,41017564,37019659
+2021-10-27,South Korea,41019187,37021308
 2021-10-27,South Sudan,84839,44912
 2021-10-27,Spain,38013994,37282484
 2021-10-27,Sri Lanka,15147114,13265898
@@ -62051,7 +62051,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-28,Solomon Islands,121778,31054
 2021-10-28,Somalia,363102,291760
 2021-10-28,South Africa,14864813,11697646
-2021-10-28,South Korea,41080809,37643880
+2021-10-28,South Korea,41082433,37645533
 2021-10-28,South Sudan,84839,44912
 2021-10-28,Spain,38036436,37315511
 2021-10-28,Sri Lanka,15262192,13319379
@@ -62238,7 +62238,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-29,Solomon Islands,121778,31054
 2021-10-29,Somalia,363102,291760
 2021-10-29,South Africa,14864813,11697646
-2021-10-29,South Korea,41141465,38346530
+2021-10-29,South Korea,41143090,38348184
 2021-10-29,South Sudan,84839,49532
 2021-10-29,Spain,38036436,37315511
 2021-10-29,Sri Lanka,15262192,13319379
@@ -62425,7 +62425,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-30,Solomon Islands,121778,31054
 2021-10-30,Somalia,363102,291760
 2021-10-30,South Africa,15314788,12305320
-2021-10-30,South Korea,41177834,38705213
+2021-10-30,South Korea,41179459,38706872
 2021-10-30,South Sudan,84839,49532
 2021-10-30,Spain,38037531,37317388
 2021-10-30,Sri Lanka,15262192,13319379
@@ -62612,7 +62612,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-31,Solomon Islands,121778,31054
 2021-10-31,Somalia,363367,304737
 2021-10-31,South Africa,15329097,12317435
-2021-10-31,South Korea,41180763,38726567
+2021-10-31,South Korea,41182388,38728227
 2021-10-31,South Sudan,84839,49532
 2021-10-31,Spain,38037531,37317388
 2021-10-31,Sri Lanka,15262192,13319379
@@ -62799,7 +62799,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-01,Solomon Islands,121778,31054
 2021-11-01,Somalia,363367,304737
 2021-11-01,South Africa,15329097,12317435
-2021-11-01,South Korea,41264125,38846097
+2021-11-01,South Korea,41265751,38847760
 2021-11-01,South Sudan,84839,49532
 2021-11-01,Spain,38037531,37317388
 2021-11-01,Sri Lanka,15262192,13319379
@@ -62986,7 +62986,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-02,Solomon Islands,121778,31054
 2021-11-02,Somalia,363367,304737
 2021-11-02,South Africa,15440005,12537511
-2021-11-02,South Korea,41306897,38933974
+2021-11-02,South Korea,41308524,38935636
 2021-11-02,South Sudan,84839,49532
 2021-11-02,Spain,38059705,37347287
 2021-11-02,Sri Lanka,15262192,13319379
@@ -63173,7 +63173,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-03,Solomon Islands,121778,31054
 2021-11-03,Somalia,365791,315741
 2021-11-03,South Africa,15562387,12620892
-2021-11-03,South Korea,41372099,39010363
+2021-11-03,South Korea,41373731,39012026
 2021-11-03,South Sudan,84839,49532
 2021-11-03,Spain,38071080,37360864
 2021-11-03,Sri Lanka,15671510,13501175
@@ -63360,7 +63360,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-04,Solomon Islands,121778,31054
 2021-11-04,Somalia,365791,315741
 2021-11-04,South Africa,15655530,12737700
-2021-11-04,South Korea,41432926,39135055
+2021-11-04,South Korea,41434559,39136716
 2021-11-04,South Sudan,84839,49532
 2021-11-04,Spain,38083061,37375642
 2021-11-04,Sri Lanka,15718509,13521066
@@ -63547,7 +63547,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-05,Solomon Islands,121778,31054
 2021-11-05,Somalia,371167,320482
 2021-11-05,South Africa,15655530,12737700
-2021-11-05,South Korea,41504542,39297790
+2021-11-05,South Korea,41506178,39299449
 2021-11-05,South Sudan,84839,55579
 2021-11-05,Spain,38083061,37375642
 2021-11-05,Sri Lanka,15726331,13523722
@@ -63734,7 +63734,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-06,Solomon Islands,121778,31054
 2021-11-06,Somalia,371167,320482
 2021-11-06,South Africa,15770712,12803590
-2021-11-06,South Korea,41550001,39360773
+2021-11-06,South Korea,41551637,39362433
 2021-11-06,South Sudan,84839,59737
 2021-11-06,Spain,38083061,37375642
 2021-11-06,Sri Lanka,15757276,13540350
@@ -63921,7 +63921,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-07,Solomon Islands,121778,31054
 2021-11-07,Somalia,371167,320482
 2021-11-07,South Africa,15779126,12810692
-2021-11-07,South Korea,41552176,39365142
+2021-11-07,South Korea,41553812,39366802
 2021-11-07,South Sudan,84839,59737
 2021-11-07,Spain,38100169,37398246
 2021-11-07,Sri Lanka,15796673,13577829
@@ -64108,7 +64108,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-08,Solomon Islands,135995,35567
 2021-11-08,Somalia,371167,320482
 2021-11-08,South Africa,15840842,12934946
-2021-11-08,South Korea,41669187,39529318
+2021-11-08,South Korea,41670822,39530980
 2021-11-08,South Sudan,84839,59737
 2021-11-08,Spain,38100169,37398246
 2021-11-08,Sri Lanka,15799360,13581028
@@ -64295,7 +64295,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-09,Solomon Islands,135995,35567
 2021-11-09,Somalia,371167,320482
 2021-11-09,South Africa,15917833,13030588
-2021-11-09,South Korea,41715334,39655649
+2021-11-09,South Korea,41716969,39657316
 2021-11-09,South Sudan,84839,66406
 2021-11-09,Spain,38117778,37417377
 2021-11-09,Sri Lanka,15816302,13591413
@@ -64482,7 +64482,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-10,Solomon Islands,135995,35567
 2021-11-10,Somalia,371167,320482
 2021-11-10,South Africa,15995893,13124865
-2021-11-10,South Korea,41784302,39763236
+2021-11-10,South Korea,41785945,39764909
 2021-11-10,South Sudan,84839,66406
 2021-11-10,Spain,38130715,37431385
 2021-11-10,Sri Lanka,15825242,13596509
@@ -64669,7 +64669,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-11,Solomon Islands,135995,35567
 2021-11-11,Somalia,371167,320482
 2021-11-11,South Africa,15995893,13124865
-2021-11-11,South Korea,41848796,39872198
+2021-11-11,South Korea,41850441,39873876
 2021-11-11,South Sudan,84839,66406
 2021-11-11,Spain,38144625,37448743
 2021-11-11,Sri Lanka,15837790,13604891
@@ -64856,7 +64856,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-12,Solomon Islands,135995,35567
 2021-11-12,Somalia,371167,320482
 2021-11-12,South Africa,16166105,13324316
-2021-11-12,South Korea,41927440,40021727
+2021-11-12,South Korea,41929089,40023412
 2021-11-12,South Sudan,84839,66406
 2021-11-12,Spain,38144625,37448743
 2021-11-12,Sri Lanka,15837790,13604891
@@ -65043,7 +65043,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-13,Solomon Islands,135995,35567
 2021-11-13,Somalia,589128,564612
 2021-11-13,South Africa,16220848,13375972
-2021-11-13,South Korea,41982874,40122929
+2021-11-13,South Korea,41984523,40124613
 2021-11-13,South Sudan,84839,66406
 2021-11-13,Spain,38144625,37448743
 2021-11-13,Sri Lanka,15857906,13621704
@@ -65230,7 +65230,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-14,Solomon Islands,135995,35567
 2021-11-14,Somalia,589128,564612
 2021-11-14,South Africa,16252396,13402141
-2021-11-14,South Korea,41985170,40126266
+2021-11-14,South Korea,41986820,40127950
 2021-11-14,South Sudan,84839,66406
 2021-11-14,Spain,38164244,37474324
 2021-11-14,Sri Lanka,15874038,13648423
@@ -65417,7 +65417,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-15,Solomon Islands,135995,35567
 2021-11-15,Somalia,589128,564612
 2021-11-15,South Africa,16327413,13492174
-2021-11-15,South Korea,42047711,40215230
+2021-11-15,South Korea,42049362,40216915
 2021-11-15,South Sudan,84839,66406
 2021-11-15,Spain,38171026,37480526
 2021-11-15,Sri Lanka,15876907,13665555
@@ -65604,7 +65604,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-16,Solomon Islands,135995,35567
 2021-11-16,Somalia,589128,564612
 2021-11-16,South Africa,16404841,13583910
-2021-11-16,South Korea,42081700,40262920
+2021-11-16,South Korea,42083351,40264607
 2021-11-16,South Sudan,84839,66406
 2021-11-16,Spain,38177685,37487833
 2021-11-16,Sri Lanka,15883630,13674957
@@ -65791,7 +65791,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-17,Solomon Islands,135995,35567
 2021-11-17,Somalia,589128,564612
 2021-11-17,South Africa,16479699,13673027
-2021-11-17,South Korea,42127635,40329797
+2021-11-17,South Korea,42129285,40331485
 2021-11-17,South Sudan,84839,66406
 2021-11-17,Spain,38197655,37507587
 2021-11-17,Sri Lanka,15888053,13682459
@@ -65978,7 +65978,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-18,Solomon Islands,135995,35567
 2021-11-18,Somalia,589128,564612
 2021-11-18,South Africa,16550176,13758743
-2021-11-18,South Korea,42173027,40390443
+2021-11-18,South Korea,42174680,40392133
 2021-11-18,South Sudan,84839,66406
 2021-11-18,Spain,38209702,37519860
 2021-11-18,Sri Lanka,15894375,13688710
@@ -66165,7 +66165,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-19,Solomon Islands,135995,35567
 2021-11-19,Somalia,589128,564612
 2021-11-19,South Africa,16550176,13758743
-2021-11-19,South Korea,42222843,40468225
+2021-11-19,South Korea,42224501,40469922
 2021-11-19,South Sudan,84839,66406
 2021-11-19,Spain,38209702,37519860
 2021-11-19,Sri Lanka,15897388,13690775
@@ -66352,7 +66352,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-20,Solomon Islands,135995,35567
 2021-11-20,Somalia,589128,564612
 2021-11-20,South Africa,16640017,13869342
-2021-11-20,South Korea,42249918,40507231
+2021-11-20,South Korea,42251578,40508928
 2021-11-20,South Sudan,84839,66406
 2021-11-20,Spain,38209702,37519860
 2021-11-20,Sri Lanka,15900295,13694959
@@ -66539,7 +66539,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-21,Solomon Islands,135995,35567
 2021-11-21,Somalia,589128,564612
 2021-11-21,South Africa,16652562,13876443
-2021-11-21,South Korea,42251322,40509385
+2021-11-21,South Korea,42252982,40511082
 2021-11-21,South Sudan,84839,66406
 2021-11-21,Spain,38237469,37547526
 2021-11-21,Sri Lanka,15910650,13705311
@@ -66726,7 +66726,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-22,Solomon Islands,150777,43040
 2021-11-22,Somalia,589128,564612
 2021-11-22,South Africa,16712749,13949705
-2021-11-22,South Korea,42301006,40597635
+2021-11-22,South Korea,42302667,40599334
 2021-11-22,South Sudan,84839,66406
 2021-11-22,Spain,38249913,37557243
 2021-11-22,Sri Lanka,15911983,13707519
@@ -66913,7 +66913,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-23,Solomon Islands,150777,43040
 2021-11-23,Somalia,589128,564612
 2021-11-23,South Africa,16781364,14031159
-2021-11-23,South Korea,42329797,40641859
+2021-11-23,South Korea,42331459,40643560
 2021-11-23,South Sudan,185148,133315
 2021-11-23,Spain,38263801,37567042
 2021-11-23,Sri Lanka,15914780,13716871
@@ -67100,7 +67100,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-24,Solomon Islands,150777,43040
 2021-11-24,Somalia,589128,564612
 2021-11-24,South Africa,16857214,14115744
-2021-11-24,South Korea,42377012,40703683
+2021-11-24,South Korea,42378674,40705388
 2021-11-24,South Sudan,185148,133315
 2021-11-24,Spain,38281333,37578516
 2021-11-24,Sri Lanka,15916995,13721117
@@ -67287,7 +67287,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-25,Solomon Islands,150777,43040
 2021-11-25,Somalia,589128,564612
 2021-11-25,South Africa,16857214,14115744
-2021-11-25,South Korea,42425419,40771316
+2021-11-25,South Korea,42427103,40773028
 2021-11-25,South Sudan,185148,133315
 2021-11-25,Spain,38288327,37582174
 2021-11-25,Sri Lanka,15918179,13723234
@@ -67474,7 +67474,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-26,Solomon Islands,150777,43040
 2021-11-26,Somalia,589128,564612
 2021-11-26,South Africa,16994112,14267533
-2021-11-26,South Korea,42481583,40859013
+2021-11-26,South Korea,42483348,40860815
 2021-11-26,South Sudan,185148,133315
 2021-11-26,Spain,38288327,37582174
 2021-11-26,Sri Lanka,15919195,13725136
@@ -67661,7 +67661,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-27,Solomon Islands,150777,43040
 2021-11-27,Somalia,589128,564612
 2021-11-27,South Africa,17018870,14288326
-2021-11-27,South Korea,42514191,40904948
+2021-11-27,South Korea,42515960,40906754
 2021-11-27,South Sudan,185148,133315
 2021-11-27,Spain,38288327,37582174
 2021-11-27,Sri Lanka,15919195,13725136
@@ -67848,7 +67848,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-28,Solomon Islands,150777,43040
 2021-11-28,Somalia,589128,564612
 2021-11-28,South Africa,17018870,14288326
-2021-11-28,South Korea,42515195,40906759
+2021-11-28,South Korea,42516964,40908565
 2021-11-28,South Sudan,185148,133315
 2021-11-28,Spain,38299758,37586582
 2021-11-28,Sri Lanka,15926273,13738536
@@ -68035,7 +68035,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-29,Solomon Islands,150777,43040
 2021-11-29,Somalia,589128,564612
 2021-11-29,South Africa,17139535,14384276
-2021-11-29,South Korea,42546417,41013146
+2021-11-29,South Korea,42548216,41014974
 2021-11-29,South Sudan,185148,133315
 2021-11-29,Spain,38339403,37615143
 2021-11-29,Sri Lanka,15927537,13741194
@@ -68222,7 +68222,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-30,Solomon Islands,161521,46525
 2021-11-30,Somalia,589128,564612
 2021-11-30,South Africa,17260202,14475754
-2021-11-30,South Korea,42567865,41061655
+2021-11-30,South Korea,42570146,41064184
 2021-11-30,South Sudan,185148,133315
 2021-11-30,Spain,38356928,37624032
 2021-11-30,Sri Lanka,15929547,13745161
@@ -68409,7 +68409,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-01,Solomon Islands,161521,46525
 2021-12-01,Somalia,589128,564612
 2021-12-01,South Africa,17376900,14561395
-2021-12-01,South Korea,42567865,41061655
+2021-12-01,South Korea,42593798,41129620
 2021-12-01,South Sudan,185148,133315
 2021-12-01,Spain,38356928,37624032
 2021-12-01,Sri Lanka,15932194,13749891
