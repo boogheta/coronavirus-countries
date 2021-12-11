@@ -294,9 +294,14 @@ for name, scope in data["scopes"].items():
 
 france_ehpad = 0
 with open(os.path.join("data", "france-ehpad.json")) as f:
-    lastdata = json.load(f)[-1]
-    france_ehpad = int(lastdata["decesEhpad"])
-    france_ehpad_date = lastdata["date"]
+    ehpaddata = json.load(f)
+    while ehpaddata and not france_ehpad:
+        lastdata = ehpaddata.pop(-1)
+        try:
+            france_ehpad = int(lastdata["decesEhpad"])
+            france_ehpad_date = lastdata["date"]
+        except:
+            pass
 france_disclaimer = 'France does not release detailed data on tests performed and confirmed: only national (<a href="https://github.com/CSSEGISandData/COVID-19/issues/2094" target="_blank">and</a>&nbsp;<a href="https://www.liberation.fr/checknews/2020/04/05/covid-19-pourquoi-des-sites-evoquent-90-000-cas-en-france-contre-68-000-au-bilan-officiel_1784232" target="_blank">controversial</a>) figures are published. Deaths cases are also only detailed for hospitals: the %s deceased cases (as of %s) in nursing homes are therefore not accounted in this dataset.' % ('{:,}'.format(france_ehpad).replace(',', '&nbsp;'), france_ehpad_date)
 
 
