@@ -7410,7 +7410,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-09,Mozambique,0,0
 2021-01-09,Namibia,0,0
 2021-01-09,Nepal,0,0
-2021-01-09,Netherlands,0,0
+2021-01-09,Netherlands,33758,0
 2021-01-09,New Zealand,0,0
 2021-01-09,Nicaragua,0,0
 2021-01-09,Niger,0,0
@@ -7597,7 +7597,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-10,Mozambique,0,0
 2021-01-10,Namibia,0,0
 2021-01-10,Nepal,0,0
-2021-01-10,Netherlands,0,0
+2021-01-10,Netherlands,33758,0
 2021-01-10,New Zealand,0,0
 2021-01-10,Nicaragua,0,0
 2021-01-10,Niger,0,0
@@ -7784,7 +7784,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-11,Mozambique,0,0
 2021-01-11,Namibia,0,0
 2021-01-11,Nepal,0,0
-2021-01-11,Netherlands,0,0
+2021-01-11,Netherlands,33758,0
 2021-01-11,New Zealand,0,0
 2021-01-11,Nicaragua,0,0
 2021-01-11,Niger,0,0
@@ -7971,7 +7971,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-12,Mozambique,0,0
 2021-01-12,Namibia,0,0
 2021-01-12,Nepal,0,0
-2021-01-12,Netherlands,0,0
+2021-01-12,Netherlands,33758,0
 2021-01-12,New Zealand,0,0
 2021-01-12,Nicaragua,0,0
 2021-01-12,Niger,0,0
@@ -8158,7 +8158,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-13,Mozambique,0,0
 2021-01-13,Namibia,0,0
 2021-01-13,Nepal,0,0
-2021-01-13,Netherlands,0,0
+2021-01-13,Netherlands,33758,0
 2021-01-13,New Zealand,0,0
 2021-01-13,Nicaragua,0,0
 2021-01-13,Niger,0,0
@@ -8345,7 +8345,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-14,Mozambique,0,0
 2021-01-14,Namibia,0,0
 2021-01-14,Nepal,0,0
-2021-01-14,Netherlands,0,0
+2021-01-14,Netherlands,33758,0
 2021-01-14,New Zealand,0,0
 2021-01-14,Nicaragua,0,0
 2021-01-14,Niger,0,0
@@ -8532,7 +8532,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-15,Mozambique,0,0
 2021-01-15,Namibia,0,0
 2021-01-15,Nepal,0,0
-2021-01-15,Netherlands,0,0
+2021-01-15,Netherlands,33758,0
 2021-01-15,New Zealand,0,0
 2021-01-15,Nicaragua,0,0
 2021-01-15,Niger,0,0
@@ -8719,7 +8719,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-16,Mozambique,0,0
 2021-01-16,Namibia,0,0
 2021-01-16,Nepal,0,0
-2021-01-16,Netherlands,0,0
+2021-01-16,Netherlands,76961,0
 2021-01-16,New Zealand,0,0
 2021-01-16,Nicaragua,0,0
 2021-01-16,Niger,0,0
@@ -8906,7 +8906,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-17,Mozambique,0,0
 2021-01-17,Namibia,0,0
 2021-01-17,Nepal,0,0
-2021-01-17,Netherlands,76960,1312
+2021-01-17,Netherlands,76961,0
 2021-01-17,New Zealand,0,0
 2021-01-17,Nicaragua,0,0
 2021-01-17,Niger,0,0
@@ -9093,7 +9093,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-18,Mozambique,0,0
 2021-01-18,Namibia,0,0
 2021-01-18,Nepal,0,0
-2021-01-18,Netherlands,76960,1312
+2021-01-18,Netherlands,76961,0
 2021-01-18,New Zealand,0,0
 2021-01-18,Nicaragua,0,0
 2021-01-18,Niger,0,0
@@ -9280,7 +9280,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-19,Mozambique,0,0
 2021-01-19,Namibia,0,0
 2021-01-19,Nepal,0,0
-2021-01-19,Netherlands,76960,1312
+2021-01-19,Netherlands,76961,0
 2021-01-19,New Zealand,0,0
 2021-01-19,Nicaragua,0,0
 2021-01-19,Niger,0,0
@@ -9467,7 +9467,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-20,Mozambique,0,0
 2021-01-20,Namibia,0,0
 2021-01-20,Nepal,0,0
-2021-01-20,Netherlands,76960,1312
+2021-01-20,Netherlands,76961,0
 2021-01-20,New Zealand,0,0
 2021-01-20,Nicaragua,0,0
 2021-01-20,Niger,0,0
@@ -9654,7 +9654,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-21,Mozambique,0,0
 2021-01-21,Namibia,0,0
 2021-01-21,Nepal,0,0
-2021-01-21,Netherlands,76960,1312
+2021-01-21,Netherlands,76961,0
 2021-01-21,New Zealand,0,0
 2021-01-21,Nicaragua,0,0
 2021-01-21,Niger,0,0
@@ -9841,7 +9841,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-22,Mozambique,0,0
 2021-01-22,Namibia,0,0
 2021-01-22,Nepal,0,0
-2021-01-22,Netherlands,76960,1312
+2021-01-22,Netherlands,76961,0
 2021-01-22,New Zealand,0,0
 2021-01-22,Nicaragua,0,0
 2021-01-22,Niger,0,0
@@ -10028,7 +10028,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-23,Mozambique,0,0
 2021-01-23,Namibia,0,0
 2021-01-23,Nepal,0,0
-2021-01-23,Netherlands,76960,1312
+2021-01-23,Netherlands,166313,0
 2021-01-23,New Zealand,0,0
 2021-01-23,Nicaragua,0,0
 2021-01-23,Niger,0,0
@@ -10215,7 +10215,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-24,Mozambique,0,0
 2021-01-24,Namibia,0,0
 2021-01-24,Nepal,0,0
-2021-01-24,Netherlands,166313,3771
+2021-01-24,Netherlands,166313,0
 2021-01-24,New Zealand,0,0
 2021-01-24,Nicaragua,0,0
 2021-01-24,Niger,0,0
@@ -10402,7 +10402,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-25,Mozambique,0,0
 2021-01-25,Namibia,0,0
 2021-01-25,Nepal,0,0
-2021-01-25,Netherlands,166313,3771
+2021-01-25,Netherlands,166313,0
 2021-01-25,New Zealand,0,0
 2021-01-25,Nicaragua,0,0
 2021-01-25,Niger,0,0
@@ -10589,7 +10589,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-26,Mozambique,0,0
 2021-01-26,Namibia,0,0
 2021-01-26,Nepal,0,0
-2021-01-26,Netherlands,166313,3771
+2021-01-26,Netherlands,166313,0
 2021-01-26,New Zealand,0,0
 2021-01-26,Nicaragua,0,0
 2021-01-26,Niger,0,0
@@ -10776,7 +10776,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-27,Mozambique,0,0
 2021-01-27,Namibia,0,0
 2021-01-27,Nepal,0,0
-2021-01-27,Netherlands,166313,3771
+2021-01-27,Netherlands,166313,0
 2021-01-27,New Zealand,0,0
 2021-01-27,Nicaragua,0,0
 2021-01-27,Niger,0,0
@@ -10963,7 +10963,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-28,Mozambique,0,0
 2021-01-28,Namibia,0,0
 2021-01-28,Nepal,0,0
-2021-01-28,Netherlands,166313,3771
+2021-01-28,Netherlands,166313,0
 2021-01-28,New Zealand,0,0
 2021-01-28,Nicaragua,0,0
 2021-01-28,Niger,0,0
@@ -11150,7 +11150,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-29,Mozambique,0,0
 2021-01-29,Namibia,0,0
 2021-01-29,Nepal,0,0
-2021-01-29,Netherlands,166313,3771
+2021-01-29,Netherlands,166313,0
 2021-01-29,New Zealand,0,0
 2021-01-29,Nicaragua,0,0
 2021-01-29,Niger,0,0
@@ -11337,7 +11337,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-30,Mozambique,0,0
 2021-01-30,Namibia,0,0
 2021-01-30,Nepal,0,0
-2021-01-30,Netherlands,166313,3771
+2021-01-30,Netherlands,348868,2430
 2021-01-30,New Zealand,0,0
 2021-01-30,Nicaragua,0,0
 2021-01-30,Niger,0,0
@@ -11524,7 +11524,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-31,Mozambique,0,0
 2021-01-31,Namibia,0,0
 2021-01-31,Nepal,0,0
-2021-01-31,Netherlands,348868,8801
+2021-01-31,Netherlands,348868,2430
 2021-01-31,New Zealand,0,0
 2021-01-31,Nicaragua,0,0
 2021-01-31,Niger,0,0
@@ -11711,7 +11711,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-01,Mozambique,0,0
 2021-02-01,Namibia,0,0
 2021-02-01,Nepal,113175,0
-2021-02-01,Netherlands,348868,8801
+2021-02-01,Netherlands,348868,2430
 2021-02-01,New Zealand,0,0
 2021-02-01,Nicaragua,0,0
 2021-02-01,Niger,0,0
@@ -11898,7 +11898,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-02,Mozambique,0,0
 2021-02-02,Namibia,0,0
 2021-02-02,Nepal,113175,0
-2021-02-02,Netherlands,348868,8801
+2021-02-02,Netherlands,348868,2430
 2021-02-02,New Zealand,0,0
 2021-02-02,Nicaragua,0,0
 2021-02-02,Niger,0,0
@@ -12085,7 +12085,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-03,Mozambique,0,0
 2021-02-03,Namibia,0,0
 2021-02-03,Nepal,113175,0
-2021-02-03,Netherlands,348868,8801
+2021-02-03,Netherlands,348868,2430
 2021-02-03,New Zealand,0,0
 2021-02-03,Nicaragua,0,0
 2021-02-03,Niger,0,0
@@ -12272,7 +12272,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-04,Mozambique,0,0
 2021-02-04,Namibia,0,0
 2021-02-04,Nepal,158487,0
-2021-02-04,Netherlands,348868,8801
+2021-02-04,Netherlands,348868,2430
 2021-02-04,New Zealand,0,0
 2021-02-04,Nicaragua,0,0
 2021-02-04,Niger,0,0
@@ -12459,7 +12459,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-05,Mozambique,0,0
 2021-02-05,Namibia,0,0
 2021-02-05,Nepal,158487,0
-2021-02-05,Netherlands,348868,8801
+2021-02-05,Netherlands,348868,2430
 2021-02-05,New Zealand,0,0
 2021-02-05,Nicaragua,0,0
 2021-02-05,Niger,0,0
@@ -12646,7 +12646,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-06,Mozambique,0,0
 2021-02-06,Namibia,0,0
 2021-02-06,Nepal,158487,0
-2021-02-06,Netherlands,348868,8801
+2021-02-06,Netherlands,544787,26438
 2021-02-06,New Zealand,0,0
 2021-02-06,Nicaragua,0,0
 2021-02-06,Niger,0,0
@@ -12833,7 +12833,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-07,Mozambique,0,0
 2021-02-07,Namibia,0,0
 2021-02-07,Nepal,158487,0
-2021-02-07,Netherlands,544787,34788
+2021-02-07,Netherlands,544787,26438
 2021-02-07,New Zealand,0,0
 2021-02-07,Nicaragua,0,0
 2021-02-07,Niger,0,0
@@ -13020,7 +13020,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-08,Mozambique,0,0
 2021-02-08,Namibia,0,0
 2021-02-08,Nepal,158487,0
-2021-02-08,Netherlands,544787,34788
+2021-02-08,Netherlands,544787,26438
 2021-02-08,New Zealand,0,0
 2021-02-08,Nicaragua,0,0
 2021-02-08,Niger,0,0
@@ -13207,7 +13207,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-09,Mozambique,0,0
 2021-02-09,Namibia,0,0
 2021-02-09,Nepal,158487,0
-2021-02-09,Netherlands,544787,34788
+2021-02-09,Netherlands,544787,26438
 2021-02-09,New Zealand,0,0
 2021-02-09,Nicaragua,0,0
 2021-02-09,Niger,0,0
@@ -13394,7 +13394,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-10,Mozambique,0,0
 2021-02-10,Namibia,0,0
 2021-02-10,Nepal,158487,0
-2021-02-10,Netherlands,544787,34788
+2021-02-10,Netherlands,544787,26438
 2021-02-10,New Zealand,0,0
 2021-02-10,Nicaragua,0,0
 2021-02-10,Niger,0,0
@@ -13581,7 +13581,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-11,Mozambique,0,0
 2021-02-11,Namibia,0,0
 2021-02-11,Nepal,158487,0
-2021-02-11,Netherlands,544787,34788
+2021-02-11,Netherlands,544787,26438
 2021-02-11,New Zealand,0,0
 2021-02-11,Nicaragua,0,0
 2021-02-11,Niger,0,0
@@ -13768,7 +13768,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-12,Mozambique,0,0
 2021-02-12,Namibia,0,0
 2021-02-12,Nepal,158487,0
-2021-02-12,Netherlands,544787,34788
+2021-02-12,Netherlands,544787,26438
 2021-02-12,New Zealand,0,0
 2021-02-12,Nicaragua,0,0
 2021-02-12,Niger,0,0
@@ -13955,7 +13955,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-13,Mozambique,0,0
 2021-02-13,Namibia,0,0
 2021-02-13,Nepal,158487,0
-2021-02-13,Netherlands,544787,34788
+2021-02-13,Netherlands,690428,97554
 2021-02-13,New Zealand,0,0
 2021-02-13,Nicaragua,0,0
 2021-02-13,Niger,0,0
@@ -14142,7 +14142,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-14,Mozambique,0,0
 2021-02-14,Namibia,0,0
 2021-02-14,Nepal,158487,0
-2021-02-14,Netherlands,690428,106350
+2021-02-14,Netherlands,690428,97554
 2021-02-14,New Zealand,0,0
 2021-02-14,Nicaragua,0,0
 2021-02-14,Niger,0,0
@@ -14329,7 +14329,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-15,Mozambique,0,0
 2021-02-15,Namibia,0,0
 2021-02-15,Nepal,158487,0
-2021-02-15,Netherlands,690428,106350
+2021-02-15,Netherlands,690428,97554
 2021-02-15,New Zealand,0,0
 2021-02-15,Nicaragua,0,0
 2021-02-15,Niger,0,0
@@ -14516,7 +14516,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-16,Mozambique,0,0
 2021-02-16,Namibia,0,0
 2021-02-16,Nepal,158487,0
-2021-02-16,Netherlands,690428,106350
+2021-02-16,Netherlands,690428,97554
 2021-02-16,New Zealand,0,0
 2021-02-16,Nicaragua,0,0
 2021-02-16,Niger,0,0
@@ -14703,7 +14703,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-17,Mozambique,0,0
 2021-02-17,Namibia,0,0
 2021-02-17,Nepal,158487,0
-2021-02-17,Netherlands,690428,106350
+2021-02-17,Netherlands,690428,97554
 2021-02-17,New Zealand,0,0
 2021-02-17,Nicaragua,0,0
 2021-02-17,Niger,0,0
@@ -14890,7 +14890,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-18,Mozambique,0,0
 2021-02-18,Namibia,0,0
 2021-02-18,Nepal,158487,0
-2021-02-18,Netherlands,690428,106350
+2021-02-18,Netherlands,690428,97554
 2021-02-18,New Zealand,1,0
 2021-02-18,Nicaragua,0,0
 2021-02-18,Niger,0,0
@@ -15077,7 +15077,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-19,Mozambique,0,0
 2021-02-19,Namibia,0,0
 2021-02-19,Nepal,158487,0
-2021-02-19,Netherlands,690428,106350
+2021-02-19,Netherlands,690428,97554
 2021-02-19,New Zealand,30,0
 2021-02-19,Nicaragua,0,0
 2021-02-19,Niger,0,0
@@ -15264,7 +15264,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-20,Mozambique,0,0
 2021-02-20,Namibia,0,0
 2021-02-20,Nepal,402264,0
-2021-02-20,Netherlands,690428,106350
+2021-02-20,Netherlands,873561,164220
 2021-02-20,New Zealand,95,0
 2021-02-20,Nicaragua,0,0
 2021-02-20,Niger,0,0
@@ -15451,7 +15451,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-21,Mozambique,0,0
 2021-02-21,Namibia,0,0
 2021-02-21,Nepal,402264,0
-2021-02-21,Netherlands,873561,176674
+2021-02-21,Netherlands,873561,164220
 2021-02-21,New Zealand,164,1
 2021-02-21,Nicaragua,0,0
 2021-02-21,Niger,0,0
@@ -15638,7 +15638,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-22,Mozambique,0,0
 2021-02-22,Namibia,0,0
 2021-02-22,Nepal,402264,0
-2021-02-22,Netherlands,873561,176674
+2021-02-22,Netherlands,873561,164220
 2021-02-22,New Zealand,612,1
 2021-02-22,Nicaragua,0,0
 2021-02-22,Niger,0,0
@@ -15825,7 +15825,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-23,Mozambique,0,0
 2021-02-23,Namibia,0,0
 2021-02-23,Nepal,402264,0
-2021-02-23,Netherlands,873561,176674
+2021-02-23,Netherlands,873561,164220
 2021-02-23,New Zealand,970,1
 2021-02-23,Nicaragua,0,0
 2021-02-23,Niger,0,0
@@ -16012,7 +16012,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-24,Mozambique,0,0
 2021-02-24,Namibia,0,0
 2021-02-24,Nepal,402264,0
-2021-02-24,Netherlands,873561,176674
+2021-02-24,Netherlands,873561,164220
 2021-02-24,New Zealand,1783,1
 2021-02-24,Nicaragua,0,0
 2021-02-24,Niger,0,0
@@ -16199,7 +16199,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-25,Mozambique,0,0
 2021-02-25,Namibia,0,0
 2021-02-25,Nepal,402264,0
-2021-02-25,Netherlands,873561,176674
+2021-02-25,Netherlands,873561,164220
 2021-02-25,New Zealand,2885,1
 2021-02-25,Nicaragua,0,0
 2021-02-25,Niger,0,0
@@ -16386,7 +16386,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-26,Mozambique,0,0
 2021-02-26,Namibia,0,0
 2021-02-26,Nepal,402264,0
-2021-02-26,Netherlands,873561,176674
+2021-02-26,Netherlands,873561,164220
 2021-02-26,New Zealand,4489,1
 2021-02-26,Nicaragua,0,0
 2021-02-26,Niger,0,0
@@ -16573,7 +16573,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-27,Mozambique,0,0
 2021-02-27,Namibia,0,0
 2021-02-27,Nepal,402264,0
-2021-02-27,Netherlands,873561,176674
+2021-02-27,Netherlands,1105002,277402
 2021-02-27,New Zealand,5828,1
 2021-02-27,Nicaragua,0,0
 2021-02-27,Niger,0,0
@@ -16760,7 +16760,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-28,Mozambique,0,0
 2021-02-28,Namibia,0,0
 2021-02-28,Nepal,402264,0
-2021-02-28,Netherlands,1105001,294654
+2021-02-28,Netherlands,1105002,277402
 2021-02-28,New Zealand,6711,1
 2021-02-28,Nicaragua,0,0
 2021-02-28,Niger,0,0
@@ -16947,7 +16947,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-01,Mozambique,0,0
 2021-03-01,Namibia,0,0
 2021-03-01,Nepal,402264,0
-2021-03-01,Netherlands,1105001,294654
+2021-03-01,Netherlands,1105002,277402
 2021-03-01,New Zealand,8121,1
 2021-03-01,Nicaragua,0,0
 2021-03-01,Niger,0,0
@@ -17134,7 +17134,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-02,Mozambique,0,0
 2021-03-02,Namibia,0,0
 2021-03-02,Nepal,402264,0
-2021-03-02,Netherlands,1105001,294654
+2021-03-02,Netherlands,1105002,277402
 2021-03-02,New Zealand,9608,1
 2021-03-02,Nicaragua,0,0
 2021-03-02,Niger,0,0
@@ -17321,7 +17321,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-03,Mozambique,0,0
 2021-03-03,Namibia,0,0
 2021-03-03,Nepal,402264,0
-2021-03-03,Netherlands,1105001,294654
+2021-03-03,Netherlands,1105002,277402
 2021-03-03,New Zealand,11588,1
 2021-03-03,Nicaragua,0,0
 2021-03-03,Niger,0,0
@@ -17508,7 +17508,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-04,Mozambique,0,0
 2021-03-04,Namibia,0,0
 2021-03-04,Nepal,402264,0
-2021-03-04,Netherlands,1105001,294654
+2021-03-04,Netherlands,1105002,277402
 2021-03-04,New Zealand,13221,1
 2021-03-04,Nicaragua,0,0
 2021-03-04,Niger,0,0
@@ -17695,7 +17695,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-05,Mozambique,0,0
 2021-03-05,Namibia,0,0
 2021-03-05,Nepal,402264,0
-2021-03-05,Netherlands,1105001,294654
+2021-03-05,Netherlands,1105002,277402
 2021-03-05,New Zealand,14499,3
 2021-03-05,Nicaragua,0,0
 2021-03-05,Niger,0,0
@@ -17882,7 +17882,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-06,Mozambique,0,0
 2021-03-06,Namibia,0,0
 2021-03-06,Nepal,402264,0
-2021-03-06,Netherlands,1105001,294654
+2021-03-06,Netherlands,1314631,361844
 2021-03-06,New Zealand,15101,4
 2021-03-06,Nicaragua,0,0
 2021-03-06,Niger,0,0
@@ -18069,7 +18069,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-07,Mozambique,0,0
 2021-03-07,Namibia,0,0
 2021-03-07,Nepal,402264,0
-2021-03-07,Netherlands,1314632,383353
+2021-03-07,Netherlands,1314631,361844
 2021-03-07,New Zealand,15612,4
 2021-03-07,Nicaragua,0,0
 2021-03-07,Niger,0,0
@@ -18256,7 +18256,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-08,Mozambique,0,0
 2021-03-08,Namibia,0,0
 2021-03-08,Nepal,402264,0
-2021-03-08,Netherlands,1314632,383353
+2021-03-08,Netherlands,1314631,361844
 2021-03-08,New Zealand,16685,4
 2021-03-08,Nicaragua,0,0
 2021-03-08,Niger,0,0
@@ -18443,7 +18443,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-09,Mozambique,0,0
 2021-03-09,Namibia,0,0
 2021-03-09,Nepal,402264,0
-2021-03-09,Netherlands,1314632,383353
+2021-03-09,Netherlands,1314631,361844
 2021-03-09,New Zealand,18109,4
 2021-03-09,Nicaragua,0,0
 2021-03-09,Niger,0,0
@@ -18630,7 +18630,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-10,Mozambique,0,0
 2021-03-10,Namibia,0,0
 2021-03-10,Nepal,402264,0
-2021-03-10,Netherlands,1314632,383353
+2021-03-10,Netherlands,1314631,361844
 2021-03-10,New Zealand,19425,4
 2021-03-10,Nicaragua,0,0
 2021-03-10,Niger,0,0
@@ -18817,7 +18817,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-11,Mozambique,0,0
 2021-03-11,Namibia,0,0
 2021-03-11,Nepal,402264,0
-2021-03-11,Netherlands,1314632,383353
+2021-03-11,Netherlands,1314631,361844
 2021-03-11,New Zealand,20759,4
 2021-03-11,Nicaragua,0,0
 2021-03-11,Niger,0,0
@@ -19004,7 +19004,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-12,Mozambique,0,0
 2021-03-12,Namibia,0,0
 2021-03-12,Nepal,402264,0
-2021-03-12,Netherlands,1314632,383353
+2021-03-12,Netherlands,1314631,361844
 2021-03-12,New Zealand,21802,10
 2021-03-12,Nicaragua,0,0
 2021-03-12,Niger,0,0
@@ -19191,7 +19191,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-13,Mozambique,46439,0
 2021-03-13,Namibia,0,0
 2021-03-13,Nepal,402264,0
-2021-03-13,Netherlands,1314632,383353
+2021-03-13,Netherlands,1512086,449499
 2021-03-13,New Zealand,22553,16
 2021-03-13,Nicaragua,0,0
 2021-03-13,Niger,0,0
@@ -19378,7 +19378,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-14,Mozambique,46439,0
 2021-03-14,Namibia,0,0
 2021-03-14,Nepal,402264,0
-2021-03-14,Netherlands,1512095,476590
+2021-03-14,Netherlands,1512086,449499
 2021-03-14,New Zealand,23129,30
 2021-03-14,Nicaragua,0,0
 2021-03-14,Niger,0,0
@@ -19565,7 +19565,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-15,Mozambique,46439,0
 2021-03-15,Namibia,0,0
 2021-03-15,Nepal,402264,0
-2021-03-15,Netherlands,1512095,476590
+2021-03-15,Netherlands,1512086,449499
 2021-03-15,New Zealand,24743,297
 2021-03-15,Nicaragua,0,0
 2021-03-15,Niger,0,0
@@ -19752,7 +19752,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-16,Mozambique,46439,0
 2021-03-16,Namibia,0,0
 2021-03-16,Nepal,402264,0
-2021-03-16,Netherlands,1512095,476590
+2021-03-16,Netherlands,1512086,449499
 2021-03-16,New Zealand,26671,530
 2021-03-16,Nicaragua,0,0
 2021-03-16,Niger,0,0
@@ -19939,7 +19939,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-17,Mozambique,46439,0
 2021-03-17,Namibia,0,0
 2021-03-17,Nepal,402264,0
-2021-03-17,Netherlands,1512095,476590
+2021-03-17,Netherlands,1512086,449499
 2021-03-17,New Zealand,28313,895
 2021-03-17,Nicaragua,0,0
 2021-03-17,Niger,0,0
@@ -20126,7 +20126,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-18,Mozambique,46439,0
 2021-03-18,Namibia,0,0
 2021-03-18,Nepal,402264,0
-2021-03-18,Netherlands,1512095,476590
+2021-03-18,Netherlands,1512086,449499
 2021-03-18,New Zealand,29907,1370
 2021-03-18,Nicaragua,0,0
 2021-03-18,Niger,0,0
@@ -20313,7 +20313,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-19,Mozambique,46439,0
 2021-03-19,Namibia,0,0
 2021-03-19,Nepal,1600000,0
-2021-03-19,Netherlands,1512095,476590
+2021-03-19,Netherlands,1512086,449499
 2021-03-19,New Zealand,31599,2143
 2021-03-19,Nicaragua,0,0
 2021-03-19,Niger,0,0
@@ -20500,7 +20500,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-20,Mozambique,46439,0
 2021-03-20,Namibia,0,0
 2021-03-20,Nepal,1600000,0
-2021-03-20,Netherlands,1512095,476590
+2021-03-20,Netherlands,1598976,577056
 2021-03-20,New Zealand,32156,2858
 2021-03-20,Nicaragua,0,0
 2021-03-20,Niger,0,0
@@ -20687,7 +20687,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-21,Mozambique,46439,0
 2021-03-21,Namibia,0,0
 2021-03-21,Nepal,1600000,0
-2021-03-21,Netherlands,1598984,604353
+2021-03-21,Netherlands,1598976,577056
 2021-03-21,New Zealand,33097,3503
 2021-03-21,Nicaragua,0,0
 2021-03-21,Niger,0,0
@@ -20874,7 +20874,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-22,Mozambique,46439,0
 2021-03-22,Namibia,0,0
 2021-03-22,Nepal,1600000,0
-2021-03-22,Netherlands,1598984,604353
+2021-03-22,Netherlands,1598976,577056
 2021-03-22,New Zealand,34132,4723
 2021-03-22,Nicaragua,0,0
 2021-03-22,Niger,0,0
@@ -21061,7 +21061,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-23,Mozambique,57305,0
 2021-03-23,Namibia,0,0
 2021-03-23,Nepal,1600000,0
-2021-03-23,Netherlands,1598984,604353
+2021-03-23,Netherlands,1598976,577056
 2021-03-23,New Zealand,35720,5830
 2021-03-23,Nicaragua,0,0
 2021-03-23,Niger,0,0
@@ -21248,7 +21248,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-24,Mozambique,57305,0
 2021-03-24,Namibia,0,0
 2021-03-24,Nepal,1600000,0
-2021-03-24,Netherlands,1598984,604353
+2021-03-24,Netherlands,1598976,577056
 2021-03-24,New Zealand,37690,7416
 2021-03-24,Nicaragua,0,0
 2021-03-24,Niger,0,0
@@ -21435,7 +21435,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-25,Mozambique,57305,0
 2021-03-25,Namibia,152,0
 2021-03-25,Nepal,1600000,0
-2021-03-25,Netherlands,1598984,604353
+2021-03-25,Netherlands,1598976,577056
 2021-03-25,New Zealand,39511,8950
 2021-03-25,Nicaragua,0,0
 2021-03-25,Niger,0,0
@@ -21622,7 +21622,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-26,Mozambique,57305,0
 2021-03-26,Namibia,152,0
 2021-03-26,Nepal,1600000,0
-2021-03-26,Netherlands,1598984,604353
+2021-03-26,Netherlands,1598976,577056
 2021-03-26,New Zealand,42890,10243
 2021-03-26,Nicaragua,0,0
 2021-03-26,Niger,0,0
@@ -21809,7 +21809,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-27,Mozambique,57305,0
 2021-03-27,Namibia,152,0
 2021-03-27,Nepal,1600000,0
-2021-03-27,Netherlands,1598984,604353
+2021-03-27,Netherlands,1798391,675661
 2021-03-27,New Zealand,44049,11117
 2021-03-27,Nicaragua,0,0
 2021-03-27,Niger,0,0
@@ -21996,7 +21996,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-28,Mozambique,57305,0
 2021-03-28,Namibia,152,0
 2021-03-28,Nepal,1600000,0
-2021-03-28,Netherlands,1798400,706030
+2021-03-28,Netherlands,1798391,675661
 2021-03-28,New Zealand,44734,11608
 2021-03-28,Nicaragua,0,0
 2021-03-28,Niger,0,0
@@ -22183,7 +22183,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-29,Mozambique,57305,0
 2021-03-29,Namibia,152,0
 2021-03-29,Nepal,1600000,0
-2021-03-29,Netherlands,1798400,706030
+2021-03-29,Netherlands,1798391,675661
 2021-03-29,New Zealand,48542,12736
 2021-03-29,Nicaragua,0,0
 2021-03-29,Niger,0,0
@@ -22370,7 +22370,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-30,Mozambique,57305,0
 2021-03-30,Namibia,152,0
 2021-03-30,Nepal,1600000,0
-2021-03-30,Netherlands,1798400,706030
+2021-03-30,Netherlands,1798391,675661
 2021-03-30,New Zealand,52711,14237
 2021-03-30,Nicaragua,0,0
 2021-03-30,Niger,0,0
@@ -22557,7 +22557,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-31,Mozambique,57305,0
 2021-03-31,Namibia,1501,0
 2021-03-31,Nepal,1600000,0
-2021-03-31,Netherlands,1798400,706030
+2021-03-31,Netherlands,1798391,675661
 2021-03-31,New Zealand,58163,15584
 2021-03-31,Nicaragua,0,0
 2021-03-31,Niger,0,0
@@ -22744,7 +22744,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-01,Mozambique,57305,0
 2021-04-01,Namibia,1851,0
 2021-04-01,Nepal,1600000,0
-2021-04-01,Netherlands,1798400,706030
+2021-04-01,Netherlands,1798391,675661
 2021-04-01,New Zealand,63361,16837
 2021-04-01,Nicaragua,0,0
 2021-04-01,Niger,0,0
@@ -22931,7 +22931,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-02,Mozambique,57305,0
 2021-04-02,Namibia,1851,0
 2021-04-02,Nepal,1600000,0
-2021-04-02,Netherlands,1798400,706030
+2021-04-02,Netherlands,1798391,675661
 2021-04-02,New Zealand,65086,17132
 2021-04-02,Nicaragua,0,0
 2021-04-02,Niger,0,0
@@ -23118,7 +23118,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-03,Mozambique,57305,0
 2021-04-03,Namibia,2094,0
 2021-04-03,Nepal,1600000,0
-2021-04-03,Netherlands,1798400,706030
+2021-04-03,Netherlands,2139797,785205
 2021-04-03,New Zealand,66499,17467
 2021-04-03,Nicaragua,0,0
 2021-04-03,Niger,0,0
@@ -23305,7 +23305,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-04,Mozambique,57305,0
 2021-04-04,Namibia,2094,0
 2021-04-04,Nepal,1600000,0
-2021-04-04,Netherlands,2139815,820307
+2021-04-04,Netherlands,2139797,785205
 2021-04-04,New Zealand,67259,17663
 2021-04-04,Nicaragua,0,0
 2021-04-04,Niger,0,0
@@ -23492,7 +23492,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-05,Mozambique,57305,0
 2021-04-05,Namibia,2094,0
 2021-04-05,Nepal,1700000,0
-2021-04-05,Netherlands,2139815,820307
+2021-04-05,Netherlands,2139797,785205
 2021-04-05,New Zealand,68182,17954
 2021-04-05,Nicaragua,0,0
 2021-04-05,Niger,0,0
@@ -23679,7 +23679,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-06,Mozambique,57305,0
 2021-04-06,Namibia,2094,0
 2021-04-06,Nepal,1700000,0
-2021-04-06,Netherlands,2139815,820307
+2021-04-06,Netherlands,2139797,785205
 2021-04-06,New Zealand,71703,19395
 2021-04-06,Nicaragua,0,0
 2021-04-06,Niger,0,0
@@ -23866,7 +23866,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-07,Mozambique,57305,0
 2021-04-07,Namibia,2094,0
 2021-04-07,Nepal,1806236,0
-2021-04-07,Netherlands,2139815,820307
+2021-04-07,Netherlands,2139797,785205
 2021-04-07,New Zealand,76827,21542
 2021-04-07,Nicaragua,0,0
 2021-04-07,Niger,0,0
@@ -24053,7 +24053,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-08,Mozambique,57305,0
 2021-04-08,Namibia,2526,0
 2021-04-08,Nepal,1811658,0
-2021-04-08,Netherlands,2139815,820307
+2021-04-08,Netherlands,2139797,785205
 2021-04-08,New Zealand,83292,23308
 2021-04-08,Nicaragua,0,0
 2021-04-08,Niger,0,0
@@ -24240,7 +24240,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-09,Mozambique,57305,0
 2021-04-09,Namibia,2526,0
 2021-04-09,Nepal,1835263,0
-2021-04-09,Netherlands,2139815,820307
+2021-04-09,Netherlands,2139797,785205
 2021-04-09,New Zealand,88715,25238
 2021-04-09,Nicaragua,0,0
 2021-04-09,Niger,0,0
@@ -24427,7 +24427,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-10,Mozambique,57305,0
 2021-04-10,Namibia,2526,0
 2021-04-10,Nepal,1841124,0
-2021-04-10,Netherlands,2139815,820307
+2021-04-10,Netherlands,2653876,914191
 2021-04-10,New Zealand,91982,25930
 2021-04-10,Nicaragua,0,0
 2021-04-10,Niger,0,0
@@ -24614,7 +24614,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-11,Mozambique,57305,0
 2021-04-11,Namibia,2598,0
 2021-04-11,Nepal,1850570,0
-2021-04-11,Netherlands,2653904,953775
+2021-04-11,Netherlands,2653876,914191
 2021-04-11,New Zealand,94461,27009
 2021-04-11,Nicaragua,0,0
 2021-04-11,Niger,0,0
@@ -24801,7 +24801,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-12,Mozambique,57305,0
 2021-04-12,Namibia,2875,0
 2021-04-12,Nepal,1850570,0
-2021-04-12,Netherlands,2653904,953775
+2021-04-12,Netherlands,2653876,914191
 2021-04-12,New Zealand,100507,28733
 2021-04-12,Nicaragua,0,0
 2021-04-12,Niger,0,0
@@ -24988,7 +24988,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-13,Mozambique,57305,0
 2021-04-13,Namibia,3122,0
 2021-04-13,Nepal,1873377,0
-2021-04-13,Netherlands,2653904,953775
+2021-04-13,Netherlands,2653876,914191
 2021-04-13,New Zealand,107317,30360
 2021-04-13,Nicaragua,0,0
 2021-04-13,Niger,0,0
@@ -25175,7 +25175,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-14,Mozambique,57305,0
 2021-04-14,Namibia,3282,0
 2021-04-14,Nepal,1873377,0
-2021-04-14,Netherlands,2653904,953775
+2021-04-14,Netherlands,2653876,914191
 2021-04-14,New Zealand,113947,31882
 2021-04-14,Nicaragua,61625,0
 2021-04-14,Niger,0,0
@@ -25362,7 +25362,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-15,Mozambique,57305,0
 2021-04-15,Namibia,3587,0
 2021-04-15,Nepal,1885755,0
-2021-04-15,Netherlands,2653904,953775
+2021-04-15,Netherlands,2653876,914191
 2021-04-15,New Zealand,120833,33726
 2021-04-15,Nicaragua,61625,0
 2021-04-15,Niger,0,0
@@ -25549,7 +25549,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-16,Mozambique,57305,0
 2021-04-16,Namibia,3993,0
 2021-04-16,Nepal,1900583,0
-2021-04-16,Netherlands,2653904,953775
+2021-04-16,Netherlands,2653876,914191
 2021-04-16,New Zealand,127695,36361
 2021-04-16,Nicaragua,61625,0
 2021-04-16,Niger,0,0
@@ -25736,7 +25736,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-17,Mozambique,57305,0
 2021-04-17,Namibia,4493,0
 2021-04-17,Nepal,1910209,0
-2021-04-17,Netherlands,2653904,953775
+2021-04-17,Netherlands,3368834,1005449
 2021-04-17,New Zealand,131597,37510
 2021-04-17,Nicaragua,61625,0
 2021-04-17,Niger,1366,0
@@ -25923,7 +25923,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-18,Mozambique,57305,0
 2021-04-18,Namibia,4620,0
 2021-04-18,Nepal,1924703,0
-2021-04-18,Netherlands,3368865,1056542
+2021-04-18,Netherlands,3368834,1005449
 2021-04-18,New Zealand,133077,38102
 2021-04-18,Nicaragua,61625,0
 2021-04-18,Niger,1366,0
@@ -26110,7 +26110,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-19,Mozambique,57305,0
 2021-04-19,Namibia,4620,128
 2021-04-19,Nepal,1938679,0
-2021-04-19,Netherlands,3368865,1056542
+2021-04-19,Netherlands,3368834,1005449
 2021-04-19,New Zealand,138172,40140
 2021-04-19,Nicaragua,61625,0
 2021-04-19,Niger,1366,0
@@ -26297,7 +26297,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-20,Mozambique,57305,0
 2021-04-20,Namibia,5536,163
 2021-04-20,Nepal,1961992,0
-2021-04-20,Netherlands,3368865,1056542
+2021-04-20,Netherlands,3368834,1005449
 2021-04-20,New Zealand,144270,43128
 2021-04-20,Nicaragua,61625,0
 2021-04-20,Niger,1366,0
@@ -26484,7 +26484,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-21,Mozambique,57305,0
 2021-04-21,Namibia,5998,239
 2021-04-21,Nepal,1966506,0
-2021-04-21,Netherlands,3368865,1056542
+2021-04-21,Netherlands,3368834,1005449
 2021-04-21,New Zealand,151025,46558
 2021-04-21,Nicaragua,61625,0
 2021-04-21,Niger,1366,0
@@ -26671,7 +26671,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-22,Mozambique,57305,0
 2021-04-22,Namibia,7120,297
 2021-04-22,Nepal,1978239,0
-2021-04-22,Netherlands,3368865,1056542
+2021-04-22,Netherlands,3368834,1005449
 2021-04-22,New Zealand,157562,50436
 2021-04-22,Nicaragua,61625,0
 2021-04-22,Niger,1366,0
@@ -26858,7 +26858,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-23,Mozambique,57305,0
 2021-04-23,Namibia,9460,495
 2021-04-23,Nepal,1989248,0
-2021-04-23,Netherlands,3368865,1056542
+2021-04-23,Netherlands,3368834,1005449
 2021-04-23,New Zealand,165707,53982
 2021-04-23,Nicaragua,61625,0
 2021-04-23,Niger,1366,0
@@ -27045,7 +27045,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-24,Mozambique,57305,0
 2021-04-24,Namibia,11692,858
 2021-04-24,Nepal,1989248,0
-2021-04-24,Netherlands,3368865,1056542
+2021-04-24,Netherlands,3903738,1132557
 2021-04-24,New Zealand,168981,55364
 2021-04-24,Nicaragua,135130,0
 2021-04-24,Niger,1366,0
@@ -27232,7 +27232,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-25,Mozambique,57305,0
 2021-04-25,Namibia,11971,862
 2021-04-25,Nepal,2006436,0
-2021-04-25,Netherlands,3903772,1199395
+2021-04-25,Netherlands,3903738,1132557
 2021-04-25,New Zealand,170452,56273
 2021-04-25,Nicaragua,135130,0
 2021-04-25,Niger,1366,0
@@ -27419,7 +27419,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-26,Mozambique,57305,0
 2021-04-26,Namibia,11971,862
 2021-04-26,Nepal,2019177,0
-2021-04-26,Netherlands,3903772,1199395
+2021-04-26,Netherlands,3903738,1132557
 2021-04-26,New Zealand,171841,57135
 2021-04-26,Nicaragua,135130,0
 2021-04-26,Niger,1366,0
@@ -27606,7 +27606,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-27,Mozambique,57305,0
 2021-04-27,Namibia,11971,862
 2021-04-27,Nepal,2051440,0
-2021-04-27,Netherlands,3903772,1199395
+2021-04-27,Netherlands,3903738,1132557
 2021-04-27,New Zealand,178643,60346
 2021-04-27,Nicaragua,135130,0
 2021-04-27,Niger,1366,0
@@ -27793,7 +27793,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-28,Mozambique,57305,0
 2021-04-28,Namibia,18837,1168
 2021-04-28,Nepal,2091511,0
-2021-04-28,Netherlands,3903772,1199395
+2021-04-28,Netherlands,3903738,1132557
 2021-04-28,New Zealand,185940,64018
 2021-04-28,Nicaragua,135130,0
 2021-04-28,Niger,1366,0
@@ -27980,7 +27980,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-29,Mozambique,57305,0
 2021-04-29,Namibia,18837,1168
 2021-04-29,Nepal,2091511,0
-2021-04-29,Netherlands,3903772,1199395
+2021-04-29,Netherlands,3903738,1132557
 2021-04-29,New Zealand,193470,68974
 2021-04-29,Nicaragua,135130,0
 2021-04-29,Niger,1366,0
@@ -28167,7 +28167,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-30,Mozambique,57305,0
 2021-04-30,Namibia,20315,1392
 2021-04-30,Nepal,2091511,0
-2021-04-30,Netherlands,3903772,1199395
+2021-04-30,Netherlands,3903738,1132557
 2021-04-30,New Zealand,201843,74005
 2021-04-30,Nicaragua,135130,0
 2021-04-30,Niger,1366,0
@@ -28354,7 +28354,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-01,Mozambique,57305,0
 2021-05-01,Namibia,23425,1623
 2021-05-01,Nepal,2091511,0
-2021-05-01,Netherlands,3903772,1199395
+2021-05-01,Netherlands,4497848,1264821
 2021-05-01,New Zealand,205332,75996
 2021-05-01,Nicaragua,135130,0
 2021-05-01,Niger,1366,0
@@ -28541,7 +28541,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-02,Mozambique,57305,0
 2021-05-02,Namibia,23425,1623
 2021-05-02,Nepal,2091511,0
-2021-05-02,Netherlands,4497884,1354712
+2021-05-02,Netherlands,4497848,1264821
 2021-05-02,New Zealand,206956,77916
 2021-05-02,Nicaragua,135130,0
 2021-05-02,Niger,1366,0
@@ -28728,7 +28728,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-03,Mozambique,57305,0
 2021-05-03,Namibia,23425,1623
 2021-05-03,Nepal,2091511,0
-2021-05-03,Netherlands,4497884,1354712
+2021-05-03,Netherlands,4497848,1264821
 2021-05-03,New Zealand,213205,82404
 2021-05-03,Nicaragua,135130,0
 2021-05-03,Niger,1366,0
@@ -28915,7 +28915,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-04,Mozambique,57305,0
 2021-05-04,Namibia,23425,1623
 2021-05-04,Nepal,2091511,0
-2021-05-04,Netherlands,4497884,1354712
+2021-05-04,Netherlands,4497848,1264821
 2021-05-04,New Zealand,221544,87705
 2021-05-04,Nicaragua,135130,0
 2021-05-04,Niger,1366,0
@@ -29102,7 +29102,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-05,Mozambique,57305,0
 2021-05-05,Namibia,27648,1749
 2021-05-05,Nepal,2091511,0
-2021-05-05,Netherlands,4497884,1354712
+2021-05-05,Netherlands,4497848,1264821
 2021-05-05,New Zealand,230748,93265
 2021-05-05,Nicaragua,135130,0
 2021-05-05,Niger,1366,0
@@ -29289,7 +29289,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-06,Mozambique,57305,0
 2021-05-06,Namibia,32698,1959
 2021-05-06,Nepal,2091511,0
-2021-05-06,Netherlands,4497884,1354712
+2021-05-06,Netherlands,4497848,1264821
 2021-05-06,New Zealand,239953,99093
 2021-05-06,Nicaragua,135130,0
 2021-05-06,Niger,1366,0
@@ -29476,7 +29476,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-07,Mozambique,57305,0
 2021-05-07,Namibia,34346,2071
 2021-05-07,Nepal,2091511,362001
-2021-05-07,Netherlands,4497884,1354712
+2021-05-07,Netherlands,4497848,1264821
 2021-05-07,New Zealand,250088,105844
 2021-05-07,Nicaragua,166350,0
 2021-05-07,Niger,1366,0
@@ -29663,7 +29663,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-08,Mozambique,57305,0
 2021-05-08,Namibia,37578,2300
 2021-05-08,Nepal,2091511,362001
-2021-05-08,Netherlands,4497884,1354712
+2021-05-08,Netherlands,5067800,1585813
 2021-05-08,New Zealand,254483,108699
 2021-05-08,Nicaragua,166350,0
 2021-05-08,Niger,1366,0
@@ -29850,7 +29850,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-09,Mozambique,57305,0
 2021-05-09,Namibia,37819,2301
 2021-05-09,Nepal,2091511,362001
-2021-05-09,Netherlands,5067846,1699940
+2021-05-09,Netherlands,5067800,1585813
 2021-05-09,New Zealand,256212,110315
 2021-05-09,Nicaragua,166350,0
 2021-05-09,Niger,1366,0
@@ -30037,7 +30037,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-10,Mozambique,57305,0
 2021-05-10,Namibia,39339,2336
 2021-05-10,Nepal,2091511,362001
-2021-05-10,Netherlands,5067846,1699940
+2021-05-10,Netherlands,5067800,1585813
 2021-05-10,New Zealand,263089,115434
 2021-05-10,Nicaragua,166350,0
 2021-05-10,Niger,1366,0
@@ -30224,7 +30224,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-11,Mozambique,57305,0
 2021-05-11,Namibia,42088,2498
 2021-05-11,Nepal,2091511,362001
-2021-05-11,Netherlands,5067846,1699940
+2021-05-11,Netherlands,5067800,1585813
 2021-05-11,New Zealand,272317,121333
 2021-05-11,Nicaragua,166350,0
 2021-05-11,Niger,1366,0
@@ -30411,7 +30411,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-12,Mozambique,296983,59012
 2021-05-12,Namibia,44579,2603
 2021-05-12,Nepal,2091511,362001
-2021-05-12,Netherlands,5067846,1699940
+2021-05-12,Netherlands,5067800,1585813
 2021-05-12,New Zealand,281835,127103
 2021-05-12,Nicaragua,166350,0
 2021-05-12,Niger,68158,5948
@@ -30598,7 +30598,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-13,Mozambique,296983,59012
 2021-05-13,Namibia,45003,2623
 2021-05-13,Nepal,2091511,362001
-2021-05-13,Netherlands,5067846,1699940
+2021-05-13,Netherlands,5067800,1585813
 2021-05-13,New Zealand,291611,133115
 2021-05-13,Nicaragua,166350,0
 2021-05-13,Niger,68158,5948
@@ -30785,7 +30785,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-14,Mozambique,296983,59012
 2021-05-14,Namibia,47632,2729
 2021-05-14,Nepal,2091511,362001
-2021-05-14,Netherlands,5067846,1699940
+2021-05-14,Netherlands,5067800,1585813
 2021-05-14,New Zealand,300565,140230
 2021-05-14,Nicaragua,166350,0
 2021-05-14,Niger,68158,5948
@@ -30972,7 +30972,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-15,Mozambique,296983,59012
 2021-05-15,Namibia,50222,2941
 2021-05-15,Nepal,2091511,362001
-2021-05-15,Netherlands,5067846,1699940
+2021-05-15,Netherlands,5759684,1931213
 2021-05-15,New Zealand,303985,143046
 2021-05-15,Nicaragua,166350,0
 2021-05-15,Niger,68158,5948
@@ -31159,7 +31159,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-16,Mozambique,296983,59012
 2021-05-16,Namibia,50339,3063
 2021-05-16,Nepal,2091511,362001
-2021-05-16,Netherlands,5759740,2084503
+2021-05-16,Netherlands,5759684,1931213
 2021-05-16,New Zealand,306398,144852
 2021-05-16,Nicaragua,166350,0
 2021-05-16,Niger,68158,5948
@@ -31346,7 +31346,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-17,Mozambique,296983,59012
 2021-05-17,Namibia,50784,3065
 2021-05-17,Nepal,2091511,362001
-2021-05-17,Netherlands,5759740,2084503
+2021-05-17,Netherlands,5759684,1931213
 2021-05-17,New Zealand,313695,148610
 2021-05-17,Nicaragua,166350,0
 2021-05-17,Niger,68158,5948
@@ -31533,7 +31533,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-18,Mozambique,318548,74557
 2021-05-18,Namibia,53578,3418
 2021-05-18,Nepal,2113080,426510
-2021-05-18,Netherlands,5759740,2084503
+2021-05-18,Netherlands,5759684,1931213
 2021-05-18,New Zealand,322971,154126
 2021-05-18,Nicaragua,166350,0
 2021-05-18,Niger,115112,6514
@@ -31720,7 +31720,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-19,Mozambique,318548,74557
 2021-05-19,Namibia,56759,3780
 2021-05-19,Nepal,2113080,426510
-2021-05-19,Netherlands,5759740,2084503
+2021-05-19,Netherlands,5759684,1931213
 2021-05-19,New Zealand,332026,160526
 2021-05-19,Nicaragua,166350,0
 2021-05-19,Niger,115112,6514
@@ -31907,7 +31907,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-20,Mozambique,318548,74557
 2021-05-20,Namibia,56759,3780
 2021-05-20,Nepal,2113080,483631
-2021-05-20,Netherlands,5759740,2084503
+2021-05-20,Netherlands,5759684,1931213
 2021-05-20,New Zealand,340757,167272
 2021-05-20,Nicaragua,166350,0
 2021-05-20,Niger,115112,6514
@@ -32094,7 +32094,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-21,Mozambique,318548,74557
 2021-05-21,Namibia,60809,5179
 2021-05-21,Nepal,2113080,514253
-2021-05-21,Netherlands,5759740,2084503
+2021-05-21,Netherlands,5759684,1931213
 2021-05-21,New Zealand,349022,174571
 2021-05-21,Nicaragua,167500,0
 2021-05-21,Niger,115112,6514
@@ -32281,7 +32281,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-22,Mozambique,318548,74557
 2021-05-22,Namibia,61086,5673
 2021-05-22,Nepal,2113080,531568
-2021-05-22,Netherlands,5759740,2084503
+2021-05-22,Netherlands,6269400,2471867
 2021-05-22,New Zealand,353425,178137
 2021-05-22,Nicaragua,167500,0
 2021-05-22,Niger,115112,6514
@@ -32468,7 +32468,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-23,Mozambique,318548,74557
 2021-05-23,Namibia,61986,5673
 2021-05-23,Nepal,2113080,553589
-2021-05-23,Netherlands,6269456,2664587
+2021-05-23,Netherlands,6269400,2471867
 2021-05-23,New Zealand,355687,179680
 2021-05-23,Nicaragua,167500,0
 2021-05-23,Niger,115112,6514
@@ -32655,7 +32655,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-24,Mozambique,318548,74557
 2021-05-24,Namibia,61986,5673
 2021-05-24,Nepal,2113080,593755
-2021-05-24,Netherlands,6269456,2664587
+2021-05-24,Netherlands,6269400,2471867
 2021-05-24,New Zealand,362915,185448
 2021-05-24,Nicaragua,167500,0
 2021-05-24,Niger,115112,6514
@@ -32842,7 +32842,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-25,Mozambique,318548,74557
 2021-05-25,Namibia,63309,6456
 2021-05-25,Nepal,2113080,614113
-2021-05-25,Netherlands,6269456,2664587
+2021-05-25,Netherlands,6269400,2471867
 2021-05-25,New Zealand,372751,192922
 2021-05-25,Nicaragua,167500,0
 2021-05-25,Niger,115112,6514
@@ -33029,7 +33029,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-26,Mozambique,318548,74557
 2021-05-26,Namibia,65037,7496
 2021-05-26,Nepal,2113080,628884
-2021-05-26,Netherlands,6269456,2664587
+2021-05-26,Netherlands,6269400,2471867
 2021-05-26,New Zealand,383705,200687
 2021-05-26,Nicaragua,167500,0
 2021-05-26,Niger,152582,6943
@@ -33216,7 +33216,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-27,Mozambique,318548,74557
 2021-05-27,Namibia,66344,8318
 2021-05-27,Nepal,2113080,648068
-2021-05-27,Netherlands,6269456,2664587
+2021-05-27,Netherlands,6269400,2471867
 2021-05-27,New Zealand,393567,207716
 2021-05-27,Nicaragua,167500,0
 2021-05-27,Niger,152582,6943
@@ -33403,7 +33403,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-28,Mozambique,318548,74557
 2021-05-28,Namibia,66344,8318
 2021-05-28,Nepal,2113080,654851
-2021-05-28,Netherlands,6269456,2664587
+2021-05-28,Netherlands,6269400,2471867
 2021-05-28,New Zealand,404394,217589
 2021-05-28,Nicaragua,167500,0
 2021-05-28,Niger,152582,6943
@@ -33590,7 +33590,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-29,Mozambique,318548,74557
 2021-05-29,Namibia,67593,8777
 2021-05-29,Nepal,2113080,686939
-2021-05-29,Netherlands,6269456,2664587
+2021-05-29,Netherlands,6760648,3089082
 2021-05-29,New Zealand,410335,221883
 2021-05-29,Nicaragua,167500,0
 2021-05-29,Niger,152582,6943
@@ -33777,7 +33777,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-30,Mozambique,318548,74557
 2021-05-30,Namibia,67706,8872
 2021-05-30,Nepal,2113080,689516
-2021-05-30,Netherlands,6760702,3314461
+2021-05-30,Netherlands,6760648,3089082
 2021-05-30,New Zealand,413659,223763
 2021-05-30,Nicaragua,167500,0
 2021-05-30,Niger,152582,6943
@@ -33964,7 +33964,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-31,Mozambique,319511,74801
 2021-05-31,Namibia,67864,9085
 2021-05-31,Nepal,2113080,689516
-2021-05-31,Netherlands,6760702,3314461
+2021-05-31,Netherlands,6760648,3089082
 2021-05-31,New Zealand,422563,229327
 2021-05-31,Nicaragua,167500,0
 2021-05-31,Niger,152582,6943
@@ -34151,7 +34151,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-01,Mozambique,319511,74801
 2021-06-01,Namibia,69146,9574
 2021-06-01,Nepal,2113080,689516
-2021-06-01,Netherlands,6760702,3314461
+2021-06-01,Netherlands,6760648,3089082
 2021-06-01,New Zealand,434582,237243
 2021-06-01,Nicaragua,167500,0
 2021-06-01,Niger,152582,6943
@@ -34338,7 +34338,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-02,Mozambique,319511,74801
 2021-06-02,Namibia,70585,10000
 2021-06-02,Nepal,2113080,689516
-2021-06-02,Netherlands,6760702,3314461
+2021-06-02,Netherlands,6760648,3089082
 2021-06-02,New Zealand,447141,245656
 2021-06-02,Nicaragua,167500,0
 2021-06-02,Niger,152582,6943
@@ -34525,7 +34525,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-03,Mozambique,319511,74801
 2021-06-03,Namibia,72371,10536
 2021-06-03,Nepal,2113080,689516
-2021-06-03,Netherlands,6760702,3314461
+2021-06-03,Netherlands,6760648,3089082
 2021-06-03,New Zealand,461282,254685
 2021-06-03,Nicaragua,167500,0
 2021-06-03,Niger,152582,6943
@@ -34712,7 +34712,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-04,Mozambique,319511,74801
 2021-06-04,Namibia,74110,11133
 2021-06-04,Nepal,2113080,689516
-2021-06-04,Netherlands,6760702,3314461
+2021-06-04,Netherlands,6760648,3089082
 2021-06-04,New Zealand,473383,263040
 2021-06-04,Nicaragua,167500,0
 2021-06-04,Niger,152582,6943
@@ -34899,7 +34899,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-05,Mozambique,319511,74801
 2021-06-05,Namibia,75964,11493
 2021-06-05,Nepal,2113080,689516
-2021-06-05,Netherlands,6760702,3314461
+2021-06-05,Netherlands,7340792,3842234
 2021-06-05,New Zealand,479585,266390
 2021-06-05,Nicaragua,167500,0
 2021-06-05,Niger,152582,6943
@@ -35086,7 +35086,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-06,Mozambique,319511,74801
 2021-06-06,Namibia,75977,11497
 2021-06-06,Nepal,2113080,691494
-2021-06-06,Netherlands,7340845,4104964
+2021-06-06,Netherlands,7340792,3842234
 2021-06-06,New Zealand,483119,268073
 2021-06-06,Nicaragua,167500,0
 2021-06-06,Niger,152582,6943
@@ -35273,7 +35273,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-07,Mozambique,319511,74801
 2021-06-07,Namibia,76251,11608
 2021-06-07,Nepal,2113080,691494
-2021-06-07,Netherlands,7340845,4104964
+2021-06-07,Netherlands,7340792,3842234
 2021-06-07,New Zealand,487058,269444
 2021-06-07,Nicaragua,167500,0
 2021-06-07,Niger,152582,6943
@@ -35460,7 +35460,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-08,Mozambique,319511,74801
 2021-06-08,Namibia,78397,12321
 2021-06-08,Nepal,2113080,691494
-2021-06-08,Netherlands,7340845,4104964
+2021-06-08,Netherlands,7340792,3842234
 2021-06-08,New Zealand,500154,278204
 2021-06-08,Nicaragua,167500,0
 2021-06-08,Niger,170716,10271
@@ -35647,7 +35647,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-09,Mozambique,319511,74801
 2021-06-09,Namibia,80193,12868
 2021-06-09,Nepal,2169820,691494
-2021-06-09,Netherlands,7340845,4104964
+2021-06-09,Netherlands,7340792,3842234
 2021-06-09,New Zealand,507262,282523
 2021-06-09,Nicaragua,167500,0
 2021-06-09,Niger,170716,10271
@@ -35834,7 +35834,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-10,Mozambique,320129,74801
 2021-06-10,Namibia,82845,13588
 2021-06-10,Nepal,2244619,691494
-2021-06-10,Netherlands,7340845,4104964
+2021-06-10,Netherlands,7340792,3842234
 2021-06-10,New Zealand,521203,291995
 2021-06-10,Nicaragua,167500,0
 2021-06-10,Niger,170716,10271
@@ -36021,7 +36021,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-11,Mozambique,320129,74801
 2021-06-11,Namibia,85539,14243
 2021-06-11,Nepal,2244619,691494
-2021-06-11,Netherlands,7340845,4104964
+2021-06-11,Netherlands,7340792,3842234
 2021-06-11,New Zealand,533186,301582
 2021-06-11,Nicaragua,167500,0
 2021-06-11,Niger,170716,10271
@@ -36208,7 +36208,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-12,Mozambique,320129,74801
 2021-06-12,Namibia,86409,14384
 2021-06-12,Nepal,2383098,691494
-2021-06-12,Netherlands,7340845,4104964
+2021-06-12,Netherlands,8358296,4532606
 2021-06-12,New Zealand,540638,306074
 2021-06-12,Nicaragua,167500,0
 2021-06-12,Niger,170716,10271
@@ -36395,7 +36395,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-13,Mozambique,320129,74801
 2021-06-13,Namibia,87863,14686
 2021-06-13,Nepal,2383098,691494
-2021-06-13,Netherlands,8358352,4893391
+2021-06-13,Netherlands,8358296,4532606
 2021-06-13,New Zealand,545044,308973
 2021-06-13,Nicaragua,167500,0
 2021-06-13,Niger,170716,10271
@@ -36582,7 +36582,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-14,Mozambique,320129,74801
 2021-06-14,Namibia,88649,14956
 2021-06-14,Nepal,2383098,691494
-2021-06-14,Netherlands,8358352,4893391
+2021-06-14,Netherlands,8358296,4532606
 2021-06-14,New Zealand,555403,316534
 2021-06-14,Nicaragua,167500,0
 2021-06-14,Niger,172812,13395
@@ -36769,7 +36769,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-15,Mozambique,320129,74801
 2021-06-15,Namibia,91797,15999
 2021-06-15,Nepal,2438127,691494
-2021-06-15,Netherlands,8358352,4893391
+2021-06-15,Netherlands,8358296,4532606
 2021-06-15,New Zealand,568483,325688
 2021-06-15,Nicaragua,167500,0
 2021-06-15,Niger,172812,13395
@@ -36956,7 +36956,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-16,Mozambique,320129,74801
 2021-06-16,Namibia,95476,17215
 2021-06-16,Nepal,2461925,691494
-2021-06-16,Netherlands,8358352,4893391
+2021-06-16,Netherlands,8358296,4532606
 2021-06-16,New Zealand,582884,335714
 2021-06-16,Nicaragua,167500,0
 2021-06-16,Niger,172812,13395
@@ -37143,7 +37143,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-17,Mozambique,320129,74801
 2021-06-17,Namibia,98646,18087
 2021-06-17,Nepal,2461925,691494
-2021-06-17,Netherlands,8358352,4893391
+2021-06-17,Netherlands,8358296,4532606
 2021-06-17,New Zealand,595870,346019
 2021-06-17,Nicaragua,167500,0
 2021-06-17,Niger,172812,13395
@@ -37330,7 +37330,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-18,Mozambique,320129,74801
 2021-06-18,Namibia,101933,19079
 2021-06-18,Nepal,2461925,691494
-2021-06-18,Netherlands,8358352,4893391
+2021-06-18,Netherlands,8358296,4532606
 2021-06-18,New Zealand,607224,355484
 2021-06-18,Nicaragua,167500,0
 2021-06-18,Niger,172812,13395
@@ -37517,7 +37517,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-19,Mozambique,320129,74801
 2021-06-19,Namibia,104103,19851
 2021-06-19,Nepal,2500196,731653
-2021-06-19,Netherlands,8358352,4893391
+2021-06-19,Netherlands,9102213,5224412
 2021-06-19,New Zealand,614608,360386
 2021-06-19,Nicaragua,167500,0
 2021-06-19,Niger,172812,13395
@@ -37704,7 +37704,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-20,Mozambique,320129,74801
 2021-06-20,Namibia,104199,19865
 2021-06-20,Nepal,2500196,731653
-2021-06-20,Netherlands,9102268,5658708
+2021-06-20,Netherlands,9102213,5224412
 2021-06-20,New Zealand,618576,363731
 2021-06-20,Nicaragua,167500,0
 2021-06-20,Niger,172812,13395
@@ -37891,7 +37891,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-21,Mozambique,320129,74801
 2021-06-21,Namibia,104530,19930
 2021-06-21,Nepal,2500196,731653
-2021-06-21,Netherlands,9102268,5658708
+2021-06-21,Netherlands,9102213,5224412
 2021-06-21,New Zealand,627644,372175
 2021-06-21,Nicaragua,167500,0
 2021-06-21,Niger,172812,13395
@@ -38078,7 +38078,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-22,Mozambique,320129,74801
 2021-06-22,Namibia,107611,20999
 2021-06-22,Nepal,2500196,731653
-2021-06-22,Netherlands,9102268,5658708
+2021-06-22,Netherlands,9102213,5224412
 2021-06-22,New Zealand,639091,383461
 2021-06-22,Nicaragua,167500,0
 2021-06-22,Niger,172812,13395
@@ -38265,7 +38265,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-23,Mozambique,320129,74801
 2021-06-23,Namibia,110597,21463
 2021-06-23,Nepal,2500196,731653
-2021-06-23,Netherlands,9102268,5658708
+2021-06-23,Netherlands,9102213,5224412
 2021-06-23,New Zealand,652206,395351
 2021-06-23,Nicaragua,167500,0
 2021-06-23,Niger,172812,13395
@@ -38452,7 +38452,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-24,Mozambique,341707,96675
 2021-06-24,Namibia,112773,22285
 2021-06-24,Nepal,2500196,731653
-2021-06-24,Netherlands,9102268,5658708
+2021-06-24,Netherlands,9102213,5224412
 2021-06-24,New Zealand,663645,408346
 2021-06-24,Nicaragua,167500,0
 2021-06-24,Niger,224803,30784
@@ -38639,7 +38639,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-25,Mozambique,341707,96675
 2021-06-25,Namibia,115947,23075
 2021-06-25,Nepal,2500196,731653
-2021-06-25,Netherlands,9102268,5658708
+2021-06-25,Netherlands,9102213,5224412
 2021-06-25,New Zealand,673672,420063
 2021-06-25,Nicaragua,167500,0
 2021-06-25,Niger,224803,30784
@@ -38826,7 +38826,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-26,Mozambique,341707,96675
 2021-06-26,Namibia,117632,23532
 2021-06-26,Nepal,2582375,749585
-2021-06-26,Netherlands,9102268,5658708
+2021-06-26,Netherlands,9919429,5921809
 2021-06-26,New Zealand,682028,426349
 2021-06-26,Nicaragua,167500,0
 2021-06-26,Niger,224803,30784
@@ -39013,7 +39013,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-27,Mozambique,341707,96675
 2021-06-27,Namibia,117668,23541
 2021-06-27,Nepal,2583790,750131
-2021-06-27,Netherlands,9919479,6428258
+2021-06-27,Netherlands,9919429,5921809
 2021-06-27,New Zealand,685618,429794
 2021-06-27,Nicaragua,167500,0
 2021-06-27,Niger,224803,30784
@@ -39200,7 +39200,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-28,Mozambique,341707,96675
 2021-06-28,Namibia,117668,23541
 2021-06-28,Nepal,2587873,752110
-2021-06-28,Netherlands,9919479,6428258
+2021-06-28,Netherlands,9919429,5921809
 2021-06-28,New Zealand,695544,436252
 2021-06-28,Nicaragua,167500,0
 2021-06-28,Niger,224803,30784
@@ -39387,7 +39387,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-29,Mozambique,341707,96675
 2021-06-29,Namibia,119571,24242
 2021-06-29,Nepal,2599553,754542
-2021-06-29,Netherlands,9919479,6428258
+2021-06-29,Netherlands,9919429,5921809
 2021-06-29,New Zealand,706481,446290
 2021-06-29,Nicaragua,167500,0
 2021-06-29,Niger,224803,30784
@@ -39574,7 +39574,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-30,Mozambique,341707,96675
 2021-06-30,Namibia,121095,24862
 2021-06-30,Nepal,2601316,755019
-2021-06-30,Netherlands,9919479,6428258
+2021-06-30,Netherlands,9919429,5921809
 2021-06-30,New Zealand,719426,456244
 2021-06-30,Nicaragua,167500,0
 2021-06-30,Niger,224803,30784
@@ -39761,7 +39761,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-01,Mozambique,341707,96675
 2021-07-01,Namibia,122381,25422
 2021-07-01,Nepal,2604866,756602
-2021-07-01,Netherlands,9919479,6428258
+2021-07-01,Netherlands,9919429,5921809
 2021-07-01,New Zealand,732533,466095
 2021-07-01,Nicaragua,167500,0
 2021-07-01,Niger,224803,30784
@@ -39948,7 +39948,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-02,Mozambique,341707,96675
 2021-07-02,Namibia,123439,25793
 2021-07-02,Nepal,2604866,756602
-2021-07-02,Netherlands,9919479,6428258
+2021-07-02,Netherlands,9919429,5921809
 2021-07-02,New Zealand,742304,476409
 2021-07-02,Nicaragua,167500,0
 2021-07-02,Niger,224803,30784
@@ -40135,7 +40135,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-03,Mozambique,341707,96675
 2021-07-03,Namibia,124154,26168
 2021-07-03,Nepal,2604866,757962
-2021-07-03,Netherlands,9919479,6428258
+2021-07-03,Netherlands,10860493,6584535
 2021-07-03,New Zealand,749692,481736
 2021-07-03,Nicaragua,167500,0
 2021-07-03,Niger,224803,30784
@@ -40322,7 +40322,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-04,Mozambique,341707,96675
 2021-07-04,Namibia,124192,26171
 2021-07-04,Nepal,2606005,758046
-2021-07-04,Netherlands,10860534,7195160
+2021-07-04,Netherlands,10860493,6584535
 2021-07-04,New Zealand,753181,484657
 2021-07-04,Nicaragua,167500,0
 2021-07-04,Niger,224803,30784
@@ -40509,7 +40509,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-05,Mozambique,354572,153612
 2021-07-05,Namibia,124586,26325
 2021-07-05,Nepal,2611807,759954
-2021-07-05,Netherlands,10860534,7195160
+2021-07-05,Netherlands,10860493,6584535
 2021-07-05,New Zealand,760965,492624
 2021-07-05,Nicaragua,167500,0
 2021-07-05,Niger,224803,30784
@@ -40696,7 +40696,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-06,Mozambique,354572,153612
 2021-07-06,Namibia,125970,26937
 2021-07-06,Nepal,2611807,759954
-2021-07-06,Netherlands,10860534,7195160
+2021-07-06,Netherlands,10860493,6584535
 2021-07-06,New Zealand,770557,503956
 2021-07-06,Nicaragua,167500,0
 2021-07-06,Niger,224803,30784
@@ -40883,7 +40883,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-07,Mozambique,354572,153612
 2021-07-07,Namibia,127220,27539
 2021-07-07,Nepal,2611807,851300
-2021-07-07,Netherlands,10860534,7195160
+2021-07-07,Netherlands,10860493,6584535
 2021-07-07,New Zealand,781840,515827
 2021-07-07,Nicaragua,167500,0
 2021-07-07,Niger,224803,30784
@@ -41070,7 +41070,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-08,Mozambique,354572,153612
 2021-07-08,Namibia,128298,28393
 2021-07-08,Nepal,2611807,851300
-2021-07-08,Netherlands,10860534,7195160
+2021-07-08,Netherlands,10860493,6584535
 2021-07-08,New Zealand,794554,527725
 2021-07-08,Nicaragua,167500,0
 2021-07-08,Niger,224803,30784
@@ -41257,7 +41257,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-09,Mozambique,354572,153612
 2021-07-09,Namibia,130048,29537
 2021-07-09,Nepal,2611807,964508
-2021-07-09,Netherlands,10860534,7195160
+2021-07-09,Netherlands,10860493,6584535
 2021-07-09,New Zealand,805639,538243
 2021-07-09,Nicaragua,167500,0
 2021-07-09,Niger,224803,30784
@@ -41444,7 +41444,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-10,Mozambique,354572,153612
 2021-07-10,Namibia,131019,30505
 2021-07-10,Nepal,2611807,964508
-2021-07-10,Netherlands,10860534,7195160
+2021-07-10,Netherlands,11690760,7069670
 2021-07-10,New Zealand,814966,544726
 2021-07-10,Nicaragua,167500,0
 2021-07-10,Niger,224803,30784
@@ -41631,7 +41631,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-11,Mozambique,354572,153612
 2021-07-11,Namibia,131132,30529
 2021-07-11,Nepal,2611807,1041366
-2021-07-11,Netherlands,11690799,7789721
+2021-07-11,Netherlands,11690760,7069670
 2021-07-11,New Zealand,819358,547969
 2021-07-11,Nicaragua,167500,0
 2021-07-11,Niger,224803,30784
@@ -41818,7 +41818,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-12,Mozambique,354572,153612
 2021-07-12,Namibia,131677,30964
 2021-07-12,Nepal,2611807,1079192
-2021-07-12,Netherlands,11690799,7789721
+2021-07-12,Netherlands,11690760,7069670
 2021-07-12,New Zealand,828936,556130
 2021-07-12,Nicaragua,167500,0
 2021-07-12,Niger,224803,30784
@@ -42005,7 +42005,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-13,Mozambique,354572,153612
 2021-07-13,Namibia,132784,31833
 2021-07-13,Nepal,2611807,1103130
-2021-07-13,Netherlands,11690799,7789721
+2021-07-13,Netherlands,11690760,7069670
 2021-07-13,New Zealand,841007,566614
 2021-07-13,Nicaragua,167500,0
 2021-07-13,Niger,224803,30784
@@ -42192,7 +42192,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-14,Mozambique,354572,153612
 2021-07-14,Namibia,133863,32753
 2021-07-14,Nepal,2621476,1108868
-2021-07-14,Netherlands,11690799,7789721
+2021-07-14,Netherlands,11690760,7069670
 2021-07-14,New Zealand,854434,578061
 2021-07-14,Nicaragua,167500,0
 2021-07-14,Niger,224803,30784
@@ -42379,7 +42379,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-15,Mozambique,354572,153612
 2021-07-15,Namibia,134853,33420
 2021-07-15,Nepal,2621476,1108868
-2021-07-15,Netherlands,11690799,7789721
+2021-07-15,Netherlands,11690760,7069670
 2021-07-15,New Zealand,867301,588970
 2021-07-15,Nicaragua,167500,0
 2021-07-15,Niger,224803,30784
@@ -42566,7 +42566,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-16,Mozambique,354572,153612
 2021-07-16,Namibia,135700,34288
 2021-07-16,Nepal,2765709,1120282
-2021-07-16,Netherlands,11690799,7789721
+2021-07-16,Netherlands,11690760,7069670
 2021-07-16,New Zealand,879242,598885
 2021-07-16,Nicaragua,252766,162874
 2021-07-16,Niger,224803,30784
@@ -42753,7 +42753,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-17,Mozambique,354572,153612
 2021-07-17,Namibia,136189,34787
 2021-07-17,Nepal,2912850,1126870
-2021-07-17,Netherlands,11690799,7789721
+2021-07-17,Netherlands,11917500,7958342
 2021-07-17,New Zealand,888701,605960
 2021-07-17,Nicaragua,252766,162874
 2021-07-17,Niger,224803,30784
@@ -42940,7 +42940,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-18,Mozambique,354572,153612
 2021-07-18,Namibia,136194,34789
 2021-07-18,Nepal,2999214,1129908
-2021-07-18,Netherlands,11917538,8673590
+2021-07-18,Netherlands,11917500,7958342
 2021-07-18,New Zealand,894353,609037
 2021-07-18,Nicaragua,252766,162874
 2021-07-18,Niger,224803,30784
@@ -43127,7 +43127,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-19,Mozambique,372085,299251
 2021-07-19,Namibia,136599,35135
 2021-07-19,Nepal,2999214,1129908
-2021-07-19,Netherlands,11917538,8673590
+2021-07-19,Netherlands,11917500,7958342
 2021-07-19,New Zealand,907507,618226
 2021-07-19,Nicaragua,252766,162874
 2021-07-19,Niger,224803,30784
@@ -43314,7 +43314,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-20,Mozambique,372085,299251
 2021-07-20,Namibia,138521,37516
 2021-07-20,Nepal,3150956,1158130
-2021-07-20,Netherlands,11917538,8673590
+2021-07-20,Netherlands,11917500,7958342
 2021-07-20,New Zealand,926271,630148
 2021-07-20,Nicaragua,252766,162874
 2021-07-20,Niger,224803,30784
@@ -43501,7 +43501,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-21,Mozambique,372085,299251
 2021-07-21,Namibia,140950,39851
 2021-07-21,Nepal,3150956,1158130
-2021-07-21,Netherlands,11917538,8673590
+2021-07-21,Netherlands,11917500,7958342
 2021-07-21,New Zealand,947083,643333
 2021-07-21,Nicaragua,252766,162874
 2021-07-21,Niger,224803,30784
@@ -43688,7 +43688,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-22,Mozambique,372085,299251
 2021-07-22,Namibia,144417,42142
 2021-07-22,Nepal,3308730,1281240
-2021-07-22,Netherlands,11917538,8673590
+2021-07-22,Netherlands,11917500,7958342
 2021-07-22,New Zealand,966923,655849
 2021-07-22,Nicaragua,252766,162874
 2021-07-22,Niger,224803,30784
@@ -43875,7 +43875,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-23,Mozambique,372085,299251
 2021-07-23,Namibia,147460,43825
 2021-07-23,Nepal,3349951,1312012
-2021-07-23,Netherlands,11917538,8673590
+2021-07-23,Netherlands,11917500,7958342
 2021-07-23,New Zealand,986697,667153
 2021-07-23,Nicaragua,252766,162874
 2021-07-23,Niger,224803,30784
@@ -44062,7 +44062,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-24,Mozambique,372085,299514
 2021-07-24,Namibia,149579,44925
 2021-07-24,Nepal,3377228,1366046
-2021-07-24,Netherlands,11917538,8673590
+2021-07-24,Netherlands,12112405,8622966
 2021-07-24,New Zealand,1003813,674883
 2021-07-24,Nicaragua,252766,162874
 2021-07-24,Niger,224803,30784
@@ -44249,7 +44249,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-25,Mozambique,372085,299514
 2021-07-25,Namibia,150106,45078
 2021-07-25,Nepal,3383038,1398178
-2021-07-25,Netherlands,12112440,9334836
+2021-07-25,Netherlands,12112405,8622966
 2021-07-25,New Zealand,1012868,679812
 2021-07-25,Nicaragua,252766,162874
 2021-07-25,Niger,224803,30784
@@ -44436,7 +44436,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-26,Mozambique,372085,318955
 2021-07-26,Namibia,151241,45348
 2021-07-26,Nepal,3405154,1423416
-2021-07-26,Netherlands,12112440,9334836
+2021-07-26,Netherlands,12112405,8622966
 2021-07-26,New Zealand,1033422,689790
 2021-07-26,Nicaragua,252766,162874
 2021-07-26,Niger,224803,30784
@@ -44623,7 +44623,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-27,Mozambique,372085,318955
 2021-07-27,Namibia,154350,46344
 2021-07-27,Nepal,3462340,1457670
-2021-07-27,Netherlands,12112440,9334836
+2021-07-27,Netherlands,12112405,8622966
 2021-07-27,New Zealand,1061040,701161
 2021-07-27,Nicaragua,252766,162874
 2021-07-27,Niger,224803,30784
@@ -44810,7 +44810,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-28,Mozambique,372085,318955
 2021-07-28,Namibia,156942,47161
 2021-07-28,Nepal,3544043,1503312
-2021-07-28,Netherlands,12112440,9334836
+2021-07-28,Netherlands,12112405,8622966
 2021-07-28,New Zealand,1090461,713318
 2021-07-28,Nicaragua,252766,162874
 2021-07-28,Niger,224803,30784
@@ -44997,7 +44997,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-29,Mozambique,372085,318955
 2021-07-29,Namibia,159881,48069
 2021-07-29,Nepal,3650733,1548803
-2021-07-29,Netherlands,12112440,9334836
+2021-07-29,Netherlands,12112405,8622966
 2021-07-29,New Zealand,1118689,725305
 2021-07-29,Nicaragua,252766,162874
 2021-07-29,Niger,224803,30784
@@ -45184,7 +45184,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-30,Mozambique,372085,318955
 2021-07-30,Namibia,162596,48814
 2021-07-30,Nepal,3650733,1548803
-2021-07-30,Netherlands,12112440,9334836
+2021-07-30,Netherlands,12112405,8622966
 2021-07-30,New Zealand,1150206,735947
 2021-07-30,Nicaragua,252766,162874
 2021-07-30,Niger,224803,30784
@@ -45371,7 +45371,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-31,Mozambique,372085,318955
 2021-07-31,Namibia,164221,49274
 2021-07-31,Nepal,3936724,1745903
-2021-07-31,Netherlands,12112440,9334836
+2021-07-31,Netherlands,12267363,9286125
 2021-07-31,New Zealand,1179735,745016
 2021-07-31,Nicaragua,252766,162874
 2021-07-31,Niger,224803,30784
@@ -45558,7 +45558,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-01,Mozambique,372085,318955
 2021-08-01,Namibia,164703,49356
 2021-08-01,Nepal,4064288,1813471
-2021-08-01,Netherlands,12267399,9993654
+2021-08-01,Netherlands,12267363,9286125
 2021-08-01,New Zealand,1197716,749694
 2021-08-01,Nicaragua,252766,162874
 2021-08-01,Niger,224803,30784
@@ -45745,7 +45745,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-02,Mozambique,372085,318955
 2021-08-02,Namibia,165427,49554
 2021-08-02,Nepal,4163251,2000211
-2021-08-02,Netherlands,12267399,9993654
+2021-08-02,Netherlands,12267363,9286125
 2021-08-02,New Zealand,1223417,759140
 2021-08-02,Nicaragua,252766,162874
 2021-08-02,Niger,224803,30784
@@ -45932,7 +45932,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-03,Mozambique,394234,320542
 2021-08-03,Namibia,168076,50377
 2021-08-03,Nepal,4254540,2002703
-2021-08-03,Netherlands,12267399,9993654
+2021-08-03,Netherlands,12267363,9286125
 2021-08-03,New Zealand,1253724,771666
 2021-08-03,Nicaragua,252766,162874
 2021-08-03,Niger,224803,30784
@@ -46119,7 +46119,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-04,Mozambique,394234,320542
 2021-08-04,Namibia,169790,51138
 2021-08-04,Nepal,4297612,2074786
-2021-08-04,Netherlands,12267399,9993654
+2021-08-04,Netherlands,12267363,9286125
 2021-08-04,New Zealand,1286294,784589
 2021-08-04,Nicaragua,252766,162874
 2021-08-04,Niger,224803,30784
@@ -46306,7 +46306,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-05,Mozambique,394234,320542
 2021-08-05,Namibia,171499,51828
 2021-08-05,Nepal,4359277,2130900
-2021-08-05,Netherlands,12267399,9993654
+2021-08-05,Netherlands,12267363,9286125
 2021-08-05,New Zealand,1315578,797600
 2021-08-05,Nicaragua,252766,162874
 2021-08-05,Niger,224803,30784
@@ -46493,7 +46493,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-06,Mozambique,394234,320542
 2021-08-06,Namibia,173428,52681
 2021-08-06,Nepal,4403021,2208055
-2021-08-06,Netherlands,12267399,9993654
+2021-08-06,Netherlands,12267363,9286125
 2021-08-06,New Zealand,1345974,809308
 2021-08-06,Nicaragua,252766,162874
 2021-08-06,Niger,224803,30784
@@ -46680,7 +46680,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-07,Mozambique,394234,320542
 2021-08-07,Namibia,174896,53455
 2021-08-07,Nepal,4442622,2359793
-2021-08-07,Netherlands,12267399,9993654
+2021-08-07,Netherlands,12359334,10027867
 2021-08-07,New Zealand,1373900,818200
 2021-08-07,Nicaragua,252766,162874
 2021-08-07,Niger,224803,30784
@@ -46867,7 +46867,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-08,Mozambique,394234,320542
 2021-08-08,Namibia,175077,53471
 2021-08-08,Nepal,4494269,2492182
-2021-08-08,Netherlands,12359370,10725479
+2021-08-08,Netherlands,12359334,10027867
 2021-08-08,New Zealand,1389777,822831
 2021-08-08,Nicaragua,252766,162874
 2021-08-08,Niger,224803,30784
@@ -47054,7 +47054,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-09,Mozambique,907839,478487
 2021-08-09,Namibia,175077,53471
 2021-08-09,Nepal,4525435,2606046
-2021-08-09,Netherlands,12359370,10725479
+2021-08-09,Netherlands,12359334,10027867
 2021-08-09,New Zealand,1416686,834481
 2021-08-09,Nicaragua,252766,162874
 2021-08-09,Niger,393293,32190
@@ -47241,7 +47241,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-10,Mozambique,907839,478487
 2021-08-10,Namibia,177470,57587
 2021-08-10,Nepal,4541682,2722020
-2021-08-10,Netherlands,12359370,10725479
+2021-08-10,Netherlands,12359334,10027867
 2021-08-10,New Zealand,1447806,850436
 2021-08-10,Nicaragua,252766,162874
 2021-08-10,Niger,393293,32190
@@ -47428,7 +47428,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-11,Mozambique,907839,478487
 2021-08-11,Namibia,179324,65556
 2021-08-11,Nepal,4570553,2888360
-2021-08-11,Netherlands,12359370,10725479
+2021-08-11,Netherlands,12359334,10027867
 2021-08-11,New Zealand,1479848,867366
 2021-08-11,Nicaragua,252766,162874
 2021-08-11,Niger,393293,32190
@@ -47615,7 +47615,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-12,Mozambique,907839,478487
 2021-08-12,Namibia,181344,71158
 2021-08-12,Nepal,4593526,2922240
-2021-08-12,Netherlands,12359370,10725479
+2021-08-12,Netherlands,12359334,10027867
 2021-08-12,New Zealand,1512366,883906
 2021-08-12,Nicaragua,252766,162874
 2021-08-12,Niger,393293,32190
@@ -47802,7 +47802,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-13,Mozambique,907839,478487
 2021-08-13,Namibia,183792,75483
 2021-08-13,Nepal,4593526,2922240
-2021-08-13,Netherlands,12359370,10725479
+2021-08-13,Netherlands,12359334,10027867
 2021-08-13,New Zealand,1543768,899567
 2021-08-13,Nicaragua,252766,162874
 2021-08-13,Niger,393293,32190
@@ -47989,7 +47989,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-14,Mozambique,907839,478487
 2021-08-14,Namibia,185304,78313
 2021-08-14,Nepal,4674318,3303578
-2021-08-14,Netherlands,12359370,10725479
+2021-08-14,Netherlands,12435828,10680409
 2021-08-14,New Zealand,1574201,912892
 2021-08-14,Nicaragua,252766,162874
 2021-08-14,Niger,393293,32190
@@ -48176,7 +48176,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-15,Mozambique,907839,478487
 2021-08-15,Namibia,185873,78846
 2021-08-15,Nepal,4684509,3364157
-2021-08-15,Netherlands,12435864,11368864
+2021-08-15,Netherlands,12435828,10680409
 2021-08-15,New Zealand,1592486,920298
 2021-08-15,Nicaragua,252766,162874
 2021-08-15,Niger,393293,32190
@@ -48363,7 +48363,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-16,Mozambique,916174,571386
 2021-08-16,Namibia,187892,80664
 2021-08-16,Nepal,4716936,3490065
-2021-08-16,Netherlands,12435864,11368864
+2021-08-16,Netherlands,12435828,10680409
 2021-08-16,New Zealand,1622861,936347
 2021-08-16,Nicaragua,252766,162874
 2021-08-16,Niger,401272,84682
@@ -48550,7 +48550,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-17,Mozambique,916174,571386
 2021-08-17,Namibia,187892,80664
 2021-08-17,Nepal,4764856,3586673
-2021-08-17,Netherlands,12435864,11368864
+2021-08-17,Netherlands,12435828,10680409
 2021-08-17,New Zealand,1658721,956772
 2021-08-17,Nicaragua,382519,197608
 2021-08-17,Niger,401272,84682
@@ -48737,7 +48737,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-18,Mozambique,916174,571386
 2021-08-18,Namibia,187892,80664
 2021-08-18,Nepal,4785902,3649760
-2021-08-18,Netherlands,12435864,11368864
+2021-08-18,Netherlands,12435828,10680409
 2021-08-18,New Zealand,1659134,956872
 2021-08-18,Nicaragua,382519,197608
 2021-08-18,Niger,401272,84682
@@ -48924,7 +48924,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-19,Mozambique,916174,571386
 2021-08-19,Namibia,190306,83629
 2021-08-19,Nepal,4817985,3708688
-2021-08-19,Netherlands,12435864,11368864
+2021-08-19,Netherlands,12435828,10680409
 2021-08-19,New Zealand,1680723,965637
 2021-08-19,Nicaragua,382519,197608
 2021-08-19,Niger,401272,84682
@@ -49111,7 +49111,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-20,Mozambique,916174,571386
 2021-08-20,Namibia,190306,83629
 2021-08-20,Nepal,4907523,3799178
-2021-08-20,Netherlands,12435864,11368864
+2021-08-20,Netherlands,12435828,10680409
 2021-08-20,New Zealand,1719545,985847
 2021-08-20,Nicaragua,412029,200770
 2021-08-20,Niger,401272,84682
@@ -49298,7 +49298,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-21,Mozambique,916174,571386
 2021-08-21,Namibia,190306,83629
 2021-08-21,Nepal,4935056,3835608
-2021-08-21,Netherlands,12435864,11368864
+2021-08-21,Netherlands,12507993,10908355
 2021-08-21,New Zealand,1757949,1001741
 2021-08-21,Nicaragua,412029,200770
 2021-08-21,Niger,401272,84682
@@ -49485,7 +49485,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-22,Mozambique,916174,571386
 2021-08-22,Namibia,190306,83629
 2021-08-22,Nepal,4942250,3846736
-2021-08-22,Netherlands,12508027,11596968
+2021-08-22,Netherlands,12507993,10908355
 2021-08-22,New Zealand,1786462,1010828
 2021-08-22,Nicaragua,412029,200770
 2021-08-22,Niger,401272,84682
@@ -49672,7 +49672,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-23,Mozambique,916174,571386
 2021-08-23,Namibia,190306,83629
 2021-08-23,Nepal,4943732,3857598
-2021-08-23,Netherlands,12508027,11596968
+2021-08-23,Netherlands,12507993,10908355
 2021-08-23,New Zealand,1833268,1030391
 2021-08-23,Nicaragua,412029,200770
 2021-08-23,Niger,404104,86445
@@ -49859,7 +49859,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-24,Mozambique,916174,571386
 2021-08-24,Namibia,190306,83629
 2021-08-24,Nepal,4943732,3857598
-2021-08-24,Netherlands,12508027,11596968
+2021-08-24,Netherlands,12507993,10908355
 2021-08-24,New Zealand,1892682,1054056
 2021-08-24,Nicaragua,412029,200770
 2021-08-24,Niger,404104,86445
@@ -50046,7 +50046,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-25,Mozambique,1643520,654322
 2021-08-25,Namibia,204142,100944
 2021-08-25,Nepal,4956455,3909941
-2021-08-25,Netherlands,12508027,11596968
+2021-08-25,Netherlands,12507993,10908355
 2021-08-25,New Zealand,1956153,1080547
 2021-08-25,Nicaragua,412029,200770
 2021-08-25,Niger,404104,86445
@@ -50233,7 +50233,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-26,Mozambique,1643520,654322
 2021-08-26,Namibia,204142,100944
 2021-08-26,Nepal,4986893,3949529
-2021-08-26,Netherlands,12508027,11596968
+2021-08-26,Netherlands,12507993,10908355
 2021-08-26,New Zealand,2024093,1106053
 2021-08-26,Nicaragua,412029,200770
 2021-08-26,Niger,404104,86445
@@ -50420,7 +50420,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-27,Mozambique,1643520,654322
 2021-08-27,Namibia,204142,100944
 2021-08-27,Nepal,5063522,4052765
-2021-08-27,Netherlands,12508027,11596968
+2021-08-27,Netherlands,12507993,10908355
 2021-08-27,New Zealand,2091526,1130776
 2021-08-27,Nicaragua,443053,202680
 2021-08-27,Niger,404104,86445
@@ -50607,7 +50607,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-28,Mozambique,1643520,654322
 2021-08-28,Namibia,204142,100944
 2021-08-28,Nepal,5063522,4052765
-2021-08-28,Netherlands,12508027,11596968
+2021-08-28,Netherlands,12571743,11115797
 2021-08-28,New Zealand,2148408,1153175
 2021-08-28,Nicaragua,443053,202680
 2021-08-28,Niger,404104,86445
@@ -50794,7 +50794,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-29,Mozambique,1643520,654322
 2021-08-29,Namibia,204142,100944
 2021-08-29,Nepal,5063522,4052765
-2021-08-29,Netherlands,12571773,11803269
+2021-08-29,Netherlands,12571743,11115797
 2021-08-29,New Zealand,2185529,1164652
 2021-08-29,Nicaragua,443053,202680
 2021-08-29,Niger,404104,86445
@@ -50981,7 +50981,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-30,Mozambique,1643520,654322
 2021-08-30,Namibia,204142,100944
 2021-08-30,Nepal,5317483,4396402
-2021-08-30,Netherlands,12571773,11803269
+2021-08-30,Netherlands,12571743,11115797
 2021-08-30,New Zealand,2240470,1188418
 2021-08-30,Nicaragua,443053,202680
 2021-08-30,Niger,404104,86445
@@ -51168,7 +51168,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-31,Mozambique,1643520,654322
 2021-08-31,Namibia,204142,100944
 2021-08-31,Nepal,5339252,4459761
-2021-08-31,Netherlands,12571773,11803269
+2021-08-31,Netherlands,12571743,11115797
 2021-08-31,New Zealand,2299819,1215908
 2021-08-31,Nicaragua,443053,202680
 2021-08-31,Niger,404104,86445
@@ -51355,7 +51355,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-01,Mozambique,1643520,654322
 2021-09-01,Namibia,213438,115624
 2021-09-01,Nepal,5424836,4667328
-2021-09-01,Netherlands,12571773,11803269
+2021-09-01,Netherlands,12571743,11115797
 2021-09-01,New Zealand,2363430,1243605
 2021-09-01,Nicaragua,443053,202680
 2021-09-01,Niger,404104,86445
@@ -51542,7 +51542,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-02,Mozambique,1643520,654322
 2021-09-02,Namibia,213438,115624
 2021-09-02,Nepal,5425888,4677976
-2021-09-02,Netherlands,12571773,11803269
+2021-09-02,Netherlands,12571743,11115797
 2021-09-02,New Zealand,2428698,1268925
 2021-09-02,Nicaragua,443053,202680
 2021-09-02,Niger,404104,86445
@@ -51729,7 +51729,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-03,Mozambique,1643520,654322
 2021-09-03,Namibia,213438,115624
 2021-09-03,Nepal,5472793,4795373
-2021-09-03,Netherlands,12571773,11803269
+2021-09-03,Netherlands,12571743,11115797
 2021-09-03,New Zealand,2490653,1294839
 2021-09-03,Nicaragua,463656,206248
 2021-09-03,Niger,404104,86445
@@ -51916,7 +51916,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-04,Mozambique,1643520,654322
 2021-09-04,Namibia,213438,115624
 2021-09-04,Nepal,5511929,4863835
-2021-09-04,Netherlands,12571773,11803269
+2021-09-04,Netherlands,12624473,11276488
 2021-09-04,New Zealand,2546794,1317407
 2021-09-04,Nicaragua,463656,206248
 2021-09-04,Niger,404104,86445
@@ -52103,7 +52103,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-05,Mozambique,1643520,654322
 2021-09-05,Namibia,213438,115624
 2021-09-05,Nepal,5533794,4895152
-2021-09-05,Netherlands,12624499,11961428
+2021-09-05,Netherlands,12624473,11276488
 2021-09-05,New Zealand,2573833,1329423
 2021-09-05,Nicaragua,463656,206248
 2021-09-05,Niger,404104,86445
@@ -52290,7 +52290,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-06,Mozambique,1643520,654322
 2021-09-06,Namibia,213438,115624
 2021-09-06,Nepal,5573419,4962759
-2021-09-06,Netherlands,12624499,11961428
+2021-09-06,Netherlands,12624473,11276488
 2021-09-06,New Zealand,2619170,1351238
 2021-09-06,Nicaragua,463656,206248
 2021-09-06,Niger,404104,86445
@@ -52477,7 +52477,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-07,Mozambique,1643520,654322
 2021-09-07,Namibia,213438,115624
 2021-09-07,Nepal,5603757,5012821
-2021-09-07,Netherlands,12624499,11961428
+2021-09-07,Netherlands,12624473,11276488
 2021-09-07,New Zealand,2669203,1374700
 2021-09-07,Nicaragua,463656,206248
 2021-09-07,Niger,404104,86445
@@ -52664,7 +52664,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-08,Mozambique,1643520,762370
 2021-09-08,Namibia,213438,115624
 2021-09-08,Nepal,5603757,5012821
-2021-09-08,Netherlands,12624499,11961428
+2021-09-08,Netherlands,12624473,11276488
 2021-09-08,New Zealand,2718081,1393266
 2021-09-08,Nicaragua,463656,206248
 2021-09-08,Niger,404104,86445
@@ -52851,7 +52851,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-09,Mozambique,1643520,762370
 2021-09-09,Namibia,223071,129891
 2021-09-09,Nepal,5729789,5102244
-2021-09-09,Netherlands,12624499,11961428
+2021-09-09,Netherlands,12624473,11276488
 2021-09-09,New Zealand,2764640,1408892
 2021-09-09,Nicaragua,463656,206248
 2021-09-09,Niger,404104,86445
@@ -53038,7 +53038,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-10,Mozambique,1643520,762370
 2021-09-10,Namibia,223071,129891
 2021-09-10,Nepal,5740345,5120877
-2021-09-10,Netherlands,12624499,11961428
+2021-09-10,Netherlands,12624473,11276488
 2021-09-10,New Zealand,2808844,1430081
 2021-09-10,Nicaragua,476308,258944
 2021-09-10,Niger,404104,86445
@@ -53225,7 +53225,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-11,Mozambique,1643520,762370
 2021-09-11,Namibia,223071,129891
 2021-09-11,Nepal,5769328,5160524
-2021-09-11,Netherlands,12624499,11961428
+2021-09-11,Netherlands,12671930,11361829
 2021-09-11,New Zealand,2847899,1453404
 2021-09-11,Nicaragua,476308,258944
 2021-09-11,Niger,404104,86445
@@ -53412,7 +53412,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-12,Mozambique,1643520,762370
 2021-09-12,Namibia,223071,129891
 2021-09-12,Nepal,5773612,5166689
-2021-09-12,Netherlands,12671953,12044260
+2021-09-12,Netherlands,12671930,11361829
 2021-09-12,New Zealand,2868583,1466863
 2021-09-12,Nicaragua,476308,258944
 2021-09-12,Niger,404104,86445
@@ -53599,7 +53599,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-13,Mozambique,1643520,762370
 2021-09-13,Namibia,223071,129891
 2021-09-13,Nepal,5833938,5198193
-2021-09-13,Netherlands,12671953,12044260
+2021-09-13,Netherlands,12671930,11361829
 2021-09-13,New Zealand,2903143,1487841
 2021-09-13,Nicaragua,476308,258944
 2021-09-13,Niger,404104,86445
@@ -53786,7 +53786,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-14,Mozambique,1903730,1740693
 2021-09-14,Namibia,223071,129891
 2021-09-14,Nepal,5877079,5243236
-2021-09-14,Netherlands,12671953,12044260
+2021-09-14,Netherlands,12671930,11361829
 2021-09-14,New Zealand,2942920,1510729
 2021-09-14,Nicaragua,476308,258944
 2021-09-14,Niger,404104,86445
@@ -53973,7 +53973,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-15,Mozambique,1903730,1740693
 2021-09-15,Namibia,232051,142127
 2021-09-15,Nepal,6004019,5415427
-2021-09-15,Netherlands,12671953,12044260
+2021-09-15,Netherlands,12671930,11361829
 2021-09-15,New Zealand,2982980,1533950
 2021-09-15,Nicaragua,476308,258944
 2021-09-15,Niger,404104,86445
@@ -54160,7 +54160,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-16,Mozambique,1903730,1740693
 2021-09-16,Namibia,232051,142127
 2021-09-16,Nepal,6057194,5473151
-2021-09-16,Netherlands,12671953,12044260
+2021-09-16,Netherlands,12671930,11361829
 2021-09-16,New Zealand,3020311,1558100
 2021-09-16,Nicaragua,476308,258944
 2021-09-16,Niger,404104,86445
@@ -54347,7 +54347,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-17,Mozambique,1903730,1740693
 2021-09-17,Namibia,232051,142127
 2021-09-17,Nepal,6083124,5507380
-2021-09-17,Netherlands,12671953,12044260
+2021-09-17,Netherlands,12671930,11361829
 2021-09-17,New Zealand,3053713,1585789
 2021-09-17,Nicaragua,490472,278633
 2021-09-17,Niger,404104,86445
@@ -54534,7 +54534,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-18,Mozambique,1903730,1740693
 2021-09-18,Namibia,232051,142127
 2021-09-18,Nepal,6198936,5561885
-2021-09-18,Netherlands,12671953,12044260
+2021-09-18,Netherlands,12740501,11448634
 2021-09-18,New Zealand,3083066,1610413
 2021-09-18,Nicaragua,490472,278633
 2021-09-18,Niger,404104,86445
@@ -54721,7 +54721,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-19,Mozambique,1903730,1740693
 2021-09-19,Namibia,232051,142127
 2021-09-19,Nepal,6203316,5578865
-2021-09-19,Netherlands,12740523,12132296
+2021-09-19,Netherlands,12740501,11448634
 2021-09-19,New Zealand,3097384,1623009
 2021-09-19,Nicaragua,490472,278633
 2021-09-19,Niger,404104,86445
@@ -54908,7 +54908,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-20,Mozambique,1903730,1740693
 2021-09-20,Namibia,232051,142127
 2021-09-20,Nepal,6203316,5578865
-2021-09-20,Netherlands,12740523,12132296
+2021-09-20,Netherlands,12740501,11448634
 2021-09-20,New Zealand,3122225,1648944
 2021-09-20,Nicaragua,490472,278633
 2021-09-20,Niger,404104,86445
@@ -55095,7 +55095,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-21,Mozambique,1903730,1740693
 2021-09-21,Namibia,232051,142127
 2021-09-21,Nepal,6203316,5578865
-2021-09-21,Netherlands,12740523,12132296
+2021-09-21,Netherlands,12740501,11448634
 2021-09-21,New Zealand,3150049,1675534
 2021-09-21,Nicaragua,490472,278633
 2021-09-21,Niger,404104,86445
@@ -55282,7 +55282,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-22,Mozambique,1903730,1740693
 2021-09-22,Namibia,248269,159233
 2021-09-22,Nepal,6262780,5752853
-2021-09-22,Netherlands,12740523,12132296
+2021-09-22,Netherlands,12740501,11448634
 2021-09-22,New Zealand,3174627,1701103
 2021-09-22,Nicaragua,490472,278633
 2021-09-22,Niger,405918,106376
@@ -55469,7 +55469,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-23,Mozambique,1903730,1740693
 2021-09-23,Namibia,248269,159233
 2021-09-23,Nepal,6293089,5860929
-2021-09-23,Netherlands,12740523,12132296
+2021-09-23,Netherlands,12740501,11448634
 2021-09-23,New Zealand,3195905,1729660
 2021-09-23,Nicaragua,490472,278633
 2021-09-23,Niger,405918,106376
@@ -55656,7 +55656,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-24,Mozambique,1903730,1740693
 2021-09-24,Namibia,248269,159233
 2021-09-24,Nepal,6380586,5946022
-2021-09-24,Netherlands,12740523,12132296
+2021-09-24,Netherlands,12740501,11448634
 2021-09-24,New Zealand,3215082,1761475
 2021-09-24,Nicaragua,490472,278633
 2021-09-24,Niger,405918,106376
@@ -55843,7 +55843,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-25,Mozambique,1903730,1740693
 2021-09-25,Namibia,248269,159233
 2021-09-25,Nepal,6528392,6014941
-2021-09-25,Netherlands,12740523,12132296
+2021-09-25,Netherlands,12811210,11532603
 2021-09-25,New Zealand,3234652,1793786
 2021-09-25,Nicaragua,502324,286178
 2021-09-25,Niger,405918,106376
@@ -56030,7 +56030,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-26,Mozambique,1903730,1740693
 2021-09-26,Namibia,248269,159233
 2021-09-26,Nepal,6609233,6036401
-2021-09-26,Netherlands,12811227,12217998
+2021-09-26,Netherlands,12811210,11532603
 2021-09-26,New Zealand,3242941,1810398
 2021-09-26,Nicaragua,502324,286178
 2021-09-26,Niger,405918,106376
@@ -56217,7 +56217,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-27,Mozambique,1903730,1740693
 2021-09-27,Namibia,248269,159233
 2021-09-27,Nepal,6793456,6165052
-2021-09-27,Netherlands,12811227,12217998
+2021-09-27,Netherlands,12811210,11532603
 2021-09-27,New Zealand,3255699,1838696
 2021-09-27,Nicaragua,502324,286178
 2021-09-27,Niger,405918,106376
@@ -56404,7 +56404,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-28,Mozambique,1903730,1740693
 2021-09-28,Namibia,248269,159233
 2021-09-28,Nepal,6960828,6205770
-2021-09-28,Netherlands,12811227,12217998
+2021-09-28,Netherlands,12811210,11532603
 2021-09-28,New Zealand,3269337,1869972
 2021-09-28,Nicaragua,502324,286178
 2021-09-28,Niger,405918,106376
@@ -56591,7 +56591,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-29,Mozambique,1903730,1740693
 2021-09-29,Namibia,248269,159233
 2021-09-29,Nepal,7214742,6238001
-2021-09-29,Netherlands,12811227,12217998
+2021-09-29,Netherlands,12811210,11532603
 2021-09-29,New Zealand,3283424,1897118
 2021-09-29,Nicaragua,502324,286178
 2021-09-29,Niger,405978,127921
@@ -56778,7 +56778,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-30,Mozambique,1903730,1740693
 2021-09-30,Namibia,261269,167720
 2021-09-30,Nepal,7456384,6285740
-2021-09-30,Netherlands,12811227,12217998
+2021-09-30,Netherlands,12811210,11532603
 2021-09-30,New Zealand,3297621,1929544
 2021-09-30,Nicaragua,502324,286178
 2021-09-30,Niger,405978,127921
@@ -56965,7 +56965,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-01,Mozambique,1903730,1740693
 2021-10-01,Namibia,261269,167720
 2021-10-01,Nepal,7456384,6285740
-2021-10-01,Netherlands,12811227,12217998
+2021-10-01,Netherlands,12811210,11532603
 2021-10-01,New Zealand,3310038,1965056
 2021-10-01,Nicaragua,556589,305218
 2021-10-01,Niger,405978,127921
@@ -57152,7 +57152,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-02,Mozambique,1903730,1740693
 2021-10-02,Namibia,261269,167720
 2021-10-02,Nepal,7694609,6348279
-2021-10-02,Netherlands,12811227,12217998
+2021-10-02,Netherlands,12876046,11605087
 2021-10-02,New Zealand,3322997,2002518
 2021-10-02,Nicaragua,556589,305218
 2021-10-02,Niger,405978,127921
@@ -57339,7 +57339,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-03,Mozambique,1903730,1740693
 2021-10-03,Namibia,261269,167720
 2021-10-03,Nepal,7716985,6352322
-2021-10-03,Netherlands,12876059,12292399
+2021-10-03,Netherlands,12876046,11605087
 2021-10-03,New Zealand,3330131,2022571
 2021-10-03,Nicaragua,556589,305218
 2021-10-03,Niger,405978,127921
@@ -57526,7 +57526,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-04,Mozambique,1903730,1740693
 2021-10-04,Namibia,261269,167720
 2021-10-04,Nepal,7805683,6384172
-2021-10-04,Netherlands,12876059,12292399
+2021-10-04,Netherlands,12876046,11605087
 2021-10-04,New Zealand,3345146,2063799
 2021-10-04,Nicaragua,556589,305218
 2021-10-04,Niger,405978,127921
@@ -57713,7 +57713,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-05,Mozambique,1903730,1740693
 2021-10-05,Namibia,261269,167720
 2021-10-05,Nepal,7913555,6409196
-2021-10-05,Netherlands,12876059,12292399
+2021-10-05,Netherlands,12876046,11605087
 2021-10-05,New Zealand,3362918,2110208
 2021-10-05,Nicaragua,556589,305218
 2021-10-05,Niger,405978,127921
@@ -57900,7 +57900,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-06,Mozambique,1903730,1740693
 2021-10-06,Namibia,261269,167720
 2021-10-06,Nepal,7962647,6419480
-2021-10-06,Netherlands,12876059,12292399
+2021-10-06,Netherlands,12876046,11605087
 2021-10-06,New Zealand,3382034,2161899
 2021-10-06,Nicaragua,556589,305218
 2021-10-06,Niger,405978,127921
@@ -58087,7 +58087,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-07,Mozambique,1903730,1740693
 2021-10-07,Namibia,276431,195973
 2021-10-07,Nepal,8008854,6430431
-2021-10-07,Netherlands,12876059,12292399
+2021-10-07,Netherlands,12876046,11605087
 2021-10-07,New Zealand,3401960,2224935
 2021-10-07,Nicaragua,556589,305218
 2021-10-07,Niger,405978,127921
@@ -58274,7 +58274,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-08,Mozambique,1903730,1773333
 2021-10-08,Namibia,276431,195973
 2021-10-08,Nepal,8041594,6441632
-2021-10-08,Netherlands,12876059,12292399
+2021-10-08,Netherlands,12876046,11605087
 2021-10-08,New Zealand,3420760,2292480
 2021-10-08,Nicaragua,671784,328206
 2021-10-08,Niger,405978,127921
@@ -58461,7 +58461,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-09,Mozambique,1903730,1773333
 2021-10-09,Namibia,276431,195973
 2021-10-09,Nepal,8127262,6446957
-2021-10-09,Netherlands,12876059,12292399
+2021-10-09,Netherlands,12918487,11668845
 2021-10-09,New Zealand,3439235,2356264
 2021-10-09,Nicaragua,671784,328206
 2021-10-09,Niger,405978,127921
@@ -58648,7 +58648,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-10,Mozambique,1903730,1773333
 2021-10-10,Namibia,276431,195973
 2021-10-10,Nepal,8202502,6450644
-2021-10-10,Netherlands,12918498,12357073
+2021-10-10,Netherlands,12918487,11668845
 2021-10-10,New Zealand,3448347,2389521
 2021-10-10,Nicaragua,671784,328206
 2021-10-10,Niger,429471,216615
@@ -58835,7 +58835,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-11,Mozambique,1903730,1773333
 2021-10-11,Namibia,276431,195973
 2021-10-11,Nepal,8317902,6462776
-2021-10-11,Netherlands,12918498,12357073
+2021-10-11,Netherlands,12918487,11668845
 2021-10-11,New Zealand,3463689,2443901
 2021-10-11,Nicaragua,671784,328206
 2021-10-11,Niger,429471,216615
@@ -59022,7 +59022,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-12,Mozambique,1903730,1773333
 2021-10-12,Namibia,276431,195973
 2021-10-12,Nepal,8381727,6468775
-2021-10-12,Netherlands,12918498,12357073
+2021-10-12,Netherlands,12918487,11668845
 2021-10-12,New Zealand,3481374,2499692
 2021-10-12,Nicaragua,671784,328206
 2021-10-12,Niger,429471,216615
@@ -59209,7 +59209,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-13,Mozambique,1903730,1773333
 2021-10-13,Namibia,276431,195973
 2021-10-13,Nepal,8383887,6468890
-2021-10-13,Netherlands,12918498,12357073
+2021-10-13,Netherlands,12918487,11668845
 2021-10-13,New Zealand,3497274,2553177
 2021-10-13,Nicaragua,671784,328206
 2021-10-13,Niger,429471,216615
@@ -59396,7 +59396,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-14,Mozambique,1903730,1773333
 2021-10-14,Namibia,285993,209055
 2021-10-14,Nepal,8388402,6469159
-2021-10-14,Netherlands,12918498,12357073
+2021-10-14,Netherlands,12918487,11668845
 2021-10-14,New Zealand,3512534,2606271
 2021-10-14,Nicaragua,671784,328206
 2021-10-14,Niger,429471,216615
@@ -59583,7 +59583,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-15,Mozambique,1973519,1808510
 2021-10-15,Namibia,285993,209055
 2021-10-15,Nepal,8388402,6469159
-2021-10-15,Netherlands,12918498,12357073
+2021-10-15,Netherlands,12918487,11668845
 2021-10-15,New Zealand,3526667,2662065
 2021-10-15,Nicaragua,671784,328206
 2021-10-15,Niger,479613,323533
@@ -59770,7 +59770,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-16,Mozambique,1973519,1808510
 2021-10-16,Namibia,285993,209055
 2021-10-16,Nepal,8388402,6469159
-2021-10-16,Netherlands,12918498,12357073
+2021-10-16,Netherlands,12950943,11729942
 2021-10-16,New Zealand,3566382,2753707
 2021-10-16,Nicaragua,671784,328206
 2021-10-16,Niger,479613,323533
@@ -59957,7 +59957,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-17,Mozambique,1973519,1808510
 2021-10-17,Namibia,285993,209055
 2021-10-17,Nepal,8388402,6469159
-2021-10-17,Netherlands,12950954,12417933
+2021-10-17,Netherlands,12950943,11729942
 2021-10-17,New Zealand,3572677,2777196
 2021-10-17,Nicaragua,671784,328206
 2021-10-17,Niger,479613,323533
@@ -60144,7 +60144,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-18,Mozambique,1973519,1808510
 2021-10-18,Namibia,285993,209055
 2021-10-18,Nepal,8415067,6470195
-2021-10-18,Netherlands,12950954,12417933
+2021-10-18,Netherlands,12950943,11729942
 2021-10-18,New Zealand,3582759,2810074
 2021-10-18,Nicaragua,671784,328206
 2021-10-18,Niger,479613,323533
@@ -60331,7 +60331,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-19,Mozambique,1973519,1808510
 2021-10-19,Namibia,285993,209055
 2021-10-19,Nepal,8562365,6485923
-2021-10-19,Netherlands,12950954,12417933
+2021-10-19,Netherlands,12950943,11729942
 2021-10-19,New Zealand,3593282,2842601
 2021-10-19,Nicaragua,671784,328206
 2021-10-19,Niger,479613,323533
@@ -60518,7 +60518,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-20,Mozambique,1973519,1808510
 2021-10-20,Namibia,285993,209055
 2021-10-20,Nepal,8562365,6485923
-2021-10-20,Netherlands,12950954,12417933
+2021-10-20,Netherlands,12950943,11729942
 2021-10-20,New Zealand,3603812,2875449
 2021-10-20,Nicaragua,671784,328206
 2021-10-20,Niger,479613,323533
@@ -60705,7 +60705,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-21,Mozambique,1973519,1825866
 2021-10-21,Namibia,302500,232548
 2021-10-21,Nepal,8562365,6485923
-2021-10-21,Netherlands,12950954,12417933
+2021-10-21,Netherlands,12950943,11729942
 2021-10-21,New Zealand,3614000,2906914
 2021-10-21,Nicaragua,671784,328206
 2021-10-21,Niger,479613,323533
@@ -60892,7 +60892,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-22,Mozambique,1973519,1825866
 2021-10-22,Namibia,302500,232548
 2021-10-22,Nepal,8562365,6485923
-2021-10-22,Netherlands,12950954,12417933
+2021-10-22,Netherlands,12950943,11729942
 2021-10-22,New Zealand,3625559,2940452
 2021-10-22,Nicaragua,944476,362357
 2021-10-22,Niger,479613,323533
@@ -61079,7 +61079,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-23,Mozambique,1973519,1825866
 2021-10-23,Namibia,302500,232548
 2021-10-23,Nepal,8562365,6485923
-2021-10-23,Netherlands,12950954,12417933
+2021-10-23,Netherlands,12986144,11783693
 2021-10-23,New Zealand,3637485,2971267
 2021-10-23,Nicaragua,944476,362357
 2021-10-23,Niger,479613,323533
@@ -61266,7 +61266,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-24,Mozambique,1973519,1825866
 2021-10-24,Namibia,302500,232548
 2021-10-24,Nepal,8562365,6485923
-2021-10-24,Netherlands,12986152,12471899
+2021-10-24,Netherlands,12986144,11783693
 2021-10-24,New Zealand,3642863,2984992
 2021-10-24,Nicaragua,944476,362357
 2021-10-24,Niger,479613,323533
@@ -61453,7 +61453,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-25,Mozambique,1973519,1825866
 2021-10-25,Namibia,302500,232548
 2021-10-25,Nepal,8621449,6647322
-2021-10-25,Netherlands,12986152,12471899
+2021-10-25,Netherlands,12986144,11783693
 2021-10-25,New Zealand,3646401,2992192
 2021-10-25,Nicaragua,944476,362357
 2021-10-25,Niger,479613,323533
@@ -61640,7 +61640,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-26,Mozambique,1973519,1825866
 2021-10-26,Namibia,302500,232548
 2021-10-26,Nepal,8621449,6647322
-2021-10-26,Netherlands,12986152,12471899
+2021-10-26,Netherlands,12986144,11783693
 2021-10-26,New Zealand,3657392,3023587
 2021-10-26,Nicaragua,944476,362357
 2021-10-26,Niger,479613,323533
@@ -61827,7 +61827,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-27,Mozambique,1973519,1825866
 2021-10-27,Namibia,302500,232548
 2021-10-27,Nepal,8621449,6647322
-2021-10-27,Netherlands,12986152,12471899
+2021-10-27,Netherlands,12986144,11783693
 2021-10-27,New Zealand,3668415,3052056
 2021-10-27,Nicaragua,944476,362357
 2021-10-27,Niger,498894,397212
@@ -62014,7 +62014,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-28,Mozambique,2734512,2046781
 2021-10-28,Namibia,320985,253232
 2021-10-28,Nepal,8621449,6647322
-2021-10-28,Netherlands,12986152,12471899
+2021-10-28,Netherlands,12986144,11783693
 2021-10-28,New Zealand,3681409,3084483
 2021-10-28,Nicaragua,944476,362357
 2021-10-28,Niger,498894,397212
@@ -62201,7 +62201,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-29,Mozambique,2734512,2046781
 2021-10-29,Namibia,320985,253232
 2021-10-29,Nepal,8621449,6647322
-2021-10-29,Netherlands,12986152,12471899
+2021-10-29,Netherlands,12986144,11783693
 2021-10-29,New Zealand,3692631,3116545
 2021-10-29,Nicaragua,944476,362357
 2021-10-29,Niger,498894,397212
@@ -62388,7 +62388,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-30,Mozambique,2734512,2046781
 2021-10-30,Namibia,320985,253232
 2021-10-30,Nepal,8621449,6647322
-2021-10-30,Netherlands,12986152,12471899
+2021-10-30,Netherlands,13030072,11837282
 2021-10-30,New Zealand,3703474,3148642
 2021-10-30,Nicaragua,944476,362357
 2021-10-30,Niger,498894,397212
@@ -62575,7 +62575,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-31,Mozambique,3667470,2203587
 2021-10-31,Namibia,320985,253232
 2021-10-31,Nepal,8621449,6647322
-2021-10-31,Netherlands,13030078,12526274
+2021-10-31,Netherlands,13030072,11837282
 2021-10-31,New Zealand,3708382,3164008
 2021-10-31,Nicaragua,944476,362357
 2021-10-31,Niger,498894,397212
@@ -62762,7 +62762,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-01,Mozambique,3667470,2203587
 2021-11-01,Namibia,320985,253232
 2021-11-01,Nepal,8670024,7248554
-2021-11-01,Netherlands,13030078,12526274
+2021-11-01,Netherlands,13030072,11837282
 2021-11-01,New Zealand,3715661,3184401
 2021-11-01,Nicaragua,944476,362357
 2021-11-01,Niger,498894,397212
@@ -62949,7 +62949,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-02,Mozambique,3667470,2203587
 2021-11-02,Namibia,320985,253232
 2021-11-02,Nepal,8670024,7248554
-2021-11-02,Netherlands,13030078,12526274
+2021-11-02,Netherlands,13030072,11837282
 2021-11-02,New Zealand,3723318,3205883
 2021-11-02,Nicaragua,944476,362357
 2021-11-02,Niger,498894,397212
@@ -63136,7 +63136,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-03,Mozambique,3667470,2203587
 2021-11-03,Namibia,320985,253232
 2021-11-03,Nepal,8670024,7248554
-2021-11-03,Netherlands,13030078,12526274
+2021-11-03,Netherlands,13030072,11837282
 2021-11-03,New Zealand,3730161,3226448
 2021-11-03,Nicaragua,944476,362357
 2021-11-03,Niger,498894,397212
@@ -63323,7 +63323,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-04,Mozambique,4159380,2426370
 2021-11-04,Namibia,333506,266710
 2021-11-04,Nepal,8670024,7248554
-2021-11-04,Netherlands,13030078,12526274
+2021-11-04,Netherlands,13030072,11837282
 2021-11-04,New Zealand,3736889,3246095
 2021-11-04,Nicaragua,944476,362357
 2021-11-04,Niger,498894,397212
@@ -63510,7 +63510,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-05,Mozambique,4159380,2426370
 2021-11-05,Namibia,333506,266710
 2021-11-05,Nepal,8670024,7248554
-2021-11-05,Netherlands,13030078,12526274
+2021-11-05,Netherlands,13030072,11837282
 2021-11-05,New Zealand,3743438,3267754
 2021-11-05,Nicaragua,1249238,563164
 2021-11-05,Niger,498894,397212
@@ -63697,7 +63697,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-06,Mozambique,4159380,2426370
 2021-11-06,Namibia,333506,266710
 2021-11-06,Nepal,8670024,7248554
-2021-11-06,Netherlands,13030078,12526274
+2021-11-06,Netherlands,13100996,11886258
 2021-11-06,New Zealand,3750908,3294341
 2021-11-06,Nicaragua,1249238,563164
 2021-11-06,Niger,498894,397212
@@ -63884,7 +63884,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-07,Mozambique,4159380,2426370
 2021-11-07,Namibia,333506,266710
 2021-11-07,Nepal,8736532,7436714
-2021-11-07,Netherlands,13100998,12579120
+2021-11-07,Netherlands,13100996,11886258
 2021-11-07,New Zealand,3754196,3305366
 2021-11-07,Nicaragua,1249238,563164
 2021-11-07,Niger,498894,397212
@@ -64071,7 +64071,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-08,Mozambique,4159380,2426370
 2021-11-08,Namibia,333506,266710
 2021-11-08,Nepal,8736532,7436714
-2021-11-08,Netherlands,13100998,12579120
+2021-11-08,Netherlands,13100996,11886258
 2021-11-08,New Zealand,3759428,3321649
 2021-11-08,Nicaragua,1249238,563164
 2021-11-08,Niger,498894,397212
@@ -64258,7 +64258,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-09,Mozambique,4159380,2426370
 2021-11-09,Namibia,333506,266710
 2021-11-09,Nepal,8736532,7436714
-2021-11-09,Netherlands,13100998,12579120
+2021-11-09,Netherlands,13100996,11886258
 2021-11-09,New Zealand,3765405,3338135
 2021-11-09,Nicaragua,1249238,563164
 2021-11-09,Niger,498894,397212
@@ -64445,7 +64445,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-10,Mozambique,4858830,2600608
 2021-11-10,Namibia,339695,274466
 2021-11-10,Nepal,8736532,7436714
-2021-11-10,Netherlands,13100998,12579120
+2021-11-10,Netherlands,13100996,11886258
 2021-11-10,New Zealand,3771566,3354212
 2021-11-10,Nicaragua,1249238,563164
 2021-11-10,Niger,498894,397212
@@ -64632,7 +64632,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-11,Mozambique,4858830,2600608
 2021-11-11,Namibia,339695,274466
 2021-11-11,Nepal,8736532,7436714
-2021-11-11,Netherlands,13100998,12579120
+2021-11-11,Netherlands,13100996,11886258
 2021-11-11,New Zealand,3778017,3370869
 2021-11-11,Nicaragua,1249238,563164
 2021-11-11,Niger,498894,397212
@@ -64819,7 +64819,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-12,Mozambique,4858830,2600608
 2021-11-12,Namibia,339695,274466
 2021-11-12,Nepal,8736532,7436714
-2021-11-12,Netherlands,13100998,12579120
+2021-11-12,Netherlands,13100996,11886258
 2021-11-12,New Zealand,3784477,3387710
 2021-11-12,Nicaragua,1249238,563164
 2021-11-12,Niger,498894,397212
@@ -65006,7 +65006,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-13,Mozambique,4858830,2600608
 2021-11-13,Namibia,339695,274466
 2021-11-13,Nepal,8736532,7436714
-2021-11-13,Netherlands,13100998,12579120
+2021-11-13,Netherlands,13167984,11934570
 2021-11-13,New Zealand,3791739,3407737
 2021-11-13,Nicaragua,1249238,563164
 2021-11-13,Niger,498894,397212
@@ -65193,7 +65193,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-14,Mozambique,4858830,2600608
 2021-11-14,Namibia,339695,274466
 2021-11-14,Nepal,8736532,7436714
-2021-11-14,Netherlands,13167984,12626578
+2021-11-14,Netherlands,13167984,11934570
 2021-11-14,New Zealand,3796410,3417746
 2021-11-14,Nicaragua,1249238,563164
 2021-11-14,Niger,506083,456958
@@ -65380,7 +65380,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-15,Mozambique,4858830,2600608
 2021-11-15,Namibia,339695,274466
 2021-11-15,Nepal,8736532,7436714
-2021-11-15,Netherlands,13167984,12626578
+2021-11-15,Netherlands,13167984,11934570
 2021-11-15,New Zealand,3804260,3431493
 2021-11-15,Nicaragua,1249238,563164
 2021-11-15,Niger,506083,456958
@@ -65567,7 +65567,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-16,Mozambique,4858830,2600608
 2021-11-16,Namibia,339695,274466
 2021-11-16,Nepal,8911971,7624038
-2021-11-16,Netherlands,13167984,12626578
+2021-11-16,Netherlands,13167984,11934570
 2021-11-16,New Zealand,3810995,3445985
 2021-11-16,Nicaragua,1249238,563164
 2021-11-16,Niger,506083,456958
@@ -65754,7 +65754,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-17,Mozambique,4858830,2600608
 2021-11-17,Namibia,339695,274466
 2021-11-17,Nepal,8911971,7624038
-2021-11-17,Netherlands,13167984,12626578
+2021-11-17,Netherlands,13167984,11934570
 2021-11-17,New Zealand,3817268,3460284
 2021-11-17,Nicaragua,1249238,563164
 2021-11-17,Niger,506083,456958
@@ -65941,7 +65941,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-18,Mozambique,5919277,2971969
 2021-11-18,Namibia,346454,283758
 2021-11-18,Nepal,8911971,7624038
-2021-11-18,Netherlands,13167984,12626578
+2021-11-18,Netherlands,13167984,11934570
 2021-11-18,New Zealand,3824037,3474435
 2021-11-18,Nicaragua,1249238,563164
 2021-11-18,Niger,506083,456958
@@ -66128,7 +66128,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-19,Mozambique,5919277,2971969
 2021-11-19,Namibia,346454,283758
 2021-11-19,Nepal,8911971,7624038
-2021-11-19,Netherlands,13167984,12626578
+2021-11-19,Netherlands,13167984,11934570
 2021-11-19,New Zealand,3830922,3490286
 2021-11-19,Nicaragua,3842428,2190695
 2021-11-19,Niger,506083,456958
@@ -66315,7 +66315,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-20,Mozambique,5919277,2971969
 2021-11-20,Namibia,346454,283758
 2021-11-20,Nepal,8911971,7624038
-2021-11-20,Netherlands,13167984,12626578
+2021-11-20,Netherlands,13217208,11982495
 2021-11-20,New Zealand,3836979,3505892
 2021-11-20,Nicaragua,3842428,2190695
 2021-11-20,Niger,506083,456958
@@ -66502,7 +66502,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-21,Mozambique,5919277,2971969
 2021-11-21,Namibia,346454,283758
 2021-11-21,Nepal,8911971,7624038
-2021-11-21,Netherlands,13217207,12670085
+2021-11-21,Netherlands,13217208,11982495
 2021-11-21,New Zealand,3840085,3512680
 2021-11-21,Nicaragua,3842428,2190695
 2021-11-21,Niger,506083,456958
@@ -66689,7 +66689,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-22,Mozambique,5919277,2971969
 2021-11-22,Namibia,346454,283758
 2021-11-22,Nepal,9206187,7990190
-2021-11-22,Netherlands,13217207,12670085
+2021-11-22,Netherlands,13217208,11982495
 2021-11-22,New Zealand,3844930,3523226
 2021-11-22,Nicaragua,3842428,2190695
 2021-11-22,Niger,506083,456958
@@ -66876,7 +66876,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-23,Mozambique,5919277,2971969
 2021-11-23,Namibia,346454,283758
 2021-11-23,Nepal,9206187,7990190
-2021-11-23,Netherlands,13217207,12670085
+2021-11-23,Netherlands,13217208,11982495
 2021-11-23,New Zealand,3851537,3535724
 2021-11-23,Nicaragua,3842428,2190695
 2021-11-23,Niger,506083,456958
@@ -67063,7 +67063,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-24,Mozambique,6257220,3449256
 2021-11-24,Namibia,355254,294586
 2021-11-24,Nepal,9206187,7990190
-2021-11-24,Netherlands,13217207,12670085
+2021-11-24,Netherlands,13217208,11982495
 2021-11-24,New Zealand,3858191,3547859
 2021-11-24,Nicaragua,3842428,2190695
 2021-11-24,Niger,506083,456958
@@ -67250,7 +67250,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-25,Mozambique,6257220,3449256
 2021-11-25,Namibia,355254,294586
 2021-11-25,Nepal,9206187,7990190
-2021-11-25,Netherlands,13217207,12670085
+2021-11-25,Netherlands,13217208,11982495
 2021-11-25,New Zealand,3864633,3559736
 2021-11-25,Nicaragua,3842428,2190695
 2021-11-25,Niger,506083,456958
@@ -67437,7 +67437,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-26,Mozambique,6257220,3449256
 2021-11-26,Namibia,355254,294586
 2021-11-26,Nepal,9206187,7990190
-2021-11-26,Netherlands,13217207,12670085
+2021-11-26,Netherlands,13217208,11982495
 2021-11-26,New Zealand,3870375,3572026
 2021-11-26,Nicaragua,3842428,2190695
 2021-11-26,Niger,506083,456958
@@ -67624,7 +67624,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-27,Mozambique,6257220,3449256
 2021-11-27,Namibia,355254,294586
 2021-11-27,Nepal,9206187,7990190
-2021-11-27,Netherlands,13217207,12670085
+2021-11-27,Netherlands,13250025,12040887
 2021-11-27,New Zealand,3876793,3586564
 2021-11-27,Nicaragua,3842428,2190695
 2021-11-27,Niger,506083,456958
@@ -67811,7 +67811,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-28,Mozambique,6257220,3449256
 2021-11-28,Namibia,355254,294586
 2021-11-28,Nepal,9206187,7990190
-2021-11-28,Netherlands,13250021,12722541
+2021-11-28,Netherlands,13250025,12040887
 2021-11-28,New Zealand,3880499,3594644
 2021-11-28,Nicaragua,3842428,2190695
 2021-11-28,Niger,507223,464413
@@ -67998,7 +67998,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-29,Mozambique,6422216,3723693
 2021-11-29,Namibia,355254,294586
 2021-11-29,Nepal,9879648,8437860
-2021-11-29,Netherlands,13250021,12722541
+2021-11-29,Netherlands,13250025,12040887
 2021-11-29,New Zealand,3886764,3606598
 2021-11-29,Nicaragua,3842428,2190695
 2021-11-29,Niger,507223,464413
@@ -68185,7 +68185,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-30,Mozambique,6422216,3723693
 2021-11-30,Namibia,355254,294586
 2021-11-30,Nepal,9879648,8437860
-2021-11-30,Netherlands,13250021,12722541
+2021-11-30,Netherlands,13250025,12040887
 2021-11-30,New Zealand,3894327,3621047
 2021-11-30,Nicaragua,3842428,2190695
 2021-11-30,Niger,507223,464413
@@ -68372,7 +68372,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-01,Mozambique,6422216,3723693
 2021-12-01,Namibia,355254,294586
 2021-12-01,Nepal,9879648,8437860
-2021-12-01,Netherlands,13250021,12722541
+2021-12-01,Netherlands,13250025,12040887
 2021-12-01,New Zealand,3902276,3635418
 2021-12-01,Nicaragua,4053890,2322298
 2021-12-01,Niger,507223,464413
@@ -68559,7 +68559,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-02,Mozambique,6572756,3931200
 2021-12-02,Namibia,366698,307891
 2021-12-02,Nepal,9879648,8437860
-2021-12-02,Netherlands,13250021,12722541
+2021-12-02,Netherlands,13250025,12040887
 2021-12-02,New Zealand,3911002,3652194
 2021-12-02,Nicaragua,4053890,2322298
 2021-12-02,Niger,507223,464413
@@ -68746,7 +68746,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-03,Mozambique,6685501,4114267
 2021-12-03,Namibia,366698,307891
 2021-12-03,Nepal,9879648,8437860
-2021-12-03,Netherlands,13250021,12722541
+2021-12-03,Netherlands,13250025,12040887
 2021-12-03,New Zealand,3918451,3669648
 2021-12-03,Nicaragua,4053890,2322298
 2021-12-03,Niger,507223,464413
@@ -68933,7 +68933,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-04,Mozambique,6685501,4114267
 2021-12-04,Namibia,366698,307891
 2021-12-04,Nepal,9879648,8437860
-2021-12-04,Netherlands,13250021,12722541
+2021-12-04,Netherlands,13274631,12098720
 2021-12-04,New Zealand,3924131,3683715
 2021-12-04,Nicaragua,4053890,2322298
 2021-12-04,Niger,507223,464413
@@ -69120,7 +69120,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-05,Mozambique,6685501,4114267
 2021-12-05,Namibia,366698,307891
 2021-12-05,Nepal,9879648,8437860
-2021-12-05,Netherlands,13274623,12772625
+2021-12-05,Netherlands,13274631,12098720
 2021-12-05,New Zealand,3926860,3690482
 2021-12-05,Nicaragua,4053890,2322298
 2021-12-05,Niger,507223,464413
@@ -69307,7 +69307,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-06,Mozambique,6685501,4114267
 2021-12-06,Namibia,366698,307891
 2021-12-06,Nepal,10431659,8725785
-2021-12-06,Netherlands,13274623,12772625
+2021-12-06,Netherlands,13274631,12098720
 2021-12-06,New Zealand,3931477,3701197
 2021-12-06,Nicaragua,4053890,2322298
 2021-12-06,Niger,507223,464413
@@ -69494,7 +69494,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-07,Mozambique,6685501,4114267
 2021-12-07,Namibia,366698,307891
 2021-12-07,Nepal,10431659,8725785
-2021-12-07,Netherlands,13274623,12772625
+2021-12-07,Netherlands,13274631,12098720
 2021-12-07,New Zealand,3935898,3711379
 2021-12-07,Nicaragua,4053890,2322298
 2021-12-07,Niger,507223,464413
@@ -69681,7 +69681,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-08,Mozambique,6685501,4114267
 2021-12-08,Namibia,366698,307891
 2021-12-08,Nepal,10431659,8725785
-2021-12-08,Netherlands,13274623,12772625
+2021-12-08,Netherlands,13274631,12098720
 2021-12-08,New Zealand,3939719,3720799
 2021-12-08,Nicaragua,4338241,2496997
 2021-12-08,Niger,507223,464413
@@ -69868,7 +69868,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-09,Mozambique,6801754,4297826
 2021-12-09,Namibia,378182,319080
 2021-12-09,Nepal,10431659,8725785
-2021-12-09,Netherlands,13274623,12772625
+2021-12-09,Netherlands,13274631,12098720
 2021-12-09,New Zealand,3943114,3730049
 2021-12-09,Nicaragua,4338241,2496997
 2021-12-09,Niger,507223,464413
@@ -69932,7 +69932,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-09,Uzbekistan,18056727,5882086
 2021-12-09,Vanuatu,96141,45349
 2021-12-09,Venezuela,16415684,9858581
-2021-12-09,Vietnam,74550657,53224715
+2021-12-09,Vietnam,74647961,56385381
 2021-12-09,West Bank and Gaza,2020110,1403992
 2021-12-09,Yemen,556652,366587
 2021-12-09,Zambia,806611,788134
@@ -70055,7 +70055,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-10,Mozambique,6801754,4297826
 2021-12-10,Namibia,378182,319080
 2021-12-10,Nepal,10431659,8725785
-2021-12-10,Netherlands,13274623,12772625
+2021-12-10,Netherlands,13274631,12098720
 2021-12-10,New Zealand,3946004,3739335
 2021-12-10,Nicaragua,4402422,2540334
 2021-12-10,Niger,507223,464413
@@ -70119,7 +70119,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-10,Uzbekistan,18135171,5882086
 2021-12-10,Vanuatu,96141,45349
 2021-12-10,Venezuela,16415684,9858581
-2021-12-10,Vietnam,74713350,53224715
+2021-12-10,Vietnam,74713350,56385381
 2021-12-10,West Bank and Gaza,2020110,1403992
 2021-12-10,Yemen,556652,366587
 2021-12-10,Zambia,806611,788134
@@ -70242,7 +70242,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-11,Mozambique,6801754,4297826
 2021-12-11,Namibia,378182,319080
 2021-12-11,Nepal,10431659,8725785
-2021-12-11,Netherlands,13274623,12772625
+2021-12-11,Netherlands,13292959,12153876
 2021-12-11,New Zealand,3948756,3747847
 2021-12-11,Nicaragua,4402422,2540334
 2021-12-11,Niger,507223,464413
@@ -70306,7 +70306,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-11,Uzbekistan,18197891,5882086
 2021-12-11,Vanuatu,96141,45349
 2021-12-11,Venezuela,16415684,9858581
-2021-12-11,Vietnam,74832161,53224715
+2021-12-11,Vietnam,74832161,56385381
 2021-12-11,West Bank and Gaza,2020110,1403992
 2021-12-11,Yemen,556652,366587
 2021-12-11,Zambia,806611,821536
@@ -70429,7 +70429,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-12,Mozambique,6801754,4297826
 2021-12-12,Namibia,378182,319080
 2021-12-12,Nepal,10431659,8725785
-2021-12-12,Netherlands,13292944,12818905
+2021-12-12,Netherlands,13292959,12153876
 2021-12-12,New Zealand,3949948,3752115
 2021-12-12,Nicaragua,4402422,2540334
 2021-12-12,Niger,507223,464413
@@ -70493,7 +70493,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-12,Uzbekistan,18197891,11102403
 2021-12-12,Vanuatu,96141,45349
 2021-12-12,Venezuela,16415684,9858581
-2021-12-12,Vietnam,74907297,53224715
+2021-12-12,Vietnam,74907297,56385381
 2021-12-12,West Bank and Gaza,2020110,1403992
 2021-12-12,Yemen,556652,366587
 2021-12-12,Zambia,806611,830289
@@ -70616,7 +70616,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-13,Mozambique,7105910,4624860
 2021-12-13,Namibia,378182,319080
 2021-12-13,Nepal,10431659,8725785
-2021-12-13,Netherlands,13292944,12818905
+2021-12-13,Netherlands,13292959,12153876
 2021-12-13,New Zealand,3952388,3758987
 2021-12-13,Nicaragua,4402422,2540334
 2021-12-13,Niger,507223,464413
@@ -70680,7 +70680,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-13,Uzbekistan,18197891,11102403
 2021-12-13,Vanuatu,100264,47345
 2021-12-13,Venezuela,16415684,9858581
-2021-12-13,Vietnam,74907297,53224715
+2021-12-13,Vietnam,74907297,56385381
 2021-12-13,West Bank and Gaza,2020110,1403992
 2021-12-13,Yemen,556652,366587
 2021-12-13,Zambia,806611,839615
@@ -70803,7 +70803,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-14,Mozambique,7105910,4624860
 2021-12-14,Namibia,378182,319080
 2021-12-14,Nepal,10431659,8725785
-2021-12-14,Netherlands,13292944,12818905
+2021-12-14,Netherlands,13292959,12153876
 2021-12-14,New Zealand,3954873,3766864
 2021-12-14,Nicaragua,4402422,2540334
 2021-12-14,Niger,507223,464413
@@ -70867,7 +70867,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-14,Uzbekistan,18299019,11102403
 2021-12-14,Vanuatu,100264,47345
 2021-12-14,Venezuela,16415684,9858581
-2021-12-14,Vietnam,75140181,53224715
+2021-12-14,Vietnam,75140181,56385381
 2021-12-14,West Bank and Gaza,2020110,1403992
 2021-12-14,Yemen,556652,366587
 2021-12-14,Zambia,806611,854979
@@ -70990,7 +70990,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-15,Mozambique,7241597,4783635
 2021-12-15,Namibia,387413,326185
 2021-12-15,Nepal,10431659,8725785
-2021-12-15,Netherlands,13292944,12818905
+2021-12-15,Netherlands,13292959,12153876
 2021-12-15,New Zealand,3954873,3766864
 2021-12-15,Nicaragua,4628897,2679570
 2021-12-15,Niger,507223,464413
@@ -71054,7 +71054,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-15,Uzbekistan,18352007,11102403
 2021-12-15,Vanuatu,100264,47345
 2021-12-15,Venezuela,16415684,9858581
-2021-12-15,Vietnam,75215180,53224715
+2021-12-15,Vietnam,75215180,56385381
 2021-12-15,West Bank and Gaza,2020110,1403992
 2021-12-15,Yemen,556652,366587
 2021-12-15,Zambia,806611,877955
@@ -71177,7 +71177,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-16,Mozambique,7241597,4783635
 2021-12-16,Namibia,387413,326185
 2021-12-16,Nepal,10431659,8725785
-2021-12-16,Netherlands,13292944,12818905
+2021-12-16,Netherlands,13292959,12153876
 2021-12-16,New Zealand,3954873,3766864
 2021-12-16,Nicaragua,4628897,2679570
 2021-12-16,Niger,507223,464413
@@ -71241,7 +71241,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-16,Uzbekistan,18394150,11102403
 2021-12-16,Vanuatu,100264,47345
 2021-12-16,Venezuela,16415684,9858581
-2021-12-16,Vietnam,75215180,53224715
+2021-12-16,Vietnam,75215180,56385381
 2021-12-16,West Bank and Gaza,2020110,1403992
 2021-12-16,Yemen,556652,366587
 2021-12-16,Zambia,806611,904201
@@ -71364,7 +71364,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-17,Mozambique,7241597,4783635
 2021-12-17,Namibia,387413,326185
 2021-12-17,Nepal,10431659,8725785
-2021-12-17,Netherlands,13292944,12818905
+2021-12-17,Netherlands,13292959,12153876
 2021-12-17,New Zealand,3954873,3766864
 2021-12-17,Nicaragua,4628897,2679570
 2021-12-17,Niger,507223,464413
@@ -71428,7 +71428,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-17,Uzbekistan,18433447,11102403
 2021-12-17,Vanuatu,100264,47345
 2021-12-17,Venezuela,18393519,11608305
-2021-12-17,Vietnam,75631255,53224715
+2021-12-17,Vietnam,75631255,56385381
 2021-12-17,West Bank and Gaza,2020110,1403992
 2021-12-17,Yemen,556652,366587
 2021-12-17,Zambia,806611,904201
@@ -71551,7 +71551,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-18,Mozambique,7241597,4783635
 2021-12-18,Namibia,387413,326185
 2021-12-18,Nepal,10431659,8725785
-2021-12-18,Netherlands,13292944,12818905
+2021-12-18,Netherlands,13298939,12171968
 2021-12-18,New Zealand,3954873,3766864
 2021-12-18,Nicaragua,4628897,2679570
 2021-12-18,Niger,507223,464413
@@ -71615,7 +71615,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-18,Uzbekistan,18477137,11102403
 2021-12-18,Vanuatu,100264,47345
 2021-12-18,Venezuela,18393519,11608305
-2021-12-18,Vietnam,75697403,53224715
+2021-12-18,Vietnam,75697403,56385381
 2021-12-18,West Bank and Gaza,2020110,1403992
 2021-12-18,Yemen,556652,366587
 2021-12-18,Zambia,806611,956814
@@ -71738,7 +71738,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-19,Mozambique,7241597,4783635
 2021-12-19,Namibia,387413,326185
 2021-12-19,Nepal,10431659,8725785
-2021-12-19,Netherlands,13292944,12818905
+2021-12-19,Netherlands,13298939,12171968
 2021-12-19,New Zealand,3964319,3801569
 2021-12-19,Nicaragua,4628897,2679570
 2021-12-19,Niger,507223,464413
@@ -71802,8 +71802,195 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-19,Uzbekistan,18519076,11102403
 2021-12-19,Vanuatu,100264,47345
 2021-12-19,Venezuela,18393519,11608305
-2021-12-19,Vietnam,75697403,53224715
+2021-12-19,Vietnam,75697403,56385381
 2021-12-19,West Bank and Gaza,2020110,1403992
 2021-12-19,Yemen,556652,366587
 2021-12-19,Zambia,806611,970580
 2021-12-19,Zimbabwe,4054165,3069519
+2021-12-20,Afghanistan,4397449,3566192
+2021-12-20,Albania,1119430,1008465
+2021-12-20,Algeria,6875003,5391232
+2021-12-20,Andorra,56628,50551
+2021-12-20,Angola,7246240,3559041
+2021-12-20,Antigua and Barbuda,61921,57888
+2021-12-20,Argentina,37621512,31652243
+2021-12-20,Armenia,869750,582624
+2021-12-20,Australia,20328607,19553057
+2021-12-20,Austria,6549154,6321893
+2021-12-20,Azerbaijan,5140913,4641869
+2021-12-20,Bahamas,157232,145793
+2021-12-20,Bahrain,1195481,1169267
+2021-12-20,Bangladesh,87546674,44735702
+2021-12-20,Barbados,155192,141900
+2021-12-20,Belarus,4064247,3039334
+2021-12-20,Belgium,8879748,8759422
+2021-12-20,Belize,229107,196741
+2021-12-20,Benin,1363471,1062378
+2021-12-20,Bhutan,589482,564611
+2021-12-20,Bolivia,5328739,4427369
+2021-12-20,Bosnia and Herzegovina,882641,720631
+2021-12-20,Botswana,1125993,1002358
+2021-12-20,Brazil,165417886,141488098
+2021-12-20,Brunei,405092,385414
+2021-12-20,Bulgaria,1904143,1872504
+2021-12-20,Burkina Faso,442769,334172
+2021-12-20,Burma,16849172,11858598
+2021-12-20,Burundi,4010,2076
+2021-12-20,Cabo Verde,301215,254463
+2021-12-20,Cambodia,14225712,13592006
+2021-12-20,Cameroon,806176,627046
+2021-12-20,Canada,31443084,29285689
+2021-12-20,Central African Republic,446712,344070
+2021-12-20,Chad,285922,80663
+2021-12-20,Chile,17147406,16408305
+2021-12-20,China,1225000000,1193466000
+2021-12-20,Colombia,37836418,27199605
+2021-12-20,Comoros,282378,244741
+2021-12-20,Congo (Brazzaville),734721,560880
+2021-12-20,Congo (Kinshasa),195619,83718
+2021-12-20,Costa Rica,3922190,3364478
+2021-12-20,Cote d'Ivoire,3306299,1505936
+2021-12-20,Croatia,2242262,2088816
+2021-12-20,Cuba,10299822,9478586
+2021-12-20,Cyprus,636379,597008
+2021-12-20,Czechia,6778506,6569310
+2021-12-20,Denmark,4702853,4505271
+2021-12-20,Djibouti,108945,26087
+2021-12-20,Dominica,29200,27376
+2021-12-20,Dominican Republic,6923416,5678445
+2021-12-20,Ecuador,14016690,12071652
+2021-12-20,Egypt,30505670,18205046
+2021-12-20,El Salvador,4465139,4130209
+2021-12-20,Equatorial Guinea,249215,203357
+2021-12-20,Estonia,837087,809331
+2021-12-20,Eswatini,320460,292063
+2021-12-20,Ethiopia,9165615,1454887
+2021-12-20,Fiji,659250,598125
+2021-12-20,Finland,4322668,4085140
+2021-12-20,France,52430750,48496460
+2021-12-20,Gabon,392898,173123
+2021-12-20,Gambia,242202,228266
+2021-12-20,Georgia,1304199,1080161
+2021-12-20,Germany,60992596,58444931
+2021-12-20,Ghana,2651463,1565507
+2021-12-20,Greece,7346629,6860472
+2021-12-20,Grenada,40930,34963
+2021-12-20,Guatemala,6380600,4476662
+2021-12-20,Guinea,1687180,818351
+2021-12-20,Guinea-Bissau,385186,21215
+2021-12-20,Guyana,406072,286437
+2021-12-20,Haiti,120569,69835
+2021-12-20,Honduras,4927085,3891577
+2021-12-20,Hungary,6226399,5937305
+2021-12-20,Iceland,287229,282962
+2021-12-20,India,829219869,551003319
+2021-12-20,Indonesia,151417878,107051563
+2021-12-20,Iran,59126764,50340978
+2021-12-20,Iraq,8111496,5241122
+2021-12-20,Ireland,3880984,3821797
+2021-12-20,Israel,6454410,5833481
+2021-12-20,Italy,47907960,44449831
+2021-12-20,Jamaica,705402,552370
+2021-12-20,Japan,100179869,98318721
+2021-12-20,Jordan,4275516,3862672
+2021-12-20,Kazakhstan,8899669,8363114
+2021-12-20,Kenya,5930258,3592043
+2021-12-20,Kiribati,59492,22675
+2021-12-20,Kosovo,877188,776635
+2021-12-20,Kuwait,3320794,3193897
+2021-12-20,Kyrgyzstan,1174065,950978
+2021-12-20,Laos,3744740,3099003
+2021-12-20,Latvia,1300969,1243271
+2021-12-20,Lebanon,2131113,1773818
+2021-12-20,Lesotho,648817,641007
+2021-12-20,Liberia,784838,755263
+2021-12-20,Libya,1796814,757393
+2021-12-20,Liechtenstein,26001,25481
+2021-12-20,Lithuania,1901565,1815167
+2021-12-20,Luxembourg,454687,429705
+2021-12-20,Madagascar,589003,541160
+2021-12-20,Malawi,1355692,651693
+2021-12-20,Malaysia,25942632,25540982
+2021-12-20,Maldives,396358,366165
+2021-12-20,Mali,843144,343162
+2021-12-20,Malta,437861,434596
+2021-12-20,Mauritania,1110533,709829
+2021-12-20,Mauritius,916524,914936
+2021-12-20,Mexico,81810589,66740075
+2021-12-20,Moldova,989897,965092
+2021-12-20,Monaco,26672,23308
+2021-12-20,Mongolia,2264437,2160217
+2021-12-20,Montenegro,281453,267480
+2021-12-20,Morocco,24573352,22895600
+2021-12-20,Mozambique,7241597,4783635
+2021-12-20,Namibia,387413,326185
+2021-12-20,Nepal,10431659,8725785
+2021-12-20,Netherlands,13298939,12171968
+2021-12-20,New Zealand,3964319,3801569
+2021-12-20,Nicaragua,4628897,2679570
+2021-12-20,Niger,507223,464413
+2021-12-20,Nigeria,8181113,4031004
+2021-12-20,North Macedonia,836816,804518
+2021-12-20,Norway,4269323,3897475
+2021-12-20,Oman,3120714,2889245
+2021-12-20,Pakistan,88492869,61084339
+2021-12-20,Panama,3020754,2455800
+2021-12-20,Papua New Guinea,282571,216027
+2021-12-20,Paraguay,3444261,2871213
+2021-12-20,Peru,23860076,20472834
+2021-12-20,Philippines,56110301,43534136
+2021-12-20,Poland,21387771,20841341
+2021-12-20,Portugal,9053901,9051248
+2021-12-20,Qatar,2360308,2218292
+2021-12-20,Romania,7888314,7718704
+2021-12-20,Russia,71858958,63708591
+2021-12-20,Rwanda,6847793,4182307
+2021-12-20,Saint Kitts and Nevis,27484,25359
+2021-12-20,Saint Lucia,55346,48456
+2021-12-20,Saint Vincent and the Grenadines,33192,25261
+2021-12-20,Samoa,141356,121539
+2021-12-20,San Marino,24282,21623
+2021-12-20,Sao Tome and Principe,86396,51216
+2021-12-20,Saudi Arabia,24876880,22942776
+2021-12-20,Senegal,1328153,941230
+2021-12-20,Serbia,3291994,3172131
+2021-12-20,Seychelles,82117,78214
+2021-12-20,Sierra Leone,747044,385232
+2021-12-20,Singapore,4744632,4744632
+2021-12-20,Slovakia,2702120,2395364
+2021-12-20,Slovenia,1242137,1179177
+2021-12-20,Solomon Islands,176593,52319
+2021-12-20,Somalia,892093,664422
+2021-12-20,South Africa,18674488,15599136
+2021-12-20,South Korea,43493325,42070660
+2021-12-20,South Sudan,227262,181577
+2021-12-20,Spain,38607797,37777929
+2021-12-20,Sri Lanka,15967577,13809954
+2021-12-20,Sudan,4016849,1234386
+2021-12-20,Suriname,260304,225352
+2021-12-20,Sweden,7707313,7326603
+2021-12-20,Switzerland,5929752,5780741
+2021-12-20,Syria,1002945,763025
+2021-12-20,Taiwan,18602263,15370618
+2021-12-20,Tajikistan,4374694,3206282
+2021-12-20,Tanzania,1592897,1078102
+2021-12-20,Thailand,50438629,44194781
+2021-12-20,Timor-Leste,652294,489709
+2021-12-20,Togo,1349188,810069
+2021-12-20,Trinidad and Tobago,703058,659946
+2021-12-20,Tunisia,6427305,5495388
+2021-12-20,Turkey,56660272,51161679
+2021-12-20,USA,241571084,202358902
+2021-12-20,Uganda,6525371,1287799
+2021-12-20,Ukraine,14386385,13007552
+2021-12-20,United Arab Emirates,9890441,9020082
+2021-12-20,United Kingdom,51463255,47009608
+2021-12-20,Uruguay,2761543,2669607
+2021-12-20,Uzbekistan,18519076,11102403
+2021-12-20,Vanuatu,100264,47345
+2021-12-20,Venezuela,18393519,11608305
+2021-12-20,Vietnam,75697403,56385381
+2021-12-20,West Bank and Gaza,2020110,1403992
+2021-12-20,Yemen,556652,366587
+2021-12-20,Zambia,806611,970580
+2021-12-20,Zimbabwe,4054165,3069519
