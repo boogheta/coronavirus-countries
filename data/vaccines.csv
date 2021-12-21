@@ -4908,7 +4908,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-27,Cuba,0,0
 2020-12-27,Cyprus,0,0
 2020-12-27,Czechia,1283,0
-2020-12-27,Denmark,5935,0
+2020-12-27,Denmark,5934,0
 2020-12-27,Djibouti,0,0
 2020-12-27,Dominica,0,0
 2020-12-27,Dominican Republic,0,0
@@ -5095,7 +5095,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-28,Cuba,0,0
 2020-12-28,Cyprus,0,0
 2020-12-28,Czechia,3589,0
-2020-12-28,Denmark,7873,0
+2020-12-28,Denmark,7871,0
 2020-12-28,Djibouti,0,0
 2020-12-28,Dominica,0,0
 2020-12-28,Dominican Republic,0,0
@@ -5282,7 +5282,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-29,Cuba,0,0
 2020-12-29,Cyprus,0,0
 2020-12-29,Czechia,7057,0
-2020-12-29,Denmark,16225,1
+2020-12-29,Denmark,16222,1
 2020-12-29,Djibouti,0,0
 2020-12-29,Dominica,0,0
 2020-12-29,Dominican Republic,0,0
@@ -5469,7 +5469,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-30,Cuba,0,0
 2020-12-30,Cyprus,0,0
 2020-12-30,Czechia,10575,0
-2020-12-30,Denmark,26899,1
+2020-12-30,Denmark,26893,1
 2020-12-30,Djibouti,0,0
 2020-12-30,Dominica,0,0
 2020-12-30,Dominican Republic,0,0
@@ -5656,7 +5656,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-31,Cuba,0,0
 2020-12-31,Cyprus,0,0
 2020-12-31,Czechia,11887,0
-2020-12-31,Denmark,32513,1
+2020-12-31,Denmark,32505,1
 2020-12-31,Djibouti,0,0
 2020-12-31,Dominica,0,0
 2020-12-31,Dominican Republic,0,0
@@ -5843,7 +5843,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-01,Cuba,0,0
 2021-01-01,Cyprus,0,0
 2021-01-01,Czechia,12156,0
-2021-01-01,Denmark,34643,2
+2021-01-01,Denmark,34635,2
 2021-01-01,Djibouti,0,0
 2021-01-01,Dominica,0,0
 2021-01-01,Dominican Republic,0,0
@@ -6030,7 +6030,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-02,Cuba,0,0
 2021-01-02,Cyprus,0,0
 2021-01-02,Czechia,13435,0
-2021-01-02,Denmark,42647,2
+2021-01-02,Denmark,42634,2
 2021-01-02,Djibouti,0,0
 2021-01-02,Dominica,0,0
 2021-01-02,Dominican Republic,0,0
@@ -6217,7 +6217,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-03,Cuba,0,0
 2021-01-03,Cyprus,0,0
 2021-01-03,Czechia,14358,0
-2021-01-03,Denmark,47956,2
+2021-01-03,Denmark,47943,2
 2021-01-03,Djibouti,0,0
 2021-01-03,Dominica,0,0
 2021-01-03,Dominican Republic,0,0
@@ -6404,7 +6404,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-04,Cuba,0,0
 2021-01-04,Cyprus,0,0
 2021-01-04,Czechia,17971,0
-2021-01-04,Denmark,50302,3
+2021-01-04,Denmark,50290,3
 2021-01-04,Djibouti,0,0
 2021-01-04,Dominica,0,0
 2021-01-04,Dominican Republic,0,0
@@ -6591,7 +6591,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-05,Cuba,0,0
 2021-01-05,Cyprus,0,0
 2021-01-05,Czechia,22493,1
-2021-01-05,Denmark,62784,3
+2021-01-05,Denmark,62771,3
 2021-01-05,Djibouti,0,0
 2021-01-05,Dominica,0,0
 2021-01-05,Dominican Republic,0,0
@@ -6778,7 +6778,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-06,Cuba,0,0
 2021-01-06,Cyprus,3901,0
 2021-01-06,Czechia,28338,2
-2021-01-06,Denmark,80841,3
+2021-01-06,Denmark,80824,3
 2021-01-06,Djibouti,0,0
 2021-01-06,Dominica,0,0
 2021-01-06,Dominican Republic,0,0
@@ -6965,7 +6965,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-07,Cuba,0,0
 2021-01-07,Cyprus,3901,0
 2021-01-07,Czechia,36335,2
-2021-01-07,Denmark,96836,4
+2021-01-07,Denmark,96816,4
 2021-01-07,Djibouti,0,0
 2021-01-07,Dominica,0,0
 2021-01-07,Dominican Republic,0,0
@@ -7152,7 +7152,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-08,Cuba,0,0
 2021-01-08,Cyprus,3901,0
 2021-01-08,Czechia,46387,3
-2021-01-08,Denmark,104594,5
+2021-01-08,Denmark,104572,5
 2021-01-08,Djibouti,0,0
 2021-01-08,Dominica,0,0
 2021-01-08,Dominican Republic,0,0
@@ -7339,7 +7339,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-09,Cuba,0,0
 2021-01-09,Cyprus,3901,0
 2021-01-09,Czechia,48414,4
-2021-01-09,Denmark,106443,7
+2021-01-09,Denmark,106419,7
 2021-01-09,Djibouti,0,0
 2021-01-09,Dominica,0,0
 2021-01-09,Dominican Republic,0,0
@@ -7526,7 +7526,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-10,Cuba,0,0
 2021-01-10,Cyprus,6035,0
 2021-01-10,Czechia,50181,5
-2021-01-10,Denmark,107263,7
+2021-01-10,Denmark,107239,7
 2021-01-10,Djibouti,0,0
 2021-01-10,Dominica,0,0
 2021-01-10,Dominican Republic,0,0
@@ -7713,7 +7713,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-11,Cuba,0,0
 2021-01-11,Cyprus,6035,0
 2021-01-11,Czechia,60036,7
-2021-01-11,Denmark,107927,7
+2021-01-11,Denmark,107903,7
 2021-01-11,Djibouti,0,0
 2021-01-11,Dominica,0,0
 2021-01-11,Dominican Republic,0,0
@@ -7900,7 +7900,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-12,Cuba,0,0
 2021-01-12,Cyprus,6035,0
 2021-01-12,Czechia,73485,9
-2021-01-12,Denmark,108394,9
+2021-01-12,Denmark,108369,9
 2021-01-12,Djibouti,0,0
 2021-01-12,Dominica,0,0
 2021-01-12,Dominican Republic,0,0
@@ -8087,7 +8087,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-13,Cuba,0,0
 2021-01-13,Cyprus,6035,0
 2021-01-13,Czechia,87022,9
-2021-01-13,Denmark,120548,13
+2021-01-13,Denmark,120519,13
 2021-01-13,Djibouti,0,0
 2021-01-13,Dominica,0,0
 2021-01-13,Dominican Republic,0,0
@@ -8274,7 +8274,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-14,Cuba,0,0
 2021-01-14,Cyprus,6035,0
 2021-01-14,Czechia,102268,13
-2021-01-14,Denmark,137457,14
+2021-01-14,Denmark,137423,14
 2021-01-14,Djibouti,0,0
 2021-01-14,Dominica,0,0
 2021-01-14,Dominican Republic,0,0
@@ -8461,7 +8461,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-15,Cuba,0,0
 2021-01-15,Cyprus,6035,0
 2021-01-15,Czechia,116281,14
-2021-01-15,Denmark,151732,19
+2021-01-15,Denmark,151695,19
 2021-01-15,Djibouti,0,0
 2021-01-15,Dominica,0,0
 2021-01-15,Dominican Republic,0,0
@@ -8648,7 +8648,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-16,Cuba,0,0
 2021-01-16,Cyprus,10226,0
 2021-01-16,Czechia,119683,18
-2021-01-16,Denmark,156074,29
+2021-01-16,Denmark,156036,29
 2021-01-16,Djibouti,0,0
 2021-01-16,Dominica,0,0
 2021-01-16,Dominican Republic,0,0
@@ -8835,7 +8835,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-17,Cuba,0,0
 2021-01-17,Cyprus,10226,0
 2021-01-17,Czechia,122301,654
-2021-01-17,Denmark,158381,667
+2021-01-17,Denmark,158342,667
 2021-01-17,Djibouti,0,0
 2021-01-17,Dominica,0,0
 2021-01-17,Dominican Republic,0,0
@@ -9022,7 +9022,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-18,Cuba,0,0
 2021-01-18,Cyprus,10226,0
 2021-01-18,Czechia,134789,2480
-2021-01-18,Denmark,162012,2619
+2021-01-18,Denmark,161973,2618
 2021-01-18,Djibouti,0,0
 2021-01-18,Dominica,0,0
 2021-01-18,Dominican Republic,0,0
@@ -9209,7 +9209,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-19,Cuba,0,0
 2021-01-19,Cyprus,10226,0
 2021-01-19,Czechia,147391,5205
-2021-01-19,Denmark,164351,4525
+2021-01-19,Denmark,164312,4524
 2021-01-19,Djibouti,0,0
 2021-01-19,Dominica,0,0
 2021-01-19,Dominican Republic,0,0
@@ -9396,7 +9396,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-20,Cuba,0,0
 2021-01-20,Cyprus,10226,0
 2021-01-20,Czechia,161078,7866
-2021-01-20,Denmark,165776,6253
+2021-01-20,Denmark,165736,6252
 2021-01-20,Djibouti,0,0
 2021-01-20,Dominica,0,0
 2021-01-20,Dominican Republic,0,0
@@ -9583,7 +9583,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-21,Cuba,0,0
 2021-01-21,Cyprus,10226,0
 2021-01-21,Czechia,176724,9611
-2021-01-21,Denmark,167243,8425
+2021-01-21,Denmark,167202,8424
 2021-01-21,Djibouti,0,0
 2021-01-21,Dominica,0,0
 2021-01-21,Dominican Republic,0,0
@@ -9770,7 +9770,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-22,Cuba,0,0
 2021-01-22,Cyprus,10226,0
 2021-01-22,Czechia,191606,10657
-2021-01-22,Denmark,167887,13719
+2021-01-22,Denmark,167847,13716
 2021-01-22,Djibouti,0,0
 2021-01-22,Dominica,0,0
 2021-01-22,Dominican Republic,0,0
@@ -9957,7 +9957,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-23,Cuba,0,0
 2021-01-23,Cyprus,15322,2057
 2021-01-23,Czechia,194927,11537
-2021-01-23,Denmark,168574,20218
+2021-01-23,Denmark,168533,20212
 2021-01-23,Djibouti,0,0
 2021-01-23,Dominica,0,0
 2021-01-23,Dominican Republic,0,0
@@ -10144,7 +10144,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-24,Cuba,0,0
 2021-01-24,Cyprus,15322,2057
 2021-01-24,Czechia,197182,12406
-2021-01-24,Denmark,169139,26085
+2021-01-24,Denmark,169098,26075
 2021-01-24,Djibouti,0,0
 2021-01-24,Dominica,0,0
 2021-01-24,Dominican Republic,0,0
@@ -10331,7 +10331,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-25,Cuba,0,0
 2021-01-25,Cyprus,15322,2057
 2021-01-25,Czechia,206824,15380
-2021-01-25,Denmark,169417,28378
+2021-01-25,Denmark,169376,28367
 2021-01-25,Djibouti,0,0
 2021-01-25,Dominica,0,0
 2021-01-25,Dominican Republic,0,0
@@ -10518,7 +10518,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-26,Cuba,0,0
 2021-01-26,Cyprus,15322,2057
 2021-01-26,Czechia,217364,19375
-2021-01-26,Denmark,169629,29994
+2021-01-26,Denmark,169589,29983
 2021-01-26,Djibouti,0,0
 2021-01-26,Dominica,0,0
 2021-01-26,Dominican Republic,0,0
@@ -10705,7 +10705,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-27,Cuba,0,0
 2021-01-27,Cyprus,15322,2057
 2021-01-27,Czechia,226392,23912
-2021-01-27,Denmark,169832,34097
+2021-01-27,Denmark,169792,34085
 2021-01-27,Djibouti,0,0
 2021-01-27,Dominica,0,0
 2021-01-27,Dominican Republic,0,0
@@ -10892,7 +10892,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-28,Cuba,0,0
 2021-01-28,Cyprus,15322,2057
 2021-01-28,Czechia,233492,30043
-2021-01-28,Denmark,170066,41904
+2021-01-28,Denmark,170026,41892
 2021-01-28,Djibouti,0,0
 2021-01-28,Dominica,0,0
 2021-01-28,Dominican Republic,0,0
@@ -11079,7 +11079,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-29,Cuba,0,0
 2021-01-29,Cyprus,15322,2057
 2021-01-29,Czechia,239706,37955
-2021-01-29,Denmark,171112,59115
+2021-01-29,Denmark,171072,59101
 2021-01-29,Djibouti,0,0
 2021-01-29,Dominica,0,0
 2021-01-29,Dominican Republic,0,0
@@ -11266,7 +11266,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-30,Cuba,0,0
 2021-01-30,Cyprus,19618,5551
 2021-01-30,Czechia,240444,39043
-2021-01-30,Denmark,172238,71071
+2021-01-30,Denmark,172198,71051
 2021-01-30,Djibouti,0,0
 2021-01-30,Dominica,0,0
 2021-01-30,Dominican Republic,0,0
@@ -11453,7 +11453,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-31,Cuba,0,0
 2021-01-31,Cyprus,19618,5551
 2021-01-31,Czechia,241159,40224
-2021-01-31,Denmark,173373,82344
+2021-01-31,Denmark,173333,82322
 2021-01-31,Djibouti,0,0
 2021-01-31,Dominica,0,0
 2021-01-31,Dominican Republic,0,0
@@ -11640,7 +11640,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-01,Cuba,0,0
 2021-02-01,Cyprus,19618,5551
 2021-02-01,Czechia,245140,48186
-2021-02-01,Denmark,174104,89869
+2021-02-01,Denmark,174064,89845
 2021-02-01,Djibouti,0,0
 2021-02-01,Dominica,0,0
 2021-02-01,Dominican Republic,0,0
@@ -11827,7 +11827,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-02,Cuba,0,0
 2021-02-02,Cyprus,19618,5551
 2021-02-02,Czechia,249287,58419
-2021-02-02,Denmark,175992,92738
+2021-02-02,Denmark,175952,92714
 2021-02-02,Djibouti,0,0
 2021-02-02,Dominica,0,0
 2021-02-02,Dominican Republic,0,0
@@ -12014,7 +12014,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-03,Cuba,0,0
 2021-02-03,Cyprus,19618,5551
 2021-02-03,Czechia,253709,69432
-2021-02-03,Denmark,177405,98697
+2021-02-03,Denmark,177365,98671
 2021-02-03,Djibouti,0,0
 2021-02-03,Dominica,0,0
 2021-02-03,Dominican Republic,0,0
@@ -12201,7 +12201,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-04,Cuba,0,0
 2021-02-04,Cyprus,19618,5551
 2021-02-04,Czechia,258607,82420
-2021-02-04,Denmark,178742,109154
+2021-02-04,Denmark,178702,109124
 2021-02-04,Djibouti,0,0
 2021-02-04,Dominica,0,0
 2021-02-04,Dominican Republic,0,0
@@ -12388,7 +12388,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-05,Cuba,0,0
 2021-02-05,Cyprus,19618,5551
 2021-02-05,Czechia,264074,93094
-2021-02-05,Denmark,180265,121906
+2021-02-05,Denmark,180225,121874
 2021-02-05,Djibouti,0,0
 2021-02-05,Dominica,0,0
 2021-02-05,Dominican Republic,0,0
@@ -12575,7 +12575,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-06,Cuba,0,0
 2021-02-06,Cyprus,22813,10024
 2021-02-06,Czechia,264923,95462
-2021-02-06,Denmark,181229,128342
+2021-02-06,Denmark,181188,128310
 2021-02-06,Djibouti,0,0
 2021-02-06,Dominica,0,0
 2021-02-06,Dominican Republic,0,0
@@ -12762,7 +12762,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-07,Cuba,0,0
 2021-02-07,Cyprus,22813,10024
 2021-02-07,Czechia,265773,97963
-2021-02-07,Denmark,182995,131789
+2021-02-07,Denmark,182957,131758
 2021-02-07,Djibouti,0,0
 2021-02-07,Dominica,0,0
 2021-02-07,Dominican Republic,0,0
@@ -12949,7 +12949,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-08,Cuba,0,0
 2021-02-08,Cyprus,22813,10024
 2021-02-08,Czechia,269855,109392
-2021-02-08,Denmark,185379,138538
+2021-02-08,Denmark,185341,138507
 2021-02-08,Djibouti,0,0
 2021-02-08,Dominica,0,0
 2021-02-08,Dominican Republic,0,0
@@ -13136,7 +13136,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-09,Cuba,0,0
 2021-02-09,Cyprus,22813,10024
 2021-02-09,Czechia,274953,121303
-2021-02-09,Denmark,188783,143220
+2021-02-09,Denmark,188745,143187
 2021-02-09,Djibouti,0,0
 2021-02-09,Dominica,0,0
 2021-02-09,Dominican Republic,0,0
@@ -13323,7 +13323,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-10,Cuba,0,0
 2021-02-10,Cyprus,22813,10024
 2021-02-10,Czechia,280462,134558
-2021-02-10,Denmark,191985,146977
+2021-02-10,Denmark,191947,146944
 2021-02-10,Djibouti,0,0
 2021-02-10,Dominica,0,0
 2021-02-10,Dominican Republic,0,0
@@ -13510,7 +13510,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-11,Cuba,0,0
 2021-02-11,Cyprus,22813,10024
 2021-02-11,Czechia,286797,150772
-2021-02-11,Denmark,197603,149366
+2021-02-11,Denmark,197564,149332
 2021-02-11,Djibouti,0,0
 2021-02-11,Dominica,0,0
 2021-02-11,Dominican Republic,0,0
@@ -13697,7 +13697,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-12,Cuba,0,0
 2021-02-12,Cyprus,22813,10024
 2021-02-12,Czechia,293618,165507
-2021-02-12,Denmark,209479,156888
+2021-02-12,Denmark,209439,156853
 2021-02-12,Djibouti,0,0
 2021-02-12,Dominica,0,0
 2021-02-12,Dominican Republic,0,0
@@ -13884,7 +13884,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-13,Cuba,0,0
 2021-02-13,Cyprus,29592,14837
 2021-02-13,Czechia,295230,168496
-2021-02-13,Denmark,215843,157813
+2021-02-13,Denmark,215800,157778
 2021-02-13,Djibouti,0,0
 2021-02-13,Dominica,0,0
 2021-02-13,Dominican Republic,0,0
@@ -14071,7 +14071,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-14,Cuba,0,0
 2021-02-14,Cyprus,29592,14837
 2021-02-14,Czechia,296232,169880
-2021-02-14,Denmark,221897,158419
+2021-02-14,Denmark,221851,158384
 2021-02-14,Djibouti,0,0
 2021-02-14,Dominica,0,0
 2021-02-14,Dominican Republic,0,0
@@ -14258,7 +14258,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-15,Cuba,0,0
 2021-02-15,Cyprus,29592,14837
 2021-02-15,Czechia,302630,179244
-2021-02-15,Denmark,235239,161506
+2021-02-15,Denmark,235189,161471
 2021-02-15,Djibouti,0,0
 2021-02-15,Dominica,0,0
 2021-02-15,Dominican Republic,0,0
@@ -14445,7 +14445,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-16,Cuba,0,0
 2021-02-16,Cyprus,29592,14837
 2021-02-16,Czechia,311348,188324
-2021-02-16,Denmark,248053,162809
+2021-02-16,Denmark,248000,162774
 2021-02-16,Djibouti,0,0
 2021-02-16,Dominica,0,0
 2021-02-16,Dominican Republic,385,0
@@ -14632,7 +14632,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-17,Cuba,0,0
 2021-02-17,Cyprus,29592,14837
 2021-02-17,Czechia,321048,196629
-2021-02-17,Denmark,258175,163222
+2021-02-17,Denmark,258120,163188
 2021-02-17,Djibouti,0,0
 2021-02-17,Dominica,0,0
 2021-02-17,Dominican Republic,1379,0
@@ -14819,7 +14819,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-18,Cuba,0,0
 2021-02-18,Cyprus,29592,14837
 2021-02-18,Czechia,333364,204712
-2021-02-18,Denmark,269411,163543
+2021-02-18,Denmark,269355,163508
 2021-02-18,Djibouti,0,0
 2021-02-18,Dominica,0,0
 2021-02-18,Dominican Republic,5328,0
@@ -15006,7 +15006,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-19,Cuba,0,0
 2021-02-19,Cyprus,29592,14837
 2021-02-19,Czechia,345223,212080
-2021-02-19,Denmark,282977,164485
+2021-02-19,Denmark,282919,164450
 2021-02-19,Djibouti,0,0
 2021-02-19,Dominica,0,0
 2021-02-19,Dominican Republic,10200,0
@@ -15193,7 +15193,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-20,Cuba,0,0
 2021-02-20,Cyprus,37570,19221
 2021-02-20,Czechia,347223,213263
-2021-02-20,Denmark,293125,165046
+2021-02-20,Denmark,293066,165011
 2021-02-20,Djibouti,0,0
 2021-02-20,Dominica,0,0
 2021-02-20,Dominican Republic,13087,0
@@ -15380,7 +15380,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-21,Cuba,0,0
 2021-02-21,Cyprus,37570,19221
 2021-02-21,Czechia,348356,214287
-2021-02-21,Denmark,303592,165394
+2021-02-21,Denmark,303531,165359
 2021-02-21,Djibouti,0,0
 2021-02-21,Dominica,0,0
 2021-02-21,Dominican Republic,14264,0
@@ -15567,7 +15567,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-22,Cuba,0,0
 2021-02-22,Cyprus,37570,19221
 2021-02-22,Czechia,358477,220317
-2021-02-22,Denmark,316788,166477
+2021-02-22,Denmark,316727,166442
 2021-02-22,Djibouti,0,0
 2021-02-22,Dominica,0,0
 2021-02-22,Dominican Republic,14264,0
@@ -15754,7 +15754,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-23,Cuba,0,0
 2021-02-23,Cyprus,44239,20323
 2021-02-23,Czechia,371426,227298
-2021-02-23,Denmark,330865,168362
+2021-02-23,Denmark,330801,168327
 2021-02-23,Djibouti,0,0
 2021-02-23,Dominica,2465,0
 2021-02-23,Dominican Republic,14264,0
@@ -15941,7 +15941,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-24,Cuba,0,0
 2021-02-24,Cyprus,44239,20323
 2021-02-24,Czechia,385296,233334
-2021-02-24,Denmark,344280,170213
+2021-02-24,Denmark,344213,170178
 2021-02-24,Djibouti,0,0
 2021-02-24,Dominica,2465,0
 2021-02-24,Dominican Republic,26400,0
@@ -16128,7 +16128,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-25,Cuba,0,0
 2021-02-25,Cyprus,44239,20323
 2021-02-25,Czechia,403265,238884
-2021-02-25,Denmark,358659,170820
+2021-02-25,Denmark,358593,170786
 2021-02-25,Djibouti,0,0
 2021-02-25,Dominica,4811,0
 2021-02-25,Dominican Republic,26400,0
@@ -16315,7 +16315,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-26,Cuba,0,0
 2021-02-26,Cyprus,53617,22559
 2021-02-26,Czechia,419431,244236
-2021-02-26,Denmark,394120,171819
+2021-02-26,Denmark,394051,171785
 2021-02-26,Djibouti,0,0
 2021-02-26,Dominica,5924,0
 2021-02-26,Dominican Republic,26400,0
@@ -16502,7 +16502,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-27,Cuba,0,0
 2021-02-27,Cyprus,53617,22559
 2021-02-27,Czechia,422440,244792
-2021-02-27,Denmark,400626,173179
+2021-02-27,Denmark,400556,173145
 2021-02-27,Djibouti,0,0
 2021-02-27,Dominica,5924,0
 2021-02-27,Dominican Republic,26400,0
@@ -16689,7 +16689,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-28,Cuba,0,0
 2021-02-28,Cyprus,53617,22559
 2021-02-28,Czechia,424790,245343
-2021-02-28,Denmark,411284,174499
+2021-02-28,Denmark,411213,174465
 2021-02-28,Djibouti,0,0
 2021-02-28,Dominica,5924,0
 2021-02-28,Dominican Republic,26400,0
@@ -16876,7 +16876,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-01,Cuba,0,0
 2021-03-01,Cyprus,53617,22559
 2021-03-01,Czechia,444377,248791
-2021-03-01,Denmark,430588,175537
+2021-03-01,Denmark,430517,175503
 2021-03-01,Djibouti,0,0
 2021-03-01,Dominica,7202,0
 2021-03-01,Dominican Republic,60000,0
@@ -17063,7 +17063,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-02,Cuba,0,0
 2021-03-02,Cyprus,53617,22559
 2021-03-02,Czechia,471598,252338
-2021-03-02,Denmark,447052,176792
+2021-03-02,Denmark,446981,176758
 2021-03-02,Djibouti,0,0
 2021-03-02,Dominica,8238,0
 2021-03-02,Dominican Republic,105000,0
@@ -17250,7 +17250,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-03,Cuba,0,0
 2021-03-03,Cyprus,53617,22559
 2021-03-03,Czechia,502517,256842
-2021-03-03,Denmark,459923,177790
+2021-03-03,Denmark,459850,177754
 2021-03-03,Djibouti,0,0
 2021-03-03,Dominica,9464,0
 2021-03-03,Dominican Republic,161827,0
@@ -17437,7 +17437,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-04,Cuba,0,0
 2021-03-04,Cyprus,53617,22559
 2021-03-04,Czechia,535796,261525
-2021-03-04,Denmark,477201,179565
+2021-03-04,Denmark,477129,179530
 2021-03-04,Djibouti,0,0
 2021-03-04,Dominica,10476,0
 2021-03-04,Dominican Republic,227719,0
@@ -17624,7 +17624,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-05,Cuba,0,0
 2021-03-05,Cyprus,53617,22559
 2021-03-05,Czechia,564627,266945
-2021-03-05,Denmark,493548,185131
+2021-03-05,Denmark,493474,185096
 2021-03-05,Djibouti,0,0
 2021-03-05,Dominica,11368,0
 2021-03-05,Dominican Republic,303490,0
@@ -17811,7 +17811,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-06,Cuba,0,0
 2021-03-06,Cyprus,53617,22559
 2021-03-06,Czechia,576773,267807
-2021-03-06,Denmark,507952,188972
+2021-03-06,Denmark,507880,188935
 2021-03-06,Djibouti,0,0
 2021-03-06,Dominica,11368,0
 2021-03-06,Dominican Republic,375265,0
@@ -17998,7 +17998,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-07,Cuba,0,0
 2021-03-07,Cyprus,70534,28741
 2021-03-07,Czechia,588312,268648
-2021-03-07,Denmark,519720,193143
+2021-03-07,Denmark,519647,193106
 2021-03-07,Djibouti,0,0
 2021-03-07,Dominica,11368,0
 2021-03-07,Dominican Republic,375265,0
@@ -18185,7 +18185,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-08,Cuba,0,0
 2021-03-08,Cyprus,70534,28741
 2021-03-08,Czechia,618054,273501
-2021-03-08,Denmark,529141,199408
+2021-03-08,Denmark,529068,199369
 2021-03-08,Djibouti,0,0
 2021-03-08,Dominica,12275,0
 2021-03-08,Dominican Republic,400041,0
@@ -18372,7 +18372,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-09,Cuba,0,0
 2021-03-09,Cyprus,70534,28741
 2021-03-09,Czechia,654411,279882
-2021-03-09,Denmark,539887,206366
+2021-03-09,Denmark,539814,206327
 2021-03-09,Djibouti,0,0
 2021-03-09,Dominica,12275,0
 2021-03-09,Dominican Republic,480237,0
@@ -18559,7 +18559,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-10,Cuba,0,0
 2021-03-10,Cyprus,70534,28741
 2021-03-10,Czechia,695720,286838
-2021-03-10,Denmark,551774,213355
+2021-03-10,Denmark,551700,213314
 2021-03-10,Djibouti,0,0
 2021-03-10,Dominica,13135,0
 2021-03-10,Dominican Republic,547091,0
@@ -18746,7 +18746,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-11,Cuba,0,0
 2021-03-11,Cyprus,70534,28741
 2021-03-11,Czechia,740553,295207
-2021-03-11,Denmark,556213,221100
+2021-03-11,Denmark,556139,221055
 2021-03-11,Djibouti,0,0
 2021-03-11,Dominica,13565,0
 2021-03-11,Dominican Republic,606006,0
@@ -18933,7 +18933,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-12,Cuba,0,0
 2021-03-12,Cyprus,70534,28741
 2021-03-12,Czechia,779316,303701
-2021-03-12,Denmark,559468,231356
+2021-03-12,Denmark,559395,231307
 2021-03-12,Djibouti,0,0
 2021-03-12,Dominica,13565,0
 2021-03-12,Dominican Republic,606006,0
@@ -19120,7 +19120,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-13,Cuba,0,0
 2021-03-13,Cyprus,70534,28741
 2021-03-13,Czechia,796401,305009
-2021-03-13,Denmark,563926,237059
+2021-03-13,Denmark,563851,237008
 2021-03-13,Djibouti,0,0
 2021-03-13,Dominica,13565,0
 2021-03-13,Dominican Republic,606006,0
@@ -19307,7 +19307,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-14,Cuba,0,0
 2021-03-14,Cyprus,70534,28741
 2021-03-14,Czechia,808517,306162
-2021-03-14,Denmark,565138,246206
+2021-03-14,Denmark,565063,246155
 2021-03-14,Djibouti,0,0
 2021-03-14,Dominica,13565,0
 2021-03-14,Dominican Republic,606006,0
@@ -19494,7 +19494,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-15,Cuba,0,0
 2021-03-15,Cyprus,70534,28741
 2021-03-15,Czechia,836897,314936
-2021-03-15,Denmark,567904,255815
+2021-03-15,Denmark,567830,255764
 2021-03-15,Djibouti,0,0
 2021-03-15,Dominica,13565,0
 2021-03-15,Dominican Republic,675000,0
@@ -19681,7 +19681,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-16,Cuba,0,0
 2021-03-16,Cyprus,70534,28741
 2021-03-16,Czechia,875782,325473
-2021-03-16,Denmark,574586,265022
+2021-03-16,Denmark,574514,264969
 2021-03-16,Djibouti,0,0
 2021-03-16,Dominica,13565,0
 2021-03-16,Dominican Republic,675000,0
@@ -19868,7 +19868,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-17,Cuba,0,0
 2021-03-17,Cyprus,70534,28741
 2021-03-17,Czechia,913245,335978
-2021-03-17,Denmark,585168,273926
+2021-03-17,Denmark,585094,273868
 2021-03-17,Djibouti,0,0
 2021-03-17,Dominica,13565,0
 2021-03-17,Dominican Republic,675000,0
@@ -20055,7 +20055,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-18,Cuba,0,0
 2021-03-18,Cyprus,70534,28741
 2021-03-18,Czechia,951229,348390
-2021-03-18,Denmark,599624,281013
+2021-03-18,Denmark,599549,280956
 2021-03-18,Djibouti,0,0
 2021-03-18,Dominica,13565,0
 2021-03-18,Dominican Republic,675000,0
@@ -20242,7 +20242,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-19,Cuba,0,0
 2021-03-19,Cyprus,70534,28741
 2021-03-19,Czechia,985712,362000
-2021-03-19,Denmark,607364,292495
+2021-03-19,Denmark,607289,292435
 2021-03-19,Djibouti,0,0
 2021-03-19,Dominica,13565,0
 2021-03-19,Dominican Republic,675000,0
@@ -20429,7 +20429,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-20,Cuba,0,0
 2021-03-20,Cyprus,93475,35963
 2021-03-20,Czechia,1000859,364030
-2021-03-20,Denmark,610325,297197
+2021-03-20,Denmark,610250,297135
 2021-03-20,Djibouti,0,0
 2021-03-20,Dominica,13565,0
 2021-03-20,Dominican Republic,675000,0
@@ -20616,7 +20616,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-21,Cuba,0,0
 2021-03-21,Cyprus,93475,35963
 2021-03-21,Czechia,1008280,365588
-2021-03-21,Denmark,615251,301772
+2021-03-21,Denmark,615175,301709
 2021-03-21,Djibouti,0,0
 2021-03-21,Dominica,13565,0
 2021-03-21,Dominican Republic,675000,0
@@ -20803,7 +20803,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-22,Cuba,0,0
 2021-03-22,Cyprus,93475,35963
 2021-03-22,Czechia,1032846,378089
-2021-03-22,Denmark,619315,309370
+2021-03-22,Denmark,619239,309305
 2021-03-22,Djibouti,0,0
 2021-03-22,Dominica,15304,0
 2021-03-22,Dominican Republic,675000,0
@@ -20990,7 +20990,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-23,Cuba,0,0
 2021-03-23,Cyprus,93475,35963
 2021-03-23,Czechia,1059492,391441
-2021-03-23,Denmark,625344,316801
+2021-03-23,Denmark,625267,316738
 2021-03-23,Djibouti,0,0
 2021-03-23,Dominica,15304,0
 2021-03-23,Dominican Republic,800000,0
@@ -21177,7 +21177,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-24,Cuba,0,0
 2021-03-24,Cyprus,93475,35963
 2021-03-24,Czechia,1086353,407177
-2021-03-24,Denmark,635088,329973
+2021-03-24,Denmark,635012,329910
 2021-03-24,Djibouti,0,0
 2021-03-24,Dominica,15304,0
 2021-03-24,Dominican Republic,800000,0
@@ -21364,7 +21364,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-25,Cuba,0,0
 2021-03-25,Cyprus,93475,35963
 2021-03-25,Czechia,1112693,425028
-2021-03-25,Denmark,642751,338216
+2021-03-25,Denmark,642676,338152
 2021-03-25,Djibouti,0,0
 2021-03-25,Dominica,16058,0
 2021-03-25,Dominican Republic,800000,0
@@ -21551,7 +21551,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-26,Cuba,0,0
 2021-03-26,Cyprus,93475,35963
 2021-03-26,Czechia,1137494,442530
-2021-03-26,Denmark,648868,345910
+2021-03-26,Denmark,648793,345845
 2021-03-26,Djibouti,0,0
 2021-03-26,Dominica,16058,0
 2021-03-26,Dominican Republic,800000,0
@@ -21738,7 +21738,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-27,Cuba,0,0
 2021-03-27,Cyprus,93475,35963
 2021-03-27,Czechia,1145932,447375
-2021-03-27,Denmark,658749,348961
+2021-03-27,Denmark,658672,348895
 2021-03-27,Djibouti,0,0
 2021-03-27,Dominica,16058,0
 2021-03-27,Dominican Republic,800000,0
@@ -21925,7 +21925,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-28,Cuba,0,0
 2021-03-28,Cyprus,93475,35963
 2021-03-28,Czechia,1151472,451518
-2021-03-28,Denmark,669429,351721
+2021-03-28,Denmark,669351,351655
 2021-03-28,Djibouti,0,0
 2021-03-28,Dominica,16058,0
 2021-03-28,Dominican Republic,800000,0
@@ -22112,7 +22112,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-29,Cuba,0,0
 2021-03-29,Cyprus,93475,35963
 2021-03-29,Czechia,1170601,472253
-2021-03-29,Denmark,687231,357792
+2021-03-29,Denmark,687153,357725
 2021-03-29,Djibouti,0,0
 2021-03-29,Dominica,16058,0
 2021-03-29,Dominican Republic,800000,0
@@ -22299,7 +22299,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-30,Cuba,0,0
 2021-03-30,Cyprus,93475,35963
 2021-03-30,Czechia,1195286,494429
-2021-03-30,Denmark,708666,363747
+2021-03-30,Denmark,708588,363680
 2021-03-30,Djibouti,0,0
 2021-03-30,Dominica,16058,0
 2021-03-30,Dominican Republic,856474,54395
@@ -22486,7 +22486,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-31,Cuba,0,0
 2021-03-31,Cyprus,93475,35963
 2021-03-31,Czechia,1218401,521488
-2021-03-31,Denmark,721644,373296
+2021-03-31,Denmark,721567,373228
 2021-03-31,Djibouti,0,0
 2021-03-31,Dominica,17674,0
 2021-03-31,Dominican Republic,856474,54395
@@ -22673,7 +22673,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-01,Cuba,0,0
 2021-04-01,Cyprus,93475,35963
 2021-04-01,Czechia,1244043,553536
-2021-04-01,Denmark,725855,380105
+2021-04-01,Denmark,725778,380037
 2021-04-01,Djibouti,0,0
 2021-04-01,Dominica,17775,337
 2021-04-01,Dominican Republic,856474,54395
@@ -22860,7 +22860,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-02,Cuba,0,0
 2021-04-02,Cyprus,93475,35963
 2021-04-02,Czechia,1250967,566322
-2021-04-02,Denmark,730741,386976
+2021-04-02,Denmark,730663,386907
 2021-04-02,Djibouti,0,0
 2021-04-02,Dominica,17775,337
 2021-04-02,Dominican Republic,856474,54395
@@ -23047,7 +23047,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-03,Cuba,0,0
 2021-04-03,Cyprus,114660,46866
 2021-04-03,Czechia,1254592,577249
-2021-04-03,Denmark,742776,389149
+2021-04-03,Denmark,742699,389080
 2021-04-03,Djibouti,0,0
 2021-04-03,Dominica,17775,337
 2021-04-03,Dominican Republic,856474,54395
@@ -23234,7 +23234,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-04,Cuba,0,0
 2021-04-04,Cyprus,114660,46866
 2021-04-04,Czechia,1257105,586169
-2021-04-04,Denmark,754374,390912
+2021-04-04,Denmark,754297,390843
 2021-04-04,Djibouti,0,0
 2021-04-04,Dominica,17775,337
 2021-04-04,Dominican Republic,856474,54395
@@ -23421,7 +23421,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-05,Cuba,0,0
 2021-04-05,Cyprus,114660,46866
 2021-04-05,Czechia,1259513,593354
-2021-04-05,Denmark,766623,392227
+2021-04-05,Denmark,766546,392158
 2021-04-05,Djibouti,0,0
 2021-04-05,Dominica,17775,337
 2021-04-05,Dominican Republic,856474,54395
@@ -23608,7 +23608,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-06,Cuba,0,0
 2021-04-06,Cyprus,114660,46866
 2021-04-06,Czechia,1275666,622613
-2021-04-06,Denmark,782555,398225
+2021-04-06,Denmark,782479,398156
 2021-04-06,Djibouti,0,0
 2021-04-06,Dominica,17775,337
 2021-04-06,Dominican Republic,856474,54395
@@ -23795,7 +23795,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-07,Cuba,0,0
 2021-04-07,Cyprus,124165,50461
 2021-04-07,Czechia,1299095,644840
-2021-04-07,Denmark,799107,406331
+2021-04-07,Denmark,799035,406260
 2021-04-07,Djibouti,0,0
 2021-04-07,Dominica,17775,337
 2021-04-07,Dominican Republic,856474,54395
@@ -23982,7 +23982,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-08,Cuba,0,0
 2021-04-08,Cyprus,124165,50461
 2021-04-08,Czechia,1337830,675859
-2021-04-08,Denmark,812826,414754
+2021-04-08,Denmark,812757,414683
 2021-04-08,Djibouti,0,0
 2021-04-08,Dominica,17775,337
 2021-04-08,Dominican Republic,856474,54395
@@ -24169,7 +24169,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-09,Cuba,0,0
 2021-04-09,Cyprus,130937,52288
 2021-04-09,Czechia,1377377,706041
-2021-04-09,Denmark,829226,423325
+2021-04-09,Denmark,829157,423254
 2021-04-09,Djibouti,0,0
 2021-04-09,Dominica,17775,337
 2021-04-09,Dominican Republic,856474,54395
@@ -24356,7 +24356,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-10,Cuba,0,0
 2021-04-10,Cyprus,130937,52288
 2021-04-10,Czechia,1392883,721331
-2021-04-10,Denmark,845918,428730
+2021-04-10,Denmark,845850,428658
 2021-04-10,Djibouti,0,0
 2021-04-10,Dominica,17775,337
 2021-04-10,Dominican Republic,856474,54395
@@ -24543,7 +24543,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-11,Cuba,0,0
 2021-04-11,Cyprus,130937,52288
 2021-04-11,Czechia,1402665,731376
-2021-04-11,Denmark,860769,432614
+2021-04-11,Denmark,860703,432543
 2021-04-11,Djibouti,0,0
 2021-04-11,Dominica,17775,337
 2021-04-11,Dominican Republic,856474,54395
@@ -24730,7 +24730,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-12,Cuba,0,0
 2021-04-12,Cyprus,130937,52288
 2021-04-12,Czechia,1440947,756513
-2021-04-12,Denmark,954392,444047
+2021-04-12,Denmark,954323,443976
 2021-04-12,Djibouti,0,0
 2021-04-12,Dominica,17948,475
 2021-04-12,Dominican Republic,856474,54395
@@ -24917,7 +24917,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-13,Cuba,0,0
 2021-04-13,Cyprus,130937,52288
 2021-04-13,Czechia,1477208,782545
-2021-04-13,Denmark,972881,450211
+2021-04-13,Denmark,972813,450139
 2021-04-13,Djibouti,0,0
 2021-04-13,Dominica,17948,475
 2021-04-13,Dominican Republic,856474,54395
@@ -25104,7 +25104,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-14,Cuba,0,0
 2021-04-14,Cyprus,130937,52288
 2021-04-14,Czechia,1516037,809903
-2021-04-14,Denmark,984315,461258
+2021-04-14,Denmark,984251,461185
 2021-04-14,Djibouti,0,0
 2021-04-14,Dominica,17948,475
 2021-04-14,Dominican Republic,909898,600000
@@ -25291,7 +25291,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-15,Cuba,0,0
 2021-04-15,Cyprus,130937,52288
 2021-04-15,Czechia,1563835,835654
-2021-04-15,Denmark,999583,470286
+2021-04-15,Denmark,999518,470213
 2021-04-15,Djibouti,0,0
 2021-04-15,Dominica,17948,475
 2021-04-15,Dominican Republic,909898,600000
@@ -25478,7 +25478,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-16,Cuba,0,0
 2021-04-16,Cyprus,145357,57084
 2021-04-16,Czechia,1608501,861307
-2021-04-16,Denmark,1016944,478377
+2021-04-16,Denmark,1016879,478303
 2021-04-16,Djibouti,0,0
 2021-04-16,Dominica,17948,475
 2021-04-16,Dominican Republic,909898,600000
@@ -25665,7 +25665,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-17,Cuba,0,0
 2021-04-17,Cyprus,145357,57084
 2021-04-17,Czechia,1625190,870332
-2021-04-17,Denmark,1035694,481101
+2021-04-17,Denmark,1035627,481025
 2021-04-17,Djibouti,10246,0
 2021-04-17,Dominica,17948,475
 2021-04-17,Dominican Republic,909898,600000
@@ -25852,7 +25852,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-18,Cuba,0,0
 2021-04-18,Cyprus,145357,57084
 2021-04-18,Czechia,1638179,875312
-2021-04-18,Denmark,1050159,486207
+2021-04-18,Denmark,1050093,486129
 2021-04-18,Djibouti,10246,0
 2021-04-18,Dominica,17948,475
 2021-04-18,Dominican Republic,909898,600000
@@ -26039,7 +26039,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-19,Cuba,0,0
 2021-04-19,Cyprus,156682,57993
 2021-04-19,Czechia,1682146,890741
-2021-04-19,Denmark,1074932,500482
+2021-04-19,Denmark,1074867,500403
 2021-04-19,Djibouti,10246,0
 2021-04-19,Dominica,17948,475
 2021-04-19,Dominican Republic,909898,600000
@@ -26226,7 +26226,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-20,Cuba,0,0
 2021-04-20,Cyprus,161389,58265
 2021-04-20,Czechia,1724708,906599
-2021-04-20,Denmark,1096906,517286
+2021-04-20,Denmark,1096840,517206
 2021-04-20,Djibouti,10246,0
 2021-04-20,Dominica,18173,2548
 2021-04-20,Dominican Republic,909898,600000
@@ -26413,7 +26413,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-21,Cuba,0,0
 2021-04-21,Cyprus,165558,58794
 2021-04-21,Czechia,1772443,920948
-2021-04-21,Denmark,1119390,529929
+2021-04-21,Denmark,1119327,529850
 2021-04-21,Djibouti,10246,0
 2021-04-21,Dominica,18173,2548
 2021-04-21,Dominican Republic,909898,600000
@@ -26600,7 +26600,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-22,Cuba,0,0
 2021-04-22,Cyprus,165558,58794
 2021-04-22,Czechia,1826939,938327
-2021-04-22,Denmark,1147585,535284
+2021-04-22,Denmark,1147527,535207
 2021-04-22,Djibouti,10246,0
 2021-04-22,Dominica,18237,4818
 2021-04-22,Dominican Republic,909898,600000
@@ -26787,7 +26787,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-23,Cuba,0,0
 2021-04-23,Cyprus,176082,60183
 2021-04-23,Czechia,1876913,950381
-2021-04-23,Denmark,1169718,546444
+2021-04-23,Denmark,1169661,546367
 2021-04-23,Djibouti,10246,0
 2021-04-23,Dominica,18237,4818
 2021-04-23,Dominican Republic,909898,600000
@@ -26974,7 +26974,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-24,Cuba,0,0
 2021-04-24,Cyprus,176082,60183
 2021-04-24,Czechia,1894751,955630
-2021-04-24,Denmark,1184588,554005
+2021-04-24,Denmark,1184531,553928
 2021-04-24,Djibouti,10246,0
 2021-04-24,Dominica,18237,4818
 2021-04-24,Dominican Republic,909898,600000
@@ -27161,7 +27161,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-25,Cuba,0,0
 2021-04-25,Cyprus,176082,60183
 2021-04-25,Czechia,1909450,959627
-2021-04-25,Denmark,1199765,559272
+2021-04-25,Denmark,1199710,559193
 2021-04-25,Djibouti,10246,0
 2021-04-25,Dominica,18237,4818
 2021-04-25,Dominican Republic,993804,754074
@@ -27348,7 +27348,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-26,Cuba,0,0
 2021-04-26,Cyprus,176082,60183
 2021-04-26,Czechia,1959035,967177
-2021-04-26,Denmark,1231190,567113
+2021-04-26,Denmark,1231133,567036
 2021-04-26,Djibouti,10246,0
 2021-04-26,Dominica,18237,4818
 2021-04-26,Dominican Republic,1029281,768065
@@ -27535,7 +27535,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-27,Cuba,0,0
 2021-04-27,Cyprus,176082,60183
 2021-04-27,Czechia,2008000,979400
-2021-04-27,Denmark,1257680,587917
+2021-04-27,Denmark,1257625,587839
 2021-04-27,Djibouti,10246,0
 2021-04-27,Dominica,18237,4818
 2021-04-27,Dominican Republic,1067830,779431
@@ -27722,7 +27722,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-28,Cuba,0,0
 2021-04-28,Cyprus,176082,60183
 2021-04-28,Czechia,2066758,993400
-2021-04-28,Denmark,1281743,608376
+2021-04-28,Denmark,1281693,608300
 2021-04-28,Djibouti,12547,495
 2021-04-28,Dominica,18498,9323
 2021-04-28,Dominican Republic,1106733,787103
@@ -27909,7 +27909,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-29,Cuba,0,0
 2021-04-29,Cyprus,176082,60183
 2021-04-29,Czechia,2132315,1009290
-2021-04-29,Denmark,1307612,626233
+2021-04-29,Denmark,1307560,626158
 2021-04-29,Djibouti,12547,495
 2021-04-29,Dominica,18498,9323
 2021-04-29,Dominican Republic,1143669,791831
@@ -28096,7 +28096,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-30,Cuba,0,0
 2021-04-30,Cyprus,176082,60183
 2021-04-30,Czechia,2194551,1019260
-2021-04-30,Denmark,1321039,630192
+2021-04-30,Denmark,1320989,630118
 2021-04-30,Djibouti,12547,495
 2021-04-30,Dominica,18498,9323
 2021-04-30,Dominican Republic,1174227,795791
@@ -28283,7 +28283,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-01,Cuba,0,0
 2021-05-01,Cyprus,218323,69463
 2021-05-01,Czechia,2213889,1022712
-2021-05-01,Denmark,1328356,636305
+2021-05-01,Denmark,1328306,636231
 2021-05-01,Djibouti,12547,495
 2021-05-01,Dominica,18498,9323
 2021-05-01,Dominican Republic,1185502,796683
@@ -28470,7 +28470,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-02,Cuba,0,0
 2021-05-02,Cyprus,218323,69463
 2021-05-02,Czechia,2232810,1024978
-2021-05-02,Denmark,1344991,650055
+2021-05-02,Denmark,1344942,649982
 2021-05-02,Djibouti,12547,495
 2021-05-02,Dominica,18498,9323
 2021-05-02,Dominican Republic,1192415,796969
@@ -28657,7 +28657,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-03,Cuba,0,0
 2021-05-03,Cyprus,218323,69463
 2021-05-03,Czechia,2300056,1030035
-2021-05-03,Denmark,1365419,695600
+2021-05-03,Denmark,1365372,695523
 2021-05-03,Djibouti,12547,495
 2021-05-03,Dominica,18498,9323
 2021-05-03,Dominican Republic,1251674,800988
@@ -28844,7 +28844,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-04,Cuba,0,0
 2021-05-04,Cyprus,218323,69463
 2021-05-04,Czechia,2366557,1038371
-2021-05-04,Denmark,1393034,720307
+2021-05-04,Denmark,1392990,720230
 2021-05-04,Djibouti,12547,495
 2021-05-04,Dominica,18498,9323
 2021-05-04,Dominican Republic,1319445,804258
@@ -29031,7 +29031,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-05,Cuba,0,0
 2021-05-05,Cyprus,218323,69463
 2021-05-05,Czechia,2439720,1047776
-2021-05-05,Denmark,1419817,749481
+2021-05-05,Denmark,1419780,749405
 2021-05-05,Djibouti,12547,495
 2021-05-05,Dominica,18498,9323
 2021-05-05,Dominican Republic,1389890,807263
@@ -29218,7 +29218,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-06,Cuba,0,0
 2021-05-06,Cyprus,252792,79631
 2021-05-06,Czechia,2520103,1058503
-2021-05-06,Denmark,1441340,774986
+2021-05-06,Denmark,1441303,774908
 2021-05-06,Djibouti,12547,495
 2021-05-06,Dominica,18498,9323
 2021-05-06,Dominican Republic,1456488,807893
@@ -29405,7 +29405,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-07,Cuba,0,0
 2021-05-07,Cyprus,252792,79631
 2021-05-07,Czechia,2597354,1068574
-2021-05-07,Denmark,1457819,799522
+2021-05-07,Denmark,1457780,799442
 2021-05-07,Djibouti,12547,495
 2021-05-07,Dominica,18864,13144
 2021-05-07,Dominican Republic,1515063,810045
@@ -29592,7 +29592,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-08,Cuba,0,0
 2021-05-08,Cyprus,252792,79631
 2021-05-08,Czechia,2626808,1070342
-2021-05-08,Denmark,1467299,830265
+2021-05-08,Denmark,1467265,830185
 2021-05-08,Djibouti,12547,495
 2021-05-08,Dominica,18864,13144
 2021-05-08,Dominican Republic,1535083,810445
@@ -29779,7 +29779,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-09,Cuba,0,0
 2021-05-09,Cyprus,252792,79631
 2021-05-09,Czechia,2651018,1071552
-2021-05-09,Denmark,1483206,846922
+2021-05-09,Denmark,1483173,846842
 2021-05-09,Djibouti,12547,495
 2021-05-09,Dominica,18864,13144
 2021-05-09,Dominican Republic,1543725,810556
@@ -29966,7 +29966,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-10,Cuba,0,0
 2021-05-10,Cyprus,284264,87166
 2021-05-10,Czechia,2723786,1078772
-2021-05-10,Denmark,1509756,882978
+2021-05-10,Denmark,1509723,882901
 2021-05-10,Djibouti,12547,495
 2021-05-10,Dominica,18864,13144
 2021-05-10,Dominican Republic,1671046,812583
@@ -30153,7 +30153,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-11,Cuba,0,0
 2021-05-11,Cyprus,293180,91459
 2021-05-11,Czechia,2799878,1087572
-2021-05-11,Denmark,1539430,909192
+2021-05-11,Denmark,1539401,909116
 2021-05-11,Djibouti,12547,495
 2021-05-11,Dominica,18864,13144
 2021-05-11,Dominican Republic,1825500,814909
@@ -30340,7 +30340,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-12,Cuba,70000,0
 2021-05-12,Cyprus,305274,94730
 2021-05-12,Czechia,2879746,1096674
-2021-05-12,Denmark,1565608,936146
+2021-05-12,Denmark,1565584,936074
 2021-05-12,Djibouti,12547,495
 2021-05-12,Dominica,19099,13938
 2021-05-12,Dominican Republic,1984662,816694
@@ -30527,7 +30527,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-13,Cuba,70000,0
 2021-05-13,Cyprus,305274,94730
 2021-05-13,Czechia,2963755,1105830
-2021-05-13,Denmark,1585306,955818
+2021-05-13,Denmark,1585286,955751
 2021-05-13,Djibouti,12547,495
 2021-05-13,Dominica,19099,13938
 2021-05-13,Dominican Republic,2122713,818317
@@ -30714,7 +30714,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-14,Cuba,70000,0
 2021-05-14,Cyprus,320309,104180
 2021-05-14,Czechia,3043204,1113619
-2021-05-14,Denmark,1605905,986554
+2021-05-14,Denmark,1605896,986487
 2021-05-14,Djibouti,12547,495
 2021-05-14,Dominica,19099,13938
 2021-05-14,Dominican Republic,2251255,820232
@@ -30901,7 +30901,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-15,Cuba,70000,0
 2021-05-15,Cyprus,320309,104180
 2021-05-15,Czechia,3075095,1115865
-2021-05-15,Denmark,1621329,1005954
+2021-05-15,Denmark,1621324,1005886
 2021-05-15,Djibouti,12547,495
 2021-05-15,Dominica,19099,13938
 2021-05-15,Dominican Republic,2284580,820525
@@ -31088,7 +31088,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-16,Cuba,455908,0
 2021-05-16,Cyprus,325648,108902
 2021-05-16,Czechia,3100860,1117134
-2021-05-16,Denmark,1641288,1020011
+2021-05-16,Denmark,1641283,1019943
 2021-05-16,Djibouti,12547,495
 2021-05-16,Dominica,19099,13938
 2021-05-16,Dominican Republic,2299179,820641
@@ -31275,7 +31275,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-17,Cuba,540002,0
 2021-05-17,Cyprus,334258,114476
 2021-05-17,Czechia,3173363,1123861
-2021-05-17,Denmark,1672327,1050111
+2021-05-17,Denmark,1672325,1050043
 2021-05-17,Djibouti,12547,495
 2021-05-17,Dominica,19271,14678
 2021-05-17,Dominican Republic,2299179,820641
@@ -31462,7 +31462,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-18,Cuba,612376,0
 2021-05-18,Cyprus,340015,121886
 2021-05-18,Czechia,3245290,1136933
-2021-05-18,Denmark,1701910,1080847
+2021-05-18,Denmark,1701908,1080778
 2021-05-18,Djibouti,12547,495
 2021-05-18,Dominica,19360,14859
 2021-05-18,Dominican Republic,2545132,825594
@@ -31649,7 +31649,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-19,Cuba,612376,0
 2021-05-19,Cyprus,347840,128180
 2021-05-19,Czechia,3322744,1152066
-2021-05-19,Denmark,1733656,1103453
+2021-05-19,Denmark,1733658,1103387
 2021-05-19,Djibouti,12547,495
 2021-05-19,Dominica,19360,14859
 2021-05-19,Dominican Republic,2658818,829313
@@ -31836,7 +31836,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-20,Cuba,717997,0
 2021-05-20,Cyprus,347840,128180
 2021-05-20,Czechia,3398186,1179091
-2021-05-20,Denmark,1766132,1125775
+2021-05-20,Denmark,1766136,1125711
 2021-05-20,Djibouti,12547,495
 2021-05-20,Dominica,19360,14859
 2021-05-20,Dominican Republic,2748532,845114
@@ -32023,7 +32023,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-21,Cuba,717997,0
 2021-05-21,Cyprus,356376,147632
 2021-05-21,Czechia,3466947,1206843
-2021-05-21,Denmark,1801408,1145028
+2021-05-21,Denmark,1801414,1144966
 2021-05-21,Djibouti,12547,495
 2021-05-21,Dominica,19360,14859
 2021-05-21,Dominican Republic,2822348,871981
@@ -32210,7 +32210,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-22,Cuba,774212,0
 2021-05-22,Cyprus,356376,147632
 2021-05-22,Czechia,3499318,1218024
-2021-05-22,Denmark,1827348,1156914
+2021-05-22,Denmark,1827359,1156854
 2021-05-22,Djibouti,12547,495
 2021-05-22,Dominica,19360,14859
 2021-05-22,Dominican Republic,2845928,879449
@@ -32397,7 +32397,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-23,Cuba,782791,0
 2021-05-23,Cyprus,361142,161002
 2021-05-23,Czechia,3521677,1227058
-2021-05-23,Denmark,1849899,1163112
+2021-05-23,Denmark,1849911,1163053
 2021-05-23,Djibouti,12547,495
 2021-05-23,Dominica,19360,14859
 2021-05-23,Dominican Republic,2855808,883202
@@ -32584,7 +32584,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-24,Cuba,793009,0
 2021-05-24,Cyprus,369970,163312
 2021-05-24,Czechia,3568805,1260714
-2021-05-24,Denmark,1873329,1172835
+2021-05-24,Denmark,1873344,1172777
 2021-05-24,Djibouti,12547,2396
 2021-05-24,Dominica,19360,14859
 2021-05-24,Dominican Republic,2932987,912779
@@ -32771,7 +32771,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-25,Cuba,798655,0
 2021-05-25,Cyprus,369970,163312
 2021-05-25,Czechia,3620639,1296513
-2021-05-25,Denmark,1916778,1185722
+2021-05-25,Denmark,1916795,1185666
 2021-05-25,Djibouti,12547,2396
 2021-05-25,Dominica,19360,14859
 2021-05-25,Dominican Republic,3003678,944337
@@ -32958,7 +32958,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-26,Cuba,803958,0
 2021-05-26,Cyprus,376676,183988
 2021-05-26,Czechia,3688383,1334028
-2021-05-26,Denmark,1964163,1197866
+2021-05-26,Denmark,1964184,1197811
 2021-05-26,Djibouti,12547,2396
 2021-05-26,Dominica,19634,16815
 2021-05-26,Dominican Republic,3064800,976512
@@ -33145,7 +33145,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-27,Cuba,809697,0
 2021-05-27,Cyprus,381409,191017
 2021-05-27,Czechia,3749760,1381351
-2021-05-27,Denmark,2013473,1210281
+2021-05-27,Denmark,2013494,1210227
 2021-05-27,Djibouti,12547,2396
 2021-05-27,Dominica,19634,16815
 2021-05-27,Dominican Republic,3115252,1006332
@@ -33332,7 +33332,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-28,Cuba,813867,0
 2021-05-28,Cyprus,381409,191017
 2021-05-28,Czechia,3811440,1427908
-2021-05-28,Denmark,2054473,1220030
+2021-05-28,Denmark,2054498,1219979
 2021-05-28,Djibouti,12547,2396
 2021-05-28,Dominica,19733,17201
 2021-05-28,Dominican Republic,3155232,1033751
@@ -33519,7 +33519,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-29,Cuba,813867,0
 2021-05-29,Cyprus,381409,191017
 2021-05-29,Czechia,3840610,1445008
-2021-05-29,Denmark,2084277,1225283
+2021-05-29,Denmark,2084303,1225235
 2021-05-29,Djibouti,12547,2396
 2021-05-29,Dominica,19733,17201
 2021-05-29,Dominican Republic,3169176,1041039
@@ -33706,7 +33706,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-30,Cuba,813867,0
 2021-05-30,Cyprus,386710,209196
 2021-05-30,Czechia,3862971,1459442
-2021-05-30,Denmark,2110095,1232257
+2021-05-30,Denmark,2110122,1232210
 2021-05-30,Djibouti,12547,2396
 2021-05-30,Dominica,19733,17201
 2021-05-30,Dominican Republic,3171332,1042831
@@ -33893,7 +33893,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-31,Cuba,1185218,147135
 2021-05-31,Cyprus,386710,209196
 2021-05-31,Czechia,3918698,1506961
-2021-05-31,Denmark,2146223,1253736
+2021-05-31,Denmark,2146252,1253689
 2021-05-31,Djibouti,12547,2396
 2021-05-31,Dominica,19809,17271
 2021-05-31,Dominican Republic,3223950,1087424
@@ -34080,7 +34080,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-01,Cuba,1304698,148738
 2021-06-01,Cyprus,387966,227298
 2021-06-01,Czechia,3977703,1555792
-2021-06-01,Denmark,2185975,1271402
+2021-06-01,Denmark,2186001,1271357
 2021-06-01,Djibouti,12547,8810
 2021-06-01,Dominica,19809,17271
 2021-06-01,Dominican Republic,3313861,1142655
@@ -34267,7 +34267,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-02,Cuba,1431827,150897
 2021-06-02,Cyprus,388475,233830
 2021-06-02,Czechia,4040580,1609760
-2021-06-02,Denmark,2228617,1288771
+2021-06-02,Denmark,2228645,1288730
 2021-06-02,Djibouti,12547,8810
 2021-06-02,Dominica,19830,17296
 2021-06-02,Dominican Republic,3424187,1201200
@@ -34454,7 +34454,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-03,Cuba,1558013,154116
 2021-06-03,Cyprus,394877,237560
 2021-06-03,Czechia,4098780,1669954
-2021-06-03,Denmark,2264821,1312465
+2021-06-03,Denmark,2264850,1312425
 2021-06-03,Djibouti,12547,8810
 2021-06-03,Dominica,19830,17296
 2021-06-03,Dominican Republic,3530338,1231191
@@ -34641,7 +34641,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-04,Cuba,1668071,156579
 2021-06-04,Cyprus,394877,237560
 2021-06-04,Czechia,4161853,1727354
-2021-06-04,Denmark,2306187,1326738
+2021-06-04,Denmark,2306218,1326701
 2021-06-04,Djibouti,12547,8810
 2021-06-04,Dominica,19830,17296
 2021-06-04,Dominican Republic,3687044,1302763
@@ -34828,7 +34828,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-05,Cuba,1745588,157625
 2021-06-05,Cyprus,394877,237560
 2021-06-05,Czechia,4195986,1746191
-2021-06-05,Denmark,2341129,1334236
+2021-06-05,Denmark,2341163,1334203
 2021-06-05,Djibouti,12547,8810
 2021-06-05,Dominica,19970,17430
 2021-06-05,Dominican Republic,3784461,1330909
@@ -35015,7 +35015,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-06,Cuba,1772586,157637
 2021-06-06,Cyprus,403013,245992
 2021-06-06,Czechia,4222896,1761331
-2021-06-06,Denmark,2371068,1349345
+2021-06-06,Denmark,2371103,1349313
 2021-06-06,Djibouti,12547,8810
 2021-06-06,Dominica,19970,17430
 2021-06-06,Dominican Republic,3848889,1348310
@@ -35202,7 +35202,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-07,Cuba,1810895,173704
 2021-06-07,Cyprus,404314,250582
 2021-06-07,Czechia,4286566,1816940
-2021-06-07,Denmark,2424621,1371168
+2021-06-07,Denmark,2424658,1371139
 2021-06-07,Djibouti,12547,8810
 2021-06-07,Dominica,19970,17430
 2021-06-07,Dominican Republic,3971831,1445238
@@ -35389,7 +35389,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-08,Cuba,1833775,213372
 2021-06-08,Cyprus,408513,253550
 2021-06-08,Czechia,4350526,1871906
-2021-06-08,Denmark,2478132,1395804
+2021-06-08,Denmark,2478174,1395775
 2021-06-08,Djibouti,12547,8810
 2021-06-08,Dominica,19970,17430
 2021-06-08,Dominican Republic,4091884,1564664
@@ -35576,7 +35576,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-09,Cuba,1845189,307667
 2021-06-09,Cyprus,413032,260069
 2021-06-09,Czechia,4409681,1936473
-2021-06-09,Denmark,2530910,1420010
+2021-06-09,Denmark,2530958,1419986
 2021-06-09,Djibouti,12547,8810
 2021-06-09,Dominica,20048,17630
 2021-06-09,Dominican Republic,4212646,1687954
@@ -35763,7 +35763,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-10,Cuba,1884592,406973
 2021-06-10,Cyprus,415577,265642
 2021-06-10,Czechia,4463520,2007673
-2021-06-10,Denmark,2589738,1437501
+2021-06-10,Denmark,2589790,1437476
 2021-06-10,Djibouti,12547,8810
 2021-06-10,Dominica,20048,17630
 2021-06-10,Dominican Republic,4223427,1827556
@@ -35950,7 +35950,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-11,Cuba,1930901,500472
 2021-06-11,Cyprus,421974,267802
 2021-06-11,Czechia,4515607,2077408
-2021-06-11,Denmark,2638166,1455806
+2021-06-11,Denmark,2638221,1455787
 2021-06-11,Djibouti,12547,8810
 2021-06-11,Dominica,20048,17630
 2021-06-11,Dominican Republic,4227940,1945871
@@ -36137,7 +36137,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-12,Cuba,1970250,578385
 2021-06-12,Cyprus,425661,275709
 2021-06-12,Czechia,4547608,2098188
-2021-06-12,Denmark,2671653,1468664
+2021-06-12,Denmark,2671707,1468646
 2021-06-12,Djibouti,12547,8810
 2021-06-12,Dominica,20048,17630
 2021-06-12,Dominican Republic,4241798,1978069
@@ -36324,7 +36324,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-13,Cuba,2005691,591072
 2021-06-13,Cyprus,425661,275709
 2021-06-13,Czechia,4571616,2116579
-2021-06-13,Denmark,2705211,1481998
+2021-06-13,Denmark,2705262,1481980
 2021-06-13,Djibouti,12547,8810
 2021-06-13,Dominica,20048,17630
 2021-06-13,Dominican Republic,4258343,1992998
@@ -36511,7 +36511,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-14,Cuba,2050296,666617
 2021-06-14,Cyprus,425661,275709
 2021-06-14,Czechia,4614678,2190931
-2021-06-14,Denmark,2757622,1504052
+2021-06-14,Denmark,2757675,1504034
 2021-06-14,Djibouti,12547,8810
 2021-06-14,Dominica,20134,17844
 2021-06-14,Dominican Republic,4272574,2097995
@@ -36698,7 +36698,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-15,Cuba,2094260,733460
 2021-06-15,Cyprus,436280,282495
 2021-06-15,Czechia,4659314,2263252
-2021-06-15,Denmark,2817909,1522666
+2021-06-15,Denmark,2817962,1522649
 2021-06-15,Djibouti,12547,8810
 2021-06-15,Dominica,20134,17844
 2021-06-15,Dominican Republic,4286397,2186707
@@ -36885,7 +36885,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-16,Cuba,2145685,793126
 2021-06-16,Cyprus,439561,288897
 2021-06-16,Czechia,4702036,2341440
-2021-06-16,Denmark,2869753,1548644
+2021-06-16,Denmark,2869815,1548631
 2021-06-16,Djibouti,12547,8810
 2021-06-16,Dominica,20134,17844
 2021-06-16,Dominican Republic,4301394,2252316
@@ -37072,7 +37072,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-17,Cuba,2187097,835812
 2021-06-17,Cyprus,443121,296244
 2021-06-17,Czechia,4741399,2424481
-2021-06-17,Denmark,2920688,1570277
+2021-06-17,Denmark,2920752,1570271
 2021-06-17,Djibouti,12547,8810
 2021-06-17,Dominica,20183,18009
 2021-06-17,Dominican Republic,4344495,2330856
@@ -37259,7 +37259,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-18,Cuba,2223404,873690
 2021-06-18,Cyprus,443121,296244
 2021-06-18,Czechia,4783785,2504968
-2021-06-18,Denmark,2955583,1597487
+2021-06-18,Denmark,2955647,1597482
 2021-06-18,Djibouti,12547,8810
 2021-06-18,Dominica,20183,18009
 2021-06-18,Dominican Republic,4422388,2412686
@@ -37446,7 +37446,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-19,Cuba,2244336,905692
 2021-06-19,Cyprus,447383,305723
 2021-06-19,Czechia,4805535,2534228
-2021-06-19,Denmark,2979251,1615514
+2021-06-19,Denmark,2979317,1615512
 2021-06-19,Djibouti,12547,8810
 2021-06-19,Dominica,20183,18009
 2021-06-19,Dominican Republic,4491478,2452188
@@ -37633,7 +37633,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-20,Cuba,2244350,913057
 2021-06-20,Cyprus,447383,305723
 2021-06-20,Czechia,4822896,2558037
-2021-06-20,Denmark,3008339,1631212
+2021-06-20,Denmark,3008404,1631210
 2021-06-20,Djibouti,12547,8810
 2021-06-20,Dominica,20183,18009
 2021-06-20,Dominican Republic,4541739,2470706
@@ -37820,7 +37820,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-21,Cuba,2277657,924789
 2021-06-21,Cyprus,447383,305723
 2021-06-21,Czechia,4855384,2636572
-2021-06-21,Denmark,3047750,1657228
+2021-06-21,Denmark,3047820,1657224
 2021-06-21,Djibouti,12547,8810
 2021-06-21,Dominica,20183,18009
 2021-06-21,Dominican Republic,4625991,2546487
@@ -38007,7 +38007,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-22,Cuba,2372246,940185
 2021-06-22,Cyprus,447383,305723
 2021-06-22,Czechia,4888338,2718784
-2021-06-22,Denmark,3094122,1684324
+2021-06-22,Denmark,3094197,1684321
 2021-06-22,Djibouti,12547,8810
 2021-06-22,Dominica,20183,18009
 2021-06-22,Dominican Republic,4691111,2610476
@@ -38194,7 +38194,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-23,Cuba,2467275,947660
 2021-06-23,Cyprus,452062,316211
 2021-06-23,Czechia,4919975,2803961
-2021-06-23,Denmark,3132509,1716964
+2021-06-23,Denmark,3132587,1716964
 2021-06-23,Djibouti,12547,8810
 2021-06-23,Dominica,20183,18009
 2021-06-23,Dominican Republic,4746498,2655737
@@ -38381,7 +38381,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-24,Cuba,2553263,953778
 2021-06-24,Cyprus,453823,324112
 2021-06-24,Czechia,4949798,2893933
-2021-06-24,Denmark,3166281,1751460
+2021-06-24,Denmark,3166365,1751462
 2021-06-24,Djibouti,12547,8810
 2021-06-24,Dominica,20183,18009
 2021-06-24,Dominican Republic,4790322,2692223
@@ -38568,7 +38568,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-25,Cuba,2634418,959998
 2021-06-25,Cyprus,453823,324112
 2021-06-25,Czechia,4980844,2980020
-2021-06-25,Denmark,3195357,1784228
+2021-06-25,Denmark,3195443,1784234
 2021-06-25,Djibouti,12547,8810
 2021-06-25,Dominica,20302,19007
 2021-06-25,Dominican Republic,4826862,2718646
@@ -38755,7 +38755,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-26,Cuba,2689157,961917
 2021-06-26,Cyprus,453823,324112
 2021-06-26,Czechia,4996702,3014805
-2021-06-26,Denmark,3214375,1806795
+2021-06-26,Denmark,3214466,1806805
 2021-06-26,Djibouti,12547,8810
 2021-06-26,Dominica,20302,19007
 2021-06-26,Dominican Republic,4842540,2727265
@@ -38942,7 +38942,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-27,Cuba,2696277,1006300
 2021-06-27,Cyprus,453823,324112
 2021-06-27,Czechia,5010644,3041434
-2021-06-27,Denmark,3230488,1831042
+2021-06-27,Denmark,3230581,1831053
 2021-06-27,Djibouti,12547,8810
 2021-06-27,Dominica,20302,19007
 2021-06-27,Dominican Republic,4851699,2731358
@@ -39129,7 +39129,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-28,Cuba,2742615,1088898
 2021-06-28,Cyprus,453823,324112
 2021-06-28,Czechia,5039040,3126573
-2021-06-28,Denmark,3261036,1865355
+2021-06-28,Denmark,3261132,1865368
 2021-06-28,Djibouti,12547,8810
 2021-06-28,Dominica,20302,19007
 2021-06-28,Dominican Republic,4883358,2770178
@@ -39316,7 +39316,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-29,Cuba,2758893,1169638
 2021-06-29,Cyprus,453823,324112
 2021-06-29,Czechia,5068299,3212997
-2021-06-29,Denmark,3291549,1907597
+2021-06-29,Denmark,3291648,1907614
 2021-06-29,Djibouti,12547,8810
 2021-06-29,Dominica,20302,19007
 2021-06-29,Dominican Republic,4918071,2827967
@@ -39503,7 +39503,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-30,Cuba,2774473,1252751
 2021-06-30,Cyprus,462527,346707
 2021-06-30,Czechia,5095771,3303932
-2021-06-30,Denmark,3324312,1946218
+2021-06-30,Denmark,3324412,1946237
 2021-06-30,Djibouti,12547,8810
 2021-06-30,Dominica,20302,19007
 2021-06-30,Dominican Republic,4949582,2892597
@@ -39690,7 +39690,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-01,Cuba,2797599,1450900
 2021-07-01,Cyprus,462527,346707
 2021-07-01,Czechia,5119731,3393938
-2021-07-01,Denmark,3355997,1986868
+2021-07-01,Denmark,3356099,1986891
 2021-07-01,Djibouti,12547,8810
 2021-07-01,Dominica,20302,19007
 2021-07-01,Dominican Republic,4949582,2892597
@@ -39877,7 +39877,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-02,Cuba,2832316,1559993
 2021-07-02,Cyprus,465528,364250
 2021-07-02,Czechia,5146427,3479736
-2021-07-02,Denmark,3375590,2030920
+2021-07-02,Denmark,3375697,2030947
 2021-07-02,Djibouti,12547,8810
 2021-07-02,Dominica,20390,19548
 2021-07-02,Dominican Republic,4949582,2892597
@@ -40064,7 +40064,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-03,Cuba,2869501,1609454
 2021-07-03,Cyprus,467846,368151
 2021-07-03,Czechia,5153500,3511220
-2021-07-03,Denmark,3387165,2063628
+2021-07-03,Denmark,3387270,2063657
 2021-07-03,Djibouti,12547,8810
 2021-07-03,Dominica,20390,19548
 2021-07-03,Dominican Republic,5019355,3058630
@@ -40251,7 +40251,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-04,Cuba,2897404,1624481
 2021-07-04,Cyprus,467846,368151
 2021-07-04,Czechia,5161052,3532999
-2021-07-04,Denmark,3399981,2092959
+2021-07-04,Denmark,3400090,2092990
 2021-07-04,Djibouti,12547,8810
 2021-07-04,Dominica,20390,19548
 2021-07-04,Dominican Republic,5030094,3089408
@@ -40438,7 +40438,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-05,Cuba,2926788,1634995
 2021-07-05,Cyprus,469213,379996
 2021-07-05,Czechia,5168416,3558350
-2021-07-05,Denmark,3432509,2136052
+2021-07-05,Denmark,3432621,2136082
 2021-07-05,Djibouti,12547,8810
 2021-07-05,Dominica,20390,19548
 2021-07-05,Dominican Republic,5061730,3192086
@@ -40625,7 +40625,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-06,Cuba,2966587,1664980
 2021-07-06,Cyprus,470045,386906
 2021-07-06,Czechia,5173825,3585972
-2021-07-06,Denmark,3472727,2178387
+2021-07-06,Denmark,3472843,2178420
 2021-07-06,Djibouti,12547,8810
 2021-07-06,Dominica,20390,19548
 2021-07-06,Dominican Republic,5097374,3299075
@@ -40812,7 +40812,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-07,Cuba,3002424,1700787
 2021-07-07,Cyprus,471757,395335
 2021-07-07,Czechia,5199606,3664903
-2021-07-07,Denmark,3519116,2218067
+2021-07-07,Denmark,3519236,2218099
 2021-07-07,Djibouti,12547,8810
 2021-07-07,Dominica,20390,19548
 2021-07-07,Dominican Republic,5131732,3403094
@@ -40999,7 +40999,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-08,Cuba,3024565,1739327
 2021-07-08,Cyprus,474819,401438
 2021-07-08,Czechia,5226193,3735173
-2021-07-08,Denmark,3566308,2254968
+2021-07-08,Denmark,3566431,2255000
 2021-07-08,Djibouti,12547,8810
 2021-07-08,Dominica,20390,19548
 2021-07-08,Dominican Republic,5165832,3469190
@@ -41186,7 +41186,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-09,Cuba,3039304,1752137
 2021-07-09,Cyprus,478966,404897
 2021-07-09,Czechia,5254102,3804396
-2021-07-09,Denmark,3611365,2288186
+2021-07-09,Denmark,3611491,2288220
 2021-07-09,Djibouti,12547,8810
 2021-07-09,Dominica,20456,19548
 2021-07-09,Dominican Republic,5198112,3515118
@@ -41373,7 +41373,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-10,Cuba,3045823,1862930
 2021-07-10,Cyprus,479265,407845
 2021-07-10,Czechia,5263445,3832996
-2021-07-10,Denmark,3642114,2309966
+2021-07-10,Denmark,3642239,2310001
 2021-07-10,Djibouti,12547,8810
 2021-07-10,Dominica,20456,19548
 2021-07-10,Dominican Republic,5217103,3536178
@@ -41560,7 +41560,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-11,Cuba,3047144,1894508
 2021-07-11,Cyprus,479265,407845
 2021-07-11,Czechia,5271967,3855848
-2021-07-11,Denmark,3676722,2331981
+2021-07-11,Denmark,3676849,2332015
 2021-07-11,Djibouti,12547,8810
 2021-07-11,Dominica,20456,19548
 2021-07-11,Dominican Republic,5226733,3547663
@@ -41747,7 +41747,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-12,Cuba,3073310,1926776
 2021-07-12,Cyprus,484650,412675
 2021-07-12,Czechia,5299478,3924887
-2021-07-12,Denmark,3712256,2386523
+2021-07-12,Denmark,3712381,2386561
 2021-07-12,Djibouti,12547,8810
 2021-07-12,Dominica,20456,19548
 2021-07-12,Dominican Republic,5246674,3574258
@@ -41934,7 +41934,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-13,Cuba,3152911,1968715
 2021-07-13,Cyprus,488013,415829
 2021-07-13,Czechia,5325651,3994702
-2021-07-13,Denmark,3752987,2436209
+2021-07-13,Denmark,3753112,2436247
 2021-07-13,Djibouti,12547,8810
 2021-07-13,Dominica,20456,19548
 2021-07-13,Dominican Republic,5271104,3604070
@@ -42121,7 +42121,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-14,Cuba,3220481,2014001
 2021-07-14,Cyprus,491156,419220
 2021-07-14,Czechia,5351450,4066624
-2021-07-14,Denmark,3796078,2480967
+2021-07-14,Denmark,3796206,2481012
 2021-07-14,Djibouti,12547,8810
 2021-07-14,Dominica,20456,19548
 2021-07-14,Dominican Republic,5294786,3629728
@@ -42308,7 +42308,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-15,Cuba,3282912,2055163
 2021-07-15,Cyprus,495815,421004
 2021-07-15,Czechia,5380610,4132569
-2021-07-15,Denmark,3829191,2534478
+2021-07-15,Denmark,3829320,2534527
 2021-07-15,Djibouti,12547,8810
 2021-07-15,Dominica,20456,19548
 2021-07-15,Dominican Republic,5316275,3657968
@@ -42495,7 +42495,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-16,Cuba,3331526,2091439
 2021-07-16,Cyprus,495815,421004
 2021-07-16,Czechia,5408522,4205225
-2021-07-16,Denmark,3859274,2577967
+2021-07-16,Denmark,3859403,2578022
 2021-07-16,Djibouti,12547,8810
 2021-07-16,Dominica,20456,19548
 2021-07-16,Dominican Republic,5336442,3692082
@@ -42682,7 +42682,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-17,Cuba,3358752,2108739
 2021-07-17,Cyprus,500856,424614
 2021-07-17,Czechia,5417285,4236626
-2021-07-17,Denmark,3883665,2604383
+2021-07-17,Denmark,3883794,2604440
 2021-07-17,Djibouti,12547,8810
 2021-07-17,Dominica,20456,19548
 2021-07-17,Dominican Republic,5346011,3713656
@@ -42869,7 +42869,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-18,Cuba,3367337,2109050
 2021-07-18,Cyprus,500856,424614
 2021-07-18,Czechia,5425723,4262596
-2021-07-18,Denmark,3904057,2638283
+2021-07-18,Denmark,3904186,2638342
 2021-07-18,Djibouti,12547,8810
 2021-07-18,Dominica,20456,19548
 2021-07-18,Dominican Republic,5350169,3723277
@@ -43056,7 +43056,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-19,Cuba,3386699,2113381
 2021-07-19,Cyprus,505175,428937
 2021-07-19,Czechia,5449065,4329573
-2021-07-19,Denmark,3936660,2692878
+2021-07-19,Denmark,3936793,2692941
 2021-07-19,Djibouti,12547,8810
 2021-07-19,Dominica,20456,19548
 2021-07-19,Dominican Republic,5369886,3780347
@@ -43243,7 +43243,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-20,Cuba,3409164,2119974
 2021-07-20,Cyprus,508507,432891
 2021-07-20,Czechia,5470437,4396556
-2021-07-20,Denmark,3969708,2749357
+2021-07-20,Denmark,3969843,2749424
 2021-07-20,Djibouti,12547,8810
 2021-07-20,Dominica,20456,19548
 2021-07-20,Dominican Republic,5390472,3836969
@@ -43430,7 +43430,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-21,Cuba,3433164,2214648
 2021-07-21,Cyprus,511744,434326
 2021-07-21,Czechia,5493877,4459966
-2021-07-21,Denmark,3999808,2804435
+2021-07-21,Denmark,3999947,2804507
 2021-07-21,Djibouti,12547,8810
 2021-07-21,Dominica,20456,19548
 2021-07-21,Dominican Republic,5411771,3893882
@@ -43617,7 +43617,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-22,Cuba,3452771,2303507
 2021-07-22,Cyprus,514732,436249
 2021-07-22,Czechia,5516228,4518527
-2021-07-22,Denmark,4024197,2856187
+2021-07-22,Denmark,4024336,2856266
 2021-07-22,Djibouti,12547,8810
 2021-07-22,Dominica,20456,19548
 2021-07-22,Dominican Republic,5432072,3944218
@@ -43804,7 +43804,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-23,Cuba,3473316,2390225
 2021-07-23,Cyprus,514732,436249
 2021-07-23,Czechia,5539416,4573209
-2021-07-23,Denmark,4048996,2899821
+2021-07-23,Denmark,4049138,2899904
 2021-07-23,Djibouti,12547,8810
 2021-07-23,Dominica,20784,19550
 2021-07-23,Dominican Republic,5450751,3984498
@@ -43991,7 +43991,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-24,Cuba,3484672,2460919
 2021-07-24,Cyprus,518739,440057
 2021-07-24,Czechia,5546724,4600836
-2021-07-24,Denmark,4066579,2923500
+2021-07-24,Denmark,4066720,2923583
 2021-07-24,Djibouti,12547,8810
 2021-07-24,Dominica,20784,19550
 2021-07-24,Dominican Republic,5458029,3996388
@@ -44178,7 +44178,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-25,Cuba,3491529,2464430
 2021-07-25,Cyprus,518739,440725
 2021-07-25,Czechia,5553336,4622933
-2021-07-25,Denmark,4080003,2955052
+2021-07-25,Denmark,4080146,2955135
 2021-07-25,Djibouti,12547,8810
 2021-07-25,Dominica,20784,19550
 2021-07-25,Dominican Republic,5459382,3999041
@@ -44365,7 +44365,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-26,Cuba,3496617,2469344
 2021-07-26,Cyprus,518739,440725
 2021-07-26,Czechia,5576865,4671555
-2021-07-26,Denmark,4105051,2997117
+2021-07-26,Denmark,4105197,2997209
 2021-07-26,Djibouti,12547,8810
 2021-07-26,Dominica,20784,19550
 2021-07-26,Dominican Republic,5473614,4036927
@@ -44552,7 +44552,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-27,Cuba,3500505,2536149
 2021-07-27,Cyprus,526537,443540
 2021-07-27,Czechia,5599583,4718120
-2021-07-27,Denmark,4128194,3041918
+2021-07-27,Denmark,4128344,3042011
 2021-07-27,Djibouti,12547,8810
 2021-07-27,Dominica,20784,19550
 2021-07-27,Dominican Republic,5491708,4088555
@@ -44739,7 +44739,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-28,Cuba,3504781,2560173
 2021-07-28,Cyprus,528889,446017
 2021-07-28,Czechia,5620825,4764036
-2021-07-28,Denmark,4147233,3085222
+2021-07-28,Denmark,4147385,3085321
 2021-07-28,Djibouti,12547,8810
 2021-07-28,Dominica,20784,19550
 2021-07-28,Dominican Republic,5508883,4139202
@@ -44926,7 +44926,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-29,Cuba,3504781,2560173
 2021-07-29,Cyprus,530879,449525
 2021-07-29,Czechia,5642139,4805922
-2021-07-29,Denmark,4166097,3124273
+2021-07-29,Denmark,4166257,3124377
 2021-07-29,Djibouti,12547,8810
 2021-07-29,Dominica,20784,19550
 2021-07-29,Dominican Republic,5524571,4174568
@@ -45113,7 +45113,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-30,Cuba,3833448,2620050
 2021-07-30,Cyprus,530879,449525
 2021-07-30,Czechia,5665405,4848412
-2021-07-30,Denmark,4180339,3159049
+2021-07-30,Denmark,4180500,3159157
 2021-07-30,Djibouti,12547,8810
 2021-07-30,Dominica,20892,19661
 2021-07-30,Dominican Republic,5538092,4205772
@@ -45300,7 +45300,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-31,Cuba,4020594,2655387
 2021-07-31,Cyprus,530879,449525
 2021-07-31,Czechia,5674324,4867915
-2021-07-31,Denmark,4186834,3179089
+2021-07-31,Denmark,4186996,3179199
 2021-07-31,Djibouti,12547,8810
 2021-07-31,Dominica,20892,19661
 2021-07-31,Dominican Republic,5543146,4215901
@@ -45487,7 +45487,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-01,Cuba,4155261,2680468
 2021-08-01,Cyprus,530879,449525
 2021-08-01,Czechia,5681037,4884061
-2021-08-01,Denmark,4195656,3198288
+2021-08-01,Denmark,4195818,3198399
 2021-08-01,Djibouti,12547,8810
 2021-08-01,Dominica,20892,19661
 2021-08-01,Dominican Republic,5545143,4219737
@@ -45674,7 +45674,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-02,Cuba,4329598,2682722
 2021-08-02,Cyprus,534809,459581
 2021-08-02,Czechia,5699654,4921556
-2021-08-02,Denmark,4212036,3238958
+2021-08-02,Denmark,4212202,3239075
 2021-08-02,Djibouti,12547,8810
 2021-08-02,Dominica,20892,19661
 2021-08-02,Dominican Republic,5558518,4250852
@@ -45861,7 +45861,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-03,Cuba,4456437,2745421
 2021-08-03,Cyprus,537939,463108
 2021-08-03,Czechia,5717276,4959605
-2021-08-03,Denmark,4225583,3282019
+2021-08-03,Denmark,4225752,3282140
 2021-08-03,Djibouti,31528,8810
 2021-08-03,Dominica,20892,19661
 2021-08-03,Dominican Republic,5572496,4282396
@@ -46048,7 +46048,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-04,Cuba,4539788,2777719
 2021-08-04,Cyprus,541654,465901
 2021-08-04,Czechia,5733359,4996287
-2021-08-04,Denmark,4237033,3326587
+2021-08-04,Denmark,4237202,3326709
 2021-08-04,Djibouti,31528,8810
 2021-08-04,Dominica,20892,19661
 2021-08-04,Dominican Republic,5586823,4312006
@@ -46235,7 +46235,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-05,Cuba,4597637,2798129
 2021-08-05,Cyprus,544375,469776
 2021-08-05,Czechia,5749382,5036709
-2021-08-05,Denmark,4248529,3366464
+2021-08-05,Denmark,4248699,3366588
 2021-08-05,Djibouti,31528,18981
 2021-08-05,Dominica,20892,19661
 2021-08-05,Dominican Republic,5600470,4337509
@@ -46422,7 +46422,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-06,Cuba,4641222,2813690
 2021-08-06,Cyprus,544375,469776
 2021-08-06,Czechia,5766158,5079938
-2021-08-06,Denmark,4258529,3406419
+2021-08-06,Denmark,4258701,3406546
 2021-08-06,Djibouti,31528,18981
 2021-08-06,Dominica,20892,19661
 2021-08-06,Dominican Republic,5612488,4358673
@@ -46609,7 +46609,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-07,Cuba,4666161,2820354
 2021-08-07,Cyprus,547497,473909
 2021-08-07,Czechia,5771748,5098076
-2021-08-07,Denmark,4266293,3433335
+2021-08-07,Denmark,4266467,3433463
 2021-08-07,Djibouti,31528,18981
 2021-08-07,Dominica,20892,19661
 2021-08-07,Dominican Republic,5617370,4366182
@@ -46796,7 +46796,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-08,Cuba,4675034,2821478
 2021-08-08,Cyprus,547497,473909
 2021-08-08,Czechia,5776101,5113809
-2021-08-08,Denmark,4270413,3469201
+2021-08-08,Denmark,4270586,3469331
 2021-08-08,Djibouti,31528,18981
 2021-08-08,Dominica,20892,19661
 2021-08-08,Dominican Republic,5619234,4369473
@@ -46983,7 +46983,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-09,Cuba,4692604,2847661
 2021-08-09,Cyprus,550138,477542
 2021-08-09,Czechia,5788734,5158816
-2021-08-09,Denmark,4280439,3524607
+2021-08-09,Denmark,4280612,3524737
 2021-08-09,Djibouti,31528,18981
 2021-08-09,Dominica,20892,19661
 2021-08-09,Dominican Republic,5631732,4391693
@@ -47170,7 +47170,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-10,Cuba,4714451,2898039
 2021-08-10,Cyprus,551313,480910
 2021-08-10,Czechia,5800561,5198335
-2021-08-10,Denmark,4290366,3579299
+2021-08-10,Denmark,4290538,3579432
 2021-08-10,Djibouti,31528,18981
 2021-08-10,Dominica,20892,19661
 2021-08-10,Dominican Republic,5645781,4417043
@@ -47357,7 +47357,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-11,Cuba,4726170,2944163
 2021-08-11,Cyprus,552214,484450
 2021-08-11,Czechia,5811916,5241418
-2021-08-11,Denmark,4296624,3636796
+2021-08-11,Denmark,4296804,3636927
 2021-08-11,Djibouti,31528,18981
 2021-08-11,Dominica,20892,19661
 2021-08-11,Dominican Republic,5652804,4429487
@@ -47544,7 +47544,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-12,Cuba,4752082,2990494
 2021-08-12,Cyprus,553943,486972
 2021-08-12,Czechia,5823330,5278496
-2021-08-12,Denmark,4302648,3686873
+2021-08-12,Denmark,4302835,3687008
 2021-08-12,Djibouti,32548,20516
 2021-08-12,Dominica,20892,19661
 2021-08-12,Dominican Republic,5657720,4438630
@@ -47731,7 +47731,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-13,Cuba,4788750,3015945
 2021-08-13,Cyprus,556568,490742
 2021-08-13,Czechia,5834049,5318792
-2021-08-13,Denmark,4309098,3733743
+2021-08-13,Denmark,4309286,3733881
 2021-08-13,Djibouti,32548,20516
 2021-08-13,Dominica,20892,19661
 2021-08-13,Dominican Republic,5667626,4455264
@@ -47918,7 +47918,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-14,Cuba,4819327,3037064
 2021-08-14,Cyprus,556568,490742
 2021-08-14,Czechia,5837384,5329470
-2021-08-14,Denmark,4313432,3769024
+2021-08-14,Denmark,4313622,3769164
 2021-08-14,Djibouti,32548,20516
 2021-08-14,Dominica,20892,19661
 2021-08-14,Dominican Republic,5671374,4461013
@@ -48105,7 +48105,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-15,Cuba,4835460,3037069
 2021-08-15,Cyprus,556568,490742
 2021-08-15,Czechia,5839967,5339826
-2021-08-15,Denmark,4317947,3806437
+2021-08-15,Denmark,4318138,3806579
 2021-08-15,Djibouti,32548,20516
 2021-08-15,Dominica,20892,19661
 2021-08-15,Dominican Republic,5672584,4462896
@@ -48292,7 +48292,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-16,Cuba,4854330,3047933
 2021-08-16,Cyprus,557676,493794
 2021-08-16,Czechia,5849750,5373863
-2021-08-16,Denmark,4325218,3851463
+2021-08-16,Denmark,4325409,3851607
 2021-08-16,Djibouti,32548,20516
 2021-08-16,Dominica,20892,19661
 2021-08-16,Dominican Republic,5672922,4463319
@@ -48479,7 +48479,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-17,Cuba,4874336,3066844
 2021-08-17,Cyprus,558543,497540
 2021-08-17,Czechia,5859337,5400926
-2021-08-17,Denmark,4332403,3889140
+2021-08-17,Denmark,4332596,3889285
 2021-08-17,Djibouti,32548,20516
 2021-08-17,Dominica,20892,19661
 2021-08-17,Dominican Republic,5683833,4480873
@@ -48666,7 +48666,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-18,Cuba,4889081,3085785
 2021-08-18,Cyprus,561189,499491
 2021-08-18,Czechia,5868704,5439766
-2021-08-18,Denmark,4337966,3925734
+2021-08-18,Denmark,4338159,3925882
 2021-08-18,Djibouti,32548,20516
 2021-08-18,Dominica,20892,19661
 2021-08-18,Dominican Republic,5696721,4501030
@@ -48853,7 +48853,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-19,Cuba,4900864,3093593
 2021-08-19,Cyprus,561189,499491
 2021-08-19,Czechia,5878363,5478085
-2021-08-19,Denmark,4344167,3952236
+2021-08-19,Denmark,4344365,3952386
 2021-08-19,Djibouti,33388,20841
 2021-08-19,Dominica,20892,19661
 2021-08-19,Dominican Republic,5709646,4520504
@@ -49040,7 +49040,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-20,Cuba,4911004,3118412
 2021-08-20,Cyprus,564903,504059
 2021-08-20,Czechia,5889745,5518248
-2021-08-20,Denmark,4349142,3981001
+2021-08-20,Denmark,4349341,3981155
 2021-08-20,Djibouti,33388,20841
 2021-08-20,Dominica,21548,19887
 2021-08-20,Dominican Republic,5719571,4534518
@@ -49227,7 +49227,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-21,Cuba,4951522,3127996
 2021-08-21,Cyprus,564904,504219
 2021-08-21,Czechia,5892461,5530986
-2021-08-21,Denmark,4353684,4000682
+2021-08-21,Denmark,4353883,4000836
 2021-08-21,Djibouti,33388,20841
 2021-08-21,Dominica,21548,19887
 2021-08-21,Dominican Republic,5723752,4540737
@@ -49414,7 +49414,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-22,Cuba,5014831,3132266
 2021-08-22,Cyprus,564904,504219
 2021-08-22,Czechia,5894800,5542939
-2021-08-22,Denmark,4356723,4016859
+2021-08-22,Denmark,4356921,4017013
 2021-08-22,Djibouti,33388,20841
 2021-08-22,Dominica,21548,19887
 2021-08-22,Dominican Republic,5725316,4543100
@@ -49601,7 +49601,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-23,Cuba,5098998,3138256
 2021-08-23,Cyprus,564904,504219
 2021-08-23,Czechia,5905328,5582175
-2021-08-23,Denmark,4362408,4047222
+2021-08-23,Denmark,4362606,4047377
 2021-08-23,Djibouti,33388,20841
 2021-08-23,Dominica,21548,19887
 2021-08-23,Dominican Republic,5737876,4559262
@@ -49788,7 +49788,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-24,Cuba,5206008,3165387
 2021-08-24,Cyprus,564904,504219
 2021-08-24,Czechia,5915193,5615397
-2021-08-24,Denmark,4368234,4075895
+2021-08-24,Denmark,4368433,4076050
 2021-08-24,Djibouti,33388,20841
 2021-08-24,Dominica,21548,19887
 2021-08-24,Dominican Republic,5751312,4576556
@@ -49975,7 +49975,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-25,Cuba,5288125,3171886
 2021-08-25,Cyprus,564904,504219
 2021-08-25,Czechia,5924056,5643743
-2021-08-25,Denmark,4373208,4094669
+2021-08-25,Denmark,4373407,4094823
 2021-08-25,Djibouti,35396,22849
 2021-08-25,Dominica,21548,19887
 2021-08-25,Dominican Republic,5764675,4594526
@@ -50162,7 +50162,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-26,Cuba,5363604,3288559
 2021-08-26,Cyprus,570003,515011
 2021-08-26,Czechia,5932495,5669848
-2021-08-26,Denmark,4377704,4113086
+2021-08-26,Denmark,4377904,4113241
 2021-08-26,Djibouti,35396,22849
 2021-08-26,Dominica,21548,19887
 2021-08-26,Dominican Republic,5776328,4609868
@@ -50349,7 +50349,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-27,Cuba,5416339,3402549
 2021-08-27,Cyprus,570003,515011
 2021-08-27,Czechia,5942808,5695771
-2021-08-27,Denmark,4382345,4133480
+2021-08-27,Denmark,4382547,4133638
 2021-08-27,Djibouti,35396,22849
 2021-08-27,Dominica,22343,20186
 2021-08-27,Dominican Republic,5787089,4623226
@@ -50536,7 +50536,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-28,Cuba,5449480,3553363
 2021-08-28,Cyprus,570003,515011
 2021-08-28,Czechia,5945530,5702802
-2021-08-28,Denmark,4385060,4143510
+2021-08-28,Denmark,4385264,4143670
 2021-08-28,Djibouti,35396,22849
 2021-08-28,Dominica,22343,20186
 2021-08-28,Dominican Republic,5790794,4628273
@@ -50723,7 +50723,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-29,Cuba,5469367,3663808
 2021-08-29,Cyprus,570003,515011
 2021-08-29,Czechia,5947933,5709414
-2021-08-29,Denmark,4387467,4155242
+2021-08-29,Denmark,4387672,4155402
 2021-08-29,Djibouti,35396,22849
 2021-08-29,Dominica,22343,20186
 2021-08-29,Dominican Republic,5792064,4629910
@@ -50910,7 +50910,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-30,Cuba,5503206,3792398
 2021-08-30,Cyprus,573924,520476
 2021-08-30,Czechia,5956451,5731263
-2021-08-30,Denmark,4391569,4179801
+2021-08-30,Denmark,4391775,4179963
 2021-08-30,Djibouti,35396,22849
 2021-08-30,Dominica,22343,20186
 2021-08-30,Dominican Republic,5802974,4643779
@@ -51097,7 +51097,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-31,Cuba,5552931,3916641
 2021-08-31,Cyprus,573924,520476
 2021-08-31,Czechia,5964117,5749322
-2021-08-31,Denmark,4395243,4196943
+2021-08-31,Denmark,4395448,4197107
 2021-08-31,Djibouti,35396,22849
 2021-08-31,Dominica,22343,20186
 2021-08-31,Dominican Republic,5815574,4658577
@@ -51284,7 +51284,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-01,Cuba,5672635,3995569
 2021-09-01,Cyprus,575773,522561
 2021-09-01,Czechia,5969997,5763295
-2021-09-01,Denmark,4398226,4207548
+2021-09-01,Denmark,4398431,4207716
 2021-09-01,Djibouti,36344,23797
 2021-09-01,Dominica,22343,20186
 2021-09-01,Dominican Republic,5827045,4671784
@@ -51471,7 +51471,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-02,Cuba,5672635,3995569
 2021-09-02,Cyprus,576637,524397
 2021-09-02,Czechia,5976826,5777665
-2021-09-02,Denmark,4401149,4217632
+2021-09-02,Denmark,4401357,4217802
 2021-09-02,Djibouti,36344,23797
 2021-09-02,Dominica,22343,20186
 2021-09-02,Dominican Republic,5838647,4684130
@@ -51658,7 +51658,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-03,Cuba,5797251,4091506
 2021-09-03,Cyprus,578477,527007
 2021-09-03,Czechia,5986380,5793354
-2021-09-03,Denmark,4403812,4226499
+2021-09-03,Denmark,4404021,4226671
 2021-09-03,Djibouti,36344,23797
 2021-09-03,Dominica,22559,20278
 2021-09-03,Dominican Republic,5848770,4694576
@@ -51845,7 +51845,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-04,Cuba,5837080,4114722
 2021-09-04,Cyprus,578477,527007
 2021-09-04,Czechia,5988443,5796901
-2021-09-04,Denmark,4405647,4233782
+2021-09-04,Denmark,4405856,4233956
 2021-09-04,Djibouti,36344,23797
 2021-09-04,Dominica,22559,20278
 2021-09-04,Dominican Republic,5852088,4698661
@@ -52032,7 +52032,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-05,Cuba,5837080,4114722
 2021-09-05,Cyprus,578477,527007
 2021-09-05,Czechia,5990476,5799742
-2021-09-05,Denmark,4407756,4239759
+2021-09-05,Denmark,4407966,4239933
 2021-09-05,Djibouti,36344,23797
 2021-09-05,Dominica,22559,20278
 2021-09-05,Dominican Republic,5853238,4699926
@@ -52219,7 +52219,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-06,Cuba,5837080,4114722
 2021-09-06,Cyprus,581422,528622
 2021-09-06,Czechia,5996703,5812254
-2021-09-06,Denmark,4409917,4249192
+2021-09-06,Denmark,4410127,4249368
 2021-09-06,Djibouti,36344,23797
 2021-09-06,Dominica,22559,20278
 2021-09-06,Dominican Republic,5864778,4710022
@@ -52406,7 +52406,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-07,Cuba,6104513,4171907
 2021-09-07,Cyprus,581422,528622
 2021-09-07,Czechia,6001083,5823342
-2021-09-07,Denmark,4412162,4257202
+2021-09-07,Denmark,4412371,4257379
 2021-09-07,Djibouti,36344,23797
 2021-09-07,Dominica,22559,20278
 2021-09-07,Dominican Republic,5876522,4721182
@@ -52593,7 +52593,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-08,Cuba,6297598,4197697
 2021-09-08,Cyprus,583768,531745
 2021-09-08,Czechia,6006743,5833173
-2021-09-08,Denmark,4414477,4264033
+2021-09-08,Denmark,4414686,4264211
 2021-09-08,Djibouti,36344,23797
 2021-09-08,Dominica,22559,20278
 2021-09-08,Dominican Republic,5888643,4733550
@@ -52780,7 +52780,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-09,Cuba,6499906,4222992
 2021-09-09,Cyprus,584336,533057
 2021-09-09,Czechia,6013421,5843224
-2021-09-09,Denmark,4416437,4270243
+2021-09-09,Denmark,4416649,4270422
 2021-09-09,Djibouti,38634,26087
 2021-09-09,Dominica,22559,20278
 2021-09-09,Dominican Republic,5899155,4744602
@@ -52967,7 +52967,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-10,Cuba,6784652,4258396
 2021-09-10,Cyprus,584336,533057
 2021-09-10,Czechia,6021104,5855390
-2021-09-10,Denmark,4418569,4277808
+2021-09-10,Denmark,4418784,4277993
 2021-09-10,Djibouti,38634,26087
 2021-09-10,Dominica,22930,20464
 2021-09-10,Dominican Republic,5908816,4754536
@@ -53154,7 +53154,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-11,Cuba,6966314,4286629
 2021-09-11,Cyprus,586138,535584
 2021-09-11,Czechia,6022965,5857864
-2021-09-11,Denmark,4420397,4283596
+2021-09-11,Denmark,4420612,4283782
 2021-09-11,Djibouti,38634,26087
 2021-09-11,Dominica,22930,20464
 2021-09-11,Dominican Republic,5912118,4757982
@@ -53341,7 +53341,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-12,Cuba,7031689,4304691
 2021-09-12,Cyprus,586138,535584
 2021-09-12,Czechia,6024079,5859487
-2021-09-12,Denmark,4421754,4288503
+2021-09-12,Denmark,4421969,4288688
 2021-09-12,Djibouti,38634,26087
 2021-09-12,Dominica,22930,20464
 2021-09-12,Dominican Republic,5913137,4759116
@@ -53528,7 +53528,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-13,Cuba,7141985,4325605
 2021-09-13,Cyprus,587429,537357
 2021-09-13,Czechia,6029501,5869769
-2021-09-13,Denmark,4423664,4295231
+2021-09-13,Denmark,4423879,4295418
 2021-09-13,Djibouti,38634,26087
 2021-09-13,Dominica,22930,20464
 2021-09-13,Dominican Republic,5923466,4769499
@@ -53715,7 +53715,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-14,Cuba,7283961,4386783
 2021-09-14,Cyprus,588112,538439
 2021-09-14,Czechia,6034882,5878771
-2021-09-14,Denmark,4425454,4300756
+2021-09-14,Denmark,4425670,4300943
 2021-09-14,Djibouti,38634,26087
 2021-09-14,Dominica,22930,20464
 2021-09-14,Dominican Republic,5934452,4780400
@@ -53902,7 +53902,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-15,Cuba,7461666,4444521
 2021-09-15,Cyprus,588545,539446
 2021-09-15,Czechia,6040071,5887286
-2021-09-15,Denmark,4427203,4306462
+2021-09-15,Denmark,4427420,4306649
 2021-09-15,Djibouti,39923,26087
 2021-09-15,Dominica,22930,20464
 2021-09-15,Dominican Republic,5945357,4791169
@@ -54089,7 +54089,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-16,Cuba,7708885,4457783
 2021-09-16,Cyprus,589098,540567
 2021-09-16,Czechia,6045412,5895546
-2021-09-16,Denmark,4428861,4311182
+2021-09-16,Denmark,4429078,4311371
 2021-09-16,Djibouti,39923,26087
 2021-09-16,Dominica,22930,20464
 2021-09-16,Dominican Republic,5957432,4802290
@@ -54276,7 +54276,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-17,Cuba,7904075,4472022
 2021-09-17,Cyprus,589098,540567
 2021-09-17,Czechia,6051978,5905762
-2021-09-17,Denmark,4430476,4316109
+2021-09-17,Denmark,4430693,4316298
 2021-09-17,Djibouti,39923,26087
 2021-09-17,Dominica,23300,20671
 2021-09-17,Dominican Republic,5970547,4813036
@@ -54463,7 +54463,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-18,Cuba,8200250,4507757
 2021-09-18,Cyprus,589098,540567
 2021-09-18,Czechia,6053700,5908112
-2021-09-18,Denmark,4431598,4319795
+2021-09-18,Denmark,4431815,4319986
 2021-09-18,Djibouti,39923,26087
 2021-09-18,Dominica,23300,20671
 2021-09-18,Dominican Republic,5974744,4816740
@@ -54650,7 +54650,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-19,Cuba,8377546,4568048
 2021-09-19,Cyprus,589098,540567
 2021-09-19,Czechia,6054641,5909676
-2021-09-19,Denmark,4432597,4322886
+2021-09-19,Denmark,4432814,4323080
 2021-09-19,Djibouti,39923,26087
 2021-09-19,Dominica,23300,20671
 2021-09-19,Dominican Republic,5976376,4818161
@@ -54837,7 +54837,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-20,Cuba,8537572,4655726
 2021-09-20,Cyprus,589098,540567
 2021-09-20,Czechia,6058650,5917862
-2021-09-20,Denmark,4434329,4329106
+2021-09-20,Denmark,4434546,4329301
 2021-09-20,Djibouti,39923,26087
 2021-09-20,Dominica,23300,20671
 2021-09-20,Dominican Republic,5990085,4828158
@@ -55024,7 +55024,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-21,Cuba,8635392,4729445
 2021-09-21,Cyprus,592186,545946
 2021-09-21,Czechia,6062873,5925387
-2021-09-21,Denmark,4435793,4333783
+2021-09-21,Denmark,4436010,4333978
 2021-09-21,Djibouti,39923,26087
 2021-09-21,Dominica,23300,20671
 2021-09-21,Dominican Republic,6002963,4839454
@@ -55211,7 +55211,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-22,Cuba,8737060,4793101
 2021-09-22,Cyprus,592382,546812
 2021-09-22,Czechia,6067049,5930894
-2021-09-22,Denmark,4437273,4337794
+2021-09-22,Denmark,4437492,4337990
 2021-09-22,Djibouti,41142,26087
 2021-09-22,Dominica,23300,20671
 2021-09-22,Dominican Republic,6014185,4849827
@@ -55398,7 +55398,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-23,Cuba,8815520,4862226
 2021-09-23,Cyprus,592694,547741
 2021-09-23,Czechia,6072022,5937293
-2021-09-23,Denmark,4438472,4341316
+2021-09-23,Denmark,4438692,4341513
 2021-09-23,Djibouti,41142,26087
 2021-09-23,Dominica,23300,20671
 2021-09-23,Dominican Republic,6024702,4860422
@@ -55585,7 +55585,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-24,Cuba,8879811,4913404
 2021-09-24,Cyprus,592694,547741
 2021-09-24,Czechia,6077774,5946900
-2021-09-24,Denmark,4439653,4344887
+2021-09-24,Denmark,4439874,4345085
 2021-09-24,Djibouti,41142,26087
 2021-09-24,Dominica,23615,21009
 2021-09-24,Dominican Republic,6027322,4862748
@@ -55772,7 +55772,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-25,Cuba,8973362,4942869
 2021-09-25,Cyprus,592694,547741
 2021-09-25,Czechia,6079265,5948886
-2021-09-25,Denmark,4440547,4347211
+2021-09-25,Denmark,4440769,4347409
 2021-09-25,Djibouti,41142,26087
 2021-09-25,Dominica,23615,21009
 2021-09-25,Dominican Republic,6030532,4866030
@@ -55959,7 +55959,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-26,Cuba,9048689,4955621
 2021-09-26,Cyprus,592694,547741
 2021-09-26,Czechia,6080005,5950516
-2021-09-26,Denmark,4441374,4349999
+2021-09-26,Denmark,4441596,4350197
 2021-09-26,Djibouti,41142,26087
 2021-09-26,Dominica,23615,21009
 2021-09-26,Dominican Republic,6032542,4867470
@@ -56146,7 +56146,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-27,Cuba,9153935,4990546
 2021-09-27,Cyprus,594545,552465
 2021-09-27,Czechia,6083880,5957009
-2021-09-27,Denmark,4442476,4353311
+2021-09-27,Denmark,4442699,4353512
 2021-09-27,Djibouti,41142,26087
 2021-09-27,Dominica,23615,21009
 2021-09-27,Dominican Republic,6042570,4877470
@@ -56333,7 +56333,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-28,Cuba,9263108,5033023
 2021-09-28,Cyprus,594545,552465
 2021-09-28,Czechia,6084238,5957614
-2021-09-28,Denmark,4443692,4356681
+2021-09-28,Denmark,4443915,4356883
 2021-09-28,Djibouti,41142,26087
 2021-09-28,Dominica,23615,21009
 2021-09-28,Dominican Republic,6052230,4887765
@@ -56520,7 +56520,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-29,Cuba,9331789,5073888
 2021-09-29,Cyprus,594999,554686
 2021-09-29,Czechia,6088009,5965059
-2021-09-29,Denmark,4444963,4359994
+2021-09-29,Denmark,4445186,4360197
 2021-09-29,Djibouti,41142,26087
 2021-09-29,Dominica,23615,21009
 2021-09-29,Dominican Republic,6060747,4897590
@@ -56707,7 +56707,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-30,Cuba,9434924,5146950
 2021-09-30,Cyprus,594999,554686
 2021-09-30,Czechia,6092505,5972748
-2021-09-30,Denmark,4446063,4362602
+2021-09-30,Denmark,4446287,4362805
 2021-09-30,Djibouti,41142,26087
 2021-09-30,Dominica,23615,21009
 2021-09-30,Dominican Republic,6069351,4907894
@@ -56894,7 +56894,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-01,Cuba,9477620,5207046
 2021-10-01,Cyprus,594999,554686
 2021-10-01,Czechia,6096793,5980705
-2021-10-01,Denmark,4447095,4365082
+2021-10-01,Denmark,4447322,4365286
 2021-10-01,Djibouti,41142,26087
 2021-10-01,Dominica,25127,21567
 2021-10-01,Dominican Republic,6077562,4916798
@@ -57081,7 +57081,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-02,Cuba,9494757,5234380
 2021-10-02,Cyprus,596199,556852
 2021-10-02,Czechia,6097853,5982241
-2021-10-02,Denmark,4447801,4366667
+2021-10-02,Denmark,4448028,4366872
 2021-10-02,Djibouti,41142,26087
 2021-10-02,Dominica,25127,21567
 2021-10-02,Dominican Republic,6080965,4920361
@@ -57268,7 +57268,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-03,Cuba,9500116,5245735
 2021-10-03,Cyprus,596199,556852
 2021-10-03,Czechia,6098570,5983104
-2021-10-03,Denmark,4448242,4367797
+2021-10-03,Denmark,4448469,4368003
 2021-10-03,Djibouti,41142,26087
 2021-10-03,Dominica,25127,21567
 2021-10-03,Dominican Republic,6082093,4921450
@@ -57455,7 +57455,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-04,Cuba,9524916,5318954
 2021-10-04,Cyprus,596199,556852
 2021-10-04,Czechia,6101640,5988667
-2021-10-04,Denmark,4449024,4369446
+2021-10-04,Denmark,4449252,4369652
 2021-10-04,Djibouti,41142,26087
 2021-10-04,Dominica,25127,21567
 2021-10-04,Dominican Republic,6089400,4928726
@@ -57642,7 +57642,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-05,Cuba,9550053,5444754
 2021-10-05,Cyprus,596887,559121
 2021-10-05,Czechia,6104795,5993729
-2021-10-05,Denmark,4450220,4371797
+2021-10-05,Denmark,4450450,4372003
 2021-10-05,Djibouti,41142,26087
 2021-10-05,Dominica,25127,21567
 2021-10-05,Dominican Republic,6098359,4938094
@@ -57829,7 +57829,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-06,Cuba,9571923,5606045
 2021-10-06,Cyprus,596887,559121
 2021-10-06,Czechia,6108303,5998885
-2021-10-06,Denmark,4451570,4374192
+2021-10-06,Denmark,4451800,4374399
 2021-10-06,Djibouti,41142,26087
 2021-10-06,Dominica,25127,21567
 2021-10-06,Dominican Republic,6107063,4947154
@@ -58016,7 +58016,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-07,Cuba,9593695,5769198
 2021-10-07,Cyprus,597414,560123
 2021-10-07,Czechia,6111573,6004129
-2021-10-07,Denmark,4452483,4376009
+2021-10-07,Denmark,4452714,4376216
 2021-10-07,Djibouti,41142,26087
 2021-10-07,Dominica,25127,21567
 2021-10-07,Dominican Republic,6115991,4956157
@@ -58203,7 +58203,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-08,Cuba,9613466,6117779
 2021-10-08,Cyprus,597414,560123
 2021-10-08,Czechia,6116355,6010748
-2021-10-08,Denmark,4453565,4378003
+2021-10-08,Denmark,4453795,4378211
 2021-10-08,Djibouti,41142,26087
 2021-10-08,Dominica,26294,21797
 2021-10-08,Dominican Republic,6123862,4964932
@@ -58390,7 +58390,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-09,Cuba,9623676,6184534
 2021-10-09,Cyprus,597414,560123
 2021-10-09,Czechia,6117596,6012398
-2021-10-09,Denmark,4454305,4379674
+2021-10-09,Denmark,4454535,4379883
 2021-10-09,Djibouti,41142,26087
 2021-10-09,Dominica,26294,21797
 2021-10-09,Dominican Republic,6130558,4970581
@@ -58577,7 +58577,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-10,Cuba,9628835,6238972
 2021-10-10,Cyprus,598723,562207
 2021-10-10,Czechia,6118536,6013227
-2021-10-10,Denmark,4454743,4380513
+2021-10-10,Denmark,4454974,4380723
 2021-10-10,Djibouti,41142,26087
 2021-10-10,Dominica,26294,21797
 2021-10-10,Dominican Republic,6134235,4973191
@@ -58764,7 +58764,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-11,Cuba,9636551,6355943
 2021-10-11,Cyprus,599052,563053
 2021-10-11,Czechia,6121465,6017634
-2021-10-11,Denmark,4455501,4381893
+2021-10-11,Denmark,4455732,4382104
 2021-10-11,Djibouti,41142,26087
 2021-10-11,Dominica,26294,21797
 2021-10-11,Dominican Republic,6155094,4988709
@@ -58951,7 +58951,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-12,Cuba,9654453,6500743
 2021-10-12,Cyprus,599337,563454
 2021-10-12,Czechia,6124384,6021626
-2021-10-12,Denmark,4456652,4384158
+2021-10-12,Denmark,4456883,4384370
 2021-10-12,Djibouti,41142,26087
 2021-10-12,Dominica,26294,21797
 2021-10-12,Dominican Republic,6177844,5006400
@@ -59138,7 +59138,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-13,Cuba,9671500,6611807
 2021-10-13,Cyprus,599337,563454
 2021-10-13,Czechia,6127917,6025806
-2021-10-13,Denmark,4457781,4386147
+2021-10-13,Denmark,4458012,4386361
 2021-10-13,Djibouti,41142,26087
 2021-10-13,Dominica,26294,21797
 2021-10-13,Dominican Republic,6202706,5027184
@@ -59325,7 +59325,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-14,Cuba,9688764,6689090
 2021-10-14,Cyprus,599781,564181
 2021-10-14,Czechia,6131590,6030744
-2021-10-14,Denmark,4458620,4387791
+2021-10-14,Denmark,4458851,4388003
 2021-10-14,Djibouti,41142,26087
 2021-10-14,Dominica,26294,21797
 2021-10-14,Dominican Republic,6234415,5050180
@@ -59512,7 +59512,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-15,Cuba,9704167,6748348
 2021-10-15,Cyprus,599781,564181
 2021-10-15,Czechia,6136817,6036873
-2021-10-15,Denmark,4459672,4389530
+2021-10-15,Denmark,4459904,4389742
 2021-10-15,Djibouti,41142,26087
 2021-10-15,Dominica,26806,22024
 2021-10-15,Dominican Republic,6270413,5071130
@@ -59699,7 +59699,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-16,Cuba,9713978,6777771
 2021-10-16,Cyprus,599781,564181
 2021-10-16,Czechia,6138225,6038389
-2021-10-16,Denmark,4460340,4390586
+2021-10-16,Denmark,4460572,4390798
 2021-10-16,Djibouti,41142,26087
 2021-10-16,Dominica,26806,22024
 2021-10-16,Dominican Republic,6290568,5082077
@@ -59886,7 +59886,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-17,Cuba,9719850,6790452
 2021-10-17,Cyprus,599781,564181
 2021-10-17,Czechia,6139544,6039442
-2021-10-17,Denmark,4460699,4391293
+2021-10-17,Denmark,4460931,4391506
 2021-10-17,Djibouti,41142,26087
 2021-10-17,Dominica,26806,22024
 2021-10-17,Dominican Republic,6304282,5088396
@@ -60073,7 +60073,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-18,Cuba,9734489,6820549
 2021-10-18,Cyprus,599781,564181
 2021-10-18,Czechia,6143655,6043533
-2021-10-18,Denmark,4461487,4392331
+2021-10-18,Denmark,4461718,4392545
 2021-10-18,Djibouti,41142,26087
 2021-10-18,Dominica,26806,22024
 2021-10-18,Dominican Republic,6372529,5121120
@@ -60260,7 +60260,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-19,Cuba,9750407,6857060
 2021-10-19,Cyprus,601435,566531
 2021-10-19,Czechia,6147230,6045617
-2021-10-19,Denmark,4462635,4393988
+2021-10-19,Denmark,4462866,4394202
 2021-10-19,Djibouti,41142,26087
 2021-10-19,Dominica,26806,22024
 2021-10-19,Dominican Republic,6449174,5158185
@@ -60447,7 +60447,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-20,Cuba,9764590,6895689
 2021-10-20,Cyprus,601675,566820
 2021-10-20,Czechia,6152096,6050062
-2021-10-20,Denmark,4463832,4395552
+2021-10-20,Denmark,4464065,4395766
 2021-10-20,Djibouti,41142,26087
 2021-10-20,Dominica,26806,22024
 2021-10-20,Dominican Republic,6515080,5190840
@@ -60634,7 +60634,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-21,Cuba,9780864,6939289
 2021-10-21,Cyprus,601675,566820
 2021-10-21,Czechia,6159853,6055651
-2021-10-21,Denmark,4464970,4396824
+2021-10-21,Denmark,4465204,4397038
 2021-10-21,Djibouti,41142,26087
 2021-10-21,Dominica,26806,22024
 2021-10-21,Dominican Republic,6566518,5220779
@@ -60821,7 +60821,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-22,Cuba,9795606,6983098
 2021-10-22,Cyprus,601675,566820
 2021-10-22,Czechia,6170296,6062147
-2021-10-22,Denmark,4466197,4398215
+2021-10-22,Denmark,4466431,4398429
 2021-10-22,Djibouti,41142,26087
 2021-10-22,Dominica,27412,23579
 2021-10-22,Dominican Republic,6605259,5242777
@@ -61008,7 +61008,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-23,Cuba,9802963,7013247
 2021-10-23,Cyprus,601675,566820
 2021-10-23,Czechia,6173968,6064350
-2021-10-23,Denmark,4466873,4399182
+2021-10-23,Denmark,4467107,4399396
 2021-10-23,Djibouti,41142,26087
 2021-10-23,Dominica,27412,23579
 2021-10-23,Dominican Republic,6618207,5250652
@@ -61195,7 +61195,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-24,Cuba,9805148,7030356
 2021-10-24,Cyprus,601675,566820
 2021-10-24,Czechia,6176652,6066122
-2021-10-24,Denmark,4467401,4399761
+2021-10-24,Denmark,4467636,4399975
 2021-10-24,Djibouti,41142,26087
 2021-10-24,Dominica,27412,23579
 2021-10-24,Dominican Republic,6623121,5253400
@@ -61382,7 +61382,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-25,Cuba,9820338,7070412
 2021-10-25,Cyprus,603580,568285
 2021-10-25,Czechia,6187133,6071915
-2021-10-25,Denmark,4468525,4400980
+2021-10-25,Denmark,4468760,4401194
 2021-10-25,Djibouti,41142,26087
 2021-10-25,Dominica,27412,23579
 2021-10-25,Dominican Republic,6651836,5269681
@@ -61569,7 +61569,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-26,Cuba,9832329,7110019
 2021-10-26,Cyprus,603580,568285
 2021-10-26,Czechia,6199112,6078453
-2021-10-26,Denmark,4470089,4402625
+2021-10-26,Denmark,4470320,4402840
 2021-10-26,Djibouti,41142,26087
 2021-10-26,Dominica,27412,23579
 2021-10-26,Dominican Republic,6676563,5286037
@@ -61756,7 +61756,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-27,Cuba,9842563,7140556
 2021-10-27,Cyprus,604160,569040
 2021-10-27,Czechia,6213710,6085846
-2021-10-27,Denmark,4471831,4404347
+2021-10-27,Denmark,4472063,4404563
 2021-10-27,Djibouti,41142,26087
 2021-10-27,Dominica,27412,23579
 2021-10-27,Dominican Republic,6695112,5299671
@@ -61943,7 +61943,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-28,Cuba,9854289,7171456
 2021-10-28,Cyprus,604160,569040
 2021-10-28,Czechia,6217121,6087516
-2021-10-28,Denmark,4473496,4405773
+2021-10-28,Denmark,4473729,4405990
 2021-10-28,Djibouti,41142,26087
 2021-10-28,Dominica,27412,23579
 2021-10-28,Dominican Republic,6710320,5311756
@@ -62130,7 +62130,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-29,Cuba,9888050,7218258
 2021-10-29,Cyprus,604160,569040
 2021-10-29,Czechia,6231537,6095477
-2021-10-29,Denmark,4475092,4407316
+2021-10-29,Denmark,4475326,4407533
 2021-10-29,Djibouti,41142,26087
 2021-10-29,Dominica,27793,24756
 2021-10-29,Dominican Republic,6722034,5320460
@@ -62317,7 +62317,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-30,Cuba,9922533,7258251
 2021-10-30,Cyprus,605307,570471
 2021-10-30,Czechia,6236066,6098391
-2021-10-30,Denmark,4476143,4408208
+2021-10-30,Denmark,4476377,4408425
 2021-10-30,Djibouti,41142,26087
 2021-10-30,Dominica,27793,24756
 2021-10-30,Dominican Republic,6726548,5324573
@@ -62504,7 +62504,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-31,Cuba,9939797,7282929
 2021-10-31,Cyprus,605307,570471
 2021-10-31,Czechia,6239828,6100861
-2021-10-31,Denmark,4476765,4408771
+2021-10-31,Denmark,4476999,4408988
 2021-10-31,Djibouti,41142,26087
 2021-10-31,Dominica,27793,24756
 2021-10-31,Dominican Republic,6728113,5326123
@@ -62691,7 +62691,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-01,Cuba,9963447,7326707
 2021-11-01,Cyprus,605307,570471
 2021-11-01,Czechia,6255012,6108541
-2021-11-01,Denmark,4478487,4409955
+2021-11-01,Denmark,4478721,4410172
 2021-11-01,Djibouti,41142,26087
 2021-11-01,Dominica,27793,24756
 2021-11-01,Dominican Republic,6740194,5336379
@@ -62878,7 +62878,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-02,Cuba,9984120,7372161
 2021-11-02,Cyprus,605582,571052
 2021-11-02,Czechia,6270458,6116090
-2021-11-02,Denmark,4480413,4411294
+2021-11-02,Denmark,4480647,4411512
 2021-11-02,Djibouti,41142,26087
 2021-11-02,Dominica,27793,24756
 2021-11-02,Dominican Republic,6751310,5348254
@@ -63065,7 +63065,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-03,Cuba,10002014,7419135
 2021-11-03,Cyprus,606082,571594
 2021-11-03,Czechia,6287630,6123376
-2021-11-03,Denmark,4482663,4412766
+2021-11-03,Denmark,4482897,4412985
 2021-11-03,Djibouti,66010,26087
 2021-11-03,Dominica,27793,24756
 2021-11-03,Dominican Republic,6760871,5359699
@@ -63252,7 +63252,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-04,Cuba,10017665,7458669
 2021-11-04,Cyprus,606482,571882
 2021-11-04,Czechia,6305969,6131540
-2021-11-04,Denmark,4484396,4413917
+2021-11-04,Denmark,4484632,4414136
 2021-11-04,Djibouti,66010,26087
 2021-11-04,Dominica,27793,24756
 2021-11-04,Dominican Republic,6769430,5371508
@@ -63439,7 +63439,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-05,Cuba,10033315,7631937
 2021-11-05,Cyprus,606482,571882
 2021-11-05,Czechia,6328778,6142803
-2021-11-05,Denmark,4486600,4415327
+2021-11-05,Denmark,4486836,4415546
 2021-11-05,Djibouti,66010,26087
 2021-11-05,Dominica,27992,25315
 2021-11-05,Dominican Republic,6776919,5382559
@@ -63626,7 +63626,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-06,Cuba,10033315,7747505
 2021-11-06,Cyprus,606482,571882
 2021-11-06,Czechia,6335283,6145852
-2021-11-06,Denmark,4488147,4416174
+2021-11-06,Denmark,4488383,4416393
 2021-11-06,Djibouti,66010,26087
 2021-11-06,Dominica,27992,25315
 2021-11-06,Dominican Republic,6778584,5385106
@@ -63813,7 +63813,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-07,Cuba,10033315,7779265
 2021-11-07,Cyprus,606482,571882
 2021-11-07,Czechia,6339299,6148283
-2021-11-07,Denmark,4489021,4416604
+2021-11-07,Denmark,4489257,4416823
 2021-11-07,Djibouti,66010,26087
 2021-11-07,Dominica,27992,25315
 2021-11-07,Dominican Republic,6779553,5386906
@@ -64000,7 +64000,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-08,Cuba,10036001,7810402
 2021-11-08,Cyprus,607956,573258
 2021-11-08,Czechia,6355566,6155908
-2021-11-08,Denmark,4491487,4417853
+2021-11-08,Denmark,4491723,4418072
 2021-11-08,Djibouti,66010,26087
 2021-11-08,Dominica,27992,25315
 2021-11-08,Dominican Republic,6788320,5401661
@@ -64187,7 +64187,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-09,Cuba,10048518,7883145
 2021-11-09,Cyprus,607956,573258
 2021-11-09,Czechia,6370357,6163194
-2021-11-09,Denmark,4496404,4419544
+2021-11-09,Denmark,4496641,4419763
 2021-11-09,Djibouti,66010,26087
 2021-11-09,Dominica,27992,25315
 2021-11-09,Dominican Republic,6796631,5417869
@@ -64374,7 +64374,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-10,Cuba,10059462,7967430
 2021-11-10,Cyprus,607956,573258
 2021-11-10,Czechia,6386059,6170560
-2021-11-10,Denmark,4501701,4421489
+2021-11-10,Denmark,4501940,4421710
 2021-11-10,Djibouti,66010,26087
 2021-11-10,Dominica,27992,25315
 2021-11-10,Dominican Republic,6803863,5433312
@@ -64561,7 +64561,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-11,Cuba,10070476,8138612
 2021-11-11,Cyprus,609161,574337
 2021-11-11,Czechia,6401471,6179656
-2021-11-11,Denmark,4505974,4423153
+2021-11-11,Denmark,4506215,4423374
 2021-11-11,Djibouti,66010,26087
 2021-11-11,Dominica,27992,25315
 2021-11-11,Dominican Republic,6810375,5448530
@@ -64748,7 +64748,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-12,Cuba,10080202,8307956
 2021-11-12,Cyprus,609161,574337
 2021-11-12,Czechia,6421241,6192423
-2021-11-12,Denmark,4510284,4425006
+2021-11-12,Denmark,4510528,4425227
 2021-11-12,Djibouti,66010,26087
 2021-11-12,Dominica,28207,25748
 2021-11-12,Dominican Republic,6816238,5460820
@@ -64935,7 +64935,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-13,Cuba,10084965,8543079
 2021-11-13,Cyprus,610308,575402
 2021-11-13,Czechia,6426622,6196283
-2021-11-13,Denmark,4513463,4426140
+2021-11-13,Denmark,4513707,4426361
 2021-11-13,Djibouti,66010,26087
 2021-11-13,Dominica,28207,25748
 2021-11-13,Dominican Republic,6818418,5465964
@@ -65122,7 +65122,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-14,Cuba,10086396,8679636
 2021-11-14,Cyprus,610308,575402
 2021-11-14,Czechia,6430503,6199284
-2021-11-14,Denmark,4515824,4426859
+2021-11-14,Denmark,4516068,4427080
 2021-11-14,Djibouti,66010,26087
 2021-11-14,Dominica,28207,25748
 2021-11-14,Dominican Republic,6819570,5467873
@@ -65309,7 +65309,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-15,Cuba,10094401,8807998
 2021-11-15,Cyprus,610308,575402
 2021-11-15,Czechia,6445561,6209966
-2021-11-15,Denmark,4521049,4428761
+2021-11-15,Denmark,4521293,4428983
 2021-11-15,Djibouti,66010,26087
 2021-11-15,Dominica,28207,25748
 2021-11-15,Dominican Republic,6826229,5481481
@@ -65496,7 +65496,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-16,Cuba,10102486,8893920
 2021-11-16,Cyprus,611409,576025
 2021-11-16,Czechia,6463062,6221938
-2021-11-16,Denmark,4525521,4430564
+2021-11-16,Denmark,4525768,4430785
 2021-11-16,Djibouti,66010,26087
 2021-11-16,Dominica,28207,25748
 2021-11-16,Dominican Republic,6832340,5497449
@@ -65683,7 +65683,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-17,Cuba,10110794,8951589
 2021-11-17,Cyprus,611409,576025
 2021-11-17,Czechia,6467286,6225495
-2021-11-17,Denmark,4529698,4432452
+2021-11-17,Denmark,4529945,4432676
 2021-11-17,Djibouti,66010,26087
 2021-11-17,Dominica,28207,25748
 2021-11-17,Dominican Republic,6838668,5510323
@@ -65870,7 +65870,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-18,Cuba,10118526,8991195
 2021-11-18,Cyprus,612550,576530
 2021-11-18,Czechia,6486661,6237161
-2021-11-18,Denmark,4533166,4434171
+2021-11-18,Denmark,4533413,4434395
 2021-11-18,Djibouti,70081,26087
 2021-11-18,Dominica,28207,25748
 2021-11-18,Dominican Republic,6838668,5510323
@@ -66057,7 +66057,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-19,Cuba,10126186,9033415
 2021-11-19,Cyprus,612550,576530
 2021-11-19,Czechia,6511250,6254124
-2021-11-19,Denmark,4536371,4435855
+2021-11-19,Denmark,4536619,4436079
 2021-11-19,Djibouti,70081,26087
 2021-11-19,Dominica,28590,26544
 2021-11-19,Dominican Republic,6842495,5529473
@@ -66244,7 +66244,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-20,Cuba,10129065,9050528
 2021-11-20,Cyprus,612550,576530
 2021-11-20,Czechia,6519809,6259093
-2021-11-20,Denmark,4538616,4437043
+2021-11-20,Denmark,4538864,4437267
 2021-11-20,Djibouti,70081,26087
 2021-11-20,Dominica,28590,26544
 2021-11-20,Dominican Republic,6844199,5533108
@@ -66431,7 +66431,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-21,Cuba,10129320,9054649
 2021-11-21,Cyprus,615392,579413
 2021-11-21,Czechia,6526568,6262861
-2021-11-21,Denmark,4539938,4437777
+2021-11-21,Denmark,4540188,4438002
 2021-11-21,Djibouti,70081,26087
 2021-11-21,Dominica,28590,26544
 2021-11-21,Dominican Republic,6844994,5534706
@@ -66618,7 +66618,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-22,Cuba,10136225,9086703
 2021-11-22,Cyprus,615392,579413
 2021-11-22,Czechia,6545017,6276950
-2021-11-22,Denmark,4543043,4439583
+2021-11-22,Denmark,4543294,4439808
 2021-11-22,Djibouti,70081,26087
 2021-11-22,Dominica,28590,26544
 2021-11-22,Dominican Republic,6850198,5545879
@@ -66805,7 +66805,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-23,Cuba,10142765,9114147
 2021-11-23,Cyprus,617240,580407
 2021-11-23,Czechia,6563934,6290192
-2021-11-23,Denmark,4546125,4441461
+2021-11-23,Denmark,4546377,4441688
 2021-11-23,Djibouti,70081,26087
 2021-11-23,Dominica,28590,26544
 2021-11-23,Dominican Republic,6853470,5558129
@@ -66992,7 +66992,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-24,Cuba,10142765,9114147
 2021-11-24,Cyprus,617240,580407
 2021-11-24,Czechia,6582798,6306012
-2021-11-24,Denmark,4548950,4443620
+2021-11-24,Denmark,4549202,4443849
 2021-11-24,Djibouti,73592,26087
 2021-11-24,Dominica,28590,26544
 2021-11-24,Dominican Republic,6857695,5565330
@@ -67179,7 +67179,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-25,Cuba,10142765,9114147
 2021-11-25,Cyprus,619136,581601
 2021-11-25,Czechia,6601817,6321019
-2021-11-25,Denmark,4551726,4445512
+2021-11-25,Denmark,4551981,4445744
 2021-11-25,Djibouti,73592,26087
 2021-11-25,Dominica,28590,26544
 2021-11-25,Dominican Republic,6861368,5573716
@@ -67366,7 +67366,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-26,Cuba,10161233,9186075
 2021-11-26,Cyprus,619136,581601
 2021-11-26,Czechia,6623313,6340124
-2021-11-26,Denmark,4554460,4447629
+2021-11-26,Denmark,4554717,4447863
 2021-11-26,Djibouti,73592,26087
 2021-11-26,Dominica,28590,26544
 2021-11-26,Dominican Republic,6864648,5580500
@@ -67553,7 +67553,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-27,Cuba,10163235,9194017
 2021-11-27,Cyprus,621701,583001
 2021-11-27,Czechia,6630756,6345665
-2021-11-27,Denmark,4556686,4449109
+2021-11-27,Denmark,4556943,4449345
 2021-11-27,Djibouti,73592,26087
 2021-11-27,Dominica,28590,26544
 2021-11-27,Dominican Republic,6866072,5583029
@@ -67740,7 +67740,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-28,Cuba,10163695,9195366
 2021-11-28,Cyprus,621701,583001
 2021-11-28,Czechia,6634082,6348796
-2021-11-28,Denmark,4559953,4450319
+2021-11-28,Denmark,4560211,4450555
 2021-11-28,Djibouti,73592,26087
 2021-11-28,Dominica,28590,26544
 2021-11-28,Dominican Republic,6866632,5583974
@@ -67927,7 +67927,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-29,Cuba,10169492,9217347
 2021-11-29,Cyprus,621701,583001
 2021-11-29,Czechia,6649214,6362434
-2021-11-29,Denmark,4564026,4452952
+2021-11-29,Denmark,4564283,4453188
 2021-11-29,Djibouti,73592,26087
 2021-11-29,Dominica,28764,26760
 2021-11-29,Dominican Republic,6871684,5592459
@@ -68114,7 +68114,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-30,Cuba,10175287,9237847
 2021-11-30,Cyprus,621701,583001
 2021-11-30,Czechia,6662356,6373633
-2021-11-30,Denmark,4568920,4456229
+2021-11-30,Denmark,4569176,4456467
 2021-11-30,Djibouti,73592,26087
 2021-11-30,Dominica,28764,26760
 2021-11-30,Dominican Republic,6875984,5601216
@@ -68301,7 +68301,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-01,Cuba,10181265,9255012
 2021-12-01,Cyprus,625138,585087
 2021-12-01,Czechia,6676260,6386040
-2021-12-01,Denmark,4573987,4459827
+2021-12-01,Denmark,4574246,4460066
 2021-12-01,Djibouti,73592,26087
 2021-12-01,Dominica,28764,26760
 2021-12-01,Dominican Republic,6879735,5608755
@@ -68488,7 +68488,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-02,Cuba,10188084,9270769
 2021-12-02,Cyprus,625138,585087
 2021-12-02,Czechia,6686815,6398484
-2021-12-02,Denmark,4579557,4462951
+2021-12-02,Denmark,4579817,4463191
 2021-12-02,Djibouti,78388,26087
 2021-12-02,Dominica,28764,26760
 2021-12-02,Dominican Republic,6881125,5610578
@@ -68675,7 +68675,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-03,Cuba,10190888,9280509
 2021-12-03,Cyprus,625138,585087
 2021-12-03,Czechia,6696356,6413987
-2021-12-03,Denmark,4584710,4466274
+2021-12-03,Denmark,4584970,4466516
 2021-12-03,Djibouti,78388,26087
 2021-12-03,Dominica,28764,26852
 2021-12-03,Dominican Republic,6889377,5617498
@@ -68862,7 +68862,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-04,Cuba,10192588,9286956
 2021-12-04,Cyprus,628634,587718
 2021-12-04,Czechia,6698884,6417920
-2021-12-04,Denmark,4590895,4468656
+2021-12-04,Denmark,4591155,4468898
 2021-12-04,Djibouti,78388,26087
 2021-12-04,Dominica,28764,26852
 2021-12-04,Dominican Republic,6890583,5619966
@@ -69049,7 +69049,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-05,Cuba,10192861,9287955
 2021-12-05,Cyprus,628634,587718
 2021-12-05,Czechia,6700223,6420239
-2021-12-05,Denmark,4600383,4470487
+2021-12-05,Denmark,4600644,4470729
 2021-12-05,Djibouti,78388,26087
 2021-12-05,Dominica,28764,26852
 2021-12-05,Dominican Republic,6891011,5620848
@@ -69236,7 +69236,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-06,Cuba,10198006,9305674
 2021-12-06,Cyprus,628634,587718
 2021-12-06,Czechia,6708338,6431717
-2021-12-06,Denmark,4607993,4474879
+2021-12-06,Denmark,4608254,4475124
 2021-12-06,Djibouti,78388,26087
 2021-12-06,Dominica,28764,26852
 2021-12-06,Dominican Republic,6894668,5627360
@@ -69423,7 +69423,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-07,Cuba,10202801,9318613
 2021-12-07,Cyprus,630566,589585
 2021-12-07,Czechia,6716155,6443673
-2021-12-07,Denmark,4618137,4479152
+2021-12-07,Denmark,4618399,4479396
 2021-12-07,Djibouti,78388,26087
 2021-12-07,Dominica,28764,26852
 2021-12-07,Dominican Republic,6898664,5633639
@@ -69610,7 +69610,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-08,Cuba,10207648,9331520
 2021-12-08,Cyprus,631421,590288
 2021-12-08,Czechia,6724357,6449556
-2021-12-08,Denmark,4628985,4483915
+2021-12-08,Denmark,4629247,4484161
 2021-12-08,Djibouti,78388,26087
 2021-12-08,Dominica,28898,26876
 2021-12-08,Dominican Republic,6901796,5639648
@@ -69797,7 +69797,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-09,Cuba,10212248,9343711
 2021-12-09,Cyprus,631421,590288
 2021-12-09,Czechia,6731418,6462302
-2021-12-09,Denmark,4640058,4487651
+2021-12-09,Denmark,4640323,4487901
 2021-12-09,Djibouti,82858,26087
 2021-12-09,Dominica,28898,26876
 2021-12-09,Dominican Republic,6901796,5639648
@@ -69984,7 +69984,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-10,Cuba,10217205,9357454
 2021-12-10,Cyprus,631421,590288
 2021-12-10,Czechia,6738264,6480000
-2021-12-10,Denmark,4650331,4491167
+2021-12-10,Denmark,4650597,4491422
 2021-12-10,Djibouti,82858,26087
 2021-12-10,Dominica,29064,27115
 2021-12-10,Dominican Republic,6910029,5650591
@@ -70171,7 +70171,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-11,Cuba,10218705,9361872
 2021-12-11,Cyprus,633930,593380
 2021-12-11,Czechia,6739918,6485234
-2021-12-11,Denmark,4659710,4493247
+2021-12-11,Denmark,4659975,4493503
 2021-12-11,Djibouti,82858,26087
 2021-12-11,Dominica,29064,27115
 2021-12-11,Dominican Republic,6910906,5651988
@@ -70358,7 +70358,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-12,Cuba,10218940,9362628
 2021-12-12,Cyprus,633930,593380
 2021-12-12,Czechia,6741221,6489658
-2021-12-12,Denmark,4672154,4495013
+2021-12-12,Denmark,4672420,4495270
 2021-12-12,Djibouti,82858,26087
 2021-12-12,Dominica,29064,27115
 2021-12-12,Dominican Republic,6911177,5652556
@@ -70545,7 +70545,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-13,Cuba,10223122,9376207
 2021-12-13,Cyprus,633930,593380
 2021-12-13,Czechia,6747561,6502889
-2021-12-13,Denmark,4681069,4498760
+2021-12-13,Denmark,4681350,4499020
 2021-12-13,Djibouti,82858,26087
 2021-12-13,Dominica,29064,27115
 2021-12-13,Dominican Republic,6912228,5657819
@@ -70732,7 +70732,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-14,Cuba,10227387,9388653
 2021-12-14,Cyprus,635562,595987
 2021-12-14,Czechia,6753724,6516466
-2021-12-14,Denmark,4692014,4502545
+2021-12-14,Denmark,4692354,4502812
 2021-12-14,Djibouti,82858,26087
 2021-12-14,Dominica,29064,27115
 2021-12-14,Dominican Republic,6914602,5662746
@@ -70919,7 +70919,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-15,Cuba,10235340,9402992
 2021-12-15,Cyprus,636379,597008
 2021-12-15,Czechia,6759867,6529966
-2021-12-15,Denmark,4694675,4503494
+2021-12-15,Denmark,4706616,4506820
 2021-12-15,Djibouti,108945,26087
 2021-12-15,Dominica,29184,27323
 2021-12-15,Dominican Republic,6916929,5667100
@@ -71106,7 +71106,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-16,Cuba,10266992,9440384
 2021-12-16,Cyprus,636379,597008
 2021-12-16,Czechia,6766349,6544609
-2021-12-16,Denmark,4702853,4505271
+2021-12-16,Denmark,4721473,4510216
 2021-12-16,Djibouti,108945,26087
 2021-12-16,Dominica,29184,27323
 2021-12-16,Dominican Republic,6919616,5672049
@@ -71293,7 +71293,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-17,Cuba,10299822,9478586
 2021-12-17,Cyprus,636379,597008
 2021-12-17,Czechia,6774254,6561573
-2021-12-17,Denmark,4702853,4505271
+2021-12-17,Denmark,4734459,4513708
 2021-12-17,Djibouti,108945,26087
 2021-12-17,Dominica,29200,27376
 2021-12-17,Dominican Republic,6922834,5677283
@@ -71480,7 +71480,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-18,Cuba,10299822,9478586
 2021-12-18,Cyprus,636379,597008
 2021-12-18,Czechia,6776805,6566944
-2021-12-18,Denmark,4702853,4505271
+2021-12-18,Denmark,4745188,4516120
 2021-12-18,Djibouti,108945,26087
 2021-12-18,Dominica,29200,27376
 2021-12-18,Dominican Republic,6923416,5678445
@@ -71667,7 +71667,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-19,Cuba,10299822,9478586
 2021-12-19,Cyprus,636379,597008
 2021-12-19,Czechia,6778506,6569310
-2021-12-19,Denmark,4702853,4505271
+2021-12-19,Denmark,4754875,4518746
 2021-12-19,Djibouti,108945,26087
 2021-12-19,Dominica,29200,27376
 2021-12-19,Dominican Republic,6923416,5678445
@@ -71854,7 +71854,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-20,Cuba,10299822,9478586
 2021-12-20,Cyprus,636379,597008
 2021-12-20,Czechia,6778506,6569310
-2021-12-20,Denmark,4702853,4505271
+2021-12-20,Denmark,4754875,4518746
 2021-12-20,Djibouti,108945,26087
 2021-12-20,Dominica,29200,27376
 2021-12-20,Dominican Republic,6923416,5678445
