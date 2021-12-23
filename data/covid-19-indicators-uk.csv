@@ -1,4 +1,5 @@
 areaCode,areaName,areaType,date,covidOccupiedMVBeds,cumCasesBySpecimenDate,cumDeaths28DaysByDeathDate,hospitalCases
+E92000001,England,nation,2021-12-23,747,,,7114
 E92000001,England,nation,2021-12-22,745,10011650,128414,7080
 E92000001,England,nation,2021-12-21,757,9988613,128390,6902
 E92000001,England,nation,2021-12-20,768,9909366,128338,6688
