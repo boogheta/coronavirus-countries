@@ -5571,7 +5571,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-30,Serbia,0,0
 2020-12-30,Seychelles,0,0
 2020-12-30,Sierra Leone,0,0
-2020-12-30,Singapore,0,0
+2020-12-30,Singapore,119,0
 2020-12-30,Slovakia,0,0
 2020-12-30,Slovenia,9630,0
 2020-12-30,Solomon Islands,0,0
@@ -5758,7 +5758,7 @@ date,country,vaccinated_once,vaccinated_fully
 2020-12-31,Serbia,0,0
 2020-12-31,Seychelles,0,0
 2020-12-31,Sierra Leone,0,0
-2020-12-31,Singapore,0,0
+2020-12-31,Singapore,124,0
 2020-12-31,Slovakia,0,0
 2020-12-31,Slovenia,11488,0
 2020-12-31,Solomon Islands,0,0
@@ -5945,7 +5945,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-01,Serbia,0,0
 2021-01-01,Seychelles,0,0
 2021-01-01,Sierra Leone,0,0
-2021-01-01,Singapore,0,0
+2021-01-01,Singapore,130,0
 2021-01-01,Slovakia,0,0
 2021-01-01,Slovenia,11639,0
 2021-01-01,Solomon Islands,0,0
@@ -6132,7 +6132,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-02,Serbia,0,0
 2021-01-02,Seychelles,0,0
 2021-01-02,Sierra Leone,0,0
-2021-01-02,Singapore,0,0
+2021-01-02,Singapore,134,0
 2021-01-02,Slovakia,0,0
 2021-01-02,Slovenia,12043,0
 2021-01-02,Solomon Islands,0,0
@@ -6319,7 +6319,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-03,Serbia,0,0
 2021-01-03,Seychelles,0,0
 2021-01-03,Sierra Leone,0,0
-2021-01-03,Singapore,0,0
+2021-01-03,Singapore,142,0
 2021-01-03,Slovakia,0,0
 2021-01-03,Slovenia,12599,1
 2021-01-03,Solomon Islands,0,0
@@ -6506,7 +6506,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-04,Serbia,0,0
 2021-01-04,Seychelles,0,0
 2021-01-04,Sierra Leone,0,0
-2021-01-04,Singapore,0,0
+2021-01-04,Singapore,164,0
 2021-01-04,Slovakia,480,0
 2021-01-04,Slovenia,13690,1
 2021-01-04,Solomon Islands,0,0
@@ -6693,7 +6693,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-05,Serbia,0,0
 2021-01-05,Seychelles,0,0
 2021-01-05,Sierra Leone,0,0
-2021-01-05,Singapore,0,0
+2021-01-05,Singapore,175,2
 2021-01-05,Slovakia,1448,0
 2021-01-05,Slovenia,16236,1
 2021-01-05,Solomon Islands,0,0
@@ -6880,7 +6880,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-06,Serbia,0,0
 2021-01-06,Seychelles,0,0
 2021-01-06,Sierra Leone,0,0
-2021-01-06,Singapore,0,0
+2021-01-06,Singapore,184,2
 2021-01-06,Slovakia,7731,0
 2021-01-06,Slovenia,21628,2
 2021-01-06,Solomon Islands,0,0
@@ -7067,7 +7067,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-07,Serbia,0,0
 2021-01-07,Seychelles,0,0
 2021-01-07,Sierra Leone,0,0
-2021-01-07,Singapore,0,0
+2021-01-07,Singapore,197,3
 2021-01-07,Slovakia,15884,0
 2021-01-07,Slovenia,27105,2
 2021-01-07,Solomon Islands,0,0
@@ -7254,7 +7254,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-08,Serbia,7000,0
 2021-01-08,Seychelles,0,0
 2021-01-08,Sierra Leone,0,0
-2021-01-08,Singapore,0,0
+2021-01-08,Singapore,923,6
 2021-01-08,Slovakia,24019,0
 2021-01-08,Slovenia,30370,3
 2021-01-08,Solomon Islands,0,0
@@ -7441,7 +7441,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-09,Serbia,7000,0
 2021-01-09,Seychelles,0,0
 2021-01-09,Sierra Leone,0,0
-2021-01-09,Singapore,0,0
+2021-01-09,Singapore,1323,8
 2021-01-09,Slovakia,25634,0
 2021-01-09,Slovenia,30624,3
 2021-01-09,Solomon Islands,0,0
@@ -7628,7 +7628,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-10,Serbia,9300,0
 2021-01-10,Seychelles,0,0
 2021-01-10,Sierra Leone,0,0
-2021-01-10,Singapore,0,0
+2021-01-10,Singapore,1433,8
 2021-01-10,Slovakia,25834,0
 2021-01-10,Slovenia,30625,3
 2021-01-10,Solomon Islands,0,0
@@ -7815,7 +7815,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-11,Serbia,9300,0
 2021-01-11,Seychelles,0,0
 2021-01-11,Sierra Leone,0,0
-2021-01-11,Singapore,3400,0
+2021-01-11,Singapore,3520,10
 2021-01-11,Slovakia,29922,0
 2021-01-11,Slovenia,31109,3
 2021-01-11,Solomon Islands,0,0
@@ -8002,7 +8002,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-12,Serbia,9300,0
 2021-01-12,Seychelles,0,0
 2021-01-12,Sierra Leone,0,0
-2021-01-12,Singapore,6200,0
+2021-01-12,Singapore,6333,12
 2021-01-12,Slovakia,40958,0
 2021-01-12,Slovenia,32992,3
 2021-01-12,Solomon Islands,0,0
@@ -8189,7 +8189,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-13,Serbia,9300,0
 2021-01-13,Seychelles,2000,0
 2021-01-13,Sierra Leone,0,0
-2021-01-13,Singapore,6200,0
+2021-01-13,Singapore,10429,13
 2021-01-13,Slovakia,47792,0
 2021-01-13,Slovenia,37728,5
 2021-01-13,Solomon Islands,0,0
@@ -8376,7 +8376,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-14,Serbia,18136,0
 2021-01-14,Seychelles,2000,0
 2021-01-14,Sierra Leone,0,0
-2021-01-14,Singapore,6200,0
+2021-01-14,Singapore,15228,14
 2021-01-14,Slovakia,55194,0
 2021-01-14,Slovenia,44475,6
 2021-01-14,Solomon Islands,0,0
@@ -8563,7 +8563,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-15,Serbia,18136,0
 2021-01-15,Seychelles,4000,0
 2021-01-15,Sierra Leone,0,0
-2021-01-15,Singapore,6200,0
+2021-01-15,Singapore,20603,17
 2021-01-15,Slovakia,63152,0
 2021-01-15,Slovenia,49218,154
 2021-01-15,Solomon Islands,0,0
@@ -8750,7 +8750,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-16,Serbia,18136,0
 2021-01-16,Seychelles,7000,0
 2021-01-16,Sierra Leone,0,0
-2021-01-16,Singapore,6200,0
+2021-01-16,Singapore,22344,19
 2021-01-16,Slovakia,64035,0
 2021-01-16,Slovenia,49543,154
 2021-01-16,Solomon Islands,0,0
@@ -8937,7 +8937,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-17,Serbia,18136,0
 2021-01-17,Seychelles,7000,0
 2021-01-17,Sierra Leone,0,0
-2021-01-17,Singapore,6200,0
+2021-01-17,Singapore,22986,22
 2021-01-17,Slovakia,64089,0
 2021-01-17,Slovenia,49546,155
 2021-01-17,Solomon Islands,0,0
@@ -9124,7 +9124,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-18,Serbia,18136,0
 2021-01-18,Seychelles,7000,0
 2021-01-18,Sierra Leone,0,0
-2021-01-18,Singapore,6200,0
+2021-01-18,Singapore,30524,22
 2021-01-18,Slovakia,72345,582
 2021-01-18,Slovenia,49589,321
 2021-01-18,Solomon Islands,0,0
@@ -9311,7 +9311,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-19,Serbia,18136,0
 2021-01-19,Seychelles,10976,0
 2021-01-19,Sierra Leone,0,0
-2021-01-19,Singapore,6200,0
+2021-01-19,Singapore,38771,31
 2021-01-19,Slovakia,80171,1166
 2021-01-19,Slovenia,50133,1968
 2021-01-19,Solomon Islands,0,0
@@ -9498,7 +9498,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-20,Serbia,44611,0
 2021-01-20,Seychelles,13163,0
 2021-01-20,Sierra Leone,0,0
-2021-01-20,Singapore,6200,0
+2021-01-20,Singapore,47977,71
 2021-01-20,Slovakia,87185,2040
 2021-01-20,Slovenia,51324,5776
 2021-01-20,Solomon Islands,0,0
@@ -9685,7 +9685,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-21,Serbia,84832,0
 2021-01-21,Seychelles,13163,0
 2021-01-21,Sierra Leone,0,0
-2021-01-21,Singapore,6200,0
+2021-01-21,Singapore,55468,74
 2021-01-21,Slovakia,92774,2689
 2021-01-21,Slovenia,52613,9267
 2021-01-21,Solomon Islands,0,0
@@ -9872,7 +9872,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-22,Serbia,119711,0
 2021-01-22,Seychelles,16890,0
 2021-01-22,Sierra Leone,0,0
-2021-01-22,Singapore,60000,0
+2021-01-22,Singapore,63258,76
 2021-01-22,Slovakia,99458,2822
 2021-01-22,Slovenia,53802,10263
 2021-01-22,Solomon Islands,0,0
@@ -10059,7 +10059,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-23,Serbia,163355,0
 2021-01-23,Seychelles,18353,0
 2021-01-23,Sierra Leone,0,0
-2021-01-23,Singapore,60000,0
+2021-01-23,Singapore,68041,79
 2021-01-23,Slovakia,99734,2822
 2021-01-23,Slovenia,54033,10753
 2021-01-23,Solomon Islands,0,0
@@ -10246,7 +10246,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-24,Serbia,217800,0
 2021-01-24,Seychelles,18353,0
 2021-01-24,Sierra Leone,0,0
-2021-01-24,Singapore,60000,0
+2021-01-24,Singapore,72543,80
 2021-01-24,Slovakia,99734,2822
 2021-01-24,Slovenia,54050,10887
 2021-01-24,Solomon Islands,0,0
@@ -10433,7 +10433,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-25,Serbia,256521,0
 2021-01-25,Seychelles,19889,0
 2021-01-25,Sierra Leone,0,0
-2021-01-25,Singapore,60000,0
+2021-01-25,Singapore,84600,96
 2021-01-25,Slovakia,106592,5115
 2021-01-25,Slovenia,54053,10892
 2021-01-25,Solomon Islands,0,0
@@ -10620,7 +10620,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-26,Serbia,319504,0
 2021-01-26,Seychelles,22712,0
 2021-01-26,Sierra Leone,0,0
-2021-01-26,Singapore,60000,0
+2021-01-26,Singapore,97248,105
 2021-01-26,Slovakia,113506,5476
 2021-01-26,Slovenia,54134,12646
 2021-01-26,Solomon Islands,0,0
@@ -10807,7 +10807,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-27,Serbia,361830,0
 2021-01-27,Seychelles,25587,0
 2021-01-27,Sierra Leone,0,0
-2021-01-27,Singapore,113000,50
+2021-01-27,Singapore,111161,112
 2021-01-27,Slovakia,120289,5645
 2021-01-27,Slovenia,54399,17504
 2021-01-27,Solomon Islands,0,0
@@ -10994,7 +10994,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-28,Serbia,401556,0
 2021-01-28,Seychelles,28779,0
 2021-01-28,Sierra Leone,0,0
-2021-01-28,Singapore,113000,50
+2021-01-28,Singapore,125718,130
 2021-01-28,Slovakia,128637,7288
 2021-01-28,Slovenia,54922,23314
 2021-01-28,Solomon Islands,0,0
@@ -11181,7 +11181,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-29,Serbia,430759,0
 2021-01-29,Seychelles,30861,0
 2021-01-29,Sierra Leone,0,0
-2021-01-29,Singapore,113000,50
+2021-01-29,Singapore,139764,858
 2021-01-29,Slovakia,138243,9711
 2021-01-29,Slovenia,55470,27368
 2021-01-29,Solomon Islands,0,0
@@ -11368,7 +11368,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-30,Serbia,437380,0
 2021-01-30,Seychelles,30861,0
 2021-01-30,Sierra Leone,0,0
-2021-01-30,Singapore,113000,50
+2021-01-30,Singapore,146925,1187
 2021-01-30,Slovakia,139632,9714
 2021-01-30,Slovenia,55481,27474
 2021-01-30,Solomon Islands,0,0
@@ -11555,7 +11555,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-01-31,Serbia,437380,0
 2021-01-31,Seychelles,30861,0
 2021-01-31,Sierra Leone,0,0
-2021-01-31,Singapore,155000,50
+2021-01-31,Singapore,152563,1315
 2021-01-31,Slovakia,139692,9714
 2021-01-31,Slovenia,55482,27476
 2021-01-31,Solomon Islands,0,0
@@ -11742,7 +11742,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-01,Serbia,437380,0
 2021-02-01,Seychelles,35079,0
 2021-02-01,Sierra Leone,0,0
-2021-02-01,Singapore,155000,50
+2021-02-01,Singapore,161622,3428
 2021-02-01,Slovakia,148890,12625
 2021-02-01,Slovenia,55505,27520
 2021-02-01,Solomon Islands,0,0
@@ -11929,7 +11929,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-02,Serbia,495964,0
 2021-02-02,Seychelles,36284,0
 2021-02-02,Sierra Leone,0,0
-2021-02-02,Singapore,175000,6000
+2021-02-02,Singapore,171264,5950
 2021-02-02,Slovakia,157650,16075
 2021-02-02,Slovenia,55524,28620
 2021-02-02,Solomon Islands,0,0
@@ -12116,7 +12116,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-03,Serbia,513652,0
 2021-02-03,Seychelles,37087,5
 2021-02-03,Sierra Leone,0,0
-2021-02-03,Singapore,175000,6000
+2021-02-03,Singapore,182748,9687
 2021-02-03,Slovakia,167105,18411
 2021-02-03,Slovenia,55709,33293
 2021-02-03,Solomon Islands,0,0
@@ -12303,7 +12303,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-04,Serbia,526930,0
 2021-02-04,Seychelles,37087,5
 2021-02-04,Sierra Leone,0,0
-2021-02-04,Singapore,175000,6000
+2021-02-04,Singapore,191479,14118
 2021-02-04,Slovakia,175868,24008
 2021-02-04,Slovenia,56319,40147
 2021-02-04,Solomon Islands,0,0
@@ -12490,7 +12490,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-05,Serbia,538373,0
 2021-02-05,Seychelles,37087,5
 2021-02-05,Sierra Leone,0,0
-2021-02-05,Singapore,175000,6000
+2021-02-05,Singapore,200913,19393
 2021-02-05,Slovakia,184235,30689
 2021-02-05,Slovenia,56683,45481
 2021-02-05,Solomon Islands,0,0
@@ -12677,7 +12677,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-06,Serbia,538373,0
 2021-02-06,Seychelles,37589,1586
 2021-02-06,Sierra Leone,0,0
-2021-02-06,Singapore,175000,6000
+2021-02-06,Singapore,205251,21072
 2021-02-06,Slovakia,186228,31360
 2021-02-06,Slovenia,56711,46056
 2021-02-06,Solomon Islands,0,0
@@ -12864,7 +12864,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-07,Serbia,544209,0
 2021-02-07,Seychelles,37589,1586
 2021-02-07,Sierra Leone,0,0
-2021-02-07,Singapore,175000,6000
+2021-02-07,Singapore,207521,21751
 2021-02-07,Slovakia,186408,31360
 2021-02-07,Slovenia,56711,46056
 2021-02-07,Solomon Islands,0,0
@@ -13051,7 +13051,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-08,Serbia,544209,0
 2021-02-08,Seychelles,37714,3980
 2021-02-08,Sierra Leone,0,0
-2021-02-08,Singapore,175000,6000
+2021-02-08,Singapore,211489,29354
 2021-02-08,Slovakia,193899,35639
 2021-02-08,Slovenia,57110,46057
 2021-02-08,Solomon Islands,0,0
@@ -13238,7 +13238,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-09,Serbia,544209,0
 2021-02-09,Seychelles,37723,6700
 2021-02-09,Sierra Leone,0,0
-2021-02-09,Singapore,175000,6000
+2021-02-09,Singapore,215071,37697
 2021-02-09,Slovakia,201227,43171
 2021-02-09,Slovenia,57198,46089
 2021-02-09,Solomon Islands,0,0
@@ -13425,7 +13425,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-10,Serbia,592634,47665
 2021-02-10,Seychelles,37726,10335
 2021-02-10,Sierra Leone,0,0
-2021-02-10,Singapore,250000,6000
+2021-02-10,Singapore,218047,46877
 2021-02-10,Slovakia,207653,49683
 2021-02-10,Slovenia,59692,46817
 2021-02-10,Solomon Islands,0,0
@@ -13612,7 +13612,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-11,Serbia,592634,47665
 2021-02-11,Seychelles,37952,13867
 2021-02-11,Sierra Leone,0,0
-2021-02-11,Singapore,250000,6000
+2021-02-11,Singapore,219395,49871
 2021-02-11,Slovakia,215108,56283
 2021-02-11,Slovenia,66606,48688
 2021-02-11,Solomon Islands,0,0
@@ -13799,7 +13799,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-12,Serbia,710138,126149
 2021-02-12,Seychelles,37952,13867
 2021-02-12,Sierra Leone,0,0
-2021-02-12,Singapore,250000,6000
+2021-02-12,Singapore,219411,49877
 2021-02-12,Slovakia,222802,62678
 2021-02-12,Slovenia,73536,50496
 2021-02-12,Solomon Islands,0,0
@@ -13986,7 +13986,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-13,Serbia,710138,126149
 2021-02-13,Seychelles,41799,14181
 2021-02-13,Sierra Leone,0,0
-2021-02-13,Singapore,250000,6000
+2021-02-13,Singapore,219421,49883
 2021-02-13,Slovakia,227296,63074
 2021-02-13,Slovenia,74247,50687
 2021-02-13,Solomon Islands,0,0
@@ -14173,7 +14173,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-14,Serbia,805000,182000
 2021-02-14,Seychelles,41799,14181
 2021-02-14,Sierra Leone,0,0
-2021-02-14,Singapore,250000,6000
+2021-02-14,Singapore,219934,53866
 2021-02-14,Slovakia,238885,63279
 2021-02-14,Slovenia,74264,50703
 2021-02-14,Solomon Islands,0,0
@@ -14360,7 +14360,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-15,Serbia,805000,182000
 2021-02-15,Seychelles,41808,16441
 2021-02-15,Sierra Leone,0,0
-2021-02-15,Singapore,250000,6000
+2021-02-15,Singapore,221054,64882
 2021-02-15,Slovakia,243511,69686
 2021-02-15,Slovenia,74340,50711
 2021-02-15,Solomon Islands,0,0
@@ -14547,7 +14547,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-16,Serbia,805000,182000
 2021-02-16,Seychelles,41815,18176
 2021-02-16,Sierra Leone,0,0
-2021-02-16,Singapore,250000,6000
+2021-02-16,Singapore,223352,79069
 2021-02-16,Slovakia,248510,75997
 2021-02-16,Slovenia,75395,50788
 2021-02-16,Solomon Islands,0,0
@@ -14734,7 +14734,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-17,Serbia,805000,182000
 2021-02-17,Seychelles,41839,19512
 2021-02-17,Sierra Leone,0,0
-2021-02-17,Singapore,250000,6000
+2021-02-17,Singapore,226690,94751
 2021-02-17,Slovakia,254070,81983
 2021-02-17,Slovenia,80343,51420
 2021-02-17,Solomon Islands,0,0
@@ -14921,7 +14921,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-18,Serbia,805000,182000
 2021-02-18,Seychelles,42621,20665
 2021-02-18,Sierra Leone,0,0
-2021-02-18,Singapore,250000,110000
+2021-02-18,Singapore,230916,109247
 2021-02-18,Slovakia,258746,88582
 2021-02-18,Slovenia,88675,52190
 2021-02-18,Solomon Islands,0,0
@@ -15108,7 +15108,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-19,Serbia,805000,182000
 2021-02-19,Seychelles,43461,21599
 2021-02-19,Sierra Leone,0,0
-2021-02-19,Singapore,250000,110000
+2021-02-19,Singapore,236679,123733
 2021-02-19,Slovakia,265169,95420
 2021-02-19,Slovenia,94849,52798
 2021-02-19,Solomon Islands,0,0
@@ -15295,7 +15295,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-20,Serbia,805000,182000
 2021-02-20,Seychelles,43461,21599
 2021-02-20,Sierra Leone,0,0
-2021-02-20,Singapore,250000,110000
+2021-02-20,Singapore,240500,131423
 2021-02-20,Slovakia,271529,95703
 2021-02-20,Slovenia,97374,52816
 2021-02-20,Solomon Islands,0,0
@@ -15482,7 +15482,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-21,Serbia,805000,182000
 2021-02-21,Seychelles,43977,21599
 2021-02-21,Sierra Leone,0,0
-2021-02-21,Singapore,250000,110000
+2021-02-21,Singapore,242526,137426
 2021-02-21,Slovakia,277845,95703
 2021-02-21,Slovenia,97374,52817
 2021-02-21,Solomon Islands,0,0
@@ -15669,7 +15669,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-22,Serbia,805000,182000
 2021-02-22,Seychelles,43977,21599
 2021-02-22,Sierra Leone,0,0
-2021-02-22,Singapore,250000,110000
+2021-02-22,Singapore,248753,149268
 2021-02-22,Slovakia,283472,102712
 2021-02-22,Slovenia,97849,52821
 2021-02-22,Solomon Islands,0,0
@@ -15856,7 +15856,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-23,Serbia,827561,472769
 2021-02-23,Seychelles,47188,23380
 2021-02-23,Sierra Leone,0,0
-2021-02-23,Singapore,250000,110000
+2021-02-23,Singapore,256903,161296
 2021-02-23,Slovakia,289624,109270
 2021-02-23,Slovenia,99373,52833
 2021-02-23,Solomon Islands,0,0
@@ -16043,7 +16043,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-24,Serbia,856359,487359
 2021-02-24,Seychelles,47188,23380
 2021-02-24,Sierra Leone,0,0
-2021-02-24,Singapore,250000,110000
+2021-02-24,Singapore,264530,173205
 2021-02-24,Slovakia,295778,116089
 2021-02-24,Slovenia,106194,53023
 2021-02-24,Solomon Islands,0,0
@@ -16230,7 +16230,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-25,Serbia,878143,497729
 2021-02-25,Seychelles,51577,23519
 2021-02-25,Sierra Leone,0,0
-2021-02-25,Singapore,250000,110000
+2021-02-25,Singapore,273191,183305
 2021-02-25,Slovakia,299002,123899
 2021-02-25,Slovenia,116996,53215
 2021-02-25,Solomon Islands,0,0
@@ -16417,7 +16417,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-26,Serbia,886086,507000
 2021-02-26,Seychelles,51577,23519
 2021-02-26,Sierra Leone,0,0
-2021-02-26,Singapore,250000,110000
+2021-02-26,Singapore,283290,194226
 2021-02-26,Slovakia,302922,132891
 2021-02-26,Slovenia,124258,53764
 2021-02-26,Solomon Islands,0,0
@@ -16604,7 +16604,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-27,Serbia,921248,511807
 2021-02-27,Seychelles,55889,23549
 2021-02-27,Sierra Leone,0,0
-2021-02-27,Singapore,250000,110000
+2021-02-27,Singapore,291702,199795
 2021-02-27,Slovakia,310246,133775
 2021-02-27,Slovenia,125178,53775
 2021-02-27,Solomon Islands,0,0
@@ -16791,7 +16791,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-02-28,Serbia,924683,511999
 2021-02-28,Seychelles,55889,23549
 2021-02-28,Sierra Leone,0,0
-2021-02-28,Singapore,250000,110000
+2021-02-28,Singapore,297876,202418
 2021-02-28,Slovakia,315812,133775
 2021-02-28,Slovenia,125178,53775
 2021-02-28,Solomon Islands,0,0
@@ -16978,7 +16978,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-01,Serbia,946375,524231
 2021-03-01,Seychelles,55901,24230
 2021-03-01,Sierra Leone,0,0
-2021-03-01,Singapore,317715,207324
+2021-03-01,Singapore,307584,205829
 2021-03-01,Slovakia,321618,143072
 2021-03-01,Slovenia,126317,53775
 2021-03-01,Solomon Islands,0,0
@@ -17165,7 +17165,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-02,Serbia,971054,530863
 2021-03-02,Seychelles,55901,24230
 2021-03-02,Sierra Leone,0,0
-2021-03-02,Singapore,317715,207324
+2021-03-02,Singapore,317514,209285
 2021-03-02,Slovakia,327340,152749
 2021-03-02,Slovenia,128497,53786
 2021-03-02,Solomon Islands,0,0
@@ -17352,7 +17352,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-03,Serbia,1000523,534751
 2021-03-03,Seychelles,56261,24602
 2021-03-03,Sierra Leone,0,0
-2021-03-03,Singapore,317715,207324
+2021-03-03,Singapore,328524,212115
 2021-03-03,Slovakia,331653,161944
 2021-03-03,Slovenia,135079,54689
 2021-03-03,Solomon Islands,0,0
@@ -17539,7 +17539,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-04,Serbia,1013061,563922
 2021-03-04,Seychelles,57095,24620
 2021-03-04,Sierra Leone,0,0
-2021-03-04,Singapore,350000,215000
+2021-03-04,Singapore,340716,213855
 2021-03-04,Slovakia,336069,170700
 2021-03-04,Slovenia,141814,59355
 2021-03-04,Solomon Islands,0,0
@@ -17726,7 +17726,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-05,Serbia,1025137,593617
 2021-03-05,Seychelles,57095,24620
 2021-03-05,Sierra Leone,0,0
-2021-03-05,Singapore,350000,215000
+2021-03-05,Singapore,354229,214802
 2021-03-05,Slovakia,341758,177998
 2021-03-05,Slovenia,146413,65135
 2021-03-05,Solomon Islands,0,0
@@ -17913,7 +17913,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-06,Serbia,1029963,620067
 2021-03-06,Seychelles,57095,24620
 2021-03-06,Sierra Leone,0,0
-2021-03-06,Singapore,350000,215000
+2021-03-06,Singapore,362977,215460
 2021-03-06,Slovakia,357830,179739
 2021-03-06,Slovenia,147777,65731
 2021-03-06,Solomon Islands,0,0
@@ -18100,7 +18100,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-07,Serbia,1030440,620853
 2021-03-07,Seychelles,57095,24620
 2021-03-07,Sierra Leone,0,0
-2021-03-07,Singapore,379000,217000
+2021-03-07,Singapore,367778,215893
 2021-03-07,Slovakia,367262,179931
 2021-03-07,Slovenia,147779,65731
 2021-03-07,Solomon Islands,0,0
@@ -18287,7 +18287,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-08,Serbia,1081366,623424
 2021-03-08,Seychelles,57901,26567
 2021-03-08,Sierra Leone,0,0
-2021-03-08,Singapore,392620,218694
+2021-03-08,Singapore,381363,217381
 2021-03-08,Slovakia,372720,188680
 2021-03-08,Slovenia,149190,66127
 2021-03-08,Solomon Islands,0,0
@@ -18474,7 +18474,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-09,Serbia,1124826,625707
 2021-03-09,Seychelles,57901,26567
 2021-03-09,Sierra Leone,0,0
-2021-03-09,Singapore,392620,218694
+2021-03-09,Singapore,398162,219340
 2021-03-09,Slovakia,376238,195776
 2021-03-09,Slovenia,152884,66627
 2021-03-09,Solomon Islands,0,0
@@ -18661,7 +18661,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-10,Serbia,1145893,647019
 2021-03-10,Seychelles,60439,26894
 2021-03-10,Sierra Leone,0,0
-2021-03-10,Singapore,392620,218694
+2021-03-10,Singapore,417107,222151
 2021-03-10,Slovakia,379219,202290
 2021-03-10,Slovenia,157677,71603
 2021-03-10,Solomon Islands,0,0
@@ -18848,7 +18848,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-11,Serbia,1161194,666146
 2021-03-11,Seychelles,61070,27036
 2021-03-11,Sierra Leone,0,0
-2021-03-11,Singapore,392620,218694
+2021-03-11,Singapore,439368,225577
 2021-03-11,Slovakia,389978,209268
 2021-03-11,Slovenia,163947,79537
 2021-03-11,Solomon Islands,0,0
@@ -19035,7 +19035,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-12,Serbia,1196235,701100
 2021-03-12,Seychelles,61070,27036
 2021-03-12,Sierra Leone,0,0
-2021-03-12,Singapore,392620,218694
+2021-03-12,Singapore,464270,230530
 2021-03-12,Slovakia,403758,215567
 2021-03-12,Slovenia,172430,84718
 2021-03-12,Solomon Islands,0,0
@@ -19222,7 +19222,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-13,Serbia,1218309,738756
 2021-03-13,Seychelles,61070,27036
 2021-03-13,Sierra Leone,0,0
-2021-03-13,Singapore,392620,218694
+2021-03-13,Singapore,488225,233999
 2021-03-13,Slovakia,421373,217603
 2021-03-13,Slovenia,178873,86978
 2021-03-13,Solomon Islands,0,0
@@ -19409,7 +19409,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-14,Serbia,1224982,782668
 2021-03-14,Seychelles,61070,27036
 2021-03-14,Sierra Leone,0,0
-2021-03-14,Singapore,392620,218694
+2021-03-14,Singapore,508560,235816
 2021-03-14,Slovakia,435381,217779
 2021-03-14,Slovenia,178874,86978
 2021-03-14,Solomon Islands,0,0
@@ -19596,7 +19596,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-15,Serbia,1249044,791269
 2021-03-15,Seychelles,62067,27442
 2021-03-15,Sierra Leone,0,0
-2021-03-15,Singapore,549254,243169
+2021-03-15,Singapore,536323,241851
 2021-03-15,Slovakia,449521,221735
 2021-03-15,Slovenia,180216,87271
 2021-03-15,Solomon Islands,0,0
@@ -19783,7 +19783,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-16,Serbia,1258476,793926
 2021-03-16,Seychelles,62067,27442
 2021-03-16,Sierra Leone,0,0
-2021-03-16,Singapore,549254,243169
+2021-03-16,Singapore,565469,249101
 2021-03-16,Slovakia,465018,225104
 2021-03-16,Slovenia,180495,88056
 2021-03-16,Solomon Islands,0,0
@@ -19970,7 +19970,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-17,Serbia,1267822,809375
 2021-03-17,Seychelles,62067,27442
 2021-03-17,Sierra Leone,0,0
-2021-03-17,Singapore,549254,243169
+2021-03-17,Singapore,598911,256732
 2021-03-17,Slovakia,480724,228983
 2021-03-17,Slovenia,180947,93772
 2021-03-17,Solomon Islands,0,0
@@ -20157,7 +20157,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-18,Serbia,1285223,826851
 2021-03-18,Seychelles,62457,27693
 2021-03-18,Sierra Leone,0,0
-2021-03-18,Singapore,549254,243169
+2021-03-18,Singapore,632044,264521
 2021-03-18,Slovakia,497182,232752
 2021-03-18,Slovenia,182626,102211
 2021-03-18,Solomon Islands,0,0
@@ -20344,7 +20344,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-19,Serbia,1303661,857934
 2021-03-19,Seychelles,62457,27693
 2021-03-19,Sierra Leone,0,0
-2021-03-19,Singapore,549254,243169
+2021-03-19,Singapore,668562,274192
 2021-03-19,Slovakia,511048,239117
 2021-03-19,Slovenia,185611,106744
 2021-03-19,Solomon Islands,0,0
@@ -20531,7 +20531,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-20,Serbia,1305132,858461
 2021-03-20,Seychelles,62457,27693
 2021-03-20,Sierra Leone,0,0
-2021-03-20,Singapore,549254,243169
+2021-03-20,Singapore,698663,282591
 2021-03-20,Slovakia,530066,240517
 2021-03-20,Slovenia,189677,106925
 2021-03-20,Solomon Islands,0,0
@@ -20718,7 +20718,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-21,Serbia,1308036,861826
 2021-03-21,Seychelles,62457,27693
 2021-03-21,Sierra Leone,0,0
-2021-03-21,Singapore,549254,243169
+2021-03-21,Singapore,726012,288300
 2021-03-21,Slovakia,544347,241270
 2021-03-21,Slovenia,189678,106926
 2021-03-21,Solomon Islands,0,0
@@ -20905,7 +20905,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-22,Serbia,1313912,865018
 2021-03-22,Seychelles,62457,27693
 2021-03-22,Sierra Leone,0,0
-2021-03-22,Singapore,771297,300611
+2021-03-22,Singapore,756558,298403
 2021-03-22,Slovakia,562339,244606
 2021-03-22,Slovenia,190807,106935
 2021-03-22,Solomon Islands,0,0
@@ -21092,7 +21092,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-23,Serbia,1330385,876436
 2021-03-23,Seychelles,63100,31372
 2021-03-23,Sierra Leone,0,0
-2021-03-23,Singapore,799000,310000
+2021-03-23,Singapore,784498,308193
 2021-03-23,Slovakia,580746,249183
 2021-03-23,Slovenia,194808,107251
 2021-03-23,Solomon Islands,0,0
@@ -21279,7 +21279,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-24,Serbia,1338010,903500
 2021-03-24,Seychelles,63132,33391
 2021-03-24,Sierra Leone,0,0
-2021-03-24,Singapore,799000,310000
+2021-03-24,Singapore,808112,318922
 2021-03-24,Slovakia,599417,253389
 2021-03-24,Slovenia,202184,109883
 2021-03-24,Solomon Islands,0,0
@@ -21466,7 +21466,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-25,Serbia,1338010,903500
 2021-03-25,Seychelles,63132,33391
 2021-03-25,Sierra Leone,10673,0
-2021-03-25,Singapore,799000,310000
+2021-03-25,Singapore,829003,331158
 2021-03-25,Slovakia,616673,256265
 2021-03-25,Slovenia,214113,112446
 2021-03-25,Solomon Islands,0,0
@@ -21653,7 +21653,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-26,Serbia,1366442,916434
 2021-03-26,Seychelles,63132,33391
 2021-03-26,Sierra Leone,10673,0
-2021-03-26,Singapore,799000,310000
+2021-03-26,Singapore,851845,345525
 2021-03-26,Slovakia,633848,258214
 2021-03-26,Slovenia,227905,114799
 2021-03-26,Solomon Islands,0,0
@@ -21840,7 +21840,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-27,Serbia,1366442,916434
 2021-03-27,Seychelles,63132,33391
 2021-03-27,Sierra Leone,10673,0
-2021-03-27,Singapore,799000,310000
+2021-03-27,Singapore,874734,354337
 2021-03-27,Slovakia,648832,258379
 2021-03-27,Slovenia,234712,115296
 2021-03-27,Solomon Islands,0,0
@@ -22027,7 +22027,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-28,Serbia,1404190,919499
 2021-03-28,Seychelles,63132,33391
 2021-03-28,Sierra Leone,10673,0
-2021-03-28,Singapore,799000,310000
+2021-03-28,Singapore,891181,359367
 2021-03-28,Slovakia,657982,258380
 2021-03-28,Slovenia,235970,115299
 2021-03-28,Solomon Islands,0,0
@@ -22214,7 +22214,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-29,Serbia,1404190,919499
 2021-03-29,Seychelles,63132,33391
 2021-03-29,Sierra Leone,10673,0
-2021-03-29,Singapore,943307,375605
+2021-03-29,Singapore,925981,372606
 2021-03-29,Slovakia,676791,259724
 2021-03-29,Slovenia,237100,115306
 2021-03-29,Solomon Islands,0,0
@@ -22401,7 +22401,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-30,Serbia,1414983,1006012
 2021-03-30,Seychelles,63686,36866
 2021-03-30,Sierra Leone,25836,0
-2021-03-30,Singapore,943307,375605
+2021-03-30,Singapore,953375,388615
 2021-03-30,Slovakia,695559,261603
 2021-03-30,Slovenia,244836,115630
 2021-03-30,Solomon Islands,0,0
@@ -22588,7 +22588,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-03-31,Serbia,1428888,1015507
 2021-03-31,Seychelles,63686,36866
 2021-03-31,Sierra Leone,31889,0
-2021-03-31,Singapore,943307,375605
+2021-03-31,Singapore,976176,407456
 2021-03-31,Slovakia,716380,263501
 2021-03-31,Slovenia,258273,116961
 2021-03-31,Solomon Islands,0,0
@@ -22775,7 +22775,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-01,Serbia,1450922,1037709
 2021-04-01,Seychelles,64123,37957
 2021-04-01,Sierra Leone,31889,0
-2021-04-01,Singapore,943307,375605
+2021-04-01,Singapore,998621,427085
 2021-04-01,Slovakia,736726,265219
 2021-04-01,Slovenia,275074,119651
 2021-04-01,Solomon Islands,0,0
@@ -22962,7 +22962,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-02,Serbia,1458304,1063559
 2021-04-02,Seychelles,64123,37957
 2021-04-02,Sierra Leone,31889,0
-2021-04-02,Singapore,943307,375605
+2021-04-02,Singapore,1016911,443653
 2021-04-02,Slovakia,741154,265321
 2021-04-02,Slovenia,285213,121776
 2021-04-02,Solomon Islands,0,0
@@ -23149,7 +23149,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-03,Serbia,1458304,1063559
 2021-04-03,Seychelles,64123,37957
 2021-04-03,Sierra Leone,31889,0
-2021-04-03,Singapore,1050000,468000
+2021-04-03,Singapore,1036218,465915
 2021-04-03,Slovakia,752437,265485
 2021-04-03,Slovenia,288315,121805
 2021-04-03,Solomon Islands,0,0
@@ -23336,7 +23336,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-04,Serbia,1476929,1090763
 2021-04-04,Seychelles,64123,37957
 2021-04-04,Sierra Leone,31889,0
-2021-04-04,Singapore,1050000,468000
+2021-04-04,Singapore,1052758,482662
 2021-04-04,Slovakia,756533,265485
 2021-04-04,Slovenia,289909,121807
 2021-04-04,Solomon Islands,0,0
@@ -23523,7 +23523,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-05,Serbia,1481015,1112823
 2021-04-05,Seychelles,64123,37957
 2021-04-05,Sierra Leone,31889,0
-2021-04-05,Singapore,1050000,468000
+2021-04-05,Singapore,1081107,508064
 2021-04-05,Slovakia,756902,265489
 2021-04-05,Slovenia,289910,121807
 2021-04-05,Solomon Islands,0,0
@@ -23710,7 +23710,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-06,Serbia,1504755,1120915
 2021-04-06,Seychelles,64508,39460
 2021-04-06,Sierra Leone,31889,0
-2021-04-06,Singapore,1131658,535864
+2021-04-06,Singapore,1108299,533414
 2021-04-06,Slovakia,773524,268988
 2021-04-06,Slovenia,292380,122176
 2021-04-06,Solomon Islands,0,0
@@ -23897,7 +23897,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-07,Serbia,1552535,1134776
 2021-04-07,Seychelles,64508,39460
 2021-04-07,Sierra Leone,31889,0
-2021-04-07,Singapore,1131658,535864
+2021-04-07,Singapore,1133177,561657
 2021-04-07,Slovakia,794263,271210
 2021-04-07,Slovenia,298530,122197
 2021-04-07,Solomon Islands,0,0
@@ -24084,7 +24084,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-08,Serbia,1552535,1134776
 2021-04-08,Seychelles,64508,39460
 2021-04-08,Sierra Leone,31889,0
-2021-04-08,Singapore,1131658,535864
+2021-04-08,Singapore,1156140,591104
 2021-04-08,Slovakia,809519,279330
 2021-04-08,Slovenia,313289,122855
 2021-04-08,Solomon Islands,0,0
@@ -24271,7 +24271,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-09,Serbia,1677268,1158744
 2021-04-09,Seychelles,64508,39460
 2021-04-09,Sierra Leone,31889,0
-2021-04-09,Singapore,1131658,535864
+2021-04-09,Singapore,1176693,627288
 2021-04-09,Slovakia,826025,288353
 2021-04-09,Slovenia,331854,124558
 2021-04-09,Solomon Islands,0,0
@@ -24458,7 +24458,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-10,Serbia,1716843,1166011
 2021-04-10,Seychelles,65490,43259
 2021-04-10,Sierra Leone,37558,122
-2021-04-10,Singapore,1131658,535864
+2021-04-10,Singapore,1194464,659700
 2021-04-10,Slovakia,846313,289175
 2021-04-10,Slovenia,340936,124689
 2021-04-10,Solomon Islands,0,0
@@ -24645,7 +24645,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-11,Serbia,1716843,1166011
 2021-04-11,Seychelles,65490,43259
 2021-04-11,Sierra Leone,37558,122
-2021-04-11,Singapore,1131658,535864
+2021-04-11,Singapore,1214100,685647
 2021-04-11,Slovakia,866106,290443
 2021-04-11,Slovenia,342565,124702
 2021-04-11,Solomon Islands,0,0
@@ -24832,7 +24832,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-12,Serbia,1716843,1166011
 2021-04-12,Seychelles,65490,43259
 2021-04-12,Sierra Leone,37558,122
-2021-04-12,Singapore,1131658,535864
+2021-04-12,Singapore,1230756,714773
 2021-04-12,Slovakia,877953,300894
 2021-04-12,Slovenia,344222,124908
 2021-04-12,Solomon Islands,0,0
@@ -25019,7 +25019,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-13,Serbia,1716843,1166011
 2021-04-13,Seychelles,66250,45944
 2021-04-13,Sierra Leone,37558,122
-2021-04-13,Singapore,1131658,535864
+2021-04-13,Singapore,1248857,738891
 2021-04-13,Slovakia,887875,312264
 2021-04-13,Slovenia,347315,125695
 2021-04-13,Solomon Islands,2622,0
@@ -25206,7 +25206,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-14,Serbia,1780918,1201509
 2021-04-14,Seychelles,66250,45944
 2021-04-14,Sierra Leone,41543,876
-2021-04-14,Singapore,1131658,535864
+2021-04-14,Singapore,1268284,759948
 2021-04-14,Slovakia,898190,323268
 2021-04-14,Slovenia,355156,129558
 2021-04-14,Solomon Islands,2622,0
@@ -25393,7 +25393,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-15,Serbia,1807404,1212997
 2021-04-15,Seychelles,66250,45944
 2021-04-15,Sierra Leone,42566,1781
-2021-04-15,Singapore,1131658,535864
+2021-04-15,Singapore,1286363,780829
 2021-04-15,Slovakia,909980,335688
 2021-04-15,Slovenia,364651,139622
 2021-04-15,Solomon Islands,2622,0
@@ -25580,7 +25580,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-16,Serbia,1820747,1220993
 2021-04-16,Seychelles,66250,45944
 2021-04-16,Sierra Leone,42566,1781
-2021-04-16,Singapore,1131658,535864
+2021-04-16,Singapore,1305945,804734
 2021-04-16,Slovakia,924238,347710
 2021-04-16,Slovenia,373060,145364
 2021-04-16,Solomon Islands,2622,0
@@ -25767,7 +25767,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-17,Serbia,1827563,1227444
 2021-04-17,Seychelles,66250,45944
 2021-04-17,Sierra Leone,42566,1781
-2021-04-17,Singapore,1131658,535864
+2021-04-17,Singapore,1321991,826994
 2021-04-17,Slovakia,950633,348079
 2021-04-17,Slovenia,375567,149017
 2021-04-17,Solomon Islands,2622,0
@@ -25954,7 +25954,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-18,Serbia,1829772,1238871
 2021-04-18,Seychelles,66250,45944
 2021-04-18,Sierra Leone,42566,1781
-2021-04-18,Singapore,1364124,849764
+2021-04-18,Singapore,1336568,842709
 2021-04-18,Slovakia,962936,348175
 2021-04-18,Slovenia,376846,149024
 2021-04-18,Solomon Islands,2622,0
@@ -26141,7 +26141,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-19,Serbia,1829772,1238871
 2021-04-19,Seychelles,66433,50524
 2021-04-19,Sierra Leone,42566,1781
-2021-04-19,Singapore,1364124,849764
+2021-04-19,Singapore,1353313,873559
 2021-04-19,Slovakia,972415,359868
 2021-04-19,Slovenia,379182,149398
 2021-04-19,Solomon Islands,2622,0
@@ -26328,7 +26328,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-20,Serbia,1829772,1238871
 2021-04-20,Seychelles,66433,50524
 2021-04-20,Sierra Leone,42566,1781
-2021-04-20,Singapore,1364124,849764
+2021-04-20,Singapore,1374879,898099
 2021-04-20,Slovakia,980592,374105
 2021-04-20,Slovenia,384403,150882
 2021-04-20,Solomon Islands,3479,0
@@ -26515,7 +26515,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-21,Serbia,1868861,1267617
 2021-04-21,Seychelles,66433,50524
 2021-04-21,Sierra Leone,42566,1781
-2021-04-21,Singapore,1364124,849764
+2021-04-21,Singapore,1399651,918621
 2021-04-21,Slovakia,988040,388050
 2021-04-21,Slovenia,392150,160041
 2021-04-21,Solomon Islands,3479,0
@@ -26702,7 +26702,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-22,Serbia,1892399,1284370
 2021-04-22,Seychelles,66433,50524
 2021-04-22,Sierra Leone,42566,1781
-2021-04-22,Singapore,1364124,849764
+2021-04-22,Singapore,1424127,938229
 2021-04-22,Slovakia,996946,401847
 2021-04-22,Slovenia,400297,171969
 2021-04-22,Solomon Islands,3479,0
@@ -26889,7 +26889,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-23,Serbia,1900150,1292800
 2021-04-23,Seychelles,66497,54668
 2021-04-23,Sierra Leone,42566,1781
-2021-04-23,Singapore,1364124,849764
+2021-04-23,Singapore,1448482,959951
 2021-04-23,Slovakia,1005084,416623
 2021-04-23,Slovenia,411189,178812
 2021-04-23,Solomon Islands,3479,0
@@ -27076,7 +27076,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-24,Serbia,1944492,1308547
 2021-04-24,Seychelles,66497,54668
 2021-04-24,Sierra Leone,42566,1781
-2021-04-24,Singapore,1364124,849764
+2021-04-24,Singapore,1466926,984752
 2021-04-24,Slovakia,1019664,423380
 2021-04-24,Slovenia,413680,179277
 2021-04-24,Solomon Islands,3479,0
@@ -27263,7 +27263,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-25,Serbia,1944492,1308547
 2021-04-25,Seychelles,66497,54668
 2021-04-25,Sierra Leone,52076,5288
-2021-04-25,Singapore,1364124,849764
+2021-04-25,Singapore,1486786,1003696
 2021-04-25,Slovakia,1032902,429162
 2021-04-25,Slovenia,414338,179297
 2021-04-25,Solomon Islands,3479,0
@@ -27450,7 +27450,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-26,Serbia,1954709,1320067
 2021-04-26,Seychelles,66583,57248
 2021-04-26,Sierra Leone,52076,5288
-2021-04-26,Singapore,1364124,849764
+2021-04-26,Singapore,1505823,1030636
 2021-04-26,Slovakia,1039874,447376
 2021-04-26,Slovenia,414717,179305
 2021-04-26,Solomon Islands,3479,0
@@ -27637,7 +27637,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-27,Serbia,1954709,1320067
 2021-04-27,Seychelles,66583,57248
 2021-04-27,Sierra Leone,53717,5599
-2021-04-27,Singapore,1364124,849764
+2021-04-27,Singapore,1527105,1056079
 2021-04-27,Slovakia,1045320,463208
 2021-04-27,Slovenia,415178,179314
 2021-04-27,Solomon Islands,3479,0
@@ -27824,7 +27824,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-28,Serbia,2005629,1404811
 2021-04-28,Seychelles,67043,58496
 2021-04-28,Sierra Leone,53717,5599
-2021-04-28,Singapore,1364124,849764
+2021-04-28,Singapore,1549252,1078091
 2021-04-28,Slovakia,1051546,479232
 2021-04-28,Slovenia,418373,184130
 2021-04-28,Solomon Islands,3479,0
@@ -28011,7 +28011,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-29,Serbia,2005629,1404811
 2021-04-29,Seychelles,67680,59160
 2021-04-29,Sierra Leone,54084,5702
-2021-04-29,Singapore,1364124,849764
+2021-04-29,Singapore,1575256,1097930
 2021-04-29,Slovakia,1059024,495992
 2021-04-29,Slovenia,424397,197516
 2021-04-29,Solomon Islands,3479,0
@@ -28198,7 +28198,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-04-30,Serbia,2026571,1488034
 2021-04-30,Seychelles,67680,59160
 2021-04-30,Sierra Leone,54084,5702
-2021-04-30,Singapore,1364124,849764
+2021-04-30,Singapore,1599213,1121094
 2021-04-30,Slovakia,1080009,502970
 2021-04-30,Slovenia,430753,212403
 2021-04-30,Solomon Islands,3479,0
@@ -28385,7 +28385,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-01,Serbia,2028302,1497517
 2021-05-01,Seychelles,67680,59160
 2021-05-01,Sierra Leone,55083,6024
-2021-05-01,Singapore,1364124,849764
+2021-05-01,Singapore,1622813,1134780
 2021-05-01,Slovakia,1105964,507198
 2021-05-01,Slovenia,431626,218773
 2021-05-01,Solomon Islands,3479,0
@@ -28572,7 +28572,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-02,Serbia,2028490,1498386
 2021-05-02,Seychelles,67680,59160
 2021-05-02,Sierra Leone,55083,6024
-2021-05-02,Singapore,1364124,849764
+2021-05-02,Singapore,1642988,1151696
 2021-05-02,Slovakia,1123219,510486
 2021-05-02,Slovenia,432918,220935
 2021-05-02,Solomon Islands,3479,0
@@ -28759,7 +28759,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-03,Serbia,2028490,1498386
 2021-05-03,Seychelles,68045,59676
 2021-05-03,Sierra Leone,55083,6024
-2021-05-03,Singapore,1364124,849764
+2021-05-03,Singapore,1664283,1163574
 2021-05-03,Slovakia,1143217,513448
 2021-05-03,Slovenia,438024,223882
 2021-05-03,Solomon Islands,3479,0
@@ -28946,7 +28946,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-04,Serbia,2028490,1498386
 2021-05-04,Seychelles,68045,59676
 2021-05-04,Sierra Leone,55083,6024
-2021-05-04,Singapore,1364124,849764
+2021-05-04,Singapore,1686312,1175608
 2021-05-04,Slovakia,1153179,528328
 2021-05-04,Slovenia,445208,226698
 2021-05-04,Solomon Islands,3479,0
@@ -29133,7 +29133,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-05,Serbia,2071635,1620781
 2021-05-05,Seychelles,68512,60407
 2021-05-05,Sierra Leone,56774,6024
-2021-05-05,Singapore,1364124,849764
+2021-05-05,Singapore,1707199,1189989
 2021-05-05,Slovakia,1159351,546396
 2021-05-05,Slovenia,455396,234681
 2021-05-05,Solomon Islands,3479,0
@@ -29320,7 +29320,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-06,Serbia,2088102,1627001
 2021-05-06,Seychelles,68512,60407
 2021-05-06,Sierra Leone,56774,6024
-2021-05-06,Singapore,1364124,849764
+2021-05-06,Singapore,1731442,1203200
 2021-05-06,Slovakia,1171666,560043
 2021-05-06,Slovenia,471097,246977
 2021-05-06,Solomon Islands,3479,0
@@ -29507,7 +29507,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-07,Serbia,2116586,1640502
 2021-05-07,Seychelles,68512,60407
 2021-05-07,Sierra Leone,56774,6024
-2021-05-07,Singapore,1364124,849764
+2021-05-07,Singapore,1753805,1219989
 2021-05-07,Slovakia,1186640,574840
 2021-05-07,Slovenia,484694,255618
 2021-05-07,Solomon Islands,3479,0
@@ -29694,7 +29694,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-08,Serbia,2140266,1646082
 2021-05-08,Seychelles,68512,60407
 2021-05-08,Sierra Leone,58250,6716
-2021-05-08,Singapore,1364124,849764
+2021-05-08,Singapore,1772188,1236077
 2021-05-08,Slovakia,1221749,585119
 2021-05-08,Slovenia,490231,260918
 2021-05-08,Solomon Islands,3479,0
@@ -29881,7 +29881,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-09,Serbia,2149705,1649237
 2021-05-09,Seychelles,68512,60407
 2021-05-09,Sierra Leone,58250,6716
-2021-05-09,Singapore,1364124,849764
+2021-05-09,Singapore,1789993,1249920
 2021-05-09,Slovakia,1251133,588081
 2021-05-09,Slovenia,491886,261055
 2021-05-09,Solomon Islands,3479,0
@@ -30068,7 +30068,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-10,Serbia,2169340,1657223
 2021-05-10,Seychelles,68512,60407
 2021-05-10,Sierra Leone,58250,6716
-2021-05-10,Singapore,1852684,1284646
+2021-05-10,Singapore,1819444,1267346
 2021-05-10,Slovakia,1275507,595463
 2021-05-10,Slovenia,494218,262437
 2021-05-10,Solomon Islands,3479,0
@@ -30255,7 +30255,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-11,Serbia,2169340,1657223
 2021-05-11,Seychelles,68512,60407
 2021-05-11,Sierra Leone,58250,6716
-2021-05-11,Singapore,1852684,1284646
+2021-05-11,Singapore,1846232,1288219
 2021-05-11,Slovakia,1297718,603776
 2021-05-11,Slovenia,502496,264585
 2021-05-11,Solomon Islands,3479,0
@@ -30442,7 +30442,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-12,Serbia,2219205,1696717
 2021-05-12,Seychelles,69708,61360
 2021-05-12,Sierra Leone,58250,6716
-2021-05-12,Singapore,1852684,1284646
+2021-05-12,Singapore,1856947,1307727
 2021-05-12,Slovakia,1316423,614664
 2021-05-12,Slovenia,519114,270469
 2021-05-12,Solomon Islands,3479,0
@@ -30629,7 +30629,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-13,Serbia,2219205,1696717
 2021-05-13,Seychelles,69708,61360
 2021-05-13,Sierra Leone,58250,6716
-2021-05-13,Singapore,1900000,1300000
+2021-05-13,Singapore,1857138,1307830
 2021-05-13,Slovakia,1334453,626767
 2021-05-13,Slovenia,538651,280256
 2021-05-13,Solomon Islands,3479,0
@@ -30816,7 +30816,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-14,Serbia,2219205,1696717
 2021-05-14,Seychelles,69708,61360
 2021-05-14,Sierra Leone,58250,6716
-2021-05-14,Singapore,1900000,1300000
+2021-05-14,Singapore,1873593,1347739
 2021-05-14,Slovakia,1356160,641351
 2021-05-14,Slovenia,556102,288983
 2021-05-14,Solomon Islands,3479,0
@@ -31003,7 +31003,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-15,Serbia,2278826,1742667
 2021-05-15,Seychelles,69915,61631
 2021-05-15,Sierra Leone,58250,6716
-2021-05-15,Singapore,1900000,1300000
+2021-05-15,Singapore,1895636,1373870
 2021-05-15,Slovakia,1381913,659973
 2021-05-15,Slovenia,563041,293336
 2021-05-15,Solomon Islands,3479,0
@@ -31190,7 +31190,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-16,Serbia,2286468,1751924
 2021-05-16,Seychelles,69915,61631
 2021-05-16,Sierra Leone,58250,6716
-2021-05-16,Singapore,1900000,1300000
+2021-05-16,Singapore,1915551,1397385
 2021-05-16,Slovakia,1404883,669196
 2021-05-16,Slovenia,563224,296292
 2021-05-16,Solomon Islands,3479,0
@@ -31377,7 +31377,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-17,Serbia,2304204,1772363
 2021-05-17,Seychelles,69915,61631
 2021-05-17,Sierra Leone,58250,6716
-2021-05-17,Singapore,1966524,1440544
+2021-05-17,Singapore,1932195,1420543
 2021-05-17,Slovakia,1426878,681103
 2021-05-17,Slovenia,566784,301424
 2021-05-17,Solomon Islands,3479,0
@@ -31564,7 +31564,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-18,Serbia,2320325,1807938
 2021-05-18,Seychelles,70126,62035
 2021-05-18,Sierra Leone,58250,6716
-2021-05-18,Singapore,1966524,1440544
+2021-05-18,Singapore,1950641,1442539
 2021-05-18,Slovakia,1448813,689473
 2021-05-18,Slovenia,577151,305073
 2021-05-18,Solomon Islands,3479,0
@@ -31751,7 +31751,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-19,Serbia,2338805,1845829
 2021-05-19,Seychelles,70126,62035
 2021-05-19,Sierra Leone,58250,6716
-2021-05-19,Singapore,1966524,1440544
+2021-05-19,Singapore,1968955,1464454
 2021-05-19,Slovakia,1470494,698816
 2021-05-19,Slovenia,593096,313152
 2021-05-19,Solomon Islands,3479,0
@@ -31938,7 +31938,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-20,Serbia,2338805,1845829
 2021-05-20,Seychelles,70126,62035
 2021-05-20,Sierra Leone,58250,6716
-2021-05-20,Singapore,1966524,1440544
+2021-05-20,Singapore,1992743,1487602
 2021-05-20,Slovakia,1492420,712500
 2021-05-20,Slovenia,616735,320263
 2021-05-20,Solomon Islands,3479,0
@@ -32125,7 +32125,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-21,Serbia,2370788,1871387
 2021-05-21,Seychelles,70126,62035
 2021-05-21,Sierra Leone,58250,6716
-2021-05-21,Singapore,1966524,1440544
+2021-05-21,Singapore,2013861,1515711
 2021-05-21,Slovakia,1521450,722130
 2021-05-21,Slovenia,631835,333130
 2021-05-21,Solomon Islands,3479,0
@@ -32312,7 +32312,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-22,Serbia,2370788,1871387
 2021-05-22,Seychelles,70126,62035
 2021-05-22,Sierra Leone,58250,6716
-2021-05-22,Singapore,1966524,1440544
+2021-05-22,Singapore,2030693,1547036
 2021-05-22,Slovakia,1547394,743985
 2021-05-22,Slovenia,635321,340700
 2021-05-22,Solomon Islands,3479,0
@@ -32499,7 +32499,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-23,Serbia,2388000,1882016
 2021-05-23,Seychelles,70126,62035
 2021-05-23,Sierra Leone,58250,6716
-2021-05-23,Singapore,1966524,1440544
+2021-05-23,Singapore,2048584,1572530
 2021-05-23,Slovakia,1571522,753758
 2021-05-23,Slovenia,636537,342558
 2021-05-23,Solomon Islands,3479,0
@@ -32686,7 +32686,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-24,Serbia,2406387,1906323
 2021-05-24,Seychelles,70126,62035
 2021-05-24,Sierra Leone,58250,6716
-2021-05-24,Singapore,2112450,1616419
+2021-05-24,Singapore,2075807,1593102
 2021-05-24,Slovakia,1596906,761679
 2021-05-24,Slovenia,637747,347913
 2021-05-24,Solomon Islands,3479,0
@@ -32873,7 +32873,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-25,Serbia,2427733,1927155
 2021-05-25,Seychelles,70446,64029
 2021-05-25,Sierra Leone,58250,6716
-2021-05-25,Singapore,2112450,1616419
+2021-05-25,Singapore,2105596,1614267
 2021-05-25,Slovakia,1622738,766744
 2021-05-25,Slovenia,641491,354949
 2021-05-25,Solomon Islands,3479,0
@@ -33060,7 +33060,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-26,Serbia,2427733,1927155
 2021-05-26,Seychelles,70446,64029
 2021-05-26,Sierra Leone,58250,6716
-2021-05-26,Singapore,2112450,1616419
+2021-05-26,Singapore,2131872,1628350
 2021-05-26,Slovakia,1643326,775301
 2021-05-26,Slovenia,648772,370123
 2021-05-26,Solomon Islands,3479,0
@@ -33247,7 +33247,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-27,Serbia,2472221,1965529
 2021-05-27,Seychelles,70446,64029
 2021-05-27,Sierra Leone,58250,6716
-2021-05-27,Singapore,2112450,1616419
+2021-05-27,Singapore,2154712,1650610
 2021-05-27,Slovakia,1667681,787698
 2021-05-27,Slovenia,658059,390708
 2021-05-27,Solomon Islands,3479,0
@@ -33434,7 +33434,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-28,Serbia,2472221,1965529
 2021-05-28,Seychelles,70446,64029
 2021-05-28,Sierra Leone,58250,6716
-2021-05-28,Singapore,2112450,1616419
+2021-05-28,Singapore,2179502,1674083
 2021-05-28,Slovakia,1683980,805412
 2021-05-28,Slovenia,666622,404935
 2021-05-28,Solomon Islands,3479,0
@@ -33621,7 +33621,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-29,Serbia,2472221,1965529
 2021-05-29,Seychelles,70446,64029
 2021-05-29,Sierra Leone,58250,6716
-2021-05-29,Singapore,2112450,1616419
+2021-05-29,Singapore,2203480,1694849
 2021-05-29,Slovakia,1710267,829287
 2021-05-29,Slovenia,670497,411840
 2021-05-29,Solomon Islands,3479,0
@@ -33808,7 +33808,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-30,Serbia,2516852,2035990
 2021-05-30,Seychelles,70446,64029
 2021-05-30,Sierra Leone,58250,6716
-2021-05-30,Singapore,2112450,1616419
+2021-05-30,Singapore,2223787,1712785
 2021-05-30,Slovakia,1724475,852199
 2021-05-30,Slovenia,670498,411842
 2021-05-30,Solomon Islands,3479,0
@@ -33995,7 +33995,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-05-31,Serbia,2516852,2035990
 2021-05-31,Seychelles,70446,64029
 2021-05-31,Sierra Leone,68882,10880
-2021-05-31,Singapore,2281154,1766497
+2021-05-31,Singapore,2241314,1742304
 2021-05-31,Slovakia,1738222,873148
 2021-05-31,Slovenia,673499,415936
 2021-05-31,Solomon Islands,3479,0
@@ -34182,7 +34182,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-01,Serbia,2516852,2035990
 2021-06-01,Seychelles,70446,64029
 2021-06-01,Sierra Leone,68882,10880
-2021-06-01,Singapore,2281154,1766497
+2021-06-01,Singapore,2266709,1763124
 2021-06-01,Slovakia,1756986,883631
 2021-06-01,Slovenia,678252,427823
 2021-06-01,Solomon Islands,3479,0
@@ -34369,7 +34369,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-02,Serbia,2568739,2099543
 2021-06-02,Seychelles,70653,65873
 2021-06-02,Sierra Leone,68882,10880
-2021-06-02,Singapore,2281154,1766497
+2021-06-02,Singapore,2298993,1774076
 2021-06-02,Slovakia,1775898,892880
 2021-06-02,Slovenia,694182,442416
 2021-06-02,Solomon Islands,3479,0
@@ -34556,7 +34556,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-03,Serbia,2582213,2138339
 2021-06-03,Seychelles,70653,65873
 2021-06-03,Sierra Leone,68882,10880
-2021-06-03,Singapore,2281154,1766497
+2021-06-03,Singapore,2344109,1782771
 2021-06-03,Slovakia,1793570,909070
 2021-06-03,Slovenia,712524,462411
 2021-06-03,Solomon Islands,3479,0
@@ -34743,7 +34743,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-04,Serbia,2582213,2138339
 2021-06-04,Seychelles,70653,65873
 2021-06-04,Sierra Leone,68882,10880
-2021-06-04,Singapore,2281154,1766497
+2021-06-04,Singapore,2382116,1802093
 2021-06-04,Slovakia,1811094,925965
 2021-06-04,Slovenia,723697,483477
 2021-06-04,Solomon Islands,3479,0
@@ -34930,7 +34930,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-05,Serbia,2599345,2171244
 2021-06-05,Seychelles,70653,65873
 2021-06-05,Sierra Leone,68882,10880
-2021-06-05,Singapore,2281154,1766497
+2021-06-05,Singapore,2410716,1826063
 2021-06-05,Slovakia,1822823,961838
 2021-06-05,Slovenia,730344,490394
 2021-06-05,Solomon Islands,3479,0
@@ -35117,7 +35117,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-06,Serbia,2599345,2171244
 2021-06-06,Seychelles,70653,65873
 2021-06-06,Sierra Leone,68882,10880
-2021-06-06,Singapore,2281154,1766497
+2021-06-06,Singapore,2436262,1846875
 2021-06-06,Slovakia,1829588,990743
 2021-06-06,Slovenia,734409,493125
 2021-06-06,Solomon Islands,3479,0
@@ -35304,7 +35304,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-07,Serbia,2599345,2171244
 2021-06-07,Seychelles,70653,65873
 2021-06-07,Sierra Leone,68882,10880
-2021-06-07,Singapore,2503814,1888253
+2021-06-07,Singapore,2462299,1862106
 2021-06-07,Slovakia,1838885,1014840
 2021-06-07,Slovenia,737501,497575
 2021-06-07,Solomon Islands,3479,0
@@ -35491,7 +35491,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-08,Serbia,2599345,2171244
 2021-06-08,Seychelles,70653,65873
 2021-06-08,Sierra Leone,71821,11653
-2021-06-08,Singapore,2503814,1888253
+2021-06-08,Singapore,2483105,1878265
 2021-06-08,Slovakia,1848417,1034962
 2021-06-08,Slovenia,745014,505416
 2021-06-08,Solomon Islands,3479,0
@@ -35678,7 +35678,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-09,Serbia,2632697,2249423
 2021-06-09,Seychelles,70653,65873
 2021-06-09,Sierra Leone,71821,11653
-2021-06-09,Singapore,2503814,1888253
+2021-06-09,Singapore,2510168,1893427
 2021-06-09,Slovakia,1857401,1054406
 2021-06-09,Slovenia,754815,519540
 2021-06-09,Solomon Islands,3479,0
@@ -35865,7 +35865,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-10,Serbia,2632697,2249423
 2021-06-10,Seychelles,70653,66543
 2021-06-10,Sierra Leone,75667,12856
-2021-06-10,Singapore,2503814,1888253
+2021-06-10,Singapore,2541320,1905066
 2021-06-10,Slovakia,1866558,1079982
 2021-06-10,Slovenia,771041,537349
 2021-06-10,Solomon Islands,3479,0
@@ -36052,7 +36052,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-11,Serbia,2632697,2249423
 2021-06-11,Seychelles,70653,66543
 2021-06-11,Sierra Leone,75667,12856
-2021-06-11,Singapore,2503814,1888253
+2021-06-11,Singapore,2572164,1923603
 2021-06-11,Slovakia,1875770,1106656
 2021-06-11,Slovenia,778867,554792
 2021-06-11,Solomon Islands,3479,0
@@ -36239,7 +36239,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-12,Serbia,2656065,2299681
 2021-06-12,Seychelles,70653,66543
 2021-06-12,Sierra Leone,75667,12856
-2021-06-12,Singapore,2503814,1888253
+2021-06-12,Singapore,2598645,1939207
 2021-06-12,Slovakia,1886690,1140579
 2021-06-12,Slovenia,783558,561490
 2021-06-12,Solomon Islands,3479,0
@@ -36426,7 +36426,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-13,Serbia,2656065,2299681
 2021-06-13,Seychelles,70653,66543
 2021-06-13,Sierra Leone,75667,12856
-2021-06-13,Singapore,2503814,1888253
+2021-06-13,Singapore,2625049,1951676
 2021-06-13,Slovakia,1898255,1165533
 2021-06-13,Slovenia,786186,562201
 2021-06-13,Solomon Islands,3479,0
@@ -36613,7 +36613,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-14,Serbia,2656065,2299681
 2021-06-14,Seychelles,70653,66543
 2021-06-14,Sierra Leone,77958,13831
-2021-06-14,Singapore,2700446,1990940
+2021-06-14,Singapore,2657634,1967099
 2021-06-14,Slovakia,1909048,1185773
 2021-06-14,Slovenia,789127,566141
 2021-06-14,Solomon Islands,3479,0
@@ -36800,7 +36800,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-15,Serbia,2656065,2299681
 2021-06-15,Seychelles,70653,66543
 2021-06-15,Sierra Leone,77958,13831
-2021-06-15,Singapore,2700446,1990940
+2021-06-15,Singapore,2694916,1982873
 2021-06-15,Slovakia,1918977,1205105
 2021-06-15,Slovenia,794825,571116
 2021-06-15,Solomon Islands,3479,0
@@ -36987,7 +36987,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-16,Serbia,2656065,2299681
 2021-06-16,Seychelles,70653,66543
 2021-06-16,Sierra Leone,77958,13831
-2021-06-16,Singapore,2700446,1990940
+2021-06-16,Singapore,2737159,1997917
 2021-06-16,Slovakia,1926204,1226826
 2021-06-16,Slovenia,802119,581791
 2021-06-16,Solomon Islands,3479,0
@@ -37174,7 +37174,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-17,Serbia,2681511,2389243
 2021-06-17,Seychelles,70653,66543
 2021-06-17,Sierra Leone,77958,13831
-2021-06-17,Singapore,2700446,1990940
+2021-06-17,Singapore,2778424,2012211
 2021-06-17,Slovakia,1933175,1255720
 2021-06-17,Slovenia,809872,596045
 2021-06-17,Solomon Islands,3479,0
@@ -37361,7 +37361,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-18,Serbia,2681511,2389243
 2021-06-18,Seychelles,70660,67016
 2021-06-18,Sierra Leone,77958,13831
-2021-06-18,Singapore,2700446,1990940
+2021-06-18,Singapore,2818627,2030229
 2021-06-18,Slovakia,1939849,1286768
 2021-06-18,Slovenia,814799,606048
 2021-06-18,Solomon Islands,3479,0
@@ -37548,7 +37548,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-19,Serbia,2681511,2389243
 2021-06-19,Seychelles,70660,67016
 2021-06-19,Sierra Leone,77958,13831
-2021-06-19,Singapore,2700446,1990940
+2021-06-19,Singapore,2857302,2047278
 2021-06-19,Slovakia,1950610,1322400
 2021-06-19,Slovenia,816137,607391
 2021-06-19,Solomon Islands,3479,0
@@ -37735,7 +37735,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-20,Serbia,2693998,2452243
 2021-06-20,Seychelles,70660,67016
 2021-06-20,Sierra Leone,82145,15170
-2021-06-20,Singapore,2700446,1990940
+2021-06-20,Singapore,2891148,2059776
 2021-06-20,Slovakia,1955893,1356614
 2021-06-20,Slovenia,816227,608805
 2021-06-20,Solomon Islands,3479,0
@@ -37922,7 +37922,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-21,Serbia,2693998,2452243
 2021-06-21,Seychelles,70660,67016
 2021-06-21,Sierra Leone,82145,15170
-2021-06-21,Singapore,2971570,2057436
+2021-06-21,Singapore,2933427,2071878
 2021-06-21,Slovakia,1962817,1383781
 2021-06-21,Slovenia,817978,612931
 2021-06-21,Solomon Islands,18042,3427
@@ -38109,7 +38109,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-22,Serbia,2693998,2452243
 2021-06-22,Seychelles,70660,67016
 2021-06-22,Sierra Leone,82145,15170
-2021-06-22,Singapore,2971570,2057436
+2021-06-22,Singapore,2973623,2084079
 2021-06-22,Slovakia,1970054,1409091
 2021-06-22,Slovenia,821063,620763
 2021-06-22,Solomon Islands,18042,3427
@@ -38296,7 +38296,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-23,Serbia,2693998,2452243
 2021-06-23,Seychelles,70660,67016
 2021-06-23,Sierra Leone,82145,15170
-2021-06-23,Singapore,2971570,2057436
+2021-06-23,Singapore,3014672,2095468
 2021-06-23,Slovakia,1978410,1430287
 2021-06-23,Slovenia,826039,636636
 2021-06-23,Solomon Islands,18042,3427
@@ -38483,7 +38483,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-24,Serbia,2693998,2452243
 2021-06-24,Seychelles,70671,67305
 2021-06-24,Sierra Leone,82145,15170
-2021-06-24,Singapore,2971570,2057436
+2021-06-24,Singapore,3053943,2106172
 2021-06-24,Slovakia,1985041,1460474
 2021-06-24,Slovenia,831171,658372
 2021-06-24,Solomon Islands,18042,3427
@@ -38670,7 +38670,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-25,Serbia,2693998,2452243
 2021-06-25,Seychelles,70671,67305
 2021-06-25,Sierra Leone,82145,15170
-2021-06-25,Singapore,2971570,2057436
+2021-06-25,Singapore,3092361,2117551
 2021-06-25,Slovakia,1994542,1488588
 2021-06-25,Slovenia,831181,658431
 2021-06-25,Solomon Islands,18042,3427
@@ -38857,7 +38857,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-26,Serbia,2693998,2452243
 2021-06-26,Seychelles,70671,67305
 2021-06-26,Sierra Leone,82145,15170
-2021-06-26,Singapore,2971570,2057436
+2021-06-26,Singapore,3147449,2127270
 2021-06-26,Slovakia,2001008,1523803
 2021-06-26,Slovenia,831619,662186
 2021-06-26,Solomon Islands,18042,3427
@@ -39044,7 +39044,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-27,Serbia,2693998,2452243
 2021-06-27,Seychelles,70671,67305
 2021-06-27,Sierra Leone,82145,15170
-2021-06-27,Singapore,2971570,2057436
+2021-06-27,Singapore,3197616,2134671
 2021-06-27,Slovakia,2008199,1546793
 2021-06-27,Slovenia,831629,662197
 2021-06-27,Solomon Islands,18042,3427
@@ -39231,7 +39231,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-28,Serbia,2693998,2452243
 2021-06-28,Seychelles,70671,67305
 2021-06-28,Sierra Leone,82145,15170
-2021-06-28,Singapore,3271610,2094193
+2021-06-28,Singapore,3247907,2144951
 2021-06-28,Slovakia,2017084,1564252
 2021-06-28,Slovenia,832938,667396
 2021-06-28,Solomon Islands,18042,3427
@@ -39418,7 +39418,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-29,Serbia,2693998,2452243
 2021-06-29,Seychelles,70671,67305
 2021-06-29,Sierra Leone,82145,15170
-2021-06-29,Singapore,3271610,2094193
+2021-06-29,Singapore,3285847,2154198
 2021-06-29,Slovakia,2026241,1583633
 2021-06-29,Slovenia,834892,677750
 2021-06-29,Solomon Islands,18050,3692
@@ -39605,7 +39605,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-06-30,Serbia,2693998,2452243
 2021-06-30,Seychelles,70911,67670
 2021-06-30,Sierra Leone,82145,15170
-2021-06-30,Singapore,3271610,2094193
+2021-06-30,Singapore,3345865,2165029
 2021-06-30,Slovakia,2034430,1604401
 2021-06-30,Slovenia,838650,689094
 2021-06-30,Solomon Islands,18050,3692
@@ -39792,7 +39792,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-01,Serbia,2693998,2452243
 2021-07-01,Seychelles,70911,67670
 2021-07-01,Sierra Leone,82145,15170
-2021-07-01,Singapore,3271610,2094193
+2021-07-01,Singapore,3409463,2183627
 2021-07-01,Slovakia,2042177,1629776
 2021-07-01,Slovenia,842353,706003
 2021-07-01,Solomon Islands,18050,3692
@@ -39979,7 +39979,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-02,Serbia,2693998,2452243
 2021-07-02,Seychelles,70911,67670
 2021-07-02,Sierra Leone,82145,15170
-2021-07-02,Singapore,3426468,2125145
+2021-07-02,Singapore,3473040,2203554
 2021-07-02,Slovakia,2053634,1655446
 2021-07-02,Slovenia,846239,717323
 2021-07-02,Solomon Islands,18050,3692
@@ -40166,7 +40166,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-03,Serbia,2693998,2452243
 2021-07-03,Seychelles,70911,67670
 2021-07-03,Sierra Leone,82145,15170
-2021-07-03,Singapore,3550181,2156751
+2021-07-03,Singapore,3535628,2221737
 2021-07-03,Slovakia,2067166,1684323
 2021-07-03,Slovenia,846662,718529
 2021-07-03,Solomon Islands,18050,3692
@@ -40353,7 +40353,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-04,Serbia,2693998,2452243
 2021-07-04,Seychelles,70911,67670
 2021-07-04,Sierra Leone,82145,15170
-2021-07-04,Singapore,3608688,2172015
+2021-07-04,Singapore,3593819,2240223
 2021-07-04,Slovakia,2079918,1699141
 2021-07-04,Slovenia,846662,718547
 2021-07-04,Solomon Islands,18050,3692
@@ -40540,7 +40540,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-05,Serbia,2729560,2589415
 2021-07-05,Seychelles,71490,68135
 2021-07-05,Sierra Leone,82145,15170
-2021-07-05,Singapore,3670862,2187709
+2021-07-05,Singapore,3656555,2257302
 2021-07-05,Slovakia,2084644,1703241
 2021-07-05,Slovenia,848113,724086
 2021-07-05,Solomon Islands,18050,3692
@@ -40727,7 +40727,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-06,Serbia,2729560,2589415
 2021-07-06,Seychelles,71490,68135
 2021-07-06,Sierra Leone,82145,15170
-2021-07-06,Singapore,3729907,2203272
+2021-07-06,Singapore,3716850,2273519
 2021-07-06,Slovakia,2095653,1720561
 2021-07-06,Slovenia,850360,730804
 2021-07-06,Solomon Islands,18050,3692
@@ -40914,7 +40914,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-07,Serbia,2729560,2589415
 2021-07-07,Seychelles,71490,68135
 2021-07-07,Sierra Leone,82145,15170
-2021-07-07,Singapore,3729907,2203272
+2021-07-07,Singapore,3776495,2291371
 2021-07-07,Slovakia,2105504,1735722
 2021-07-07,Slovenia,854857,740021
 2021-07-07,Solomon Islands,18050,3692
@@ -41101,7 +41101,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-08,Serbia,2729560,2589415
 2021-07-08,Seychelles,71490,68135
 2021-07-08,Sierra Leone,82145,15170
-2021-07-08,Singapore,3729907,2203272
+2021-07-08,Singapore,3833773,2310443
 2021-07-08,Slovakia,2116627,1750710
 2021-07-08,Slovenia,860582,751400
 2021-07-08,Solomon Islands,18050,3692
@@ -41288,7 +41288,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-09,Serbia,2729560,2589415
 2021-07-09,Seychelles,71490,68135
 2021-07-09,Sierra Leone,82145,15170
-2021-07-09,Singapore,3895149,2267975
+2021-07-09,Singapore,3887893,2337430
 2021-07-09,Slovakia,2128513,1769743
 2021-07-09,Slovenia,864894,759599
 2021-07-09,Solomon Islands,18050,3692
@@ -41475,7 +41475,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-10,Serbia,2729560,2589415
 2021-07-10,Seychelles,71490,68135
 2021-07-10,Sierra Leone,82145,15170
-2021-07-10,Singapore,3895149,2267975
+2021-07-10,Singapore,3936576,2364211
 2021-07-10,Slovakia,2139316,1791084
 2021-07-10,Slovenia,865619,760223
 2021-07-10,Solomon Islands,18050,3692
@@ -41662,7 +41662,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-11,Serbia,2729560,2589415
 2021-07-11,Seychelles,71490,68135
 2021-07-11,Sierra Leone,82145,15170
-2021-07-11,Singapore,3895149,2267975
+2021-07-11,Singapore,3976207,2393013
 2021-07-11,Slovakia,2152533,1813847
 2021-07-11,Slovenia,865836,760361
 2021-07-11,Solomon Islands,18050,3692
@@ -41849,7 +41849,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-12,Serbia,2729560,2589415
 2021-07-12,Seychelles,71490,68135
 2021-07-12,Sierra Leone,82145,15170
-2021-07-12,Singapore,4022809,2367424
+2021-07-12,Singapore,4018807,2424659
 2021-07-12,Slovakia,2166291,1830328
 2021-07-12,Slovenia,868847,764444
 2021-07-12,Solomon Islands,18050,3692
@@ -42036,7 +42036,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-13,Serbia,2729560,2589415
 2021-07-13,Seychelles,71490,68135
 2021-07-13,Sierra Leone,82145,15170
-2021-07-13,Singapore,4052434,2420824
+2021-07-13,Singapore,4050192,2457850
 2021-07-13,Slovakia,2175233,1841441
 2021-07-13,Slovenia,871923,768807
 2021-07-13,Solomon Islands,19641,5987
@@ -42223,7 +42223,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-14,Serbia,2767797,2641477
 2021-07-14,Seychelles,71490,68135
 2021-07-14,Sierra Leone,82145,15170
-2021-07-14,Singapore,4052434,2420824
+2021-07-14,Singapore,4074773,2497537
 2021-07-14,Slovakia,2185179,1851668
 2021-07-14,Slovenia,878180,775333
 2021-07-14,Solomon Islands,19641,5987
@@ -42410,7 +42410,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-15,Serbia,2767797,2641477
 2021-07-15,Seychelles,71490,68135
 2021-07-15,Sierra Leone,82145,15170
-2021-07-15,Singapore,4052434,2420824
+2021-07-15,Singapore,4097376,2542454
 2021-07-15,Slovakia,2192972,1863917
 2021-07-15,Slovenia,885726,784307
 2021-07-15,Solomon Islands,19641,5987
@@ -42597,7 +42597,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-16,Serbia,2776609,2648573
 2021-07-16,Seychelles,71490,68135
 2021-07-16,Sierra Leone,82145,15170
-2021-07-16,Singapore,4118334,2609367
+2021-07-16,Singapore,4120891,2601267
 2021-07-16,Slovakia,2200591,1878257
 2021-07-16,Slovenia,892055,790299
 2021-07-16,Solomon Islands,19641,5987
@@ -42784,7 +42784,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-17,Serbia,2776609,2648573
 2021-07-17,Seychelles,71490,68135
 2021-07-17,Sierra Leone,82145,15170
-2021-07-17,Singapore,4136551,2676171
+2021-07-17,Singapore,4140043,2658958
 2021-07-17,Slovakia,2208653,1894789
 2021-07-17,Slovenia,893436,791383
 2021-07-17,Solomon Islands,19641,5987
@@ -42971,7 +42971,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-18,Serbia,2776609,2648573
 2021-07-18,Seychelles,71490,68135
 2021-07-18,Sierra Leone,82145,15170
-2021-07-18,Singapore,4153143,2747489
+2021-07-18,Singapore,4156836,2709941
 2021-07-18,Slovakia,2211492,1902849
 2021-07-18,Slovenia,893464,791393
 2021-07-18,Solomon Islands,19641,5987
@@ -43158,7 +43158,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-19,Serbia,2787809,2656123
 2021-07-19,Seychelles,71490,68135
 2021-07-19,Sierra Leone,82145,15170
-2021-07-19,Singapore,4164922,2792430
+2021-07-19,Singapore,4169412,2740719
 2021-07-19,Slovakia,2216760,1910763
 2021-07-19,Slovenia,896632,794393
 2021-07-19,Solomon Islands,19641,5987
@@ -43345,7 +43345,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-20,Serbia,2787809,2656123
 2021-07-20,Seychelles,71490,68135
 2021-07-20,Sierra Leone,82145,15170
-2021-07-20,Singapore,4165024,2792667
+2021-07-20,Singapore,4170086,2741150
 2021-07-20,Slovakia,2222044,1919802
 2021-07-20,Slovenia,900102,797769
 2021-07-20,Solomon Islands,20538,7282
@@ -43532,7 +43532,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-21,Serbia,2787809,2656123
 2021-07-21,Seychelles,71490,68135
 2021-07-21,Sierra Leone,82145,15170
-2021-07-21,Singapore,4165024,2792667
+2021-07-21,Singapore,4189754,2795111
 2021-07-21,Slovakia,2227571,1927823
 2021-07-21,Slovenia,906272,803267
 2021-07-21,Solomon Islands,20538,7282
@@ -43719,7 +43719,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-22,Serbia,2804002,2665958
 2021-07-22,Seychelles,72882,68553
 2021-07-22,Sierra Leone,82145,15170
-2021-07-22,Singapore,4201110,2897480
+2021-07-22,Singapore,4207401,2846919
 2021-07-22,Slovakia,2233294,1935669
 2021-07-22,Slovenia,912708,809593
 2021-07-22,Solomon Islands,20538,7282
@@ -43906,7 +43906,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-23,Serbia,2808969,2670414
 2021-07-23,Seychelles,72882,68553
 2021-07-23,Sierra Leone,82145,15170
-2021-07-23,Singapore,4217627,2963275
+2021-07-23,Singapore,4223846,2910751
 2021-07-23,Slovakia,2237796,1948591
 2021-07-23,Slovenia,918579,814883
 2021-07-23,Solomon Islands,20538,7282
@@ -44093,7 +44093,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-24,Serbia,2808969,2670414
 2021-07-24,Seychelles,72882,68553
 2021-07-24,Sierra Leone,82145,15170
-2021-07-24,Singapore,4230379,3020766
+2021-07-24,Singapore,4236984,2967890
 2021-07-24,Slovakia,2242117,1957846
 2021-07-24,Slovenia,919691,815642
 2021-07-24,Solomon Islands,20538,7282
@@ -44280,7 +44280,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-25,Serbia,2808969,2670414
 2021-07-25,Seychelles,72882,68553
 2021-07-25,Sierra Leone,82145,15170
-2021-07-25,Singapore,4242505,3070092
+2021-07-25,Singapore,4249342,3016860
 2021-07-25,Slovakia,2247187,1967781
 2021-07-25,Slovenia,919699,815659
 2021-07-25,Solomon Islands,20538,7282
@@ -44467,7 +44467,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-26,Serbia,2812641,2674979
 2021-07-26,Seychelles,72882,68553
 2021-07-26,Sierra Leone,82145,15170
-2021-07-26,Singapore,4254789,3122180
+2021-07-26,Singapore,4262448,3067999
 2021-07-26,Slovakia,2251044,1973872
 2021-07-26,Slovenia,923035,818294
 2021-07-26,Solomon Islands,20538,7282
@@ -44654,7 +44654,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-27,Serbia,2812641,2674979
 2021-07-27,Seychelles,72882,68553
 2021-07-27,Sierra Leone,82145,15170
-2021-07-27,Singapore,4267577,3158737
+2021-07-27,Singapore,4276062,3104849
 2021-07-27,Slovakia,2255194,1981711
 2021-07-27,Slovenia,927898,821191
 2021-07-27,Solomon Islands,29429,9934
@@ -44841,7 +44841,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-28,Serbia,2821702,2683505
 2021-07-28,Seychelles,72882,68553
 2021-07-28,Sierra Leone,82145,15170
-2021-07-28,Singapore,4267577,3158737
+2021-07-28,Singapore,4288113,3154059
 2021-07-28,Slovakia,2259732,1990190
 2021-07-28,Slovenia,933117,826329
 2021-07-28,Solomon Islands,29429,9934
@@ -45028,7 +45028,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-29,Serbia,2825616,2688949
 2021-07-29,Seychelles,72882,68553
 2021-07-29,Sierra Leone,82145,15170
-2021-07-29,Singapore,4290278,3261603
+2021-07-29,Singapore,4300367,3206119
 2021-07-29,Slovakia,2264635,1999892
 2021-07-29,Slovenia,938767,832573
 2021-07-29,Solomon Islands,29429,9934
@@ -45215,7 +45215,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-30,Serbia,2833947,2696844
 2021-07-30,Seychelles,72882,68553
 2021-07-30,Sierra Leone,82145,15170
-2021-07-30,Singapore,4299667,3327272
+2021-07-30,Singapore,4310654,3272039
 2021-07-30,Slovakia,2270390,2010880
 2021-07-30,Slovenia,942876,837863
 2021-07-30,Solomon Islands,29429,9934
@@ -45402,7 +45402,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-07-31,Serbia,2835895,2700275
 2021-07-31,Seychelles,72882,68553
 2021-07-31,Sierra Leone,82145,15170
-2021-07-31,Singapore,4307602,3391799
+2021-07-31,Singapore,4319065,3335440
 2021-07-31,Slovakia,2274700,2023672
 2021-07-31,Slovenia,944317,839088
 2021-07-31,Solomon Islands,29429,9934
@@ -45589,7 +45589,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-01,Serbia,2835895,2700275
 2021-08-01,Seychelles,72882,68553
 2021-08-01,Sierra Leone,82145,15170
-2021-08-01,Singapore,4313182,3448193
+2021-08-01,Singapore,4325034,3391104
 2021-08-01,Slovakia,2278114,2035696
 2021-08-01,Slovenia,944325,839097
 2021-08-01,Solomon Islands,29429,9934
@@ -45776,7 +45776,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-02,Serbia,2835895,2700275
 2021-08-02,Seychelles,72882,68553
 2021-08-02,Sierra Leone,82145,15170
-2021-08-02,Singapore,4321223,3505975
+2021-08-02,Singapore,4333800,3448089
 2021-08-02,Slovakia,2282808,2042971
 2021-08-02,Slovenia,946959,842078
 2021-08-02,Solomon Islands,29429,10975
@@ -45963,7 +45963,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-03,Serbia,2840778,2706842
 2021-08-03,Seychelles,72882,68553
 2021-08-03,Sierra Leone,82145,15170
-2021-08-03,Singapore,4329956,3561452
+2021-08-03,Singapore,4342923,3502402
 2021-08-03,Slovakia,2287775,2051328
 2021-08-03,Slovenia,950686,844795
 2021-08-03,Solomon Islands,29429,10975
@@ -46150,7 +46150,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-04,Serbia,2843970,2710267
 2021-08-04,Seychelles,72882,68553
 2021-08-04,Sierra Leone,82145,15170
-2021-08-04,Singapore,4337397,3618488
+2021-08-04,Singapore,4351003,3558569
 2021-08-04,Slovakia,2293152,2061552
 2021-08-04,Slovenia,954821,849796
 2021-08-04,Solomon Islands,29429,10975
@@ -46337,7 +46337,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-05,Serbia,2847534,2714591
 2021-08-05,Seychelles,72882,68553
 2021-08-05,Sierra Leone,82145,15170
-2021-08-05,Singapore,4337397,3618488
+2021-08-05,Singapore,4358564,3617360
 2021-08-05,Slovakia,2298693,2072940
 2021-08-05,Slovenia,959640,856093
 2021-08-05,Solomon Islands,29429,10975
@@ -46524,7 +46524,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-06,Serbia,2850401,2718119
 2021-08-06,Seychelles,72882,68553
 2021-08-06,Sierra Leone,82145,15170
-2021-08-06,Singapore,4351541,3744802
+2021-08-06,Singapore,4366423,3684233
 2021-08-06,Slovakia,2304538,2083977
 2021-08-06,Slovenia,962840,861492
 2021-08-06,Solomon Islands,29429,10975
@@ -46711,7 +46711,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-07,Serbia,2853790,2722457
 2021-08-07,Seychelles,72882,68553
 2021-08-07,Sierra Leone,82145,15170
-2021-08-07,Singapore,4359495,3807652
+2021-08-07,Singapore,4375047,3746851
 2021-08-07,Slovakia,2309866,2096443
 2021-08-07,Slovenia,963499,861980
 2021-08-07,Solomon Islands,29429,10975
@@ -46898,7 +46898,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-08,Serbia,2856145,2726885
 2021-08-08,Seychelles,72882,68553
 2021-08-08,Sierra Leone,82145,15170
-2021-08-08,Singapore,4367061,3862510
+2021-08-08,Singapore,4383325,3800280
 2021-08-08,Slovakia,2312600,2102302
 2021-08-08,Slovenia,963885,862140
 2021-08-08,Solomon Islands,29429,10975
@@ -47085,7 +47085,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-09,Serbia,2860213,2732691
 2021-08-09,Seychelles,73777,69713
 2021-08-09,Sierra Leone,82145,15170
-2021-08-09,Singapore,4373550,3897650
+2021-08-09,Singapore,4390451,3834605
 2021-08-09,Slovakia,2315983,2111498
 2021-08-09,Slovenia,966083,864458
 2021-08-09,Solomon Islands,43466,13155
@@ -47272,7 +47272,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-10,Serbia,2863357,2737588
 2021-08-10,Seychelles,73777,69713
 2021-08-10,Sierra Leone,82145,15170
-2021-08-10,Singapore,4373550,3897650
+2021-08-10,Singapore,4401464,3872758
 2021-08-10,Slovakia,2320421,2120723
 2021-08-10,Slovenia,968757,867313
 2021-08-10,Solomon Islands,43466,13155
@@ -47459,7 +47459,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-11,Serbia,2866367,2742964
 2021-08-11,Seychelles,73777,69713
 2021-08-11,Sierra Leone,82145,15170
-2021-08-11,Singapore,4466037,3992931
+2021-08-11,Singapore,4411661,3910463
 2021-08-11,Slovakia,2324694,2131208
 2021-08-11,Slovenia,972154,871547
 2021-08-11,Solomon Islands,43466,13155
@@ -47646,7 +47646,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-12,Serbia,2869322,2748488
 2021-08-12,Seychelles,73777,69713
 2021-08-12,Sierra Leone,82145,15170
-2021-08-12,Singapore,4485559,4071978
+2021-08-12,Singapore,4420518,3946833
 2021-08-12,Slovakia,2328756,2140344
 2021-08-12,Slovenia,976059,877821
 2021-08-12,Solomon Islands,43466,13155
@@ -47833,7 +47833,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-13,Serbia,2872770,2753311
 2021-08-13,Seychelles,73777,69713
 2021-08-13,Sierra Leone,82145,15170
-2021-08-13,Singapore,4485559,4071978
+2021-08-13,Singapore,4431211,3993247
 2021-08-13,Slovakia,2333522,2149800
 2021-08-13,Slovenia,979312,883202
 2021-08-13,Solomon Islands,43466,13155
@@ -48020,7 +48020,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-14,Serbia,2872770,2753311
 2021-08-14,Seychelles,73777,69713
 2021-08-14,Sierra Leone,82145,15170
-2021-08-14,Singapore,4507848,4169030
+2021-08-14,Singapore,4441785,4038862
 2021-08-14,Slovakia,2336488,2155103
 2021-08-14,Slovenia,979783,883657
 2021-08-14,Solomon Islands,43466,13155
@@ -48207,7 +48207,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-15,Serbia,2875491,2757076
 2021-08-15,Seychelles,73777,69713
 2021-08-15,Sierra Leone,82145,15170
-2021-08-15,Singapore,4507848,4169030
+2021-08-15,Singapore,4449477,4070017
 2021-08-15,Slovakia,2340164,2159400
 2021-08-15,Slovenia,979850,883696
 2021-08-15,Solomon Islands,43466,13155
@@ -48394,7 +48394,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-16,Serbia,2878697,2761921
 2021-08-16,Seychelles,73777,69713
 2021-08-16,Sierra Leone,82145,15170
-2021-08-16,Singapore,4507848,4169030
+2021-08-16,Singapore,4457380,4088741
 2021-08-16,Slovakia,2344853,2165405
 2021-08-16,Slovenia,982689,886906
 2021-08-16,Solomon Islands,48883,14437
@@ -48581,7 +48581,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-17,Serbia,2881963,2766182
 2021-08-17,Seychelles,73777,69713
 2021-08-17,Sierra Leone,82145,15170
-2021-08-17,Singapore,4507848,4169030
+2021-08-17,Singapore,4464247,4103565
 2021-08-17,Slovakia,2348875,2170898
 2021-08-17,Slovenia,986203,890672
 2021-08-17,Solomon Islands,48883,14437
@@ -48768,7 +48768,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-18,Serbia,2884393,2768776
 2021-08-18,Seychelles,73777,69713
 2021-08-18,Sierra Leone,82145,15170
-2021-08-18,Singapore,4507848,4169030
+2021-08-18,Singapore,4470250,4118791
 2021-08-18,Slovakia,2353654,2177842
 2021-08-18,Slovenia,990230,895117
 2021-08-18,Solomon Islands,48883,14437
@@ -48955,7 +48955,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-19,Serbia,2887708,2771947
 2021-08-19,Seychelles,73777,69713
 2021-08-19,Sierra Leone,82145,15170
-2021-08-19,Singapore,4543481,4266439
+2021-08-19,Singapore,4475779,4132542
 2021-08-19,Slovakia,2357999,2184877
 2021-08-19,Slovenia,994518,900848
 2021-08-19,Solomon Islands,48883,14437
@@ -49142,7 +49142,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-20,Serbia,2887708,2771947
 2021-08-20,Seychelles,73777,69713
 2021-08-20,Sierra Leone,82145,15170
-2021-08-20,Singapore,4551878,4329835
+2021-08-20,Singapore,4483834,4151091
 2021-08-20,Slovakia,2364251,2193193
 2021-08-20,Slovenia,998233,905509
 2021-08-20,Solomon Islands,48883,14437
@@ -49329,7 +49329,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-21,Serbia,2887708,2771947
 2021-08-21,Seychelles,73777,69713
 2021-08-21,Sierra Leone,82145,15170
-2021-08-21,Singapore,4559744,4337317
+2021-08-21,Singapore,4490654,4165861
 2021-08-21,Slovakia,2366450,2196101
 2021-08-21,Slovenia,998790,906072
 2021-08-21,Solomon Islands,48883,14437
@@ -49516,7 +49516,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-22,Serbia,2895304,2779723
 2021-08-22,Seychelles,73777,69713
 2021-08-22,Sierra Leone,82145,15170
-2021-08-22,Singapore,4562947,4340364
+2021-08-22,Singapore,4494617,4173900
 2021-08-22,Slovakia,2369874,2199805
 2021-08-22,Slovenia,998792,906074
 2021-08-22,Solomon Islands,48883,14437
@@ -49703,7 +49703,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-23,Serbia,2899188,2784053
 2021-08-23,Seychelles,73777,69713
 2021-08-23,Sierra Leone,82145,15170
-2021-08-23,Singapore,4567396,4344596
+2021-08-23,Singapore,4499328,4185806
 2021-08-23,Slovakia,2373218,2204706
 2021-08-23,Slovenia,1001286,908763
 2021-08-23,Solomon Islands,48883,14437
@@ -49890,7 +49890,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-24,Serbia,2903057,2787457
 2021-08-24,Seychelles,73777,69713
 2021-08-24,Sierra Leone,82145,15170
-2021-08-24,Singapore,4571609,4348604
+2021-08-24,Singapore,4503272,4195766
 2021-08-24,Slovakia,2376518,2209421
 2021-08-24,Slovenia,1004926,912415
 2021-08-24,Solomon Islands,48883,14437
@@ -50077,7 +50077,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-25,Serbia,2906891,2791137
 2021-08-25,Seychelles,73777,69713
 2021-08-25,Sierra Leone,82145,15170
-2021-08-25,Singapore,4576105,4355570
+2021-08-25,Singapore,4507604,4205339
 2021-08-25,Slovakia,2381046,2215359
 2021-08-25,Slovenia,1008773,916381
 2021-08-25,Solomon Islands,48883,14437
@@ -50264,7 +50264,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-26,Serbia,2910536,2794111
 2021-08-26,Seychelles,73777,69713
 2021-08-26,Sierra Leone,82145,15170
-2021-08-26,Singapore,4580071,4359345
+2021-08-26,Singapore,4511474,4214722
 2021-08-26,Slovakia,2384348,2220116
 2021-08-26,Slovenia,1013590,921675
 2021-08-26,Solomon Islands,48883,14437
@@ -50451,7 +50451,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-27,Serbia,2910536,2794111
 2021-08-27,Seychelles,73777,69713
 2021-08-27,Sierra Leone,159793,33764
-2021-08-27,Singapore,4585919,4364911
+2021-08-27,Singapore,4517052,4228610
 2021-08-27,Slovakia,2388273,2227748
 2021-08-27,Slovenia,1017172,925948
 2021-08-27,Solomon Islands,48883,14437
@@ -50638,7 +50638,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-28,Serbia,2916835,2799563
 2021-08-28,Seychelles,73777,69713
 2021-08-28,Sierra Leone,159793,33764
-2021-08-28,Singapore,4590629,4424703
+2021-08-28,Singapore,4521637,4240880
 2021-08-28,Slovakia,2391169,2231409
 2021-08-28,Slovenia,1017911,926523
 2021-08-28,Solomon Islands,48883,14437
@@ -50825,7 +50825,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-29,Serbia,2917843,2800338
 2021-08-29,Seychelles,73777,69713
 2021-08-29,Sierra Leone,159793,33764
-2021-08-29,Singapore,4593269,4427247
+2021-08-29,Singapore,4524245,4248643
 2021-08-29,Slovakia,2392457,2233491
 2021-08-29,Slovenia,1017959,926548
 2021-08-29,Solomon Islands,48883,14437
@@ -51012,7 +51012,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-30,Serbia,2923123,2804423
 2021-08-30,Seychelles,73777,69713
 2021-08-30,Sierra Leone,159793,33764
-2021-08-30,Singapore,4597435,4431263
+2021-08-30,Singapore,4528321,4257217
 2021-08-30,Slovakia,2395055,2238025
 2021-08-30,Slovenia,1020525,928921
 2021-08-30,Solomon Islands,48883,14437
@@ -51199,7 +51199,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-08-31,Serbia,2923123,2804423
 2021-08-31,Seychelles,73777,69713
 2021-08-31,Sierra Leone,159793,33764
-2021-08-31,Singapore,4601255,4434945
+2021-08-31,Singapore,4532130,4267204
 2021-08-31,Slovakia,2398373,2244102
 2021-08-31,Slovenia,1023556,931563
 2021-08-31,Solomon Islands,53974,17627
@@ -51386,7 +51386,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-01,Serbia,2931512,2810921
 2021-09-01,Seychelles,73777,69713
 2021-09-01,Sierra Leone,159793,33764
-2021-09-01,Singapore,4604828,4438388
+2021-09-01,Singapore,4535906,4276112
 2021-09-01,Slovakia,2398704,2244395
 2021-09-01,Slovenia,1026456,934547
 2021-09-01,Solomon Islands,53974,17627
@@ -51573,7 +51573,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-02,Serbia,2935212,2813848
 2021-09-02,Seychelles,73777,69713
 2021-09-02,Sierra Leone,159793,33764
-2021-09-02,Singapore,4608483,4441911
+2021-09-02,Singapore,4539597,4284500
 2021-09-02,Slovakia,2401748,2251153
 2021-09-02,Slovenia,1030329,939401
 2021-09-02,Solomon Islands,53974,17627
@@ -51760,7 +51760,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-03,Serbia,2935212,2813848
 2021-09-03,Seychelles,73777,69713
 2021-09-03,Sierra Leone,159793,33764
-2021-09-03,Singapore,4608483,4441911
+2021-09-03,Singapore,4544307,4297732
 2021-09-03,Slovakia,2405181,2257888
 2021-09-03,Slovenia,1033820,943050
 2021-09-03,Solomon Islands,53974,17627
@@ -51947,7 +51947,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-04,Serbia,2935212,2813848
 2021-09-04,Seychelles,73777,69713
 2021-09-04,Sierra Leone,159793,33764
-2021-09-04,Singapore,4608483,4441911
+2021-09-04,Singapore,4548096,4311314
 2021-09-04,Slovakia,2406258,2259321
 2021-09-04,Slovenia,1034263,943362
 2021-09-04,Solomon Islands,53974,17627
@@ -52134,7 +52134,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-05,Serbia,2942946,2820139
 2021-09-05,Seychelles,73777,69713
 2021-09-05,Sierra Leone,159793,33764
-2021-09-05,Singapore,4608483,4441911
+2021-09-05,Singapore,4550253,4320349
 2021-09-05,Slovakia,2407280,2260708
 2021-09-05,Slovenia,1034263,943362
 2021-09-05,Solomon Islands,53974,17627
@@ -52321,7 +52321,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-06,Serbia,2947071,2823513
 2021-09-06,Seychelles,73777,69713
 2021-09-06,Sierra Leone,159793,33764
-2021-09-06,Singapore,4608483,4441911
+2021-09-06,Singapore,4553521,4327443
 2021-09-06,Slovakia,2409173,2264531
 2021-09-06,Slovenia,1036889,945787
 2021-09-06,Solomon Islands,53974,17627
@@ -52508,7 +52508,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-07,Serbia,2951187,2826635
 2021-09-07,Seychelles,73777,69713
 2021-09-07,Sierra Leone,159793,33764
-2021-09-07,Singapore,4608483,4441911
+2021-09-07,Singapore,4556858,4333778
 2021-09-07,Slovakia,2411412,2268382
 2021-09-07,Slovenia,1041447,949252
 2021-09-07,Solomon Islands,53974,17627
@@ -52695,7 +52695,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-08,Serbia,2955866,2829578
 2021-09-08,Seychelles,73777,69713
 2021-09-08,Sierra Leone,159793,33764
-2021-09-08,Singapore,4608483,4441911
+2021-09-08,Singapore,4560199,4339729
 2021-09-08,Slovakia,2413532,2272286
 2021-09-08,Slovenia,1046353,953449
 2021-09-08,Solomon Islands,53974,17627
@@ -52882,7 +52882,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-09,Serbia,2960217,2832387
 2021-09-09,Seychelles,73777,69713
 2021-09-09,Sierra Leone,159793,33764
-2021-09-09,Singapore,4608483,4441911
+2021-09-09,Singapore,4563189,4345413
 2021-09-09,Slovakia,2416164,2277330
 2021-09-09,Slovenia,1052741,958894
 2021-09-09,Solomon Islands,53974,17627
@@ -53069,7 +53069,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-10,Serbia,2960217,2832387
 2021-09-10,Seychelles,73777,69713
 2021-09-10,Sierra Leone,159793,33764
-2021-09-10,Singapore,4608483,4441911
+2021-09-10,Singapore,4566351,4355784
 2021-09-10,Slovakia,2419317,2283774
 2021-09-10,Slovenia,1057941,963487
 2021-09-10,Solomon Islands,53974,17627
@@ -53256,7 +53256,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-11,Serbia,2960217,2832387
 2021-09-11,Seychelles,73777,69713
 2021-09-11,Sierra Leone,159793,33764
-2021-09-11,Singapore,4641315,4475554
+2021-09-11,Singapore,4569181,4365069
 2021-09-11,Slovakia,2419976,2284512
 2021-09-11,Slovenia,1059123,964228
 2021-09-11,Solomon Islands,53974,17627
@@ -53443,7 +53443,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-12,Serbia,2969719,2839752
 2021-09-12,Seychelles,73777,69713
 2021-09-12,Sierra Leone,159793,33764
-2021-09-12,Singapore,4642991,4477170
+2021-09-12,Singapore,4570798,4370872
 2021-09-12,Slovakia,2420817,2285913
 2021-09-12,Slovenia,1059124,964229
 2021-09-12,Solomon Islands,53974,17627
@@ -53630,7 +53630,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-13,Serbia,2969719,2839752
 2021-09-13,Seychelles,73777,69713
 2021-09-13,Sierra Leone,181065,40045
-2021-09-13,Singapore,4645522,4479610
+2021-09-13,Singapore,4573428,4375522
 2021-09-13,Slovakia,2422942,2289294
 2021-09-13,Slovenia,1065967,967820
 2021-09-13,Solomon Islands,53974,17627
@@ -53817,7 +53817,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-14,Serbia,2981529,2847165
 2021-09-14,Seychelles,73777,69713
 2021-09-14,Sierra Leone,181065,40045
-2021-09-14,Singapore,4648305,4482294
+2021-09-14,Singapore,4576080,4379744
 2021-09-14,Slovakia,2426002,2293232
 2021-09-14,Slovenia,1078466,973424
 2021-09-14,Solomon Islands,74573,23171
@@ -54004,7 +54004,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-15,Serbia,2981529,2847165
 2021-09-15,Seychelles,73777,69713
 2021-09-15,Sierra Leone,181065,40045
-2021-09-15,Singapore,4651489,4482294
+2021-09-15,Singapore,4579235,4384040
 2021-09-15,Slovakia,2426182,2293457
 2021-09-15,Slovenia,1090800,979746
 2021-09-15,Solomon Islands,74573,23171
@@ -54191,7 +54191,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-16,Serbia,2990502,2854142
 2021-09-16,Seychelles,77311,71091
 2021-09-16,Sierra Leone,181065,40045
-2021-09-16,Singapore,4654992,4482294
+2021-09-16,Singapore,4582042,4388245
 2021-09-16,Slovakia,2429183,2299786
 2021-09-16,Slovenia,1105682,988975
 2021-09-16,Solomon Islands,74573,23171
@@ -54378,7 +54378,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-17,Serbia,2990502,2854142
 2021-09-17,Seychelles,77311,71091
 2021-09-17,Sierra Leone,181065,40045
-2021-09-17,Singapore,4658907,4482294
+2021-09-17,Singapore,4585803,4395035
 2021-09-17,Slovakia,2432596,2305456
 2021-09-17,Slovenia,1117285,996142
 2021-09-17,Solomon Islands,74573,23171
@@ -54565,7 +54565,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-18,Serbia,2997580,2860241
 2021-09-18,Seychelles,77311,71091
 2021-09-18,Sierra Leone,181065,40045
-2021-09-18,Singapore,4661576,4482294
+2021-09-18,Singapore,4588407,4400911
 2021-09-18,Slovakia,2433471,2306932
 2021-09-18,Slovenia,1123628,998452
 2021-09-18,Solomon Islands,74573,23171
@@ -54752,7 +54752,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-19,Serbia,2998753,2861250
 2021-09-19,Seychelles,77311,71091
 2021-09-19,Sierra Leone,181065,40045
-2021-09-19,Singapore,4662940,4482294
+2021-09-19,Singapore,4589768,4404322
 2021-09-19,Slovakia,2434881,2308811
 2021-09-19,Slovenia,1126328,999206
 2021-09-19,Solomon Islands,74573,23171
@@ -54939,7 +54939,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-20,Serbia,2998753,2861250
 2021-09-20,Seychelles,77311,71091
 2021-09-20,Sierra Leone,181065,40045
-2021-09-20,Singapore,4665829,4482294
+2021-09-20,Singapore,4592477,4408862
 2021-09-20,Slovakia,2436965,2311547
 2021-09-20,Slovenia,1131282,1001814
 2021-09-20,Solomon Islands,74573,23171
@@ -55126,7 +55126,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-21,Serbia,3006623,2869773
 2021-09-21,Seychelles,77311,71091
 2021-09-21,Sierra Leone,181065,40045
-2021-09-21,Singapore,4669197,4482294
+2021-09-21,Singapore,4594984,4412475
 2021-09-21,Slovakia,2440082,2315228
 2021-09-21,Slovenia,1136146,1004402
 2021-09-21,Solomon Islands,74573,23171
@@ -55313,7 +55313,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-22,Serbia,3010835,2873259
 2021-09-22,Seychelles,77311,71091
 2021-09-22,Sierra Leone,181065,40045
-2021-09-22,Singapore,4671857,4482294
+2021-09-22,Singapore,4597208,4416296
 2021-09-22,Slovakia,2442733,2318268
 2021-09-22,Slovenia,1140450,1007367
 2021-09-22,Solomon Islands,74573,23171
@@ -55500,7 +55500,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-23,Serbia,3014528,2876832
 2021-09-23,Seychelles,77311,71091
 2021-09-23,Sierra Leone,181065,40045
-2021-09-23,Singapore,4674211,4482294
+2021-09-23,Singapore,4599875,4419667
 2021-09-23,Slovakia,2446106,2322294
 2021-09-23,Slovenia,1146619,1013011
 2021-09-23,Solomon Islands,74573,23171
@@ -55687,7 +55687,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-24,Serbia,3018918,2880984
 2021-09-24,Seychelles,77311,71091
 2021-09-24,Sierra Leone,181065,40045
-2021-09-24,Singapore,4677703,4482294
+2021-09-24,Singapore,4603120,4425212
 2021-09-24,Slovakia,2450423,2327818
 2021-09-24,Slovenia,1152452,1018544
 2021-09-24,Solomon Islands,74573,23171
@@ -55874,7 +55874,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-25,Serbia,3018918,2880984
 2021-09-25,Seychelles,77311,71091
 2021-09-25,Sierra Leone,181065,40045
-2021-09-25,Singapore,4680148,4514966
+2021-09-25,Singapore,4605297,4430313
 2021-09-25,Slovakia,2451053,2328668
 2021-09-25,Slovenia,1153671,1019531
 2021-09-25,Solomon Islands,74573,23171
@@ -56061,7 +56061,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-26,Serbia,3022660,2884386
 2021-09-26,Seychelles,77311,71091
 2021-09-26,Sierra Leone,181065,40045
-2021-09-26,Singapore,4681517,4516287
+2021-09-26,Singapore,4606686,4433023
 2021-09-26,Slovakia,2452034,2329780
 2021-09-26,Slovenia,1154179,1019982
 2021-09-26,Solomon Islands,74573,23171
@@ -56248,7 +56248,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-27,Serbia,3022660,2884386
 2021-09-27,Seychelles,77311,71091
 2021-09-27,Sierra Leone,189641,42734
-2021-09-27,Singapore,4681517,4516287
+2021-09-27,Singapore,4608979,4436520
 2021-09-27,Slovakia,2454265,2332527
 2021-09-27,Slovenia,1156954,1022822
 2021-09-27,Solomon Islands,74573,23171
@@ -56435,7 +56435,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-28,Serbia,3032496,2893605
 2021-09-28,Seychelles,77311,71091
 2021-09-28,Sierra Leone,189641,42734
-2021-09-28,Singapore,4692489,4526872
+2021-09-28,Singapore,4611350,4439859
 2021-09-28,Slovakia,2456491,2335252
 2021-09-28,Slovenia,1160804,1026796
 2021-09-28,Solomon Islands,74573,23171
@@ -56622,7 +56622,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-29,Serbia,3036601,2897947
 2021-09-29,Seychelles,77311,71091
 2021-09-29,Sierra Leone,192558,43907
-2021-09-29,Singapore,4693813,4528149
+2021-09-29,Singapore,4613588,4443127
 2021-09-29,Slovakia,2458934,2337362
 2021-09-29,Slovenia,1163166,1030149
 2021-09-29,Solomon Islands,74573,23171
@@ -56809,7 +56809,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-09-30,Serbia,3040293,2901882
 2021-09-30,Seychelles,77311,71091
 2021-09-30,Sierra Leone,192558,43907
-2021-09-30,Singapore,4695781,4530048
+2021-09-30,Singapore,4615727,4446741
 2021-09-30,Slovakia,2461474,2340105
 2021-09-30,Slovenia,1165702,1035015
 2021-09-30,Solomon Islands,74573,23171
@@ -56996,7 +56996,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-01,Serbia,3040293,2901882
 2021-10-01,Seychelles,77311,71091
 2021-10-01,Sierra Leone,192558,43907
-2021-10-01,Singapore,4697603,4531805
+2021-10-01,Singapore,4618167,4450265
 2021-10-01,Slovakia,2465464,2344531
 2021-10-01,Slovenia,1167384,1039111
 2021-10-01,Solomon Islands,74573,23171
@@ -57183,7 +57183,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-02,Serbia,3046445,2909965
 2021-10-02,Seychelles,77311,71091
 2021-10-02,Sierra Leone,192558,43907
-2021-10-02,Singapore,4698535,4532704
+2021-10-02,Singapore,4619765,4453381
 2021-10-02,Slovakia,2466187,2345453
 2021-10-02,Slovenia,1167755,1039630
 2021-10-02,Solomon Islands,74573,23171
@@ -57370,7 +57370,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-03,Serbia,3046445,2909965
 2021-10-03,Seychelles,77311,71091
 2021-10-03,Sierra Leone,192558,43907
-2021-10-03,Singapore,4699026,4533178
+2021-10-03,Singapore,4620803,4455240
 2021-10-03,Slovakia,2467295,2346686
 2021-10-03,Slovenia,1167780,1039650
 2021-10-03,Solomon Islands,74573,23171
@@ -57557,7 +57557,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-04,Serbia,3046445,2909965
 2021-10-04,Seychelles,77311,71091
 2021-10-04,Sierra Leone,192558,43907
-2021-10-04,Singapore,4700524,4589923
+2021-10-04,Singapore,4622763,4457995
 2021-10-04,Slovakia,2469086,2348474
 2021-10-04,Slovenia,1168786,1043296
 2021-10-04,Solomon Islands,74573,23171
@@ -57744,7 +57744,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-05,Serbia,3053911,2921046
 2021-10-05,Seychelles,77311,71091
 2021-10-05,Sierra Leone,192558,43907
-2021-10-05,Singapore,4702719,4592067
+2021-10-05,Singapore,4624984,4461022
 2021-10-05,Slovakia,2470705,2350246
 2021-10-05,Slovenia,1170041,1049189
 2021-10-05,Solomon Islands,104760,25444
@@ -57931,7 +57931,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-06,Serbia,3056975,2925578
 2021-10-06,Seychelles,77311,71091
 2021-10-06,Sierra Leone,192558,43907
-2021-10-06,Singapore,4704285,4593596
+2021-10-06,Singapore,4627356,4464368
 2021-10-06,Slovakia,2472457,2352351
 2021-10-06,Slovenia,1171298,1055581
 2021-10-06,Solomon Islands,104760,25444
@@ -58118,7 +58118,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-07,Serbia,3061127,2929468
 2021-10-07,Seychelles,77311,71091
 2021-10-07,Sierra Leone,192558,43907
-2021-10-07,Singapore,4707177,4596420
+2021-10-07,Singapore,4629533,4467494
 2021-10-07,Slovakia,2474786,2354897
 2021-10-07,Slovenia,1172846,1065663
 2021-10-07,Solomon Islands,104760,25444
@@ -58305,7 +58305,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-08,Serbia,3061127,2929468
 2021-10-08,Seychelles,77311,71091
 2021-10-08,Sierra Leone,192558,43907
-2021-10-08,Singapore,4711200,4600348
+2021-10-08,Singapore,4632131,4471921
 2021-10-08,Slovakia,2478381,2359167
 2021-10-08,Slovenia,1173873,1073865
 2021-10-08,Solomon Islands,104760,25444
@@ -58492,7 +58492,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-09,Serbia,3061127,2929468
 2021-10-09,Seychelles,77311,71091
 2021-10-09,Sierra Leone,192558,43907
-2021-10-09,Singapore,4714069,4603150
+2021-10-09,Singapore,4634738,4475617
 2021-10-09,Slovakia,2479107,2359868
 2021-10-09,Slovenia,1174120,1075297
 2021-10-09,Solomon Islands,104760,25444
@@ -58679,7 +58679,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-10,Serbia,3061127,2929468
 2021-10-10,Seychelles,77311,71091
 2021-10-10,Sierra Leone,192558,43907
-2021-10-10,Singapore,4716546,4605568
+2021-10-10,Singapore,4637049,4477711
 2021-10-10,Slovakia,2480109,2360937
 2021-10-10,Slovenia,1174158,1075505
 2021-10-10,Solomon Islands,104760,25444
@@ -58866,7 +58866,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-11,Serbia,3061127,2929468
 2021-10-11,Seychelles,77311,71091
 2021-10-11,Sierra Leone,192558,43907
-2021-10-11,Singapore,4720530,4609459
+2021-10-11,Singapore,4640756,4481140
 2021-10-11,Slovakia,2481482,2362889
 2021-10-11,Slovenia,1174863,1080034
 2021-10-11,Solomon Islands,104760,25444
@@ -59053,7 +59053,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-12,Serbia,3064730,2933395
 2021-10-12,Seychelles,77311,71091
 2021-10-12,Sierra Leone,292239,66852
-2021-10-12,Singapore,4724247,4668668
+2021-10-12,Singapore,4643946,4484495
 2021-10-12,Slovakia,2483190,2364979
 2021-10-12,Slovenia,1175931,1084482
 2021-10-12,Solomon Islands,113423,28497
@@ -59240,7 +59240,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-13,Serbia,3064730,2933395
 2021-10-13,Seychelles,77311,71091
 2021-10-13,Sierra Leone,292239,66852
-2021-10-13,Singapore,4727310,4671695
+2021-10-13,Singapore,4646648,4487496
 2021-10-13,Slovakia,2484673,2366259
 2021-10-13,Slovenia,1176776,1088419
 2021-10-13,Solomon Islands,113423,28497
@@ -59427,7 +59427,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-14,Serbia,3064730,2933395
 2021-10-14,Seychelles,77311,71091
 2021-10-14,Sierra Leone,292239,66852
-2021-10-14,Singapore,4730374,4674723
+2021-10-14,Singapore,4649003,4490804
 2021-10-14,Slovakia,2486466,2368473
 2021-10-14,Slovenia,1177819,1094170
 2021-10-14,Solomon Islands,113423,28497
@@ -59614,7 +59614,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-15,Serbia,3064730,2933395
 2021-10-15,Seychelles,80595,74778
 2021-10-15,Sierra Leone,292239,66852
-2021-10-15,Singapore,4733819,4678127
+2021-10-15,Singapore,4652164,4495289
 2021-10-15,Slovakia,2489435,2372486
 2021-10-15,Slovenia,1178710,1098042
 2021-10-15,Solomon Islands,113423,28497
@@ -59801,7 +59801,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-16,Serbia,3064730,2933395
 2021-10-16,Seychelles,80595,74778
 2021-10-16,Sierra Leone,292239,66852
-2021-10-16,Singapore,4736518,4680794
+2021-10-16,Singapore,4654540,4498303
 2021-10-16,Slovakia,2489992,2373017
 2021-10-16,Slovenia,1178858,1098323
 2021-10-16,Solomon Islands,113423,28497
@@ -59988,7 +59988,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-17,Serbia,3064730,2933395
 2021-10-17,Seychelles,80595,74778
 2021-10-17,Sierra Leone,292239,66852
-2021-10-17,Singapore,4738426,4682680
+2021-10-17,Singapore,4655919,4499989
 2021-10-17,Slovakia,2490748,2373841
 2021-10-17,Slovenia,1178868,1098352
 2021-10-17,Solomon Islands,113423,28497
@@ -60175,7 +60175,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-18,Serbia,3064730,2933395
 2021-10-18,Seychelles,80595,74778
 2021-10-18,Sierra Leone,318380,110744
-2021-10-18,Singapore,4741030,4685253
+2021-10-18,Singapore,4657949,4502944
 2021-10-18,Slovakia,2492138,2375785
 2021-10-18,Slovenia,1179535,1100270
 2021-10-18,Solomon Islands,113423,28497
@@ -60362,7 +60362,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-19,Serbia,3071523,2941696
 2021-10-19,Seychelles,80595,74778
 2021-10-19,Sierra Leone,318380,110744
-2021-10-19,Singapore,4742997,4687197
+2021-10-19,Singapore,4659722,4505602
 2021-10-19,Slovakia,2493484,2377646
 2021-10-19,Slovenia,1180261,1102402
 2021-10-19,Solomon Islands,113423,28497
@@ -60549,7 +60549,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-20,Serbia,3071523,2941696
 2021-10-20,Seychelles,80595,74778
 2021-10-20,Sierra Leone,318380,110744
-2021-10-20,Singapore,4742997,4687197
+2021-10-20,Singapore,4661345,4508319
 2021-10-20,Slovakia,2494982,2379910
 2021-10-20,Slovenia,1181079,1104571
 2021-10-20,Solomon Islands,113423,28497
@@ -60736,7 +60736,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-21,Serbia,3071523,2941696
 2021-10-21,Seychelles,80595,74778
 2021-10-21,Sierra Leone,318380,110744
-2021-10-21,Singapore,4742997,4687197
+2021-10-21,Singapore,4662935,4510884
 2021-10-21,Slovakia,2496594,2382236
 2021-10-21,Slovenia,1182234,1107946
 2021-10-21,Solomon Islands,113423,28497
@@ -60923,7 +60923,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-22,Serbia,3071523,2941696
 2021-10-22,Seychelles,80595,74778
 2021-10-22,Sierra Leone,318380,110744
-2021-10-22,Singapore,4742997,4687197
+2021-10-22,Singapore,4664694,4514184
 2021-10-22,Slovakia,2499562,2386792
 2021-10-22,Slovenia,1183119,1110150
 2021-10-22,Solomon Islands,113423,28497
@@ -61110,7 +61110,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-23,Serbia,3118348,2982313
 2021-10-23,Seychelles,80595,74778
 2021-10-23,Sierra Leone,318380,110744
-2021-10-23,Singapore,4742997,4687197
+2021-10-23,Singapore,4666019,4516593
 2021-10-23,Slovakia,2500390,2387751
 2021-10-23,Slovenia,1183266,1110359
 2021-10-23,Solomon Islands,113423,28497
@@ -61297,7 +61297,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-24,Serbia,3120462,2983451
 2021-10-24,Seychelles,80595,74778
 2021-10-24,Sierra Leone,318380,110744
-2021-10-24,Singapore,4742997,4687197
+2021-10-24,Singapore,4666990,4517938
 2021-10-24,Slovakia,2500947,2388412
 2021-10-24,Slovenia,1183266,1110359
 2021-10-24,Solomon Islands,113423,28497
@@ -61484,7 +61484,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-25,Serbia,3120462,2983451
 2021-10-25,Seychelles,81021,76188
 2021-10-25,Sierra Leone,318380,110744
-2021-10-25,Singapore,4742997,4687197
+2021-10-25,Singapore,4668552,4520576
 2021-10-25,Slovakia,2502618,2390656
 2021-10-25,Slovenia,1184092,1111413
 2021-10-25,Solomon Islands,121778,31054
@@ -61671,7 +61671,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-26,Serbia,3132700,2990317
 2021-10-26,Seychelles,81101,76283
 2021-10-26,Sierra Leone,318380,110744
-2021-10-26,Singapore,4742997,4687197
+2021-10-26,Singapore,4670129,4523404
 2021-10-26,Slovakia,2504338,2392725
 2021-10-26,Slovenia,1185156,1112955
 2021-10-26,Solomon Islands,121778,31054
@@ -61858,7 +61858,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-27,Serbia,3132700,2990317
 2021-10-27,Seychelles,81101,76283
 2021-10-27,Sierra Leone,318380,110744
-2021-10-27,Singapore,4742997,4687197
+2021-10-27,Singapore,4671485,4526177
 2021-10-27,Slovakia,2506002,2394799
 2021-10-27,Slovenia,1186046,1114121
 2021-10-27,Solomon Islands,121778,31054
@@ -62045,7 +62045,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-28,Serbia,3132700,2990317
 2021-10-28,Seychelles,81101,76283
 2021-10-28,Sierra Leone,318380,110744
-2021-10-28,Singapore,4742997,4687197
+2021-10-28,Singapore,4672942,4529193
 2021-10-28,Slovakia,2508156,2397189
 2021-10-28,Slovenia,1187684,1116250
 2021-10-28,Solomon Islands,121778,31054
@@ -62232,7 +62232,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-29,Serbia,3150109,3000614
 2021-10-29,Seychelles,81101,76283
 2021-10-29,Sierra Leone,318380,110744
-2021-10-29,Singapore,4742997,4687197
+2021-10-29,Singapore,4674759,4533115
 2021-10-29,Slovakia,2510935,2401200
 2021-10-29,Slovenia,1188690,1117414
 2021-10-29,Solomon Islands,121778,31054
@@ -62419,7 +62419,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-30,Serbia,3153364,3002829
 2021-10-30,Seychelles,81101,76283
 2021-10-30,Sierra Leone,318380,110744
-2021-10-30,Singapore,4742997,4687197
+2021-10-30,Singapore,4676315,4536805
 2021-10-30,Slovakia,2511584,2401910
 2021-10-30,Slovenia,1188902,1117547
 2021-10-30,Solomon Islands,121778,31054
@@ -62606,7 +62606,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-10-31,Serbia,3153364,3002829
 2021-10-31,Seychelles,81101,76283
 2021-10-31,Sierra Leone,318380,110744
-2021-10-31,Singapore,4742997,4687197
+2021-10-31,Singapore,4677558,4539603
 2021-10-31,Slovakia,2512635,2402864
 2021-10-31,Slovenia,1188902,1117547
 2021-10-31,Solomon Islands,121778,31054
@@ -62793,7 +62793,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-01,Serbia,3159568,3007111
 2021-11-01,Seychelles,81101,76283
 2021-11-01,Sierra Leone,318380,110744
-2021-11-01,Singapore,4742997,4687197
+2021-11-01,Singapore,4679364,4543648
 2021-11-01,Slovakia,2512700,2402883
 2021-11-01,Slovenia,1188902,1117547
 2021-11-01,Solomon Islands,121778,31054
@@ -62980,7 +62980,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-02,Serbia,3163952,3010468
 2021-11-02,Seychelles,81101,76283
 2021-11-02,Sierra Leone,318380,110744
-2021-11-02,Singapore,4742997,4687197
+2021-11-02,Singapore,4680865,4547258
 2021-11-02,Slovakia,2514721,2405475
 2021-11-02,Slovenia,1190324,1118948
 2021-11-02,Solomon Islands,121778,31054
@@ -63167,7 +63167,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-03,Serbia,3167796,3013629
 2021-11-03,Seychelles,81323,76696
 2021-11-03,Sierra Leone,318380,110744
-2021-11-03,Singapore,4742997,4687197
+2021-11-03,Singapore,4682124,4550623
 2021-11-03,Slovakia,2516391,2407321
 2021-11-03,Slovenia,1191517,1120072
 2021-11-03,Solomon Islands,121778,31054
@@ -63354,7 +63354,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-04,Serbia,3167796,3013629
 2021-11-04,Seychelles,81323,76696
 2021-11-04,Sierra Leone,505385,251854
-2021-11-04,Singapore,4742997,4687197
+2021-11-04,Singapore,4682251,4551283
 2021-11-04,Slovakia,2518328,2409421
 2021-11-04,Slovenia,1193519,1121770
 2021-11-04,Solomon Islands,121778,31054
@@ -63541,7 +63541,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-05,Serbia,3176748,3020573
 2021-11-05,Seychelles,81323,76696
 2021-11-05,Sierra Leone,505385,251854
-2021-11-05,Singapore,4742997,4687197
+2021-11-05,Singapore,4684472,4557344
 2021-11-05,Slovakia,2521648,2412987
 2021-11-05,Slovenia,1195294,1123073
 2021-11-05,Solomon Islands,121778,31054
@@ -63728,7 +63728,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-06,Serbia,3176748,3020573
 2021-11-06,Seychelles,81323,76696
 2021-11-06,Sierra Leone,505385,251854
-2021-11-06,Singapore,4742997,4687197
+2021-11-06,Singapore,4685799,4561384
 2021-11-06,Slovakia,2523429,2413939
 2021-11-06,Slovenia,1196029,1123355
 2021-11-06,Solomon Islands,121778,31054
@@ -63915,7 +63915,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-07,Serbia,3182096,3024890
 2021-11-07,Seychelles,81323,76696
 2021-11-07,Sierra Leone,505385,251854
-2021-11-07,Singapore,4742997,4687197
+2021-11-07,Singapore,4686701,4563512
 2021-11-07,Slovakia,2525963,2416049
 2021-11-07,Slovenia,1196277,1123484
 2021-11-07,Solomon Islands,121778,31054
@@ -64102,7 +64102,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-08,Serbia,3188667,3029363
 2021-11-08,Seychelles,81375,76796
 2021-11-08,Sierra Leone,505385,251854
-2021-11-08,Singapore,4742997,4687197
+2021-11-08,Singapore,4687940,4567453
 2021-11-08,Slovakia,2528055,2417664
 2021-11-08,Slovenia,1198095,1124417
 2021-11-08,Solomon Islands,135995,35567
@@ -64289,7 +64289,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-09,Serbia,3194810,3033202
 2021-11-09,Seychelles,81375,76796
 2021-11-09,Sierra Leone,505385,251854
-2021-11-09,Singapore,4742997,4687197
+2021-11-09,Singapore,4689633,4570932
 2021-11-09,Slovakia,2530911,2419467
 2021-11-09,Slovenia,1200196,1125390
 2021-11-09,Solomon Islands,135995,35567
@@ -64476,7 +64476,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-10,Serbia,3194810,3033202
 2021-11-10,Seychelles,81375,76796
 2021-11-10,Sierra Leone,603654,302686
-2021-11-10,Singapore,4742997,4687197
+2021-11-10,Singapore,4691161,4574345
 2021-11-10,Slovakia,2534359,2421485
 2021-11-10,Slovenia,1202217,1126635
 2021-11-10,Solomon Islands,135995,35567
@@ -64663,7 +64663,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-11,Serbia,3194810,3033202
 2021-11-11,Seychelles,81375,76796
 2021-11-11,Sierra Leone,603654,302686
-2021-11-11,Singapore,4742997,4687197
+2021-11-11,Singapore,4692771,4577629
 2021-11-11,Slovakia,2538575,2423867
 2021-11-11,Slovenia,1204938,1128359
 2021-11-11,Solomon Islands,135995,35567
@@ -64850,7 +64850,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-12,Serbia,3194810,3033202
 2021-11-12,Seychelles,81375,76796
 2021-11-12,Sierra Leone,603654,302686
-2021-11-12,Singapore,4742997,4687197
+2021-11-12,Singapore,4694634,4581492
 2021-11-12,Slovakia,2545321,2427890
 2021-11-12,Slovenia,1207454,1129915
 2021-11-12,Solomon Islands,135995,35567
@@ -65037,7 +65037,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-13,Serbia,3194810,3033202
 2021-11-13,Seychelles,81375,76796
 2021-11-13,Sierra Leone,603654,302686
-2021-11-13,Singapore,4742997,4687197
+2021-11-13,Singapore,4696072,4584487
 2021-11-13,Slovakia,2551820,2432030
 2021-11-13,Slovenia,1208588,1130302
 2021-11-13,Solomon Islands,135995,35567
@@ -65224,7 +65224,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-14,Serbia,3212804,3052529
 2021-11-14,Seychelles,81375,76796
 2021-11-14,Sierra Leone,603654,302686
-2021-11-14,Singapore,4742997,4687197
+2021-11-14,Singapore,4697012,4586361
 2021-11-14,Slovakia,2555442,2434632
 2021-11-14,Slovenia,1208823,1130374
 2021-11-14,Solomon Islands,135995,35567
@@ -65411,7 +65411,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-15,Serbia,3212804,3052529
 2021-11-15,Seychelles,81597,77389
 2021-11-15,Sierra Leone,603654,302686
-2021-11-15,Singapore,4742997,4687197
+2021-11-15,Singapore,4698571,4589805
 2021-11-15,Slovakia,2559622,2436309
 2021-11-15,Slovenia,1210851,1131268
 2021-11-15,Solomon Islands,135995,35567
@@ -65598,7 +65598,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-16,Serbia,3212804,3052529
 2021-11-16,Seychelles,81597,77389
 2021-11-16,Sierra Leone,603654,302686
-2021-11-16,Singapore,4742997,4687197
+2021-11-16,Singapore,4700080,4592927
 2021-11-16,Slovakia,2564255,2438221
 2021-11-16,Slovenia,1213395,1132368
 2021-11-16,Solomon Islands,135995,35567
@@ -65785,7 +65785,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-17,Serbia,3212804,3052529
 2021-11-17,Seychelles,81669,77467
 2021-11-17,Sierra Leone,603654,302686
-2021-11-17,Singapore,4742997,4687197
+2021-11-17,Singapore,4701293,4595524
 2021-11-17,Slovakia,2565756,2438975
 2021-11-17,Slovenia,1215732,1133731
 2021-11-17,Solomon Islands,135995,35567
@@ -65972,7 +65972,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-18,Serbia,3229702,3074665
 2021-11-18,Seychelles,81669,77467
 2021-11-18,Sierra Leone,603654,302686
-2021-11-18,Singapore,4742997,4687197
+2021-11-18,Singapore,4702467,4598056
 2021-11-18,Slovakia,2571618,2442274
 2021-11-18,Slovenia,1218437,1135688
 2021-11-18,Solomon Islands,135995,35567
@@ -66159,7 +66159,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-19,Serbia,3234195,3080133
 2021-11-19,Seychelles,81669,77467
 2021-11-19,Sierra Leone,603654,302686
-2021-11-19,Singapore,4742997,4687197
+2021-11-19,Singapore,4703964,4601598
 2021-11-19,Slovakia,2580551,2446143
 2021-11-19,Slovenia,1220681,1137326
 2021-11-19,Solomon Islands,135995,35567
@@ -66346,7 +66346,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-20,Serbia,3234195,3080133
 2021-11-20,Seychelles,81669,77467
 2021-11-20,Sierra Leone,603654,302686
-2021-11-20,Singapore,4742997,4687197
+2021-11-20,Singapore,4705119,4604290
 2021-11-20,Slovakia,2590928,2452032
 2021-11-20,Slovenia,1221644,1137723
 2021-11-20,Solomon Islands,135995,35567
@@ -66533,7 +66533,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-21,Serbia,3234195,3080133
 2021-11-21,Seychelles,81669,77467
 2021-11-21,Sierra Leone,603654,302686
-2021-11-21,Singapore,4742997,4687197
+2021-11-21,Singapore,4705924,4605686
 2021-11-21,Slovakia,2596836,2454978
 2021-11-21,Slovenia,1221865,1137813
 2021-11-21,Solomon Islands,135995,35567
@@ -66720,7 +66720,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-22,Serbia,3241625,3089641
 2021-11-22,Seychelles,81669,77467
 2021-11-22,Sierra Leone,603654,302686
-2021-11-22,Singapore,4742997,4687197
+2021-11-22,Singapore,4707183,4608527
 2021-11-22,Slovakia,2603322,2457472
 2021-11-22,Slovenia,1223085,1138287
 2021-11-22,Solomon Islands,150777,43040
@@ -66907,7 +66907,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-23,Serbia,3245207,3094282
 2021-11-23,Seychelles,81867,77809
 2021-11-23,Sierra Leone,603654,302686
-2021-11-23,Singapore,4742997,4687197
+2021-11-23,Singapore,4708245,4610874
 2021-11-23,Slovakia,2609037,2459831
 2021-11-23,Slovenia,1224679,1139609
 2021-11-23,Solomon Islands,150777,43040
@@ -67094,7 +67094,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-24,Serbia,3248569,3098262
 2021-11-24,Seychelles,81867,77809
 2021-11-24,Sierra Leone,603654,302686
-2021-11-24,Singapore,4742997,4687197
+2021-11-24,Singapore,4709313,4613037
 2021-11-24,Slovakia,2615308,2462651
 2021-11-24,Slovenia,1226155,1141011
 2021-11-24,Solomon Islands,150777,43040
@@ -67281,7 +67281,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-25,Serbia,3248569,3098262
 2021-11-25,Seychelles,81867,77809
 2021-11-25,Sierra Leone,603654,302686
-2021-11-25,Singapore,4742997,4687197
+2021-11-25,Singapore,4710455,4614888
 2021-11-25,Slovakia,2621848,2466018
 2021-11-25,Slovenia,1227722,1143140
 2021-11-25,Solomon Islands,150777,43040
@@ -67468,7 +67468,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-26,Serbia,3248569,3098262
 2021-11-26,Seychelles,81867,77809
 2021-11-26,Sierra Leone,703231,361089
-2021-11-26,Singapore,4742997,4687197
+2021-11-26,Singapore,4711759,4618056
 2021-11-26,Slovakia,2630301,2470255
 2021-11-26,Slovenia,1229129,1145154
 2021-11-26,Solomon Islands,150777,43040
@@ -67655,7 +67655,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-27,Serbia,3256757,3110021
 2021-11-27,Seychelles,81867,77809
 2021-11-27,Sierra Leone,703231,361089
-2021-11-27,Singapore,4742997,4687197
+2021-11-27,Singapore,4712684,4620361
 2021-11-27,Slovakia,2638118,2475273
 2021-11-27,Slovenia,1229739,1145739
 2021-11-27,Solomon Islands,150777,43040
@@ -67842,7 +67842,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-28,Serbia,3257828,3111853
 2021-11-28,Seychelles,81867,77809
 2021-11-28,Sierra Leone,703231,361089
-2021-11-28,Singapore,4742997,4687197
+2021-11-28,Singapore,4713458,4622229
 2021-11-28,Slovakia,2641696,2477637
 2021-11-28,Slovenia,1229814,1145818
 2021-11-28,Solomon Islands,150777,43040
@@ -68029,7 +68029,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-29,Serbia,3261104,3118088
 2021-11-29,Seychelles,81937,77951
 2021-11-29,Sierra Leone,703231,361089
-2021-11-29,Singapore,4742997,4687197
+2021-11-29,Singapore,4714624,4625078
 2021-11-29,Slovakia,2645732,2479156
 2021-11-29,Slovenia,1230734,1147420
 2021-11-29,Solomon Islands,150777,43040
@@ -68216,7 +68216,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-11-30,Serbia,3263835,3123638
 2021-11-30,Seychelles,81937,77951
 2021-11-30,Sierra Leone,703231,361089
-2021-11-30,Singapore,4742997,4687197
+2021-11-30,Singapore,4715726,4628022
 2021-11-30,Slovakia,2649703,2481129
 2021-11-30,Slovenia,1231882,1149137
 2021-11-30,Solomon Islands,161521,46525
@@ -68403,7 +68403,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-01,Serbia,3263835,3123638
 2021-12-01,Seychelles,81937,77951
 2021-12-01,Sierra Leone,703231,361089
-2021-12-01,Singapore,4742997,4687197
+2021-12-01,Singapore,4716715,4630552
 2021-12-01,Slovakia,2653794,2483512
 2021-12-01,Slovenia,1232803,1151076
 2021-12-01,Solomon Islands,161521,46525
@@ -68590,7 +68590,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-02,Serbia,3269036,3131587
 2021-12-02,Seychelles,81937,77951
 2021-12-02,Sierra Leone,703231,361089
-2021-12-02,Singapore,4742997,4687197
+2021-12-02,Singapore,4717816,4633423
 2021-12-02,Slovakia,2657415,2485833
 2021-12-02,Slovenia,1233871,1153915
 2021-12-02,Solomon Islands,161521,46525
@@ -68777,7 +68777,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-03,Serbia,3272681,3136806
 2021-12-03,Seychelles,81937,77951
 2021-12-03,Sierra Leone,703231,361089
-2021-12-03,Singapore,4744632,4744632
+2021-12-03,Singapore,4719000,4637675
 2021-12-03,Slovakia,2662405,2489242
 2021-12-03,Slovenia,1234869,1156572
 2021-12-03,Solomon Islands,161521,46525
@@ -68964,7 +68964,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-04,Serbia,3272681,3136806
 2021-12-04,Seychelles,81937,77951
 2021-12-04,Sierra Leone,703231,361089
-2021-12-04,Singapore,4744632,4744632
+2021-12-04,Singapore,4719804,4641143
 2021-12-04,Slovakia,2665591,2491501
 2021-12-04,Slovenia,1235121,1157097
 2021-12-04,Solomon Islands,161521,46525
@@ -69151,7 +69151,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-05,Serbia,3272681,3136806
 2021-12-05,Seychelles,81937,77951
 2021-12-05,Sierra Leone,703231,361089
-2021-12-05,Singapore,4744632,4744632
+2021-12-05,Singapore,4720414,4643194
 2021-12-05,Slovakia,2667100,2492762
 2021-12-05,Slovenia,1235198,1157240
 2021-12-05,Solomon Islands,161521,46525
@@ -69338,7 +69338,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-06,Serbia,3278080,3146226
 2021-12-06,Seychelles,81937,77951
 2021-12-06,Sierra Leone,703231,361089
-2021-12-06,Singapore,4744632,4744632
+2021-12-06,Singapore,4721517,4647238
 2021-12-06,Slovakia,2669251,2494760
 2021-12-06,Slovenia,1235820,1159133
 2021-12-06,Solomon Islands,161521,46525
@@ -69525,7 +69525,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-07,Serbia,3280630,3150067
 2021-12-07,Seychelles,81937,77951
 2021-12-07,Sierra Leone,703231,361089
-2021-12-07,Singapore,4744632,4744632
+2021-12-07,Singapore,4722529,4650882
 2021-12-07,Slovakia,2671641,2496984
 2021-12-07,Slovenia,1236505,1161129
 2021-12-07,Solomon Islands,161521,46525
@@ -69712,7 +69712,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-08,Serbia,3282950,3153923
 2021-12-08,Seychelles,81937,77951
 2021-12-08,Sierra Leone,747044,385232
-2021-12-08,Singapore,4744632,4744632
+2021-12-08,Singapore,4723525,4654381
 2021-12-08,Slovakia,2674527,2499685
 2021-12-08,Slovenia,1237206,1163428
 2021-12-08,Solomon Islands,161521,46525
@@ -69899,7 +69899,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-09,Serbia,3284917,3157418
 2021-12-09,Seychelles,81937,77951
 2021-12-09,Sierra Leone,747044,385232
-2021-12-09,Singapore,4744632,4744632
+2021-12-09,Singapore,4724433,4657747
 2021-12-09,Slovakia,2678088,2503276
 2021-12-09,Slovenia,1237968,1166290
 2021-12-09,Solomon Islands,161521,46525
@@ -70086,7 +70086,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-10,Serbia,3284917,3157418
 2021-12-10,Seychelles,82117,78214
 2021-12-10,Sierra Leone,747044,385232
-2021-12-10,Singapore,4744632,4744632
+2021-12-10,Singapore,4725332,4661661
 2021-12-10,Slovakia,2682089,2508340
 2021-12-10,Slovenia,1238547,1169109
 2021-12-10,Solomon Islands,161521,46525
@@ -70273,7 +70273,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-11,Serbia,3284917,3157418
 2021-12-11,Seychelles,82117,78214
 2021-12-11,Sierra Leone,747044,385232
-2021-12-11,Singapore,4744632,4744632
+2021-12-11,Singapore,4725969,4664605
 2021-12-11,Slovakia,2685441,2511398
 2021-12-11,Slovenia,1238686,1169640
 2021-12-11,Solomon Islands,161521,46525
@@ -70460,7 +70460,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-12,Serbia,3288762,3165137
 2021-12-12,Seychelles,82117,78214
 2021-12-12,Sierra Leone,747044,385232
-2021-12-12,Singapore,4744632,4744632
+2021-12-12,Singapore,4726443,4666475
 2021-12-12,Slovakia,2686949,2512674
 2021-12-12,Slovenia,1238707,1169724
 2021-12-12,Solomon Islands,161521,46525
@@ -70647,7 +70647,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-13,Serbia,3288762,3165137
 2021-12-13,Seychelles,82117,78214
 2021-12-13,Sierra Leone,747044,385232
-2021-12-13,Singapore,4744632,4744632
+2021-12-13,Singapore,4727228,4669830
 2021-12-13,Slovakia,2689478,2515898
 2021-12-13,Slovenia,1239133,1171038
 2021-12-13,Solomon Islands,176593,52319
@@ -70834,7 +70834,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-14,Serbia,3291994,3172131
 2021-12-14,Seychelles,82117,78214
 2021-12-14,Sierra Leone,747044,385232
-2021-12-14,Singapore,4744632,4744632
+2021-12-14,Singapore,4727986,4672797
 2021-12-14,Slovakia,2692356,2519587
 2021-12-14,Slovenia,1239644,1172406
 2021-12-14,Solomon Islands,176593,52319
@@ -71021,7 +71021,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-15,Serbia,3291994,3172131
 2021-12-15,Seychelles,82117,78214
 2021-12-15,Sierra Leone,747044,385232
-2021-12-15,Singapore,4744632,4744632
+2021-12-15,Singapore,4728662,4675831
 2021-12-15,Slovakia,2695744,2522310
 2021-12-15,Slovenia,1240334,1174115
 2021-12-15,Solomon Islands,176593,52319
@@ -71208,7 +71208,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-16,Serbia,3291994,3172131
 2021-12-16,Seychelles,82117,78214
 2021-12-16,Sierra Leone,747044,385232
-2021-12-16,Singapore,4744632,4744632
+2021-12-16,Singapore,4729379,4678933
 2021-12-16,Slovakia,2698606,2526437
 2021-12-16,Slovenia,1241127,1176045
 2021-12-16,Solomon Islands,176593,52319
@@ -71395,7 +71395,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-17,Serbia,3291994,3172131
 2021-12-17,Seychelles,82323,78238
 2021-12-17,Sierra Leone,747044,385232
-2021-12-17,Singapore,4744632,4744632
+2021-12-17,Singapore,4730067,4682401
 2021-12-17,Slovakia,2701782,2533065
 2021-12-17,Slovenia,1241779,1177832
 2021-12-17,Solomon Islands,176593,52319
@@ -71582,7 +71582,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-18,Serbia,3291994,3172131
 2021-12-18,Seychelles,82323,78238
 2021-12-18,Sierra Leone,747044,385232
-2021-12-18,Singapore,4799168,4744632
+2021-12-18,Singapore,4730601,4684786
 2021-12-18,Slovakia,2703851,2536737
 2021-12-18,Slovenia,1241958,1178148
 2021-12-18,Solomon Islands,176593,52319
@@ -71769,7 +71769,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-19,Serbia,3291994,3172131
 2021-12-19,Seychelles,82323,78238
 2021-12-19,Sierra Leone,747044,385232
-2021-12-19,Singapore,4799168,4744632
+2021-12-19,Singapore,4731032,4686336
 2021-12-19,Slovakia,2705303,2539524
 2021-12-19,Slovenia,1242482,1178716
 2021-12-19,Solomon Islands,176593,52319
@@ -71956,7 +71956,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-20,Serbia,3291994,3172131
 2021-12-20,Seychelles,82323,78238
 2021-12-20,Sierra Leone,747044,385232
-2021-12-20,Singapore,4799168,4744632
+2021-12-20,Singapore,4731817,4689385
 2021-12-20,Slovakia,2707978,2545359
 2021-12-20,Slovenia,1243615,1180336
 2021-12-20,Solomon Islands,179973,55945
@@ -72143,7 +72143,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-21,Serbia,3291994,3172131
 2021-12-21,Seychelles,82323,78238
 2021-12-21,Sierra Leone,747044,385232
-2021-12-21,Singapore,4799168,4744632
+2021-12-21,Singapore,4732490,4692043
 2021-12-21,Slovakia,2710560,2551151
 2021-12-21,Slovenia,1244845,1182022
 2021-12-21,Solomon Islands,179973,55945
@@ -72330,7 +72330,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-22,Serbia,3302585,3193149
 2021-12-22,Seychelles,82323,78238
 2021-12-22,Sierra Leone,747044,385232
-2021-12-22,Singapore,4799168,4744632
+2021-12-22,Singapore,4733160,4694600
 2021-12-22,Slovakia,2713091,2556175
 2021-12-22,Slovenia,1246238,1183729
 2021-12-22,Solomon Islands,179973,55945
@@ -72517,7 +72517,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-23,Serbia,3302585,3193149
 2021-12-23,Seychelles,82323,78238
 2021-12-23,Sierra Leone,747044,385232
-2021-12-23,Singapore,4799168,4744632
+2021-12-23,Singapore,4733826,4697055
 2021-12-23,Slovakia,2714350,2558664
 2021-12-23,Slovenia,1247843,1185729
 2021-12-23,Solomon Islands,179973,55945
@@ -72704,7 +72704,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-24,Serbia,3302585,3193149
 2021-12-24,Seychelles,82323,78238
 2021-12-24,Sierra Leone,747044,385232
-2021-12-24,Singapore,4799168,4744632
+2021-12-24,Singapore,4734160,4698498
 2021-12-24,Slovakia,2714380,2558686
 2021-12-24,Slovenia,1248112,1186280
 2021-12-24,Solomon Islands,179973,55945
@@ -72891,7 +72891,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-25,Serbia,3302585,3193149
 2021-12-25,Seychelles,82323,78238
 2021-12-25,Sierra Leone,747044,385232
-2021-12-25,Singapore,4799168,4744632
+2021-12-25,Singapore,4734189,4698740
 2021-12-25,Slovakia,2714477,2558827
 2021-12-25,Slovenia,1248112,1186280
 2021-12-25,Solomon Islands,179973,55945
@@ -73078,7 +73078,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-26,Serbia,3306626,3202009
 2021-12-26,Seychelles,82323,78238
 2021-12-26,Sierra Leone,747044,385232
-2021-12-26,Singapore,4799168,4744632
+2021-12-26,Singapore,4734771,4700744
 2021-12-26,Slovakia,2714511,2558869
 2021-12-26,Slovenia,1248140,1186314
 2021-12-26,Solomon Islands,179973,55945
@@ -73265,7 +73265,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-27,Serbia,3306626,3202009
 2021-12-27,Seychelles,82323,78238
 2021-12-27,Sierra Leone,747044,385232
-2021-12-27,Singapore,4799168,4744632
+2021-12-27,Singapore,4738842,4704125
 2021-12-27,Slovakia,2715768,2563740
 2021-12-27,Slovenia,1248596,1187133
 2021-12-27,Solomon Islands,179973,55945
@@ -73365,7 +73365,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-28,Finland,4347091,4127016
 2021-12-28,France,52850751,49353777
 2021-12-28,Gabon,392898,173123
-2021-12-28,Gambia,249364,235633
+2021-12-28,Gambia,263056,249515
 2021-12-28,Georgia,1355604,1139831
 2021-12-28,Germany,61599321,59081318
 2021-12-28,Ghana,5774413,2334010
@@ -73452,7 +73452,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-28,Serbia,3309157,3207534
 2021-12-28,Seychelles,82348,78263
 2021-12-28,Sierra Leone,747044,385232
-2021-12-28,Singapore,4799168,4744632
+2021-12-28,Singapore,4742962,4707183
 2021-12-28,Slovakia,2717900,2568680
 2021-12-28,Slovenia,1249199,1188274
 2021-12-28,Solomon Islands,179973,55945
@@ -73552,7 +73552,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-29,Finland,4347091,4127016
 2021-12-29,France,52882157,49442787
 2021-12-29,Gabon,392898,173123
-2021-12-29,Gambia,249364,235633
+2021-12-29,Gambia,263056,249515
 2021-12-29,Georgia,1355604,1139831
 2021-12-29,Germany,61666334,59152105
 2021-12-29,Ghana,5774413,2334010
@@ -73639,7 +73639,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-29,Serbia,3309157,3207534
 2021-12-29,Seychelles,82348,78263
 2021-12-29,Sierra Leone,747044,385232
-2021-12-29,Singapore,4799168,4744632
+2021-12-29,Singapore,4748811,4709957
 2021-12-29,Slovakia,2719994,2572621
 2021-12-29,Slovenia,1249635,1189121
 2021-12-29,Solomon Islands,179973,55945
@@ -73739,7 +73739,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-30,Finland,4348476,4129929
 2021-12-30,France,52912494,49518098
 2021-12-30,Gabon,392898,173123
-2021-12-30,Gambia,249364,235633
+2021-12-30,Gambia,263056,249515
 2021-12-30,Georgia,1363896,1148962
 2021-12-30,Germany,61720832,59212114
 2021-12-30,Ghana,5774413,2334010
@@ -73826,7 +73826,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-30,Serbia,3309157,3207534
 2021-12-30,Seychelles,82348,78263
 2021-12-30,Sierra Leone,747044,385232
-2021-12-30,Singapore,4799168,4744632
+2021-12-30,Singapore,4754992,4713027
 2021-12-30,Slovakia,2721665,2575752
 2021-12-30,Slovenia,1250233,1189914
 2021-12-30,Solomon Islands,179973,55945
@@ -73888,7 +73888,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-31,Bosnia and Herzegovina,882641,720631
 2021-12-31,Botswana,1166023,1031923
 2021-12-31,Brazil,166195505,143436012
-2021-12-31,Brunei,405092,385414
+2021-12-31,Brunei,405888,400691
 2021-12-31,Bulgaria,1904143,1914910
 2021-12-31,Burkina Faso,972376,649320
 2021-12-31,Burma,18829259,13029777
@@ -73926,7 +73926,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-31,Finland,4350442,4133706
 2021-12-31,France,52922597,49543600
 2021-12-31,Gabon,392898,173123
-2021-12-31,Gambia,249364,235633
+2021-12-31,Gambia,263056,249515
 2021-12-31,Georgia,1363896,1148962
 2021-12-31,Germany,61733736,59227259
 2021-12-31,Ghana,5774413,2334010
@@ -74013,7 +74013,7 @@ date,country,vaccinated_once,vaccinated_fully
 2021-12-31,Serbia,3309157,3207534
 2021-12-31,Seychelles,82348,78263
 2021-12-31,Sierra Leone,747044,385232
-2021-12-31,Singapore,4799168,4744632
+2021-12-31,Singapore,4758601,4714655
 2021-12-31,Slovakia,2722328,2576779
 2021-12-31,Slovenia,1250336,1190103
 2021-12-31,Solomon Islands,179973,55945
@@ -74075,7 +74075,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-01,Bosnia and Herzegovina,882641,720631
 2022-01-01,Botswana,1166023,1031923
 2022-01-01,Brazil,166199307,143441284
-2022-01-01,Brunei,405092,385414
+2022-01-01,Brunei,405888,400691
 2022-01-01,Bulgaria,1904143,1914966
 2022-01-01,Burkina Faso,972376,649320
 2022-01-01,Burma,20816441,15571917
@@ -74113,7 +74113,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-01,Finland,4352527,4138239
 2022-01-01,France,52923426,49546838
 2022-01-01,Gabon,392898,173123
-2022-01-01,Gambia,249364,235633
+2022-01-01,Gambia,263056,249515
 2022-01-01,Georgia,1363896,1148962
 2022-01-01,Germany,61735834,59230119
 2022-01-01,Ghana,5774413,2334010
@@ -74200,7 +74200,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-01,Serbia,3316151,3220977
 2022-01-01,Seychelles,82348,78263
 2022-01-01,Sierra Leone,747044,385232
-2022-01-01,Singapore,4799168,4744632
+2022-01-01,Singapore,4758624,4714843
 2022-01-01,Slovakia,2722384,2576911
 2022-01-01,Slovenia,1250337,1190103
 2022-01-01,Solomon Islands,179973,55945
@@ -74262,7 +74262,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-02,Bosnia and Herzegovina,882641,720631
 2022-01-02,Botswana,1166023,1031923
 2022-01-02,Brazil,166206716,143462401
-2022-01-02,Brunei,405092,385414
+2022-01-02,Brunei,405888,400691
 2022-01-02,Bulgaria,1904143,1915436
 2022-01-02,Burkina Faso,972376,649320
 2022-01-02,Burma,20816441,15571917
@@ -74300,7 +74300,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-02,Finland,4352527,4138239
 2022-01-02,France,52927867,49560397
 2022-01-02,Gabon,392898,173123
-2022-01-02,Gambia,249364,235633
+2022-01-02,Gambia,263056,249515
 2022-01-02,Georgia,1363896,1148962
 2022-01-02,Germany,61751526,59243695
 2022-01-02,Ghana,5774413,2334010
@@ -74387,7 +74387,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-02,Serbia,3316151,3220977
 2022-01-02,Seychelles,82348,78263
 2022-01-02,Sierra Leone,747044,385232
-2022-01-02,Singapore,4799168,4744632
+2022-01-02,Singapore,4765579,4716190
 2022-01-02,Slovakia,2722634,2577440
 2022-01-02,Slovenia,1250348,1190120
 2022-01-02,Solomon Islands,179973,55945
@@ -74449,7 +74449,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-03,Bosnia and Herzegovina,882641,720631
 2022-01-03,Botswana,1166023,1031923
 2022-01-03,Brazil,166320650,143723393
-2022-01-03,Brunei,405092,385414
+2022-01-03,Brunei,405888,400691
 2022-01-03,Bulgaria,1904143,1916392
 2022-01-03,Burkina Faso,972376,649320
 2022-01-03,Burma,20816441,15571917
@@ -74487,7 +74487,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-03,Finland,4352536,4138246
 2022-01-03,France,52955207,49648445
 2022-01-03,Gabon,392898,173123
-2022-01-03,Gambia,249364,235633
+2022-01-03,Gambia,263056,249515
 2022-01-03,Georgia,1367568,1152662
 2022-01-03,Germany,61788360,59301290
 2022-01-03,Ghana,5774413,2334010
@@ -74517,7 +74517,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-03,Kosovo,891659,783180
 2022-01-03,Kuwait,3334421,3216700
 2022-01-03,Kyrgyzstan,1235383,1003939
-2022-01-03,Laos,3744740,3099003
+2022-01-03,Laos,4590479,3643020
 2022-01-03,Latvia,1315243,1264143
 2022-01-03,Lebanon,2268589,1837572
 2022-01-03,Lesotho,648817,641007
@@ -74574,7 +74574,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-03,Serbia,3316151,3220977
 2022-01-03,Seychelles,82348,78263
 2022-01-03,Sierra Leone,747044,385232
-2022-01-03,Singapore,4799168,4744632
+2022-01-03,Singapore,4775363,4718532
 2022-01-03,Slovakia,2724248,2581531
 2022-01-03,Slovenia,1250788,1190965
 2022-01-03,Solomon Islands,179973,55945
@@ -74636,7 +74636,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-04,Bosnia and Herzegovina,882641,720631
 2022-01-04,Botswana,1166023,1031923
 2022-01-04,Brazil,166426973,143762375
-2022-01-04,Brunei,405092,385414
+2022-01-04,Brunei,405888,400691
 2022-01-04,Bulgaria,1904143,1921662
 2022-01-04,Burkina Faso,1108731,725952
 2022-01-04,Burma,20816441,15571917
@@ -74674,7 +74674,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-04,Finland,4352538,4138263
 2022-01-04,France,52991847,49759873
 2022-01-04,Gabon,392898,173123
-2022-01-04,Gambia,249364,235633
+2022-01-04,Gambia,263056,249515
 2022-01-04,Georgia,1371424,1156606
 2022-01-04,Germany,61842608,59393140
 2022-01-04,Ghana,5774413,2334010
@@ -74704,7 +74704,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-04,Kosovo,892834,784166
 2022-01-04,Kuwait,3334421,3216700
 2022-01-04,Kyrgyzstan,1238178,1007044
-2022-01-04,Laos,3744740,3099003
+2022-01-04,Laos,4590479,3643020
 2022-01-04,Latvia,1316636,1265943
 2022-01-04,Lebanon,2280955,1843313
 2022-01-04,Lesotho,648817,641007
@@ -74761,7 +74761,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-04,Serbia,3316151,3220977
 2022-01-04,Seychelles,82348,78263
 2022-01-04,Sierra Leone,747044,385232
-2022-01-04,Singapore,4799168,4744632
+2022-01-04,Singapore,4779932,4720606
 2022-01-04,Slovakia,2726180,2585262
 2022-01-04,Slovenia,1251355,1191823
 2022-01-04,Solomon Islands,185485,60639
@@ -74823,7 +74823,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-05,Bosnia and Herzegovina,882641,720631
 2022-01-05,Botswana,1166023,1031923
 2022-01-05,Brazil,166475764,143877220
-2022-01-05,Brunei,405092,385414
+2022-01-05,Brunei,405888,400691
 2022-01-05,Bulgaria,1904143,1927428
 2022-01-05,Burkina Faso,1108731,725952
 2022-01-05,Burma,20816441,15571917
@@ -74861,7 +74861,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-05,Finland,4352892,4139047
 2022-01-05,France,53031129,49863799
 2022-01-05,Gabon,392898,173123
-2022-01-05,Gambia,249364,235633
+2022-01-05,Gambia,263056,249515
 2022-01-05,Georgia,1375669,1161155
 2022-01-05,Germany,61898971,59500967
 2022-01-05,Ghana,5774413,2334010
@@ -74891,7 +74891,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-05,Kosovo,894348,785291
 2022-01-05,Kuwait,3341309,3224987
 2022-01-05,Kyrgyzstan,1241074,1009486
-2022-01-05,Laos,3744740,3099003
+2022-01-05,Laos,4590479,3643020
 2022-01-05,Latvia,1317896,1267379
 2022-01-05,Lebanon,2291730,1847931
 2022-01-05,Lesotho,648817,641007
@@ -74948,7 +74948,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-05,Serbia,3316151,3220977
 2022-01-05,Seychelles,82348,78263
 2022-01-05,Sierra Leone,747044,385232
-2022-01-05,Singapore,4799168,4744632
+2022-01-05,Singapore,4781888,4722366
 2022-01-05,Slovakia,2728623,2589110
 2022-01-05,Slovenia,1252061,1192976
 2022-01-05,Solomon Islands,185485,60639
@@ -75000,7 +75000,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-06,Bahamas,158120,149393
 2022-01-06,Bahrain,1205953,1181661
 2022-01-06,Bangladesh,87546674,44735702
-2022-01-06,Barbados,156101,143867
+2022-01-06,Barbados,156150,143919
 2022-01-06,Belarus,4905934,3570521
 2022-01-06,Belgium,8921656,8811134
 2022-01-06,Belize,230125,199119
@@ -75010,7 +75010,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-06,Bosnia and Herzegovina,882641,720631
 2022-01-06,Botswana,1171577,1034735
 2022-01-06,Brazil,166475764,143877220
-2022-01-06,Brunei,405092,385414
+2022-01-06,Brunei,405888,400691
 2022-01-06,Bulgaria,1904143,1933230
 2022-01-06,Burkina Faso,1108731,725952
 2022-01-06,Burma,20816441,15571917
@@ -75048,7 +75048,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-06,Finland,4356402,4147926
 2022-01-06,France,53069603,49975277
 2022-01-06,Gabon,392898,173123
-2022-01-06,Gambia,249364,235633
+2022-01-06,Gambia,263056,249515
 2022-01-06,Georgia,1380202,1165288
 2022-01-06,Germany,61946444,59588511
 2022-01-06,Ghana,6275099,2573073
@@ -75078,7 +75078,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-06,Kosovo,896899,786859
 2022-01-06,Kuwait,3341309,3224987
 2022-01-06,Kyrgyzstan,1242335,1010616
-2022-01-06,Laos,3744740,3099003
+2022-01-06,Laos,4590479,3643020
 2022-01-06,Latvia,1319010,1268782
 2022-01-06,Lebanon,2291801,1847953
 2022-01-06,Lesotho,648817,641007
@@ -75088,7 +75088,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-06,Lithuania,1924881,1838820
 2022-01-06,Luxembourg,464758,429705
 2022-01-06,Madagascar,817386,767113
-2022-01-06,Malawi,1494687,719941
+2022-01-06,Malawi,1498064,732128
 2022-01-06,Malaysia,26017951,25641675
 2022-01-06,Maldives,396941,368047
 2022-01-06,Mali,900986,518229
@@ -75135,7 +75135,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-06,Serbia,3316151,3220977
 2022-01-06,Seychelles,82348,78263
 2022-01-06,Sierra Leone,747044,385232
-2022-01-06,Singapore,4799168,4744632
+2022-01-06,Singapore,4781888,4722366
 2022-01-06,Slovakia,2730606,2589592
 2022-01-06,Slovenia,1252973,1194309
 2022-01-06,Solomon Islands,185485,60639
@@ -75187,7 +75187,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-07,Bahamas,158120,149393
 2022-01-07,Bahrain,1206256,1181778
 2022-01-07,Bangladesh,87546674,44735702
-2022-01-07,Barbados,156101,143867
+2022-01-07,Barbados,156631,144706
 2022-01-07,Belarus,4905934,3570521
 2022-01-07,Belgium,8921656,8811134
 2022-01-07,Belize,230125,199119
@@ -75197,7 +75197,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-07,Bosnia and Herzegovina,882641,720631
 2022-01-07,Botswana,1171577,1034735
 2022-01-07,Brazil,166475764,143877220
-2022-01-07,Brunei,405092,385414
+2022-01-07,Brunei,405888,400691
 2022-01-07,Bulgaria,1904143,1938466
 2022-01-07,Burkina Faso,1108731,725952
 2022-01-07,Burma,20816441,15571917
@@ -75235,14 +75235,14 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-07,Finland,4356402,4147926
 2022-01-07,France,53069603,49975277
 2022-01-07,Gabon,392898,173123
-2022-01-07,Gambia,249364,235633
+2022-01-07,Gambia,263056,249515
 2022-01-07,Georgia,1380202,1165288
 2022-01-07,Germany,61995765,59692520
 2022-01-07,Ghana,6275099,2573073
 2022-01-07,Greece,7525483,7076927
 2022-01-07,Grenada,41287,35457
 2022-01-07,Guatemala,6609697,4810512
-2022-01-07,Guinea,2460078,1287256
+2022-01-07,Guinea,2467717,1290932
 2022-01-07,Guinea-Bissau,391320,23145
 2022-01-07,Guyana,411081,295325
 2022-01-07,Haiti,125187,75028
@@ -75265,7 +75265,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-07,Kosovo,899542,788240
 2022-01-07,Kuwait,3341309,3224987
 2022-01-07,Kyrgyzstan,1243179,1012246
-2022-01-07,Laos,3744740,3099003
+2022-01-07,Laos,4590479,3643020
 2022-01-07,Latvia,1320179,1270124
 2022-01-07,Lebanon,2313882,1856507
 2022-01-07,Lesotho,648817,641007
@@ -75275,10 +75275,10 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-07,Lithuania,1926995,1841205
 2022-01-07,Luxembourg,464758,429705
 2022-01-07,Madagascar,817386,767113
-2022-01-07,Malawi,1494687,719941
+2022-01-07,Malawi,1498093,735555
 2022-01-07,Malaysia,26020709,25645101
 2022-01-07,Maldives,396941,368047
-2022-01-07,Mali,900986,518229
+2022-01-07,Mali,942853,545403
 2022-01-07,Malta,449618,436885
 2022-01-07,Mauritania,1450549,968079
 2022-01-07,Mauritius,950884,914321
@@ -75322,7 +75322,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-07,Serbia,3316151,3220977
 2022-01-07,Seychelles,82348,78263
 2022-01-07,Sierra Leone,747044,385232
-2022-01-07,Singapore,4799168,4744632
+2022-01-07,Singapore,4781888,4722366
 2022-01-07,Slovakia,2732986,2593822
 2022-01-07,Slovenia,1253566,1195522
 2022-01-07,Solomon Islands,185485,60639
@@ -75374,7 +75374,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-08,Bahamas,158120,149393
 2022-01-08,Bahrain,1206577,1182340
 2022-01-08,Bangladesh,87546674,44735702
-2022-01-08,Barbados,156101,143867
+2022-01-08,Barbados,156698,144805
 2022-01-08,Belarus,4905934,3570521
 2022-01-08,Belgium,8921656,8811134
 2022-01-08,Belize,230125,199119
@@ -75384,13 +75384,13 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-08,Bosnia and Herzegovina,882641,720631
 2022-01-08,Botswana,1171577,1034735
 2022-01-08,Brazil,166475764,143877220
-2022-01-08,Brunei,405092,385414
+2022-01-08,Brunei,405888,400691
 2022-01-08,Bulgaria,1904143,1940402
 2022-01-08,Burkina Faso,1108731,725952
 2022-01-08,Burma,20816441,15571917
 2022-01-08,Burundi,5474,3533
 2022-01-08,Cabo Verde,317299,260515
-2022-01-08,Cambodia,14280862,13682166
+2022-01-08,Cambodia,14282017,13683603
 2022-01-08,Cameroon,834112,659641
 2022-01-08,Canada,31886448,29517260
 2022-01-08,Central African Republic,509505,346270
@@ -75422,14 +75422,14 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-08,Finland,4358732,4152783
 2022-01-08,France,53069603,49975277
 2022-01-08,Gabon,392898,173123
-2022-01-08,Gambia,249364,235633
+2022-01-08,Gambia,263056,249515
 2022-01-08,Georgia,1383725,1167688
 2022-01-08,Germany,62033433,59760547
 2022-01-08,Ghana,6275099,2573073
 2022-01-08,Greece,7538287,7091530
 2022-01-08,Grenada,41287,35457
 2022-01-08,Guatemala,6618214,4825871
-2022-01-08,Guinea,2460078,1287256
+2022-01-08,Guinea,2467717,1290932
 2022-01-08,Guinea-Bissau,391320,23145
 2022-01-08,Guyana,411081,295325
 2022-01-08,Haiti,125187,75028
@@ -75449,10 +75449,10 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-08,Kazakhstan,9014952,8551099
 2022-01-08,Kenya,7117804,4478832
 2022-01-08,Kiribati,66473,38087
-2022-01-08,Kosovo,899542,788240
+2022-01-08,Kosovo,901353,789306
 2022-01-08,Kuwait,3341309,3224987
 2022-01-08,Kyrgyzstan,1243871,1012937
-2022-01-08,Laos,3744740,3099003
+2022-01-08,Laos,4590479,3643020
 2022-01-08,Latvia,1320615,1270709
 2022-01-08,Lebanon,2341721,1868466
 2022-01-08,Lesotho,648817,641007
@@ -75462,10 +75462,10 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-08,Lithuania,1927460,1841917
 2022-01-08,Luxembourg,464758,429705
 2022-01-08,Madagascar,817386,767113
-2022-01-08,Malawi,1494687,719941
+2022-01-08,Malawi,1498199,739078
 2022-01-08,Malaysia,26021972,25646208
-2022-01-08,Maldives,396941,368047
-2022-01-08,Mali,900986,518229
+2022-01-08,Maldives,396954,368153
+2022-01-08,Mali,942853,545403
 2022-01-08,Malta,449879,437118
 2022-01-08,Mauritania,1450549,968079
 2022-01-08,Mauritius,950884,914321
@@ -75509,7 +75509,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-08,Serbia,3316151,3220977
 2022-01-08,Seychelles,82348,78263
 2022-01-08,Sierra Leone,747044,385232
-2022-01-08,Singapore,4799168,4744632
+2022-01-08,Singapore,4781888,4722366
 2022-01-08,Slovakia,2733640,2595326
 2022-01-08,Slovenia,1253566,1195522
 2022-01-08,Solomon Islands,185485,60639
@@ -75531,7 +75531,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-08,Timor-Leste,665588,544482
 2022-01-08,Togo,1399760,1040674
 2022-01-08,Trinidad and Tobago,720440,674197
-2022-01-08,Tunisia,6986778,6036185
+2022-01-08,Tunisia,6993487,6044661
 2022-01-08,Turkey,57086572,51872868
 2022-01-08,USA,246812938,206046093
 2022-01-08,Uganda,8354808,1408222
@@ -75561,7 +75561,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-09,Bahamas,158120,149393
 2022-01-09,Bahrain,1207231,1183058
 2022-01-09,Bangladesh,87546674,44735702
-2022-01-09,Barbados,156101,143867
+2022-01-09,Barbados,156698,144805
 2022-01-09,Belarus,4905934,3570521
 2022-01-09,Belgium,8921656,8811134
 2022-01-09,Belize,230125,199119
@@ -75571,13 +75571,13 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-09,Bosnia and Herzegovina,882641,720631
 2022-01-09,Botswana,1171577,1034735
 2022-01-09,Brazil,166618516,144380523
-2022-01-09,Brunei,405092,385414
+2022-01-09,Brunei,405888,400691
 2022-01-09,Bulgaria,1904143,1941571
 2022-01-09,Burkina Faso,1108731,725952
 2022-01-09,Burma,20816441,15571917
 2022-01-09,Burundi,5474,3533
 2022-01-09,Cabo Verde,317299,260515
-2022-01-09,Cambodia,14280862,13682166
+2022-01-09,Cambodia,14282788,13685179
 2022-01-09,Cameroon,837860,663317
 2022-01-09,Canada,31903352,29528397
 2022-01-09,Central African Republic,509505,346270
@@ -75609,14 +75609,14 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-09,Finland,4358732,4152783
 2022-01-09,France,53069603,49975277
 2022-01-09,Gabon,392898,173123
-2022-01-09,Gambia,249364,235633
+2022-01-09,Gambia,263056,249515
 2022-01-09,Georgia,1385288,1168461
 2022-01-09,Germany,62047137,59787106
 2022-01-09,Ghana,6275099,2573073
 2022-01-09,Greece,7541632,7094507
 2022-01-09,Grenada,41287,35457
 2022-01-09,Guatemala,6618214,4825871
-2022-01-09,Guinea,2460078,1287256
+2022-01-09,Guinea,2467717,1290932
 2022-01-09,Guinea-Bissau,391320,23145
 2022-01-09,Guyana,411081,295325
 2022-01-09,Haiti,125187,75028
@@ -75636,10 +75636,10 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-09,Kazakhstan,9014952,8551099
 2022-01-09,Kenya,7130511,4486533
 2022-01-09,Kiribati,66473,38087
-2022-01-09,Kosovo,899542,788240
+2022-01-09,Kosovo,902816,789946
 2022-01-09,Kuwait,3344173,3228399
 2022-01-09,Kyrgyzstan,1246270,1015129
-2022-01-09,Laos,3744740,3099003
+2022-01-09,Laos,4590479,3643020
 2022-01-09,Latvia,1320707,1270817
 2022-01-09,Lebanon,2349307,1873787
 2022-01-09,Lesotho,648817,641007
@@ -75649,10 +75649,10 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-09,Lithuania,1927667,1842240
 2022-01-09,Luxembourg,464758,429705
 2022-01-09,Madagascar,817386,767113
-2022-01-09,Malawi,1494687,719941
+2022-01-09,Malawi,1498758,740970
 2022-01-09,Malaysia,26023070,25647708
-2022-01-09,Maldives,396941,368047
-2022-01-09,Mali,900986,518229
+2022-01-09,Maldives,396954,368153
+2022-01-09,Mali,942853,545403
 2022-01-09,Malta,449879,437118
 2022-01-09,Mauritania,1450549,968079
 2022-01-09,Mauritius,950884,914321
@@ -75696,12 +75696,12 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-09,Serbia,3316151,3220977
 2022-01-09,Seychelles,82348,78263
 2022-01-09,Sierra Leone,747044,385232
-2022-01-09,Singapore,4799168,4744632
+2022-01-09,Singapore,4781888,4722366
 2022-01-09,Slovakia,2734084,2596083
 2022-01-09,Slovenia,1253566,1195522
 2022-01-09,Solomon Islands,185485,60639
 2022-01-09,Somalia,1203131,810010
-2022-01-09,South Africa,19157785,16060329
+2022-01-09,South Africa,19171775,16072851
 2022-01-09,South Korea,44359506,43030450
 2022-01-09,South Sudan,245004,199740
 2022-01-09,Spain,39965876,38052240
@@ -75718,7 +75718,7 @@ date,country,vaccinated_once,vaccinated_fully
 2022-01-09,Timor-Leste,665588,544482
 2022-01-09,Togo,1399760,1040674
 2022-01-09,Trinidad and Tobago,721124,674530
-2022-01-09,Tunisia,6986778,6036185
+2022-01-09,Tunisia,6998537,6052532
 2022-01-09,Turkey,57101293,51893771
 2022-01-09,USA,246812939,206046093
 2022-01-09,Uganda,8354808,1408222
