@@ -1,4 +1,5 @@
 areaCode,areaName,areaType,date,cumPeopleVaccinatedCompleteByPublishDate,cumPeopleVaccinatedCompleteByVaccinationDate,cumPeopleVaccinatedFirstDoseByPublishDate,cumPeopleVaccinatedFirstDoseByVaccinationDate
+E92000001,England,nation,2022-02-12,,,44132468,
 E92000001,England,nation,2022-02-11,,40615769,44132468,43502968
 E92000001,England,nation,2022-02-10,,40594997,44122610,43495294
 E92000001,England,nation,2022-02-09,,40573254,44112621,43487663
@@ -430,6 +431,7 @@ E92000001,England,nation,2020-12-11,,7554,,49016
 E92000001,England,nation,2020-12-10,,7482,,36517
 E92000001,England,nation,2020-12-09,,7374,,24633
 E92000001,England,nation,2020-12-08,,7251,,14972
+N92000002,Northern Ireland,nation,2022-02-12,,,1417219,
 N92000002,Northern Ireland,nation,2022-02-11,,,1417043,
 N92000002,Northern Ireland,nation,2022-02-10,,,1416915,
 N92000002,Northern Ireland,nation,2022-02-09,,,1416430,
@@ -856,6 +858,7 @@ N92000002,Northern Ireland,nation,2020-12-16,,,,3623
 N92000002,Northern Ireland,nation,2020-12-15,,,,3623
 N92000002,Northern Ireland,nation,2020-12-14,,,,3623
 N92000002,Northern Ireland,nation,2020-12-13,,,,3623
+S92000003,Scotland,nation,2022-02-12,,,4427052,
 S92000003,Scotland,nation,2022-02-11,,,4426094,
 S92000003,Scotland,nation,2022-02-10,,4137761,4425282,4407057
 S92000003,Scotland,nation,2022-02-09,,4137019,4424596,4406704
@@ -1287,6 +1290,7 @@ S92000003,Scotland,nation,2020-12-11,,,,16084
 S92000003,Scotland,nation,2020-12-10,,,,10786
 S92000003,Scotland,nation,2020-12-09,,,,5821
 S92000003,Scotland,nation,2020-12-08,,,,1946
+W92000004,Wales,nation,2022-02-12,,,2515537,
 W92000004,Wales,nation,2022-02-11,,,2515537,
 W92000004,Wales,nation,2022-02-10,,,2515537,
 W92000004,Wales,nation,2022-02-09,,,2515083,
