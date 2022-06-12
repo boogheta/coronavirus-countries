@@ -312,6 +312,7 @@ localities = {
           "url": "https://github.com/pcm-dpc/COVID-19"
         },
         "filename": "dpc-covid19-ita-regioni.csv",
+        "encoding": "utf-8-sig",
         "level": "region",
         "level_field": "denominazione_regione",
         "date_accessor": lambda row: row["data"].split("T")[0],
