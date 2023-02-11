@@ -24,4 +24,4 @@ Rich Vue.js interface to control various d3.js visualizations of confirmed and d
 
 # Running the Project
 
-	The project can be seen at the following link https://boogheta.github.io/coronavirus-countries/
+	The project can be seen at the following [link](https://boogheta.github.io/coronavirus-countries/)
