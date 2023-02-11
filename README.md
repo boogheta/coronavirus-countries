@@ -1,6 +1,6 @@
 # Coronavirus Country Comparator
 
-Rich Vue.js interface to control various d3.js visualizations of confirmed and deceased cases data reported by JHU CSSE in all countries.
+Rich Vue.js interface to control various d3.js visualizations of confirmed and deceased cases data reported by JHU CSSE in all countries. The data can be visualized in linear, logarithmic, and daily scales. It can also be visualized in series, stacked, or multiple formats. The data can be filtered by country and by type of cases which makes it a useful application for anyone watching COVID data.
 
 [![screenshot](https://raw.githubusercontent.com/boogheta/coronavirus-countries/master/img/screenshotv2.png)](https://boogheta.github.io/coronavirus-countries/)
 
