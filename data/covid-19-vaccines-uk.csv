@@ -1,4 +1,10 @@
 areaCode,areaName,areaType,date,cumPeopleVaccinatedCompleteByPublishDate,cumPeopleVaccinatedCompleteByVaccinationDate,cumPeopleVaccinatedFirstDoseByPublishDate,cumPeopleVaccinatedFirstDoseByVaccinationDate
+E92000001,England,nation,2023-08-22,,41770704,45417090,43783238
+E92000001,England,nation,2023-08-21,,41770704,45417090,43783237
+E92000001,England,nation,2023-08-20,,41770704,,43783237
+E92000001,England,nation,2023-08-19,,41770704,,43783237
+E92000001,England,nation,2023-08-18,,41770704,45417090,43783237
+E92000001,England,nation,2023-08-17,,41770704,45417090,43783237
 E92000001,England,nation,2023-08-16,,41768941,45417090,43781034
 E92000001,England,nation,2023-08-15,,41768941,45417090,43781767
 E92000001,England,nation,2023-08-14,,41768940,45417090,43781767
